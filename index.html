@@ -1768,9 +1768,10 @@ loadCloud();startRefresh();
 
 
 
+
 <script id="ait-body">
 window.addEventListener('load', function() {
-  // Override openE: set date field value when modal opens
+  // Override openE
   var _origOpenE = window.openE;
   window.openE = function(id, dateStr) {
     _origOpenE(id);
@@ -1780,7 +1781,7 @@ window.addEventListener('load', function() {
       if (window.updEDL) window.updEDL();
     }
   };
-  // Override saveE: save with date
+  // saveE with date support
   window.saveE = function() {
     var inp = document.getElementById('fe-date');
     var today = new Date().toISOString().split('T')[0];
@@ -1790,7 +1791,7 @@ window.addEventListener('load', function() {
     var vt = fv.options[fv.selectedIndex] ? fv.options[fv.selectedIndex].text : '';
     var fe = document.getElementById('fe');
     var ev = fe.value === '_other' ? document.getElementById('fe-txt').value : (fe.options[fe.selectedIndex] ? fe.options[fe.selectedIndex].text : '');
-    var nd = {jobType:window.ejt, site:sv, jobNo:document.getElementById('fj').value, contact:document.getElementById('fc').value, depart:document.getElementById('fd').value, arrive:document.getElementById('fa').value, members:(window.selMem||[]).join(', '), vehicle:vt, equipment:ev};
+    var nd = {jobType:window.ejt,site:sv,jobNo:document.getElementById('fj').value,contact:document.getElementById('fc').value,depart:document.getElementById('fd').value,arrive:document.getElementById('fa').value,members:(window.selMem||[]).join(', '),vehicle:vt,equipment:ev};
     if (!sd || sd === today) {
       var ix = teams.findIndex(function(t){return t.id===window.eid;});
       if (ix >= 0) teams[ix] = Object.assign({}, teams[ix], nd);
@@ -1799,7 +1800,7 @@ window.addEventListener('load', function() {
       window.renderAll();
       window.toast('บันทึกวันนี้เรียบร้อย');
     } else {
-      if (!dayPlans[sd]) dayPlans[sd] = {date:sd, teams:Array.from({length:10}, function(_,i){return {id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:''};})};
+      if (!dayPlans[sd]) dayPlans[sd] = {date:sd,teams:Array.from({length:10},function(_,i){return {id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:''};})};
       var arr = dayPlans[sd].teams || dayPlans[sd];
       var ix2 = arr.findIndex(function(t){return t.id===window.eid;});
       if (ix2 >= 0) arr[ix2] = Object.assign({}, arr[ix2], nd);
@@ -1810,7 +1811,7 @@ window.addEventListener('load', function() {
       window.toast('บันทึกแผน '+th+' ✓');
     }
   };
-  // updEDL: update date label
+  // updEDL
   window.updEDL = function() {
     var inp = document.getElementById('fe-date');
     var lbl = document.getElementById('fe-date-mode');
@@ -1858,7 +1859,7 @@ window.addEventListener('load', function() {
       else { bn.style.borderColor='#FF453A'; bn.innerHTML='❌ ยังไม่มี Token'; }
     };
     window.updateTokBanner();
-    sov.addEventListener('click', function(){ setTimeout(function(){ window.updateTokBanner && window.updateTokBanner(); }, 50); });
+    sov.addEventListener('click', function(){ setTimeout(function(){ if(window.updateTokBanner) window.updateTokBanner(); }, 50); });
     window.saveTok = function() {
       var t = (document.getElementById('ghi') && document.getElementById('ghi').value || '').trim();
       if (!t) { window.toast && window.toast('Token ว่าง','err'); return; }
@@ -1866,24 +1867,34 @@ window.addEventListener('load', function() {
       sessionStorage.setItem('gh_tok', t);
       if (document.getElementById('tok-remember') && document.getElementById('tok-remember').checked) {
         localStorage.setItem('gh_tok_perm', t); window.toast && window.toast('✅ บันทึก Token ถาวร');
-      } else { localStorage.removeItem('gh_tok_perm'); window.toast && window.toast('✅ บันทึก Token ใน Session'); }
+      } else { localStorage.removeItem('gh_tok_perm'); window.toast && window.toast('✅ Session Token'); }
       document.getElementById('sov') && document.getElementById('sov').classList.remove('open');
       document.getElementById('sf') && document.getElementById('sf').classList.add('show');
       window.updateTokBanner && window.updateTokBanner();
     };
   }
-  // Timeline stack
+  // Timeline - รอให้ DPAL และ teams พร้อมก่อน
   var _origTL = window.renderTL;
-  window.renderTL = function() { if(_origTL) _origTL(); setTimeout(enhTL, 100); };
-  setTimeout(enhTL, 600);
+  window.renderTL = function() { if(_origTL) _origTL(); setTimeout(enhTL, 150); };
+  // รอ DPAL พร้อม (poll สูงสุด 20 ครั้ง x 200ms = 4 วินาที)
+  var tlTries = 0;
+  function waitEnhTL() {
+    if (window.DPAL && window.DPAL.length > 0 && window.teams && window.teams.length > 0) {
+      enhTL();
+    } else if (tlTries++ < 20) {
+      setTimeout(waitEnhTL, 200);
+    }
+  }
+  waitEnhTL();
   function enhTL() {
     var tl = document.getElementById('tl'); if (!tl) return;
+    if (!window.DPAL || !window.DPAL.length) return;
     tl.querySelectorAll('.tl-enh').forEach(function(e){e.remove();});
     tl.querySelectorAll('.tldot[data-h]').forEach(function(d){d.style.display='';d.removeAttribute('data-h');});
     var dots = Array.from(tl.querySelectorAll('.tldot')); if (!dots.length) return;
     var tm = {}; try { teams.forEach(function(t){tm[t.id]=t;}); } catch(e){}
     var grp = {};
-    dots.forEach(function(dot){var tid=parseInt(dot.innerHTML),left=parseFloat(parseFloat(dot.style.left).toFixed(2)),k=left.toFixed(2);if(!grp[k])grp[k]=[];grp[k].push({dot:dot,tid:tid,team:tm[tid],pal:(window.DPAL&&window.DPAL[tid-1])||{bg:'#888',n:'T-?'}});});
+    dots.forEach(function(dot){var tid=parseInt(dot.innerHTML),left=parseFloat(parseFloat(dot.style.left).toFixed(2)),k=left.toFixed(2);if(!grp[k])grp[k]=[];grp[k].push({dot:dot,tid:tid,team:tm[tid],pal:(DPAL&&DPAL[tid-1])||{bg:'#888',n:'T-?'}});});
     var DOT=24,GAP=3;
     Object.keys(grp).forEach(function(k){
       var items=grp[k],left=parseFloat(k);
