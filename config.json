@@ -805,10 +805,6 @@
     {
       "id": "7",
       "label": "Training Equipment"
-    },
-    {
-      "id": "Pump",
-      "label": "Hydraulic torque"
     }
   ],
   "sites": [
