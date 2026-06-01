@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "1/6/2569",
-      "savedAt": "2026-06-01T07:54:30.269Z",
+      "savedAt": "2026-06-01T07:58:22.743Z",
       "teams": [
         {
           "id": 1,
@@ -3929,15 +3929,15 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "UCS บ้านฉาง",
+          "jobNo": "-",
+          "depart": "07:30",
+          "arrive": "08:30",
+          "members": "ไอซ์, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "-"
         },
         {
           "id": 9,
@@ -3966,5 +3966,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-01T07:54:30.269Z"
+  "lastUpdated": "2026-06-01T07:58:22.743Z"
 }
