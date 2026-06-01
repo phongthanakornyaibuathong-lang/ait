@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "1/6/2569",
-      "savedAt": "2026-06-01T07:36:26.834Z",
+      "savedAt": "2026-06-01T07:37:03.656Z",
       "teams": [
         {
           "id": 1,
@@ -3881,7 +3881,7 @@
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
           "jobNo": "Job No JB260112",
           "depart": "06:30",
@@ -3966,5 +3966,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-01T07:36:26.834Z"
+  "lastUpdated": "2026-06-01T07:37:03.656Z"
 }
