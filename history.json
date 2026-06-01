@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "1/6/2569",
-      "savedAt": "2026-06-01T06:36:05.469Z",
+      "savedAt": "2026-06-01T06:37:21.190Z",
       "teams": [
         {
           "id": 1,
@@ -3845,26 +3845,26 @@
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
+          "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
+          "depart": "00:00",
+          "arrive": "00:30",
+          "members": "บิ๊ก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TTFF-24 (New)",
           "contact": ""
         },
         {
           "id": 2,
-          "jobType": "COLD_CUT",
-          "site": "STP&I",
+          "jobType": "FLANGE",
+          "site": "GCM PTA",
           "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
+          "depart": "07:30",
+          "arrive": "08:30",
+          "members": "รถ",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Tension A/F 90,110,115",
           "contact": ""
         },
         {
@@ -3966,5 +3966,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-01T06:36:05.469Z"
+  "lastUpdated": "2026-06-01T06:37:21.190Z"
 }
