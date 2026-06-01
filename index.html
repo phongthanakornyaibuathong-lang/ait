@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780299807 -->
+<!-- build:1780302040 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -621,7 +621,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   <div class="pbar nopr">
     <span>🖨 Print Preview — AITs Dashboard</span>
     <div style="flex:1"></div>
-    <button class="mbtn pri" style="font-size:12px" onclick="window.print()">🖨 พิมพ์</button>
+    <label for="pdate" style="font-size:12px;margin-right:6px;white-space:nowrap">📅 วันที่:</label>
+    <button class="mbtn" style="font-size:14px;padding:4px 10px;line-height:1" onclick="printShiftDay(-1)" title="วันก่อนหน้า">‹</button>
+    <input type="date" id="pdate" onchange="printRender()" style="font-size:12px;margin:0 4px;padding:5px 8px;border-radius:7px;border:1px solid rgba(0,0,0,.2);background:#fff;color:#0B1120">
+    <button class="mbtn" style="font-size:14px;padding:4px 10px;line-height:1" onclick="printShiftDay(1)" title="วันถัดไป">›</button>
+    <button class="mbtn" style="margin-left:8px;font-size:12px" onclick="printRender()">🔄 อัปเดต</button>
+    <button class="mbtn pri" style="margin-left:8px;font-size:12px" onclick="window.print()">🖨 พิมพ์</button>
     <button class="mbtn" style="margin-left:8px;font-size:12px" onclick="document.getElementById('pov').classList.remove('show')">✕ ปิด</button>
   </div>
   <div id="pa" style="max-width:960px;margin:0 auto;padding:22px 26px;color:#0B1120;font-family:Tahoma,sans-serif"></div>
@@ -724,8 +729,8 @@ const isSB=t=>t.jobType==="STANDBY"||!t.site;
 const mArr=s=>s?s.split(",").map(x=>x.trim()).filter(Boolean):[];
 
 /* ═══════════════════════════ UTILS ══════════════════════════ */
-function thd(){
-  const d=new Date(),dy=["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],
+function thd(d){
+  d=d||new Date();const dy=["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],
     mo=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
   return`วัน${dy[d.getDay()]}ที่ ${d.getDate()} ${mo[d.getMonth()]} ${d.getFullYear()+543}`;
 }
@@ -1385,24 +1390,54 @@ document.getElementById("xlf").addEventListener("change",function(e){
 
 /* ═══════════════════════════ PRINT ════════════════════════ */
 function openPrint(){
-  const act=teams.filter(t=>!isSB(t)),pax=act.reduce((s,t)=>s+mArr(t.members).length,0);
+  const inp=document.getElementById("pdate");
+  if(inp && !inp.value){
+    const t=new Date();
+    inp.value=`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+  }
+  document.getElementById("pov").classList.add("show");
+  printRender();
+}
+function printShiftDay(delta){
+  const inp=document.getElementById("pdate");
+  let d;
+  if(inp && inp.value){const[yy,mm,dd]=inp.value.split("-").map(Number);d=new Date(yy,mm-1,dd);}
+  else{d=new Date();}
+  d.setDate(d.getDate()+delta);
+  inp.value=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  printRender();
+}
+function printRender(){
+  const inp=document.getElementById("pdate");
+  let dObj=new Date(), dateKey;
+  if(inp && inp.value){
+    const[yy,mm,dd]=inp.value.split("-").map(Number);
+    dObj=new Date(yy,mm-1,dd);
+    dateKey=inp.value;
+  }else{
+    dateKey=`${dObj.getFullYear()}-${String(dObj.getMonth()+1).padStart(2,'0')}-${String(dObj.getDate()).padStart(2,'0')}`;
+  }
+  let src;
+  try{ src=(typeof getTeamsForDate==="function")?(getTeamsForDate(dateKey)||[]):teams; }
+  catch(e){ src=teams; }
+  const act=src.filter(t=>!isSB(t)),pax=act.reduce((s,t)=>s+mArr(t.members).length,0);
+  const emptyRow=`<tr><td colspan="10" style="padding:18px;text-align:center;color:#7a92ab;font-size:12px">— ไม่มีข้อมูลแผนงานสำหรับวันที่นี้ —</td></tr>`;
   document.getElementById("pa").innerHTML=`
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;border-bottom:3px solid #1a2332;padding-bottom:10px">
       <div><div style="font-size:19px;font-weight:700">AITs Dashboard — BRIEFING SHEET</div><div style="font-size:12px;color:#7a92ab;margin-top:3px">Advanced Industrial Techno &amp; Services Co., Ltd.</div></div>
-      <div style="text-align:right"><div style="font-size:14px;font-weight:700">${thd()}</div><div style="font-size:11px;color:#7a92ab">${new Date().toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}</div></div>
+      <div style="text-align:right"><div style="font-size:14px;font-weight:700">${thd(dObj)}</div><div style="font-size:11px;color:#7a92ab">${dObj.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}</div></div>
     </div>
     <div style="display:flex;gap:9px;margin-bottom:14px">
       ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพลรวม",pax,"#30D158"],["Total Jobs",act.length,"#BF5AF2"]].map(([l,v,c])=>`<div style="flex:1;border:2px solid ${c};border-radius:8px;padding:8px 11px;text-align:center"><div style="font-size:22px;font-weight:700;color:${c}">${v}</div><div style="font-size:11px;color:#7a92ab">${l}</div></div>`).join("")}
     </div>
     <table style="width:100%;border-collapse:collapse;font-size:11px;font-family:Tahoma,sans-serif">
       <thead><tr style="background:#1a2332">${["ทีม","ประเภท","Site","Job No.","ออก","ถึง","สมาชิก","รถ","เครื่องมือ","ติดต่อ"].map(h=>`<th style="color:#fff;padding:6px 8px;text-align:left;font-size:10px">${h}</th>`).join("")}</tr></thead>
-      <tbody>${act.map((t,i)=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const c=jc(t.jobType);return`<tr style="background:${i%2===0?"#f5f7fa":"#fff"}"><td style="padding:5px 8px"><span style="background:${p.bg};color:#fff;border-radius:5px;padding:2px 6px;font-size:9px;font-weight:700">${p.n}</span></td><td style="padding:5px 8px"><span style="background:${jbg(t.jobType)};color:${c};border-radius:5px;padding:1px 5px;font-size:9px;font-weight:700">${jl(t.jobType)}</span></td><td style="padding:5px 8px;font-weight:600;font-size:10px">${t.site}</td><td style="padding:5px 8px;color:#0A84FF;font-size:10px">${t.jobNo}</td><td style="padding:5px 8px;font-weight:700;color:#FF453A">${t.depart||"—"}</td><td style="padding:5px 8px;font-weight:700;color:#30D158">${t.arrive||"—"}</td><td style="padding:5px 8px;font-size:10px">${t.members}</td><td style="padding:5px 8px;font-size:10px">${t.vehicle}</td><td style="padding:5px 8px;font-size:10px">${t.equipment}</td><td style="padding:5px 8px;font-size:10px">${t.contact}</td></tr>`;}).join("")}</tbody>
+      <tbody>${act.length?act.map((t,i)=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const c=jc(t.jobType);return`<tr style="background:${i%2===0?"#f5f7fa":"#fff"}"><td style="padding:5px 8px"><span style="background:${p.bg};color:#fff;border-radius:5px;padding:2px 6px;font-size:9px;font-weight:700;white-space:nowrap;display:inline-block">${p.n}</span></td><td style="padding:5px 8px"><span style="background:${jbg(t.jobType)};color:${c};border-radius:5px;padding:1px 5px;font-size:9px;font-weight:700;white-space:nowrap">${jl(t.jobType)}</span></td><td style="padding:5px 8px;font-weight:600;font-size:10px">${t.site}</td><td style="padding:5px 8px;color:#0A84FF;font-size:10px">${t.jobNo}</td><td style="padding:5px 8px;font-weight:700;color:#FF453A">${t.depart||"—"}</td><td style="padding:5px 8px;font-weight:700;color:#30D158">${t.arrive||"—"}</td><td style="padding:5px 8px;font-size:10px">${t.members}</td><td style="padding:5px 8px;font-size:10px">${t.vehicle}</td><td style="padding:5px 8px;font-size:10px">${t.equipment}</td><td style="padding:5px 8px;font-size:10px">${t.contact}</td></tr>`;}).join(""):emptyRow}</tbody>
     </table>
     <div style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
       ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:22px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
     </div>
     <div style="margin-top:12px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>`;
-  document.getElementById("pov").classList.add("show");
 }
 
 
