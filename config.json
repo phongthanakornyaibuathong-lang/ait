@@ -1,1 +1,1094 @@
-{"sites": [], "jobTypes": [], "personnel": [], "vehicles": [], "equipment": []}
+{
+  "jobTypes": [
+    {
+      "id": "BOLT",
+      "label": "BOLT",
+      "color": "#0A84FF"
+    },
+    {
+      "id": "FLANGE",
+      "label": "FLANGE",
+      "color": "#32D2D8"
+    },
+    {
+      "id": "COLD_CUT",
+      "label": "COLD CUT",
+      "color": "#FF453A"
+    },
+    {
+      "id": "TRAINING",
+      "label": "TRAINING",
+      "color": "#BF5AF2"
+    },
+    {
+      "id": "ROBOT",
+      "label": "ROBOT",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "STANDBY",
+      "label": "STANDBY",
+      "color": "#636366"
+    }
+  ],
+  "personnel": [
+    {
+      "id": "กรานต์",
+      "name": "นาย สงกรานต์ หัดเรียน",
+      "nick": "กรานต์",
+      "phone": "0923-386-625",
+      "pos": "Opertion Mg.",
+      "color": "#0A84FF",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "cold_cutting",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        },
+        "PTT โรงแยก": {
+          "issue": "2026-04-10",
+          "exp": "2026-10-09"
+        },
+        "PTTLNG": {
+          "issue": "2026-04-09",
+          "exp": "2027-04-09"
+        }
+      }
+    },
+    {
+      "id": "ทัช",
+      "name": "นาย ณัฐกิตต์ ปัญจวุฒิวงศ์",
+      "nick": "ทัช",
+      "phone": "093-489-6896",
+      "pos": "Engineer",
+      "color": "#30D158",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension"
+      ],
+      "safetyCards": {
+        "SCC/TOP": {
+          "issue": "2025-11-10",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-07-25",
+          "exp": "2026-07-24"
+        },
+        "GCM PTA": {
+          "issue": "2024-10-01",
+          "exp": "2026-08-01"
+        },
+        "PTTLNG": {
+          "issue": "2026-04-09",
+          "exp": "2027-04-09"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "บิ๊ก",
+      "name": "นาย เมธัส นิวัฒน์",
+      "nick": "บิ๊ก",
+      "phone": "061-478-5087",
+      "pos": "Sup'v",
+      "color": "#FF9F0A",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "SCC/TOP": {
+          "issue": "2025-11-10",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-07-25",
+          "exp": "2026-07-24"
+        },
+        "GCM PTA": {
+          "issue": "2024-10-01",
+          "exp": "2026-08-01"
+        },
+        "PTT โรงแยก": {
+          "issue": "2026-01-05",
+          "exp": "2026-07-04"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "เป้",
+      "name": "นาย เจษฎากร สมใจเพ็ง",
+      "nick": "เป้",
+      "phone": "063-485-5437",
+      "pos": "Sup'v",
+      "color": "#FF9F0A",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "cold_cutting",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2025-11-14",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-11-20",
+          "exp": "2026-11-19"
+        },
+        "GCM PTA": {
+          "issue": "2024-10-01",
+          "exp": "2026-08-01"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "แชมป์",
+      "name": "นาย สิรภพ ทองคำเขียว",
+      "nick": "แชมป์",
+      "phone": "084-995-8591",
+      "pos": "Sup'v",
+      "color": "#FF9F0A",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension"
+      ],
+      "safetyCards": {
+        "Qtech/TOP": {
+          "issue": "2025-12-11",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-07-25",
+          "exp": "2026-07-24"
+        },
+        "GCM PTA": {
+          "issue": "2025-05-01",
+          "exp": null
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "คิง",
+      "name": "นาย พลากร บัวชุมสุข",
+      "nick": "คิง",
+      "phone": "083-539-2883",
+      "pos": "Sup'v",
+      "color": "#FF9F0A",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "cold_cutting",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "Qtech/TOP": {
+          "issue": "2025-12-11",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-01-28",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2026-03-09",
+          "exp": "2027-07-08"
+        },
+        "GCM PTA": {
+          "issue": "2026-02-01",
+          "exp": "2027-02-01"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "ฟีล์ม",
+      "name": "นาย กิตติพัทธ์ ปกครอง",
+      "nick": "ฟีล์ม",
+      "phone": "063-676-6471",
+      "pos": "Technicain",
+      "color": "#FF9F0A",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2025-11-14",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-11-20",
+          "exp": "2026-11-19"
+        },
+        "GCM PTA": {
+          "issue": "2025-05-01",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "โอ๊ด",
+      "name": "นาย พุฒิพงศ์ อุปัญญ์",
+      "nick": "โอ๊ด",
+      "phone": "080-390-2337",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "SCC/TOP": {
+          "issue": "2025-11-10",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-11-12",
+          "exp": "2026-11-11"
+        },
+        "GCM PTA": {
+          "issue": "2025-05-01",
+          "exp": null
+        },
+        "PTT โรงแยก": {
+          "issue": "2026-01-05",
+          "exp": "2026-07-04"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "โอม",
+      "name": "นาย ทัตพงศ์ เต็มโคตร",
+      "nick": "โอม",
+      "phone": "090-994-0731",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [
+        "bolt_torque",
+        "cold_cutting"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2025-11-14",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2025-07-21",
+          "exp": "2026-07-20"
+        },
+        "GPSC": {
+          "issue": "2025-07-25",
+          "exp": "2026-07-24"
+        },
+        "GCM PTA": {
+          "issue": "2025-05-01",
+          "exp": null
+        },
+        "PTT โรงแยก": {
+          "issue": "2026-01-05",
+          "exp": "2026-07-04"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "ป๋อ",
+      "name": "นาย ราชันย์ สมล้วน",
+      "nick": "ป๋อ",
+      "phone": "081-208-2383",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [
+        "bolt_torque"
+      ],
+      "safetyCards": {
+        "Qtech/TOP": {
+          "issue": "2025-12-11",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2026-03-09",
+          "exp": "2027-07-08"
+        },
+        "GPSC": {
+          "issue": "2025-07-25",
+          "exp": "2026-07-24"
+        },
+        "GCM PTA": {
+          "issue": "2025-08-01",
+          "exp": "2026-08-01"
+        },
+        "TNS": {
+          "issue": "2025-05-22",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "อองรี",
+      "name": "นาย อภิชน สุขหลง",
+      "nick": "อองรี",
+      "phone": "097-280-3671",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "Qtech/TOP": {
+          "issue": "2025-12-11",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "GPSC": {
+          "issue": "2025-11-12",
+          "exp": "2026-11-11"
+        },
+        "GCM PTA": {
+          "issue": "2025-09-01",
+          "exp": "2026-09-01"
+        },
+        "PTT โรงแยก": {
+          "issue": "2026-04-10",
+          "exp": "2026-10-09"
+        }
+      }
+    },
+    {
+      "id": "คิว",
+      "name": "นาย ปธานิน สุภาพ",
+      "nick": "คิว",
+      "phone": "097-123-5823",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "Qtech/TOP": {
+          "issue": "2025-12-11",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2025-10-15",
+          "exp": null
+        },
+        "CUEL": {
+          "issue": "2026-03-09",
+          "exp": "2027-07-08"
+        },
+        "GPSC": {
+          "issue": "2025-11-11",
+          "exp": "2026-11-10"
+        },
+        "GCM PTA": {
+          "issue": "2026-02-01",
+          "exp": "2027-02-01"
+        }
+      }
+    },
+    {
+      "id": "บีม",
+      "name": "นาย ธีรภัทร โคมเมือง",
+      "nick": "บีม",
+      "phone": "094-797-0134",
+      "pos": "Technicain",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-02-07",
+          "exp": null
+        },
+        "GCM PTA": {
+          "issue": "2026-02-01",
+          "exp": "2027-02-01"
+        }
+      }
+    },
+    {
+      "id": "รถ",
+      "name": "นาย ประสิทธิ์ รามจาตุ",
+      "nick": "รถ",
+      "phone": "065-627-7194",
+      "pos": "Store",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {}
+    },
+    {
+      "id": "กาน(นำ)",
+      "name": "นาย นำชัย  เที่ยงดี",
+      "nick": "กาน(นำ)",
+      "phone": "094-6780625",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "บอย",
+      "name": "นาย สถาพร  ระแวงวรรณ",
+      "nick": "บอย",
+      "phone": "093-769-4849",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "cold_cutting",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "เอิร์ก",
+      "name": "นาย ทัศพงศ์ วงศ์ท้าวศ์",
+      "nick": "เอิร์ก",
+      "phone": "064-491-3125",
+      "pos": "ช่างเทคนิค Robort",
+      "color": "#BF5AF2",
+      "skills": [
+        "robot"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "เฟิร์ส",
+      "name": "นาย ทศกร กล้าค้าขาย",
+      "nick": "เฟิร์ส",
+      "phone": "080-416-1562",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "ทาม",
+      "name": "นาย นโรดม ถามล",
+      "nick": "ทาม",
+      "phone": "092-6134888",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "นัฐ",
+      "name": "นาย นัฐพล งามดี",
+      "nick": "นัฐ",
+      "phone": "093-1214597",
+      "pos": "Sup'v",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "อั๋น",
+      "name": "นาย ฤทธิชัย สีโนนม่วง",
+      "nick": "อั๋น",
+      "phone": "084-7429262",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "ไอซ์",
+      "name": "นาย รวิภาส อุปโคตร์",
+      "nick": "ไอซ์",
+      "phone": "094-4177620",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {}
+    },
+    {
+      "id": "ต้าร์",
+      "name": "นาย พลพล ราชวิตร",
+      "nick": "ต้าร์",
+      "phone": "094-706-1407",
+      "pos": "ช่างเทคนิค",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {}
+    },
+    {
+      "id": "นันทปรีชา",
+      "name": "นาย นันทปรีชา ชลังสุทธิ์",
+      "nick": "นันทปรีชา",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "กิตติศักดิ์",
+      "name": "นาย กิตติศักดิ์  พุทธรักษา",
+      "nick": "กิตติศักดิ์",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "วิเชียร",
+      "name": "นาย วิเชียร  จันต๊ะปัญญา",
+      "nick": "วิเชียร",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "พิเชษฐ์",
+      "name": "นาย พิเชษฐ์  สุขสำราญ",
+      "nick": "พิเชษฐ์",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "สัญชัย",
+      "name": "นาย สัญชัย  ชูเชิด",
+      "nick": "สัญชัย",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1",
+      "label": "1ฒษ 2857 (แครี่บอย)"
+    },
+    {
+      "id": "2",
+      "label": "ผบ 6278 (แครี่บอย)"
+    },
+    {
+      "id": "3",
+      "label": "ผบ 6279 (แครี่บอย)"
+    },
+    {
+      "id": "4",
+      "label": "กบ 2192 (4 ประตู)"
+    },
+    {
+      "id": "5",
+      "label": "ผบ 7869 (แค็บบรรทุก)"
+    },
+    {
+      "id": "6",
+      "label": "2ฒษ 2857 (แครี่บอย)"
+    },
+    {
+      "id": "7",
+      "label": "ผจ 662"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "1",
+      "label": "TTFF-24 (S/N250948)"
+    },
+    {
+      "id": "2",
+      "label": "TTFF-24 (New)"
+    },
+    {
+      "id": "3",
+      "label": "TTFF-40"
+    },
+    {
+      "id": "4",
+      "label": "TOFF-12 (S/N26020099)"
+    },
+    {
+      "id": "5",
+      "label": "TOFF-12 New"
+    },
+    {
+      "id": "6",
+      "label": "Tension A/F 90,110,115"
+    },
+    {
+      "id": "7",
+      "label": "Training Equipment"
+    }
+  ],
+  "sites": [
+    "SCC ศรีราชา (Thaioil CFP Site)",
+    "SCC Work Shop ศรีราชา",
+    "UCS ศรีราชา (Thaioil CFP A.17)",
+    "SCG / DSAM",
+    "NPC / TNS บางปะกง",
+    "Kuraray / Sriprapaphan",
+    "Thai Oil Training (TOP)",
+    "CUEL งาน Torque Unit 3",
+    "IRPC ระยอง",
+    "HMC Polymers",
+    "GPSC",
+    "PTT โรงแยก",
+    "PTTLNG",
+    "Bangchak Refinery",
+    "EGAT",
+    "STP&I",
+    "STECON",
+    "GCM PTA",
+    "Qtech/TOP"
+  ],
+  "skills": [
+    {
+      "id": "bolt_torque",
+      "label": "Bolt Torque",
+      "cat": "Mechanical",
+      "color": "#0A84FF"
+    },
+    {
+      "id": "bolt_tension",
+      "label": "Bolt Tension",
+      "cat": "Mechanical",
+      "color": "#0A84FF"
+    },
+    {
+      "id": "flange_facing",
+      "label": "Flange Facing",
+      "cat": "Mechanical",
+      "color": "#32D2D8"
+    },
+    {
+      "id": "cold_cutting",
+      "label": "Cold Cutting",
+      "cat": "Mechanical",
+      "color": "#FF453A"
+    },
+    {
+      "id": "hot_tapping",
+      "label": "Hot Tapping",
+      "cat": "Mechanical",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "pipe_fitting",
+      "label": "Pipe Fitting",
+      "cat": "Mechanical",
+      "color": "#64D2FF"
+    },
+    {
+      "id": "valve_maint",
+      "label": "Valve Maintenance",
+      "cat": "Mechanical",
+      "color": "#5E5CE6"
+    },
+    {
+      "id": "robot",
+      "label": "Robot (ABB/KUKA)",
+      "cat": "Automation",
+      "color": "#BF5AF2"
+    },
+    {
+      "id": "plc",
+      "label": "PLC / Automation",
+      "cat": "Automation",
+      "color": "#BF5AF2"
+    },
+    {
+      "id": "confined_sup",
+      "label": "Confined Space Supv.",
+      "cat": "Safety",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "confined_op",
+      "label": "Confined Space Oper.",
+      "cat": "Safety",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "wah",
+      "label": "Work at Height",
+      "cat": "Safety",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "safety_leader",
+      "label": "Safety Leader",
+      "cat": "Safety",
+      "color": "#FF453A"
+    },
+    {
+      "id": "rigging",
+      "label": "Rigging / Lifting",
+      "cat": "Safety",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "scaffolding",
+      "label": "Scaffolding",
+      "cat": "Safety",
+      "color": "#FF9F0A"
+    },
+    {
+      "id": "low_voltage",
+      "label": "Low Voltage (LV)",
+      "cat": "Electrical",
+      "color": "#FFD60A"
+    },
+    {
+      "id": "instrument",
+      "label": "Instrumentation",
+      "cat": "Electrical",
+      "color": "#FFD60A"
+    },
+    {
+      "id": "ex_zone",
+      "label": "Ex Zone / ATEX",
+      "cat": "Electrical",
+      "color": "#FF453A"
+    },
+    {
+      "id": "visual_insp",
+      "label": "Visual Inspection",
+      "cat": "Inspection",
+      "color": "#30D158"
+    },
+    {
+      "id": "leak_test",
+      "label": "Leak Testing",
+      "cat": "Inspection",
+      "color": "#30D158"
+    },
+    {
+      "id": "hydro_test",
+      "label": "Hydrostatic Test",
+      "cat": "Inspection",
+      "color": "#30D158"
+    },
+    {
+      "id": "ecitb_s1",
+      "label": "ECITB Torque S1",
+      "cat": "Cert",
+      "color": "#5E5CE6"
+    },
+    {
+      "id": "ecitb_s3",
+      "label": "ECITB Torque S3",
+      "cat": "Cert",
+      "color": "#5E5CE6"
+    },
+    {
+      "id": "cswip",
+      "label": "CSWIP / NDT",
+      "cat": "Cert",
+      "color": "#5E5CE6"
+    },
+    {
+      "id": "first_aid",
+      "label": "First Aid",
+      "cat": "Cert",
+      "color": "#30D158"
+    }
+  ],
+  "positions": [
+    "Operation Manager",
+    "Engineer",
+    "Supervisor",
+    "Technician",
+    "Robot Tech",
+    "Store",
+    "ผู้รับเหมา"
+  ],
+  "timeSlots": {
+    "depart": [
+      "00:00",
+      "00:30",
+      "01:00",
+      "01:30",
+      "02:00",
+      "02:30",
+      "03:00",
+      "03:30",
+      "04:00",
+      "04:30",
+      "05:00",
+      "05:30",
+      "06:00",
+      "06:30",
+      "07:00",
+      "07:30",
+      "08:00",
+      "08:30",
+      "09:00",
+      "09:30",
+      "10:00",
+      "10:30",
+      "11:00",
+      "11:30",
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00",
+      "14:30",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:30",
+      "17:00",
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30",
+      "22:00",
+      "22:30",
+      "23:00",
+      "23:30"
+    ],
+    "arrive": [
+      "00:00",
+      "00:30",
+      "01:00",
+      "01:30",
+      "02:00",
+      "02:30",
+      "03:00",
+      "03:30",
+      "04:00",
+      "04:30",
+      "05:00",
+      "05:30",
+      "06:00",
+      "06:30",
+      "07:00",
+      "07:30",
+      "08:00",
+      "08:30",
+      "09:00",
+      "09:30",
+      "10:00",
+      "10:30",
+      "11:00",
+      "11:30",
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00",
+      "14:30",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:30",
+      "17:00",
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30",
+      "22:00",
+      "22:30",
+      "23:00",
+      "23:30"
+    ]
+  }
+}
