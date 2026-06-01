@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780295492 -->
+<!-- build:1780297947 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1785,6 +1785,7 @@ async function savePlan(){
   dirty=true;
   document.getElementById("sf").classList.add("show");
   renderCalendar(); // refresh calendar to show dots
+  if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length){try{window.renderTomorrowTab();}catch(e){}}
   // Update day panel
   if(calSelDate===key) selectCalDay(key,d);
   toast(`✓ บันทึกแผน ${key} — กด Save & Sync เพื่ออัปโหลด`,"ok");
@@ -1829,7 +1830,10 @@ var pal=DPAL[t.id-1]||{bg:'#636366',n:'T-'+t.id},isA=t.site&&t.jobType!=='STANDB
 var mem=t.members?t.members.split(',').filter(function(x){return x.trim();}).slice(0,5):[];
 var jcMap={BOLT:'#0A84FF',FLANGE:'#FF9F0A',TRAINING:'#30D158',ROBOT:'#FF453A',STANDBY:'#636366'};
 var jc=jcMap[t.jobType]||'#636366';
-var h='<div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,'+(isA?'0.12':'0.04')+');border-radius:14px;padding:14px;opacity:'+(isA?1:0.4)+';">';
+var clickAttr=isAdmin?' onclick="openTomorrowPlan()" title="คลิกเพื่อแก้ไขแผนพรุ่งนี้"':'';
+var curStyle=isAdmin?'cursor:pointer;transition:transform .12s,border-color .12s;':'';
+var h='<div'+clickAttr+' onmouseover="if('+(isAdmin?'true':'false')+'){this.style.transform=\'translateY(-2px)\';this.style.borderColor=\''+pal.bg+'\';}" onmouseout="this.style.transform=\'\';this.style.borderColor=\'rgba(255,255,255,'+(isA?'0.12':'0.04')+')\';" style="'+curStyle+'background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,'+(isA?'0.12':'0.04')+');border-radius:14px;padding:14px;opacity:'+(isA?1:0.4)+';">';
+if(isAdmin)h+='<div style="font-size:10px;color:'+pal.bg+';font-weight:700;margin-bottom:6px;opacity:.8;">✎ คลิกเพื่อแก้ไข</div>';
 h+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">';
 h+='<div style="background:'+pal.bg+';border-radius:8px;padding:4px 10px;font-size:11px;font-weight:800;color:#fff;">'+pal.n+'</div>';
 h+=(t.site?'<div style="font-size:12px;font-weight:600;color:#ccc;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+t.site+'</div>':'<div style="flex:1;color:#555;font-size:12px;">—</div>');
@@ -1860,7 +1864,7 @@ tlt.innerHTML=tOut;
 var elTL=tlt.parentElement;for(var i=0;i<5&&elTL&&elTL.tagName!=='BODY';i++,elTL=elTL.parentElement){var ovTL=getComputedStyle(elTL).overflow;if(ovTL==='hidden'||ovTL==='auto'||ovTL==='scroll')elTL.style.overflow='visible';}
 }
 };
-window.openTomorrowPlan=function(){var tm=new Date();tm.setDate(tm.getDate()+1);var tKey=tm.getFullYear()+'-'+String(tm.getMonth()+1).padStart(2,'0')+'-'+String(tm.getDate()).padStart(2,'0');var cTab=document.querySelector('[onclick*="\'calendar\'"]');if(cTab)cTab.click();setTimeout(function(){if(window.openPlanModal)openPlanModal(tKey);},400);};
+window.openTomorrowPlan=function(){var tm=new Date();tm.setDate(tm.getDate()+1);var tKey=tm.getFullYear()+'-'+String(tm.getMonth()+1).padStart(2,'0')+'-'+String(tm.getDate()).padStart(2,'0');if(!isAdmin){toast('ต้อง Login Admin ก่อน','warn');return;}if(window.openPlanModal)openPlanModal(tKey);};
 var _oST=window.showTab;window.showTab=function(page,el){_oST(page,el);if(page==='tomorrow'){if(DPAL&&DPAL.length){window.renderTomorrowTab();}else{(function w(n){if(DPAL&&DPAL.length){window.renderTomorrowTab();}else if(n<25)setTimeout(function(){w(n+1);},200);})(0);}}};var _oRA=window.renderAll;window.renderAll=function(){if(_oRA)_oRA();var pg=document.getElementById('page-tomorrow');if(pg&&pg.classList.contains('on')&&window.renderTomorrowTab&&DPAL&&DPAL.length)window.renderTomorrowTab();};
 var _tl2=window.renderTL;window.renderTL=function(){if(_tl2)_tl2();setTimeout(eTL,150);};
 (function wTL(n){if(DPAL&&DPAL.length&&teams&&teams.length){eTL();}else if(n<25)setTimeout(function(){wTL(n+1);},200);})(0);
