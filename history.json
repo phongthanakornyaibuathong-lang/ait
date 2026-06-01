@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "1/6/2569",
-      "savedAt": "2026-06-01T07:49:35.686Z",
+      "savedAt": "2026-06-01T07:52:31.414Z",
       "teams": [
         {
           "id": 1,
@@ -3905,15 +3905,15 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": "Job No JB260106",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "กาน(นำ), อั๋น, พิเชษฐ์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 New",
-          "contact": ""
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527"
         },
         {
           "id": 7,
@@ -3966,5 +3966,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-01T07:49:35.686Z"
+  "lastUpdated": "2026-06-01T07:52:31.414Z"
 }
