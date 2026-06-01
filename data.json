@@ -74,15 +74,15 @@
     },
     {
       "id": 7,
-      "jobType": "TRAINING",
-      "site": "Thai Oil Training (TOP)",
-      "jobNo": "JB260XXX",
-      "depart": "07:30",
-      "arrive": "08:00",
-      "members": "กรานต์, นาย, บุษ",
-      "vehicle": "ผจ 662",
-      "equipment": "Training Equipment",
-      "contact": "พี่นุ"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "— เลือก —",
+      "contact": ""
     },
     {
       "id": 8,
@@ -121,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-01T06:40:57.612Z",
+  "lastUpdated": "2026-06-01T06:59:25.695Z",
   "updatedBy": "Nine",
   "date": "1/6/2569"
 }
