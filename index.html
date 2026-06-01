@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780299135 -->
+<!-- build:1780299807 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -338,21 +338,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 <!-- PAGE: TOMORROW -->
 <div id="page-tomorrow" class="page">
   <div class="main">
-    <div class="sbar" id="sbar-tomorrow">
-      <span id="tomorrow-sync-label" style="color:#aaa;font-size:13px;">📆 แผนงานพรุ่งนี้</span>
-    </div>
-    <div id="tomorrow-stats" style="display:flex;gap:12px;margin:16px 0 12px;flex-wrap:wrap;"></div>
-    <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap;">
-      <div style="font-size:13px;font-weight:700;color:#888;" id="tomorrow-date-label"></div>
-      <button onclick="openTomorrowPlan()" style="background:#0A84FF;color:#fff;border:none;border-radius:8px;padding:6px 14px;cursor:pointer;font-size:13px;font-weight:600;" id="tomorrow-plan-btn">🗓 วางแผนพรุ่งนี้</button>
-    </div>
-    <div id="tomorrow-cards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;"></div>
-    <div style="margin-top:16px;">
-      <div class="sech" style="font-size:13px;font-weight:600;color:#888;margin-bottom:6px;">⏱ Timeline — ออกเดินทาง</div>
-      <div class="tlwrap" id="tlwrap-tomorrow" style="overflow:visible;position:relative;padding:8px 0 4px;">
-        <div class="tlinner" id="tl-tomorrow"></div>
-      </div>
-    </div>
+    <div class="stats" id="sr-tmr"></div>
+    <div class="filters" id="fi-tmr"></div>
+    <div class="grid" id="cg-tmr"></div>
+    <div class="tlwrap"><div class="tlhead">⏱ Timeline — ออกเดินทาง</div><div class="tlinner" id="tl-tmr"></div></div>
+    <div id="lub-tmr" style="background:var(--card);border:.5px solid var(--border);border-radius:12px;padding:9px 13px;font-size:11px;color:var(--text3)">📆 แผนงานพรุ่งนี้</div>
   </div>
 </div>
 
@@ -1833,52 +1823,59 @@ window.renderTomorrowTab=function(){
 var tm=new Date();tm.setDate(tm.getDate()+1);
 var y=tm.getFullYear(),mo=String(tm.getMonth()+1).padStart(2,'0'),d=String(tm.getDate()).padStart(2,'0');
 var tKey=y+'-'+mo+'-'+d;
-var lbl=document.getElementById('tomorrow-date-label');if(lbl)lbl.textContent=tm.toLocaleDateString('th-TH',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-var tTeams=getTeamsForDate(tKey);if(!tTeams||!tTeams.length){tTeams=Array.from({length:10},function(_,i){return{id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:''};});}
-var statsEl=document.getElementById('tomorrow-stats');
-if(statsEl){var active=tTeams.filter(function(t){return t.site&&t.jobType!=='STANDBY';}).length;
-var members=tTeams.reduce(function(s,t){return s+(t.members?t.members.split(',').filter(function(x){return x.trim();}).length:0);},0);
-var standby=10-active;
-var sArr=[{i:'🚀',v:active,l:'ทีมออกงาน'},{i:'👥',v:members,l:'กำลังพล'},{i:'⏸',v:standby,l:'รองาน'}];
-statsEl.innerHTML=sArr.map(function(s){return '<div style="background:rgba(255,255,255,0.07);border-radius:12px;padding:12px 22px;text-align:center;min-width:110px;"><div style="font-size:22px;">'+s.i+'</div><div style="font-size:26px;font-weight:800;color:#fff;margin:4px 0;">'+s.v+'</div><div style="font-size:12px;color:#888;">'+s.l+'</div></div>';}).join('');}
-var cg=document.getElementById('tomorrow-cards');
-if(cg&&DPAL){cg.innerHTML=tTeams.map(function(t){
-var pal=DPAL[t.id-1]||{bg:'#636366',n:'T-'+t.id},isA=t.site&&t.jobType!=='STANDBY';
-var mem=t.members?t.members.split(',').filter(function(x){return x.trim();}).slice(0,5):[];
-var jcMap={BOLT:'#0A84FF',FLANGE:'#FF9F0A',TRAINING:'#30D158',ROBOT:'#FF453A',STANDBY:'#636366'};
-var jc=jcMap[t.jobType]||'#636366';
-var clickAttr=isAdmin?' onclick="openTomorrowPlan()" title="คลิกเพื่อแก้ไขแผนพรุ่งนี้"':'';
-var curStyle=isAdmin?'cursor:pointer;transition:transform .12s,border-color .12s;':'';
-var h='<div'+clickAttr+' onmouseover="if('+(isAdmin?'true':'false')+'){this.style.transform=\'translateY(-2px)\';this.style.borderColor=\''+pal.bg+'\';}" onmouseout="this.style.transform=\'\';this.style.borderColor=\'rgba(255,255,255,'+(isA?'0.12':'0.04')+')\';" style="'+curStyle+'background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,'+(isA?'0.12':'0.04')+');border-radius:14px;padding:14px;opacity:'+(isA?1:0.4)+';">';
-if(isAdmin)h+='<div style="font-size:10px;color:'+pal.bg+';font-weight:700;margin-bottom:6px;opacity:.8;">✎ คลิกเพื่อแก้ไข</div>';
-h+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">';
-h+='<div style="background:'+pal.bg+';border-radius:8px;padding:4px 10px;font-size:11px;font-weight:800;color:#fff;">'+pal.n+'</div>';
-h+=(t.site?'<div style="font-size:12px;font-weight:600;color:#ccc;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+t.site+'</div>':'<div style="flex:1;color:#555;font-size:12px;">—</div>');
-h+='<div style="background:'+jc+'22;color:'+jc+';border:1px solid '+jc+'44;border-radius:6px;padding:2px 8px;font-size:11px;font-weight:700;">'+t.jobType+'</div></div>';
-if(t.jobNo)h+='<div style="font-size:11px;color:#888;margin-bottom:6px;">'+t.jobNo+(t.contact?' · '+t.contact:'')+'</div>';
-if(t.depart||t.arrive){h+='<div style="display:flex;gap:16px;margin-bottom:8px;">';h+='<div><div style="font-size:10px;color:#888;">ออก</div><div style="font-size:18px;font-weight:800;color:'+pal.bg+';">'+( t.depart||'—')+'</div></div>';h+='<div><div style="font-size:10px;color:#888;">ถึง</div><div style="font-size:18px;font-weight:800;color:'+pal.bg+';">'+( t.arrive||'—')+'</div></div></div>';}
-if(mem.length)h+='<div style="display:flex;gap:5px;flex-wrap:wrap;">'+mem.map(function(x){return '<span style="background:rgba(255,255,255,0.08);border-radius:20px;padding:2px 9px;font-size:11px;color:#ddd;">'+x.trim()+'</span>';}).join('')+'</div>';
-h+='</div>';return h;}).join('');}
-var tlt=document.getElementById('tl-tomorrow');
-if(tlt&&DPAL){
-var toH=function(s){if(!s)return null;var p=s.split(':').map(Number);return p[0]+(p[1]||0)/60;};
-var MIN=5,MAX=11.5,RNG=MAX-MIN,pct2=function(h){return Math.max(0,Math.min(100,((h-MIN)/RNG)*100));};
-var DOT=24,GAP=3,HOURS=[5,6,7,8,9,10,11];
-var grpT={};tTeams.filter(function(t){return t.depart;}).forEach(function(t){var h=toH(t.depart);if(h===null)return;var k=pct2(h).toFixed(2);if(!grpT[k])grpT[k]=[];grpT[k].push(t);});
-var maxS=Math.max.apply(null,Object.values(grpT).map(function(g){return g.length;}).concat([1]));
-var tlH=50,totH=maxS*(DOT+GAP)+36+tlH;
-var tOut=HOURS.map(function(h){var p=pct2(h);return '<div style="position:absolute;left:'+p+'%;bottom:0;transform:translateX(-50%);text-align:center;"><div style="width:1px;height:'+(tlH-10)+'px;background:rgba(255,255,255,0.12);margin:0 auto;"></div><div style="font-size:11px;color:#555;margin-top:3px;font-weight:600;">'+h+':00</div></div>';}).join('');
-tOut+=Object.keys(grpT).map(function(lk){
-var its=grpT[lk],lf=parseFloat(lk),isS=its.length>1;
-var dH=its.map(function(t,i){var pal=DPAL[t.id-1]||{bg:'#888',n:'T-?'},bot=tlH/2+i*(DOT+GAP)+2;return '<div style="position:absolute;bottom:'+bot+'px;left:50%;transform:translateX(-50%);width:'+DOT+'px;height:'+DOT+'px;border-radius:50%;background:'+pal.bg+';border:2.5px solid rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.5);z-index:'+(10+i)+';">'+pal.n.replace('T-','')+'</div>';}).join('');
-var tp=DPAL[its[its.length-1].id-1]||{bg:'#888',n:'T-?'},tB=tlH/2+its.length*(DOT+GAP)+6;
-var tL=isS?'<div style="position:absolute;bottom:'+tB+'px;left:50%;transform:translateX(-50%);background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.25);color:#fff;font-size:10px;font-weight:700;padding:1px 7px;border-radius:10px;white-space:nowrap;">'+its.length+' ทีม</div>':'<div style="position:absolute;bottom:'+tB+'px;left:50%;transform:translateX(-50%);font-size:10.5px;font-weight:700;color:'+tp.bg+';white-space:nowrap;text-shadow:0 1px 4px rgba(0,0,0,1);">'+tp.n+'</div>';
-return '<div style="position:absolute;left:'+lf+'%;bottom:0;width:0;">'+tL+dH+'<div style="position:absolute;bottom:'+(tlH/2-18)+'px;left:50%;transform:translateX(-50%);font-size:9.5px;color:#666;white-space:nowrap;font-weight:600;">'+its[0].depart+'</div></div>';
-}).join('');
-tOut+='<div style="position:absolute;left:12px;right:12px;bottom:'+(tlH/2)+'px;height:2px;background:rgba(255,255,255,0.1);border-radius:1px;"></div>';
-tlt.style.cssText='position:relative;height:'+totH+'px;width:100%;padding:0 12px;box-sizing:border-box;overflow:visible;';
-tlt.innerHTML=tOut;
-var elTL=tlt.parentElement;for(var i=0;i<5&&elTL&&elTL.tagName!=='BODY';i++,elTL=elTL.parentElement){var ovTL=getComputedStyle(elTL).overflow;if(ovTL==='hidden'||ovTL==='auto'||ovTL==='scroll')elTL.style.overflow='visible';}
+
+/* --- get tomorrow teams (fall back to 10 blank STANDBY) --- */
+var tTeams=getTeamsForDate(tKey);
+if(!tTeams||!tTeams.length){tTeams=Array.from({length:10},function(_,i){return{id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:''};});}
+
+/* --- swap globals so shared render functions target tomorrow data --- */
+var _teams=teams,_filt=filt,_isAdmin=isAdmin;
+teams=tTeams;
+/* keep current filter but map to tomorrow data */
+
+/* --- patch element IDs: point render functions at *-tmr elements --- */
+var _map={sr:'sr-tmr',fi:'fi-tmr',cg:'cg-tmr',tl:'tl-tmr'};
+var _orig={};
+Object.keys(_map).forEach(function(k){
+  var real=document.getElementById(k);
+  var tmr=document.getElementById(_map[k]);
+  if(real&&tmr){_orig[k]=real.id;real.id='_bak_'+k;tmr.id=k;}
+});
+
+/* --- render using same functions as today --- */
+try{
+  renderStats();
+  renderFilters();
+  /* renderCards uses openE(id) — patch it to open tomorrow planner instead */
+  var _openE=window.openE;
+  window.openE=function(id){openPlanModal(tKey);};
+  renderCards();
+  window.openE=_openE;
+  renderTL();
+}catch(e){}
+
+/* --- restore element IDs --- */
+Object.keys(_map).forEach(function(k){
+  var cur=document.getElementById(k);
+  var bak=document.getElementById('_bak_'+k);
+  if(cur){cur.id=_map[k];}
+  if(bak){bak.id=k;}
+});
+
+/* --- restore globals --- */
+teams=_teams;filt=_filt;
+
+/* --- update date label & edit button in lub-tmr --- */
+var thDOW=['อาทิตย์','จันทร์','อังคาร','พุธ','พฤหัสบดี','ศุกร์','เสาร์'];
+var thMO=['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
+var dow=thDOW[tm.getDay()];
+var dateStr='วัน'+dow+'ที่ '+d+' '+thMO[tm.getMonth()]+' '+(y+543);
+var lubEl=document.getElementById('lub-tmr');
+if(lubEl){
+  lubEl.innerHTML='<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">'
+    +'<span style="color:var(--text2);font-size:12px;">📆 '+dateStr+'</span>'
+    +(isAdmin?'<button onclick="openTomorrowPlan()" style="background:#0A84FF;color:#fff;border:none;border-radius:8px;padding:5px 14px;cursor:pointer;font-size:12px;font-weight:600;">✎ แก้ไขแผนพรุ่งนี้</button>':'')
+    +'</div>';
 }
 };
 window.openTomorrowPlan=function(){var tm=new Date();tm.setDate(tm.getDate()+1);var tKey=tm.getFullYear()+'-'+String(tm.getMonth()+1).padStart(2,'0')+'-'+String(tm.getDate()).padStart(2,'0');if(!isAdmin){toast('ต้อง Login Admin ก่อน','warn');return;}if(window.openPlanModal)openPlanModal(tKey);};
