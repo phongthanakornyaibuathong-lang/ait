@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "1/6/2569",
-      "savedAt": "2026-06-01T07:01:33.748Z",
+      "savedAt": "2026-06-01T07:10:01.630Z",
       "teams": [
         {
           "id": 1,
@@ -30,15 +30,15 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
-          "jobNo": "JB260095",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "เป้, กาน(นำ), อองรี",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TTFF-24",
-          "contact": "ฉัตรชัย 093-334-9527"
+          "jobType": "TRAINING",
+          "site": "UCS บ้านฉาง",
+          "jobNo": "",
+          "depart": "08:00",
+          "arrive": "08:30",
+          "members": "ไอซ์, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 4,
@@ -3966,5 +3966,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-01T07:01:33.748Z"
+  "lastUpdated": "2026-06-01T07:10:01.630Z"
 }
