@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780290838 -->
+<!-- build:1780295348 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -832,32 +832,41 @@ async function loadCloud(){
     renderAll();checkDups();checkExpiry();
   }
 }
-async function ghPUT(path,content,tok,retries=2){
-  // Always fetch fresh SHA to avoid conflict errors
-  let sha=null;
+async function ghGetSHA(path,tok){
+  // Defeat CDN/proxy cache: unique query + no-store so we always get the current sha
   try{
-    const rs=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${path}`,
-      {headers:{"Authorization":"token "+tok,"Cache-Control":"no-cache"}});
-    if(rs.ok){const sd=await rs.json();sha=sd.sha||null;}
+    const rs=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${path}?ref=main&_=${Date.now()}`,
+      {cache:"no-store",headers:{"Authorization":"token "+tok,"Accept":"application/vnd.github+json","If-None-Match":""}});
+    if(rs.ok){const sd=await rs.json();return sd.sha||null;}
   }catch(_){}
+  return null;
+}
+async function ghPUT(path,content,tok){
   // Robust base64: handle Thai/Unicode correctly
   const jsonStr=JSON.stringify(content,null,2);
-  const encoder=new TextEncoder();
-  const bytes=encoder.encode(jsonStr);
-  let binary="";
-  for(let i=0;i<bytes.length;i++)binary+=String.fromCharCode(bytes[i]);
+  const bytes=new TextEncoder().encode(jsonStr);
+  let binary="";for(let i=0;i<bytes.length;i++)binary+=String.fromCharCode(bytes[i]);
   const b64=btoa(binary);
-  const body={message:"Update "+path+" "+new Date().toLocaleString("th-TH"),content:b64};
-  if(sha)body.sha=sha;
-  const r=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${path}`,{
-    method:"PUT",headers:{"Authorization":"token "+tok,"Content-Type":"application/json"},
-    body:JSON.stringify(body)});
-  const d=await r.json();
-  if(!d.content){
-    if(retries>0&&(d.message||"").includes("sha"))return ghPUT(path,content,tok,retries-1);
-    throw new Error(d.message||"Upload failed");
+  let lastErr="Upload failed";
+  // Try up to 4 times: each attempt re-fetches a FRESH sha right before PUT
+  for(let attempt=0;attempt<4;attempt++){
+    const sha=await ghGetSHA(path,tok);
+    const body={message:"Update "+path+" "+new Date().toLocaleString("th-TH"),content:b64};
+    if(sha)body.sha=sha;
+    const r=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${path}`,{
+      method:"PUT",headers:{"Authorization":"token "+tok,"Content-Type":"application/json","Accept":"application/vnd.github+json"},
+      body:JSON.stringify(body)});
+    const d=await r.json().catch(()=>({}));
+    if(r.ok&&d.content)return d;
+    lastErr=d.message||("HTTP "+r.status);
+    const m=lastErr.toLowerCase();
+    // sha problems (missing/stale/conflict) -> loop will re-fetch sha and retry
+    if(m.includes("sha")||m.includes("conflict")||r.status===409||r.status===422){
+      await new Promise(res=>setTimeout(res,300*(attempt+1)));continue;
+    }
+    break; // non-sha error (e.g. bad credentials) -> stop immediately
   }
-  return d;
+  throw new Error(lastErr);
 }
 async function saveCloud(){
   const tok=getTok();if(!tok){document.getElementById("sov").classList.add("open");return;}
@@ -870,11 +879,9 @@ async function saveCloud(){
     hist.unshift({date:todayKey,savedAt:now,teams:JSON.parse(JSON.stringify(teams))});
     if(hist.length>60)hist=hist.slice(0,60);
     historyData=hist;
-    await Promise.all([
-      ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:td},tok),
-      ghPUT("history.json",{history:hist,lastUpdated:now},tok),
-      ghPUT("config.json",cfg,tok),
-    ]);
+    await ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:td},tok);
+    await ghPUT("history.json",{history:hist,lastUpdated:now},tok);
+    await ghPUT("config.json",cfg,tok);
     dirty=false;document.getElementById("sf").classList.remove("show");
     localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
     setSS("ok","Sync สำเร็จ ✓");toast("☁ Sync เรียบร้อย — ทีมงานเห็นในไม่กี่วิ","ok");
@@ -1698,7 +1705,8 @@ function renderPlanModal(){
             ${cfg.vehicles.map(v=>`<option value="${v.label}" ${v.label===t.vehicle?"selected":""}>${v.label}</option>`).join("")}
           </select>
         </div>
-        <input class="fi" style="font-size:12px;padding:7px 10px" value="${t.equipment||""}" oninput="pfSetField(${i},'equipment',this.value)" placeholder="เครื่องมือ">
+        <input class="fi" list="eqlist${i}" style="font-size:12px;padding:7px 10px" value="${t.equipment||""}" oninput="pfSetField(${i},'equipment',this.value)" placeholder="เครื่องมือ — เลือกหรือพิมพ์">
+        <datalist id="eqlist${i}">${(cfg.equipment||[]).map(e=>`<option value="${e.label}"></option>`).join("")}</datalist>
       </div>
     </div>`;
   });
