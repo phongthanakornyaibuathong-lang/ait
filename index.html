@@ -1806,7 +1806,7 @@ var tm=new Date();tm.setDate(tm.getDate()+1);
 var y=tm.getFullYear(),mo=String(tm.getMonth()+1).padStart(2,'0'),d=String(tm.getDate()).padStart(2,'0');
 var tKey=y+'-'+mo+'-'+d;
 var lbl=document.getElementById('tomorrow-date-label');if(lbl)lbl.textContent=tm.toLocaleDateString('th-TH',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-var tTeams=getTeamsForDate(tKey);if(!tTeams||!tTeams.length)return;
+var tTeams=getTeamsForDate(tKey);if(!tTeams||!tTeams.length){tTeams=Array.from({length:10},function(_,i){return{id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:''};});}
 var statsEl=document.getElementById('tomorrow-stats');
 if(statsEl){var active=tTeams.filter(function(t){return t.site&&t.jobType!=='STANDBY';}).length;
 var members=tTeams.reduce(function(s,t){return s+(t.members?t.members.split(',').filter(function(x){return x.trim();}).length:0);},0);
