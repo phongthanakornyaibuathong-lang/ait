@@ -33,7 +33,7 @@
       "arrive": "08:30",
       "members": "ไอซ์, ต้าร์",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "",
+      "equipment": "— เลือก —",
       "contact": ""
     },
     {
@@ -121,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-01T07:10:01.630Z",
+  "lastUpdated": "2026-06-01T07:18:13.407Z",
   "updatedBy": "Nine",
   "date": "1/6/2569"
 }
