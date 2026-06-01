@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780117283 -->
+<!-- build:1780290838 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -879,7 +879,7 @@ async function saveCloud(){
     localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
     setSS("ok","Sync สำเร็จ ✓");toast("☁ Sync เรียบร้อย — ทีมงานเห็นในไม่กี่วิ","ok");
   }catch(e){
-    setSS("err","Save ไม่สำเร็จ");
+    setSS("err","Save ไม่สำเร็จ: "+(e.message||"unknown"));
     const msg=e.message||"";
     if(msg.toLowerCase().includes("bad credentials")||msg.toLowerCase().includes("unauthorized")){
       toast("✕ Token ไม่ถูกต้อง/หมดอายุ — กรุณา Login ใหม่","err");
@@ -1799,7 +1799,7 @@ loadCloud();startRefresh();
 (function poll(n){if(n>40)return;if(typeof openE!=='function'||typeof renderTL!=='function'){return setTimeout(function(){poll(n+1);},150);}init();})(0);
 function init(){
 var _opm=window.openPlanModal;window.openPlanModal=function(dk){if(!document.getElementById('pf-sub')){var ms=document.querySelector('#pfov .ms');if(ms)ms.id='pf-sub';}_opm(dk);};
-var _sp=window.savePlan;window.savePlan=function(){var r=_sp();Promise.resolve(r).then(function(){if(window.isAdmin&&typeof saveCloud==='function'){window.dirty=true;saveCloud();}});return r;};
+var _sp=window.savePlan;window.savePlan=function(){var r=_sp();Promise.resolve(r).then(function(){if(typeof getTok==='function'&&getTok()&&typeof saveCloud==='function'){window.dirty=true;saveCloud();}});return r;};
 var _oe2=window.openE;window.openE=function(id,ds){_oe2(id);var inp=document.getElementById('fe-date');if(inp){inp.value=ds||new Date().toISOString().split('T')[0];window.updEDL&&window.updEDL();}};
 window.renderTomorrowTab=function(){
 var tm=new Date();tm.setDate(tm.getDate()+1);
