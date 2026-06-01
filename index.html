@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780295348 -->
+<!-- build:1780295492 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -794,13 +794,14 @@ function showTab(page,el){
 }
 
 /* ═══════════════════════════ CLOUD ══════════════════════════ */
-function getTok(){return sessionStorage.getItem("gh_tok")||"";}
+function getTok(){return sessionStorage.getItem("gh_tok")||localStorage.getItem("gh_tok_perm")||"";}
 function saveTok(){
   const t=document.getElementById("ghi").value.trim();
-  if(!t.startsWith("ghp_")){toast("Token ไม่ถูกต้อง","err");return;}
+  if(!(t.startsWith("ghp_")||t.startsWith("github_pat_"))){toast("Token ไม่ถูกต้อง (ต้องขึ้นต้น ghp_ หรือ github_pat_)","err");return;}
   sessionStorage.setItem("gh_tok",t);
+  try{localStorage.setItem("gh_tok_perm",t);}catch(e){}
   document.getElementById("sov").classList.remove("open");
-  document.getElementById("tok-status").textContent="ตั้งค่าแล้ว ✓";
+  document.getElementById("tok-status").textContent="ตั้งค่าแล้ว ✓ (จำถาวร)";
   toast("✓ บันทึก Token","ok");enterAdmin();
 }
 async function loadCloud(){
@@ -891,6 +892,7 @@ async function saveCloud(){
     if(msg.toLowerCase().includes("bad credentials")||msg.toLowerCase().includes("unauthorized")){
       toast("✕ Token ไม่ถูกต้อง/หมดอายุ — กรุณา Login ใหม่","err");
       sessionStorage.removeItem("gh_tok");
+      try{localStorage.removeItem("gh_tok_perm");}catch(e){}
       setTimeout(()=>document.getElementById("sov").classList.add("open"),1000);
     }else{
       toast("✕ "+msg,"err");
