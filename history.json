@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T10:30:16.939Z",
+      "savedAt": "2026-06-02T10:33:15.956Z",
       "teams": [
         {
           "id": 1,
@@ -4152,13 +4152,13 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "ออฟฟิศ AITs ประทุมธานี",
+          "jobNo": "Training กับ พี่ต้อม",
+          "depart": "08:00",
+          "arrive": "11:00",
+          "members": "ทัช",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
           "contact": ""
         },
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:30:16.939Z"
+  "lastUpdated": "2026-06-02T10:33:15.956Z"
 }
