@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T10:28:36.239Z",
+      "savedAt": "2026-06-02T10:29:20.100Z",
       "teams": [
         {
           "id": 1,
@@ -4157,8 +4157,8 @@
           "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "members": "ทัช",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
           "contact": ""
         },
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:28:36.239Z"
+  "lastUpdated": "2026-06-02T10:29:20.100Z"
 }
