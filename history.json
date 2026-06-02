@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T07:55:42.763Z",
+      "savedAt": "2026-06-02T09:00:29.695Z",
       "teams": [
         {
           "id": 1,
@@ -15,7 +15,7 @@
           "vehicle": "1ฒษ 2857 (แครี่บอย)",
           "equipment": "TTFF-24 S/N250948",
           "contact": "กับตัน 080-047-1014",
-          "locname": "https://maps.app.goo.gl/7gwNnGP6Tv9xr7kY8"
+          "locname": ""
         },
         {
           "id": 2,
@@ -4094,5 +4094,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T07:55:42.763Z"
+  "lastUpdated": "2026-06-02T09:00:29.695Z"
 }
