@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T10:20:39.079Z",
+      "savedAt": "2026-06-02T10:21:48.720Z",
       "teams": [
         {
           "id": 1,
@@ -4142,7 +4142,7 @@
           "id": 4,
           "jobType": "TRAINING",
           "site": "Work shop AITs.",
-          "jobNo": "",
+          "jobNo": "Traininge ECITB",
           "depart": "08:30",
           "arrive": "17:30",
           "members": "เป้, แชมป์, โอ๊ด, โอม, ป๋อ, คิว, ทาม, นัฐ, ไอซ์, ต้าร์, กาน(นำ)",
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:20:39.079Z"
+  "lastUpdated": "2026-06-02T10:21:48.720Z"
 }
