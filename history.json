@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T09:36:08.613Z",
+      "savedAt": "2026-06-02T09:37:23.554Z",
       "teams": [
         {
           "id": 1,
@@ -4116,15 +4116,15 @@
         },
         {
           "id": 2,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260112",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "คิง, อองรี, เฟิร์ส",
+          "vehicle": "1ฒษ 2857 (แครี่บอย)",
+          "equipment": "TOFF-12 (S/N26020099)",
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 3,
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T09:36:08.613Z"
+  "lastUpdated": "2026-06-02T09:37:23.554Z"
 }
