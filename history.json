@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T09:42:05.920Z",
+      "savedAt": "2026-06-02T09:58:04.775Z",
       "teams": [
         {
           "id": 1,
@@ -4128,27 +4128,27 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260115",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, สัญชัย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง โด่ง  094-7467526"
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": "Job No JB260106",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "กาน(นำ), อั๋น, พิเชษฐ์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527 "
         },
         {
           "id": 5,
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T09:42:05.920Z"
+  "lastUpdated": "2026-06-02T09:58:04.775Z"
 }
