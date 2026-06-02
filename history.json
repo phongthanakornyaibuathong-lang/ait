@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T10:29:20.100Z",
+      "savedAt": "2026-06-02T10:30:16.939Z",
       "teams": [
         {
           "id": 1,
@@ -4152,13 +4152,13 @@
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
+          "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "ทัช",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
           "contact": ""
         },
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:29:20.100Z"
+  "lastUpdated": "2026-06-02T10:30:16.939Z"
 }
