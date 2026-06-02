@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T01:06:31.788Z",
+      "savedAt": "2026-06-02T07:55:42.763Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,8 @@
           "members": "บิ๊ก, โอม, บีม, โอ๊ด",
           "vehicle": "1ฒษ 2857 (แครี่บอย)",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "กับตัน 080-047-1014"
+          "contact": "กับตัน 080-047-1014",
+          "locname": "https://maps.app.goo.gl/7gwNnGP6Tv9xr7kY8"
         },
         {
           "id": 2,
@@ -4093,5 +4094,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T01:06:31.788Z"
+  "lastUpdated": "2026-06-02T07:55:42.763Z"
 }
