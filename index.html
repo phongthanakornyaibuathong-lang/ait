@@ -494,7 +494,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       <div class="fg"><label class="flbl">Job No.</label><input class="fi" id="fj" placeholder="JB260096"></div>
       <div class="fg"><label class="flbl">ติดต่อ</label><input class="fi" id="fc" placeholder="ชื่อ เบอร์โทร"></div>
       <div class="fg"><label class="flbl">ตำแหน่ง</label><div style="position:relative"><input class="fi" id="floc-search" placeholder="ค้นหาสถานที่ เช่น SCC CFP Site..."><div id="floc-results" style="position:absolute;top:100%;left:0;right:0;background:var(--card);border:1px solid var(--border);border-radius:8px;max-height:200px;overflow-y:auto;z-index:10;display:none;margin-top:4px"></div></div></div>
-      <div class="fg" style="display:grid;grid-template-columns:1fr 1fr 80px;gap:10px;align-items:flex-end"><div><label class="flbl">Lat</label><input class="fi" id="flat" placeholder="13.6345" type="number" step="0.0001" readonly></div><div><label class="flbl">Lon</label><input class="fi" id="flon" placeholder="100.5234" type="number" step="0.0001" readonly></div><button type="button" id="floc-btn" onclick="openLocInMaps()" style="background:var(--blue);color:white;border:none;border-radius:8px;padding:8px 12px;font-size:12px;cursor:pointer;font-weight:600;transition:all .2s" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">🗺️ Maps</button></div>
       <div class="fg">
         <label class="flbl">ออกเดินทาง</label>
         <div class="selw"><select class="fsel" id="fd"><option value="">— เวลา —</option></select></div>
@@ -989,7 +988,7 @@ function renderCards(){
       ${t.vehicle?`<div class="veh">🚗 <b>${t.vehicle}</b>${dupV.has(t.vehicle)?` <span class="wpill">ซ้ำ</span>`:""}</div>`:""}
       ${ctHtml?`<div class="veh ctc">📞 <span>${ctHtml}</span></div>`:""}
       ${eqTags?`<div class="veh eqp">🔧 <span class="eqtags">${eqTags}</span></div>`:""}
-      ${t.lat&&t.lon?`<div class="veh loc"><a href="https://maps.google.com/?q=${t.lat},${t.lon}" target="_blank" style="color:var(--blue);text-decoration:none;display:flex;align-items:center;gap:4px">🗺️ <span>${t.lat.toFixed(4)}, ${t.lon.toFixed(4)}</span></a></div>`:""}`;
+      ${t.locname?`<div class="veh loc"><a href="https://www.google.com/maps/search/${encodeURIComponent(t.locname)}" target="_blank" style="color:var(--blue);text-decoration:none;display:flex;align-items:center;gap:4px">🗺️ <span>${t.locname}</span></a></div>`:""}`;
     return`<div class="card">
       <div class="card-accent" style="background:${sb?"var(--bg4)":p.bg}"></div>
       <div class="card-head" style="background:${sb?"var(--bg3)":c+"0a"}">
@@ -1345,7 +1344,7 @@ function openE(id){
   document.getElementById("ebg").style.background=p.bg;document.getElementById("ebg").textContent=p.n;
   document.getElementById("et").textContent="แก้ไข "+p.n;
   populateDrops();
-  document.getElementById("fj").value=t.jobNo||"";document.getElementById("fc").value=t.contact||"";document.getElementById("floc-search").value=t.locname||"";document.getElementById("flat").value=t.lat||"";document.getElementById("flon").value=t.lon||"";
+  document.getElementById("fj").value=t.jobNo||"";document.getElementById("fc").value=t.contact||"";document.getElementById("floc-search").value=t.locname||"";
   setSel("fs",t.site,"_other","fs-txt");setSel("fd",t.depart);setSel("fa",t.arrive);
   setSel("fv",t.vehicle);setSel("fe",t.equipment,"_other","fe-txt");
   document.getElementById("mem-warn").style.display="none";document.getElementById("veh-warn").style.display="none";
@@ -1375,7 +1374,7 @@ function saveE(){
   const i=teams.findIndex(t=>t.id===eid);
   teams[i]={...teams[i],jobType:ejt,site:sv,jobNo:document.getElementById("fj").value.trim(),
     depart:document.getElementById("fd").value,arrive:document.getElementById("fa").value,
-    members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),lat:document.getElementById("flat").value.trim(),lon:document.getElementById("flon").value.trim(),locname:document.getElementById("floc-search").value.trim()};
+    members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),locname:document.getElementById("floc-search").value.trim()};
   closeE();dirty=true;
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
@@ -1398,16 +1397,13 @@ let locSearchTimeout;document.getElementById("floc-search").addEventListener("in
   },300);
 });
 function setLocFromSearch(lat,lon,name,el){
-  document.getElementById("flat").value=lat.toFixed(4);
-  document.getElementById("flon").value=lon.toFixed(4);
   document.getElementById("floc-search").value=name.split(',')[0]||name;
   document.getElementById("floc-results").style.display="none";
 }
 function openLocInMaps(){
-  const lat=document.getElementById("flat").value;
-  const lon=document.getElementById("flon").value;
-  if(!lat||!lon){alert("ระบุตำแหน่งก่อน (Lat/Lon)");return;}
-  window.open("https://maps.google.com/?q="+lat+","+lon,"_blank");
+  const locName=document.getElementById("floc-search").value.trim();
+  if(!locName){alert("ระบุตำแหน่ง");return;}
+  window.open("https://www.google.com/maps/search/"+encodeURIComponent(locName),"_blank");
 }
 document.addEventListener("click",function(e){
   if(!e.target.closest("#floc-search")&&!e.target.closest("#floc-results")){
@@ -1906,7 +1902,7 @@ var tKey=y+'-'+mo+'-'+d;
 
 /* --- get tomorrow teams (fall back to 10 blank STANDBY) --- */
 var tTeams=getTeamsForDate(tKey);
-if(!tTeams||!tTeams.length){tTeams=Array.from({length:10},function(_,i){return{id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:'',lat:'',lon:'',locname:''};});}
+if(!tTeams||!tTeams.length){tTeams=Array.from({length:10},function(_,i){return{id:i+1,jobType:'STANDBY',site:'',jobNo:'',depart:'',arrive:'',members:'',vehicle:'',equipment:'',contact:'',locname:''};});}
 
 /* --- swap globals so shared render functions target tomorrow data --- */
 var _teams=teams,_filt=filt,_isAdmin=isAdmin;
