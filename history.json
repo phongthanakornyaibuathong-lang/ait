@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "2/6/2569",
-      "savedAt": "2026-06-02T10:18:21.525Z",
+      "savedAt": "2026-06-02T10:20:30.286Z",
       "teams": [
         {
           "id": 1,
@@ -4140,12 +4140,12 @@
         },
         {
           "id": 4,
-          "jobType": "COLD_CUT",
-          "site": "",
+          "jobType": "TRAINING",
+          "site": "Work shop AITs.",
           "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "depart": "08:30",
+          "arrive": "17:30",
+          "members": "เป้, แชมป์, โอ๊ด, โอม, ป๋อ, คิว, ทาม, นัฐ, ไอซ์, ต้าร์, กาน(นำ)",
           "vehicle": "",
           "equipment": "",
           "contact": ""
@@ -4225,5 +4225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:18:21.525Z"
+  "lastUpdated": "2026-06-02T10:20:30.286Z"
 }
