@@ -494,7 +494,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       <div class="fg"><label class="flbl">Job No.</label><input class="fi" id="fj" placeholder="JB260096"></div>
       <div class="fg"><label class="flbl">ติดต่อ</label><input class="fi" id="fc" placeholder="ชื่อ เบอร์โทร"></div>
       <div class="fg"><label class="flbl">ตำแหน่ง</label><div style="position:relative"><input class="fi" id="floc-search" placeholder="ค้นหาสถานที่ เช่น SCC CFP Site..."><div id="floc-results" style="position:absolute;top:100%;left:0;right:0;background:var(--card);border:1px solid var(--border);border-radius:8px;max-height:200px;overflow-y:auto;z-index:10;display:none;margin-top:4px"></div></div></div>
-      <div class="fg" style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><div><label class="flbl">Lat</label><input class="fi" id="flat" placeholder="13.6345" type="number" step="0.0001" readonly></div><div><label class="flbl">Lon</label><input class="fi" id="flon" placeholder="100.5234" type="number" step="0.0001" readonly></div></div>
+      <div class="fg" style="display:grid;grid-template-columns:1fr 1fr 80px;gap:10px;align-items:flex-end"><div><label class="flbl">Lat</label><input class="fi" id="flat" placeholder="13.6345" type="number" step="0.0001" readonly></div><div><label class="flbl">Lon</label><input class="fi" id="flon" placeholder="100.5234" type="number" step="0.0001" readonly></div><button type="button" id="floc-btn" onclick="openLocInMaps()" style="background:var(--blue);color:white;border:none;border-radius:8px;padding:8px 12px;font-size:12px;cursor:pointer;font-weight:600;transition:all .2s" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">🗺️ Maps</button></div>
       <div class="fg">
         <label class="flbl">ออกเดินทาง</label>
         <div class="selw"><select class="fsel" id="fd"><option value="">— เวลา —</option></select></div>
@@ -1402,6 +1402,12 @@ function setLocFromSearch(lat,lon,name,el){
   document.getElementById("flon").value=lon.toFixed(4);
   document.getElementById("floc-search").value=name.split(',')[0]||name;
   document.getElementById("floc-results").style.display="none";
+}
+function openLocInMaps(){
+  const lat=document.getElementById("flat").value;
+  const lon=document.getElementById("flon").value;
+  if(!lat||!lon){alert("ระบุตำแหน่งก่อน (Lat/Lon)");return;}
+  window.open("https://maps.google.com/?q="+lat+","+lon,"_blank");
 }
 document.addEventListener("click",function(e){
   if(!e.target.closest("#floc-search")&&!e.target.closest("#floc-results")){
