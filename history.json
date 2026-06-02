@@ -1,8 +1,8 @@
 {
   "history": [
     {
-      "date": "1/6/2569",
-      "savedAt": "2026-06-01T08:18:12.309Z",
+      "date": "2/6/2569",
+      "savedAt": "2026-06-02T01:06:26.120Z",
       "teams": [
         {
           "id": 1,
@@ -3964,7 +3964,134 @@
           "contact": ""
         }
       ]
+    },
+    {
+      "date": "1 มิถุนายน 2569",
+      "day_th": "1 มิถุนายน 2569",
+      "savedAt": "2026-06-01T00:00:00.000Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 2,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 3,
+          "jobType": "TRAINING",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "— เลือก —",
+          "contact": ""
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 5,
+          "jobType": "COLD_CUT",
+          "site": "",
+          "jobNo": "",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "JB260097",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "ปื๊ด 096-297-2292"
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "— เลือก —",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "ROBOT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "1ฒษ 2857",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-06-01T08:18:12.309Z"
+  "lastUpdated": "2026-06-02T01:06:26.120Z"
 }
