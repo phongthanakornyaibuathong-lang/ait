@@ -9,7 +9,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
-:root{--ff:-apple-system,'Tahoma',sans-serif;--blue:#0A84FF;--green:#30D158;--red:#FF453A;--orange:#FF9F0A;--purple:#BF5AF2;--teal:#32D2D8;--indigo:#5E5CE6;--gold:#FFD60A}
+:root{--ff:Tahoma,Geneva,Verdana,sans-serif;--blue:#0A84FF;--green:#30D158;--red:#FF453A;--orange:#FF9F0A;--purple:#BF5AF2;--teal:#32D2D8;--indigo:#5E5CE6;--gold:#FFD60A}
 [data-theme="dark"]{--bg:#000;--bg2:#1C1C1E;--bg3:#2C2C2E;--bg4:#3A3A3C;--border:rgba(255,255,255,.12);--border2:rgba(255,255,255,.07);--text:#fff;--text2:rgba(255,255,255,.7);--text3:rgba(255,255,255,.4);--nav:rgba(28,28,30,.96);--card:#1C1C1E;--input:#2C2C2E;--sh:0 8px 32px rgba(0,0,0,.6)}
 [data-theme="light"]{--bg:#F2F2F7;--bg2:#fff;--bg3:#F2F2F7;--bg4:#E5E5EA;--border:rgba(0,0,0,.1);--border2:rgba(0,0,0,.06);--text:#000;--text2:rgba(0,0,0,.6);--text3:rgba(0,0,0,.35);--nav:rgba(255,255,255,.94);--card:#fff;--input:#F2F2F7;--sh:0 4px 16px rgba(0,0,0,.1)}
 body{font-family:var(--ff);background:var(--bg);color:var(--text);font-size:13px;line-height:1.5;min-height:100vh;transition:background .3s,color .3s}
@@ -98,6 +98,10 @@ body{font-family:var(--ff);background:var(--bg);color:var(--text);font-size:13px
 .pill{border-radius:6px;padding:3px 8px;font-size:11px;font-weight:500;white-space:nowrap}
 .wpill{font-size:9px;background:rgba(255,159,10,.15);color:var(--orange);border-radius:4px;padding:2px 5px;font-weight:700}
 .veh{background:var(--bg3);border-radius:8px;padding:6px 10px;font-size:11px;display:flex;align-items:center;gap:6px;color:var(--text2)}
+.ctc a{color:var(--blue);text-decoration:none}
+.eqp{align-items:flex-start}
+.eqtags{display:flex;flex-wrap:wrap;gap:4px}
+.eqtag{background:rgba(191,90,242,.15);color:var(--purple);border-radius:5px;padding:2px 7px;font-size:10px;font-weight:600}
 .veh b{font-weight:600;color:var(--text)}
 .sbmsg{color:var(--text3);font-size:12px;text-align:center;padding:14px 0}
 
@@ -969,6 +973,8 @@ function renderCards(){
     const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id},sb=isSB(t),ms=mArr(t.members),c=jc(t.jobType);
     const hDM=ms.some(m=>dupM.has(m)),hDV=t.vehicle&&dupV.has(t.vehicle),hw=hDM||hDV;
     const eb=isAdmin?`<button class="eic" onclick="event.stopPropagation();openE(${t.id})">✎</button>`:"";
+    const eqTags=sb||!t.equipment?"":String(t.equipment).split(/[,/]/).map(s=>s.trim()).filter(Boolean).map(s=>`<span class="eqtag">${s}</span>`).join("");
+    const ctHtml=sb||!t.contact?"":String(t.contact).replace(/(\d[\d\-\s]{6,}\d)/,m=>`<a href="tel:${m.replace(/\D/g,"")}">${m.trim()}</a>`);
     const wd=hw?`<span class="wic" title="${hDM?"สมาชิกซ้ำ":""}${hDV?" รถซ้ำ":""}">⚠</span>`:"";
     const body=sb?`<div class="sbmsg">ไม่มีงานวันนี้</div>`:`
       <div class="trow">
@@ -976,7 +982,9 @@ function renderCards(){
         <div class="tbox" style="background:${c}15"><div class="tlbl">ถึงหน้างาน</div><div class="tval" style="color:${c}">${t.arrive||"—"}</div></div>
       </div>
       ${ms.length?`<div class="mem-row">${ms.map(m=>`<span class="pill${dupM.has(m)?" wpill":""}" style="${dupM.has(m)?"":"background:"+c+"16;color:"+c}">${m}</span>`).join("")}</div>`:""}
-      ${t.vehicle?`<div class="veh">🚗 <b>${t.vehicle}</b>${dupV.has(t.vehicle)?` <span class="wpill">ซ้ำ</span>`:""}</div>`:""}`;
+      ${t.vehicle?`<div class="veh">🚗 <b>${t.vehicle}</b>${dupV.has(t.vehicle)?` <span class="wpill">ซ้ำ</span>`:""}</div>`:""}
+      ${ctHtml?`<div class="veh ctc">📞 <span>${ctHtml}</span></div>`:""}
+      ${eqTags?`<div class="veh eqp">🔧 <span class="eqtags">${eqTags}</span></div>`:""}`;
     return`<div class="card">
       <div class="card-accent" style="background:${sb?"var(--bg4)":p.bg}"></div>
       <div class="card-head" style="background:${sb?"var(--bg3)":c+"0a"}">
