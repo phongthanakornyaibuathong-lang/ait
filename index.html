@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780489140 -->
+<!-- build:1780489353 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1504,7 +1504,7 @@ function printRender(){
   }).join("");
 
   // ----- Legend สี (ทีม -> Site) -----
-  const colorLegend=act.length?`<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;padding:6px 8px;background:#f8fafc;border-radius:7px">${act.map(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};return`<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:${p.bg};display:inline-block"></span>${p.n} · ${t.site||""}</span>`;}).join("")}<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:#f1f5f9;border:1px solid #cbd5e1;display:inline-block"></span>คนว่าง (${availP.length})</span></div>`:"";
+  const colorLegend=act.length?`<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px;padding:6px 8px;background:#f8fafc;border-radius:7px;break-inside:avoid"><span style="font-size:9px;font-weight:700;color:#1a2332">🎨 สีประจำทีม:</span>${act.map(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};return`<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:${p.bg};display:inline-block"></span>${p.n} · ${t.site||""}</span>`;}).join("")}<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:#f1f5f9;border:1px solid #cbd5e1;display:inline-block"></span>คนว่าง (${availP.length})</span></div>`:"";
 
   // ----- Dispatch summary: รถออกงาน (ซ้าย) / รถว่าง + คนว่าง (ขวา) -----
   const vehUsedLabels=[...new Set(act.map(t=>t.vehicle).filter(Boolean))];
@@ -1533,7 +1533,6 @@ function printRender(){
         ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:3px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
       </div>
     </div>
-    ${colorLegend}
     <div style="display:flex;gap:12px;align-items:flex-start;font-family:Tahoma,sans-serif">
       <div style="flex:1.35;min-width:0">
         <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
@@ -1552,6 +1551,7 @@ function printRender(){
     <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
       ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:14px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
     </div>
+    ${colorLegend}
     <div style="margin-top:8px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>
     </div>`;
   // auto scale-to-fit ให้จบ 1 หน้า A4 (ใช้ zoom เพื่อย่อ layout จริง)
