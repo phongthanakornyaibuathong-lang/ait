@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "3/6/2569",
-      "savedAt": "2026-06-03T11:04:09.829Z",
+      "savedAt": "2026-06-03T11:08:44.949Z",
       "teams": [
         {
           "id": 1,
@@ -4363,14 +4363,14 @@
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No JB260112",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": "Job No JB260106",
           "depart": "06:30",
           "arrive": "07:00",
           "members": "บิ๊ก, บีม, เอิร์ก",
           "vehicle": "1ฒษ 2857 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": " ฉัตรชัย (ท๊อป)  093-3349527"
         },
         {
           "id": 2,
@@ -4483,5 +4483,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-03T11:04:09.829Z"
+  "lastUpdated": "2026-06-03T11:08:44.949Z"
 }
