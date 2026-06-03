@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780487943 -->
+<!-- build:1780488516 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1498,44 +1498,39 @@ function printRender(){
   // ----- Personnel master table (ฝั่งขวา): คอลัมน์แรก = ทีมที่ไป, ลำดับเดิม -----
   const persRows=cfg.personnel.map((p,i)=>{
     const a=memTeam[p.id]||memTeam[p.nick];
-    const teamCell=a?`<span style="background:${a.bg};color:${txtOn(a.bg)};border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${a.n}</span>`:`<span style="color:#cbd5e1;font-size:8px">ว่าง</span>`;
-    const dim=a?"":"opacity:.55";
-    return`<tr style="background:${i%2===0?"#f8fafc":"#fff"};${dim}"><td style="padding:2px 4px;text-align:center;border-bottom:1px solid #eef1f5">${teamCell}</td><td style="padding:2px 5px;font-size:8px;color:#0A84FF;white-space:nowrap;border-bottom:1px solid #eef1f5">${p.phone||"—"}</td><td style="padding:2px 5px;font-size:8px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:2px 5px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5">${p.pos||"—"}</td><td style="padding:2px 5px;font-size:8px;font-weight:600;text-align:center;border-bottom:1px solid #eef1f5">${p.nick||p.id}</td></tr>`;
+    const teamCell=a?`<span style="background:${a.bg};color:${txtOn(a.bg)};border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${a.n}</span>`:`<span style="background:#FFF4E5;color:#b45309;border:1px solid #FCD9A8;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700">ว่าง</span>`;
+    const rowBg=a?(i%2===0?"#f8fafc":"#fff"):"#FFFBF4";
+    return`<tr style="background:${rowBg}"><td style="padding:2px 4px;text-align:center;border-bottom:1px solid #eef1f5">${teamCell}</td><td style="padding:2px 5px;font-size:8px;color:#0A84FF;white-space:nowrap;border-bottom:1px solid #eef1f5">${p.phone||"—"}</td><td style="padding:2px 5px;font-size:8px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:2px 5px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5">${p.pos||"—"}</td><td style="padding:2px 5px;font-size:8px;font-weight:600;text-align:center;border-bottom:1px solid #eef1f5">${p.nick||p.id}</td></tr>`;
   }).join("");
 
   // ----- Legend สี (ทีม -> Site) -----
   const colorLegend=act.length?`<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;padding:6px 8px;background:#f8fafc;border-radius:7px">${act.map(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};return`<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:${p.bg};display:inline-block"></span>${p.n} · ${t.site||""}</span>`;}).join("")}<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:#f1f5f9;border:1px solid #cbd5e1;display:inline-block"></span>คนว่าง (${availP.length})</span></div>`:"";
 
-  // ----- Dispatch summary: รถออกงาน / รถว่าง / คนว่าง แยกชัดเจน -----
+  // ----- Dispatch summary: รถออกงาน (ซ้าย) / รถว่าง + คนว่าง (ขวา) -----
   const vehUsedLabels=[...new Set(act.map(t=>t.vehicle).filter(Boolean))];
   const vehFree=(cfg.vehicles||[]).map(v=>v.label).filter(l=>l&&!vehUsedLabels.includes(l));
   const usedChip=v=>{const tt=act.find(t=>t.vehicle===v);const p=tt?(DPAL[tt.id-1]||{bg:"#636366",n:""}):{bg:"#636366",n:""};return`<span style="display:inline-flex;align-items:center;gap:5px;background:#fff;border:1.5px solid ${p.bg};color:#334155;border-radius:6px;padding:2px 8px;font-size:10px;font-weight:600;margin:2px 0"><span style="width:9px;height:9px;border-radius:50%;background:${p.bg};display:inline-block"></span>${v}<span style="color:#94a3b8;font-size:8px">${p.n}</span></span>`;};
   const freeChip=x=>`<span style="display:inline-block;background:#f1f5f9;border:1px solid #cbd5e1;color:#64748b;border-radius:6px;padding:2px 8px;font-size:10px;font-weight:500;margin:2px 0">${x}</span>`;
-  const vehHtml=`<div style="margin-top:10px;border-top:2px solid #1a2332;padding-top:8px;break-inside:avoid">
-    <div style="display:flex;gap:16px;flex-wrap:wrap">
-      <div style="flex:1;min-width:220px">
-        <div style="font-size:10px;font-weight:700;color:#15803d;margin-bottom:4px">🚗 รถออกงาน (${vehUsedLabels.length})</div>
-        <div style="display:flex;flex-wrap:wrap;gap:5px">${vehUsedLabels.length?vehUsedLabels.map(usedChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ไม่มี —</span>'}</div>
-      </div>
-      <div style="flex:1;min-width:220px">
-        <div style="font-size:10px;font-weight:700;color:#94a3b8;margin-bottom:4px">🅿️ รถว่าง / ไม่ออกงาน (${vehFree.length})</div>
-        <div style="display:flex;flex-wrap:wrap;gap:5px">${vehFree.length?vehFree.map(freeChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ออกงานครบทุกคัน —</span>'}</div>
-      </div>
-    </div>
-    <div style="margin-top:8px">
-      <div style="font-size:10px;font-weight:700;color:#b45309;margin-bottom:4px">🧍 คนว่าง / ยังไม่ถูกจัดทีม (${availP.length})</div>
-      <div style="display:flex;flex-wrap:wrap;gap:5px">${availP.length?availP.map(p=>freeChip((p.nick||p.id)+(p.pos?` · ${p.pos}`:""))).join(""):'<span style="color:#94a3b8;font-size:10px">— จัดเข้าทีมครบทุกคน —</span>'}</div>
-    </div>
+  // ซ้าย: รถที่ออกงาน
+  const vehOutHtml=`<div style="margin-top:10px;border-top:2px solid #1a2332;padding-top:8px;break-inside:avoid">
+    <div style="font-size:10px;font-weight:700;color:#15803d;margin-bottom:4px">🚗 รถออกงาน (${vehUsedLabels.length})</div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px">${vehUsedLabels.length?vehUsedLabels.map(usedChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ไม่มี —</span>'}</div>
+  </div>`;
+  // ขวา: รถว่าง (คนว่างแสดงในตารางรายชื่อ ช่องทีม = "ว่าง")
+  const idleHtml=`<div style="margin-top:8px;border-top:2px solid #1a2332;padding-top:7px;break-inside:avoid">
+    <div style="font-size:10px;font-weight:700;color:#94a3b8;margin-bottom:4px">🅿️ รถว่าง / ไม่ได้ออกหน้างาน (${vehFree.length})</div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px">${vehFree.length?vehFree.map(freeChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ออกงานครบทุกคัน —</span>'}</div>
   </div>`;
 
   document.getElementById("pa").innerHTML=`
-    <div style="background:#FFF200;border:2px solid #1a2332;border-radius:8px;padding:8px 14px;text-align:center;margin-bottom:10px">
+    <div id="pa-inner" style="width:749px;max-width:100%;margin:0 auto;background:#fff;color:#0B1120">
+    <div style="background:#FFF200;border:2px solid #1a2332;border-radius:8px;padding:7px 14px;text-align:center;margin-bottom:9px">
       <span style="font-size:18px;font-weight:800;color:#0B1120">แผนงานประจำวัน ${thd(dObj)}</span>
     </div>
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
       <div style="font-size:11px;color:#7a92ab;font-weight:600">Advanced Industrial Techno &amp; Services Co., Ltd. — AITs Dashboard</div>
       <div style="display:flex;gap:8px">
-        ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:4px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
+        ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:3px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
       </div>
     </div>
     ${colorLegend}
@@ -1543,20 +1538,24 @@ function printRender(){
       <div style="flex:1.35;min-width:0">
         <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
         ${cardsHtml}
-        ${vehHtml}
+        ${vehOutHtml}
       </div>
       <div style="flex:1;min-width:0">
-        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">👥 รายชื่อกำลังพล (คอลัมน์ "ทีม" = ทีมที่ไป)</div>
+        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">👥 รายชื่อกำลังพล (ทีม = ทีมที่ไป · "ว่าง" = ไม่ได้ออกงาน)</div>
         <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0">
           <thead><tr style="background:#1a2332">${["ทีม","เบอร์โทร","ชื่อ-สกุล","ตำแหน่ง","ชื่อเล่น"].map(h=>`<th style="color:#fff;padding:3px 5px;text-align:left;font-size:8px">${h}</th>`).join("")}</tr></thead>
           <tbody>${persRows}</tbody>
         </table>
+        ${idleHtml}
       </div>
     </div>
-    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
-      ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:16px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
+    <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
+      ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:14px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
     </div>
-    <div style="margin-top:10px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>`;
+    <div style="margin-top:8px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>
+    </div>`;
+  // auto scale-to-fit ให้จบ 1 หน้า A4 (ใช้ zoom เพื่อย่อ layout จริง)
+  requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=1040;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
 }
 
 
