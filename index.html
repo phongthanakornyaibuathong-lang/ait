@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780486555 -->
+<!-- build:1780487416 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1463,54 +1463,83 @@ function printRender(){
   catch(e){ src=teams; }
   const act=src.filter(t=>!isSB(t)),pax=act.reduce((s,t)=>s+mArr(t.members).length,0);
   const emptyRow=`<tr><td colspan="7" style="padding:18px;text-align:center;color:#7a92ab;font-size:12px">— ไม่มีข้อมูลแผนงานสำหรับวันที่นี้ —</td></tr>`;
-  // ----- Manpower roster (ฝั่งขวา): ทีม / ชื่อจริง / ตำแหน่ง / เบอร์โทร -----
+  // ===== Overview Print (อ้างอิง template เดิม ปรับให้ดู Overview ง่ายขึ้น) =====
   const pmap={};cfg.personnel.forEach(p=>{pmap[p.id]=p;if(p.nick)pmap[p.nick]=p;});
-  const mpHtml=act.length?act.map(t=>{
-    const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};
-    const ms=mArr(t.members);
-    const rows=ms.length?ms.map(m=>{
-      const pe=pmap[m]||{name:m,pos:"",phone:""};
-      return`<tr><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5">${pe.name||m}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#475569">${pe.pos||"—"}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#0A84FF;white-space:nowrap">${pe.phone||"—"}</td></tr>`;
-    }).join(""):`<tr><td colspan="3" style="padding:4px 6px;font-size:9px;color:#94a3b8">— ไม่มีสมาชิก —</td></tr>`;
-    return`<div style="margin-bottom:8px;border:1px solid #e2e8f0;border-radius:7px;overflow:hidden;break-inside:avoid">
-      <div style="background:${p.bg};color:#fff;padding:4px 8px;font-size:10px;font-weight:700;display:flex;justify-content:space-between;align-items:center"><span>${p.n} · ${t.site}</span><span style="font-size:9px;font-weight:600;opacity:.9">${ms.length} คน</span></div>
-      <table style="width:100%;border-collapse:collapse"><thead><tr style="background:#f1f5f9"><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ชื่อ-สกุล</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ตำแหน่ง</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">เบอร์โทร</th></tr></thead><tbody>${rows}</tbody></table>
+  const txtOn=hex=>{const c=(hex||"#636366").replace('#','');const r=parseInt(c.slice(0,2),16),g=parseInt(c.slice(2,4),16),b=parseInt(c.slice(4,6),16);return(0.299*r+0.587*g+0.114*b)>155?'#0B1120':'#fff';};
+  const memTeam={};
+  act.forEach(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};mArr(t.members).forEach(m=>{memTeam[m]={bg:p.bg,n:p.n,site:t.site};});});
+  const availP=cfg.personnel.filter(p=>!memTeam[p.id]&&!memTeam[p.nick]);
+
+  // ----- Job cards (ฝั่งซ้าย) -----
+  const cardsHtml=act.length?act.map(t=>{
+    const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const ms=mArr(t.members);
+    const chips=ms.length?ms.map(m=>{const pe=pmap[m]||{name:m};return`<span style="display:inline-block;background:${p.bg};color:${txtOn(p.bg)};border-radius:5px;padding:2px 7px;margin:2px 3px 2px 0;font-size:10px;font-weight:600;white-space:nowrap">${pe.name||m}</span>`;}).join(""):`<span style="color:#94a3b8;font-size:10px">— ยังไม่กำหนดสมาชิก —</span>`;
+    return`<div style="border:1px solid #e2e8f0;border-left:6px solid ${p.bg};border-radius:8px;margin-bottom:10px;overflow:hidden;break-inside:avoid">
+      <div style="background:${p.bg};color:${txtOn(p.bg)};padding:5px 10px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:12px;font-weight:700">${p.n} · ${t.site||"—"}</span>
+        <span style="background:rgba(255,255,255,.25);border-radius:5px;padding:1px 7px;font-size:9px;font-weight:700">${jl(t.jobType)}</span>
+      </div>
+      <div style="padding:7px 10px">
+        <div style="display:flex;flex-wrap:wrap;gap:3px 14px;font-size:10px;color:#334155;margin-bottom:6px">
+          <span><b style="color:#0A84FF">Job No:</b> ${t.jobNo||"—"}</span>
+          <span><b>ติดต่อ:</b> ${t.contact||"—"}</span>
+          <span><b style="color:#FF453A">ออก:</b> ${t.depart||"—"}</span>
+          <span><b style="color:#30D158">ถึง:</b> ${t.arrive||"—"}</span>
+          <span><b>รถ:</b> ${t.vehicle||"—"}</span>
+          <span><b>เครื่องมือ:</b> ${t.equipment||"—"}</span>
+        </div>
+        <div style="font-size:9px;color:#94a3b8;margin-bottom:3px">สมาชิก (${ms.length} คน):</div>
+        <div>${chips}</div>
+      </div>
     </div>`;
-  }).join(""):`<div style="padding:14px;text-align:center;color:#7a92ab;font-size:11px;border:1px dashed #cbd5e1;border-radius:8px">— ไม่มีกำลังพล —</div>`;
-  // ----- คนว่าง: บุคลากรที่ยังไม่ถูกจัดเข้าทีมในวันนั้น -----
-  const deployedSet=new Set(act.flatMap(t=>mArr(t.members)));
-  const availP=cfg.personnel.filter(p=>!deployedSet.has(p.id)&&!deployedSet.has(p.nick));
-  const availRows=availP.length?availP.map(p=>`<tr><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#475569">${p.pos||"—"}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#0A84FF;white-space:nowrap">${p.phone||"—"}</td></tr>`).join(""):`<tr><td colspan="3" style="padding:4px 6px;font-size:9px;color:#94a3b8">— ไม่มีคนว่าง (จัดเข้าทีมครบ) —</td></tr>`;
-  const availHtml=`<div style="margin-top:10px;border:1px solid #cbd5e1;border-radius:7px;overflow:hidden;break-inside:avoid">
-    <div style="background:#64748b;color:#fff;padding:4px 8px;font-size:10px;font-weight:700;display:flex;justify-content:space-between;align-items:center"><span>🅿️ คนว่าง / ยังไม่ถูกจัดทีม</span><span style="font-size:9px;font-weight:600;opacity:.9">${availP.length} คน</span></div>
-    <table style="width:100%;border-collapse:collapse"><thead><tr style="background:#f1f5f9"><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ชื่อ-สกุล</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ตำแหน่ง</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">เบอร์โทร</th></tr></thead><tbody>${availRows}</tbody></table>
-  </div>`;
+  }).join(""):`<div style="padding:20px;text-align:center;color:#7a92ab;font-size:12px;border:1px dashed #cbd5e1;border-radius:8px">— ไม่มีข้อมูลแผนงานสำหรับวันที่นี้ —</div>`;
+
+  // ----- Personnel master table (ฝั่งขวา) ไฮไลต์สีตามทีม -----
+  const persRows=cfg.personnel.map((p,i)=>{
+    const a=memTeam[p.id]||memTeam[p.nick];
+    const nickCell=a?`background:${a.bg};color:${txtOn(a.bg)};font-weight:700`:`background:#f1f5f9;color:#94a3b8`;
+    return`<tr style="background:${i%2===0?"#f8fafc":"#fff"}"><td style="padding:2px 5px;font-size:8px;color:#94a3b8;text-align:center;border-bottom:1px solid #eef1f5">${i+1}</td><td style="padding:2px 5px;font-size:8px;color:#0A84FF;white-space:nowrap;border-bottom:1px solid #eef1f5">${p.phone||"—"}</td><td style="padding:2px 5px;font-size:8px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:2px 5px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5">${p.pos||"—"}</td><td style="padding:2px 5px;font-size:8px;text-align:center;border-bottom:1px solid #eef1f5;${nickCell}">${p.nick||p.id}</td></tr>`;
+  }).join("");
+
+  // ----- Legend สี (ทีม -> Site) -----
+  const colorLegend=act.length?`<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;padding:6px 8px;background:#f8fafc;border-radius:7px">${act.map(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};return`<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:${p.bg};display:inline-block"></span>${p.n} · ${t.site||""}</span>`;}).join("")}<span style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#334155"><span style="width:12px;height:12px;border-radius:3px;background:#f1f5f9;border:1px solid #cbd5e1;display:inline-block"></span>คนว่าง (${availP.length})</span></div>`:"";
+
+  // ----- Vehicle legend (ด้านล่าง) -----
+  const vehUsed=[...new Set(act.map(t=>t.vehicle).filter(Boolean))];
+  const vehHtml=vehUsed.length?`<div style="margin-top:12px;border-top:2px solid #1a2332;padding-top:8px;break-inside:avoid">
+    <div style="font-size:11px;font-weight:700;color:#1a2332;margin-bottom:5px">🚗 รถยนต์ที่ใช้งานวันนี้</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px">${vehUsed.map(v=>{const tt=act.find(t=>t.vehicle===v);const p=tt?(DPAL[tt.id-1]||{bg:"#636366",n:""}):{bg:"#636366",n:""};return`<span style="display:inline-flex;align-items:center;gap:5px;background:#fff;border:1.5px solid ${p.bg};color:#334155;border-radius:6px;padding:3px 9px;font-size:10px;font-weight:600"><span style="width:9px;height:9px;border-radius:50%;background:${p.bg};display:inline-block"></span>${v}<span style="color:#94a3b8;font-size:8px">${p.n}</span></span>`;}).join("")}</div>
+  </div>`:"";
+
   document.getElementById("pa").innerHTML=`
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;border-bottom:3px solid #1a2332;padding-bottom:10px">
-      <div><div style="font-size:19px;font-weight:700">AITs Dashboard — BRIEFING SHEET</div><div style="font-size:12px;color:#7a92ab;margin-top:3px">Advanced Industrial Techno &amp; Services Co., Ltd.</div></div>
-      <div style="text-align:right"><div style="font-size:14px;font-weight:700">${thd(dObj)}</div><div style="font-size:11px;color:#7a92ab">${dObj.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}</div></div>
+    <div style="background:#FFF200;border:2px solid #1a2332;border-radius:8px;padding:8px 14px;text-align:center;margin-bottom:10px">
+      <span style="font-size:18px;font-weight:800;color:#0B1120">แผนงานประจำวัน ${thd(dObj)}</span>
     </div>
-    <div style="display:flex;gap:9px;margin-bottom:14px">
-      ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพลรวม",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="flex:1;border:2px solid ${c};border-radius:8px;padding:8px 11px;text-align:center"><div style="font-size:22px;font-weight:700;color:${c}">${v}</div><div style="font-size:11px;color:#7a92ab">${l}</div></div>`).join("")}
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div style="font-size:11px;color:#7a92ab;font-weight:600">Advanced Industrial Techno &amp; Services Co., Ltd. — AITs Dashboard</div>
+      <div style="display:flex;gap:8px">
+        ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:4px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
+      </div>
     </div>
+    ${colorLegend}
     <div style="display:flex;gap:14px;align-items:flex-start;font-family:Tahoma,sans-serif">
-      <div style="flex:1.3;min-width:0">
-        <div style="font-size:11px;font-weight:700;margin-bottom:5px;color:#1a2332">📋 แผนงาน / Job Assignment</div>
-        <table style="width:100%;border-collapse:collapse;font-size:11px">
-          <thead><tr style="background:#1a2332">${["ทีม","ประเภท","Site","Job No.","ออก","ถึง","รถ"].map(h=>`<th style="color:#fff;padding:6px 8px;text-align:left;font-size:10px">${h}</th>`).join("")}</tr></thead>
-          <tbody>${act.length?act.map((t,i)=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const c=jc(t.jobType);return`<tr style="background:${i%2===0?"#f5f7fa":"#fff"}"><td style="padding:5px 8px"><span style="background:${p.bg};color:#fff;border-radius:5px;padding:2px 6px;font-size:9px;font-weight:700;white-space:nowrap;display:inline-block">${p.n}</span></td><td style="padding:5px 8px"><span style="background:${jbg(t.jobType)};color:${c};border-radius:5px;padding:1px 5px;font-size:9px;font-weight:700;white-space:nowrap">${jl(t.jobType)}</span></td><td style="padding:5px 8px;font-weight:600;font-size:10px">${t.site}</td><td style="padding:5px 8px;color:#0A84FF;font-size:10px">${t.jobNo}</td><td style="padding:5px 8px;font-weight:700;color:#FF453A">${t.depart||"—"}</td><td style="padding:5px 8px;font-weight:700;color:#30D158">${t.arrive||"—"}</td><td style="padding:5px 8px;font-size:10px">${t.vehicle}</td></tr>`;}).join(""):emptyRow}</tbody>
-        </table>
+      <div style="flex:1.35;min-width:0">
+        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
+        ${cardsHtml}
+        ${vehHtml}
       </div>
       <div style="flex:1;min-width:0">
-        <div style="font-size:11px;font-weight:700;margin-bottom:5px;color:#1a2332">👥 Manpower — กำลังพล (${pax} คน)</div>
-        ${mpHtml}
-        ${availHtml}
+        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">👥 รายชื่อกำลังพล (สีพื้น = ทีมที่จัด)</div>
+        <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0">
+          <thead><tr style="background:#1a2332">${["#","เบอร์โทร","ชื่อ-สกุล","ตำแหน่ง","ชื่อเล่น"].map(h=>`<th style="color:#fff;padding:3px 5px;text-align:left;font-size:8px">${h}</th>`).join("")}</tr></thead>
+          <tbody>${persRows}</tbody>
+        </table>
       </div>
     </div>
-    <div style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
-      ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:22px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
+    <div style="margin-top:18px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
+      ${["จัดทำโดย","ตรวจสอบโดย","อนุมัติโดย"].map(r=>`<div style="text-align:center"><div style="border-bottom:1px solid #1a2332;margin-bottom:5px;padding-bottom:20px"></div><div style="font-size:11px;color:#7a92ab">${r}</div></div>`).join("")}
     </div>
-    <div style="margin-top:12px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>`;
+    <div style="margin-top:10px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>`;
 }
 
 
