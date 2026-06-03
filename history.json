@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "3/6/2569",
-      "savedAt": "2026-06-03T11:08:45.971Z",
+      "savedAt": "2026-06-03T11:10:39.654Z",
       "teams": [
         {
           "id": 1,
@@ -4386,15 +4386,15 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": "Job No JB260106 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ไอซ์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "MM 300 E",
+          "contact": "ฉัตรชัย (ท๊อป)  093-3349527"
         },
         {
           "id": 4,
@@ -4483,5 +4483,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-03T11:08:45.971Z"
+  "lastUpdated": "2026-06-03T11:10:39.654Z"
 }
