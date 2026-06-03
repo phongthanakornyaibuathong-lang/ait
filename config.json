@@ -745,6 +745,16 @@
           "exp": null
         }
       }
+    },
+    {
+      "id": "ปลาย",
+      "nick": "ปลาย",
+      "name": "นาย ฐิติพงศ์  เสนามาตย์",
+      "pos": "Technician",
+      "phone": "",
+      "color": "#32d2d8",
+      "skills": [],
+      "safetyCards": {}
     }
   ],
   "vehicles": [
