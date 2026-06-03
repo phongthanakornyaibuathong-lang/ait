@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "3/6/2569",
-      "savedAt": "2026-06-03T11:12:32.870Z",
+      "savedAt": "2026-06-03T11:15:48.136Z",
       "teams": [
         {
           "id": 1,
@@ -4398,15 +4398,15 @@
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260115",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, อั๋น",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TSF 12",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 5,
@@ -4483,5 +4483,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-03T11:12:32.870Z"
+  "lastUpdated": "2026-06-03T11:15:48.136Z"
 }
