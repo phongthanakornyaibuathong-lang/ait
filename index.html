@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780485427 -->
+<!-- build:1780486555 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1477,13 +1477,21 @@ function printRender(){
       <table style="width:100%;border-collapse:collapse"><thead><tr style="background:#f1f5f9"><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ชื่อ-สกุล</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ตำแหน่ง</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">เบอร์โทร</th></tr></thead><tbody>${rows}</tbody></table>
     </div>`;
   }).join(""):`<div style="padding:14px;text-align:center;color:#7a92ab;font-size:11px;border:1px dashed #cbd5e1;border-radius:8px">— ไม่มีกำลังพล —</div>`;
+  // ----- คนว่าง: บุคลากรที่ยังไม่ถูกจัดเข้าทีมในวันนั้น -----
+  const deployedSet=new Set(act.flatMap(t=>mArr(t.members)));
+  const availP=cfg.personnel.filter(p=>!deployedSet.has(p.id)&&!deployedSet.has(p.nick));
+  const availRows=availP.length?availP.map(p=>`<tr><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#475569">${p.pos||"—"}</td><td style="padding:3px 6px;font-size:9px;border-bottom:1px solid #eef1f5;color:#0A84FF;white-space:nowrap">${p.phone||"—"}</td></tr>`).join(""):`<tr><td colspan="3" style="padding:4px 6px;font-size:9px;color:#94a3b8">— ไม่มีคนว่าง (จัดเข้าทีมครบ) —</td></tr>`;
+  const availHtml=`<div style="margin-top:10px;border:1px solid #cbd5e1;border-radius:7px;overflow:hidden;break-inside:avoid">
+    <div style="background:#64748b;color:#fff;padding:4px 8px;font-size:10px;font-weight:700;display:flex;justify-content:space-between;align-items:center"><span>🅿️ คนว่าง / ยังไม่ถูกจัดทีม</span><span style="font-size:9px;font-weight:600;opacity:.9">${availP.length} คน</span></div>
+    <table style="width:100%;border-collapse:collapse"><thead><tr style="background:#f1f5f9"><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ชื่อ-สกุล</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">ตำแหน่ง</th><th style="padding:3px 6px;text-align:left;font-size:8px;color:#64748b">เบอร์โทร</th></tr></thead><tbody>${availRows}</tbody></table>
+  </div>`;
   document.getElementById("pa").innerHTML=`
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;border-bottom:3px solid #1a2332;padding-bottom:10px">
       <div><div style="font-size:19px;font-weight:700">AITs Dashboard — BRIEFING SHEET</div><div style="font-size:12px;color:#7a92ab;margin-top:3px">Advanced Industrial Techno &amp; Services Co., Ltd.</div></div>
       <div style="text-align:right"><div style="font-size:14px;font-weight:700">${thd(dObj)}</div><div style="font-size:11px;color:#7a92ab">${dObj.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}</div></div>
     </div>
     <div style="display:flex;gap:9px;margin-bottom:14px">
-      ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพลรวม",pax,"#30D158"],["Total Jobs",act.length,"#BF5AF2"]].map(([l,v,c])=>`<div style="flex:1;border:2px solid ${c};border-radius:8px;padding:8px 11px;text-align:center"><div style="font-size:22px;font-weight:700;color:${c}">${v}</div><div style="font-size:11px;color:#7a92ab">${l}</div></div>`).join("")}
+      ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพลรวม",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="flex:1;border:2px solid ${c};border-radius:8px;padding:8px 11px;text-align:center"><div style="font-size:22px;font-weight:700;color:${c}">${v}</div><div style="font-size:11px;color:#7a92ab">${l}</div></div>`).join("")}
     </div>
     <div style="display:flex;gap:14px;align-items:flex-start;font-family:Tahoma,sans-serif">
       <div style="flex:1.3;min-width:0">
@@ -1496,6 +1504,7 @@ function printRender(){
       <div style="flex:1;min-width:0">
         <div style="font-size:11px;font-weight:700;margin-bottom:5px;color:#1a2332">👥 Manpower — กำลังพล (${pax} คน)</div>
         ${mpHtml}
+        ${availHtml}
       </div>
     </div>
     <div style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
