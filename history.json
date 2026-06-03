@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "3/6/2569",
-      "savedAt": "2026-06-03T12:11:55.417Z",
+      "savedAt": "2026-06-03T12:13:04.746Z",
       "teams": [
         {
           "id": 1,
@@ -4413,12 +4413,12 @@
           "jobType": "BOLT",
           "site": "Dcap Egat / โรงไฟฟ้า ศรีชาชา",
           "jobNo": "Job No. JB260113",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "depart": "06:30",
+          "arrive": "08:30",
+          "members": "เป้, นัฐ, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "",
-          "contact": ""
+          "contact": "ติดต่อ K.Preecha 081-472-0222"
         },
         {
           "id": 6,
@@ -4483,5 +4483,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-03T12:11:55.417Z"
+  "lastUpdated": "2026-06-03T12:13:04.746Z"
 }
