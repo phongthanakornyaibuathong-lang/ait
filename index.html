@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780573137 -->
+<!-- build:1780580471 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -324,6 +324,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   <div class="tab"     onclick="showTab('tomorrow',this)">📆 พรุ่งนี้</div>
   <div class="tab"     onclick="showTab('manpower',this)">👷 Manpower</div>
   <div class="tab"     onclick="showTab('cards',this)">🪪 บัตร</div>
+  <div class="tab"     onclick="showTab('leave',this)">🏖️ ลางาน</div>
   <div class="tab"     onclick="showTab('calendar',this)">📅 ปฏิทิน</div>
   <div class="tab"     onclick="showTab('history',this)">🕐 ประวัติ</div>
   <div class="tab"     onclick="showTab('report',this)">📊 รายงาน</div>
@@ -370,6 +371,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <button class="nbtn grn" id="card-add-btn" style="display:none" onclick="openCardEdit()">＋ เพิ่มบัตร</button>
   </div>
   <div id="cards-content"></div>
+</div></div>
+
+<!-- PAGE: LEAVE -->
+<div id="page-leave" class="page"><div class="main">
+  <div class="sec-head">
+    <div><div class="sec-title">🏖️ การลางาน / Leave</div><div class="sec-sub" id="leave-sub">บันทึก ลาป่วย / ลากิจ รายวัน</div></div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <input type="date" id="leave-date" onchange="renderLeave()" style="font-size:13px;padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:var(--input);color:var(--text)">
+      <button class="nbtn grn" id="leave-add-btn" style="display:none" onclick="openLeave()">＋ เพิ่มการลา</button>
+    </div>
+  </div>
+  <div id="leave-content"></div>
 </div></div>
 
 <!-- PAGE: HISTORY -->
@@ -601,6 +614,30 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   </div>
 </div>
 </div>
+
+<!-- LEAVE MODAL -->
+<div class="ov" id="lvov" onclick="if(event.target===this)closeLeave()">
+<div class="modal sm">
+  <div class="mhead">
+    <div class="mbg" id="lv-ic" style="background:var(--red)">🏖️</div>
+    <div><div class="mt" id="lv-mtitle">เพิ่มการลา</div><div class="ms">ลาป่วย / ลากิจ</div></div>
+    <button class="xbtn" onclick="closeLeave()">✕</button>
+  </div>
+  <div class="mbody">
+    <div class="fgrid">
+      <div class="fg full"><label class="flbl">พนักงาน</label><div class="selw"><select class="fsel" id="lv-person"></select></div></div>
+      <div class="fg"><label class="flbl">ประเภทการลา</label><div class="selw"><select class="fsel" id="lv-type"><option value="ลาป่วย">ลาป่วย</option><option value="ลากิจ">ลากิจ</option><option value="ลาพักร้อน">ลาพักร้อน</option></select></div></div>
+      <div class="fg"><label class="flbl">วันที่ลา</label><input class="fi" id="lv-date2" type="date"></div>
+      <div class="fg full"><label class="flbl">หมายเหตุ (ถ้ามี)</label><input class="fi" id="lv-note" placeholder="เช่น ไปโรงพยาบาล / ธุระครอบครัว"></div>
+    </div>
+  </div>
+  <div class="mfoot">
+    <button class="mbtn" id="lv-del" style="display:none;color:var(--red)" onclick="deleteLeave()">🗑 ลบ</button>
+    <button class="mbtn" onclick="closeLeave()">ยกเลิก</button>
+    <button class="mbtn pri" onclick="saveLeave()">💾 บันทึก</button>
+  </div>
+</div>
+</div>
 <div class="ov" id="aov" onclick="if(event.target===this)document.getElementById('aov').classList.remove('open')">
 <div class="modal sm">
   <div class="mhead">
@@ -794,6 +831,7 @@ function isLeaveType(id){const j=jtDef(id);return !!(j&&/ลา/.test(j.label));
 function leaveInfo(id){const j=jtDef(id);return j?{label:j.label,color:j.color||"#FF453A"}:{label:"ลา",color:"#FF453A"};}
 function ensureLeaveTypes(){
   if(!cfg.jobTypes)cfg.jobTypes=[];
+  if(!cfg.leaves)cfg.leaves=[];
   if(!cfg.jobTypes.some(j=>/ลาป่วย/.test(j.label)))cfg.jobTypes.push({id:"SICK",label:"ลาป่วย",color:"#FF453A"});
   if(!cfg.jobTypes.some(j=>/ลากิจ/.test(j.label)))cfg.jobTypes.push({id:"PERSONAL",label:"ลากิจ",color:"#FF9F0A"});
 }
@@ -974,6 +1012,91 @@ function deleteCard(){
   if(pi>=0&&cfg.personnel[pi].safetyCards){delete cfg.personnel[pi].safetyCards[cardEditSite];dirty=true;document.getElementById("sf").classList.add("show");}
   closeCardEdit();renderSafetyCards();toast(`🗑 ลบบัตร ${cardEditSite} แล้ว`,"info");
 }
+
+/* ═══════════════ LEAVE TAB (การลางาน) ═══════════════ */
+function leaveTypeColor(t){return /ลาป่วย/.test(t)?"#FF453A":/ลากิจ/.test(t)?"#FF9F0A":/พักร้อน/.test(t)?"#0A84FF":"#8E8E93";}
+function leaveDateKey(){const el=document.getElementById("leave-date");if(el&&el.value)return el.value;const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
+function renderLeave(){
+  if(!cfg.leaves)cfg.leaves=[];
+  const host=document.getElementById("leave-content");if(!host)return;
+  const di=document.getElementById("leave-date");if(di&&!di.value)di.value=leaveDateKey();
+  const addBtn=document.getElementById("leave-add-btn");if(addBtn)addBtn.style.display=isAdmin?"flex":"none";
+  const key=leaveDateKey();
+  const today=key;
+  const dayLeaves=cfg.leaves.filter(l=>l.date===key);
+  const sick=dayLeaves.filter(l=>/ลาป่วย/.test(l.type)).length;
+  const personal=dayLeaves.filter(l=>/ลากิจ/.test(l.type)).length;
+  const other=dayLeaves.length-sick-personal;
+  const sub=document.getElementById("leave-sub");if(sub){const[y,m,d]=key.split("-").map(Number);const thM=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];sub.textContent=`วันที่ ${d} ${thM[m-1]} ${y+543} · ลาทั้งหมด ${dayLeaves.length} คน`;}
+  const kpi=[["ลาทั้งหมด",dayLeaves.length,"#8E8E93","var(--bg3)"],["🤒 ลาป่วย",sick,"#FF453A","rgba(255,69,58,.1)"],["🧳 ลากิจ",personal,"#FF9F0A","rgba(255,159,10,.1)"],["🏝 อื่นๆ",other,"#0A84FF","rgba(10,132,255,.1)"]]
+    .map(([l,v,c,bg])=>`<div style="flex:1;min-width:110px;background:${bg};border:.5px solid var(--border);border-radius:12px;padding:11px 13px"><div style="font-size:24px;font-weight:800;color:${c};line-height:1">${v}</div><div style="font-size:11px;color:var(--text3);margin-top:3px">${l}</div></div>`).join("");
+  const pmap={};cfg.personnel.forEach(p=>{pmap[p.id]=p;if(p.nick)pmap[p.nick]=p;});
+  const rows=dayLeaves.length?dayLeaves.map(l=>{
+    const pe=pmap[l.person]||{name:l.person,nick:l.person,pos:""};const col=leaveTypeColor(l.type);
+    const click=isAdmin?`onclick="openLeave('${l.id}')" style="cursor:pointer"`:"";
+    return`<tr ${click}>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border)"><span style="background:${col}1f;color:${col};border:1px solid ${col}66;border-radius:6px;padding:2px 9px;font-size:11px;font-weight:700;white-space:nowrap">${l.type}</span></td>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);font-weight:600">${pe.nick||l.person}</td>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${pe.name||""}</td>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text3);font-size:12px">${pe.pos||""}</td>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${l.note||"—"}</td>
+      ${isAdmin?`<td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--blue)">✏️</td>`:""}
+    </tr>`;
+  }).join(""):`<tr><td colspan="${isAdmin?6:5}" style="text-align:center;padding:24px;color:var(--text3)">— ไม่มีการลาในวันนี้ —</td></tr>`;
+  const head=["ประเภท","ชื่อเล่น","ชื่อ-สกุล","ตำแหน่ง","หมายเหตุ"].concat(isAdmin?["แก้ไข"]:[]).map(h=>`<th style="padding:9px 10px;text-align:left;font-size:11px;color:var(--text3);font-weight:600;border-bottom:1px solid var(--border)">${h}</th>`).join("");
+  host.innerHTML=`<div style="display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px">${kpi}</div>
+    <div style="overflow:auto;border:.5px solid var(--border);border-radius:12px">
+      <table style="width:100%;border-collapse:collapse"><thead><tr style="background:var(--bg2)">${head}</tr></thead><tbody>${rows}</tbody></table>
+    </div>
+    ${isAdmin?'<div style="font-size:11px;color:var(--text3);margin-top:8px">💡 แตะแถวเพื่อแก้ไข · กด ＋ เพิ่มการลา · ข้อมูลจะแสดงในหน้า Print สรุปของวันนั้นด้วย</div>':''}`;
+}
+let leaveEditId="";
+function openLeave(id){
+  if(!isAdmin)return;
+  if(!cfg.leaves)cfg.leaves=[];
+  leaveEditId=id||"";
+  const sel=document.getElementById("lv-person");
+  sel.innerHTML=cfg.personnel.map(p=>`<option value="${p.id}">${p.nick||p.id} — ${p.name||""}</option>`).join("");
+  document.getElementById("lv-mtitle").textContent=id?"แก้ไขการลา":"เพิ่มการลา";
+  document.getElementById("lv-del").style.display=id?"block":"none";
+  if(id){
+    const l=cfg.leaves.find(x=>x.id===id)||{};
+    sel.value=l.person||cfg.personnel[0]?.id;
+    document.getElementById("lv-type").value=l.type||"ลาป่วย";
+    document.getElementById("lv-date2").value=l.date||leaveDateKey();
+    document.getElementById("lv-note").value=l.note||"";
+  }else{
+    sel.selectedIndex=0;document.getElementById("lv-type").value="ลาป่วย";
+    document.getElementById("lv-date2").value=leaveDateKey();document.getElementById("lv-note").value="";
+  }
+  document.getElementById("lvov").classList.add("open");
+}
+function closeLeave(){document.getElementById("lvov").classList.remove("open");}
+function saveLeave(){
+  if(!isAdmin)return;if(!cfg.leaves)cfg.leaves=[];
+  const person=document.getElementById("lv-person").value;
+  const type=document.getElementById("lv-type").value;
+  const date=document.getElementById("lv-date2").value;
+  const note=document.getElementById("lv-note").value.trim();
+  if(!person)return toast("เลือกพนักงาน","warn");
+  if(!date)return toast("เลือกวันที่ลา","warn");
+  if(leaveEditId){
+    const i=cfg.leaves.findIndex(x=>x.id===leaveEditId);
+    if(i>=0)cfg.leaves[i]={...cfg.leaves[i],person,type,date,note};
+  }else{
+    cfg.leaves.push({id:"lv"+Date.now()+Math.floor(Math.random()*1000),person,type,date,note});
+  }
+  dirty=true;document.getElementById("sf").classList.add("show");
+  if(document.getElementById("leave-date"))document.getElementById("leave-date").value=date;
+  closeLeave();renderLeave();toast("✓ บันทึกการลาแล้ว — กด 💾 เพื่อ Sync","ok");
+}
+function deleteLeave(){
+  if(!isAdmin||!leaveEditId)return;
+  if(!confirm("ลบรายการลานี้?"))return;
+  cfg.leaves=(cfg.leaves||[]).filter(x=>x.id!==leaveEditId);
+  dirty=true;document.getElementById("sf").classList.add("show");
+  closeLeave();renderLeave();toast("🗑 ลบการลาแล้ว","info");
+}
 function toggleTheme(){
   const t=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
   document.documentElement.setAttribute("data-theme",t);
@@ -992,6 +1115,7 @@ function showTab(page,el){
   if(page==="history")renderHistory();
   if(page==="manpower")renderManpower();
   if(page==="cards")renderSafetyCards();
+  if(page==="leave")renderLeave();
   if(page==="settings")renderSettings();
   if(page==="calendar")renderCalendar();
 }
@@ -1678,6 +1802,8 @@ function printRender(){
   // ลางาน (ลาป่วย/ลากิจ) — ตรวจจาก jobType ที่ label มี "ลา"
   const memLeave={};
   src.forEach(t=>{if(isLeaveType(t.jobType)){const lv=leaveInfo(t.jobType);mArr(t.members).forEach(m=>{memLeave[m]={label:lv.label,color:lv.color};});}});
+  // รวมการลาจากแท็บลางาน (cfg.leaves) ของวันที่นี้
+  (cfg.leaves||[]).forEach(l=>{if(l.date===dateKey){const pe=cfg.personnel.find(x=>x.id===l.person||x.nick===l.person);const col=(typeof leaveTypeColor==="function")?leaveTypeColor(l.type):"#FF453A";const inf={label:l.type,color:col};if(pe){memLeave[pe.id]=inf;if(pe.nick)memLeave[pe.nick]=inf;}else memLeave[l.person]=inf;}});
   const availP=cfg.personnel.filter(p=>!memTeam[p.id]&&!memTeam[p.nick]&&!memLeave[p.id]&&!memLeave[p.nick]);
   const leaveP=cfg.personnel.filter(p=>memLeave[p.id]||memLeave[p.nick]);
 
@@ -1773,25 +1899,30 @@ function printRender(){
   requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=1040;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
 }
 
-/* บันทึกหน้าสรุป Print เป็นรูป JPEG หน้าเดียว */
+/* บันทึกหน้าสรุป Print เป็นรูป JPEG หน้าเดียว (สัดส่วนตรงกับ preview) */
 function savePrintJpeg(){
   const inner=document.getElementById("pa-inner");
   if(!inner)return toast("เปิดหน้า Print ก่อน","warn");
   if(typeof html2canvas==="undefined")return toast("ไม่พบไลบรารีสร้างรูป (ลองรีเฟรช)","err");
   const prevZoom=inner.style.zoom;
-  inner.style.zoom="1"; // html2canvas ไม่รองรับ zoom → จับที่ขนาดจริง
+  inner.style.zoom="1"; // html2canvas ไม่รองรับ zoom → จับที่ขนาดจริง สัดส่วนเท่า preview
   toast("กำลังสร้างรูป JPEG...","info");
   const dk=(document.getElementById("pdate")&&document.getElementById("pdate").value)||new Date().toISOString().slice(0,10);
-  html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,windowWidth:inner.scrollWidth,windowHeight:inner.scrollHeight}).then(canvas=>{
-    inner.style.zoom=prevZoom;
-    canvas.toBlob(blob=>{
-      if(!blob)return toast("สร้างรูปไม่สำเร็จ","err");
-      const url=URL.createObjectURL(blob);
-      const a=document.createElement("a");a.href=url;a.download=`AITs_Plan_${dk}.jpg`;
-      document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
-      toast("✓ บันทึก JPEG เรียบร้อย","ok");
-    },"image/jpeg",0.92);
-  }).catch(e=>{inner.style.zoom=prevZoom;toast("สร้างรูปไม่สำเร็จ: "+(e.message||""),"err");});
+  // force reflow ให้ zoom=1 มีผลก่อนวัดขนาด
+  void inner.offsetHeight;
+  const w=inner.scrollWidth,h=inner.scrollHeight;
+  requestAnimationFrame(()=>{
+    html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,width:w,height:h,windowWidth:w,windowHeight:h,scrollX:0,scrollY:0,onclone:doc=>{const ci=doc.getElementById("pa-inner");if(ci){ci.style.zoom="1";ci.style.transform="none";ci.style.margin="0";}}}).then(canvas=>{
+      inner.style.zoom=prevZoom;
+      canvas.toBlob(blob=>{
+        if(!blob)return toast("สร้างรูปไม่สำเร็จ","err");
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement("a");a.href=url;a.download=`AITs_Plan_${dk}.jpg`;
+        document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+        toast("✓ บันทึก JPEG เรียบร้อย","ok");
+      },"image/jpeg",0.95);
+    }).catch(e=>{inner.style.zoom=prevZoom;toast("สร้างรูปไม่สำเร็จ: "+(e.message||""),"err");});
+  });
 }
 
 
@@ -1852,6 +1983,8 @@ function exportBackup(){
     // 5) Sites  6) Positions
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["site"],...(cfg.sites||[]).map(s=>[s])]),"Sites");
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["position"],...(cfg.positions||[]).map(s=>[s])]),"Positions");
+    // Leaves (การลา)
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["id","person","type","date","note"],...((cfg.leaves||[]).map(l=>[l.id||"",l.person||"",l.type||"",l.date||"",l.note||""]))]),"Leaves");
     // 7) Today_Teams
     const tk=["id","jobType","site","jobNo","depart","arrive","members","vehicle","equipment","contact","detail"];
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([tk,...(teams||[]).map(t=>tk.map(k=>t[k]??""))]),"Today_Teams");
@@ -1916,6 +2049,8 @@ function restoreBackup(file){
       if(equ&&equ.length)cfg.equipment=equ.filter(r=>String(r.label||"").trim()).map(r=>({id:String(r.id||"")||String(Math.random()).slice(2,6),label:String(r.label).trim()}));
       if(sit&&sit.length)cfg.sites=sit.map(r=>String(r.site||"").trim()).filter(Boolean);
       if(pos&&pos.length)cfg.positions=pos.map(r=>String(r.position||"").trim()).filter(Boolean);
+      const lvs=get("Leaves");
+      if(lvs)cfg.leaves=lvs.filter(r=>String(r.person||"").trim()&&String(r.date||"").trim()).map(r=>({id:String(r.id||"lv"+Date.now()+Math.floor(Math.random()*1e4)),person:String(r.person).trim(),type:String(r.type||"ลาป่วย").trim(),date:String(r.date).trim(),note:String(r.note||"").trim()}));
       if(newTeams)teams=newTeams;
       if(newHist)historyData=newHist;
       dirty=true;document.getElementById("sf").classList.add("show");
@@ -1923,6 +2058,7 @@ function restoreBackup(file){
       try{renderCards();}catch(e){}
       try{renderManpower();}catch(e){}
       try{renderSafetyCards();}catch(e){}
+      try{renderLeave();}catch(e){}
       try{renderSettings();updateBackupStatus();}catch(e){}
       try{renderHistory();}catch(e){}
       toast(`✓ Restore สำเร็จ — พนักงาน ${cfg.personnel.length} คน · กด 💾 เพื่อ Sync ขึ้น cloud`,"ok");
