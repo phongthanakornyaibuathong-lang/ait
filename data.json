@@ -2,16 +2,16 @@
   "teams": [
     {
       "id": 1,
-      "jobType": "BOLT",
+      "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
       "jobNo": "JB260096",
       "depart": "06:30",
       "arrive": "07:00",
-      "members": "บิ๊ก, โอม, บีม, โอ๊ด",
+      "members": "บิ๊ก, บีม, เอิร์ก",
       "vehicle": "— เลือกรถ —",
       "equipment": "TTFF-24 S/N250948",
       "contact": "กับตัน 080-047-1014",
-      "locname": "AIT & Services Workshop"
+      "locname": "CFP"
     },
     {
       "id": 2,
@@ -126,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-03T12:43:53.076Z",
+  "lastUpdated": "2026-06-04T05:49:15.812Z",
   "updatedBy": "Nine",
-  "date": "3/6/2569"
+  "date": "4/6/2569"
 }
