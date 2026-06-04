@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T08:08:21.773Z",
+      "savedAt": "2026-06-04T08:10:01.224Z",
       "teams": [
         {
           "id": 1,
@@ -4707,9 +4707,9 @@
           "jobType": "ผรม.",
           "site": "",
           "jobNo": "-",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "depart": "08:30",
+          "arrive": "17:30",
+          "members": "นันทปรีชา",
           "vehicle": "",
           "equipment": "",
           "contact": "-"
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T08:08:21.773Z"
+  "lastUpdated": "2026-06-04T08:10:01.224Z"
 }
