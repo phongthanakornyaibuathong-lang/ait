@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T08:30:43.028Z",
+      "savedAt": "2026-06-04T08:33:21.058Z",
       "teams": [
         {
           "id": 1,
@@ -4705,11 +4705,11 @@
         {
           "id": 8,
           "jobType": "ผรม.",
-          "site": "AITs work shop ระยอง",
+          "site": "",
           "jobNo": "-",
-          "depart": "08:30",
-          "arrive": "17:30",
-          "members": "นันทปรีชา, กิตติศักดิ์, วิเชียร, พิเชษฐ์, สัญชัย",
+          "depart": "",
+          "arrive": "",
+          "members": "พิเชษฐ์",
           "vehicle": "",
           "equipment": "",
           "contact": "-"
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T08:30:43.028Z"
+  "lastUpdated": "2026-06-04T08:33:21.058Z"
 }
