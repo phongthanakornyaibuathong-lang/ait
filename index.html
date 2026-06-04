@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780568448 -->
+<!-- build:1780573137 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -7,6 +7,7 @@
 <title>AITs Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Tahoma&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
 :root{--ff:Tahoma,Geneva,Verdana,sans-serif;--blue:#0A84FF;--green:#30D158;--red:#FF453A;--orange:#FF9F0A;--purple:#BF5AF2;--teal:#32D2D8;--indigo:#5E5CE6;--gold:#FFD60A}
@@ -546,6 +547,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         <div class="selw"><select class="fsel" id="fe" onchange="onEquipChg()"><option value="">— เลือก —</option></select></div>
         <input class="fi" id="fe-txt" placeholder="ระบุเครื่องมือ..." style="display:none;margin-top:6px">
       </div>
+      <div class="fg full">
+        <label class="flbl">📝 รายละเอียดงาน</label>
+        <textarea class="fi" id="fdetail" rows="2" placeholder="เช่น Pipe 12&quot; THK..mm SS316 / คลึง flange / ขอบเขตงาน..." style="resize:vertical;font-family:inherit"></textarea>
+      </div>
     </div>
   </div>
   <div class="mfoot">
@@ -684,6 +689,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <button class="mbtn" style="font-size:14px;padding:4px 10px;line-height:1" onclick="printShiftDay(1)" title="วันถัดไป">›</button>
     <button class="mbtn" style="margin-left:8px;font-size:12px" onclick="printRender()">🔄 อัปเดต</button>
     <button class="mbtn pri" style="margin-left:8px;font-size:12px" onclick="window.print()">🖨 พิมพ์</button>
+    <button class="mbtn" style="margin-left:8px;font-size:12px;background:#30D158;color:#fff" onclick="savePrintJpeg()">📷 บันทึก JPEG</button>
     <button class="mbtn" style="margin-left:8px;font-size:12px" onclick="document.getElementById('pov').classList.remove('show')">✕ ปิด</button>
   </div>
   <div id="pa" style="max-width:960px;margin:0 auto;padding:22px 26px;color:#0B1120;font-family:Tahoma,sans-serif"></div>
@@ -783,6 +789,14 @@ const jc  =id=>cfg.jobTypes.find(j=>j.id===id)?.color??"#636366";
 const jl  =id=>cfg.jobTypes.find(j=>j.id===id)?.label??id;
 const jbg =id=>jc(id)+"18";
 const isSB=t=>t.jobType==="STANDBY"||!t.site;
+function jtDef(id){return (cfg.jobTypes||[]).find(x=>x.id===id)||null;}
+function isLeaveType(id){const j=jtDef(id);return !!(j&&/ลา/.test(j.label));}
+function leaveInfo(id){const j=jtDef(id);return j?{label:j.label,color:j.color||"#FF453A"}:{label:"ลา",color:"#FF453A"};}
+function ensureLeaveTypes(){
+  if(!cfg.jobTypes)cfg.jobTypes=[];
+  if(!cfg.jobTypes.some(j=>/ลาป่วย/.test(j.label)))cfg.jobTypes.push({id:"SICK",label:"ลาป่วย",color:"#FF453A"});
+  if(!cfg.jobTypes.some(j=>/ลากิจ/.test(j.label)))cfg.jobTypes.push({id:"PERSONAL",label:"ลากิจ",color:"#FF9F0A"});
+}
 const mArr=s=>s?s.split(",").map(x=>x.trim()).filter(Boolean):[];
 
 /* ═══════════════════════════ UTILS ══════════════════════════ */
@@ -1015,10 +1029,12 @@ async function loadCloud(){
       if(c.sites&&c.sites.length)cfg.sites=c.sites;
       if(c.skills&&c.skills.length)cfg.skills=c.skills;
     }
+    ensureLeaveTypes();
     renderAll();checkDups();checkExpiry();
   }catch(e){
     setSS("err","โหลดไม่สำเร็จ: "+e.message);
     try{const s=localStorage.getItem("aits_v4");if(s){const d=JSON.parse(s);teams=d.teams||[];if(d.cfg)Object.assign(cfg,d.cfg);}}catch(_){}
+    ensureLeaveTypes();
     renderAll();checkDups();checkExpiry();
   }
 }
@@ -1175,6 +1191,7 @@ function renderCards(){
       ${t.vehicle?`<div class="veh">🚗 <b>${t.vehicle}</b>${dupV.has(t.vehicle)?` <span class="wpill">ซ้ำ</span>`:""}</div>`:""}
       ${ctHtml?`<div class="veh ctc">📞 <span>${ctHtml}</span></div>`:""}
       ${eqTags?`<div class="veh eqp">🔧 <span class="eqtags">${eqTags}</span></div>`:""}
+      ${!sb&&t.detail?`<div class="veh" style="align-items:flex-start">📝 <span style="font-size:12px;color:var(--text2)">${t.detail}</span></div>`:""}
       ${t.locname?`<div class="veh loc"><a href="https://www.google.com/maps/search/${encodeURIComponent(t.locname)}" target="_blank" style="color:var(--blue);text-decoration:none;display:flex;align-items:center;gap:4px">🗺️ <span>${t.locname}</span></a></div>`:""}`;
     return`<div class="card">
       <div class="card-accent" style="background:${sb?"var(--bg4)":p.bg}"></div>
@@ -1534,6 +1551,7 @@ function openE(id){
   document.getElementById("et").textContent="แก้ไข "+p.n;
   populateDrops();
   document.getElementById("fj").value=t.jobNo||"";document.getElementById("fc").value=t.contact||"";document.getElementById("floc-search").value=t.locname||"";
+  document.getElementById("fdetail").value=t.detail||"";
   setSel("fs",t.site,"_other","fs-txt");setSel("fd",t.depart);setSel("fa",t.arrive);
   setSel("fv",t.vehicle);setSel("fe",t.equipment,"_other","fe-txt");
   document.getElementById("mem-warn").style.display="none";document.getElementById("veh-warn").style.display="none";
@@ -1563,7 +1581,7 @@ function saveE(){
   const i=teams.findIndex(t=>t.id===eid);
   teams[i]={...teams[i],jobType:ejt,site:sv,jobNo:document.getElementById("fj").value.trim(),
     depart:document.getElementById("fd").value,arrive:document.getElementById("fa").value,
-    members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),locname:document.getElementById("floc-search").value.trim()};
+    members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),locname:document.getElementById("floc-search").value.trim(),detail:document.getElementById("fdetail").value.trim()};
   closeE();dirty=true;
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
@@ -1657,7 +1675,11 @@ function printRender(){
   const txtOn=hex=>{const c=(hex||"#636366").replace('#','');const r=parseInt(c.slice(0,2),16),g=parseInt(c.slice(2,4),16),b=parseInt(c.slice(4,6),16);return(0.299*r+0.587*g+0.114*b)>155?'#0B1120':'#fff';};
   const memTeam={};
   act.forEach(t=>{const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};mArr(t.members).forEach(m=>{memTeam[m]={bg:p.bg,n:p.n,site:t.site};});});
-  const availP=cfg.personnel.filter(p=>!memTeam[p.id]&&!memTeam[p.nick]);
+  // ลางาน (ลาป่วย/ลากิจ) — ตรวจจาก jobType ที่ label มี "ลา"
+  const memLeave={};
+  src.forEach(t=>{if(isLeaveType(t.jobType)){const lv=leaveInfo(t.jobType);mArr(t.members).forEach(m=>{memLeave[m]={label:lv.label,color:lv.color};});}});
+  const availP=cfg.personnel.filter(p=>!memTeam[p.id]&&!memTeam[p.nick]&&!memLeave[p.id]&&!memLeave[p.nick]);
+  const leaveP=cfg.personnel.filter(p=>memLeave[p.id]||memLeave[p.nick]);
 
   // ----- Job cards (ฝั่งซ้าย) 2 ทีม/แถว -----
   const cardsHtml=act.length?`<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">${act.map(t=>{
@@ -1679,6 +1701,7 @@ function printRender(){
         </div>
         <div style="font-size:9px;color:#94a3b8;margin-bottom:2px">สมาชิก (${ms.length} คน):</div>
         <div>${chips}</div>
+        ${t.detail?`<div style="font-size:9px;color:#475569;margin-top:5px;padding-top:5px;border-top:1px dashed #e2e8f0"><b>📝 รายละเอียด:</b> ${t.detail}</div>`:""}
       </div>
     </div>`;
   }).join("")}</div>`:`<div style="padding:20px;text-align:center;color:#7a92ab;font-size:12px;border:1px dashed #cbd5e1;border-radius:8px">— ไม่มีข้อมูลแผนงานสำหรับวันที่นี้ —</div>`;
@@ -1686,8 +1709,9 @@ function printRender(){
   // ----- Personnel master table (ฝั่งขวา): คอลัมน์แรก = ทีมที่ไป, ลำดับเดิม -----
   const persRows=cfg.personnel.map((p,i)=>{
     const a=memTeam[p.id]||memTeam[p.nick];
-    const teamCell=a?`<span style="background:${a.bg};color:${txtOn(a.bg)};border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${a.n}</span>`:`<span style="background:#FFF4E5;color:#b45309;border:1px solid #FCD9A8;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700">ว่าง</span>`;
-    const rowBg=a?(i%2===0?"#f8fafc":"#fff"):"#FFFBF4";
+    const lv=memLeave[p.id]||memLeave[p.nick];
+    const teamCell=a?`<span style="background:${a.bg};color:${txtOn(a.bg)};border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${a.n}</span>`:lv?`<span style="background:${lv.color}1f;color:${lv.color};border:1px solid ${lv.color}66;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${lv.label}</span>`:`<span style="background:#FFF4E5;color:#b45309;border:1px solid #FCD9A8;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700">ว่าง</span>`;
+    const rowBg=a?(i%2===0?"#f8fafc":"#fff"):lv?"#FFF5F5":"#FFFBF4";
     return`<tr style="background:${rowBg}"><td style="padding:2px 4px;text-align:center;border-bottom:1px solid #eef1f5">${teamCell}</td><td style="padding:2px 5px;font-size:8px;color:#0A84FF;white-space:nowrap;border-bottom:1px solid #eef1f5">${p.phone||"—"}</td><td style="padding:2px 5px;font-size:8px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:2px 5px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5">${p.pos||"—"}</td><td style="padding:2px 5px;font-size:8px;font-weight:600;text-align:center;border-bottom:1px solid #eef1f5">${p.nick||p.id}</td></tr>`;
   }).join("");
 
@@ -1704,10 +1728,13 @@ function printRender(){
     <div style="font-size:10px;font-weight:700;color:#15803d;margin-bottom:4px">🚗 รถออกงาน (${vehUsedLabels.length})</div>
     <div style="display:flex;flex-wrap:wrap;gap:5px">${vehUsedLabels.length?vehUsedLabels.map(usedChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ไม่มี —</span>'}</div>
   </div>`;
-  // ขวา: รถว่าง (คนว่างแสดงในตารางรายชื่อ ช่องทีม = "ว่าง")
+  // ขวา: รถว่าง + ลางาน (คนว่างแสดงในตารางรายชื่อ ช่องทีม = "ว่าง")
+  const leaveChips=leaveP.length?leaveP.map(p=>{const lv=memLeave[p.id]||memLeave[p.nick]||{label:"ลา",color:"#FF453A"};return`<span style="display:inline-block;background:${lv.color}1a;border:1px solid ${lv.color}55;color:${lv.color};border-radius:6px;padding:2px 8px;font-size:10px;font-weight:600;margin:2px 0">${p.nick||p.id} · ${lv.label}</span>`;}).join(""):'<span style="color:#94a3b8;font-size:10px">— ไม่มีคนลางาน —</span>';
   const idleHtml=`<div style="margin-top:8px;border-top:2px solid #1a2332;padding-top:7px;break-inside:avoid">
     <div style="font-size:10px;font-weight:700;color:#94a3b8;margin-bottom:4px">🅿️ รถว่าง / ไม่ได้ออกหน้างาน (${vehFree.length})</div>
-    <div style="display:flex;flex-wrap:wrap;gap:5px">${vehFree.length?vehFree.map(freeChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ออกงานครบทุกคัน —</span>'}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px">${vehFree.length?vehFree.map(freeChip).join(""):'<span style="color:#94a3b8;font-size:10px">— ออกงานครบทุกคัน —</span>'}</div>
+    <div style="font-size:10px;font-weight:700;color:#FF453A;margin-bottom:4px">🤒 ลางาน — ลาป่วย / ลากิจ (${leaveP.length})</div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px">${leaveChips}</div>
   </div>`;
 
   document.getElementById("pa").innerHTML=`
@@ -1718,7 +1745,7 @@ function printRender(){
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
       <div style="font-size:11px;color:#7a92ab;font-weight:600">Advanced Industrial Techno &amp; Services Co., Ltd. — AITs Dashboard</div>
       <div style="display:flex;gap:8px">
-        ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:3px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
+        ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"],["ลางาน",leaveP.length,"#FF453A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:3px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
       </div>
     </div>
     <div style="display:flex;gap:12px;align-items:flex-start;font-family:Tahoma,sans-serif">
@@ -1744,6 +1771,27 @@ function printRender(){
     </div>`;
   // auto scale-to-fit ให้จบ 1 หน้า A4 (ใช้ zoom เพื่อย่อ layout จริง)
   requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=1040;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
+}
+
+/* บันทึกหน้าสรุป Print เป็นรูป JPEG หน้าเดียว */
+function savePrintJpeg(){
+  const inner=document.getElementById("pa-inner");
+  if(!inner)return toast("เปิดหน้า Print ก่อน","warn");
+  if(typeof html2canvas==="undefined")return toast("ไม่พบไลบรารีสร้างรูป (ลองรีเฟรช)","err");
+  const prevZoom=inner.style.zoom;
+  inner.style.zoom="1"; // html2canvas ไม่รองรับ zoom → จับที่ขนาดจริง
+  toast("กำลังสร้างรูป JPEG...","info");
+  const dk=(document.getElementById("pdate")&&document.getElementById("pdate").value)||new Date().toISOString().slice(0,10);
+  html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,windowWidth:inner.scrollWidth,windowHeight:inner.scrollHeight}).then(canvas=>{
+    inner.style.zoom=prevZoom;
+    canvas.toBlob(blob=>{
+      if(!blob)return toast("สร้างรูปไม่สำเร็จ","err");
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement("a");a.href=url;a.download=`AITs_Plan_${dk}.jpg`;
+      document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+      toast("✓ บันทึก JPEG เรียบร้อย","ok");
+    },"image/jpeg",0.92);
+  }).catch(e=>{inner.style.zoom=prevZoom;toast("สร้างรูปไม่สำเร็จ: "+(e.message||""),"err");});
 }
 
 
@@ -1805,7 +1853,7 @@ function exportBackup(){
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["site"],...(cfg.sites||[]).map(s=>[s])]),"Sites");
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["position"],...(cfg.positions||[]).map(s=>[s])]),"Positions");
     // 7) Today_Teams
-    const tk=["id","jobType","site","jobNo","depart","arrive","members","vehicle","equipment","contact"];
+    const tk=["id","jobType","site","jobNo","depart","arrive","members","vehicle","equipment","contact","detail"];
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([tk,...(teams||[]).map(t=>tk.map(k=>t[k]??""))]),"Today_Teams");
     // 8) History (teams stored as JSON per day)
     const hAOA=[["date","savedAt","teams_json"]];
@@ -1854,7 +1902,7 @@ function restoreBackup(file){
       const newTeams=tt?tt.filter(r=>r.id!==""&&r.id!=null).map(r=>({
         id:Number(r.id)||1,jobType:String(r.jobType||"STANDBY"),site:String(r.site||""),jobNo:String(r.jobNo||""),
         depart:String(r.depart||""),arrive:String(r.arrive||""),members:String(r.members||""),
-        vehicle:String(r.vehicle||""),equipment:String(r.equipment||""),contact:String(r.contact||"")
+        vehicle:String(r.vehicle||""),equipment:String(r.equipment||""),contact:String(r.contact||""),detail:String(r.detail||"")
       })):null;
       // History
       const hist=get("History");
@@ -2201,6 +2249,7 @@ function renderPlanModal(){
         </div>
         <input class="fi" list="eqlist${i}" style="font-size:12px;padding:7px 10px" value="${t.equipment||""}" oninput="pfSetField(${i},'equipment',this.value)" placeholder="เครื่องมือ — เลือกหรือพิมพ์">
         <datalist id="eqlist${i}">${(cfg.equipment||[]).map(e=>`<option value="${e.label}"></option>`).join("")}</datalist>
+        <textarea class="fi" style="grid-column:1/-1;font-size:12px;padding:7px 10px;resize:vertical;font-family:inherit" rows="2" oninput="pfSetField(${i},'detail',this.value)" placeholder="📝 รายละเอียดงาน เช่น Pipe 12&quot; THK..mm / ขอบเขตงาน">${t.detail||""}</textarea>
       </div>
     </div>`;
   });
