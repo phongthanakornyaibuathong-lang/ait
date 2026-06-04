@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T09:07:56.647Z",
+      "savedAt": "2026-06-04T09:08:26.613Z",
       "teams": [
         {
           "id": 1,
@@ -4646,7 +4646,7 @@
           "id": 3,
           "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "Job No JB260xxx",
+          "jobNo": "Job No JB260118",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "กาน(นำ), ปลาย, ต้าร์",
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T09:07:56.647Z"
+  "lastUpdated": "2026-06-04T09:08:26.613Z"
 }
