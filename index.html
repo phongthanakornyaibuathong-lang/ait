@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780580471 -->
+<!-- build:1780581522 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1838,7 +1838,7 @@ function printRender(){
     const lv=memLeave[p.id]||memLeave[p.nick];
     const teamCell=a?`<span style="background:${a.bg};color:${txtOn(a.bg)};border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${a.n}</span>`:lv?`<span style="background:${lv.color}1f;color:${lv.color};border:1px solid ${lv.color}66;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700;white-space:nowrap">${lv.label}</span>`:`<span style="background:#FFF4E5;color:#b45309;border:1px solid #FCD9A8;border-radius:4px;padding:1px 6px;font-size:8px;font-weight:700">ว่าง</span>`;
     const rowBg=a?(i%2===0?"#f8fafc":"#fff"):lv?"#FFF5F5":"#FFFBF4";
-    return`<tr style="background:${rowBg}"><td style="padding:2px 4px;text-align:center;border-bottom:1px solid #eef1f5">${teamCell}</td><td style="padding:2px 5px;font-size:8px;color:#0A84FF;white-space:nowrap;border-bottom:1px solid #eef1f5">${p.phone||"—"}</td><td style="padding:2px 5px;font-size:8px;border-bottom:1px solid #eef1f5">${p.name||p.nick||p.id}</td><td style="padding:2px 5px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5">${p.pos||"—"}</td><td style="padding:2px 5px;font-size:8px;font-weight:600;text-align:center;border-bottom:1px solid #eef1f5">${p.nick||p.id}</td></tr>`;
+    return`<tr style="background:${rowBg}"><td style="padding:2px 4px;text-align:center;border-bottom:1px solid #eef1f5">${teamCell}</td><td style="padding:2px 4px;font-size:8px;color:#0A84FF;border-bottom:1px solid #eef1f5;word-break:break-word">${p.phone||"—"}</td><td style="padding:2px 4px;font-size:8px;border-bottom:1px solid #eef1f5;word-break:break-word;line-height:1.25">${p.name||p.nick||p.id}</td><td style="padding:2px 4px;font-size:8px;color:#64748b;border-bottom:1px solid #eef1f5;word-break:break-word">${p.pos||"—"}</td><td style="padding:2px 4px;font-size:8px;font-weight:600;text-align:center;border-bottom:1px solid #eef1f5;word-break:break-word">${p.nick||p.id}</td></tr>`;
   }).join("");
 
   // ----- Legend สี (ทีม -> Site) -----
@@ -1882,8 +1882,9 @@ function printRender(){
       </div>
       <div style="flex:1;min-width:0">
         <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">👥 รายชื่อกำลังพล (ทีม = ทีมที่ไป · "ว่าง" = ไม่ได้ออกงาน)</div>
-        <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0">
-          <thead><tr style="background:#1a2332">${["ทีม","เบอร์โทร","ชื่อ-สกุล","ตำแหน่ง","ชื่อเล่น"].map(h=>`<th style="color:#fff;padding:3px 5px;text-align:left;font-size:8px">${h}</th>`).join("")}</tr></thead>
+        <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0;table-layout:fixed">
+          <colgroup><col style="width:13%"><col style="width:21%"><col style="width:31%"><col style="width:19%"><col style="width:16%"></colgroup>
+          <thead><tr style="background:#1a2332">${["ทีม","เบอร์โทร","ชื่อ-สกุล","ตำแหน่ง","ชื่อเล่น"].map(h=>`<th style="color:#fff;padding:3px 4px;text-align:left;font-size:8px;word-break:break-word">${h}</th>`).join("")}</tr></thead>
           <tbody>${persRows}</tbody>
         </table>
         ${idleHtml}
@@ -1914,12 +1915,19 @@ function savePrintJpeg(){
   requestAnimationFrame(()=>{
     html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,width:w,height:h,windowWidth:w,windowHeight:h,scrollX:0,scrollY:0,onclone:doc=>{const ci=doc.getElementById("pa-inner");if(ci){ci.style.zoom="1";ci.style.transform="none";ci.style.margin="0";}}}).then(canvas=>{
       inner.style.zoom=prevZoom;
-      canvas.toBlob(blob=>{
+      // วางลงผืน A4 portrait (contain) → ได้รูปสัดส่วน A4 ครบทุกข้อมูลใน 1 หน้า
+      const A4W=1587,A4H=2245; // ~A4 @192dpi
+      const out=document.createElement("canvas");out.width=A4W;out.height=A4H;
+      const ctx=out.getContext("2d");ctx.fillStyle="#ffffff";ctx.fillRect(0,0,A4W,A4H);
+      const pad=24,sc=Math.min((A4W-pad*2)/canvas.width,(A4H-pad*2)/canvas.height);
+      const dw=canvas.width*sc,dh=canvas.height*sc;
+      ctx.drawImage(canvas,(A4W-dw)/2,pad,dw,dh);
+      out.toBlob(blob=>{
         if(!blob)return toast("สร้างรูปไม่สำเร็จ","err");
         const url=URL.createObjectURL(blob);
         const a=document.createElement("a");a.href=url;a.download=`AITs_Plan_${dk}.jpg`;
         document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
-        toast("✓ บันทึก JPEG เรียบร้อย","ok");
+        toast("✓ บันทึก JPEG (A4) เรียบร้อย","ok");
       },"image/jpeg",0.95);
     }).catch(e=>{inner.style.zoom=prevZoom;toast("สร้างรูปไม่สำเร็จ: "+(e.message||""),"err");});
   });
