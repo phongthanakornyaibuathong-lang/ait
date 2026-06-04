@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780489353 -->
+<!-- build:1780533938 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -322,6 +322,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   <div class="tab on"  onclick="showTab('dispatch',this)">🚀 แผนงานวันนี้</div>
   <div class="tab"     onclick="showTab('tomorrow',this)">📆 พรุ่งนี้</div>
   <div class="tab"     onclick="showTab('manpower',this)">👷 Manpower</div>
+  <div class="tab"     onclick="showTab('cards',this)">🪪 บัตร</div>
   <div class="tab"     onclick="showTab('calendar',this)">📅 ปฏิทิน</div>
   <div class="tab"     onclick="showTab('history',this)">🕐 ประวัติ</div>
   <div class="tab"     onclick="showTab('report',this)">📊 รายงาน</div>
@@ -359,6 +360,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   <div class="mp-grid" id="mp-avail"></div>
   <div class="sec-head" style="margin-top:8px"><div><div class="sec-title">🚀 พนักงานที่ออกงานวันนี้</div><div class="sec-sub" id="deploy-count"></div></div></div>
   <div class="mp-grid" id="mp-deploy"></div>
+</div></div>
+
+<!-- PAGE: SAFETY CARDS -->
+<div id="page-cards" class="page"><div class="main">
+  <div class="sec-head">
+    <div><div class="sec-title">🪪 บัตรเข้าพื้นที่ / Safety Card</div><div class="sec-sub" id="card-sub">ติดตามวันหมดอายุ · แจ้งเตือนล่วงหน้า 30 วัน</div></div>
+    <button class="nbtn grn" id="card-add-btn" style="display:none" onclick="openCardEdit()">＋ เพิ่มบัตร</button>
+  </div>
+  <div id="cards-content"></div>
 </div></div>
 
 <!-- PAGE: HISTORY -->
@@ -546,7 +556,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 </div>
 </div>
 
-<!-- ADD ITEM MODAL -->
+<!-- CARD EDIT MODAL -->
+<div class="ov" id="cardov" onclick="if(event.target===this)closeCardEdit()">
+<div class="modal sm">
+  <div class="mhead">
+    <div class="mbg" id="card-ic" style="background:var(--orange)">🪪</div>
+    <div><div class="mt" id="card-mtitle">เพิ่มบัตร</div><div class="ms">วันที่ทำ · อายุบัตร · วันหมดอายุ</div></div>
+    <button class="xbtn" onclick="closeCardEdit()">✕</button>
+  </div>
+  <div class="mbody">
+    <div class="fgrid">
+      <div class="fg full"><label class="flbl">พนักงาน</label><div class="selw"><select class="fsel" id="cf-person"></select></div></div>
+      <div class="fg full"><label class="flbl">Site / พื้นที่</label><input class="fi" id="cf-site" list="cf-sitelist" placeholder="เช่น SCC/TOP"><datalist id="cf-sitelist"></datalist></div>
+      <div class="fg"><label class="flbl">วันที่ทำบัตร</label><input class="fi" id="cf-issue" type="date" onchange="cfRecalc()"></div>
+      <div class="fg"><label class="flbl">อายุบัตร</label><div class="selw"><select class="fsel" id="cf-years" onchange="cfRecalc()"><option value="">— ไม่มีวันหมด —</option><option value="1">1 ปี</option><option value="2">2 ปี</option><option value="3">3 ปี</option><option value="0.5">6 เดือน</option><option value="custom">กำหนดเอง</option></select></div></div>
+      <div class="fg full"><label class="flbl">วันหมดอายุ</label><input class="fi" id="cf-exp" type="date" onchange="cfExpManual()"></div>
+    </div>
+    <div id="cf-preview" style="margin-top:11px;padding:10px 12px;border-radius:10px;background:var(--bg3);font-size:12px;color:var(--text2)"></div>
+  </div>
+  <div class="mfoot">
+    <button class="mbtn" id="cf-del" style="display:none;color:var(--red)" onclick="deleteCard()">🗑 ลบ</button>
+    <button class="mbtn" onclick="closeCardEdit()">ยกเลิก</button>
+    <button class="mbtn pri" onclick="saveCard()">💾 บันทึก</button>
+  </div>
+</div>
+</div>
 <div class="ov" id="aov" onclick="if(event.target===this)document.getElementById('aov').classList.remove('open')">
 <div class="modal sm">
   <div class="mhead">
@@ -750,7 +784,7 @@ function setSS(s,t){document.getElementById("sd").className="sdot "+s;document.g
 function scStatus(expStr){
   if(!expStr) return "noexp";
   const exp=new Date(expStr), now=new Date(), warn=new Date(exp);
-  warn.setMonth(warn.getMonth()-1);
+  warn.setDate(warn.getDate()-30);
   if(exp<now) return "exp";
   if(warn<=now) return "warn";
   return "ok";
@@ -774,7 +808,143 @@ function getExpiringSoon(){
   return warns;
 }
 
-/* ═══════════════════════════ THEME ══════════════════════════ */
+/* ═══════════════ SAFETY CARD MONITOR (แท็บบัตร) ═══════════════ */
+let cardFilter="";
+function allSites(){
+  const s=new Set();
+  cfg.personnel.forEach(p=>Object.keys(p.safetyCards||{}).forEach(k=>s.add(k)));
+  ["Qtech/TOP","STECON","SCC/TOP","STP&I","CUEL","HMC","GPSC","IRPC","SCG","GCM PTA","PTT โรงแยก","PTTLNG","Kuraray","TNS","TPAC","PTTOR","SPRC","GC/GC ME"].forEach(k=>s.add(k));
+  return [...s].sort((a,b)=>a.localeCompare(b,'th'));
+}
+function daysLeft(expStr){if(!expStr)return null;const e=new Date(expStr);e.setHours(0,0,0,0);const t=new Date();t.setHours(0,0,0,0);return Math.round((e-t)/86400000);}
+function validityTxt(issue,exp){
+  if(!issue||!exp)return "—";
+  const i=new Date(issue),e=new Date(exp);
+  let m=(e.getFullYear()-i.getFullYear())*12+(e.getMonth()-i.getMonth());
+  if(e.getDate()<i.getDate())m--;
+  if(m<0)return "—";
+  const y=Math.floor(m/12),mm=m%12;
+  return ((y?y+" ปี ":"")+(mm?mm+" ด.":"")).trim()||"0 ด.";
+}
+function daysCell(days,st){
+  if(days==null)return '<span style="color:var(--text3)">ไม่มีวันหมด</span>';
+  if(days<0)return `<span style="color:var(--red);font-weight:700">หมดแล้ว ${-days} วัน</span>`;
+  const col=st==="warn"?"var(--orange)":"var(--green)";
+  return `<span style="color:${col};font-weight:${st==='warn'?700:500}">เหลือ ${days} วัน</span>`;
+}
+function renderSafetyCards(){
+  const host=document.getElementById("cards-content");if(!host)return;
+  const addBtn=document.getElementById("card-add-btn");if(addBtn)addBtn.style.display=isAdmin?"flex":"none";
+  const rows=[];
+  cfg.personnel.forEach(p=>Object.entries(p.safetyCards||{}).forEach(([site,c])=>{
+    const st=scStatus(c.exp);
+    rows.push({pid:p.id,nick:p.nick||p.id,name:p.name||p.id,pos:p.pos||"",site,issue:c.issue||"",exp:c.exp||"",st,days:daysLeft(c.exp)});
+  }));
+  const cTotal=rows.length,cExp=rows.filter(r=>r.st==="exp").length,cWarn=rows.filter(r=>r.st==="warn").length,cOk=rows.filter(r=>r.st==="ok").length,cNo=rows.filter(r=>r.st==="noexp").length;
+  const ord={exp:0,warn:1,ok:2,noexp:3};
+  rows.sort((a,b)=>{if(ord[a.st]!==ord[b.st])return ord[a.st]-ord[b.st];if(a.days==null&&b.days==null)return a.nick.localeCompare(b.nick,'th');if(a.days==null)return 1;if(b.days==null)return -1;return a.days-b.days;});
+  const sub=document.getElementById("card-sub");if(sub)sub.textContent=`รวม ${cTotal} บัตร · ⚠ ใกล้หมด ${cWarn} · ✕ หมดแล้ว ${cExp} · แจ้งเตือนล่วงหน้า 30 วัน`;
+  const kpi=[["รวมบัตร",cTotal,"var(--blue)","rgba(10,132,255,.1)"],["✕ หมดแล้ว",cExp,"var(--red)","rgba(255,69,58,.1)"],["⚠ ใกล้หมด (≤30 วัน)",cWarn,"var(--orange)","rgba(255,159,10,.1)"],["✓ ใช้ได้",cOk,"var(--green)","rgba(48,209,88,.1)"],["~ ไม่มีวันหมด",cNo,"var(--text3)","var(--bg3)"]]
+    .map(([l,v,c,bg])=>`<div style="flex:1;min-width:110px;background:${bg};border:.5px solid var(--border);border-radius:12px;padding:11px 13px"><div style="font-size:24px;font-weight:800;color:${c};line-height:1">${v}</div><div style="font-size:11px;color:var(--text3);margin-top:3px">${l}</div></div>`).join("");
+  const alerts=rows.filter(r=>r.st==="warn"||r.st==="exp");
+  const banner=alerts.length?`<div style="background:rgba(255,159,10,.1);border:.5px solid rgba(255,159,10,.3);border-radius:12px;padding:11px 14px;margin-bottom:14px">
+    <div style="font-size:12px;font-weight:700;color:var(--orange);margin-bottom:6px">🔔 ต้องดำเนินการ — บัตรหมดแล้ว/ใกล้หมดภายใน 30 วัน (${alerts.length})</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px">${alerts.map(r=>`<span style="font-size:11px;background:var(--bg2);border:.5px solid var(--border);border-radius:8px;padding:3px 9px;color:var(--text2)"><b>${r.nick}</b> · ${r.site} · ${r.st==="exp"?'<span style="color:var(--red)">หมดแล้ว</span>':`<span style="color:var(--orange)">เหลือ ${r.days} วัน</span>`}</span>`).join("")}</div>
+  </div>`:`<div style="background:rgba(48,209,88,.1);border:.5px solid rgba(48,209,88,.25);border-radius:12px;padding:11px 14px;margin-bottom:14px;font-size:12px;color:var(--green);font-weight:600">✅ ไม่มีบัตรที่หมดอายุหรือใกล้หมดภายใน 30 วัน</div>`;
+  const f=cardFilter.trim().toLowerCase();
+  const fr=f?rows.filter(r=>(r.nick+" "+r.name+" "+r.site+" "+r.pos).toLowerCase().includes(f)):rows;
+  const dotOf=st=>({exp:"var(--red)",warn:"var(--orange)",ok:"var(--green)",noexp:"var(--text3)"}[st]);
+  const body=fr.length?fr.map(r=>{
+    const click=isAdmin?`onclick="openCardEdit('${r.pid.replace(/'/g,"\\'")}','${r.site.replace(/'/g,"\\'")}')" style="cursor:pointer"`:"";
+    return`<tr ${click}>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border)"><span style="display:inline-flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:${dotOf(r.st)};display:inline-block"></span>${scLabel(r.st)}</span></td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);font-weight:600">${r.nick}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${r.name}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);font-weight:600">${r.site}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);font-size:12px;color:var(--text2)">${r.issue||"—"}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);font-size:12px;font-weight:600">${r.exp||"—"}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border);font-size:12px;color:var(--text2)">${validityTxt(r.issue,r.exp)}</td>
+      <td style="padding:7px 9px;border-bottom:.5px solid var(--border)">${daysCell(r.days,r.st)}</td>
+      ${isAdmin?`<td style="padding:7px 9px;border-bottom:.5px solid var(--border);color:var(--blue);font-size:12px">✏️</td>`:""}
+    </tr>`;
+  }).join(""):`<tr><td colspan="${isAdmin?9:8}" style="text-align:center;padding:20px;color:var(--text3)">— ไม่พบบัตรที่ตรงกับการค้นหา —</td></tr>`;
+  const head=["สถานะ","ชื่อเล่น","ชื่อ-สกุล","Site","วันที่ทำ","วันหมดอายุ","อายุบัตร","คงเหลือ"].concat(isAdmin?["แก้ไข"]:[]).map(h=>`<th style="padding:8px 9px;text-align:left;font-size:11px;color:var(--text3);font-weight:600;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2);white-space:nowrap">${h}</th>`).join("");
+  host.innerHTML=`<div style="display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px">${kpi}</div>${banner}
+    <input id="card-search" class="fi" placeholder="🔍 ค้นหา ชื่อ / Site / ตำแหน่ง" value="${cardFilter.replace(/"/g,'&quot;')}" oninput="cardFilter=this.value;renderSafetyCards()" style="margin-bottom:11px;max-width:340px">
+    <div style="overflow:auto;border:.5px solid var(--border);border-radius:12px;max-height:62vh">
+      <table style="width:100%;border-collapse:collapse;font-family:var(--ff)"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>
+    </div>
+    ${isAdmin?'<div style="font-size:11px;color:var(--text3);margin-top:8px">💡 แตะที่แถวเพื่อแก้ไขบัตร · กดปุ่ม ＋ เพิ่มบัตร เพื่อเพิ่มใหม่</div>':''}`;
+  const si=document.getElementById("card-search");if(si&&f){si.focus();si.setSelectionRange(si.value.length,si.value.length);}
+}
+
+/* ---- card edit modal ---- */
+let cardEditMode="add",cardEditPid="",cardEditSite="";
+function openCardEdit(pid,site){
+  if(!isAdmin)return;
+  cardEditMode=pid?"edit":"add";cardEditPid=pid||"";cardEditSite=site||"";
+  const sel=document.getElementById("cf-person");
+  sel.innerHTML=cfg.personnel.map(p=>`<option value="${p.id}">${p.nick||p.id} — ${p.name||""}</option>`).join("");
+  document.getElementById("cf-sitelist").innerHTML=allSites().map(s=>`<option value="${s}">`).join("");
+  document.getElementById("card-mtitle").textContent=pid?"แก้ไขบัตร":"เพิ่มบัตร";
+  document.getElementById("cf-del").style.display=pid?"block":"none";
+  if(pid){
+    const p=cfg.personnel.find(x=>x.id===pid),c=(p&&p.safetyCards&&p.safetyCards[site])||{};
+    sel.value=pid;sel.disabled=true;
+    document.getElementById("cf-site").value=site||"";document.getElementById("cf-site").disabled=true;
+    document.getElementById("cf-issue").value=c.issue||"";
+    document.getElementById("cf-exp").value=c.exp||"";
+    document.getElementById("cf-years").value=c.exp?"custom":"";
+  }else{
+    sel.disabled=false;sel.selectedIndex=0;
+    const st=document.getElementById("cf-site");st.value="";st.disabled=false;
+    document.getElementById("cf-issue").value="";document.getElementById("cf-exp").value="";document.getElementById("cf-years").value="";
+  }
+  cfRecalc();
+  document.getElementById("cardov").classList.add("open");
+}
+function closeCardEdit(){document.getElementById("cardov").classList.remove("open");}
+function cfRecalc(){
+  const issue=document.getElementById("cf-issue").value;
+  const yrs=document.getElementById("cf-years").value;
+  const expEl=document.getElementById("cf-exp");
+  if(yrs===""){expEl.value="";expEl.disabled=true;}
+  else if(yrs==="custom"){expEl.disabled=false;}
+  else{expEl.disabled=true;if(issue){const d=new Date(issue);const y=parseFloat(yrs);const w=Math.floor(y);d.setFullYear(d.getFullYear()+w);const fr=y-w;if(fr)d.setMonth(d.getMonth()+Math.round(fr*12));expEl.value=d.toISOString().slice(0,10);}}
+  cfPreview();
+}
+function cfExpManual(){document.getElementById("cf-years").value="custom";cfPreview();}
+function cfPreview(){
+  const issue=document.getElementById("cf-issue").value,exp=document.getElementById("cf-exp").value;
+  const pv=document.getElementById("cf-preview");
+  if(!exp){pv.innerHTML='🔹 บัตรนี้ <b>ไม่มีวันหมดอายุ</b>';return;}
+  const st=scStatus(exp),d=daysLeft(exp);
+  const c=st==="exp"?"var(--red)":st==="warn"?"var(--orange)":"var(--green)";
+  pv.innerHTML=`🔹 หมดอายุ: <b>${exp}</b> · อายุบัตร <b>${validityTxt(issue,exp)}</b><br><span style="color:${c};font-weight:700">${st==="exp"?`✕ หมดอายุแล้ว ${-d} วัน`:st==="warn"?`⚠ ใกล้หมด — เหลือ ${d} วัน`:`✓ ใช้ได้ — เหลือ ${d} วัน`}</span>`;
+}
+function saveCard(){
+  if(!isAdmin)return;
+  const pid=document.getElementById("cf-person").value;
+  const site=document.getElementById("cf-site").value.trim();
+  const issue=document.getElementById("cf-issue").value;
+  let exp=document.getElementById("cf-exp").value||null;
+  if(document.getElementById("cf-years").value==="")exp=null;
+  if(!pid)return toast("กรุณาเลือกพนักงาน","warn");
+  if(!site)return toast("กรุณากรอก Site","warn");
+  if(!issue)return toast("กรุณากรอกวันที่ทำบัตร","warn");
+  const pi=cfg.personnel.findIndex(x=>x.id===pid);if(pi<0)return;
+  if(!cfg.personnel[pi].safetyCards)cfg.personnel[pi].safetyCards={};
+  cfg.personnel[pi].safetyCards[site]={issue,exp};
+  dirty=true;document.getElementById("sf").classList.add("show");
+  closeCardEdit();renderSafetyCards();toast(`✓ บันทึกบัตร ${site} ของ ${pid} แล้ว`,"ok");
+}
+function deleteCard(){
+  if(!isAdmin||!cardEditPid)return;
+  if(!confirm(`ลบบัตร ${cardEditSite} ของ ${cardEditPid}?`))return;
+  const pi=cfg.personnel.findIndex(x=>x.id===cardEditPid);
+  if(pi>=0&&cfg.personnel[pi].safetyCards){delete cfg.personnel[pi].safetyCards[cardEditSite];dirty=true;document.getElementById("sf").classList.add("show");}
+  closeCardEdit();renderSafetyCards();toast(`🗑 ลบบัตร ${cardEditSite} แล้ว`,"info");
+}
 function toggleTheme(){
   const t=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
   document.documentElement.setAttribute("data-theme",t);
@@ -792,6 +962,7 @@ function showTab(page,el){
   if(page==="report")buildReport();
   if(page==="history")renderHistory();
   if(page==="manpower")renderManpower();
+  if(page==="cards")renderSafetyCards();
   if(page==="settings")renderSettings();
   if(page==="calendar")renderCalendar();
 }
@@ -920,7 +1091,7 @@ function enterAdmin(){
   document.getElementById("plan-btn").style.display="flex";
   document.getElementById("tok-row").style.display="flex";
   document.getElementById("tok-status").textContent=getTok()?"ตั้งค่าแล้ว ✓":"ยังไม่ได้ตั้งค่า";
-  renderCards();renderSettings();toast("✓ เข้าโหมดแก้ไข","ok");
+  renderCards();renderSafetyCards();renderSettings();toast("✓ เข้าโหมดแก้ไข","ok");
 }
 function exitAdmin(){
   isAdmin=false;dirty=false;
@@ -929,7 +1100,7 @@ function exitAdmin(){
   document.getElementById("ibtn").style.display="none";
   document.getElementById("plan-btn").style.display="none";
   document.getElementById("sf").classList.remove("show");
-  renderCards();toast("ออกจากโหมดแก้ไข","info");
+  renderCards();renderSafetyCards();toast("ออกจากโหมดแก้ไข","info");
 }
 
 /* ═══════════════════════════ DUPLICATE / EXPIRY CHECK ═══════ */
