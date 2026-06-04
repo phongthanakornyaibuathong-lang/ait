@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T07:55:34.928Z",
+      "savedAt": "2026-06-04T07:56:57.651Z",
       "teams": [
         {
           "id": 1,
@@ -4674,7 +4674,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, ฟีล์ม, โอ๊ด",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 12",
           "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
@@ -4692,15 +4692,15 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "SCG TPE Site #3",
-          "jobNo": "Job No JB260xxx",
-          "depart": "07:30",
-          "arrive": "08:00",
-          "members": "แชมป์, ป๋อ, โอม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง จีรพัทธ (สุด) 0954595149"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T07:55:34.928Z"
+  "lastUpdated": "2026-06-04T07:56:57.651Z"
 }
