@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780539015 -->
+<!-- build:1780568448 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -2062,8 +2062,30 @@ function openDayPlan(){
   openPlanModal(calSelDate);
 }
 
+let pfPrefillSrc="";
+function getLatestPlanTeams(excludeKey){
+  const cand=[];
+  const today=new Date(),tk=calDateKey(today.getFullYear(),today.getMonth(),today.getDate());
+  if(tk!==excludeKey&&Array.isArray(teams)&&teams.some(t=>t.site||t.members))cand.push({ts:today.getTime(),key:tk,teams});
+  Object.entries(dayPlans).forEach(([k,p])=>{
+    if(k===excludeKey||!p||!Array.isArray(p.teams))return;
+    if(p.teams.some(t=>t.site||t.members))cand.push({ts:(p.savedAt?Date.parse(p.savedAt):Date.parse(k+"T12:00:00"))||0,key:k,teams:p.teams});
+  });
+  (Array.isArray(historyData)?historyData:[]).forEach(h=>{
+    if(!h||!Array.isArray(h.teams))return;
+    if(h.savedAt&&h.savedAt.startsWith(excludeKey))return;
+    if(h.teams.some(t=>t.site||t.members))cand.push({ts:(h.savedAt?Date.parse(h.savedAt):0)||0,key:(h.savedAt||"").slice(0,10)||h.date||"",teams:h.teams});
+  });
+  if(!cand.length)return null;
+  cand.sort((a,b)=>b.ts-a.ts);
+  const best=cand[0];
+  let lbl=best.key;
+  if(/^\d{4}-\d{2}-\d{2}$/.test(best.key)){const[ly,lm,ld]=best.key.split("-").map(Number);const thM=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];lbl=`${ld} ${thM[lm-1]} ${ly+543}`;}
+  return {teams:JSON.parse(JSON.stringify(best.teams)),label:lbl};
+}
 function openPlanModal(dateKey){
   if(!isAdmin)return;
+  pfPrefillSrc="";
   const [y,m,d]=dateKey.split("-").map(Number);
   const thMonths=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
   // Set date picker value (format YYYY-MM-DD)
@@ -2077,6 +2099,11 @@ function openPlanModal(dateKey){
     // Fall back to any saved/synced data (history) so existing plan can be edited
     let existing=[];
     try{existing=getTeamsForDate(dateKey)||[];}catch(e){existing=[];}
+    // ถ้าวันนั้นยังไม่มีข้อมูลเลย → ดึงจากแผนล่าสุดมาเป็นต้นแบบ (ลดเวลากรอก)
+    if(!existing.some(t=>t.site||t.members)){
+      const latest=getLatestPlanTeams(dateKey);
+      if(latest&&latest.teams.some(t=>t.site||t.members)){existing=latest.teams;pfPrefillSrc=latest.label;}
+    }
     // Always present 10 team slots; merge existing data by team id
     const blank=Array.from({length:10},(_,i)=>({
       id:i+1,jobType:"STANDBY",site:"",jobNo:"",
@@ -2118,6 +2145,7 @@ function renderPlanModal(){
   let html=`<div style="background:rgba(10,132,255,.07);border:.5px solid rgba(10,132,255,.15);border-radius:10px;padding:10px 13px;font-size:12px;color:var(--text2)">
     📋 วางแผนล่วงหน้า — ข้อมูลจะบันทึกแยกต่างหากจากแผนวันนี้
   </div>`;
+  if(pfPrefillSrc)html+=`<div style="background:rgba(48,209,88,.08);border:.5px solid rgba(48,209,88,.22);border-radius:10px;padding:9px 13px;font-size:11px;color:var(--green);margin-top:6px">✨ ดึงข้อมูลจาก<b>แผนล่าสุด (${pfPrefillSrc})</b> มาให้แล้ว — แก้ไขได้ตามต้องการ แล้วกดบันทึก</div>`;
 
   // Active teams
   html+=`<div style="font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.5px;margin-top:4px">ทีมงาน (${activeTeams.length} ทีม)</div>`;
