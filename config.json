@@ -29,11 +29,6 @@
       "id": "STANDBY",
       "label": "STANDBY",
       "color": "#636366"
-    },
-    {
-      "id": "ไม่สบาย",
-      "label": "ลาป่วย",
-      "color": "#5d666f"
     }
   ],
   "personnel": [
@@ -858,7 +853,8 @@
     "Dcap Egat / โรงไฟฟ้า ศรีชาชา",
     "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
     "Work shop AITs.",
-    "ออฟฟิศ AITs ประทุมธานี"
+    "ออฟฟิศ AITs ประทุมธานี",
+    "Thai Oil ท่าเรือ"
   ],
   "skills": [
     {
