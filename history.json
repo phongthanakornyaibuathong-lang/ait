@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T05:54:46.942Z",
+      "savedAt": "2026-06-04T05:56:49.748Z",
       "teams": [
         {
           "id": 1,
@@ -4644,15 +4644,15 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "Job No JB260xxx",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
         },
         {
           "id": 4,
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T05:54:46.942Z"
+  "lastUpdated": "2026-06-04T05:56:49.748Z"
 }
