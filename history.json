@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T09:08:57.328Z",
+      "savedAt": "2026-06-04T09:24:11.140Z",
       "teams": [
         {
           "id": 1,
@@ -4681,14 +4681,14 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Thai Oil ท่าเรือ",
-          "jobNo": "Job No JB260116",
-          "depart": "05:30",
-          "arrive": "06:00",
-          "members": "กรานต์, เป้, ทาม",
+          "site": "CUEL งาน Torque Unit 3",
+          "jobNo": "Job No JB260098",
+          "depart": "06:30",
+          "arrive": "07:30",
+          "members": "เป้, นัฐ, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง สายัน 0979451547"
+          "contact": "ปิยพงษ์  0994419388"
         },
         {
           "id": 7,
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T09:08:57.328Z"
+  "lastUpdated": "2026-06-04T09:24:11.140Z"
 }
