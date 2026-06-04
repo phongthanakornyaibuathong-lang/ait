@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780581522 -->
+<!-- build:1780581727 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -291,7 +291,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .rep-grid{grid-template-columns:1fr}.nd{display:none}
   .nbtn .hs{display:none}
 }
-@page{size:A4 portrait;margin:6mm}
+@page{size:A4 landscape;margin:6mm}
 @media print{.pbar,.nopr{display:none!important}#pov{position:static;overflow:visible}#pa{padding:0!important}body{background:#fff!important}#pa,#pa *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}}
 </style>
 <script id="ait-head">
@@ -1864,7 +1864,7 @@ function printRender(){
   </div>`;
 
   document.getElementById("pa").innerHTML=`
-    <div id="pa-inner" style="width:749px;max-width:100%;margin:0 auto;background:#fff;color:#0B1120">
+    <div id="pa-inner" style="width:1075px;max-width:100%;margin:0 auto;background:#fff;color:#0B1120">
     <div style="background:#FFF200;border:2px solid #1a2332;border-radius:8px;padding:7px 14px;text-align:center;margin-bottom:9px">
       <span style="font-size:18px;font-weight:800;color:#0B1120">แผนงานประจำวัน ${thd(dObj)}</span>
     </div>
@@ -1897,7 +1897,7 @@ function printRender(){
     <div style="margin-top:8px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>
     </div>`;
   // auto scale-to-fit ให้จบ 1 หน้า A4 (ใช้ zoom เพื่อย่อ layout จริง)
-  requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=1040;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
+  requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=740;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
 }
 
 /* บันทึกหน้าสรุป Print เป็นรูป JPEG หน้าเดียว (สัดส่วนตรงกับ preview) */
@@ -1916,7 +1916,7 @@ function savePrintJpeg(){
     html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,width:w,height:h,windowWidth:w,windowHeight:h,scrollX:0,scrollY:0,onclone:doc=>{const ci=doc.getElementById("pa-inner");if(ci){ci.style.zoom="1";ci.style.transform="none";ci.style.margin="0";}}}).then(canvas=>{
       inner.style.zoom=prevZoom;
       // วางลงผืน A4 portrait (contain) → ได้รูปสัดส่วน A4 ครบทุกข้อมูลใน 1 หน้า
-      const A4W=1587,A4H=2245; // ~A4 @192dpi
+      const A4W=2245,A4H=1587; // ~A4 landscape @192dpi
       const out=document.createElement("canvas");out.width=A4W;out.height=A4H;
       const ctx=out.getContext("2d");ctx.fillStyle="#ffffff";ctx.fillRect(0,0,A4W,A4H);
       const pad=24,sc=Math.min((A4W-pad*2)/canvas.width,(A4H-pad*2)/canvas.height);
