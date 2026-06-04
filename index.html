@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780581727 -->
+<!-- build:1780582081 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1808,7 +1808,7 @@ function printRender(){
   const leaveP=cfg.personnel.filter(p=>memLeave[p.id]||memLeave[p.nick]);
 
   // ----- Job cards (ฝั่งซ้าย) 2 ทีม/แถว -----
-  const cardsHtml=act.length?`<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">${act.map(t=>{
+  const cardsHtml=act.length?`<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px">${act.map(t=>{
     const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const ms=mArr(t.members);
     const chips=ms.length?ms.map(m=>{const pe=pmap[m]||{nick:m};return`<span style="display:inline-block;background:${p.bg};color:${txtOn(p.bg)};border-radius:5px;padding:2px 7px;margin:2px 3px 2px 0;font-size:10px;font-weight:700;white-space:nowrap">${pe.nick||m}</span>`;}).join(""):`<span style="color:#94a3b8;font-size:10px">— ยังไม่กำหนดสมาชิก —</span>`;
     return`<div style="border:1px solid #e2e8f0;border-left:5px solid ${p.bg};border-radius:8px;overflow:hidden;break-inside:avoid">
@@ -1875,7 +1875,7 @@ function printRender(){
       </div>
     </div>
     <div style="display:flex;gap:12px;align-items:flex-start;font-family:Tahoma,sans-serif">
-      <div style="flex:1.35;min-width:0">
+      <div style="flex:1.7;min-width:0">
         <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
         ${cardsHtml}
         ${vehOutHtml}
