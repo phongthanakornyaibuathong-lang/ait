@@ -823,6 +823,10 @@
     {
       "id": "Cold cut",
       "label": "TSF 12"
+    },
+    {
+      "id": "Pump",
+      "label": "Hydraulic torque"
     }
   ],
   "sites": [
@@ -849,9 +853,7 @@
     "Dcap Egat / โรงไฟฟ้า ศรีชาชา",
     "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
     "Work shop AITs.",
-    "ออฟฟิศ AITs ประทุมธานี",
-    "Thai Oil ท่าเรือ",
-    "SCG TPE Site #3"
+    "ออฟฟิศ AITs ประทุมธานี"
   ],
   "skills": [
     {
