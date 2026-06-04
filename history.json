@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T08:35:01.290Z",
+      "savedAt": "2026-06-04T09:07:04.010Z",
       "teams": [
         {
           "id": 1,
@@ -4694,7 +4694,7 @@
           "id": 7,
           "jobType": "BOLT",
           "site": "SCG TPE Site #3",
-          "jobNo": "Job No JB260xxx",
+          "jobNo": "Job No JB260117",
           "depart": "07:30",
           "arrive": "08:00",
           "members": "แชมป์, ป๋อ, โอม",
@@ -4705,11 +4705,11 @@
         {
           "id": 8,
           "jobType": "ผรม.",
-          "site": "AITs work shop ระยอง",
+          "site": "",
           "jobNo": "-",
-          "depart": "08:30",
-          "arrive": "17:30",
-          "members": "นันทปรีชา, กิตติศักดิ์, วิเชียร, พิเชษฐ์, สัญชัย",
+          "depart": "",
+          "arrive": "",
+          "members": "พิเชษฐ์",
           "vehicle": "",
           "equipment": "",
           "contact": "-"
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T08:35:01.290Z"
+  "lastUpdated": "2026-06-04T09:07:04.010Z"
 }
