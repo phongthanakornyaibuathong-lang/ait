@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "4/6/2569",
-      "savedAt": "2026-06-04T07:47:58.945Z",
+      "savedAt": "2026-06-04T07:49:56.943Z",
       "teams": [
         {
           "id": 1,
@@ -4680,15 +4680,15 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "Thai Oil ท่าเรือ",
+          "jobNo": "Job No JB260xxx",
+          "depart": "05:30",
+          "arrive": "06:00",
+          "members": "กรานต์, เป้, ทาม",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง สายัน 0979451547"
         },
         {
           "id": 7,
@@ -4741,5 +4741,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-04T07:47:58.945Z"
+  "lastUpdated": "2026-06-04T07:49:56.943Z"
 }
