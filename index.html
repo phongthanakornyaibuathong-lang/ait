@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780533938 -->
+<!-- build:1780539015 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -418,6 +418,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <div class="set-sec-title">Skills</div>
     <div class="item-list" id="skill-list"></div>
     <div style="padding:9px 17px"><button class="add-btn" onclick="openAdd('skill')">＋ เพิ่ม Skill</button></div>
+  </div>
+  <div class="set-sec">
+    <div class="set-sec-title">💾 สำรองข้อมูล (Backup / Restore)</div>
+    <div class="set-row">
+      <div class="set-ic" style="background:rgba(48,209,88,.1)">📊</div>
+      <div style="flex:1"><div class="set-lbl">Backup เป็น Excel</div><div class="set-sub" id="backup-status">ดาวน์โหลดข้อมูลทั้งหมดเป็นไฟล์ .xlsx</div></div>
+      <button class="nbtn grn" onclick="exportBackup()">⬇ Backup</button>
+    </div>
+    <div class="set-row" id="restore-row" style="display:none">
+      <div class="set-ic" style="background:rgba(255,159,10,.1)">📥</div>
+      <div style="flex:1"><div class="set-lbl">Restore จาก Excel</div><div class="set-sub">กู้คืนข้อมูลจากไฟล์ backup (.xlsx)</div></div>
+      <button class="nbtn" onclick="document.getElementById('restore-file').click()">📂 เลือกไฟล์</button>
+      <input type="file" id="restore-file" accept=".xlsx,.xls" style="display:none" onchange="if(this.files[0])restoreBackup(this.files[0]);this.value='';">
+    </div>
+    <div style="padding:6px 17px;font-size:11px;color:var(--text3)" id="backup-reminder"></div>
   </div>
   <div class="set-sec">
     <div class="set-sec-title">ระบบ</div>
@@ -1426,6 +1441,8 @@ function renderSettings(){
       ${isAdmin?`<button class="del-btn" onclick="delItem('skill',${i})">×</button>`:""}
     </div>`).join("");
   document.getElementById("theme-lbl").textContent=document.documentElement.getAttribute("data-theme")==="dark"?"Dark Mode":"Light Mode";
+  const rr=document.getElementById("restore-row");if(rr)rr.style.display=isAdmin?"flex":"none";
+  updateBackupStatus();
 }
 function delItem(type,idx){
   if(!isAdmin)return;if(!confirm("ลบรายการนี้?"))return;
@@ -1767,7 +1784,123 @@ function exportExcel(){
   toast("✓ Export CSV เรียบร้อย","ok");
 }
 
-/* ══════════════════ CALENDAR STATE ══════════════════════════ */
+/* ══════════════════ EXCEL BACKUP / RESTORE ══════════════════ */
+function exportBackup(){
+  if(typeof XLSX==="undefined")return toast("ไม่พบไลบรารี Excel","err");
+  try{
+    const wb=XLSX.utils.book_new();
+    const now=new Date(),stamp=now.toISOString().slice(0,10);
+    // 1) Personnel
+    const persAOA=[["id","nick","name","phone","pos","color","skills"]];
+    cfg.personnel.forEach(p=>persAOA.push([p.id,p.nick||"",p.name||"",p.phone||"",p.pos||"",p.color||"",(p.skills||[]).join(",")]));
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet(persAOA),"Personnel");
+    // 2) SafetyCards
+    const scAOA=[["person_id","nick","site","issue","exp"]];
+    cfg.personnel.forEach(p=>Object.entries(p.safetyCards||{}).forEach(([site,c])=>scAOA.push([p.id,p.nick||"",site,c.issue||"",c.exp||""])));
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet(scAOA),"SafetyCards");
+    // 3) Vehicles  4) Equipment
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["id","label"],...(cfg.vehicles||[]).map(v=>[v.id||"",v.label||""])]),"Vehicles");
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["id","label"],...(cfg.equipment||[]).map(v=>[v.id||"",v.label||""])]),"Equipment");
+    // 5) Sites  6) Positions
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["site"],...(cfg.sites||[]).map(s=>[s])]),"Sites");
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["position"],...(cfg.positions||[]).map(s=>[s])]),"Positions");
+    // 7) Today_Teams
+    const tk=["id","jobType","site","jobNo","depart","arrive","members","vehicle","equipment","contact"];
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([tk,...(teams||[]).map(t=>tk.map(k=>t[k]??""))]),"Today_Teams");
+    // 8) History (teams stored as JSON per day)
+    const hAOA=[["date","savedAt","teams_json"]];
+    (Array.isArray(historyData)?historyData:[]).forEach(h=>hAOA.push([h.date||"",h.savedAt||"",JSON.stringify(h.teams||[])]));
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet(hAOA),"History");
+    // 9) _Info
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([
+      ["AITs Dashboard Backup"],["created",now.toLocaleString("th-TH")],["personnel",cfg.personnel.length],
+      ["safety_cards",cfg.personnel.reduce((n,p)=>n+Object.keys(p.safetyCards||{}).length,0)],
+      ["history_days",(historyData||[]).length],["today_teams",(teams||[]).length],
+      ["note","ใช้ปุ่ม Restore ในแอปเพื่อกู้คืนข้อมูลจากไฟล์นี้"]
+    ]),"_Info");
+    XLSX.writeFile(wb,`AITs_Backup_${stamp}.xlsx`);
+    localStorage.setItem("ait_last_backup",now.toISOString());
+    updateBackupStatus();
+    toast("✓ Backup Excel เรียบร้อย — เก็บไฟล์ไว้ให้ดี","ok");
+  }catch(e){toast("✕ Backup ล้มเหลว: "+(e.message||""),"err");}
+}
+function restoreBackup(file){
+  if(!isAdmin)return toast("ต้องอยู่ในโหมดแก้ไขก่อน Restore","warn");
+  if(typeof XLSX==="undefined")return toast("ไม่พบไลบรารี Excel","err");
+  if(!confirm("⚠️ Restore จะเขียนทับข้อมูลปัจจุบันทั้งหมดด้วยข้อมูลจากไฟล์นี้\n(ยังไม่ Sync ขึ้น cloud จนกว่าจะกดปุ่ม 💾)\n\nยืนยันดำเนินการ?"))return;
+  const rd=new FileReader();
+  rd.onload=ev=>{
+    try{
+      const wb=XLSX.read(ev.target.result,{type:"binary"});
+      const get=name=>wb.Sheets[name]?XLSX.utils.sheet_to_json(wb.Sheets[name],{defval:""}):null;
+      const persRows=get("Personnel");
+      if(!persRows)throw new Error("ไม่พบชีต Personnel — อาจไม่ใช่ไฟล์ backup ที่ถูกต้อง");
+      // Personnel
+      const newPers=persRows.filter(r=>String(r.id||"").trim()).map(r=>({
+        id:String(r.id).trim(),nick:String(r.nick||r.id).trim(),name:String(r.name||"").trim(),
+        phone:String(r.phone||"").trim(),pos:String(r.pos||"").trim(),color:String(r.color||"#636366").trim(),
+        skills:String(r.skills||"").split(",").map(s=>s.trim()).filter(Boolean),safetyCards:{}
+      }));
+      const pmap={};newPers.forEach(p=>{pmap[p.id]=p;});
+      // SafetyCards
+      (get("SafetyCards")||[]).forEach(r=>{
+        const pid=String(r.person_id||"").trim(),site=String(r.site||"").trim();
+        if(pid&&site&&pmap[pid])pmap[pid].safetyCards[site]={issue:String(r.issue||"").trim()||null,exp:String(r.exp||"").trim()||null};
+      });
+      // Vehicles/Equipment/Sites/Positions
+      const veh=get("Vehicles"),equ=get("Equipment"),sit=get("Sites"),pos=get("Positions");
+      // Today_Teams
+      const tt=get("Today_Teams");
+      const newTeams=tt?tt.filter(r=>r.id!==""&&r.id!=null).map(r=>({
+        id:Number(r.id)||1,jobType:String(r.jobType||"STANDBY"),site:String(r.site||""),jobNo:String(r.jobNo||""),
+        depart:String(r.depart||""),arrive:String(r.arrive||""),members:String(r.members||""),
+        vehicle:String(r.vehicle||""),equipment:String(r.equipment||""),contact:String(r.contact||"")
+      })):null;
+      // History
+      const hist=get("History");
+      const newHist=hist?hist.filter(r=>String(r.date||"").trim()).map(r=>{
+        let tm=[];try{tm=JSON.parse(r.teams_json||"[]");}catch(e){}
+        return{date:String(r.date).trim(),savedAt:String(r.savedAt||"")||new Date().toISOString(),teams:tm};
+      }):null;
+      // Apply
+      cfg.personnel=newPers;
+      if(veh&&veh.length)cfg.vehicles=veh.filter(r=>String(r.label||"").trim()).map(r=>({id:String(r.id||"")||String(Math.random()).slice(2,6),label:String(r.label).trim()}));
+      if(equ&&equ.length)cfg.equipment=equ.filter(r=>String(r.label||"").trim()).map(r=>({id:String(r.id||"")||String(Math.random()).slice(2,6),label:String(r.label).trim()}));
+      if(sit&&sit.length)cfg.sites=sit.map(r=>String(r.site||"").trim()).filter(Boolean);
+      if(pos&&pos.length)cfg.positions=pos.map(r=>String(r.position||"").trim()).filter(Boolean);
+      if(newTeams)teams=newTeams;
+      if(newHist)historyData=newHist;
+      dirty=true;document.getElementById("sf").classList.add("show");
+      // refresh everything
+      try{renderCards();}catch(e){}
+      try{renderManpower();}catch(e){}
+      try{renderSafetyCards();}catch(e){}
+      try{renderSettings();updateBackupStatus();}catch(e){}
+      try{renderHistory();}catch(e){}
+      toast(`✓ Restore สำเร็จ — พนักงาน ${cfg.personnel.length} คน · กด 💾 เพื่อ Sync ขึ้น cloud`,"ok");
+    }catch(e){toast("✕ Restore ล้มเหลว: "+(e.message||"ไฟล์ไม่ถูกต้อง"),"err");}
+  };
+  rd.onerror=()=>toast("✕ อ่านไฟล์ไม่สำเร็จ","err");
+  rd.readAsBinaryString(file);
+}
+function updateBackupStatus(){
+  const last=localStorage.getItem("ait_last_backup");
+  const st=document.getElementById("backup-status"),rem=document.getElementById("backup-reminder");
+  if(!st)return;
+  if(last){
+    const d=new Date(last),days=Math.floor((Date.now()-d.getTime())/86400000);
+    st.textContent=`Backup ล่าสุด: ${d.toLocaleDateString("th-TH")} (${days===0?"วันนี้":days+" วันที่แล้ว"})`;
+    if(rem)rem.innerHTML=days>=7?`<span style="color:var(--orange)">⚠️ ครบกำหนด Backup ประจำสัปดาห์แล้ว (${days} วัน) — แนะนำกด Backup</span>`:`✅ Backup เป็นปัจจุบัน · ครบรอบถัดไปอีก ${7-days} วัน`;
+  }else{
+    st.textContent="ยังไม่เคย Backup — แนะนำ Backup ครั้งแรก";
+    if(rem)rem.innerHTML=`<span style="color:var(--orange)">⚠️ ยังไม่เคยสำรองข้อมูล — ควร Backup ทันที</span>`;
+  }
+}
+function checkWeeklyBackup(){
+  const last=localStorage.getItem("ait_last_backup");
+  const days=last?Math.floor((Date.now()-new Date(last).getTime())/86400000):999;
+  if(days>=7)setTimeout(()=>toast("📊 ถึงเวลา Backup ประจำสัปดาห์ — ไปที่ ตั้งค่า ▸ สำรองข้อมูล","warn"),2500);
+}
 let calYear=new Date().getFullYear(), calMonth=new Date().getMonth();
 let calView="month"; // "month" | "year"
 let calSelDate=null;
@@ -2126,7 +2259,7 @@ async function savePlan(){
 document.getElementById("nth").textContent=thd();
 document.getElementById("nen").textContent=new Date().toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
 document.getElementById("theme-lbl").textContent=document.documentElement.getAttribute("data-theme")==="dark"?"Dark Mode":"Light Mode";
-loadCloud();startRefresh();
+loadCloud();startRefresh();checkWeeklyBackup();
 </script>
 
 
