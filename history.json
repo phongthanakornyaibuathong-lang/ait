@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "5/6/2569",
-      "savedAt": "2026-06-05T03:53:01.993Z",
+      "savedAt": "2026-06-05T03:56:26.606Z",
       "teams": [
         {
           "id": 1,
@@ -4969,7 +4969,7 @@
         },
         {
           "id": 8,
-          "jobType": "ROBOT",
+          "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -4981,7 +4981,7 @@
         },
         {
           "id": 9,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -5006,5 +5006,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-05T03:53:01.993Z"
+  "lastUpdated": "2026-06-05T03:56:26.606Z"
 }
