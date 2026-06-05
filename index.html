@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780619857 -->
+<!-- build:1780649181 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -627,7 +627,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <div class="fgrid">
       <div class="fg full"><label class="flbl">พนักงาน</label><div class="selw"><select class="fsel" id="lv-person"></select></div></div>
       <div class="fg"><label class="flbl">ประเภทการลา</label><div class="selw"><select class="fsel" id="lv-type"><option value="ลาป่วย">ลาป่วย</option><option value="ลากิจ">ลากิจ</option><option value="ลาพักร้อน">ลาพักร้อน</option></select></div></div>
-      <div class="fg"><label class="flbl">วันที่ลา</label><input class="fi" id="lv-date2" type="date"></div>
+      <div class="fg"><label class="flbl">วันที่เริ่มลา</label><input class="fi" id="lv-date2" type="date"></div>
+      <div class="fg"><label class="flbl">ถึงวันที่ (หยุดลา/กลับมาทำงาน)</label><input class="fi" id="lv-dateEnd" type="date"></div>
       <div class="fg full"><label class="flbl">หมายเหตุ (ถ้ามี)</label><input class="fi" id="lv-note" placeholder="เช่น ไปโรงพยาบาล / ธุระครอบครัว"></div>
     </div>
   </div>
@@ -1023,27 +1024,31 @@ function renderLeave(){
   const addBtn=document.getElementById("leave-add-btn");if(addBtn)addBtn.style.display=isAdmin?"flex":"none";
   const key=leaveDateKey();
   const today=key;
-  const dayLeaves=cfg.leaves.filter(l=>l.date===key);
+  const inRange=l=>{const st=l.date,en=l.dateEnd||l.date;return st&&st<=key&&en>=key;};
+  const dayLeaves=cfg.leaves.filter(inRange);
   const sick=dayLeaves.filter(l=>/ลาป่วย/.test(l.type)).length;
   const personal=dayLeaves.filter(l=>/ลากิจ/.test(l.type)).length;
   const other=dayLeaves.length-sick-personal;
-  const sub=document.getElementById("leave-sub");if(sub){const[y,m,d]=key.split("-").map(Number);const thM=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];sub.textContent=`วันที่ ${d} ${thM[m-1]} ${y+543} · ลาทั้งหมด ${dayLeaves.length} คน`;}
+  const fmtTh=k=>{if(!k)return"";const[y,m,d]=k.split("-").map(Number);const M=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];return`${d} ${M[m-1]} ${y+543}`;};
+  const sub=document.getElementById("leave-sub");if(sub){sub.textContent=`วันที่ ${fmtTh(key)} · ลาทั้งหมด ${dayLeaves.length} คน`;}
   const kpi=[["ลาทั้งหมด",dayLeaves.length,"#8E8E93","var(--bg3)"],["🤒 ลาป่วย",sick,"#FF453A","rgba(255,69,58,.1)"],["🧳 ลากิจ",personal,"#FF9F0A","rgba(255,159,10,.1)"],["🏝 อื่นๆ",other,"#0A84FF","rgba(10,132,255,.1)"]]
     .map(([l,v,c,bg])=>`<div style="flex:1;min-width:110px;background:${bg};border:.5px solid var(--border);border-radius:12px;padding:11px 13px"><div style="font-size:24px;font-weight:800;color:${c};line-height:1">${v}</div><div style="font-size:11px;color:var(--text3);margin-top:3px">${l}</div></div>`).join("");
   const pmap={};cfg.personnel.forEach(p=>{pmap[p.id]=p;if(p.nick)pmap[p.nick]=p;});
   const rows=dayLeaves.length?dayLeaves.map(l=>{
     const pe=pmap[l.person]||{name:l.person,nick:l.person,pos:""};const col=leaveTypeColor(l.type);
     const click=isAdmin?`onclick="openLeave('${l.id}')" style="cursor:pointer"`:"";
+    const period=l.dateEnd&&l.dateEnd!==l.date?`${fmtTh(l.date)} – ${fmtTh(l.dateEnd)}`:fmtTh(l.date);
     return`<tr ${click}>
       <td style="padding:8px 10px;border-bottom:.5px solid var(--border)"><span style="background:${col}1f;color:${col};border:1px solid ${col}66;border-radius:6px;padding:2px 9px;font-size:11px;font-weight:700;white-space:nowrap">${l.type}</span></td>
       <td style="padding:8px 10px;border-bottom:.5px solid var(--border);font-weight:600">${pe.nick||l.person}</td>
       <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${pe.name||""}</td>
       <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text3);font-size:12px">${pe.pos||""}</td>
+      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px;white-space:nowrap">${period}</td>
       <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${l.note||"—"}</td>
       ${isAdmin?`<td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--blue)">✏️</td>`:""}
     </tr>`;
-  }).join(""):`<tr><td colspan="${isAdmin?6:5}" style="text-align:center;padding:24px;color:var(--text3)">— ไม่มีการลาในวันนี้ —</td></tr>`;
-  const head=["ประเภท","ชื่อเล่น","ชื่อ-สกุล","ตำแหน่ง","หมายเหตุ"].concat(isAdmin?["แก้ไข"]:[]).map(h=>`<th style="padding:9px 10px;text-align:left;font-size:11px;color:var(--text3);font-weight:600;border-bottom:1px solid var(--border)">${h}</th>`).join("");
+  }).join(""):`<tr><td colspan="${isAdmin?7:6}" style="text-align:center;padding:24px;color:var(--text3)">— ไม่มีการลาในวันนี้ —</td></tr>`;
+  const head=["ประเภท","ชื่อเล่น","ชื่อ-สกุล","ตำแหน่ง","ช่วงวันลา","หมายเหตุ"].concat(isAdmin?["แก้ไข"]:[]).map(h=>`<th style="padding:9px 10px;text-align:left;font-size:11px;color:var(--text3);font-weight:600;border-bottom:1px solid var(--border)">${h}</th>`).join("");
   host.innerHTML=`<div style="display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px">${kpi}</div>
     <div style="overflow:auto;border:.5px solid var(--border);border-radius:12px">
       <table style="width:100%;border-collapse:collapse"><thead><tr style="background:var(--bg2)">${head}</tr></thead><tbody>${rows}</tbody></table>
@@ -1064,10 +1069,11 @@ function openLeave(id){
     sel.value=l.person||cfg.personnel[0]?.id;
     document.getElementById("lv-type").value=l.type||"ลาป่วย";
     document.getElementById("lv-date2").value=l.date||leaveDateKey();
+    document.getElementById("lv-dateEnd").value=l.dateEnd||"";
     document.getElementById("lv-note").value=l.note||"";
   }else{
     sel.selectedIndex=0;document.getElementById("lv-type").value="ลาป่วย";
-    document.getElementById("lv-date2").value=leaveDateKey();document.getElementById("lv-note").value="";
+    document.getElementById("lv-date2").value=leaveDateKey();document.getElementById("lv-dateEnd").value="";document.getElementById("lv-note").value="";
   }
   document.getElementById("lvov").classList.add("open");
 }
@@ -1077,14 +1083,16 @@ function saveLeave(){
   const person=document.getElementById("lv-person").value;
   const type=document.getElementById("lv-type").value;
   const date=document.getElementById("lv-date2").value;
+  let dateEnd=document.getElementById("lv-dateEnd").value||"";
   const note=document.getElementById("lv-note").value.trim();
   if(!person)return toast("เลือกพนักงาน","warn");
-  if(!date)return toast("เลือกวันที่ลา","warn");
+  if(!date)return toast("เลือกวันที่เริ่มลา","warn");
+  if(dateEnd&&dateEnd<date)return toast("วันสิ้นสุดต้องไม่ก่อนวันเริ่มลา","warn");
   if(leaveEditId){
     const i=cfg.leaves.findIndex(x=>x.id===leaveEditId);
-    if(i>=0)cfg.leaves[i]={...cfg.leaves[i],person,type,date,note};
+    if(i>=0)cfg.leaves[i]={...cfg.leaves[i],person,type,date,dateEnd,note};
   }else{
-    cfg.leaves.push({id:"lv"+Date.now()+Math.floor(Math.random()*1000),person,type,date,note});
+    cfg.leaves.push({id:"lv"+Date.now()+Math.floor(Math.random()*1000),person,type,date,dateEnd,note});
   }
   dirty=true;document.getElementById("sf").classList.add("show");
   if(document.getElementById("leave-date"))document.getElementById("leave-date").value=date;
@@ -1246,7 +1254,7 @@ function enterAdmin(){
   document.getElementById("plan-btn").style.display="flex";
   document.getElementById("tok-row").style.display="flex";
   document.getElementById("tok-status").textContent=getTok()?"ตั้งค่าแล้ว ✓":"ยังไม่ได้ตั้งค่า";
-  renderCards();renderSafetyCards();renderSettings();toast("✓ เข้าโหมดแก้ไข","ok");
+  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}renderSettings();toast("✓ เข้าโหมดแก้ไข","ok");
 }
 function exitAdmin(){
   isAdmin=false;dirty=false;
@@ -1255,7 +1263,7 @@ function exitAdmin(){
   document.getElementById("ibtn").style.display="none";
   document.getElementById("plan-btn").style.display="none";
   document.getElementById("sf").classList.remove("show");
-  renderCards();renderSafetyCards();toast("ออกจากโหมดแก้ไข","info");
+  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}toast("ออกจากโหมดแก้ไข","info");
 }
 
 /* ═══════════════════════════ DUPLICATE / EXPIRY CHECK ═══════ */
@@ -1803,7 +1811,7 @@ function printRender(){
   const memLeave={};
   src.forEach(t=>{if(isLeaveType(t.jobType)){const lv=leaveInfo(t.jobType);mArr(t.members).forEach(m=>{memLeave[m]={label:lv.label,color:lv.color};});}});
   // รวมการลาจากแท็บลางาน (cfg.leaves) ของวันที่นี้
-  (cfg.leaves||[]).forEach(l=>{if(l.date===dateKey){const pe=cfg.personnel.find(x=>x.id===l.person||x.nick===l.person);const col=(typeof leaveTypeColor==="function")?leaveTypeColor(l.type):"#FF453A";const inf={label:l.type,color:col};if(pe){memLeave[pe.id]=inf;if(pe.nick)memLeave[pe.nick]=inf;}else memLeave[l.person]=inf;}});
+  (cfg.leaves||[]).forEach(l=>{const en=l.dateEnd||l.date;if(l.date&&l.date<=dateKey&&en>=dateKey){const pe=cfg.personnel.find(x=>x.id===l.person||x.nick===l.person);const col=(typeof leaveTypeColor==="function")?leaveTypeColor(l.type):"#FF453A";const inf={label:l.type,color:col};if(pe){memLeave[pe.id]=inf;if(pe.nick)memLeave[pe.nick]=inf;}else memLeave[l.person]=inf;}});
   const availP=cfg.personnel.filter(p=>!memTeam[p.id]&&!memTeam[p.nick]&&!memLeave[p.id]&&!memLeave[p.nick]);
   const leaveP=cfg.personnel.filter(p=>memLeave[p.id]||memLeave[p.nick]);
 
@@ -2001,7 +2009,7 @@ function exportBackup(){
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["site"],...(cfg.sites||[]).map(s=>[s])]),"Sites");
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["position"],...(cfg.positions||[]).map(s=>[s])]),"Positions");
     // Leaves (การลา)
-    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["id","person","type","date","note"],...((cfg.leaves||[]).map(l=>[l.id||"",l.person||"",l.type||"",l.date||"",l.note||""]))]),"Leaves");
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([["id","person","type","date","dateEnd","note"],...((cfg.leaves||[]).map(l=>[l.id||"",l.person||"",l.type||"",l.date||"",l.dateEnd||"",l.note||""]))]),"Leaves");
     // 7) Today_Teams
     const tk=["id","jobType","site","jobNo","depart","arrive","members","vehicle","equipment","contact","detail"];
     XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet([tk,...(teams||[]).map(t=>tk.map(k=>t[k]??""))]),"Today_Teams");
@@ -2067,7 +2075,7 @@ function restoreBackup(file){
       if(sit&&sit.length)cfg.sites=sit.map(r=>String(r.site||"").trim()).filter(Boolean);
       if(pos&&pos.length)cfg.positions=pos.map(r=>String(r.position||"").trim()).filter(Boolean);
       const lvs=get("Leaves");
-      if(lvs)cfg.leaves=lvs.filter(r=>String(r.person||"").trim()&&String(r.date||"").trim()).map(r=>({id:String(r.id||"lv"+Date.now()+Math.floor(Math.random()*1e4)),person:String(r.person).trim(),type:String(r.type||"ลาป่วย").trim(),date:String(r.date).trim(),note:String(r.note||"").trim()}));
+      if(lvs)cfg.leaves=lvs.filter(r=>String(r.person||"").trim()&&String(r.date||"").trim()).map(r=>({id:String(r.id||"lv"+Date.now()+Math.floor(Math.random()*1e4)),person:String(r.person).trim(),type:String(r.type||"ลาป่วย").trim(),date:String(r.date).trim(),dateEnd:String(r.dateEnd||"").trim(),note:String(r.note||"").trim()}));
       if(newTeams)teams=newTeams;
       if(newHist)historyData=newHist;
       dirty=true;document.getElementById("sf").classList.add("show");
