@@ -57,31 +57,47 @@
     {
       "id": 5,
       "jobType": "COLD_CUT",
-      "site": "NPC / TNS บางปะกง",
-      "jobNo": "JB260108",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "JB260115",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "อั๋น, นัฐ, ทาม, ไอซ์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TTFF-40",
-      "contact": "นัตตี้ 098-278-4490",
-      "locname": "THAI NIPPON STEEL ENGINEERING & CONSTRUCTION CORPORATION LTD."
+      "members": "บอย, ฟีล์ม, โอ๊ด",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TSF 12",
+      "contact": "ช่าง โด่ง  094-7467526",
+      "locname": "THAI OIL CLEAN FUEL PROJECT (CFTHAI OIL CLEAN FUEL PROJECT (CFP) 83 6 หนองลลัาเก่า ตำบล บางละมุง อำเภอบางละมุง ชลบุรี 20150P)",
+      "detail": "Pipe 10\" THK 40 mm. SS316"
     },
     {
       "id": 6,
       "jobType": "BOLT",
-      "site": "Kuraray / Sriprapaphan",
-      "jobNo": "JB260097",
-      "depart": "07:00",
+      "site": "SCG TPE Site #3",
+      "jobNo": "JB260117",
+      "depart": "07:30",
       "arrive": "08:00",
-      "members": "นัท, คิว, ต้าร์",
-      "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "Tension A/F",
-      "contact": "ปื๊ด 096-297-2292",
-      "locname": "KURARAY GC ADVANCED MATERIALS"
+      "members": "แชมป์, ป๋อ, โอม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง จีรพัทธ (สุด) 0954595149",
+      "locname": "TPE plant3 P592+CJM อำเภอเมืองระยอง ระยอง 21150",
+      "detail": "Loose Bolt Cover Flange Nut A/F 46 mm.  = 2 fl."
     },
     {
       "id": 7,
+      "jobType": "BOLT",
+      "site": "CUEL งาน Torque Unit 3",
+      "jobNo": "Job No JB260098",
+      "depart": "06:30",
+      "arrive": "07:30",
+      "members": "เป้, นัฐ, คิว",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": "ปิยพงษ์ 099-441-9388",
+      "locname": "CUEL-OB6 3VGQ+MV4, Leam Chabang Port Industrial Estate,, Tungsukhla, อำเภอศรีราชา ชลบุรี 20230",
+      "detail": ""
+    },
+    {
+      "id": 8,
       "jobType": "STANDBY",
       "site": "",
       "jobNo": "",
@@ -90,32 +106,23 @@
       "members": "",
       "vehicle": "— เลือกรถ —",
       "equipment": "— เลือก —",
-      "contact": ""
-    },
-    {
-      "id": 8,
-      "jobType": "ROBOT",
-      "site": "CUEL งาน Torque Unit 3",
-      "jobNo": "JB260098",
-      "depart": "06:30",
-      "arrive": "07:30",
-      "members": "ป๋อ, แชมป์, อั๋น",
-      "vehicle": "— เลือกรถ —",
-      "equipment": "TTFF-24",
-      "contact": "ปิยพงษ์ 099-441-9388",
-      "locname": "CUEL Limited Office Building 3"
+      "contact": "",
+      "locname": "",
+      "detail": ""
     },
     {
       "id": 9,
-      "jobType": "BOLT",
-      "site": "IRPC ระยอง / Maintenance Shutdown",
-      "jobNo": "JB260115",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
       "depart": "",
       "arrive": "",
       "members": "ราชัน, อภิชน, ธีรภัทร",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TOFF-12",
-      "contact": ""
+      "vehicle": "— เลือกรถ —",
+      "equipment": "— เลือก —",
+      "contact": "",
+      "locname": "",
+      "detail": ""
     },
     {
       "id": 10,
@@ -130,7 +137,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-05T03:16:30.820Z",
+  "lastUpdated": "2026-06-05T03:38:00.480Z",
   "updatedBy": "Nine",
   "date": "5/6/2569"
 }
