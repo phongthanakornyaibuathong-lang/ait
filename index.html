@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780649454 -->
+<!-- build:1780649838 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -628,7 +628,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       <div class="fg full"><label class="flbl">พนักงาน</label><div class="selw"><select class="fsel" id="lv-person"></select></div></div>
       <div class="fg"><label class="flbl">วันที่เริ่มลา</label><input class="fi" id="lv-date2" type="date"></div>
       <div class="fg"><label class="flbl">ถึงวันที่ (หยุดลา)</label><input class="fi" id="lv-dateEnd" type="date"></div>
-      <div class="fg full"><label class="flbl">ประเภทการลา</label><div class="selw"><select class="fsel" id="lv-type"><option value="ลาป่วย">ลาป่วย</option><option value="ลากิจ">ลากิจ</option><option value="ลาพักร้อน">ลาพักร้อน</option></select></div></div>
+      <div class="fg full"><label class="flbl">ประเภทการลา</label><input class="fi" id="lv-type" list="lv-typelist" value="ลาป่วย" placeholder="เลือกหรือพิมพ์เพิ่มเอง"><datalist id="lv-typelist"><option value="ลาป่วย"></option><option value="ลากิจ"></option><option value="ลาพักร้อน"></option><option value="ลาคลอด"></option><option value="ลาบวช"></option><option value="ลาไม่รับค่าจ้าง"></option></datalist></div>
       <div class="fg full"><label class="flbl">หมายเหตุ (ถ้ามี)</label><input class="fi" id="lv-note" placeholder="เช่น ไปโรงพยาบาล / ธุระครอบครัว"></div>
     </div>
   </div>
@@ -678,6 +678,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   </div>
   <div class="mbody" id="pf-body" style="gap:10px"></div>
   <div class="mfoot">
+    <button class="mbtn" id="pf-del" style="display:none;color:var(--red)" onclick="deletePlan()">🗑 ลบแผนวันนี้</button>
     <button class="mbtn" onclick="closePF()">ยกเลิก</button>
     <button class="mbtn pri" onclick="savePlan()">💾 บันทึกแผน</button>
   </div>
@@ -2337,7 +2338,24 @@ function openPlanModal(dateKey){
   }
   pfWorkingPlan=JSON.parse(JSON.stringify(plan));
   renderPlanModal();
+  const hasSaved=!!dayPlans[dateKey]||(Array.isArray(historyData)&&historyData.some(h=>h.savedAt&&h.savedAt.startsWith(dateKey)));
+  const delBtn=document.getElementById("pf-del");if(delBtn)delBtn.style.display=hasSaved?"block":"none";
   document.getElementById("pfov").classList.add("open");
+}
+function deletePlan(){
+  if(!isAdmin||!pfWorkingPlan)return;
+  const key=pfWorkingPlan.date;
+  const [y,m,d]=key.split("-").map(Number);
+  const thMonths=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
+  if(!confirm(`⚠️ ลบแผนงานของวันที่ ${d} ${thMonths[m-1]} ${y+543}?\nข้อมูลทีมทั้งหมดของวันนี้จะถูกลบ (ยังไม่ลบบน cloud จนกว่าจะกด Save & Sync)`))return;
+  delete dayPlans[key];
+  if(Array.isArray(historyData))historyData=historyData.filter(h=>!(h.savedAt&&h.savedAt.startsWith(key)));
+  closePF();
+  dirty=true;document.getElementById("sf").classList.add("show");
+  try{renderCalendar();}catch(e){}
+  try{if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length)window.renderTomorrowTab();}catch(e){}
+  if(calSelDate===key)try{selectCalDay(key,d);}catch(e){}
+  toast(`🗑 ลบแผน ${key} แล้ว — กด Save & Sync เพื่ออัปเดต cloud`,"info");
 }
 
 let pfWorkingPlan=null;
