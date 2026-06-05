@@ -4,28 +4,28 @@
       "id": 1,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260112",
+      "jobNo": "JB260096",
       "depart": "06:30",
       "arrive": "07:00",
       "members": "บิ๊ก, บีม, เอิร์ก",
-      "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "TTFF-24 (New)",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "TTFF-24 S/N250948",
       "contact": "กับตัน 080-047-1014",
-      "locname": "CFP",
-      "detail": ""
+      "locname": "CFP"
     },
     {
       "id": 2,
       "jobType": "BOLT",
-      "site": "SCC Work Shop ศรีราชา",
-      "jobNo": "JB260089",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "JB260112",
       "depart": "06:30",
-      "arrive": "08:00",
-      "members": "คิง, ทาม, เฟิร์ส, คิว",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TOFF-12",
-      "contact": "เพียว 092-621-6363",
-      "locname": "SCC (Shop1)"
+      "arrive": "07:00",
+      "members": "คิง, เฟิร์ส, อองรี",
+      "vehicle": "2ฒษ 2857 (แครี่บอย)",
+      "equipment": "TOFF-12 (S/N26020099)",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "locname": "CFP",
+      "detail": ""
     },
     {
       "id": 3,
@@ -127,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-05T03:10:21.030Z",
+  "lastUpdated": "2026-06-05T03:11:52.444Z",
   "updatedBy": "Nine",
   "date": "5/6/2569"
 }
