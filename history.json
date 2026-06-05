@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "5/6/2569",
-      "savedAt": "2026-06-05T02:47:45.384Z",
+      "savedAt": "2026-06-05T02:51:48.518Z",
       "teams": [
         {
           "id": 1,
@@ -4927,14 +4927,15 @@
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "JB260108",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "อั๋น, นัฐ, ทาม, ไอซ์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TTFF-40",
-          "contact": "นัตตี้ 098-278-4490"
+          "members": "บอย, ฟีล์ม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TSF 12",
+          "contact": "ช่าง โด่ง  094-7467526  ",
+          "detail": "Pipe 10\" THK 40 mm. SS316"
         },
         {
           "id": 6,
@@ -4999,5 +5000,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-05T02:47:45.384Z"
+  "lastUpdated": "2026-06-05T02:51:48.518Z"
 }
