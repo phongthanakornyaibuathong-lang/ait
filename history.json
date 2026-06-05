@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "5/6/2569",
-      "savedAt": "2026-06-05T03:48:22.919Z",
+      "savedAt": "2026-06-05T03:51:06.234Z",
       "teams": [
         {
           "id": 1,
@@ -4944,14 +4944,15 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Kuraray / Sriprapaphan",
-          "jobNo": "JB260097",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัท, คิว, ต้าร์",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "Tension A/F",
-          "contact": "ปื๊ด 096-297-2292"
+          "site": "Thai Oil ท่าเรือ",
+          "jobNo": "JB260116",
+          "depart": "05:00",
+          "arrive": "06:00",
+          "members": "เป้, แชมป์, ทาม",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง สายัน 0979451547",
+          "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ\nควบคุมปั๊มบนเรือ  นักประดาน้ำจับหั Torque"
         },
         {
           "id": 7,
@@ -5004,5 +5005,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-05T03:48:22.919Z"
+  "lastUpdated": "2026-06-05T03:51:06.234Z"
 }
