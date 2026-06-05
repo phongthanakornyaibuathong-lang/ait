@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "5/6/2569",
-      "savedAt": "2026-06-05T02:36:15.498Z",
+      "savedAt": "2026-06-05T02:41:06.016Z",
       "teams": [
         {
           "id": 1,
@@ -4890,15 +4890,15 @@
         },
         {
           "id": 2,
-          "jobType": "BOLT",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260089",
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "JB260112",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "คิง, ทาม, เฟิร์ส, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "arrive": "07:00",
+          "members": "คิง, อองรี, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "เพียว 092-621-6363"
+          "contact": "กับตัน 080-047-1014"
         },
         {
           "id": 3,
@@ -4999,5 +4999,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-05T02:36:15.498Z"
+  "lastUpdated": "2026-06-05T02:41:06.016Z"
 }
