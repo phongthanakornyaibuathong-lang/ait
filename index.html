@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780649838 -->
+<!-- build:1780666904 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1017,45 +1017,54 @@ function deleteCard(){
 
 /* ═══════════════ LEAVE TAB (การลางาน) ═══════════════ */
 function leaveTypeColor(t){return /ลาป่วย/.test(t)?"#FF453A":/ลากิจ/.test(t)?"#FF9F0A":/พักร้อน/.test(t)?"#0A84FF":"#8E8E93";}
+let lvCalYear=new Date().getFullYear(),lvCalMonth=new Date().getMonth();
+function lvNavMonth(d){lvCalMonth+=d;if(lvCalMonth>11){lvCalMonth=0;lvCalYear++;}if(lvCalMonth<0){lvCalMonth=11;lvCalYear--;}renderLeave();}
+function lvSetDay(k){const di=document.getElementById("leave-date");if(di)di.value=k;renderLeave();}
 function leaveDateKey(){const el=document.getElementById("leave-date");if(el&&el.value)return el.value;const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function renderLeave(){
   if(!cfg.leaves)cfg.leaves=[];
   const host=document.getElementById("leave-content");if(!host)return;
-  const di=document.getElementById("leave-date");if(di&&!di.value)di.value=leaveDateKey();
   const addBtn=document.getElementById("leave-add-btn");if(addBtn)addBtn.style.display=isAdmin?"flex":"none";
+  const diEl=document.getElementById("leave-date");if(diEl&&!diEl.value)diEl.value=leaveDateKey();
   const key=leaveDateKey();
-  const today=key;
-  const inRange=l=>{const st=l.date,en=l.dateEnd||l.date;return st&&st<=key&&en>=key;};
+  const inRange=l=>{const en=l.dateEnd||l.date;return l.date&&l.date<=key&&en>=key;};
+  const thMon=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
+  const todayNow=new Date();const todayKey=`${todayNow.getFullYear()}-${String(todayNow.getMonth()+1).padStart(2,"0")}-${String(todayNow.getDate()).padStart(2,"0")}`;
+  const fmtTh=k=>{if(!k)return"";const[y,m,d]=k.split("-").map(Number);return`${d} ${thMon[m-1]} ${y+543}`;};
+  /* CALENDAR */
+  const firstDow=new Date(lvCalYear,lvCalMonth,1).getDay();
+  const dim=new Date(lvCalYear,lvCalMonth+1,0).getDate();
+  const wkH=["อา","จ","อ","พ","พฤ","ศ","ส"];
+  let cells="";
+  for(let i=0;i<firstDow;i++)cells+=`<div></div>`;
+  for(let d=1;d<=dim;d++){
+    const dk=`${lvCalYear}-${String(lvCalMonth+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const dl=cfg.leaves.filter(l=>{const en=l.dateEnd||l.date;return l.date&&l.date<=dk&&en>=dk;});
+    const sel=dk===key,tod=dk===todayKey;
+    const bg=sel?"var(--blue)":tod?"rgba(27,114,232,.15)":"var(--bg3)";
+    const tc=sel?"#fff":tod?"var(--blue)":"var(--text)";
+    const dots=dl.slice(0,3).map(l=>`<span style="width:5px;height:5px;border-radius:50%;background:${leaveTypeColor(l.type)};display:inline-block;margin:0 1px"></span>`).join("")+(dl.length>3?`<span style="font-size:7px;color:var(--text3)">+${dl.length-3}</span>`:"");
+    cells+=`<div onclick="lvSetDay('${dk}')" style="cursor:pointer;background:${bg};border-radius:8px;padding:5px 2px;text-align:center;min-height:46px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;border:.5px solid ${sel?"var(--blue)":tod?"rgba(27,114,232,.3)":"var(--border)"}"><span style="font-size:11px;font-weight:${sel||tod?700:400};color:${tc}">${d}</span><div style="display:flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:1px;min-height:10px">${dots}</div></div>`;
+  }
+  const calHtml=`<div style="background:var(--bg2);border:.5px solid var(--border);border-radius:14px;padding:14px;margin-bottom:14px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><button class="cal-btn" onclick="lvNavMonth(-1)">&#8249;</button><div style="font-weight:700;font-size:14px;color:var(--text)">${thMon[lvCalMonth]} ${lvCalYear+543}</div><button class="cal-btn" onclick="lvNavMonth(1)">&#8250;</button></div><div style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px">${wkH.map(h=>`<div style="text-align:center;font-size:10px;font-weight:600;color:var(--text3);padding:3px 0">${h}</div>`).join("")}${cells}</div><div style="margin-top:8px;font-size:11px;color:var(--text3)">&#128161; จุดสี = คนที่ลาในวันนั้น · แตะวันเพื่อดูรายละเอียด</div></div>`;
+  /* KPI + TABLE */
   const dayLeaves=cfg.leaves.filter(inRange);
   const sick=dayLeaves.filter(l=>/ลาป่วย/.test(l.type)).length;
   const personal=dayLeaves.filter(l=>/ลากิจ/.test(l.type)).length;
   const other=dayLeaves.length-sick-personal;
-  const fmtTh=k=>{if(!k)return"";const[y,m,d]=k.split("-").map(Number);const M=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];return`${d} ${M[m-1]} ${y+543}`;};
-  const sub=document.getElementById("leave-sub");if(sub){sub.textContent=`วันที่ ${fmtTh(key)} · ลาทั้งหมด ${dayLeaves.length} คน`;}
-  const kpi=[["ลาทั้งหมด",dayLeaves.length,"#8E8E93","var(--bg3)"],["🤒 ลาป่วย",sick,"#FF453A","rgba(255,69,58,.1)"],["🧳 ลากิจ",personal,"#FF9F0A","rgba(255,159,10,.1)"],["🏝 อื่นๆ",other,"#0A84FF","rgba(10,132,255,.1)"]]
-    .map(([l,v,c,bg])=>`<div style="flex:1;min-width:110px;background:${bg};border:.5px solid var(--border);border-radius:12px;padding:11px 13px"><div style="font-size:24px;font-weight:800;color:${c};line-height:1">${v}</div><div style="font-size:11px;color:var(--text3);margin-top:3px">${l}</div></div>`).join("");
+  const sub=document.getElementById("leave-sub");if(sub)sub.textContent=`วันที่ ${fmtTh(key)} · ลาทั้งหมด ${dayLeaves.length} คน`;
+  const kpi=[["ลาทั้งหมด",dayLeaves.length,"#8E8E93","var(--bg3)"],["🤒 ลาป่วย",sick,"#FF453A","rgba(255,69,58,.1)"],["🧳 ลากิจ",personal,"#FF9F0A","rgba(255,159,10,.1)"],["🏝 อื่นๆ",other,"#0A84FF","rgba(10,132,255,.1)"]].map(([l,v,c,bg])=>`<div style="flex:1;min-width:90px;background:${bg};border:.5px solid var(--border);border-radius:12px;padding:10px 13px"><div style="font-size:22px;font-weight:800;color:${c};line-height:1">${v}</div><div style="font-size:11px;color:var(--text3);margin-top:3px">${l}</div></div>`).join("");
   const pmap={};cfg.personnel.forEach(p=>{pmap[p.id]=p;if(p.nick)pmap[p.nick]=p;});
   const rows=dayLeaves.length?dayLeaves.map(l=>{
     const pe=pmap[l.person]||{name:l.person,nick:l.person,pos:""};const col=leaveTypeColor(l.type);
     const click=isAdmin?`onclick="openLeave('${l.id}')" style="cursor:pointer"`:"";
     const period=l.dateEnd&&l.dateEnd!==l.date?`${fmtTh(l.date)} – ${fmtTh(l.dateEnd)}`:fmtTh(l.date);
-    return`<tr ${click}>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border)"><span style="background:${col}1f;color:${col};border:1px solid ${col}66;border-radius:6px;padding:2px 9px;font-size:11px;font-weight:700;white-space:nowrap">${l.type}</span></td>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);font-weight:600">${pe.nick||l.person}</td>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${pe.name||""}</td>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text3);font-size:12px">${pe.pos||""}</td>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px;white-space:nowrap">${period}</td>
-      <td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${l.note||"—"}</td>
-      ${isAdmin?`<td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--blue)">✏️</td>`:""}
-    </tr>`;
+    return`<tr ${click}><td style="padding:8px 10px;border-bottom:.5px solid var(--border)"><span style="background:${col}1f;color:${col};border:1px solid ${col}66;border-radius:6px;padding:2px 9px;font-size:11px;font-weight:700;white-space:nowrap">${l.type}</span></td><td style="padding:8px 10px;border-bottom:.5px solid var(--border);font-weight:600">${pe.nick||l.person}</td><td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${pe.name||""}</td><td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text3);font-size:12px">${pe.pos||""}</td><td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px;white-space:nowrap">${period}</td><td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--text2);font-size:12px">${l.note||"—"}</td>${isAdmin?`<td style="padding:8px 10px;border-bottom:.5px solid var(--border);color:var(--blue)">✏️</td>`:""}</tr>`;
   }).join(""):`<tr><td colspan="${isAdmin?7:6}" style="text-align:center;padding:24px;color:var(--text3)">— ไม่มีการลาในวันนี้ —</td></tr>`;
   const head=["ประเภท","ชื่อเล่น","ชื่อ-สกุล","ตำแหน่ง","ช่วงวันลา","หมายเหตุ"].concat(isAdmin?["แก้ไข"]:[]).map(h=>`<th style="padding:9px 10px;text-align:left;font-size:11px;color:var(--text3);font-weight:600;border-bottom:1px solid var(--border)">${h}</th>`).join("");
-  host.innerHTML=`<div style="display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px">${kpi}</div>
-    <div style="overflow:auto;border:.5px solid var(--border);border-radius:12px">
-      <table style="width:100%;border-collapse:collapse"><thead><tr style="background:var(--bg2)">${head}</tr></thead><tbody>${rows}</tbody></table>
-    </div>
-    ${isAdmin?'<div style="font-size:11px;color:var(--text3);margin-top:8px">💡 แตะแถวเพื่อแก้ไข · กด ＋ เพิ่มการลา · ข้อมูลจะแสดงในหน้า Print สรุปของวันนั้นด้วย</div>':''}`;
+  host.innerHTML=calHtml+`<div style="display:flex;gap:9px;flex-wrap:wrap;margin-bottom:12px">${kpi}</div><div style="overflow:auto;border:.5px solid var(--border);border-radius:12px"><table style="width:100%;border-collapse:collapse"><thead><tr style="background:var(--bg2)">${head}</tr></thead><tbody>${rows}</tbody></table></div>${isAdmin?'<div style="font-size:11px;color:var(--text3);margin-top:8px">💡 แตะแถวเพื่อแก้ไข · กด ＋ เพิ่มการลา</div>':''}`;
 }
+
 let leaveEditId="";
 function openLeave(id){
   if(!isAdmin)return;
@@ -1161,6 +1170,8 @@ async function loadCloud(){
       if(c.equipment&&c.equipment.length)cfg.equipment=c.equipment;
       if(c.sites&&c.sites.length)cfg.sites=c.sites;
       if(c.skills&&c.skills.length)cfg.skills=c.skills;
+      if(c.leaves&&Array.isArray(c.leaves))cfg.leaves=c.leaves;
+      if(c.positions&&c.positions.length)cfg.positions=c.positions;
     }
     ensureLeaveTypes();
     renderAll();checkDups();checkExpiry();
@@ -1212,10 +1223,11 @@ async function saveCloud(){
   setSS("sync","กำลัง Sync...");toast("⏳ กำลัง sync...","info");
   try{
     const now=new Date().toISOString(),td=new Date().toLocaleDateString("th-TH");
-    const todayKey=td;
+    const todayISO=now.slice(0,10); // "YYYY-MM-DD" — robust dedup key
     let hist=Array.isArray(historyData)?[...historyData]:[];
-    hist=hist.filter(h=>h.date!==todayKey);
-    hist.unshift({date:todayKey,savedAt:now,teams:JSON.parse(JSON.stringify(teams))});
+    // dedup by ISO date prefix (handles both "4/6/2569" and "4 มิถุนายน 2569" for same day)
+    hist=hist.filter(h=>!(h.savedAt&&h.savedAt.startsWith(todayISO))&&h.date!==td);
+    hist.unshift({date:td,savedAt:now,teams:JSON.parse(JSON.stringify(teams))});
     if(hist.length>60)hist=hist.slice(0,60);
     historyData=hist;
     await ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:td},tok);
@@ -1450,11 +1462,18 @@ function savePDSkills(){
 /* ═══════════════════════════ HISTORY ═══════════════════════ */
 function renderHistory(){
   const el=document.getElementById("hist-list");
-  const hist=Array.isArray(historyData)?historyData:[];
-  document.getElementById("hist-count").textContent=hist.length+" รายการ (ข้อมูลจาก Excel พฤษภาคม 2569)";
+  const rawHist=Array.isArray(historyData)?historyData:[];
+  // 1) Dedup by ISO date prefix (keeps latest for each calendar day)
+  const seen=new Map();
+  [...rawHist].sort((a,b)=>(a.savedAt||"").localeCompare(b.savedAt||"")).forEach(h=>{
+    const isoKey=h.savedAt?h.savedAt.slice(0,10):h.date;
+    seen.set(isoKey,h);
+  });
+  // 2) Filter only days with active teams (ไม่แสดงวันที่ไม่มีข้อมูล)
+  const hist=[...seen.values()].filter(h=>(h.teams||[]).some(t=>!isSB(t)));
+  document.getElementById("hist-count").textContent=hist.length+" รายการ";
   if(!hist.length){el.innerHTML=`<div style="text-align:center;padding:40px;color:var(--text3);font-size:13px">ยังไม่มีประวัติ</div>`;return;}
-  // Sort descending by date
-  const sorted=[...hist].sort((a,b)=>b.date>a.date?1:-1);
+  const sorted=[...hist].sort((a,b)=>(b.savedAt||b.date)>(a.savedAt||a.date)?1:-1);
   el.innerHTML=sorted.map((h,hi)=>{
     const act=(h.teams||[]).filter(t=>!isSB(t));
     const pax=act.reduce((s,t)=>s+mArr(t.members).length,0);
