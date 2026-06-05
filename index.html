@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780589716 -->
+<!-- build:1780619857 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -291,7 +291,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .rep-grid{grid-template-columns:1fr}.nd{display:none}
   .nbtn .hs{display:none}
 }
-@page{size:A4 landscape;margin:6mm}
+@page{size:A4 portrait;margin:6mm}
 @media print{.pbar,.nopr{display:none!important}#pov{position:static;overflow:visible}#pa{padding:0!important}body{background:#fff!important}#pa,#pa *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}}
 </style>
 <script id="ait-head">
@@ -1808,7 +1808,7 @@ function printRender(){
   const leaveP=cfg.personnel.filter(p=>memLeave[p.id]||memLeave[p.nick]);
 
   // ----- Job cards (ฝั่งซ้าย) 2 ทีม/แถว -----
-  const cardsHtml=act.length?`<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px">${act.map(t=>{
+  const cardsHtml=act.length?`<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">${act.map(t=>{
     const p=DPAL[t.id-1]||{bg:"#636366",n:"T-"+t.id};const ms=mArr(t.members);
     const chips=ms.length?ms.map(m=>{const pe=pmap[m]||{nick:m};return`<span style="display:inline-block;background:${p.bg};color:${txtOn(p.bg)};border-radius:5px;padding:2px 7px;margin:2px 3px 2px 0;font-size:10px;font-weight:700;white-space:nowrap">${pe.nick||m}</span>`;}).join(""):`<span style="color:#94a3b8;font-size:10px">— ยังไม่กำหนดสมาชิก —</span>`;
     return`<div style="border:1px solid #e2e8f0;border-left:5px solid ${p.bg};border-radius:8px;overflow:hidden;break-inside:avoid">
@@ -1873,7 +1873,7 @@ function printRender(){
   </div>`;
 
   document.getElementById("pa").innerHTML=`
-    <div id="pa-inner" style="width:1075px;max-width:100%;margin:0 auto;background:#fff;color:#0B1120">
+    <div id="pa-inner" style="width:749px;max-width:100%;margin:0 auto;background:#fff;color:#0B1120">
     <div style="background:#FFF200;border:2px solid #1a2332;border-radius:8px;padding:7px 14px;text-align:center;margin-bottom:9px">
       <span style="font-size:18px;font-weight:800;color:#0B1120">แผนงานประจำวัน ${thd(dObj)}</span>
     </div>
@@ -1883,14 +1883,20 @@ function printRender(){
         ${[["ทีมออกงาน",act.length,"#0A84FF"],["กำลังพล",pax,"#30D158"],["คนว่าง",availP.length,"#FF9F0A"],["ลางาน",leaveP.length,"#FF453A"]].map(([l,v,c])=>`<div style="border:2px solid ${c};border-radius:8px;padding:3px 12px;text-align:center"><div style="font-size:18px;font-weight:700;color:${c};line-height:1.1">${v}</div><div style="font-size:9px;color:#7a92ab">${l}</div></div>`).join("")}
       </div>
     </div>
-    <div style="font-family:Tahoma,sans-serif">
-      <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
-      ${cardsHtml}
-      <div style="font-size:11px;font-weight:700;margin:12px 0 6px;color:#1a2332">👥 รายชื่อกำลังพล (ทีม = ทีมที่ไป · "ว่าง" = ไม่ได้ออกงาน)</div>
-      ${persColsHtml}
-      <div style="display:flex;gap:12px;margin-top:10px;align-items:flex-start">
-        <div style="flex:1;min-width:0">${vehOutHtml}</div>
-        <div style="flex:1;min-width:0">${idleHtml}</div>
+    <div style="display:flex;gap:12px;align-items:flex-start;font-family:Tahoma,sans-serif">
+      <div style="flex:1.35;min-width:0">
+        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">📋 รายละเอียดงาน / Job Cards</div>
+        ${cardsHtml}
+        ${vehOutHtml}
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:#1a2332">👥 รายชื่อกำลังพล (ทีม = ทีมที่ไป · "ว่าง" = ไม่ได้ออกงาน)</div>
+        <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0;table-layout:fixed">
+          <colgroup><col style="width:13%"><col style="width:21%"><col style="width:31%"><col style="width:19%"><col style="width:16%"></colgroup>
+          <thead><tr style="background:#1a2332">${["ทีม","เบอร์โทร","ชื่อ-สกุล","ตำแหน่ง","ชื่อเล่น"].map(h=>`<th style="color:#fff;padding:3px 4px;text-align:left;font-size:8px;word-break:break-word">${h}</th>`).join("")}</tr></thead>
+          <tbody>${persRows.join("")}</tbody>
+        </table>
+        ${idleHtml}
       </div>
     </div>
     <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px">
@@ -1900,7 +1906,7 @@ function printRender(){
     <div style="margin-top:8px;font-size:9px;color:#94a3b8;text-align:center">AIT &amp; Services Co., Ltd. · ${new Date().toLocaleString("th-TH")}</div>
     </div>`;
   // auto scale-to-fit ให้จบ 1 หน้า A4 (ใช้ zoom เพื่อย่อ layout จริง)
-  requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=740;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
+  requestAnimationFrame(()=>{try{const inner=document.getElementById("pa-inner");if(!inner)return;inner.style.zoom="1";const A4H=1040;const sc=Math.min(1,A4H/inner.scrollHeight);inner.style.zoom=String(sc.toFixed(3));}catch(e){}});
 }
 
 /* บันทึกหน้าสรุป Print เป็นรูป JPEG หน้าเดียว (สัดส่วนตรงกับ preview) */
@@ -1919,7 +1925,7 @@ function savePrintJpeg(){
     html2canvas(inner,{scale:2,backgroundColor:"#ffffff",useCORS:true,logging:false,width:w,height:h,windowWidth:w,windowHeight:h,scrollX:0,scrollY:0,onclone:doc=>{const ci=doc.getElementById("pa-inner");if(ci){ci.style.zoom="1";ci.style.transform="none";ci.style.margin="0";}}}).then(canvas=>{
       inner.style.zoom=prevZoom;
       // วางลงผืน A4 portrait (contain) → ได้รูปสัดส่วน A4 ครบทุกข้อมูลใน 1 หน้า
-      const A4W=2245,A4H=1587; // ~A4 landscape @192dpi
+      const A4W=1587,A4H=2245; // ~A4 portrait @192dpi
       const out=document.createElement("canvas");out.width=A4W;out.height=A4H;
       const ctx=out.getContext("2d");ctx.fillStyle="#ffffff";ctx.fillRect(0,0,A4W,A4H);
       const pad=24,sc=Math.min((A4W-pad*2)/canvas.width,(A4H-pad*2)/canvas.height);
