@@ -4,14 +4,15 @@
       "id": 1,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260096",
+      "jobNo": "JB260120",
       "depart": "06:30",
       "arrive": "07:00",
       "members": "บิ๊ก, บีม, เอิร์ก",
-      "vehicle": "— เลือกรถ —",
-      "equipment": "TTFF-24 S/N250948",
+      "vehicle": "2ฒษ 2857 (แครี่บอย)",
+      "equipment": "MM 300 E",
       "contact": "กับตัน 080-047-1014",
-      "locname": "CFP"
+      "locname": "CFP",
+      "detail": ""
     },
     {
       "id": 2,
@@ -131,7 +132,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-06T11:16:03.623Z",
+  "lastUpdated": "2026-06-07T07:39:26.655Z",
   "updatedBy": "Nine",
-  "date": "6/6/2569"
+  "date": "7/6/2569"
 }
