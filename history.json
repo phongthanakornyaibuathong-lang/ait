@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "7/6/2569",
-      "savedAt": "2026-06-07T07:58:29.860Z",
+      "savedAt": "2026-06-07T08:03:53.064Z",
       "teams": [
         {
           "id": 1,
@@ -5093,15 +5093,16 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "Kuraray / Sriprapaphan",
-          "jobNo": "JB260097",
-          "depart": "07:00",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260122",
+          "depart": "06:30",
           "arrive": "08:00",
-          "members": "นัท, คิว, ต้าร์",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "Tension A/F",
-          "contact": "ปื๊ด 096-297-2292"
+          "members": "บอย, โอม, พิเชษฐ์, สัญชัย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 12",
+          "contact": "ช่าง โด่ง  094-7467526 ",
+          "detail": "เตรียมเครื่อง  30\" TSF 30 ไปด้วย"
         },
         {
           "id": 7,
@@ -5154,5 +5155,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-07T07:58:29.860Z"
+  "lastUpdated": "2026-06-07T08:03:53.064Z"
 }
