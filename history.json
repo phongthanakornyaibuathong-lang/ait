@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "7/6/2569",
-      "savedAt": "2026-06-07T08:04:00.219Z",
+      "savedAt": "2026-06-07T08:10:08.097Z",
       "teams": [
         {
           "id": 1,
@@ -5106,6 +5106,19 @@
         },
         {
           "id": 7,
+          "jobType": "BOLT",
+          "site": "Thai Oil ท่าเรือ",
+          "jobNo": "Job No JB260116",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, นัฐ, แชมป์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "็Hydraulic Torque",
+          "contact": "ช่าง สายัน 0979451547",
+          "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ\nควบคุมปั๊มบนเรือนักประดาน้ำจับหัว Torque "
+        },
+        {
+          "id": 8,
           "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
@@ -5113,31 +5126,19 @@
           "arrive": "",
           "members": "",
           "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
+          "equipment": "",
           "contact": ""
         },
         {
-          "id": 8,
-          "jobType": "ROBOT",
-          "site": "CUEL งาน Torque Unit 3",
-          "jobNo": "JB260098",
-          "depart": "06:30",
-          "arrive": "07:30",
-          "members": "ป๋อ, แชมป์, อั๋น",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "TTFF-24",
-          "contact": "ปิยพงษ์ 099-441-9388"
-        },
-        {
           "id": 9,
-          "jobType": "BOLT",
-          "site": "IRPC ระยอง / Maintenance Shutdown",
-          "jobNo": "JB260115",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "ราชัน, อภิชน, ธีรภัทร",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": ""
         },
         {
@@ -5155,5 +5156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-07T08:04:00.219Z"
+  "lastUpdated": "2026-06-07T08:10:08.097Z"
 }
