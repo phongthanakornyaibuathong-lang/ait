@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "7/6/2569",
-      "savedAt": "2026-06-07T08:13:35.431Z",
+      "savedAt": "2026-06-07T08:22:48.851Z",
       "teams": [
         {
           "id": 1,
@@ -5034,7 +5034,7 @@
           "jobNo": "JB260120",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "บิ๊ก, บีม, เอิร์ก",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "กับตัน 080-047-1014",
@@ -5047,7 +5047,7 @@
           "jobNo": "JB260120",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "ทาม, อองรี, เฟิร์ส",
+          "members": "ทาม, โอ๊ด, เอิร์ก",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "TOFF-12 New",
           "contact": "ช่าง กับตัน 080-0471014",
@@ -5073,7 +5073,7 @@
           "jobNo": "JB260121",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "อั๋น, โอ๊ด, นันทปรีชา",
+          "members": "อั๋น, ป๋อ, นันทปรีชา",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TOFF-12 (S/N26020099)",
           "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527",
@@ -5106,6 +5106,19 @@
         },
         {
           "id": 7,
+          "jobType": "BOLT",
+          "site": "Thai Oil ท่าเรือ",
+          "jobNo": "Job No JB260116",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, นัฐ, แชมป์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "็Hydraulic Torque",
+          "contact": "ช่าง สายัน 0979451547",
+          "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ\nควบคุมปั๊มบนเรือนักประดาน้ำจับหัว Torque "
+        },
+        {
+          "id": 8,
           "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
@@ -5113,31 +5126,19 @@
           "arrive": "",
           "members": "",
           "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
+          "equipment": "",
           "contact": ""
         },
         {
-          "id": 8,
-          "jobType": "ROBOT",
-          "site": "CUEL งาน Torque Unit 3",
-          "jobNo": "JB260098",
-          "depart": "06:30",
-          "arrive": "07:30",
-          "members": "ป๋อ, แชมป์, อั๋น",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "TTFF-24",
-          "contact": "ปิยพงษ์ 099-441-9388"
-        },
-        {
           "id": 9,
-          "jobType": "BOLT",
-          "site": "IRPC ระยอง / Maintenance Shutdown",
-          "jobNo": "JB260115",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "ราชัน, อภิชน, ธีรภัทร",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": ""
         },
         {
@@ -5155,5 +5156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-07T08:13:35.431Z"
+  "lastUpdated": "2026-06-07T08:22:48.851Z"
 }
