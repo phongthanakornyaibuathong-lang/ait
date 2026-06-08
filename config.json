@@ -832,6 +832,10 @@
     {
       "id": "Pump",
       "label": "Hydraulic torque"
+    },
+    {
+      "id": "Cold cut",
+      "label": "TSF 30"
     }
   ],
   "sites": [
