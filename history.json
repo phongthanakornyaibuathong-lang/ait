@@ -5,7 +5,7 @@
       "day_th": "9 มิถุนายน 2569",
       "dateKey": "2026-06-09",
       "savedAt": "2026-06-09T00:00:00.000Z",
-      "modifiedAt": "2026-06-08T11:34:42.708Z",
+      "modifiedAt": "2026-06-08T12:18:03.701Z",
       "teams": [
         {
           "id": 1,
@@ -77,21 +77,20 @@
           "members": "บอย, โอม, พิเชษฐ์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526 ",
-          "detail": "Cold cutting pipe 30\""
+          "contact": "ช่าง โด่ง  094-7467526 "
         },
         {
           "id": 7,
-          "jobType": "COLD_CUT",
+          "jobType": "FLANGE",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260122",
+          "jobNo": "JB260123",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ทาม, ป๋อ, สัญชัย",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 12",
+          "equipment": "TOFF-12",
           "contact": "ช่าง โด่ง  094-7467526 ",
-          "detail": "Cold cutting pipe 8\""
+          "detail": "Machine flange 4\"600# , 4\" 900#"
         },
         {
           "id": 8,
@@ -103,8 +102,7 @@
           "members": "เป้, นัฐ, แชมป์",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง สายัน 0979451547",
-          "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ\nควบคุมปั๊มบนเรือ นักประดาน้ำจับหัว Torque"
+          "contact": "ช่าง สายัน 0979451547"
         },
         {
           "id": 9,
@@ -134,7 +132,7 @@
     },
     {
       "date": "8/6/2569",
-      "savedAt": "2026-06-08T11:34:42.714Z",
+      "savedAt": "2026-06-08T12:18:03.709Z",
       "dateKey": "2026-06-08",
       "teams": [
         {
@@ -4933,5 +4931,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T11:34:42.714Z"
+  "lastUpdated": "2026-06-08T12:18:03.709Z"
 }
