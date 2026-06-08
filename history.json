@@ -5,7 +5,7 @@
       "day_th": "9 มิถุนายน 2569",
       "dateKey": "2026-06-09",
       "savedAt": "2026-06-09T00:00:00.000Z",
-      "modifiedAt": "2026-06-08T09:26:04.467Z",
+      "modifiedAt": "2026-06-08T09:29:00.029Z",
       "teams": [
         {
           "id": 1,
@@ -77,19 +77,21 @@
           "members": "บอย, โอม, พิเชษฐ์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526 "
+          "contact": "ช่าง โด่ง  094-7467526 ",
+          "detail": "Cold cutting pipe 30\""
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260122",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม, ป๋อ, สัญชัย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 12",
+          "contact": "ช่าง โด่ง  094-7467526 ",
+          "detail": "Cold cutting pipe 8\""
         },
         {
           "id": 8,
@@ -131,7 +133,7 @@
     },
     {
       "date": "8/6/2569",
-      "savedAt": "2026-06-08T09:26:04.474Z",
+      "savedAt": "2026-06-08T09:29:00.037Z",
       "dateKey": "2026-06-08",
       "teams": [
         {
@@ -4930,5 +4932,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T09:26:04.474Z"
+  "lastUpdated": "2026-06-08T09:29:00.037Z"
 }
