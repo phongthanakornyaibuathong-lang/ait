@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780666904 -->
+<!-- build:1780886649 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1223,12 +1223,13 @@ async function saveCloud(){
   setSS("sync","กำลัง Sync...");toast("⏳ กำลัง sync...","info");
   try{
     const now=new Date().toISOString(),td=new Date().toLocaleDateString("th-TH");
-    const todayISO=now.slice(0,10); // "YYYY-MM-DD" — robust dedup key
+    const todayISO=now.slice(0,10);
     let hist=Array.isArray(historyData)?[...historyData]:[];
-    // dedup by ISO date prefix (handles both "4/6/2569" and "4 มิถุนายน 2569" for same day)
-    hist=hist.filter(h=>!(h.savedAt&&h.savedAt.startsWith(todayISO))&&h.date!==td);
-    hist.unshift({date:td,savedAt:now,teams:JSON.parse(JSON.stringify(teams))});
-    if(hist.length>60)hist=hist.slice(0,60);
+    hist=hist.filter(h=>!(h.savedAt&&h.savedAt.startsWith(todayISO))&&h.dateKey!==todayISO&&h.date!==td);
+    hist.unshift({date:td,savedAt:now,dateKey:todayISO,teams:JSON.parse(JSON.stringify(teams))});
+    // Sort by real date DESC so slice(0,60) keeps most recent, not random order
+    hist.sort((a,b)=>{const ak=a.dateKey||a.savedAt||"";const bk=b.dateKey||b.savedAt||"";return bk.localeCompare(ak);});
+    if(hist.length>90)hist=hist.slice(0,90); // ขยาย limit เป็น 90 วัน
     historyData=hist;
     await ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:td},tok);
     await ghPUT("history.json",{history:hist,lastUpdated:now},tok);
@@ -1465,8 +1466,8 @@ function renderHistory(){
   const rawHist=Array.isArray(historyData)?historyData:[];
   // 1) Dedup by ISO date prefix (keeps latest for each calendar day)
   const seen=new Map();
-  [...rawHist].sort((a,b)=>(a.savedAt||"").localeCompare(b.savedAt||"")).forEach(h=>{
-    const isoKey=h.savedAt?h.savedAt.slice(0,10):h.date;
+  [...rawHist].sort((a,b)=>(a.modifiedAt||a.savedAt||"").localeCompare(b.modifiedAt||b.savedAt||"")).forEach(h=>{
+    const isoKey=h.dateKey||(h.savedAt?h.savedAt.slice(0,10):h.date);
     seen.set(isoKey,h);
   });
   // 2) Filter only days with active teams (ไม่แสดงวันที่ไม่มีข้อมูล)
@@ -2158,7 +2159,7 @@ function getTeamsForDate(dateKey){
   if(dayPlans[dateKey]) return dayPlans[dateKey].teams;
   const hist=Array.isArray(historyData)?historyData:[];
   // 2. history by savedAt ISO date prefix
-  const hd=hist.find(h=>h.savedAt&&h.savedAt.startsWith(dateKey));
+  const hd=hist.find(h=>h.dateKey===dateKey||(h.savedAt&&h.savedAt.startsWith(dateKey)));
   if(hd) return hd.teams||[];
   // 3. Today's live teams
   const today=new Date(),tk=calDateKey(today.getFullYear(),today.getMonth(),today.getDate());
@@ -2510,13 +2511,16 @@ async function savePlan(){
   dayPlans[key]=JSON.parse(JSON.stringify(pfWorkingPlan));
   // Also push into historyData for persistence
   let hist=Array.isArray(historyData)?[...historyData]:[];
-  hist=hist.filter(h=>h.savedAt&&!h.savedAt.startsWith(key));
+  hist=hist.filter(h=>h.dateKey!==key&&!(h.savedAt&&h.savedAt.startsWith(key)));
   const thMonths=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
   const [y,m,d]=key.split("-").map(Number);
-  hist.push({
+  const nowISO=new Date().toISOString();
+  hist.unshift({  // unshift (ไม่ใช้ push) เพื่อป้องกันถูกตัดโดย slice(0,60)
     date:`${d} ${thMonths[m-1]} ${y+543}`,
     day_th:`${d} ${thMonths[m-1]} ${y+543}`,
-    savedAt:key+"T00:00:00.000Z",
+    dateKey:key,          // explicit date key for reliable lookup
+    savedAt:key+"T00:00:00.000Z",    // compat with getTeamsForDate
+    modifiedAt:nowISO,    // actual edit time — wins in dedup
     teams:pfWorkingPlan.teams
   });
   historyData=hist;
