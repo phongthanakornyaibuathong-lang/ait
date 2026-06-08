@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "8/6/2569",
-      "savedAt": "2026-06-08T07:29:12.923Z",
+      "savedAt": "2026-06-08T07:29:29.392Z",
       "dateKey": "2026-06-08",
       "teams": [
         {
@@ -101,7 +101,7 @@
         },
         {
           "id": 8,
-          "jobType": "ROBOT",
+          "jobType": "BOLT",
           "site": "CUEL งาน Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
@@ -110,7 +110,8 @@
           "vehicle": "— เลือกรถ —",
           "equipment": "TTFF-24",
           "contact": "ปิยพงษ์ 099-441-9388",
-          "locname": "CUEL Limited Office Building 3"
+          "locname": "CUEL Limited Office Building 3",
+          "detail": ""
         },
         {
           "id": 9,
@@ -4781,5 +4782,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T07:29:12.923Z"
+  "lastUpdated": "2026-06-08T07:29:29.392Z"
 }
