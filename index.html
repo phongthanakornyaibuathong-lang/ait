@@ -1744,6 +1744,7 @@ function saveE(){
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
   renderAll();checkDups();checkExpiry();
+  if(getTok())saveCloud();
   toast("✓ บันทึก "+DPAL[eid-1]?.n+" — กด Save & Sync ทีม ☁","warn");
 }
 
@@ -2380,6 +2381,7 @@ function deletePlan(){
   try{renderCalendar();}catch(e){}
   try{if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length)window.renderTomorrowTab();}catch(e){}
   if(calSelDate===key)try{selectCalDay(key,d);}catch(e){}
+  if(getTok())saveCloud();
   toast(`🗑 ลบแผน ${key} แล้ว — กด Save & Sync เพื่ออัปเดต cloud`,"info");
 }
 
@@ -2536,6 +2538,7 @@ async function savePlan(){
   if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length){try{window.renderTomorrowTab();}catch(e){}}
   // Update day panel
   if(calSelDate===key) selectCalDay(key,d);
+  if(getTok())saveCloud();
   toast(`✓ บันทึกแผน ${key} — กด Save & Sync เพื่ออัปโหลด`,"ok");
 }
 
