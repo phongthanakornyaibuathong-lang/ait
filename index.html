@@ -1156,7 +1156,12 @@ async function loadCloud(){
       fetch(RAW+Date.now()),fetch(RAW_HIST+Date.now()),fetch(RAW_CFG+Date.now())
     ]);
     if(rd.ok){const d=await rd.json();teams=d.teams||[];const lu=d.lastUpdated?new Date(d.lastUpdated).toLocaleString("th-TH",{dateStyle:"short",timeStyle:"short"}):"—";setSS("ok",`Sync สำเร็จ · ${d.updatedBy||"—"} · ${lu}`);document.getElementById("lub").innerHTML=`🟢 Sync จาก Cloud · ${d.updatedBy||"—"} เมื่อ ${lu} · auto-refresh 60 วิ`;}else throw new Error("HTTP "+rd.status);
-    if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0)historyData=h.history;}
+    if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0){
+      historyData=h.history.map(e=>{
+        if(!e.dateKey&&e.savedAt)e.dateKey=e.savedAt.slice(0,10);
+        return e;
+      });
+    }}
     if(rc.ok){const c=await rc.json();
       if(c.jobTypes&&c.jobTypes.length)cfg.jobTypes=c.jobTypes;
       if(c.personnel&&c.personnel.length){
