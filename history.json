@@ -2,7 +2,7 @@
   "history": [
     {
       "date": "8/6/2569",
-      "savedAt": "2026-06-08T07:28:20.813Z",
+      "savedAt": "2026-06-08T07:29:00.893Z",
       "dateKey": "2026-06-08",
       "teams": [
         {
@@ -541,8 +541,11 @@
       "dateKey": "2026-06-05"
     },
     {
-      "date": "4/6/2569",
-      "savedAt": "2026-06-04T10:14:30.645Z",
+      "date": "4 มิถุนายน 2569",
+      "day_th": "4 มิถุนายน 2569",
+      "dateKey": "2026-06-04",
+      "savedAt": "2026-06-04T00:00:00.000Z",
+      "modifiedAt": "2026-06-08T07:29:00.887Z",
       "teams": [
         {
           "id": 1,
@@ -554,8 +557,7 @@
           "members": "บิ๊ก, บีม, เอิร์ก",
           "vehicle": "— เลือกรถ —",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "กับตัน 080-047-1014",
-          "locname": "CFP"
+          "contact": "กับตัน 080-047-1014"
         },
         {
           "id": 2,
@@ -567,8 +569,7 @@
           "members": "คิง, ทาม, เฟิร์ส, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "เพียว 092-621-6363",
-          "locname": "SCC (Shop1)"
+          "contact": "เพียว 092-621-6363"
         },
         {
           "id": 3,
@@ -604,8 +605,7 @@
           "members": "อั๋น, นัฐ, ทาม, ไอซ์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TTFF-40",
-          "contact": "นัตตี้ 098-278-4490",
-          "locname": "THAI NIPPON STEEL ENGINEERING & CONSTRUCTION CORPORATION LTD."
+          "contact": "นัตตี้ 098-278-4490"
         },
         {
           "id": 6,
@@ -617,8 +617,7 @@
           "members": "นัท, คิว, ต้าร์",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "Tension A/F",
-          "contact": "ปื๊ด 096-297-2292",
-          "locname": "KURARAY GC ADVANCED MATERIALS"
+          "contact": "ปื๊ด 096-297-2292"
         },
         {
           "id": 7,
@@ -634,7 +633,7 @@
         },
         {
           "id": 8,
-          "jobType": "ROBOT",
+          "jobType": "BOLT",
           "site": "CUEL งาน Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
@@ -642,8 +641,7 @@
           "members": "ป๋อ, แชมป์, อั๋น",
           "vehicle": "— เลือกรถ —",
           "equipment": "TTFF-24",
-          "contact": "ปิยพงษ์ 099-441-9388",
-          "locname": "CUEL Limited Office Building 3"
+          "contact": "ปิยพงษ์ 099-441-9388"
         },
         {
           "id": 9,
@@ -669,8 +667,7 @@
           "equipment": "",
           "contact": ""
         }
-      ],
-      "dateKey": "2026-06-04"
+      ]
     },
     {
       "date": "3 มิถุนายน 2569",
@@ -4800,5 +4797,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T07:28:20.813Z"
+  "lastUpdated": "2026-06-08T07:29:00.893Z"
 }
