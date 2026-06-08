@@ -5,7 +5,7 @@
       "day_th": "9 มิถุนายน 2569",
       "dateKey": "2026-06-09",
       "savedAt": "2026-06-09T00:00:00.000Z",
-      "modifiedAt": "2026-06-08T09:19:21.735Z",
+      "modifiedAt": "2026-06-08T09:21:05.281Z",
       "teams": [
         {
           "id": 1,
@@ -57,15 +57,15 @@
         },
         {
           "id": 5,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260115",
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260118",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ฟีล์ม, โอ๊ด",
+          "members": "กาน(นำ), ปลาย, ไอซ์",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
         },
         {
           "id": 6,
@@ -131,7 +131,7 @@
     },
     {
       "date": "8/6/2569",
-      "savedAt": "2026-06-08T09:19:43.057Z",
+      "savedAt": "2026-06-08T09:21:05.288Z",
       "dateKey": "2026-06-08",
       "teams": [
         {
@@ -4930,5 +4930,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T09:19:43.057Z"
+  "lastUpdated": "2026-06-08T09:21:05.288Z"
 }
