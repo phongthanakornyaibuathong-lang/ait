@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780886649 -->
+<!-- build:1780922368 -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -348,11 +348,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 <!-- PAGE: TOMORROW -->
 <div id="page-tomorrow" class="page">
   <div class="main">
+    <div id="tmr-header" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:4px">
+      <div><div class="sec-title" id="tmr-date-title">📆 แผนงานพรุ่งนี้</div><div class="sec-sub" id="tmr-date-sub">โหลด...</div></div>
+      <button id="tmr-edit-btn" style="display:none;background:var(--blue);color:#fff;border:none;border-radius:10px;padding:7px 16px;font-size:13px;font-weight:700;cursor:pointer" onclick="openTomorrowPlan()">✎ แก้ไขแผนพรุ่งนี้</button>
+    </div>
     <div class="stats" id="sr-tmr"></div>
     <div class="filters" id="fi-tmr"></div>
     <div class="grid" id="cg-tmr"></div>
     <div class="tlwrap"><div class="tlhead">⏱ Timeline — ออกเดินทาง</div><div class="tlinner" id="tl-tmr"></div></div>
-    <div id="lub-tmr" style="background:var(--card);border:.5px solid var(--border);border-radius:12px;padding:9px 13px;font-size:11px;color:var(--text3)">📆 แผนงานพรุ่งนี้</div>
+    <div id="lub-tmr"></div>
   </div>
 </div>
 
@@ -1156,12 +1160,7 @@ async function loadCloud(){
       fetch(RAW+Date.now()),fetch(RAW_HIST+Date.now()),fetch(RAW_CFG+Date.now())
     ]);
     if(rd.ok){const d=await rd.json();teams=d.teams||[];const lu=d.lastUpdated?new Date(d.lastUpdated).toLocaleString("th-TH",{dateStyle:"short",timeStyle:"short"}):"—";setSS("ok",`Sync สำเร็จ · ${d.updatedBy||"—"} · ${lu}`);document.getElementById("lub").innerHTML=`🟢 Sync จาก Cloud · ${d.updatedBy||"—"} เมื่อ ${lu} · auto-refresh 60 วิ`;}else throw new Error("HTTP "+rd.status);
-    if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0){
-      historyData=h.history.map(e=>{
-        if(!e.dateKey&&e.savedAt)e.dateKey=e.savedAt.slice(0,10);
-        return e;
-      });
-    }}
+    if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0)historyData=h.history;}
     if(rc.ok){const c=await rc.json();
       if(c.jobTypes&&c.jobTypes.length)cfg.jobTypes=c.jobTypes;
       if(c.personnel&&c.personnel.length){
@@ -1744,7 +1743,6 @@ function saveE(){
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
   renderAll();checkDups();checkExpiry();
-  if(getTok())saveCloud();
   toast("✓ บันทึก "+DPAL[eid-1]?.n+" — กด Save & Sync ทีม ☁","warn");
 }
 
@@ -2264,20 +2262,32 @@ function selectCalDay(key,dayNum){
   const act=dayTeams.filter(t=>!isSB(t));
   let content="";
   if(act.length){
-    content=`<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">`;
-    act.forEach(t=>{
-      const p=DPAL[(t.id||1)-1]||{bg:"#636366",n:"T-"+t.id};const c=jc(t.jobType);
-      content+=`<div style="background:var(--bg3);border:.5px solid var(--border);border-radius:10px;padding:10px 12px">
-        <div style="display:flex;align-items:center;gap:7px;margin-bottom:6px">
-          <div style="width:24px;height:24px;border-radius:5px;background:${p.bg};display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff">${p.n}</div>
-          <span style="font-weight:600;font-size:12px;color:var(--text);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.site||"—"}</span>
-          <span class="jpill" style="background:${jbg(t.jobType)};color:${c}">${jl(t.jobType)}</span>
+    const c_=jc,p_=jbg,l_=jl;
+    content=`<div class="grid">`+act.map(t=>{
+      const p=DPAL[(t.id||1)-1]||{bg:"#636366",n:"T-"+t.id},ms=mArr(t.members),c=c_(t.jobType);
+      const ctHtml=!t.contact?"":String(t.contact).replace(/(\d[\d\-\s]{6,}\d)/,function(m){return`<a href="tel:${m.replace(/\D/g,"")}\">${m.trim()}</a>`;});
+      const eqTags=!t.equipment?"":String(t.equipment).split(/[,/]/).map(function(s){return s.trim();}).filter(Boolean).map(function(s){return`<span class="eqtag">${s}</span>`;}).join("");
+      const editBtn=isAdmin?`<button class="eic" onclick="openPlanModal('${key}')">✎</button>`:"";
+      return`<div class="card">
+        <div class="card-top" style="background:${p.bg}">
+          <div class="ctop-l"><div class="cbadge">${p.n}</div><span class="ctitle">${t.site||"—"}</span></div>
+          <span class="jpill" style="background:${p_(t.jobType)};color:${c}">${l_(t.jobType)}</span>${editBtn}
         </div>
-        <div style="font-size:11px;color:var(--text2)">${t.depart||"—"} → ${t.arrive||"—"}</div>
-        <div style="font-size:11px;color:var(--text3);margin-top:3px">${t.members||"—"}</div>
+        <div class="card-body">
+          ${t.jobNo?`<div class="jno">${t.jobNo}</div>`:""}
+          <div class="trow">
+            <div class="tbox" style="background:${c}15"><div class="tlbl">ออกเดินทาง</div><div class="tval" style="color:${c}">${t.depart||"—"}</div></div>
+            <div class="tbox" style="background:${c}15"><div class="tlbl">ถึงหน้างาน</div><div class="tval" style="color:${c}">${t.arrive||"—"}</div></div>
+          </div>
+          ${ms.length?`<div class="mem-row">${ms.map(function(m){return`<span class="pill" style="background:${c}16;color:${c}">${m}</span>`;}).join("")}</div>`:""}
+          ${t.vehicle?`<div class="veh">🚗 <b>${t.vehicle}</b></div>`:""}
+          ${ctHtml?`<div class="veh ctc">📞 <span>${ctHtml}</span></div>`:""}
+          ${eqTags?`<div class="veh eqp">🔧 <span class="eqtags">${eqTags}</span></div>`:""}
+          ${t.detail?`<div class="veh" style="align-items:flex-start">📝 <span style="font-size:12px;color:var(--text2)">${t.detail}</span></div>`:""}
+          ${t.locname?`<div class="veh loc"><a href="https://www.google.com/maps/search/${encodeURIComponent(t.locname)}" target="_blank" style="color:var(--blue);text-decoration:none;display:flex;align-items:center;gap:4px">🗺️ <span>${t.locname}</span></a></div>`:""}
+        </div>
       </div>`;
-    });
-    content+="</div>";
+    }).join("")+"</div>";
   }else{
     content=`<div style="text-align:center;padding:20px;color:var(--text3);font-size:12px">ไม่มีแผนงานในวันนี้${isAdmin?" — กดวางแผนเพื่อเพิ่ม":""}</div>`;
   }
@@ -2381,7 +2391,6 @@ function deletePlan(){
   try{renderCalendar();}catch(e){}
   try{if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length)window.renderTomorrowTab();}catch(e){}
   if(calSelDate===key)try{selectCalDay(key,d);}catch(e){}
-  if(getTok())saveCloud();
   toast(`🗑 ลบแผน ${key} แล้ว — กด Save & Sync เพื่ออัปเดต cloud`,"info");
 }
 
@@ -2538,7 +2547,6 @@ async function savePlan(){
   if(window.renderTomorrowTab&&typeof DPAL!=='undefined'&&DPAL&&DPAL.length){try{window.renderTomorrowTab();}catch(e){}}
   // Update day panel
   if(calSelDate===key) selectCalDay(key,d);
-  if(getTok())saveCloud();
   toast(`✓ บันทึกแผน ${key} — กด Save & Sync เพื่ออัปโหลด`,"ok");
 }
 
@@ -2609,18 +2617,19 @@ Object.keys(_map).forEach(function(k){
 /* --- restore globals --- */
 teams=_teams;filt=_filt;
 
-/* --- update date label & edit button in lub-tmr --- */
+/* --- update date header at top --- */
 var thDOW=['อาทิตย์','จันทร์','อังคาร','พุธ','พฤหัสบดี','ศุกร์','เสาร์'];
 var thMO=['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
 var dow=thDOW[tm.getDay()];
 var dateStr='วัน'+dow+'ที่ '+d+' '+thMO[tm.getMonth()]+' '+(y+543);
+var titleEl=document.getElementById('tmr-date-title');
+var subEl=document.getElementById('tmr-date-sub');
+var editEl=document.getElementById('tmr-edit-btn');
+if(titleEl)titleEl.textContent='📆 แผนงานพรุ่งนี้';
+if(subEl){var actCount=tTeams.filter(function(t){return!isSB(t);}).length;subEl.textContent=dateStr+' · '+actCount+' ทีมออกงาน';}
+if(editEl)editEl.style.display=isAdmin?'flex':'none';
 var lubEl=document.getElementById('lub-tmr');
-if(lubEl){
-  lubEl.innerHTML='<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">'
-    +'<span style="color:var(--text2);font-size:12px;">📆 '+dateStr+'</span>'
-    +(isAdmin?'<button onclick="openTomorrowPlan()" style="background:#0A84FF;color:#fff;border:none;border-radius:8px;padding:5px 14px;cursor:pointer;font-size:12px;font-weight:600;">✎ แก้ไขแผนพรุ่งนี้</button>':'')
-    +'</div>';
-}
+if(lubEl)lubEl.innerHTML='';
 };
 window.openTomorrowPlan=function(){var tm=new Date();tm.setDate(tm.getDate()+1);var tKey=tm.getFullYear()+'-'+String(tm.getMonth()+1).padStart(2,'0')+'-'+String(tm.getDate()).padStart(2,'0');if(!isAdmin){toast('ต้อง Login Admin ก่อน','warn');return;}if(window.openPlanModal)openPlanModal(tKey);};
 var _oST=window.showTab;window.showTab=function(page,el){_oST(page,el);if(page==='tomorrow'){if(DPAL&&DPAL.length){window.renderTomorrowTab();}else{(function w(n){if(DPAL&&DPAL.length){window.renderTomorrowTab();}else if(n<25)setTimeout(function(){w(n+1);},200);})(0);}}};var _oRA=window.renderAll;window.renderAll=function(){if(_oRA)_oRA();var pg=document.getElementById('page-tomorrow');if(pg&&pg.classList.contains('on')&&window.renderTomorrowTab&&DPAL&&DPAL.length)window.renderTomorrowTab();};
