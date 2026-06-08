@@ -8,69 +8,69 @@
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260120",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¸à¸µà¸¡, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e1a\u0e35\u0e21, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014",
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014",
           "locname": "CFP",
           "detail": ""
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363",
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363",
           "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB268118",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸²à¸(à¸à¸³), à¸à¸¥à¸²à¸¢",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e01\u0e32\u0e19(\u0e19\u0e33), \u0e1b\u0e25\u0e32\u0e22",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¸µà¸¢à¸§ à¹à¸à¸´à¹à¸¡à¸à¸à¸¨à¹ 0926216363",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e40\u0e1e\u0e35\u0e22\u0e27 \u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1e\u0e07\u0e28\u0e4c 0926216363",
           "locname": "SCC (Shop1)",
           "detail": ""
         },
         {
           "id": 4,
           "jobType": "FLANGE",
-          "site": "UCS à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP A.17)",
+          "site": "UCS \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP A.17)",
           "jobNo": "JB260106",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸²à¸¡, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e17\u0e32\u0e21, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¹à¸²à¸ à¸à¸±à¸à¸£à¸à¸±à¸¢ (à¸à¹à¸­à¸)  093-3349527",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e09\u0e31\u0e15\u0e23\u0e0a\u0e31\u0e22 (\u0e17\u0e4a\u0e2d\u0e1b)  093-3349527",
           "locname": "",
           "detail": ""
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "Shino thai  à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil (CFP) Site)",
+          "site": "Shino thai  \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil (CFP) Site)",
           "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸­à¸¢, à¸à¸µà¸¥à¹à¸¡, à¹à¸­à¹à¸",
-          "vehicle": "à¸à¸ 6279 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e2d\u0e22, \u0e1f\u0e35\u0e25\u0e4c\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "\u0e1c\u0e1a 6279 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TSF 12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¹à¸  094-7467526",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e42\u0e14\u0e48\u0e07  094-7467526",
           "locname": "",
           "detail": ""
         },
@@ -81,10 +81,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292",
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292",
           "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
@@ -95,32 +95,32 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388",
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388",
           "locname": "CUEL Limited Office Building 3"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -139,69 +139,69 @@
       ]
     },
     {
-      "date": "7 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
-      "day_th": "7 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
+      "date": "7 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
+      "day_th": "7 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
       "savedAt": "2026-06-07T00:00:00.000Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260120",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¸à¸µà¸¡, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e1a\u0e35\u0e21, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014"
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363"
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB268118",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸²à¸(à¸à¸³), à¸à¸¥à¸²à¸¢",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e01\u0e32\u0e19(\u0e19\u0e33), \u0e1b\u0e25\u0e32\u0e22",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¸µà¸¢à¸§ à¹à¸à¸´à¹à¸¡à¸à¸à¸¨à¹ 0926216363"
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e40\u0e1e\u0e35\u0e22\u0e27 \u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1e\u0e07\u0e28\u0e4c 0926216363"
         },
         {
           "id": 4,
           "jobType": "FLANGE",
-          "site": "UCS à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP A.17)",
+          "site": "UCS \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP A.17)",
           "jobNo": "JB260106",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸²à¸¡, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e17\u0e32\u0e21, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¹à¸²à¸ à¸à¸±à¸à¸£à¸à¸±à¸¢ (à¸à¹à¸­à¸)  093-3349527"
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e09\u0e31\u0e15\u0e23\u0e0a\u0e31\u0e22 (\u0e17\u0e4a\u0e2d\u0e1b)  093-3349527"
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "Shino thai  à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil (CFP) Site)",
+          "site": "Shino thai  \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil (CFP) Site)",
           "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸­à¸¢, à¸à¸µà¸¥à¹à¸¡, à¹à¸­à¹à¸",
-          "vehicle": "à¸à¸ 6279 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e2d\u0e22, \u0e1f\u0e35\u0e25\u0e4c\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "\u0e1c\u0e1a 6279 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TSF 12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¹à¸  094-7467526"
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e42\u0e14\u0e48\u0e07  094-7467526"
         },
         {
           "id": 6,
@@ -210,10 +210,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292"
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292"
         },
         {
           "id": 7,
@@ -223,31 +223,31 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388"
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -273,68 +273,68 @@
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260096",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¸à¸µà¸¡, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e1a\u0e35\u0e21, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014",
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014",
           "locname": "CFP"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363",
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363",
           "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB268118",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸²à¸(à¸à¸³), à¸à¸¥à¸²à¸¢",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e01\u0e32\u0e19(\u0e19\u0e33), \u0e1b\u0e25\u0e32\u0e22",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¸µà¸¢à¸§ à¹à¸à¸´à¹à¸¡à¸à¸à¸¨à¹ 0926216363",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e40\u0e1e\u0e35\u0e22\u0e27 \u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1e\u0e07\u0e28\u0e4c 0926216363",
           "locname": "SCC (Shop1)",
           "detail": ""
         },
         {
           "id": 4,
           "jobType": "FLANGE",
-          "site": "UCS à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP A.17)",
+          "site": "UCS \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP A.17)",
           "jobNo": "JB260106",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸²à¸¡, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e17\u0e32\u0e21, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¹à¸²à¸ à¸à¸±à¸à¸£à¸à¸±à¸¢ (à¸à¹à¸­à¸)  093-3349527",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e09\u0e31\u0e15\u0e23\u0e0a\u0e31\u0e22 (\u0e17\u0e4a\u0e2d\u0e1b)  093-3349527",
           "locname": "",
           "detail": ""
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "Shino thai  à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil (CFP) Site)",
+          "site": "Shino thai  \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil (CFP) Site)",
           "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸­à¸¢, à¸à¸µà¸¥à¹à¸¡, à¹à¸­à¹à¸",
-          "vehicle": "à¸à¸ 6279 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e2d\u0e22, \u0e1f\u0e35\u0e25\u0e4c\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "\u0e1c\u0e1a 6279 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TSF 12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¹à¸  094-7467526",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e42\u0e14\u0e48\u0e07  094-7467526",
           "locname": "",
           "detail": ""
         },
@@ -345,10 +345,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292",
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292",
           "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
@@ -359,32 +359,32 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388",
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388",
           "locname": "CUEL Limited Office Building 3"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -410,68 +410,68 @@
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260096",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¸à¸µà¸¡, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e1a\u0e35\u0e21, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014",
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014",
           "locname": "CFP"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363",
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363",
           "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB268118",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸²à¸(à¸à¸³), à¸à¸¥à¸²à¸¢",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e01\u0e32\u0e19(\u0e19\u0e33), \u0e1b\u0e25\u0e32\u0e22",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¸µà¸¢à¸§ à¹à¸à¸´à¹à¸¡à¸à¸à¸¨à¹ 0926216363",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e40\u0e1e\u0e35\u0e22\u0e27 \u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1e\u0e07\u0e28\u0e4c 0926216363",
           "locname": "SCC (Shop1)",
           "detail": ""
         },
         {
           "id": 4,
           "jobType": "FLANGE",
-          "site": "UCS à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP A.17)",
+          "site": "UCS \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP A.17)",
           "jobNo": "JB260106",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸²à¸¡, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e17\u0e32\u0e21, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "MM 300 E",
-          "contact": "à¸à¹à¸²à¸ à¸à¸±à¸à¸£à¸à¸±à¸¢ (à¸à¹à¸­à¸)  093-3349527",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e09\u0e31\u0e15\u0e23\u0e0a\u0e31\u0e22 (\u0e17\u0e4a\u0e2d\u0e1b)  093-3349527",
           "locname": "",
           "detail": ""
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "Shino thai  à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil (CFP) Site)",
+          "site": "Shino thai  \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil (CFP) Site)",
           "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸­à¸¢, à¸à¸µà¸¥à¹à¸¡, à¹à¸­à¹à¸",
-          "vehicle": "à¸à¸ 6279 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e2d\u0e22, \u0e1f\u0e35\u0e25\u0e4c\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "\u0e1c\u0e1a 6279 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TSF 12",
-          "contact": "à¸à¹à¸²à¸ à¹à¸à¹à¸  094-7467526",
+          "contact": "\u0e0a\u0e48\u0e32\u0e07 \u0e42\u0e14\u0e48\u0e07  094-7467526",
           "locname": "",
           "detail": ""
         },
@@ -482,10 +482,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292",
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292",
           "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
@@ -496,32 +496,32 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388",
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388",
           "locname": "CUEL Limited Office Building 3"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -547,39 +547,39 @@
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260096",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¸à¸µà¸¡, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e1a\u0e35\u0e21, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014",
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014",
           "locname": "CFP"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363",
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363",
           "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "UCS à¸à¹à¸²à¸à¸à¸²à¸",
+          "site": "UCS \u0e1a\u0e49\u0e32\u0e19\u0e09\u0e32\u0e07",
           "jobNo": "",
           "depart": "08:00",
           "arrive": "08:30",
-          "members": "à¹à¸­à¸à¹, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "members": "\u0e44\u0e2d\u0e0b\u0e4c, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
@@ -589,22 +589,22 @@
           "jobNo": "JB260103",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "à¹à¸à¸¡à¸à¹, à¸à¹à¸­, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e1b\u0e4b\u0e2d, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12 New",
-          "contact": "à¸à¸­à¸¢ 081-919-0854"
+          "contact": "\u0e1a\u0e2d\u0e22 081-919-0854"
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "NPC / TNS à¸à¸²à¸à¸à¸°à¸à¸",
+          "site": "NPC / TNS \u0e1a\u0e32\u0e07\u0e1b\u0e30\u0e01\u0e07",
           "jobNo": "JB260108",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸±à¸, à¸à¸²à¸¡, à¹à¸­à¸à¹",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e19\u0e31\u0e10, \u0e17\u0e32\u0e21, \u0e44\u0e2d\u0e0b\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TTFF-40",
-          "contact": "à¸à¸±à¸à¸à¸µà¹ 098-278-4490",
+          "contact": "\u0e19\u0e31\u0e15\u0e15\u0e35\u0e49 098-278-4490",
           "locname": "THAI NIPPON STEEL ENGINEERING & CONSTRUCTION CORPORATION LTD."
         },
         {
@@ -614,10 +614,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292",
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292",
           "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
@@ -628,32 +628,32 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388",
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388",
           "locname": "CUEL Limited Office Building 3"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -679,39 +679,39 @@
         {
           "id": 1,
           "jobType": "BOLT",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260096",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¹à¸­à¸¡, à¸à¸µà¸¡, à¹à¸­à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e42\u0e2d\u0e21, \u0e1a\u0e35\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014",
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014",
           "locname": "AIT & Services Workshop"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363",
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363",
           "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "UCS à¸à¹à¸²à¸à¸à¸²à¸",
+          "site": "UCS \u0e1a\u0e49\u0e32\u0e19\u0e09\u0e32\u0e07",
           "jobNo": "",
           "depart": "08:00",
           "arrive": "08:30",
-          "members": "à¹à¸­à¸à¹, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "members": "\u0e44\u0e2d\u0e0b\u0e4c, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
@@ -721,22 +721,22 @@
           "jobNo": "JB260103",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "à¹à¸à¸¡à¸à¹, à¸à¹à¸­, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e1b\u0e4b\u0e2d, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12 New",
-          "contact": "à¸à¸­à¸¢ 081-919-0854"
+          "contact": "\u0e1a\u0e2d\u0e22 081-919-0854"
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "NPC / TNS à¸à¸²à¸à¸à¸°à¸à¸",
+          "site": "NPC / TNS \u0e1a\u0e32\u0e07\u0e1b\u0e30\u0e01\u0e07",
           "jobNo": "JB260108",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸±à¸, à¸à¸²à¸¡, à¹à¸­à¸à¹",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e19\u0e31\u0e10, \u0e17\u0e32\u0e21, \u0e44\u0e2d\u0e0b\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TTFF-40",
-          "contact": "à¸à¸±à¸à¸à¸µà¹ 098-278-4490",
+          "contact": "\u0e19\u0e31\u0e15\u0e15\u0e35\u0e49 098-278-4490",
           "locname": "THAI NIPPON STEEL ENGINEERING & CONSTRUCTION CORPORATION LTD."
         },
         {
@@ -746,10 +746,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292",
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292",
           "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
@@ -760,32 +760,32 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388",
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388",
           "locname": "CUEL Limited Office Building 3"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -805,8 +805,8 @@
       "dateKey": "2026-06-03"
     },
     {
-      "date": "2 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
-      "day_th": "2 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
+      "date": "2 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
+      "day_th": "2 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
       "dateKey": "2026-06-02",
       "savedAt": "2026-06-02T00:00:00.000Z",
       "modifiedAt": "2026-06-08T03:58:16.789Z",
@@ -814,37 +814,37 @@
         {
           "id": 1,
           "jobType": "BOLT",
-          "site": "SCC à¸¨à¸£à¸µà¸£à¸²à¸à¸² (Thaioil CFP Site)",
+          "site": "SCC \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32 (Thaioil CFP Site)",
           "jobNo": "JB260096",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "à¸à¸´à¹à¸, à¹à¸­à¸¡, à¸à¸µà¸¡, à¹à¸­à¹à¸",
-          "vehicle": "1à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e1a\u0e34\u0e4a\u0e01, \u0e42\u0e2d\u0e21, \u0e1a\u0e35\u0e21, \u0e42\u0e2d\u0e4a\u0e14",
+          "vehicle": "1\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TTFF-24 S/N250948",
-          "contact": "à¸à¸±à¸à¸à¸±à¸ 080-047-1014"
+          "contact": "\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e19 080-047-1014"
         },
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC Work Shop à¸¨à¸£à¸µà¸£à¸²à¸à¸²",
+          "site": "SCC Work Shop \u0e28\u0e23\u0e35\u0e23\u0e32\u0e0a\u0e32",
           "jobNo": "JB260089",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸à¸´à¸, à¸à¸²à¸¡, à¹à¸à¸´à¸£à¹à¸ª, à¸à¸´à¸§",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e04\u0e34\u0e07, \u0e17\u0e32\u0e21, \u0e40\u0e1f\u0e34\u0e23\u0e4c\u0e2a, \u0e04\u0e34\u0e27",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "TOFF-12",
-          "contact": "à¹à¸à¸µà¸¢à¸§ 092-621-6363"
+          "contact": "\u0e40\u0e1e\u0e35\u0e22\u0e27 092-621-6363"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "UCS à¸à¹à¸²à¸à¸à¸²à¸",
+          "site": "UCS \u0e1a\u0e49\u0e32\u0e19\u0e09\u0e32\u0e07",
           "jobNo": "",
           "depart": "08:00",
           "arrive": "08:30",
-          "members": "à¹à¸­à¸à¹, à¸à¹à¸²à¸£à¹",
-          "vehicle": "à¸à¸ 6278 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "members": "\u0e44\u0e2d\u0e0b\u0e4c, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 6278 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
@@ -854,22 +854,22 @@
           "jobNo": "JB260103",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "à¹à¸à¸¡à¸à¹, à¸à¹à¸­, à¹à¸­à¸´à¸£à¹à¸",
-          "vehicle": "à¸à¸ 2192 (4 à¸à¸£à¸°à¸à¸¹)",
+          "members": "\u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e1b\u0e4b\u0e2d, \u0e40\u0e2d\u0e34\u0e23\u0e4c\u0e01",
+          "vehicle": "\u0e01\u0e1a 2192 (4 \u0e1b\u0e23\u0e30\u0e15\u0e39)",
           "equipment": "TOFF-12 New",
-          "contact": "à¸à¸­à¸¢ 081-919-0854"
+          "contact": "\u0e1a\u0e2d\u0e22 081-919-0854"
         },
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "NPC / TNS à¸à¸²à¸à¸à¸°à¸à¸",
+          "site": "NPC / TNS \u0e1a\u0e32\u0e07\u0e1b\u0e30\u0e01\u0e07",
           "jobNo": "JB260108",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "à¸­à¸±à¹à¸, à¸à¸±à¸, à¸à¸²à¸¡, à¹à¸­à¸à¹",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e2d\u0e31\u0e4b\u0e19, \u0e19\u0e31\u0e10, \u0e17\u0e32\u0e21, \u0e44\u0e2d\u0e0b\u0e4c",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TTFF-40",
-          "contact": "à¸à¸±à¸à¸à¸µà¹ 098-278-4490"
+          "contact": "\u0e19\u0e31\u0e15\u0e15\u0e35\u0e49 098-278-4490"
         },
         {
           "id": 6,
@@ -878,10 +878,10 @@
           "jobNo": "JB260097",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "à¸à¸±à¸, à¸à¸´à¸§, à¸à¹à¸²à¸£à¹",
-          "vehicle": "2à¸à¸© 2857 (à¹à¸à¸£à¸µà¹à¸à¸­à¸¢)",
+          "members": "\u0e19\u0e31\u0e17, \u0e04\u0e34\u0e27, \u0e15\u0e49\u0e32\u0e23\u0e4c",
+          "vehicle": "2\u0e12\u0e29 2857 (\u0e41\u0e04\u0e23\u0e35\u0e48\u0e1a\u0e2d\u0e22)",
           "equipment": "Tension A/F",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292"
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292"
         },
         {
           "id": 7,
@@ -891,31 +891,31 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "CUEL à¸à¸²à¸ Torque Unit 3",
+          "site": "CUEL \u0e07\u0e32\u0e19 Torque Unit 3",
           "jobNo": "JB260098",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "à¸à¹à¸­, à¹à¸à¸¡à¸à¹, à¸­à¸±à¹à¸",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
+          "members": "\u0e1b\u0e4b\u0e2d, \u0e41\u0e0a\u0e21\u0e1b\u0e4c, \u0e2d\u0e31\u0e4b\u0e19",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
           "equipment": "TTFF-24",
-          "contact": "à¸à¸´à¸¢à¸à¸à¸©à¹ 099-441-9388"
+          "contact": "\u0e1b\u0e34\u0e22\u0e1e\u0e07\u0e29\u0e4c 099-441-9388"
         },
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC à¸£à¸°à¸¢à¸­à¸ / Maintenance Shutdown",
+          "site": "IRPC \u0e23\u0e30\u0e22\u0e2d\u0e07 / Maintenance Shutdown",
           "jobNo": "JB260115",
           "depart": "",
           "arrive": "",
-          "members": "à¸£à¸²à¸à¸±à¸, à¸­à¸ à¸´à¸à¸, à¸à¸µà¸£à¸ à¸±à¸à¸£",
-          "vehicle": "à¸à¸ 7869 (à¹à¸à¹à¸à¸à¸£à¸£à¸à¸¸à¸)",
+          "members": "\u0e23\u0e32\u0e0a\u0e31\u0e19, \u0e2d\u0e20\u0e34\u0e0a\u0e19, \u0e18\u0e35\u0e23\u0e20\u0e31\u0e17\u0e23",
+          "vehicle": "\u0e1c\u0e1a 7869 (\u0e41\u0e04\u0e47\u0e1a\u0e1a\u0e23\u0e23\u0e17\u0e38\u0e01)",
           "equipment": "TOFF-12",
           "contact": ""
         },
@@ -934,8 +934,8 @@
       ]
     },
     {
-      "date": "1 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
-      "day_th": "1 à¸¡à¸´à¸à¸¸à¸à¸²à¸¢à¸ 2569",
+      "date": "1 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
+      "day_th": "1 \u0e21\u0e34\u0e16\u0e38\u0e19\u0e32\u0e22\u0e19 2569",
       "savedAt": "2026-06-01T00:00:00.000Z",
       "teams": [
         {
@@ -971,7 +971,7 @@
           "arrive": "",
           "members": "",
           "vehicle": "",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
@@ -1008,7 +1008,7 @@
           "members": "",
           "vehicle": "",
           "equipment": "",
-          "contact": "à¸à¸·à¹à¸ 096-297-2292"
+          "contact": "\u0e1b\u0e37\u0e4a\u0e14 096-297-2292"
         },
         {
           "id": 7,
@@ -1018,8 +1018,8 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "â à¹à¸¥à¸·à¸­à¸à¸£à¸ â",
-          "equipment": "â à¹à¸¥à¸·à¸­à¸ â",
+          "vehicle": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e16 \u2014",
+          "equipment": "\u2014 \u0e40\u0e25\u0e37\u0e2d\u0e01 \u2014",
           "contact": ""
         },
         {
@@ -1030,7 +1030,7 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "1à¸à¸© 2857",
+          "vehicle": "1\u0e12\u0e29 2857",
           "equipment": "",
           "contact": ""
         },
@@ -1062,9 +1062,9 @@
       "dateKey": "2026-06-01"
     },
     {
-      "date": "31 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "31 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-31T06:00:00.000Z",
-      "day_th": "31 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "31 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1191,9 +1191,9 @@
       "dateKey": "2026-05-31"
     },
     {
-      "date": "30 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "30 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-30T06:00:00.000Z",
-      "day_th": "30 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "30 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1320,9 +1320,9 @@
       "dateKey": "2026-05-30"
     },
     {
-      "date": "29 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "29 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-29T06:00:00.000Z",
-      "day_th": "29 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "29 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1449,9 +1449,9 @@
       "dateKey": "2026-05-29"
     },
     {
-      "date": "28 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "28 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-28T06:00:00.000Z",
-      "day_th": "28 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "28 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1578,9 +1578,9 @@
       "dateKey": "2026-05-28"
     },
     {
-      "date": "27 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "27 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-27T06:00:00.000Z",
-      "day_th": "27 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "27 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1707,9 +1707,9 @@
       "dateKey": "2026-05-27"
     },
     {
-      "date": "26 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "26 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-26T06:00:00.000Z",
-      "day_th": "26 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "26 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1836,9 +1836,9 @@
       "dateKey": "2026-05-26"
     },
     {
-      "date": "25 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "25 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-25T06:00:00.000Z",
-      "day_th": "25 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "25 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -1965,9 +1965,9 @@
       "dateKey": "2026-05-25"
     },
     {
-      "date": "24 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "24 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-24T06:00:00.000Z",
-      "day_th": "24 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "24 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -2094,9 +2094,9 @@
       "dateKey": "2026-05-24"
     },
     {
-      "date": "23 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "23 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-23T06:00:00.000Z",
-      "day_th": "23 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "23 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -2223,9 +2223,9 @@
       "dateKey": "2026-05-23"
     },
     {
-      "date": "21 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "21 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-21T06:00:00.000Z",
-      "day_th": "21 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "21 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -2352,9 +2352,9 @@
       "dateKey": "2026-05-21"
     },
     {
-      "date": "20 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "20 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-20T06:00:00.000Z",
-      "day_th": "20 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "20 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -2481,9 +2481,9 @@
       "dateKey": "2026-05-20"
     },
     {
-      "date": "19 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "19 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-19T06:00:00.000Z",
-      "day_th": "19 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "19 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 28,
       "teams": [
         {
@@ -2610,9 +2610,9 @@
       "dateKey": "2026-05-19"
     },
     {
-      "date": "18 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "18 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-18T06:00:00.000Z",
-      "day_th": "18 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "18 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -2739,9 +2739,9 @@
       "dateKey": "2026-05-18"
     },
     {
-      "date": "17 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "17 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-17T06:00:00.000Z",
-      "day_th": "17 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "17 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -2868,9 +2868,9 @@
       "dateKey": "2026-05-17"
     },
     {
-      "date": "16 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "16 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-16T06:00:00.000Z",
-      "day_th": "16 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "16 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -2997,9 +2997,9 @@
       "dateKey": "2026-05-16"
     },
     {
-      "date": "15 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "15 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-15T06:00:00.000Z",
-      "day_th": "15 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "15 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3126,9 +3126,9 @@
       "dateKey": "2026-05-15"
     },
     {
-      "date": "13 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "13 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-13T06:00:00.000Z",
-      "day_th": "13 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "13 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3255,9 +3255,9 @@
       "dateKey": "2026-05-13"
     },
     {
-      "date": "12 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "12 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-12T06:00:00.000Z",
-      "day_th": "12 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "12 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3384,9 +3384,9 @@
       "dateKey": "2026-05-12"
     },
     {
-      "date": "11 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "11 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-11T06:00:00.000Z",
-      "day_th": "11 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "11 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3513,9 +3513,9 @@
       "dateKey": "2026-05-11"
     },
     {
-      "date": "10 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "10 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-10T06:00:00.000Z",
-      "day_th": "10 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "10 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3642,9 +3642,9 @@
       "dateKey": "2026-05-10"
     },
     {
-      "date": "9 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "9 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-09T06:00:00.000Z",
-      "day_th": "9 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "9 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3771,9 +3771,9 @@
       "dateKey": "2026-05-09"
     },
     {
-      "date": "8 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "8 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-08T06:00:00.000Z",
-      "day_th": "8 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "8 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -3900,9 +3900,9 @@
       "dateKey": "2026-05-08"
     },
     {
-      "date": "7 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "7 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-07T06:00:00.000Z",
-      "day_th": "7 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "7 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4029,9 +4029,9 @@
       "dateKey": "2026-05-07"
     },
     {
-      "date": "6 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "6 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-06T06:00:00.000Z",
-      "day_th": "6 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "6 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4158,9 +4158,9 @@
       "dateKey": "2026-05-06"
     },
     {
-      "date": "5 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "5 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-05T06:00:00.000Z",
-      "day_th": "5 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "5 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4287,9 +4287,9 @@
       "dateKey": "2026-05-05"
     },
     {
-      "date": "4 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "4 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-04T06:00:00.000Z",
-      "day_th": "4 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "4 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4416,9 +4416,9 @@
       "dateKey": "2026-05-04"
     },
     {
-      "date": "3 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "3 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-03T06:00:00.000Z",
-      "day_th": "3 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "3 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4545,9 +4545,9 @@
       "dateKey": "2026-05-03"
     },
     {
-      "date": "2 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "2 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-02T06:00:00.000Z",
-      "day_th": "2 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "2 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 26,
       "teams": [
         {
@@ -4674,9 +4674,9 @@
       "dateKey": "2026-05-02"
     },
     {
-      "date": "1 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "date": "1 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "savedAt": "2026-05-01T06:00:00.000Z",
-      "day_th": "1 à¸à¸¤à¸©à¸ à¸²à¸à¸¡ 2569",
+      "day_th": "1 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 2569",
       "total_personnel": 24,
       "teams": [
         {
