@@ -2265,13 +2265,14 @@ function selectCalDay(key,dayNum){
       const eqTags=!t.equipment?"":String(t.equipment).split(/[,/]/).map(function(s){return s.trim();}).filter(Boolean).map(function(s){return`<span class="eqtag">${s}</span>`;}).join("");
       const editBtn=isAdmin?`<button class="eic" onclick="openPlanModal('${key}')">✎</button>`:"";
       return`<div class="card">
-        <div class="card-top" style="background:${p.bg}">
-          <div class="ctop-l"><div class="cbadge">${p.n}</div><span class="ctitle">${t.site||"—"}</span></div>
-          <span class="jpill" style="background:${p_(t.jobType)};color:${c}">${l_(t.jobType)}</span>${editBtn}
-        </div>
-        <div class="card-body">
-          ${t.jobNo?`<div class="jno">${t.jobNo}</div>`:""}
-          <div class="trow">
+                <div class="card-accent" style="background:${p.bg}"></div>
+                        <div class="card-head" style="background:${p.bg}0a">
+                                  <div class="ctid" style="background:${p.bg}">${p.n}</div>
+                                            <div style="flex:1;min-width:0"><div class="csite">${t.site||"—"}</div><div class="cjn">${t.jobNo||""}</div></div>
+                                                      <span class="jpill" style="background:${p_(t.jobType)}18;color:${p_(t.jobType)}">${l_(t.jobType)}</span>${editBtn}
+                                                              </div>
+                                                                      <div class="card-body">
+                                                                      <div class="trow">
             <div class="tbox" style="background:${c}15"><div class="tlbl">ออกเดินทาง</div><div class="tval" style="color:${c}">${t.depart||"—"}</div></div>
             <div class="tbox" style="background:${c}15"><div class="tlbl">ถึงหน้างาน</div><div class="tval" style="color:${c}">${t.arrive||"—"}</div></div>
           </div>
