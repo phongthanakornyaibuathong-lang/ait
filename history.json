@@ -1,11 +1,9 @@
 {
   "history": [
     {
-      "date": "9 มิถุนายน 2569",
-      "day_th": "9 มิถุนายน 2569",
+      "date": "9/6/2569",
+      "savedAt": "2026-06-09T09:20:18.703Z",
       "dateKey": "2026-06-09",
-      "savedAt": "2026-06-09T00:00:00.000Z",
-      "modifiedAt": "2026-06-08T12:18:03.701Z",
       "teams": [
         {
           "id": 1,
@@ -17,103 +15,114 @@
           "members": "บิ๊ก, บีม, เอิร์ก",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "MM 300 E",
-          "contact": "กับตัน 080-047-1014"
+          "contact": "กับตัน 080-047-1014",
+          "locname": "CFP",
+          "detail": ""
         },
         {
           "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260120",
+          "jobType": "BOLT",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260089",
           "depart": "06:30",
-          "arrive": "07:00",
-          "members": "คิง, โอ๊ด, เฟิร์ส",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TOFF-12 (S/N26020099)",
-          "contact": "กับตัน 080-047-1014"
+          "arrive": "08:00",
+          "members": "คิง, ทาม, เฟิร์ส, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "เพียว 092-621-6363",
+          "locname": "SCC (Shop1)"
         },
         {
           "id": 3,
           "jobType": "TRAINING",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260120",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB268118",
           "depart": "06:30",
-          "arrive": "07:00",
-          "members": "ฟีล์ม, คิว, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TTFF-24 (New)",
-          "contact": "กับตัน 080-047-1014"
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363",
+          "locname": "SCC (Shop1)",
+          "detail": ""
         },
         {
           "id": 4,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP A.17)",
-          "jobNo": "JB260121",
+          "jobNo": "JB260106",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "อั๋น, อองรี, นันทปรีชา",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527"
+          "members": "อั๋น, ทาม, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527",
+          "locname": "",
+          "detail": ""
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260118",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260115",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย, ไอซ์",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "members": "บอย, ฟีล์ม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TSF 12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "locname": "",
+          "detail": ""
         },
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260122",
-          "depart": "06:30",
+          "site": "Kuraray / Sriprapaphan",
+          "jobNo": "JB260097",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "บอย, โอม, พิเชษฐ์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526 "
+          "members": "นัท, คิว, ต้าร์",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "Tension A/F",
+          "contact": "ปื๊ด 096-297-2292",
+          "locname": "KURARAY GC ADVANCED MATERIALS"
         },
         {
           "id": 7,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260123",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ทาม, ป๋อ, สัญชัย",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526 ",
-          "detail": "Machine flange 4\"600# , 4\" 900#"
-        },
-        {
-          "id": 8,
-          "jobType": "BOLT",
-          "site": "Thai Oil ท่าเรือ",
-          "jobNo": "JB260116",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, นัฐ, แชมป์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง สายัน 0979451547"
-        },
-        {
-          "id": 9,
           "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "",
-          "equipment": "",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "— เลือก —",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "BOLT",
+          "site": "CUEL งาน Torque Unit 3",
+          "jobNo": "JB260098",
+          "depart": "06:30",
+          "arrive": "07:30",
+          "members": "ป๋อ, แชมป์, อั๋น",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "TTFF-24",
+          "contact": "ปิยพงษ์ 099-441-9388",
+          "locname": "CUEL Limited Office Building 3",
+          "detail": ""
+        },
+        {
+          "id": 9,
+          "jobType": "BOLT",
+          "site": "IRPC ระยอง / Maintenance Shutdown",
+          "jobNo": "JB260115",
+          "depart": "",
+          "arrive": "",
+          "members": "ราชัน, อภิชน, ธีรภัทร",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF-12",
           "contact": ""
         },
         {
@@ -4931,5 +4940,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-08T12:18:05.860Z"
+  "lastUpdated": "2026-06-09T09:20:18.703Z"
 }
