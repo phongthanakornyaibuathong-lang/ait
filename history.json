@@ -5,7 +5,7 @@
       "day_th": "10 มิถุนายน 2569",
       "dateKey": "2026-06-10",
       "savedAt": "2026-06-10T00:00:00.000Z",
-      "modifiedAt": "2026-06-09T09:42:43.336Z",
+      "modifiedAt": "2026-06-09T11:00:03.875Z",
       "teams": [
         {
           "id": 1,
@@ -74,7 +74,7 @@
           "jobNo": "JB260122",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, โอม, พิเชษฐ์",
+          "members": "บอย, โอม, พิเชษฐ์, สัญชัย",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 30",
           "contact": "ช่าง โด่ง  094-7467526",
@@ -82,28 +82,29 @@
         },
         {
           "id": 7,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260122",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ทาม, ป๋อ, สัญชัย",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526 "
-        },
-        {
-          "id": 8,
           "jobType": "BOLT",
           "site": "Thai Oil ท่าเรือ",
-          "jobNo": "JB260116",
+          "jobNo": "Job No JB260116",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, นัฐ, แชมป์",
+          "members": "ทาม, ป๋อ, สัญชัย",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "ช่าง สายัน 0979451547",
           "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ\nควบคุมปั๊มบนเรือ นักประดาน้ำจับหัว Torque"
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "",
+          "detail": ""
         },
         {
           "id": 9,
@@ -133,7 +134,7 @@
     },
     {
       "date": "9/6/2569",
-      "savedAt": "2026-06-09T10:22:47.350Z",
+      "savedAt": "2026-06-09T11:00:03.882Z",
       "dateKey": "2026-06-09",
       "teams": [
         {
@@ -5071,5 +5072,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-09T10:22:47.350Z"
+  "lastUpdated": "2026-06-09T11:00:03.882Z"
 }
