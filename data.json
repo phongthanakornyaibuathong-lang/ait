@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "jobType": "FLANGE",
+      "jobType": "BOLT",
       "site": "SCC Work Shop ศรีราชา",
       "jobNo": "JB260089",
       "depart": "06:30",
@@ -25,8 +25,7 @@
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "เพียว 092-621-6363",
-      "locname": "SCC (Shop1)",
-      "detail": ""
+      "locname": "SCC (Shop1)"
     },
     {
       "id": 3,
@@ -134,7 +133,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-09T09:23:52.338Z",
+  "lastUpdated": "2026-06-09T09:26:08.023Z",
   "updatedBy": "Nine",
   "date": "9/6/2569"
 }
