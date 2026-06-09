@@ -12,7 +12,7 @@
 *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
 :root{--ff:Tahoma,Geneva,Verdana,sans-serif;--blue:#0A84FF;--green:#30D158;--red:#FF453A;--orange:#FF9F0A;--purple:#BF5AF2;--teal:#32D2D8;--indigo:#5E5CE6;--gold:#FFD60A}
 [data-theme="dark"]{--bg:#000;--bg2:#1C1C1E;--bg3:#2C2C2E;--bg4:#3A3A3C;--border:rgba(255,255,255,.12);--border2:rgba(255,255,255,.07);--text:#fff;--text2:rgba(255,255,255,.7);--text3:rgba(255,255,255,.4);--nav:rgba(28,28,30,.96);--card:#1C1C1E;--input:#2C2C2E;--sh:0 8px 32px rgba(0,0,0,.6)}
-[data-theme="light"]{--bg:#F2F2F7;--bg2:#fff;--bg3:#F2F2F7;--bg4:#E5E5EA;--border:rgba(0,0,0,.1);--border2:rgba(0,0,0,.06);--text:#000;--text2:rgba(0,0,0,.6);--text3:rgba(0,0,0,.35);--nav:rgba(255,255,255,.94);--card:#fff;--input:#F2F2F7;--sh:0 4px 16px rgba(0,0,0,.1)}
+[data-theme="light"]{--bg:#F2F2F7;--bg2:#fff;--bg3:#F2F2F7;--bg4:#E5E5hEA;--border:rgba(0,0,0,.1);--border2:rgba(0,0,0,.06);--text:#000;--text2:rgba(0,0,0,.6);--text3:rgba(0,0,0,.35);--nav:rgba(255,255,255,.94);--card:#fff;--input:#F2F2F7;--sh:0 4px 16px rgba(0,0,0,.1)}
 body{font-family:var(--ff);background:var(--bg);color:var(--text);font-size:13px;line-height:1.5;min-height:100vh;transition:background .3s,color .3s}
 ::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:99px}
 
@@ -348,10 +348,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 <!-- PAGE: TOMORROW -->
 <div id="page-tomorrow" class="page">
   <div class="main">
-    <div id="tmr-header" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:4px">
-      <div><div class="sec-title" id="tmr-date-title">📆 แผนงานพรุ่งนี้</div><div class="sec-sub" id="tmr-date-sub">โหลด...</div></div>
-      <button id="tmr-edit-btn" style="display:none;background:var(--blue);color:#fff;border:none;border-radius:10px;padding:7px 16px;font-size:13px;font-weight:700;cursor:pointer" onclick="openTomorrowPlan()">✎ แก้ไขแผนพรุ่งนี้</button>
-    </div>
     <div class="stats" id="sr-tmr"></div>
     <div class="filters" id="fi-tmr"></div>
     <div class="grid" id="cg-tmr"></div>
@@ -2617,17 +2613,6 @@ Object.keys(_map).forEach(function(k){
 /* --- restore globals --- */
 teams=_teams;filt=_filt;
 
-/* --- update date header at top --- */
-var thDOW=['อาทิตย์','จันทร์','อังคาร','พุธ','พฤหัสบดี','ศุกร์','เสาร์'];
-var thMO=['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
-var dow=thDOW[tm.getDay()];
-var dateStr='วัน'+dow+'ที่ '+d+' '+thMO[tm.getMonth()]+' '+(y+543);
-var titleEl=document.getElementById('tmr-date-title');
-var subEl=document.getElementById('tmr-date-sub');
-var editEl=document.getElementById('tmr-edit-btn');
-if(titleEl)titleEl.textContent='📆 แผนงานพรุ่งนี้';
-if(subEl){var actCount=tTeams.filter(function(t){return!isSB(t);}).length;subEl.textContent=dateStr+' · '+actCount+' ทีมออกงาน';}
-if(editEl)editEl.style.display=isAdmin?'flex':'none';
 var lubEl=document.getElementById('lub-tmr');
 if(lubEl)lubEl.innerHTML='';
 };
