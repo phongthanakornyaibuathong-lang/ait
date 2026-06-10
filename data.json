@@ -3,16 +3,16 @@
     {
       "id": 1,
       "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260120",
+      "site": "Shera (Lopburi)",
+      "jobNo": "JB260124",
       "depart": "06:30",
-      "arrive": "07:00",
-      "members": "บิ๊ก, บีม, เอิร์ก",
-      "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "MM 300 E",
-      "contact": "กับตัน 080-047-1014",
-      "locname": "CFP",
-      "detail": ""
+      "arrive": "11:00",
+      "members": "ป๋อ, เอิร์ก",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "Robot Tool",
+      "contact": "K'Nut 085-660-0731",
+      "locname": "Shera Public Company Limited",
+      "detail": "Replace Axis 6 IRB6660"
     },
     {
       "id": 2,
@@ -133,7 +133,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-09T11:08:46.519Z",
+  "lastUpdated": "2026-06-10T11:15:54.861Z",
   "updatedBy": "Nine",
-  "date": "9/6/2569"
+  "date": "10/6/2569"
 }
