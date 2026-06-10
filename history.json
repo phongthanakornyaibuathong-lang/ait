@@ -1,8 +1,138 @@
 {
   "history": [
     {
+      "date": "11 มิถุนายน 2569",
+      "day_th": "11 มิถุนายน 2569",
+      "dateKey": "2026-06-11",
+      "savedAt": "2026-06-11T00:00:00.000Z",
+      "modifiedAt": "2026-06-10T13:17:46.351Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "ROBOT",
+          "site": "Shera (Lopburi)",
+          "jobNo": "JB260124",
+          "depart": "06:30",
+          "arrive": "11:00",
+          "members": "ป๋อ, เอิร์ก",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "Robot Tool",
+          "contact": "K'Nut 085-660-0731",
+          "detail": "Replace Axis 6 IRB 6660"
+        },
+        {
+          "id": 2,
+          "jobType": "BOLT",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260089",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "คิง, ทาม, เฟิร์ส, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "เพียว 092-621-6363"
+        },
+        {
+          "id": 3,
+          "jobType": "TRAINING",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB268118",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": "JB260106",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "อั๋น, ทาม, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527"
+        },
+        {
+          "id": 5,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260115",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TSF 12",
+          "contact": "ช่าง โด่ง  094-7467526"
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "Kuraray / Sriprapaphan",
+          "jobNo": "JB260097",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัท, คิว, ต้าร์",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "Tension A/F",
+          "contact": "ปื๊ด 096-297-2292"
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "— เลือก —",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "BOLT",
+          "site": "CUEL งาน Torque Unit 3",
+          "jobNo": "JB260098",
+          "depart": "06:30",
+          "arrive": "07:30",
+          "members": "ป๋อ, แชมป์, อั๋น",
+          "vehicle": "— เลือกรถ —",
+          "equipment": "TTFF-24",
+          "contact": "ปิยพงษ์ 099-441-9388"
+        },
+        {
+          "id": 9,
+          "jobType": "BOLT",
+          "site": "IRPC ระยอง / Maintenance Shutdown",
+          "jobNo": "JB260115",
+          "depart": "",
+          "arrive": "",
+          "members": "ราชัน, อภิชน, ธีรภัทร",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF-12",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "10/6/2569",
-      "savedAt": "2026-06-10T11:22:31.799Z",
+      "savedAt": "2026-06-10T13:17:46.398Z",
       "dateKey": "2026-06-10",
       "teams": [
         {
@@ -5079,5 +5209,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-10T11:22:31.799Z"
+  "lastUpdated": "2026-06-10T13:17:46.398Z"
 }
