@@ -5,7 +5,7 @@
       "day_th": "11 มิถุนายน 2569",
       "dateKey": "2026-06-11",
       "savedAt": "2026-06-11T00:00:00.000Z",
-      "modifiedAt": "2026-06-10T13:31:28.675Z",
+      "modifiedAt": "2026-06-10T13:34:34.087Z",
       "teams": [
         {
           "id": 1,
@@ -85,15 +85,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "-",
+          "depart": "09:00",
+          "arrive": "12:00",
+          "members": "นัฐ, เฟิร์ส, ต้าร์, ไอซ์",
           "vehicle": "— เลือกรถ —",
           "equipment": "— เลือก —",
-          "contact": ""
+          "contact": "-",
+          "detail": "อบรมความปลอดภัยเบื้องต้นทำบัตร PTT LNG"
         },
         {
           "id": 8,
@@ -135,7 +136,7 @@
     },
     {
       "date": "10/6/2569",
-      "savedAt": "2026-06-10T13:31:28.681Z",
+      "savedAt": "2026-06-10T13:34:34.094Z",
       "dateKey": "2026-06-10",
       "teams": [
         {
@@ -5212,5 +5213,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-10T13:31:28.681Z"
+  "lastUpdated": "2026-06-10T13:34:34.094Z"
 }
