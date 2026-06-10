@@ -5,7 +5,7 @@
       "day_th": "11 มิถุนายน 2569",
       "dateKey": "2026-06-11",
       "savedAt": "2026-06-11T00:00:00.000Z",
-      "modifiedAt": "2026-06-10T13:25:51.466Z",
+      "modifiedAt": "2026-06-10T13:27:29.781Z",
       "teams": [
         {
           "id": 1,
@@ -62,13 +62,14 @@
           "id": 5,
           "jobType": "COLD_CUT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260115",
+          "jobNo": "JB260122",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ฟีล์ม, โอ๊ด",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "members": "บอย, ทาม, อั๋น",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 30",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Cutting pipe 30\""
         },
         {
           "id": 6,
@@ -134,7 +135,7 @@
     },
     {
       "date": "10/6/2569",
-      "savedAt": "2026-06-10T13:25:52.813Z",
+      "savedAt": "2026-06-10T13:27:29.791Z",
       "dateKey": "2026-06-10",
       "teams": [
         {
@@ -5211,5 +5212,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-10T13:25:52.813Z"
+  "lastUpdated": "2026-06-10T13:27:29.791Z"
 }
