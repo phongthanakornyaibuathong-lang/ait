@@ -760,6 +760,16 @@
       "color": "#32d2d8",
       "skills": [],
       "safetyCards": {}
+    },
+    {
+      "id": "นาย",
+      "nick": "นาย",
+      "name": "พงษ์ธนากร ใยบัวทอง",
+      "pos": "Engineer",
+      "phone": "0629965914",
+      "color": "#d83131",
+      "skills": [],
+      "safetyCards": {}
     }
   ],
   "vehicles": [
