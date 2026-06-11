@@ -5,7 +5,7 @@
       "day_th": "12 มิถุนายน 2569",
       "dateKey": "2026-06-12",
       "savedAt": "2026-06-12T00:00:00.000Z",
-      "modifiedAt": "2026-06-11T10:57:25.022Z",
+      "modifiedAt": "2026-06-11T10:58:11.180Z",
       "teams": [
         {
           "id": 1,
@@ -108,13 +108,13 @@
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "IRPC ระยอง / Maintenance Shutdown",
-          "jobNo": "JB260115",
+          "site": "",
+          "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "ราชัน, อภิชน, ธีรภัทร",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": ""
         },
         {
@@ -133,7 +133,7 @@
     },
     {
       "date": "11/6/2569",
-      "savedAt": "2026-06-11T10:57:25.034Z",
+      "savedAt": "2026-06-11T10:58:11.188Z",
       "dateKey": "2026-06-11",
       "teams": [
         {
@@ -5349,5 +5349,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-11T10:57:25.034Z"
+  "lastUpdated": "2026-06-11T10:58:11.188Z"
 }
