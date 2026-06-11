@@ -5,7 +5,7 @@
       "day_th": "12 มิถุนายน 2569",
       "dateKey": "2026-06-12",
       "savedAt": "2026-06-12T00:00:00.000Z",
-      "modifiedAt": "2026-06-11T10:58:11.180Z",
+      "modifiedAt": "2026-06-11T11:02:43.152Z",
       "teams": [
         {
           "id": 1,
@@ -96,14 +96,15 @@
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "CUEL งาน Torque Unit 3",
-          "jobNo": "JB260098",
-          "depart": "06:30",
-          "arrive": "07:30",
-          "members": "ป๋อ, แชมป์, อั๋น",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "TTFF-24",
-          "contact": "ปิยพงษ์ 099-441-9388"
+          "site": "STECON",
+          "jobNo": "-",
+          "depart": "11:00",
+          "arrive": "13:30",
+          "members": "กรานต์, ทัช, รถ",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "เครื่องมือ Bolt Tension",
+          "contact": "ช่าง เอก ",
+          "detail": "ส่งเครื่องมือ Bolt tension STECON แหลมฉบัง\nพี่วัฒ ไปด้วย"
         },
         {
           "id": 9,
@@ -133,7 +134,7 @@
     },
     {
       "date": "11/6/2569",
-      "savedAt": "2026-06-11T10:58:11.188Z",
+      "savedAt": "2026-06-11T11:02:43.160Z",
       "dateKey": "2026-06-11",
       "teams": [
         {
@@ -5349,5 +5350,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-11T10:58:11.188Z"
+  "lastUpdated": "2026-06-11T11:02:43.160Z"
 }
