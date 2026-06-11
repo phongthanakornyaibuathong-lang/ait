@@ -5,7 +5,7 @@
       "day_th": "12 มิถุนายน 2569",
       "dateKey": "2026-06-12",
       "savedAt": "2026-06-12T00:00:00.000Z",
-      "modifiedAt": "2026-06-11T10:38:01.863Z",
+      "modifiedAt": "2026-06-11T10:39:24.739Z",
       "teams": [
         {
           "id": 1,
@@ -33,15 +33,15 @@
         },
         {
           "id": 3,
-          "jobType": "TRAINING",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB268118",
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260120",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+          "arrive": "07:00",
+          "members": "ฟีล์ม, คิว, ต้าร์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 4,
@@ -131,7 +131,7 @@
     },
     {
       "date": "11/6/2569",
-      "savedAt": "2026-06-11T10:38:02.879Z",
+      "savedAt": "2026-06-11T10:39:24.746Z",
       "dateKey": "2026-06-11",
       "teams": [
         {
@@ -5347,5 +5347,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-11T10:38:02.879Z"
+  "lastUpdated": "2026-06-11T10:39:24.746Z"
 }
