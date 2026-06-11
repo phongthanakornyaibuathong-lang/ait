@@ -5,7 +5,7 @@
       "day_th": "12 มิถุนายน 2569",
       "dateKey": "2026-06-12",
       "savedAt": "2026-06-12T00:00:00.000Z",
-      "modifiedAt": "2026-06-11T10:53:26.706Z",
+      "modifiedAt": "2026-06-11T10:57:25.022Z",
       "teams": [
         {
           "id": 1,
@@ -82,15 +82,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260126  ",
+          "depart": "06:00",
+          "arrive": "07:00",
+          "members": "เป้, เอิร์ก, ไอซ์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque tool",
+          "contact": "ช่างบอย 0819190854",
+          "detail": "Torque bolt Stud 1-1/4\" = 1159 Nm"
         },
         {
           "id": 8,
@@ -132,7 +133,7 @@
     },
     {
       "date": "11/6/2569",
-      "savedAt": "2026-06-11T10:53:26.717Z",
+      "savedAt": "2026-06-11T10:57:27.580Z",
       "dateKey": "2026-06-11",
       "teams": [
         {
@@ -5348,5 +5349,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-11T10:53:26.717Z"
+  "lastUpdated": "2026-06-11T10:57:27.580Z"
 }
