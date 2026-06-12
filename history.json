@@ -5,7 +5,7 @@
       "day_th": "13 มิถุนายน 2569",
       "dateKey": "2026-06-13",
       "savedAt": "2026-06-13T00:00:00.000Z",
-      "modifiedAt": "2026-06-12T11:06:03.469Z",
+      "modifiedAt": "2026-06-12T11:10:20.678Z",
       "teams": [
         {
           "id": 1,
@@ -70,14 +70,15 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Kuraray / Sriprapaphan",
-          "jobNo": "JB260097",
+          "site": "Kuraray GC",
+          "jobNo": "Job No JB260125",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "นัท, คิว, ต้าร์",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "Tension A/F",
-          "contact": "ปื๊ด 096-297-2292"
+          "members": "นัท, ป๋อ, อองรี",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270",
+          "detail": "Torque Suction & Discharge flange\nนัท Short Brief ก่อนเข้างาน"
         },
         {
           "id": 7,
@@ -131,7 +132,7 @@
     },
     {
       "date": "12/6/2569",
-      "savedAt": "2026-06-12T11:06:04.706Z",
+      "savedAt": "2026-06-12T11:10:21.781Z",
       "dateKey": "2026-06-12",
       "teams": [
         {
@@ -5486,5 +5487,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-12T11:06:04.706Z"
+  "lastUpdated": "2026-06-12T11:10:21.781Z"
 }
