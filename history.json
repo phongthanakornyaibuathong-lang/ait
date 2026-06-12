@@ -5,7 +5,7 @@
       "day_th": "13 มิถุนายน 2569",
       "dateKey": "2026-06-13",
       "savedAt": "2026-06-13T00:00:00.000Z",
-      "modifiedAt": "2026-06-12T11:17:12.069Z",
+      "modifiedAt": "2026-06-12T11:20:03.769Z",
       "teams": [
         {
           "id": 1,
@@ -103,19 +103,21 @@
           "members": "เป้, โอม, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่างบอย 0819190854"
+          "contact": "ช่างบอย 0819190854",
+          "detail": "อั๋น ไปส่ง"
         },
         {
           "id": 9,
-          "jobType": "BOLT",
-          "site": "IRPC ระยอง / Maintenance Shutdown",
-          "jobNo": "JB260115",
-          "depart": "",
-          "arrive": "",
-          "members": "ราชัน, อภิชน, ธีรภัทร",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCG / DSAM",
+          "jobNo": "JB260126",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TTFF-40",
+          "contact": "ช่างบอย 0819190854",
+          "detail": "Re-Machine flange face  18\"300#\n\nอั๋น ไปส่ง"
         },
         {
           "id": 10,
@@ -133,7 +135,7 @@
     },
     {
       "date": "12/6/2569",
-      "savedAt": "2026-06-12T11:17:12.079Z",
+      "savedAt": "2026-06-12T11:20:03.777Z",
       "dateKey": "2026-06-12",
       "teams": [
         {
@@ -5488,5 +5490,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-12T11:17:12.079Z"
+  "lastUpdated": "2026-06-12T11:20:03.777Z"
 }
