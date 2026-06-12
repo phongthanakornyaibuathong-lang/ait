@@ -5,7 +5,7 @@
       "day_th": "13 มิถุนายน 2569",
       "dateKey": "2026-06-13",
       "savedAt": "2026-06-13T00:00:00.000Z",
-      "modifiedAt": "2026-06-12T11:15:21.720Z",
+      "modifiedAt": "2026-06-12T11:17:12.069Z",
       "teams": [
         {
           "id": 1,
@@ -96,14 +96,14 @@
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "CUEL งาน Torque Unit 3",
-          "jobNo": "JB260098",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260126",
           "depart": "06:30",
-          "arrive": "07:30",
-          "members": "ป๋อ, แชมป์, อั๋น",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "TTFF-24",
-          "contact": "ปิยพงษ์ 099-441-9388"
+          "arrive": "07:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่างบอย 0819190854"
         },
         {
           "id": 9,
@@ -133,7 +133,7 @@
     },
     {
       "date": "12/6/2569",
-      "savedAt": "2026-06-12T11:15:21.733Z",
+      "savedAt": "2026-06-12T11:17:12.079Z",
       "dateKey": "2026-06-12",
       "teams": [
         {
@@ -5488,5 +5488,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-12T11:15:21.733Z"
+  "lastUpdated": "2026-06-12T11:17:12.079Z"
 }
