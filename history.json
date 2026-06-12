@@ -5,7 +5,7 @@
       "day_th": "13 มิถุนายน 2569",
       "dateKey": "2026-06-13",
       "savedAt": "2026-06-13T00:00:00.000Z",
-      "modifiedAt": "2026-06-12T11:10:20.678Z",
+      "modifiedAt": "2026-06-12T11:15:21.720Z",
       "teams": [
         {
           "id": 1,
@@ -82,15 +82,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "SULZER / โรงไฟฟ้า NPS  ปราจีน",
+          "jobNo": "Job No, JB260101  ",
+          "depart": "08:30",
+          "arrive": "13:00",
+          "members": "แชมป์, อั๋น, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง  เท่ห์   095-5517181",
+          "detail": "Torque bolt by hydraulic torque Nut A/F Size 85 mm.\nอั๋นเข้างาน 06:30 น. เพื่อส่งทีม SGC / DSAM แล้วเอารถไปทำงาน ปราจีน"
         },
         {
           "id": 8,
@@ -132,7 +133,7 @@
     },
     {
       "date": "12/6/2569",
-      "savedAt": "2026-06-12T11:11:25.253Z",
+      "savedAt": "2026-06-12T11:15:23.376Z",
       "dateKey": "2026-06-12",
       "teams": [
         {
@@ -5487,5 +5488,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-12T11:11:25.253Z"
+  "lastUpdated": "2026-06-12T11:15:23.376Z"
 }
