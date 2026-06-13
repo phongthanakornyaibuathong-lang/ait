@@ -5,7 +5,7 @@
       "day_th": "14 มิถุนายน 2569",
       "dateKey": "2026-06-14",
       "savedAt": "2026-06-14T00:00:00.000Z",
-      "modifiedAt": "2026-06-13T10:49:47.908Z",
+      "modifiedAt": "2026-06-13T10:54:23.982Z",
       "teams": [
         {
           "id": 1,
@@ -48,39 +48,40 @@
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260118",
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
+          "jobNo": "JB260126",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย",
+          "arrive": "07:00",
+          "members": "เป้, โอม, บีม",
           "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+          "equipment": "Hydraulic torque",
+          "contact": "ช่างบอย 081-9190854",
+          "detail": "Torque bolt Stud 1-1/4\" = 1159 Nm"
         },
         {
           "id": 5,
-          "jobType": "COLD CUT",
-          "site": "Shino thai ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260122",
-          "depart": "06:30",
-          "arrive": "08:00",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
           "members": "บอย, ทาม, ไอซ์",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง 094-7467526"
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "Job No JB260125",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัท, ป๋อ, อองรี",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง เอกราช (เลี้ยว) 085-9351270"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 7,
@@ -134,9 +135,9 @@
     },
     {
       "date": "13/6/2569",
-      "savedAt": "2026-06-13T10:49:49.046Z",
+      "savedAt": "2026-06-13T10:54:23.993Z",
       "dateKey": "2026-06-13",
-      "modifiedAt": "2026-06-13T10:49:49.046Z",
+      "modifiedAt": "2026-06-13T10:54:23.993Z",
       "teams": [
         {
           "id": 1,
@@ -5573,5 +5574,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-13T10:49:49.046Z"
+  "lastUpdated": "2026-06-13T10:54:23.993Z"
 }
