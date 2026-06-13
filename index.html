@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:1780922368 -->
+<!-- build:2026-06-13 00:32:36 calendar-tab-first + scrollable-tabs + day-rollover-sync + history-repair -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -33,8 +33,9 @@ body{font-family:var(--ff);background:var(--bg);color:var(--text);font-size:13px
 .nbtn.grn{background:var(--green);border-color:var(--green);color:#000;font-weight:600}
 
 /* TABS */
-.tabs{background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;padding:0 18px;gap:0;overflow-x:auto}
-.tab{padding:11px 15px;font-size:12px;font-weight:500;color:var(--text3);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;white-space:nowrap}
+.tabs{background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;padding:0 18px;gap:0;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;scroll-behavior:smooth}
+.tabs::-webkit-scrollbar{display:none}
+.tab{padding:11px 15px;font-size:12px;font-weight:500;color:var(--text3);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;white-space:nowrap;flex:0 0 auto}
 .tab.on{color:var(--blue);border-bottom-color:var(--blue)}
 .tab:hover:not(.on){color:var(--text2)}
 
@@ -320,12 +321,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 <!-- TABS -->
 <div class="tabs">
-  <div class="tab on"  onclick="showTab('dispatch',this)">🚀 แผนงานวันนี้</div>
+  <div class="tab"     id="tab-calendar" onclick="showTab('calendar',this)">📅 ปฏิทิน</div>
+  <div class="tab on"  id="tab-dispatch" onclick="showTab('dispatch',this)">🚀 แผนงานวันนี้</div>
   <div class="tab"     onclick="showTab('tomorrow',this)">📆 พรุ่งนี้</div>
   <div class="tab"     onclick="showTab('manpower',this)">👷 Manpower</div>
   <div class="tab"     onclick="showTab('cards',this)">🪪 บัตร</div>
   <div class="tab"     onclick="showTab('leave',this)">🏖️ ลางาน</div>
-  <div class="tab"     onclick="showTab('calendar',this)">📅 ปฏิทิน</div>
   <div class="tab"     onclick="showTab('history',this)">🕐 ประวัติ</div>
   <div class="tab"     onclick="showTab('report',this)">📊 รายงาน</div>
   <div class="tab"     onclick="showTab('settings',this)">⚙️ ตั้งค่า</div>
@@ -820,6 +821,27 @@ const DCFG={
 
 /* ═══════════════════════════ STATE ══════════════════════════ */
 let teams=[],historyData=EXCEL_HISTORY,cfg=JSON.parse(JSON.stringify(DCFG));
+let dataDate="";        // วันที่ของข้อมูลใน data.json (th-TH) — ใช้ตรวจว่า teams เป็นของวันนี้หรือค้างจากวันก่อน
+let teamsTouched=false; // true เมื่อมีการแก้ไขทีมของ "วันนี้" ผ่าน editor ใน session นี้
+function isDataToday(){return dataDate===new Date().toLocaleDateString("th-TH");}
+/* ── DAY ROLLOVER: ถ้า data.json ยังเป็นของวันก่อน และมี "แผนของวันนี้" ใน history/dayPlans
+      ให้ดึงแผนของวันนี้ขึ้นมาเป็น teams อัตโนมัติ (ไม่ทับข้อมูลที่ผู้ใช้เพิ่งแก้) ── */
+function rolloverToday(){
+  try{
+    if(isDataToday()||teamsTouched)return false;
+    const today=new Date();
+    const tk=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,"0")}-${String(today.getDate()).padStart(2,"0")}`;
+    let rec=null;
+    if(typeof dayPlans!=="undefined"&&dayPlans&&dayPlans[tk]&&Array.isArray(dayPlans[tk].teams))rec={teams:dayPlans[tk].teams};
+    if(!rec){const hist=Array.isArray(historyData)?historyData:[];
+      rec=hist.find(h=>h&&(h.dateKey===tk||(h.savedAt&&h.savedAt.startsWith(tk)))&&Array.isArray(h.teams));}
+    if(rec&&rec.teams.some(t=>t&&(t.site||t.members))){
+      teams=JSON.parse(JSON.stringify(rec.teams));
+      return true;
+    }
+  }catch(e){}
+  return false;
+}
 let filt="ALL",eid=null,ejt="STANDBY",selMem=[],isAdmin=false,dirty=false,timer=null;
 let pdId=null,pdTmpSkills=[];
 let addType='';
@@ -1129,6 +1151,7 @@ function showTab(page,el){
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("on"));
   document.getElementById("page-"+page).classList.add("on");
   el.classList.add("on");
+  try{el.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"});}catch(_){}
   if(page==="report")buildReport();
   if(page==="history")renderHistory();
   if(page==="manpower")renderManpower();
@@ -1155,7 +1178,7 @@ async function loadCloud(){
     const [rd,rh,rc]=await Promise.all([
       fetch(RAW+Date.now()),fetch(RAW_HIST+Date.now()),fetch(RAW_CFG+Date.now())
     ]);
-    if(rd.ok){const d=await rd.json();teams=d.teams||[];const lu=d.lastUpdated?new Date(d.lastUpdated).toLocaleString("th-TH",{dateStyle:"short",timeStyle:"short"}):"—";setSS("ok",`Sync สำเร็จ · ${d.updatedBy||"—"} · ${lu}`);document.getElementById("lub").innerHTML=`🟢 Sync จาก Cloud · ${d.updatedBy||"—"} เมื่อ ${lu} · auto-refresh 60 วิ`;}else throw new Error("HTTP "+rd.status);
+    if(rd.ok){const d=await rd.json();teams=d.teams||[];dataDate=d.date||"";const lu=d.lastUpdated?new Date(d.lastUpdated).toLocaleString("th-TH",{dateStyle:"short",timeStyle:"short"}):"—";setSS("ok",`Sync สำเร็จ · ${d.updatedBy||"—"} · ${lu}`);document.getElementById("lub").innerHTML=`🟢 Sync จาก Cloud · ${d.updatedBy||"—"} เมื่อ ${lu} · auto-refresh 60 วิ`;}else throw new Error("HTTP "+rd.status);
     if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0)historyData=h.history;}
     if(rc.ok){const c=await rc.json();
       if(c.jobTypes&&c.jobTypes.length)cfg.jobTypes=c.jobTypes;
@@ -1174,6 +1197,7 @@ async function loadCloud(){
       if(c.positions&&c.positions.length)cfg.positions=c.positions;
     }
     ensureLeaveTypes();
+    if(rolloverToday()){document.getElementById("lub").innerHTML+=` · 📋 แสดงแผนของวันนี้ (sync อัตโนมัติจากแผนล่วงหน้า)`;}
     renderAll();checkDups();checkExpiry();
   }catch(e){
     setSS("err","โหลดไม่สำเร็จ: "+e.message);
@@ -1224,14 +1248,22 @@ async function saveCloud(){
   try{
     const now=new Date().toISOString(),td=new Date().toLocaleDateString("th-TH");
     const todayISO=now.slice(0,10);
+    // sync ข้อมูลวันนี้จากแผนล่วงหน้าก่อน (กันการเอา teams ค้างของเมื่อวานไปทับแผนวันนี้)
+    const promoted=rolloverToday();
+    const todayTrusted=teamsTouched||promoted||isDataToday();
     let hist=Array.isArray(historyData)?[...historyData]:[];
-    hist=hist.filter(h=>!(h.savedAt&&h.savedAt.startsWith(todayISO))&&h.dateKey!==todayISO&&h.date!==td);
-    hist.unshift({date:td,savedAt:now,dateKey:todayISO,teams:JSON.parse(JSON.stringify(teams))});
+    if(todayTrusted){
+      // เขียน snapshot ของวันนี้ทับ record เดิมของวันนี้ (ข้อมูล teams ตอนนี้เป็นของวันนี้จริง)
+      hist=hist.filter(h=>!(h.savedAt&&h.savedAt.startsWith(todayISO))&&h.dateKey!==todayISO&&h.date!==td);
+      hist.unshift({date:td,savedAt:now,dateKey:todayISO,modifiedAt:now,teams:JSON.parse(JSON.stringify(teams))});
+    }
+    // ถ้าข้อมูลวันนี้ยังเป็นของเก่า (ไม่มีแผน+ไม่ได้แก้) — ไม่สร้าง/ทับ record ของวันนี้ใน history
     // Sort by real date DESC so slice(0,60) keeps most recent, not random order
     hist.sort((a,b)=>{const ak=a.dateKey||a.savedAt||"";const bk=b.dateKey||b.savedAt||"";return bk.localeCompare(ak);});
     if(hist.length>90)hist=hist.slice(0,90); // ขยาย limit เป็น 90 วัน
     historyData=hist;
-    await ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:td},tok);
+    await ghPUT("data.json",{teams,lastUpdated:now,updatedBy:"Nine",date:(todayTrusted?td:(dataDate||td))},tok);
+    if(todayTrusted)dataDate=td;
     await ghPUT("history.json",{history:hist,lastUpdated:now},tok);
     await ghPUT("config.json",cfg,tok);
     dirty=false;document.getElementById("sf").classList.remove("show");
@@ -1735,7 +1767,7 @@ function saveE(){
   teams[i]={...teams[i],jobType:ejt,site:sv,jobNo:document.getElementById("fj").value.trim(),
     depart:document.getElementById("fd").value,arrive:document.getElementById("fa").value,
     members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),locname:document.getElementById("floc-search").value.trim(),detail:document.getElementById("fdetail").value.trim()};
-  closeE();dirty=true;
+  closeE();dirty=true;teamsTouched=true;
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
   renderAll();checkDups();checkExpiry();
@@ -2297,7 +2329,7 @@ function openDayPlan(){
   if(!calSelDate||!isAdmin)return;
   const today=new Date(),todayKey=calDateKey(today.getFullYear(),today.getMonth(),today.getDate());
   if(calSelDate===todayKey){
-    document.querySelectorAll(".tab")[0].click();
+    (document.getElementById("tab-dispatch")||document.querySelectorAll(".tab")[0]).click();
     toast("แก้ไขแผนงานวันนี้ — กดปุ่ม ✎ บนการ์ดทีม","info");
     return;
   }
@@ -2309,7 +2341,7 @@ let pfPrefillSrc="";
 function getLatestPlanTeams(excludeKey){
   const cand=[];
   const today=new Date(),tk=calDateKey(today.getFullYear(),today.getMonth(),today.getDate());
-  if(tk!==excludeKey&&Array.isArray(teams)&&teams.some(t=>t.site||t.members))cand.push({ts:today.getTime(),key:tk,teams});
+  if(tk!==excludeKey&&isDataToday()&&Array.isArray(teams)&&teams.some(t=>t.site||t.members))cand.push({ts:today.getTime(),key:tk,teams});
   Object.entries(dayPlans).forEach(([k,p])=>{
     if(k===excludeKey||!p||!Array.isArray(p.teams))return;
     if(p.teams.some(t=>t.site||t.members))cand.push({ts:(p.savedAt?Date.parse(p.savedAt):Date.parse(k+"T12:00:00"))||0,key:k,teams:p.teams});
