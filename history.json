@@ -5,7 +5,7 @@
       "day_th": "15 มิถุนายน 2569",
       "dateKey": "2026-06-15",
       "savedAt": "2026-06-15T00:00:00.000Z",
-      "modifiedAt": "2026-06-13T11:28:49.660Z",
+      "modifiedAt": "2026-06-13T11:30:36.584Z",
       "teams": [
         {
           "id": 1,
@@ -85,14 +85,15 @@
         {
           "id": 7,
           "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "site": "SCG TPE Site #3",
+          "jobNo": "Job No JB260117",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "แชมป์, โอม, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง จีรพัทธ (สุด) 0954595149",
+          "detail": "Torque Bolt Cover Flange Nut A/F 46 mm.  = 2 fl."
         },
         {
           "id": 8,
@@ -267,9 +268,9 @@
     },
     {
       "date": "13/6/2569",
-      "savedAt": "2026-06-13T11:28:50.691Z",
+      "savedAt": "2026-06-13T11:30:36.604Z",
       "dateKey": "2026-06-13",
-      "modifiedAt": "2026-06-13T11:28:50.691Z",
+      "modifiedAt": "2026-06-13T11:30:36.604Z",
       "teams": [
         {
           "id": 1,
@@ -5706,5 +5707,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-13T11:28:50.691Z"
+  "lastUpdated": "2026-06-13T11:30:36.604Z"
 }
