@@ -1,10 +1,141 @@
 {
   "history": [
     {
+      "date": "14 มิถุนายน 2569",
+      "day_th": "14 มิถุนายน 2569",
+      "dateKey": "2026-06-14",
+      "savedAt": "2026-06-14T00:00:00.000Z",
+      "modifiedAt": "2026-06-13T10:46:27.811Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "JB260128",
+          "depart": "17:00",
+          "arrive": "18:30",
+          "members": "บิ๊ก, บีม, อั๋น",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "เดินทางไปนอนค้างคืน ศรีราชา 17:00 น."
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260128",
+          "depart": "17:00",
+          "arrive": "18:30",
+          "members": "คิง, โอ๊ด, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12 (S/N26020099)",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "เดินทางไปนอนค้างคืน ศรีราชา 17:00 น."
+        },
+        {
+          "id": 3,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "JB260120",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "ฟีล์ม, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260118",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 5,
+          "jobType": "COLD CUT",
+          "site": "Shino thai ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260122",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ทาม, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 30",
+          "contact": "ช่าง โด่ง 094-7467526"
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "Job No JB260125",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัท, ป๋อ, อองรี",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง เอกราช (เลี้ยว) 085-9351270"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "SULZER / โรงไฟฟ้า NPS ปราจีน",
+          "jobNo": "Job No JB260101",
+          "depart": "08:30",
+          "arrive": "13:00",
+          "members": "แชมป์, อั้น, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง เล่ห์ 095-5517181"
+        },
+        {
+          "id": 8,
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260126",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง เอก 0819190854"
+        },
+        {
+          "id": 9,
+          "jobType": "FLANGE",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260126",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TTFF-40",
+          "contact": "ช่าง เอก 0819190854"
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "13/6/2569",
-      "savedAt": "2026-06-13T10:45:02.237Z",
+      "savedAt": "2026-06-13T10:46:29.038Z",
       "dateKey": "2026-06-13",
-      "modifiedAt": "2026-06-13T10:45:02.237Z",
+      "modifiedAt": "2026-06-13T10:46:29.038Z",
       "teams": [
         {
           "id": 1,
@@ -5441,5 +5572,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-13T10:45:02.237Z"
+  "lastUpdated": "2026-06-13T10:46:29.038Z"
 }
