@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-13 00:32:36 calendar-tab-first + scrollable-tabs + day-rollover-sync + history-repair -->
+<!-- build:2026-06-13 01:33:08 api-fetch-no-cache -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1175,8 +1175,21 @@ function saveTok(){
 async function loadCloud(){
   setSS("sync","กำลังโหลดจาก Cloud...");
   try{
+    // ถ้ามี token ใช้ GitHub API (no-cache) แทน raw CDN ที่มี cache 5-10 นาที
+    const tok=getTok();
+    const nc=Date.now();
+    async function fetchFile(rawUrl,apiPath){
+      if(tok){
+        try{
+          const r=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${apiPath}?ref=main&nc=${nc}`,
+            {headers:{"Authorization":"token "+tok,"Cache-Control":"no-store","If-None-Match":""}});
+          if(r.ok){const d=await r.json();const by=atob(d.content.replace(/\n/g,""));const a=new Uint8Array(by.length);for(let i=0;i<by.length;i++)a[i]=by.charCodeAt(i);return {ok:true,json:()=>Promise.resolve(JSON.parse(new TextDecoder("utf-8").decode(a)))};}
+        }catch(_){}
+      }
+      return fetch(rawUrl+nc);
+    }
     const [rd,rh,rc]=await Promise.all([
-      fetch(RAW+Date.now()),fetch(RAW_HIST+Date.now()),fetch(RAW_CFG+Date.now())
+      fetchFile(RAW,"data.json"),fetchFile(RAW_HIST,"history.json"),fetchFile(RAW_CFG,"config.json")
     ]);
     if(rd.ok){const d=await rd.json();teams=d.teams||[];dataDate=d.date||"";const lu=d.lastUpdated?new Date(d.lastUpdated).toLocaleString("th-TH",{dateStyle:"short",timeStyle:"short"}):"—";setSS("ok",`Sync สำเร็จ · ${d.updatedBy||"—"} · ${lu}`);document.getElementById("lub").innerHTML=`🟢 Sync จาก Cloud · ${d.updatedBy||"—"} เมื่อ ${lu} · auto-refresh 60 วิ`;}else throw new Error("HTTP "+rd.status);
     if(rh.ok){const h=await rh.json();if(h.history&&h.history.length>0)historyData=h.history;}
