@@ -5,7 +5,7 @@
       "day_th": "15 มิถุนายน 2569",
       "dateKey": "2026-06-15",
       "savedAt": "2026-06-15T00:00:00.000Z",
-      "modifiedAt": "2026-06-13T11:22:43.723Z",
+      "modifiedAt": "2026-06-13T11:25:18.876Z",
       "teams": [
         {
           "id": 1,
@@ -45,15 +45,16 @@
         },
         {
           "id": 4,
-          "jobType": "BOLT",
-          "site": "SCG / DSAM",
-          "jobNo": "JB260126",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260xxx",
           "depart": "06:30",
-          "arrive": "07:00",
-          "members": "เป้, โอม, คิว",
+          "arrive": "08:00",
+          "members": "บอย, ทาม, อั๋น",
           "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างบอย 081-9190854"
+          "equipment": "TTFF-24 (S/N250948)",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Machine flange RTJ 12\""
         },
         {
           "id": 5,
@@ -264,9 +265,9 @@
     },
     {
       "date": "13/6/2569",
-      "savedAt": "2026-06-13T11:22:43.734Z",
+      "savedAt": "2026-06-13T11:25:18.904Z",
       "dateKey": "2026-06-13",
-      "modifiedAt": "2026-06-13T11:22:43.734Z",
+      "modifiedAt": "2026-06-13T11:25:18.904Z",
       "teams": [
         {
           "id": 1,
@@ -5703,5 +5704,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-13T11:22:43.734Z"
+  "lastUpdated": "2026-06-13T11:25:18.904Z"
 }
