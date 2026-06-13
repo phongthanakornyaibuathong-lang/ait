@@ -5,7 +5,7 @@
       "day_th": "14 มิถุนายน 2569",
       "dateKey": "2026-06-14",
       "savedAt": "2026-06-14T00:00:00.000Z",
-      "modifiedAt": "2026-06-13T10:55:25.741Z",
+      "modifiedAt": "2026-06-13T10:56:11.049Z",
       "teams": [
         {
           "id": 1,
@@ -110,14 +110,14 @@
         {
           "id": 9,
           "jobType": "FLANGE",
-          "site": "SCG / DSAM",
-          "jobNo": "Job No JB260126",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "เป้, โอม, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง เอก 0819190854"
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 10,
@@ -135,9 +135,9 @@
     },
     {
       "date": "13/6/2569",
-      "savedAt": "2026-06-13T10:55:26.972Z",
+      "savedAt": "2026-06-13T10:56:11.063Z",
       "dateKey": "2026-06-13",
-      "modifiedAt": "2026-06-13T10:55:26.972Z",
+      "modifiedAt": "2026-06-13T10:56:11.063Z",
       "teams": [
         {
           "id": 1,
@@ -5574,5 +5574,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-13T10:55:26.972Z"
+  "lastUpdated": "2026-06-13T10:56:11.063Z"
 }
