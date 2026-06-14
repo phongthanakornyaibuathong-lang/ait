@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-14 04:49:24 site-combobox + mp-add-btn -->
+<!-- build:2026-06-14 04:57:11 mp-cards+site-combobox -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -359,9 +359,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 <!-- PAGE: MANPOWER -->
 <div id="page-manpower" class="page"><div class="main">
-  <div class="sec-head"><div><div class="sec-title">👷 พนักงานที่ไม่ได้ออกงานวันนี้</div><div class="sec-sub" id="avail-count"></div></div></div>
+  <div class="sec-head">
+    <div><div class="sec-title">👷 Manpower</div><div class="sec-sub" id="avail-count"></div></div>
+    <button class="nbtn grn" id="mp-add-btn" style="display:none" onclick="openAdd('person')">＋ เพิ่มพนักงาน</button>
+  </div>
   <div class="mp-grid" id="mp-avail"></div>
-  <div class="sec-head" style="margin-top:8px"><div><div class="sec-title">🚀 พนักงานที่ออกงานวันนี้</div><div class="sec-sub" id="deploy-count"></div></div></div>
+  <div class="sec-head" style="margin-top:12px">
+    <div><div class="sec-title">🚀 ออกงานวันนี้</div><div class="sec-sub" id="deploy-count"></div></div>
+  </div>
   <div class="mp-grid" id="mp-deploy"></div>
 </div></div>
 
@@ -529,8 +534,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <div class="fgrid">
       <div class="fg full">
         <label class="flbl">Site / ลูกค้า</label>
-        <div class="selw"><select class="fsel" id="fs" onchange="onSiteChg()"><option value="">— เลือก Site —</option></select></div>
-        <input class="fi" id="fs-txt" placeholder="พิมพ์ชื่อ Site..." style="display:none;margin-top:6px">
+        <input class="fi" id="fs" list="fs-list" placeholder="พิมพ์หรือเลือก Site..." autocomplete="off" style="width:100%">
+        <datalist id="fs-list"></datalist>
       </div>
       <div class="fg"><label class="flbl">Job No.</label><input class="fi" id="fj" placeholder="JB260096"></div>
       <div class="fg"><label class="flbl">ติดต่อ</label><input class="fi" id="fc" placeholder="ชื่อ เบอร์โทร"></div>
@@ -1435,6 +1440,14 @@ function renderManpower(){
     // Expiry warnings for this person
     const expWarns=Object.entries(p.safetyCards||{}).filter(([,c])=>scStatus(c.exp)==="warn"||scStatus(c.exp)==="exp");
     const expHtml=expWarns.length?`<div style="margin-top:4px">${expWarns.slice(0,2).map(([site,c])=>`<span class="sc-badge ${scClass(scStatus(c.exp))}">${site}</span>`).join(" ")}</div>`:"";
+    // Safety card summary for this person
+    const cardEntries=Object.entries(p.safetyCards||{});
+    const cardHtml=cardEntries.length?`<div style="margin-top:5px;display:flex;flex-wrap:wrap;gap:3px">${
+      cardEntries.map(([site,c])=>{
+        const st=scStatus(c.exp);
+        return`<span class="sc-badge ${scClass(st)}" style="font-size:9px;padding:2px 6px;cursor:pointer" onclick="event.stopPropagation();openCardEdit('${p.id.replace(/'/g,"\\'")}','${site.replace(/'/g,"\\'")}');if(!isAdmin)return;" title="${site}${c.exp?' · หมด:'+c.exp:' · ไม่มีวันหมด'}">${site}${st==='warn'?' ⚠':st==='exp'?' ✕':''}</span>`;
+      }).join("")
+    }</div>`:"";
     return`<div class="mp-card" onclick="openPD('${p.id}')">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
         <div class="mp-avatar" style="background:${p.color||"#636366"}">${(p.nick||p.id).slice(0,2)}</div>
@@ -1450,6 +1463,7 @@ function renderManpower(){
       </div>
       ${(p.skills||[]).length?`<div class="skills-wrap">${skBadges}${more}</div>`:""}
       ${expHtml}
+      ${cardHtml}
     </div>`;
   };
   document.getElementById("mp-avail").innerHTML=avail.length?avail.map(p=>mkCard(p,"avail")).join(""):`<div style="grid-column:1/-1;text-align:center;padding:24px;color:var(--text3);font-size:12px">✅ ทุกคนมีงาน</div>`;
@@ -1780,8 +1794,7 @@ function submitAdd(){
 
 /* ═══════════════════════════ EDIT TEAM ════════════════════ */
 function populateDrops(){
-  const sfs=document.getElementById("fs");while(sfs.options.length>1)sfs.remove(1);
-  cfg.sites.forEach(s=>{const o=new Option(s,s);sfs.add(o);});const o=new Option("อื่นๆ (พิมพ์เอง)","_other");sfs.add(o);
+  const sfl=document.getElementById("fs-list");if(sfl){sfl.innerHTML="";cfg.sites.forEach(sv=>{const o=document.createElement("option");o.value=sv;sfl.appendChild(o);});}
   ["fd","fa"].forEach(id=>{const s=document.getElementById(id);while(s.options.length>1)s.remove(1);(id==="fd"?cfg.timeSlots.depart:cfg.timeSlots.arrive).forEach(t=>s.add(new Option(t,t)));});
   const fms=document.getElementById("fms");while(fms.options.length>1)fms.remove(1);
   cfg.personnel.forEach(p=>fms.add(new Option(`${p.nick||p.id} — ${p.pos||""}`,p.id)));
@@ -1797,7 +1810,7 @@ function setSel(id,val,ov,tid){
   else if(tid&&f)document.getElementById(tid).style.display="none";
   if(!f&&!val)s.value="";
 }
-function onSiteChg(){document.getElementById("fs-txt").style.display=document.getElementById("fs").value==="_other"?"block":"none";}
+function onSiteChg(){/* combobox noop */}
 function onEquipChg(){document.getElementById("fe-txt").style.display=document.getElementById("fe").value==="_other"?"block":"none";}
 function chkVehDup(){
   const v=document.getElementById("fv").options[document.getElementById("fv").selectedIndex]?.text||"";
@@ -1815,7 +1828,7 @@ function openE(id){
   populateDrops();
   document.getElementById("fj").value=t.jobNo||"";document.getElementById("fc").value=t.contact||"";document.getElementById("floc-search").value=t.locname||"";
   document.getElementById("fdetail").value=t.detail||"";
-  setSel("fs",t.site,"_other","fs-txt");setSel("fd",t.depart);setSel("fa",t.arrive);
+  document.getElementById("fs").value=t.site||"";setSel("fd",t.depart);setSel("fa",t.arrive);
   setSel("fv",t.vehicle);setSel("fe",t.equipment,"_other","fe-txt");
   document.getElementById("mem-warn").style.display="none";document.getElementById("veh-warn").style.display="none";
   renderJT();renderMemPills();chkVehDup();
@@ -1838,10 +1851,11 @@ function renderMemPills(){
 }
 function closeE(){document.getElementById("eov").classList.remove("open");}
 function saveE(){
-  const sv=document.getElementById("fs").value==="_other"?document.getElementById("fs-txt").value:document.getElementById("fs").value;
+  const sv=(document.getElementById("fs").value||"").trim();
   const ev=document.getElementById("fe").value==="_other"?document.getElementById("fe-txt").value:(document.getElementById("fe").options[document.getElementById("fe").selectedIndex]?.text||"");
   const vt=document.getElementById("fv").options[document.getElementById("fv").selectedIndex]?.text||"";
   const i=teams.findIndex(t=>t.id===eid);
+  if(sv&&!cfg.sites.includes(sv)){cfg.sites.push(sv);dirty=true;}  // auto-add new site
   teams[i]={...teams[i],jobType:ejt,site:sv,jobNo:document.getElementById("fj").value.trim(),
     depart:document.getElementById("fd").value,arrive:document.getElementById("fa").value,
     members:selMem.join(", "),vehicle:vt,equipment:ev,contact:document.getElementById("fc").value.trim(),locname:document.getElementById("floc-search").value.trim(),detail:document.getElementById("fdetail").value.trim()};
@@ -2531,14 +2545,10 @@ function renderPlanModal(){
         </div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
-        <div class="selw" style="grid-column:1/-1">
-          <select class="fsel" style="font-size:12px;padding:7px 10px" onchange="pfSetSite(${i},this.value)">
-            <option value="">— เลือก Site —</option>
-            ${cfg.sites.map(s=>`<option value="${s}" ${s===t.site?"selected":""}>${s}</option>`).join("")}
-            <option value="_other" ${!cfg.sites.includes(t.site)&&t.site?"selected":""}>อื่นๆ (พิมพ์เอง)</option>
-          </select>
+        <div style="grid-column:1/-1">
+          <input class="fi" list="pf-sitelist-${i}" style="font-size:12px;padding:7px 10px;width:100%" value="${t.site||""}" oninput="pfSetSiteInput(${i},this.value)" placeholder="พิมพ์หรือเลือก Site...">
+          <datalist id="pf-sitelist-${i}">${cfg.sites.map(sv=>`<option value="${sv}"></option>`).join("")}</datalist>
         </div>
-        ${!cfg.sites.includes(t.site)&&t.site?`<div class="fg full" style="grid-column:1/-1"><input class="fi" style="font-size:12px;padding:7px 10px" value="${t.site||""}" oninput="pfSetSiteText(${i},this.value)" placeholder="ชื่อ Site..."></div>`:""}
         <input class="fi" style="font-size:12px;padding:7px 10px" value="${t.jobNo||""}" oninput="pfSetField(${i},'jobNo',this.value)" placeholder="Job No.">
         <input class="fi" style="font-size:12px;padding:7px 10px" value="${t.contact||""}" oninput="pfSetField(${i},'contact',this.value)" placeholder="ติดต่อ">
         <div class="selw">
@@ -2579,11 +2589,13 @@ function renderPlanModal(){
 }
 
 function pfSetJT(idx,jt){pfWorkingPlan.teams[idx].jobType=jt;renderPlanModal();}
-function pfSetSite(idx,val){
-  pfWorkingPlan.teams[idx].site=val==="_other"?"":val;
-  renderPlanModal();
-}
+function pfSetSite(idx,val){pfWorkingPlan.teams[idx].site=val;renderPlanModal();}
 function pfSetSiteText(idx,val){pfWorkingPlan.teams[idx].site=val;}
+function pfSetSiteInput(idx,val){
+  pfWorkingPlan.teams[idx].site=val;
+  // auto-add site ใหม่ลง cfg.sites เมื่อ blur หรือ input เปลี่ยน
+  if(val&&!cfg.sites.includes(val)){cfg.sites.push(val);dirty=true;document.getElementById("sf").classList.add("show");}
+}
 function pfSetField(idx,field,val){pfWorkingPlan.teams[idx][field]=val;}
 function pfAddMember(idx,name){
   if(!name)return;
