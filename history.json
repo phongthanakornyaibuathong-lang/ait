@@ -5,7 +5,7 @@
       "day_th": "15 มิถุนายน 2569",
       "dateKey": "2026-06-15",
       "savedAt": "2026-06-15T00:00:00.000Z",
-      "modifiedAt": "2026-06-14T05:18:02.393Z",
+      "modifiedAt": "2026-06-14T05:19:31.145Z",
       "teams": [
         {
           "id": 1,
@@ -93,7 +93,7 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -101,7 +101,7 @@
           "members": "",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง เอก 0819190854"
+          "contact": ""
         },
         {
           "id": 9,
@@ -131,9 +131,9 @@
     },
     {
       "date": "14/6/2569",
-      "savedAt": "2026-06-14T05:18:02.412Z",
+      "savedAt": "2026-06-14T05:19:31.162Z",
       "dateKey": "2026-06-14",
-      "modifiedAt": "2026-06-14T05:18:02.412Z",
+      "modifiedAt": "2026-06-14T05:19:31.162Z",
       "teams": [
         {
           "id": 1,
@@ -5702,5 +5702,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-14T05:18:02.412Z"
+  "lastUpdated": "2026-06-14T05:19:31.162Z"
 }
