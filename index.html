@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-14 04:57:11 mp-cards+site-combobox -->
+<!-- build:2026-06-14 05:05:34 history-date-unified -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1585,6 +1585,25 @@ function savePD(){
 }
 
 /* ═══════════════════════════ HISTORY ═══════════════════════ */
+/* ══ formatHistDate: แปลง dateKey (YYYY-MM-DD) หรือ date string ใดๆ → ไทยเต็ม ══ */
+const TH_DAYS=["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"];
+const TH_MONTHS=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
+function formatHistDate(h){
+  // ลำดับ priority: dateKey (ISO) > savedAt ISO prefix > date string ตามที่มี
+  let iso = h.dateKey || (h.savedAt ? h.savedAt.slice(0,10) : null);
+  if(iso && /^\d{4}-\d{2}-\d{2}$/.test(iso)){
+    const [y,m,d] = iso.split("-").map(Number);
+    const dow = new Date(y, m-1, d).getDay();
+    return {
+      long: `วัน${TH_DAYS[dow]}ที่ ${d} ${TH_MONTHS[m-1]} ${y+543}`,
+      short: `${d} ${TH_MONTHS[m-1]} ${y+543}`,
+      dow: TH_DAYS[dow],
+      iso: iso
+    };
+  }
+  // fallback: ใช้ date field เดิม (may be th string)
+  return { long: h.day_th||h.date||"", short: h.day_th||h.date||"", dow:"", iso:"" };
+}
 function renderHistory(){
   const el=document.getElementById("hist-list");
   const rawHist=Array.isArray(historyData)?historyData:[];
@@ -1598,7 +1617,7 @@ function renderHistory(){
   const hist=[...seen.values()].filter(h=>(h.teams||[]).some(t=>!isSB(t)));
   document.getElementById("hist-count").textContent=hist.length+" รายการ";
   if(!hist.length){el.innerHTML=`<div style="text-align:center;padding:40px;color:var(--text3);font-size:13px">ยังไม่มีประวัติ</div>`;return;}
-  const sorted=[...hist].sort((a,b)=>(b.savedAt||b.date)>(a.savedAt||a.date)?1:-1);
+  const sorted=[...hist].sort((a,b)=>{const ai=a.dateKey||(a.savedAt?a.savedAt.slice(0,10):"");const bi=b.dateKey||(b.savedAt?b.savedAt.slice(0,10):"");return bi.localeCompare(ai);});
   el.innerHTML=sorted.map((h,hi)=>{
     const act=(h.teams||[]).filter(t=>!isSB(t));
     const pax=act.reduce((s,t)=>s+mArr(t.members).length,0);
@@ -1615,10 +1634,13 @@ function renderHistory(){
         <td style="font-size:11px;color:var(--text3)">${t.vehicle||"—"}</td>
       </tr>`;
     }).join(""):`<tr><td colspan="7" style="text-align:center;color:var(--text3);padding:10px">ไม่มีข้อมูลทีม</td></tr>`;
-    const dateLabel=h.day_th||h.date||"";
+    const fd=formatHistDate(h);
     return`<div class="hist-day">
       <div class="hist-head" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div><div class="hist-htitle">📅 ${dateLabel}</div><div class="hist-hmeta">${act.length} ทีมออกงาน · ${pax} คน${savedAt?" · "+savedAt:""}</div></div>
+        <div>
+          <div class="hist-htitle">📅 ${fd.short}</div>
+          <div class="hist-hmeta">${fd.dow?fd.dow+" · ":""}${act.length} ทีม · ${pax} คน · ${fd.iso||""}</div>
+        </div>
         <span style="font-size:13px;color:var(--text3)">▾</span>
       </div>
       <div style="${hi===0?"":"display:none"}"><div style="overflow-x:auto">
