@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-14 04:42:51 manpower-full-edit -->
+<!-- build:2026-06-14 04:49:24 site-combobox + mp-add-btn -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1326,7 +1326,9 @@ function enterAdmin(){
   document.getElementById("plan-btn").style.display="flex";
   document.getElementById("tok-row").style.display="flex";
   document.getElementById("tok-status").textContent=getTok()?"ตั้งค่าแล้ว ✓":"ยังไม่ได้ตั้งค่า";
-  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}renderSettings();toast("✓ เข้าโหมดแก้ไข","ok");
+  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}renderSettings();
+  const mpab=document.getElementById("mp-add-btn");if(mpab)mpab.style.display="flex";
+  toast("✓ เข้าโหมดแก้ไข","ok");
 }
 function exitAdmin(){
   isAdmin=false;dirty=false;
@@ -1335,7 +1337,9 @@ function exitAdmin(){
   document.getElementById("ibtn").style.display="none";
   document.getElementById("plan-btn").style.display="none";
   document.getElementById("sf").classList.remove("show");
-  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}toast("ออกจากโหมดแก้ไข","info");
+  renderCards();renderSafetyCards();try{renderLeave();}catch(e){}
+  const mpab2=document.getElementById("mp-add-btn");if(mpab2)mpab2.style.display="none";
+  toast("ออกจากโหมดแก้ไข","info");
 }
 
 /* ═══════════════════════════ DUPLICATE / EXPIRY CHECK ═══════ */
