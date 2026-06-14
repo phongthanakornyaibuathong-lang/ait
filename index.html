@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-13 01:33:08 api-fetch-no-cache -->
+<!-- build:2026-06-14 04:42:51 manpower-full-edit -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -583,9 +583,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     <button class="xbtn" onclick="closePD()">✕</button>
   </div>
   <div class="mbody" id="pd-body"></div>
+  <!-- edit fields — admin only -->
+  <div id="pd-edit-section" style="display:none;padding:0 18px 14px">
+    <div style="border-top:.5px solid var(--border);padding-top:12px;margin-bottom:10px;font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.5px">✏️ แก้ไขข้อมูล</div>
+    <div class="fgrid">
+      <div class="fg"><label class="flbl">ชื่อเล่น (ID)</label><input class="fi" id="pd-f-nick" placeholder="ชื่อเล่น"></div>
+      <div class="fg"><label class="flbl">ชื่อ-นามสกุล</label><input class="fi" id="pd-f-name" placeholder="ชื่อจริง"></div>
+      <div class="fg"><label class="flbl">ตำแหน่ง</label>
+        <div class="selw"><select class="fsel" id="pd-f-pos"></select></div>
+      </div>
+      <div class="fg"><label class="flbl">เบอร์โทร</label><input class="fi" id="pd-f-phone" placeholder="08x-xxx-xxxx"></div>
+      <div class="fg"><label class="flbl">สี Avatar</label><input class="fi" id="pd-f-color" type="color" style="height:42px;padding:4px"></div>
+    </div>
+  </div>
   <div class="mfoot" id="pd-foot" style="display:none">
     <button class="mbtn" onclick="closePD()">ปิด</button>
-    <button class="mbtn pri" onclick="savePDSkills()">💾 บันทึก Skills</button>
+    <button class="mbtn pri" onclick="savePD()">💾 บันทึก</button>
   </div>
 </div>
 </div>
@@ -1487,6 +1500,30 @@ function openPD(personId){
     </div>`:"";
 
   document.getElementById("pd-body").innerHTML=statusHtml+`<div style="font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">Skills</div>`+skillsHtml+cardsHtml;
+  // แสดง/ซ่อน edit section
+  const editSec = document.getElementById("pd-edit-section");
+  if(isAdmin){
+    editSec.style.display="block";
+    document.getElementById("pd-f-nick").value = p.nick||p.id||"";
+    document.getElementById("pd-f-name").value = p.name||"";
+    document.getElementById("pd-f-phone").value = p.phone||"";
+    document.getElementById("pd-f-color").value = p.color||"#636366";
+    // populate position dropdown
+    const posEl = document.getElementById("pd-f-pos");
+    posEl.innerHTML = "";
+    (cfg.positions||["Engineer","Sup'v","Technician","ช่างเทคนิค Robort","Store","ผู้รับเหมา","ผู้รับเหมา(สน.)","กลุ่มพนักงาน"]).forEach(op=>{
+      const o=document.createElement("option"); o.value=op; o.textContent=op;
+      if(op===p.pos) o.selected=true;
+      posEl.appendChild(o);
+    });
+    // allow custom pos
+    if(p.pos && !(cfg.positions||[]).includes(p.pos)){
+      const o=document.createElement("option"); o.value=p.pos; o.textContent=p.pos; o.selected=true;
+      posEl.insertBefore(o, posEl.firstChild);
+    }
+  } else {
+    editSec.style.display="none";
+  }
   document.getElementById("pd-foot").style.display=isAdmin?"flex":"none";
   document.getElementById("pdov").classList.add("open");
 }
@@ -1499,10 +1536,34 @@ function toggleSkill(id){
   if(pdTmpSkills.includes(id)){el.classList.add("on");el.style.background=s?.color||"#30D158";el.style.borderColor=s?.color||"#30D158";}
   else{el.classList.remove("on");el.style.background="";el.style.borderColor="";}
 }
-function savePDSkills(){
+function savePDSkills(){savePD();}
+function savePD(){
   if(!isAdmin||!pdId)return;
   const pi=cfg.personnel.findIndex(x=>x.id===pdId);
-  if(pi>=0){cfg.personnel[pi].skills=[...pdTmpSkills];dirty=true;document.getElementById("sf").classList.add("show");closePD();toast(`✓ บันทึก Skills ของ ${pdId} แล้ว`,"ok");renderManpower();}
+  if(pi<0)return;
+  const p=cfg.personnel[pi];
+  // บันทึก skills
+  p.skills=[...pdTmpSkills];
+  // บันทึก info fields
+  const newNick=(document.getElementById("pd-f-nick")?.value||"").trim()||p.nick||p.id;
+  const newName=(document.getElementById("pd-f-name")?.value||"").trim();
+  const newPhone=(document.getElementById("pd-f-phone")?.value||"").trim();
+  const newPos=document.getElementById("pd-f-pos")?.value||p.pos||"";
+  const newColor=document.getElementById("pd-f-color")?.value||p.color||"#636366";
+  p.nick=newNick; if(newName)p.name=newName;
+  p.phone=newPhone; p.pos=newPos; p.color=newColor;
+  // sync ชื่อใน teams (members string) ถ้า nick เปลี่ยน
+  if(newNick!==pdId){
+    teams.forEach(t=>{
+      if(!t.members)return;
+      const arr=t.members.split(",").map(x=>x.trim());
+      const idx=arr.indexOf(pdId);
+      if(idx>=0){arr[idx]=newNick;t.members=arr.join(", ");}
+    });
+  }
+  dirty=true;document.getElementById("sf").classList.add("show");
+  closePD();toast(`✓ บันทึกข้อมูล ${newNick} แล้ว`,"ok");
+  renderManpower();renderSettings();renderAll();
 }
 
 /* ═══════════════════════════ HISTORY ═══════════════════════ */
