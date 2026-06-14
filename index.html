@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-14 05:05:34 history-date-unified -->
+<!-- build:2026-06-14 05:12:23 fix-banner-dedup -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1229,12 +1229,12 @@ async function loadCloud(){
     }
     ensureLeaveTypes();
     if(rolloverToday()){document.getElementById("lub").innerHTML+=` · 📋 แสดงแผนของวันนี้ (sync อัตโนมัติจากแผนล่วงหน้า)`;}
-    renderAll();checkDups();checkExpiry();
+    renderAll();checkAll();
   }catch(e){
     setSS("err","โหลดไม่สำเร็จ: "+e.message);
     try{const s=localStorage.getItem("aits_v4");if(s){const d=JSON.parse(s);teams=d.teams||[];if(d.cfg)Object.assign(cfg,d.cfg);}}catch(_){}
     ensureLeaveTypes();
-    renderAll();checkDups();checkExpiry();
+    renderAll();checkAll();
   }
 }
 async function ghGetSHA(path,tok){
@@ -1350,20 +1350,32 @@ function exitAdmin(){
 /* ═══════════════════════════ DUPLICATE / EXPIRY CHECK ═══════ */
 function getDupMem(){const u={};teams.filter(t=>!isSB(t)).forEach(t=>mArr(t.members).forEach(m=>{if(!u[m])u[m]=[];u[m].push(DPAL[t.id-1]?.n||"T"+t.id);}));return Object.entries(u).filter(([,ts])=>ts.length>1);}
 function getDupVeh(){const u={};teams.filter(t=>!isSB(t)&&t.vehicle).forEach(t=>{if(!u[t.vehicle])u[t.vehicle]=[];u[t.vehicle].push(DPAL[t.id-1]?.n||"T"+t.id);});return Object.entries(u).filter(([,ts])=>ts.length>1);}
-function checkDups(){
-  const dm=getDupMem(),dv=getDupVeh(),b=document.getElementById("wbanner"),msgs=[];
+function checkDups(){checkAll();}   // compat alias
+function checkExpiry(){checkAll();} // compat alias
+function checkAll(){
+  const b=document.getElementById("wbanner");
+  const txt=document.getElementById("wbanner-txt");
+  const msgs=[];
+  // 1. ซ้ำสมาชิก/รถ
+  const dm=getDupMem(),dv=getDupVeh();
   if(dm.length)msgs.push("⚠ สมาชิกซ้ำ: "+dm.map(([n,ts])=>`${n}(${ts.join(",")})`).join(" · "));
   if(dv.length)msgs.push("🚗 รถซ้ำ: "+dv.map(([v,ts])=>`${v.split(" ")[0]}(${ts.join(",")})`).join(" · "));
-  if(msgs.length){document.getElementById("wbanner-txt").innerHTML=msgs.join("  |  ");b.classList.add("show");}else b.classList.remove("show");
-}
-function checkExpiry(){
+  // 2. บัตรใกล้หมด/หมดแล้ว (แสดงครั้งเดียว ไม่ append)
   const warns=getExpiringSoon();
   if(warns.length){
-    const b=document.getElementById("wbanner");
-    const extra=`🪪 บัตรใกล้หมด/หมดแล้ว: `+warns.slice(0,3).map(w=>`${w.nick}(${w.site})`).join(", ")+(warns.length>3?` +${warns.length-3} อื่น`:"");
-    const cur=document.getElementById("wbanner-txt").innerHTML;
-    document.getElementById("wbanner-txt").innerHTML=cur+(cur?`<br>`:"")+"<span style='color:#FF9F0A'>"+extra+"</span>";
+    const exp=warns.filter(w=>scStatus(w.exp)==="exp");
+    const warn=warns.filter(w=>scStatus(w.exp)==="warn");
+    const parts=[];
+    if(exp.length)parts.push(`<span style="color:var(--red)">✕ หมดแล้ว: ${exp.slice(0,3).map(w=>`${w.nick}(${w.site})`).join(", ")}${exp.length>3?" +"+( exp.length-3)+" อื่น":""}</span>`);
+    if(warn.length)parts.push(`<span style="color:var(--orange)">⚠ ใกล้หมด: ${warn.slice(0,3).map(w=>`${w.nick}(${w.site})`).join(", ")}${warn.length>3?" +"+(warn.length-3)+" อื่น":""}</span>`);
+    msgs.push("🪪 บัตร — "+parts.join(" · "));
+  }
+  if(msgs.length){
+    txt.innerHTML=msgs.join("<br>");
     b.classList.add("show");
+  } else {
+    txt.innerHTML="";
+    b.classList.remove("show");
   }
 }
 
@@ -1884,7 +1896,7 @@ function saveE(){
   closeE();dirty=true;teamsTouched=true;
   document.getElementById("sf").classList.add("show");
   localStorage.setItem("aits_v4",JSON.stringify({teams,cfg}));
-  renderAll();checkDups();checkExpiry();
+  renderAll();checkAll();
   toast("✓ บันทึก "+DPAL[eid-1]?.n+" — กด Save & Sync ทีม ☁","warn");
 }
 
@@ -1930,7 +1942,7 @@ document.getElementById("xlf").addEventListener("change",function(e){
       members:String(r[6]||""),vehicle:String(r[7]||""),equipment:String(r[8]||""),contact:String(r[9]||"")}));
     while(m.length<10)m.push({id:m.length+1,jobType:"STANDBY",site:"",jobNo:"",depart:"",arrive:"",members:"",vehicle:"",equipment:"",contact:""});
     teams=m;dirty=true;document.getElementById("sf").classList.add("show");
-    renderAll();checkDups();checkExpiry();toast(`✓ Import ${m.filter(t=>t.site).length} ทีม`,"ok");
+    renderAll();checkAll();toast(`✓ Import ${m.filter(t=>t.site).length} ทีม`,"ok");
   }catch(err){toast("✕ Import ไม่สำเร็จ","err");}};
   r.readAsBinaryString(f);e.target.value="";
 });
