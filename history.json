@@ -2,15 +2,15 @@
   "history": [
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T04:09:10.499Z",
+      "savedAt": "2026-06-15T05:42:18.617Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T04:09:10.499Z",
+      "modifiedAt": "2026-06-15T05:42:18.617Z",
       "teams": [
         {
           "id": 1,
           "jobType": "ROBOT",
           "site": "Thai Gypsum (Ayuttaya)",
-          "jobNo": "JB26XX",
+          "jobNo": "JB260133",
           "depart": "06:00",
           "arrive": "10:00",
           "members": "นาย, ป๋อ, เอิร์ก",
@@ -5706,5 +5706,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T04:09:10.499Z"
+  "lastUpdated": "2026-06-15T05:42:18.617Z"
 }
