@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T10:52:56.483Z",
+      "modifiedAt": "2026-06-15T11:02:13.339Z",
       "teams": [
         {
           "id": 1,
@@ -64,7 +64,7 @@
           "depart": "07:00",
           "arrive": "08:00",
           "members": "แชมป์, โอ๊ด, ฟีล์ม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
           "equipment": "Hydraulic torque",
           "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270",
           "detail": "ฟีล์มเข้าสมทบช่วงบ่าย"
@@ -121,23 +121,24 @@
         },
         {
           "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
           "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "depart": "13:00",
+          "arrive": "16:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "",
+          "detail": "นำเครื่องมือออก"
         }
       ]
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T11:01:01.791Z",
+      "savedAt": "2026-06-15T11:02:13.356Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T11:01:01.791Z",
+      "modifiedAt": "2026-06-15T11:02:13.356Z",
       "teams": [
         {
           "id": 1,
@@ -5839,5 +5840,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T11:01:01.791Z"
+  "lastUpdated": "2026-06-15T11:02:13.356Z"
 }
