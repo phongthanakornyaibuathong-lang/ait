@@ -92,11 +92,12 @@
       "jobNo": "",
       "depart": "10:00",
       "arrive": "15:00",
-      "members": "ทัช, เฟิร์ส",
+      "members": "ทัช",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "Hydraulic torque",
       "contact": "ช่างเดชา",
-      "detail": "โรงกลึง MEC ตรวจชิ้นงาน และรับส่งชิ้นงาน STECON"
+      "detail": "โรงกลึง MEC ตรวจชิ้นงาน และรับส่งชิ้นงาน STECON",
+      "locname": ""
     },
     {
       "id": 9,
@@ -123,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-15T01:49:17.885Z",
+  "lastUpdated": "2026-06-15T01:50:06.069Z",
   "updatedBy": "Nine",
   "date": "15/6/2569"
 }
