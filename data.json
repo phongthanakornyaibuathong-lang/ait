@@ -56,12 +56,10 @@
       "jobNo": "Job No JB260125",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "นัฐ, ป๋อ",
+      "members": "นัฐ, ป๋อ, อองรี",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
-      "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270",
-      "locname": "",
-      "detail": ""
+      "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270"
     },
     {
       "id": 6,
@@ -126,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-15T01:50:31.162Z",
+  "lastUpdated": "2026-06-15T01:51:56.092Z",
   "updatedBy": "Nine",
   "date": "15/6/2569"
 }
