@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T09:06:21.351Z",
+      "modifiedAt": "2026-06-15T09:08:58.579Z",
       "teams": [
         {
           "id": 1,
@@ -70,15 +70,15 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "Job No JB260125",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "เป้, ฟีล์ม, ต้าร์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270"
+          "jobType": "ROBOT",
+          "site": "Thai Gypsum (Ayuttaya)",
+          "jobNo": "Job No JB260133",
+          "depart": "06:00",
+          "arrive": "10:00",
+          "members": "นาย, ป๋อ, เอิร์ก",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Robot tool",
+          "contact": "K.จูเนียร์ 089-117-1422"
         },
         {
           "id": 7,
@@ -132,9 +132,9 @@
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T09:06:22.435Z",
+      "savedAt": "2026-06-15T09:08:59.492Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T09:06:22.435Z",
+      "modifiedAt": "2026-06-15T09:08:59.492Z",
       "teams": [
         {
           "id": 1,
@@ -5836,5 +5836,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T09:06:22.435Z"
+  "lastUpdated": "2026-06-15T09:08:59.492Z"
 }
