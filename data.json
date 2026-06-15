@@ -4,7 +4,7 @@
       "id": 1,
       "jobType": "ROBOT",
       "site": "Thai Gypsum (Ayuttaya)",
-      "jobNo": "JB26XX",
+      "jobNo": "JB260133",
       "depart": "06:00",
       "arrive": "10:00",
       "members": "นาย, ป๋อ, เอิร์ก",
@@ -126,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-15T04:09:10.499Z",
+  "lastUpdated": "2026-06-15T05:42:18.617Z",
   "updatedBy": "Nine",
   "date": "15/6/2569"
 }
