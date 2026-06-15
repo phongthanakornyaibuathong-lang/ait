@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T10:52:56.483Z",
+      "modifiedAt": "2026-06-15T11:11:13.670Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "JB260128",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "บิ๊ก, บีม, ไอซ์",
+          "members": "บิ๊ก, บีม",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "ช่าง กับตัน 080-0471014",
@@ -27,7 +27,7 @@
           "jobNo": "JB260128",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "คิง, โอ๊ด",
+          "members": "คิง, ไอซ์",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 (S/N26020099)",
           "contact": "ช่าง กับตัน 080-0471014"
@@ -64,7 +64,7 @@
           "depart": "07:00",
           "arrive": "08:00",
           "members": "แชมป์, โอ๊ด, ฟีล์ม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
           "equipment": "Hydraulic torque",
           "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270",
           "detail": "ฟีล์มเข้าสมทบช่วงบ่าย"
@@ -88,7 +88,7 @@
           "site": "Work shop AITs.",
           "jobNo": "-",
           "depart": "09:00",
-          "arrive": "08:00",
+          "arrive": "12:00",
           "members": "อั๋น, โอม, คิว",
           "vehicle": "",
           "equipment": "",
@@ -109,35 +109,37 @@
         },
         {
           "id": 9,
-          "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "-",
+          "depart": "13:30",
+          "arrive": "14:00",
+          "members": "กรานต์, นัฐ",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "ศรัณศักดิ์ LNG2 0656195491",
+          "detail": "Site Survey งาน Mechanical ถอดประกอบ 14:00 น. "
         },
         {
           "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
           "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "depart": "13:00",
+          "arrive": "16:00",
+          "members": "เป้, โอม, คิว",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "",
+          "detail": "นำเครื่องมือออก"
         }
       ]
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T11:07:34.658Z",
+      "savedAt": "2026-06-15T11:11:13.683Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T11:07:34.658Z",
+      "modifiedAt": "2026-06-15T11:11:13.683Z",
       "teams": [
         {
           "id": 1,
@@ -5839,5 +5841,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T11:07:34.658Z"
+  "lastUpdated": "2026-06-15T11:11:13.683Z"
 }
