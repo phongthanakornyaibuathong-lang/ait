@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T10:50:54.618Z",
+      "modifiedAt": "2026-06-15T10:52:56.483Z",
       "teams": [
         {
           "id": 1,
@@ -96,15 +96,16 @@
         },
         {
           "id": 8,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC",
+          "jobType": "TRAINING",
+          "site": "Work shop AITs.",
           "jobNo": "",
-          "depart": "10:00",
-          "arrive": "15:00",
-          "members": "ทัช",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างเดชา"
+          "depart": "08:00",
+          "arrive": "12:00",
+          "members": "เป้, นัฐ, ฟีล์ม, ต้าร์",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-",
+          "detail": "ฟีล์มเข้างาน Kuraray ช่วงบ่าย"
         },
         {
           "id": 9,
@@ -134,9 +135,9 @@
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T10:50:56.274Z",
+      "savedAt": "2026-06-15T10:52:56.498Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T10:50:56.274Z",
+      "modifiedAt": "2026-06-15T10:52:56.498Z",
       "teams": [
         {
           "id": 1,
@@ -5838,5 +5839,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T10:50:56.274Z"
+  "lastUpdated": "2026-06-15T10:52:56.498Z"
 }
