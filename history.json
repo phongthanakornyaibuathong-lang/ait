@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T10:47:32.142Z",
+      "modifiedAt": "2026-06-15T10:50:54.618Z",
       "teams": [
         {
           "id": 1,
@@ -84,15 +84,15 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "SCG TPE Site #3",
-          "jobNo": "Job No JB260117",
-          "depart": "07:30",
+          "jobType": "TRAINING",
+          "site": "Work shop AITs.",
+          "jobNo": "-",
+          "depart": "09:00",
           "arrive": "08:00",
-          "members": "แชมป์, โอม, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง จีรพัทธ (สุด) 0954595149"
+          "members": "อั๋น, โอม, คิว",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-"
         },
         {
           "id": 8,
@@ -134,9 +134,9 @@
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T10:48:27.988Z",
+      "savedAt": "2026-06-15T10:50:54.643Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T10:48:27.988Z",
+      "modifiedAt": "2026-06-15T10:50:54.643Z",
       "teams": [
         {
           "id": 1,
@@ -5838,5 +5838,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T10:48:27.988Z"
+  "lastUpdated": "2026-06-15T10:50:54.643Z"
 }
