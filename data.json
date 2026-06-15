@@ -2,15 +2,17 @@
   "teams": [
     {
       "id": 1,
-      "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260128",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "บิ๊ก, บีม, ไอซ์",
-      "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "MM 300 E",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "jobType": "ROBOT",
+      "site": "Thai Gypsum (Ayuttaya)",
+      "jobNo": "JB26XX",
+      "depart": "06:00",
+      "arrive": "10:00",
+      "members": "นาย, ป๋อ, เอิร์ก",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "Robot Tool",
+      "contact": "จูเนียร์ 089-117-1422",
+      "locname": "Thai Gypsum Public Company Limited.",
+      "detail": "Replace axis 2 IRB460"
     },
     {
       "id": 2,
@@ -124,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-15T01:51:57.487Z",
+  "lastUpdated": "2026-06-15T04:09:10.499Z",
   "updatedBy": "Nine",
   "date": "15/6/2569"
 }
