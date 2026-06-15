@@ -5,7 +5,7 @@
       "day_th": "16 มิถุนายน 2569",
       "dateKey": "2026-06-16",
       "savedAt": "2026-06-16T00:00:00.000Z",
-      "modifiedAt": "2026-06-15T10:57:47.572Z",
+      "modifiedAt": "2026-06-15T10:52:56.483Z",
       "teams": [
         {
           "id": 1,
@@ -121,24 +121,23 @@
         },
         {
           "id": 10,
-          "jobType": "BOLT",
-          "site": "SCG / DSAM",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "",
-          "depart": "13:00",
-          "arrive": "16:00",
-          "members": "เป้, โอม, คิว",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "",
-          "detail": "นำเครื่องมือออก"
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         }
       ]
     },
     {
       "date": "15/6/2569",
-      "savedAt": "2026-06-15T10:57:47.597Z",
+      "savedAt": "2026-06-15T10:59:33.568Z",
       "dateKey": "2026-06-15",
-      "modifiedAt": "2026-06-15T10:57:47.597Z",
+      "modifiedAt": "2026-06-15T10:59:33.568Z",
       "teams": [
         {
           "id": 1,
@@ -5840,5 +5839,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-15T10:57:47.597Z"
+  "lastUpdated": "2026-06-15T10:59:33.568Z"
 }
