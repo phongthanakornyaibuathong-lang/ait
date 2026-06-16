@@ -5,7 +5,7 @@
       "day_th": "17 มิถุนายน 2569",
       "dateKey": "2026-06-17",
       "savedAt": "2026-06-17T00:00:00.000Z",
-      "modifiedAt": "2026-06-16T03:53:54.816Z",
+      "modifiedAt": "2026-06-16T03:56:02.628Z",
       "teams": [
         {
           "id": 1,
@@ -82,24 +82,24 @@
         },
         {
           "id": 7,
-          "jobType": "TRAINING",
-          "site": "Work shop AITs.",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "-",
-          "depart": "09:00",
-          "arrive": "12:00",
-          "members": "อั๋น, โอม, คิว",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
           "equipment": "",
           "contact": "-"
         },
         {
           "id": 8,
-          "jobType": "TRAINING",
-          "site": "Work shop AITs.",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "",
-          "depart": "08:00",
-          "arrive": "12:00",
-          "members": "เป้, นัฐ, ฟีล์ม, ต้าร์",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
           "equipment": "",
           "contact": "-"
@@ -107,34 +107,34 @@
         {
           "id": 9,
           "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "-",
-          "depart": "13:30",
-          "arrive": "14:00",
-          "members": "กรานต์, นัฐ",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
           "equipment": "",
-          "contact": "ศรัณศักดิ์ LNG2 0656195491"
+          "contact": ""
         },
         {
           "id": 10,
-          "jobType": "BOLT",
-          "site": "SCG / DSAM",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "",
-          "depart": "13:00",
-          "arrive": "16:00",
-          "members": "เป้, โอม, คิว",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": ""
         }
       ]
     },
     {
       "date": "16/6/2569",
-      "savedAt": "2026-06-16T03:53:56.133Z",
+      "savedAt": "2026-06-16T03:56:02.640Z",
       "dateKey": "2026-06-16",
-      "modifiedAt": "2026-06-16T03:53:56.133Z",
+      "modifiedAt": "2026-06-16T03:56:02.640Z",
       "teams": [
         {
           "id": 1,
@@ -5971,5 +5971,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-16T03:53:56.133Z"
+  "lastUpdated": "2026-06-16T03:56:02.640Z"
 }
