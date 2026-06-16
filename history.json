@@ -5,7 +5,7 @@
       "day_th": "17 มิถุนายน 2569",
       "dateKey": "2026-06-17",
       "savedAt": "2026-06-17T00:00:00.000Z",
-      "modifiedAt": "2026-06-16T09:53:48.038Z",
+      "modifiedAt": "2026-06-16T09:55:57.149Z",
       "teams": [
         {
           "id": 1,
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "Job No JB260125",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัฐ, แชมป์, ต้าร์",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270"
+          "jobType": "FLANGE",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260127",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "ฟีล์ม, โอม, โอ๊ด",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF-12",
+          "contact": "ช่างบอย  0819190854"
         },
         {
           "id": 6,
@@ -133,9 +133,9 @@
     },
     {
       "date": "16/6/2569",
-      "savedAt": "2026-06-16T09:53:49.162Z",
+      "savedAt": "2026-06-16T09:55:57.165Z",
       "dateKey": "2026-06-16",
-      "modifiedAt": "2026-06-16T09:53:49.162Z",
+      "modifiedAt": "2026-06-16T09:55:57.165Z",
       "teams": [
         {
           "id": 1,
@@ -5972,5 +5972,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-16T09:53:49.162Z"
+  "lastUpdated": "2026-06-16T09:55:57.165Z"
 }
