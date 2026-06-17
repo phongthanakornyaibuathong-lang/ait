@@ -5,7 +5,7 @@
       "day_th": "18 มิถุนายน 2569",
       "dateKey": "2026-06-18",
       "savedAt": "2026-06-18T00:00:00.000Z",
-      "modifiedAt": "2026-06-17T10:39:57.161Z",
+      "modifiedAt": "2026-06-17T10:40:52.675Z",
       "teams": [
         {
           "id": 1,
@@ -101,7 +101,7 @@
           "depart": "09:00",
           "arrive": "10:00",
           "members": "กรานต์, ฟีล์ม",
-          "vehicle": "",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "K.สุรพล 0878996187",
           "detail": "Demonstration Machine Flange facing 6\" 150#"
@@ -134,9 +134,9 @@
     },
     {
       "date": "17/6/2569",
-      "savedAt": "2026-06-17T10:39:58.228Z",
+      "savedAt": "2026-06-17T10:40:52.686Z",
       "dateKey": "2026-06-17",
-      "modifiedAt": "2026-06-17T10:39:58.228Z",
+      "modifiedAt": "2026-06-17T10:40:52.686Z",
       "teams": [
         {
           "id": 1,
@@ -6104,5 +6104,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-17T10:39:58.228Z"
+  "lastUpdated": "2026-06-17T10:40:52.686Z"
 }
