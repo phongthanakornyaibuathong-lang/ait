@@ -5,7 +5,7 @@
       "day_th": "19 มิถุนายน 2569",
       "dateKey": "2026-06-19",
       "savedAt": "2026-06-19T00:00:00.000Z",
-      "modifiedAt": "2026-06-18T10:08:24.589Z",
+      "modifiedAt": "2026-06-18T10:17:15.208Z",
       "teams": [
         {
           "id": 1,
@@ -60,14 +60,15 @@
         {
           "id": 5,
           "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "Job No JB260136",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260135",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "แชมป์, อองรี, คิว",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง เอกราช (เดี๋ยว) 085-9351270"
+          "members": "แชมป์, โอม, คิว",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque tool",
+          "contact": "ช่างกอล์ฟ 084-3521060",
+          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  5 วัน"
         },
         {
           "id": 6,
@@ -76,10 +77,11 @@
           "jobNo": "Job No JB260135",
           "depart": "08:30",
           "arrive": "09:00",
-          "members": "นัฐ, ป๋อ, โอม",
+          "members": "นัฐ, ป๋อ, อองรี",
           "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างกอล์ฟ 084-3521060"
+          "equipment": "Hydraulic torque tool",
+          "contact": "ช่างกอล์ฟ 084-3521060",
+          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  5 วัน"
         },
         {
           "id": 7,
@@ -133,9 +135,9 @@
     },
     {
       "date": "18/6/2569",
-      "savedAt": "2026-06-18T10:08:25.873Z",
+      "savedAt": "2026-06-18T10:17:18.663Z",
       "dateKey": "2026-06-18",
-      "modifiedAt": "2026-06-18T10:08:25.873Z",
+      "modifiedAt": "2026-06-18T10:17:18.663Z",
       "teams": [
         {
           "id": 1,
@@ -6234,5 +6236,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-18T10:08:25.873Z"
+  "lastUpdated": "2026-06-18T10:17:18.663Z"
 }
