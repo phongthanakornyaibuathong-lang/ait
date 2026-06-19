@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- build:2026-06-14 05:12:23 fix-banner-dedup -->
+<!-- build:2026-06-19 11:33:06 settings-del-person -->
 <html lang="th" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1753,11 +1753,13 @@ function renderSettings(){
   document.getElementById("person-list").innerHTML=cfg.personnel.map((p,i)=>`
     <div class="item-row">
       <div style="width:28px;height:28px;border-radius:50%;background:${p.color||"#636366"};display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${(p.nick||p.id).slice(0,2)}</div>
-      <div style="flex:1;min-width:0"><div style="font-size:13px;color:var(--text)">${p.nick||p.id}</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:13px;font-weight:600;color:var(--text1)">${p.nick||p.id}</div>
+        <div style="font-size:11px;color:var(--text3)">${p.name||""}</div>
         ${isAdmin?`<select class="fsel" style="font-size:11px;padding:3px 8px;margin-top:3px;width:auto;display:inline-block" onchange="updatePersonPos('${p.id}',this.value)"><${posOpts(p.pos)}/select>`:`<div style="font-size:11px;color:var(--text3)">${p.pos||""}</div>`}
       </div>
-      <button class="nbtn" style="font-size:11px;padding:4px 9px" onclick="openPD('${p.id}')">Skills / Cards</button>
-      ${isAdmin?`<button class="del-btn" onclick="delItem('person',${i})">×</button>`:""}
+      <button class="nbtn" style="font-size:11px;padding:4px 9px" onclick="openPD('${p.id}')">✏️ แก้ไข</button>
+      <button class="del-btn" onclick="delPerson(${i})" ${isAdmin?"":"disabled style=\"opacity:.3;cursor:not-allowed\""} title="${isAdmin?"ลบพนักงาน":"ต้องล็อกอิน Admin ก่อน"}">🗑</button>
     </div>`).join("");
   document.getElementById("vehicle-list").innerHTML=mkList(cfg.vehicles,"vehicle",false);
   document.getElementById("equip-list").innerHTML=mkList(cfg.equipment,"equipment",false);
@@ -1772,10 +1774,26 @@ function renderSettings(){
   const rr=document.getElementById("restore-row");if(rr)rr.style.display=isAdmin?"flex":"none";
   updateBackupStatus();
 }
+function delPerson(idx){
+  if(!isAdmin){toast("ต้องล็อกอิน Admin ก่อน","warn");return;}
+  const p=cfg.personnel[idx];if(!p)return;
+  const nick=p.nick||p.id;
+  // ตรวจว่าคนนี้อยู่ในทีมวันนี้หรือไม่
+  const inTeam=teams.some(t=>(t.members||"").split(",").map(x=>x.trim()).includes(nick));
+  const warn=inTeam?`\n⚠️ "${nick}" กำลังอยู่ในทีมวันนี้!`:"";
+  if(!confirm(`ลบพนักงาน "${nick}" (${p.name||""}) ออกจากระบบ?${warn}\n\nการลบจะไม่สามารถกู้คืนได้`))return;
+  cfg.personnel.splice(idx,1);
+  dirty=true;document.getElementById("sf").classList.add("show");
+  renderSettings();renderManpower();renderAll();
+  toast(`🗑 ลบ "${nick}" แล้ว — กด Save & Sync ☁`,"warn");
+}
 function delItem(type,idx){
-  if(!isAdmin)return;if(!confirm("ลบรายการนี้?"))return;
+  if(!isAdmin)return;
+  if(type==="person"){delPerson(idx);return;}
+  const labels={"jobtype":"ประเภทงาน","vehicle":"รถ","equipment":"เครื่องมือ","site":"Site","skill":"Skill"};
+  const label=labels[type]||"รายการ";
+  if(!confirm(`ลบ${label}นี้?`))return;
   if(type==="jobtype")cfg.jobTypes.splice(idx,1);
-  else if(type==="person")cfg.personnel.splice(idx,1);
   else if(type==="vehicle")cfg.vehicles.splice(idx,1);
   else if(type==="equipment")cfg.equipment.splice(idx,1);
   else if(type==="site")cfg.sites.splice(idx,1);
