@@ -1,139 +1,10 @@
 {
   "history": [
     {
-      "date": "20 มิถุนายน 2569",
-      "day_th": "20 มิถุนายน 2569",
-      "dateKey": "2026-06-20",
-      "savedAt": "2026-06-20T00:00:00.000Z",
-      "modifiedAt": "2026-06-19T03:04:02.324Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260128",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "บิ๊ก, บีม, ไอซ์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "MM 300 E",
-          "contact": "ช่าง กับตัน 080-0471014"
-        },
-        {
-          "id": 2,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai (Work shop) บ้านฉาง",
-          "jobNo": "JB260134",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "อั๋น, คิง, ไอซ์",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": " TSF 18",
-          "contact": "ช่างสุตนันท์ 0883929010"
-        },
-        {
-          "id": 3,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "Job No JB260129",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย, โอ๊ด",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
-        },
-        {
-          "id": 4,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260130",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย, ทาม, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โด่ง  094-7467526"
-        },
-        {
-          "id": 5,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260135",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "แชมป์, โอม, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque tool",
-          "contact": "ช่างกอล์ฟ 084-3521060"
-        },
-        {
-          "id": 6,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260135",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัฐ, ป๋อ, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque tool",
-          "contact": "ช่างกอล์ฟ 084-3521060"
-        },
-        {
-          "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 9,
-          "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
-    },
-    {
       "date": "19/6/2569",
-      "savedAt": "2026-06-19T03:04:04.625Z",
+      "savedAt": "2026-06-19T03:05:44.778Z",
       "dateKey": "2026-06-19",
-      "modifiedAt": "2026-06-19T03:04:04.625Z",
+      "modifiedAt": "2026-06-19T03:05:44.778Z",
       "teams": [
         {
           "id": 1,
@@ -6360,5 +6231,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-19T03:04:04.625Z"
+  "lastUpdated": "2026-06-19T03:05:44.778Z"
 }
