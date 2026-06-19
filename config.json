@@ -667,7 +667,7 @@
       "nick": "ไอซ์",
       "phone": "094-4177620",
       "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
+      "color": "#32d2d8",
       "skills": [],
       "safetyCards": {}
     },
@@ -712,6 +712,21 @@
       }
     },
     {
+      "id": "พิเชษฐ์",
+      "name": "นาย พิเชษฐ์  สุขสำราญ",
+      "nick": "พิเชษฐ์",
+      "phone": "",
+      "pos": "ผู้รับเหมา",
+      "color": "#32D2D8",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        }
+      }
+    },
+    {
       "id": "สัญชัย",
       "name": "นาย สัญชัย  ชูเชิด",
       "nick": "สัญชัย",
@@ -731,17 +746,7 @@
       "nick": "ปลาย",
       "name": "นาย ฐิติพงศ์  เสนามาตย์",
       "pos": "Technician",
-      "phone": "0628258729",
-      "color": "#32d2d8",
-      "skills": [],
-      "safetyCards": {}
-    },
-    {
-      "id": "ปลาย",
-      "nick": "ปลาย",
-      "name": "นาย ฐิติพงศ์  เสนามาตย์",
-      "pos": "Technician",
-      "phone": "",
+      "phone": "0629965914",
       "color": "#32d2d8",
       "skills": [],
       "safetyCards": {}
