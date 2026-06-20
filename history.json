@@ -5,33 +5,31 @@
       "day_th": "21 มิถุนายน 2569",
       "dateKey": "2026-06-21",
       "savedAt": "2026-06-21T00:00:00.000Z",
-      "modifiedAt": "2026-06-20T10:16:36.855Z",
+      "modifiedAt": "2026-06-20T09:36:03.107Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260135",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "แชมป์, โอม, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างกอล์ฟ 084-3521060",
-          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 2,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "JB260135",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "JB260134",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "นัฐ, ป๋อ, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างกอล์ฟ 084-3521060",
-          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
+          "members": "อั๋น, คิง, ต้าร์",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": " TSF 18",
+          "contact": "ช่างสุตนันท์ 0883929010"
         },
         {
           "id": 3,
@@ -59,27 +57,27 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260135",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "แชมป์, โอม, คิว",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque tool",
+          "contact": "ช่างกอล์ฟ 084-3521060"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260135",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัฐ, ป๋อ, อองรี",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque tool",
-          "contact": ""
+          "contact": "ช่างกอล์ฟ 084-3521060"
         },
         {
           "id": 7,
@@ -133,9 +131,9 @@
     },
     {
       "date": "20/6/2569",
-      "savedAt": "2026-06-20T10:16:43.573Z",
+      "savedAt": "2026-06-20T10:18:20.269Z",
       "dateKey": "2026-06-20",
-      "modifiedAt": "2026-06-20T10:16:43.573Z",
+      "modifiedAt": "2026-06-20T10:18:20.269Z",
       "teams": [
         {
           "id": 1,
@@ -6490,5 +6488,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-20T10:16:43.573Z"
+  "lastUpdated": "2026-06-20T10:18:20.269Z"
 }
