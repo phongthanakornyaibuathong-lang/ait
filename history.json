@@ -5,7 +5,7 @@
       "day_th": "22 มิถุนายน 2569",
       "dateKey": "2026-06-22",
       "savedAt": "2026-06-22T00:00:00.000Z",
-      "modifiedAt": "2026-06-21T09:59:25.016Z",
+      "modifiedAt": "2026-06-21T10:01:19.895Z",
       "teams": [
         {
           "id": 1,
@@ -46,15 +46,16 @@
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260134",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, คิง, ไอซ์",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 18",
+          "contact": "ช่างสุตนันท์ 088-3929010",
+          "detail": "Cutting Pipe 20\" ,14\",12\",24\""
         },
         {
           "id": 5,
@@ -132,9 +133,9 @@
     },
     {
       "date": "21/6/2569",
-      "savedAt": "2026-06-21T09:59:28.131Z",
+      "savedAt": "2026-06-21T10:01:19.914Z",
       "dateKey": "2026-06-21",
-      "modifiedAt": "2026-06-21T09:59:28.131Z",
+      "modifiedAt": "2026-06-21T10:01:19.914Z",
       "teams": [
         {
           "id": 1,
@@ -6620,5 +6621,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-21T09:59:28.131Z"
+  "lastUpdated": "2026-06-21T10:01:19.914Z"
 }
