@@ -2,54 +2,6 @@
   "teams": [
     {
       "id": 1,
-      "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260128",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "บิ๊ก, บีม, ไอซ์",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "MM 300 E",
-      "contact": "ช่าง กับตัน 080-0471014"
-    },
-    {
-      "id": 2,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai (Work shop) บ้านฉาง",
-      "jobNo": "JB260134",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "อั๋น, คิง, ต้าร์",
-      "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-      "equipment": " TSF 18",
-      "contact": "ช่างสุตนันท์ 0883929010"
-    },
-    {
-      "id": 3,
-      "jobType": "FLANGE",
-      "site": "SCC Work Shop ศรีราชา",
-      "jobNo": "Job No JB260129",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย, โอ๊ด",
-      "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "TOFF-12",
-      "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
-    },
-    {
-      "id": 4,
-      "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "JB260130",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, ทาม, เฟิร์ส",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TTFF-40",
-      "contact": "ช่าง โด่ง  094-7467526"
-    },
-    {
-      "id": 5,
       "jobType": "BOLT",
       "site": "PTTLNG",
       "jobNo": "Job No JB260135",
@@ -57,20 +9,71 @@
       "arrive": "08:00",
       "members": "แชมป์, โอม, คิว",
       "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "Hydraulic torque tool",
-      "contact": "ช่างกอล์ฟ 084-3521060"
+      "equipment": "Hydraulic torque",
+      "contact": "ช่างกอล์ฟ 084-3521060",
+      "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
     },
     {
-      "id": 6,
+      "id": 2,
       "jobType": "BOLT",
       "site": "PTTLNG",
-      "jobNo": "Job No JB260135",
+      "jobNo": "JB260135",
       "depart": "07:00",
       "arrive": "08:00",
       "members": "นัฐ, ป๋อ, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่างกอล์ฟ 084-3521060",
+      "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
+    },
+    {
+      "id": 3,
+      "jobType": "FLANGE",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No JB260137",
+      "depart": "17:00",
+      "arrive": "18:30",
+      "members": "บิ๊ก, บีม, ไอซ์",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "เดินทางไปนอนที่ ศรีราชา 17:00 น."
+    },
+    {
+      "id": 4,
+      "jobType": "FLANGE",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
+    },
+    {
+      "id": 5,
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
+    },
+    {
+      "id": 6,
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque tool",
-      "contact": "ช่างกอล์ฟ 084-3521060"
+      "contact": ""
     },
     {
       "id": 7,
@@ -121,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-06-20T10:28:25.498Z",
+  "lastUpdated": "2026-06-21T09:54:44.440Z",
   "updatedBy": "Nine",
-  "date": "20/6/2569"
+  "date": "21/6/2569"
 }
