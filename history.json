@@ -5,7 +5,7 @@
       "day_th": "23 มิถุนายน 2569",
       "dateKey": "2026-06-23",
       "savedAt": "2026-06-23T00:00:00.000Z",
-      "modifiedAt": "2026-06-22T08:51:35.151Z",
+      "modifiedAt": "2026-06-22T09:05:51.794Z",
       "teams": [
         {
           "id": 1,
@@ -58,14 +58,14 @@
         {
           "id": 5,
           "jobType": "FLANGE",
-          "site": "Shino thai แหลมฉบัง (ํYard 32ไร่)",
-          "jobNo": "-",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260109,JB260110",
           "depart": "06:00",
-          "arrive": "07:30",
+          "arrive": "07:00",
           "members": "ทัช, เอิร์ก",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "เครื่องมือวัดงาน Flange face RTJ",
-          "contact": "กิ๊ฟ",
+          "contact": "QC ฟ้า 0640424429 ",
           "detail": "ตรวจ flange ส่งงาน ลูกค้า wood"
         },
         {
@@ -132,9 +132,9 @@
     },
     {
       "date": "22/6/2569",
-      "savedAt": "2026-06-22T08:51:36.649Z",
+      "savedAt": "2026-06-22T09:05:53.139Z",
       "dateKey": "2026-06-22",
-      "modifiedAt": "2026-06-22T08:51:36.649Z",
+      "modifiedAt": "2026-06-22T09:05:53.139Z",
       "teams": [
         {
           "id": 1,
@@ -6750,5 +6750,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-22T08:51:36.649Z"
+  "lastUpdated": "2026-06-22T09:05:53.139Z"
 }
