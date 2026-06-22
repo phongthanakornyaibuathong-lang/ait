@@ -5,7 +5,7 @@
       "day_th": "23 มิถุนายน 2569",
       "dateKey": "2026-06-23",
       "savedAt": "2026-06-23T00:00:00.000Z",
-      "modifiedAt": "2026-06-22T10:01:05.073Z",
+      "modifiedAt": "2026-06-22T10:01:49.430Z",
       "teams": [
         {
           "id": 1,
@@ -18,7 +18,7 @@
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
           "contact": "ช่างบอย  0819190854",
-          "detail": "Torque bolt Stud 1\" AF 41 mm.\n"
+          "detail": "Torque bolt Stud 1\" AF 41 mm.\ntrouqe ใน SCG ACRU\n"
         },
         {
           "id": 2,
@@ -133,9 +133,9 @@
     },
     {
       "date": "22/6/2569",
-      "savedAt": "2026-06-22T10:01:06.258Z",
+      "savedAt": "2026-06-22T10:01:49.445Z",
       "dateKey": "2026-06-22",
-      "modifiedAt": "2026-06-22T10:01:06.258Z",
+      "modifiedAt": "2026-06-22T10:01:49.445Z",
       "teams": [
         {
           "id": 1,
@@ -6751,5 +6751,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-22T10:01:06.258Z"
+  "lastUpdated": "2026-06-22T10:01:49.445Z"
 }
