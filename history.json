@@ -5,19 +5,20 @@
       "day_th": "23 มิถุนายน 2569",
       "dateKey": "2026-06-23",
       "savedAt": "2026-06-23T00:00:00.000Z",
-      "modifiedAt": "2026-06-22T09:12:17.591Z",
+      "modifiedAt": "2026-06-22T10:01:05.073Z",
       "teams": [
         {
           "id": 1,
           "jobType": "BOLT",
-          "site": "CUEL งาน Torque Unit 3",
-          "jobNo": "Job No JB260098",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260137",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "แชมป์, ป๋อ, คิว",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "arrive": "07:00",
+          "members": "เป้, โอม, อองรี",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
-          "contact": "ปิยพงษ์    099-4419388"
+          "contact": "ช่างบอย  0819190854",
+          "detail": "Torque bolt Stud 1\" AF 41 mm.\n"
         },
         {
           "id": 2,
@@ -132,9 +133,9 @@
     },
     {
       "date": "22/6/2569",
-      "savedAt": "2026-06-22T09:12:17.609Z",
+      "savedAt": "2026-06-22T10:01:05.091Z",
       "dateKey": "2026-06-22",
-      "modifiedAt": "2026-06-22T09:12:17.609Z",
+      "modifiedAt": "2026-06-22T10:01:05.091Z",
       "teams": [
         {
           "id": 1,
@@ -6750,5 +6751,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-22T09:12:17.609Z"
+  "lastUpdated": "2026-06-22T10:01:05.091Z"
 }
