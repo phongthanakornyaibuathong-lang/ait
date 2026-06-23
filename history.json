@@ -5,7 +5,7 @@
       "day_th": "24 มิถุนายน 2569",
       "dateKey": "2026-06-24",
       "savedAt": "2026-06-24T00:00:00.000Z",
-      "modifiedAt": "2026-06-23T10:31:36.521Z",
+      "modifiedAt": "2026-06-23T10:33:54.454Z",
       "teams": [
         {
           "id": 1,
@@ -34,15 +34,15 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260130",
-          "depart": "09:00",
-          "arrive": "17:00",
-          "members": "บอย, ทาม, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โด่ง  094-7467526 "
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260134",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, คิง, ต้าร์",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 24",
+          "contact": "ช่างสุตนันท์ 088-3929010"
         },
         {
           "id": 4,
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260109,JB260110",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "ทัช, เอิร์ก",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องมือวัดงาน Flange face RTJ",
-          "contact": "QC ฟ้า 0640424429 "
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 6,
@@ -132,9 +132,9 @@
     },
     {
       "date": "23/6/2569",
-      "savedAt": "2026-06-23T10:31:38.200Z",
+      "savedAt": "2026-06-23T10:33:55.421Z",
       "dateKey": "2026-06-23",
-      "modifiedAt": "2026-06-23T10:31:38.200Z",
+      "modifiedAt": "2026-06-23T10:33:55.421Z",
       "teams": [
         {
           "id": 1,
@@ -6881,5 +6881,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-23T10:31:38.200Z"
+  "lastUpdated": "2026-06-23T10:33:55.421Z"
 }
