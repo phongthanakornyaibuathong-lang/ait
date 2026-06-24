@@ -5,7 +5,7 @@
       "day_th": "25 มิถุนายน 2569",
       "dateKey": "2026-06-25",
       "savedAt": "2026-06-25T00:00:00.000Z",
-      "modifiedAt": "2026-06-24T08:58:37.460Z",
+      "modifiedAt": "2026-06-24T09:04:32.261Z",
       "teams": [
         {
           "id": 1,
@@ -98,15 +98,16 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260139",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, โอม, ป๋อ",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe 16\" THK 56 mm. SS316 L"
         },
         {
           "id": 9,
@@ -136,9 +137,9 @@
     },
     {
       "date": "24/6/2569",
-      "savedAt": "2026-06-24T08:58:43.401Z",
+      "savedAt": "2026-06-24T09:04:32.278Z",
       "dateKey": "2026-06-24",
-      "modifiedAt": "2026-06-24T08:58:43.401Z",
+      "modifiedAt": "2026-06-24T09:04:32.278Z",
       "teams": [
         {
           "id": 1,
@@ -7014,5 +7015,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-24T08:58:43.401Z"
+  "lastUpdated": "2026-06-24T09:04:32.278Z"
 }
