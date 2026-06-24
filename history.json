@@ -5,7 +5,7 @@
       "day_th": "25 มิถุนายน 2569",
       "dateKey": "2026-06-25",
       "savedAt": "2026-06-25T00:00:00.000Z",
-      "modifiedAt": "2026-06-24T08:48:00.408Z",
+      "modifiedAt": "2026-06-24T08:51:51.822Z",
       "teams": [
         {
           "id": 1,
@@ -73,14 +73,15 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque tool",
-          "contact": ""
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Site survey",
+          "depart": "13:00",
+          "arrive": "14:00",
+          "members": "นัฐ, แชมป์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "เครื่องมือวัดงาน",
+          "contact": "ช่าง น้อง ประสิทธิ์ชัย 084-570-7207",
+          "detail": "Site survey Bolt torque Clamp connector Stud 2-1/2\""
         },
         {
           "id": 7,
@@ -134,9 +135,9 @@
     },
     {
       "date": "24/6/2569",
-      "savedAt": "2026-06-24T08:48:00.421Z",
+      "savedAt": "2026-06-24T08:51:51.837Z",
       "dateKey": "2026-06-24",
-      "modifiedAt": "2026-06-24T08:48:00.421Z",
+      "modifiedAt": "2026-06-24T08:51:51.837Z",
       "teams": [
         {
           "id": 1,
@@ -7012,5 +7013,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-24T08:48:00.421Z"
+  "lastUpdated": "2026-06-24T08:51:51.837Z"
 }
