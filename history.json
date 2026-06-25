@@ -1,139 +1,10 @@
 {
   "history": [
     {
-      "date": "26 มิถุนายน 2569",
-      "day_th": "26 มิถุนายน 2569",
-      "dateKey": "2026-06-26",
-      "savedAt": "2026-06-26T00:00:00.000Z",
-      "modifiedAt": "2026-06-25T06:30:29.256Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "TRAINING",
-          "site": "Kuraray GC / Work shop AITs",
-          "jobNo": "- ",
-          "depart": "08:00",
-          "arrive": "12:00",
-          "members": "บิ๊ก, คิง, โอ๊ด, บีม, เอิร์ก, ไอซ์, เฟิร์ส, ทาม, กรานต์, ทัช",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "น้อง พลอย"
-        },
-        {
-          "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260138",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
-        },
-        {
-          "id": 3,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai (Work shop) บ้านฉาง",
-          "jobNo": "Job No JB260134",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "อั๋น, ฟีล์ม, ต้าร์",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "TSF 24",
-          "contact": "ช่างสุตนันท์ 088-3929010"
-        },
-        {
-          "id": 4,
-          "jobType": "TRAINING",
-          "site": "PTT LNG /Workshop AITs",
-          "jobNo": "-",
-          "depart": "09:00",
-          "arrive": "12:00",
-          "members": "ทาม, เอิร์ก",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "น้องพลอย"
-        },
-        {
-          "id": 5,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No JB260137",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "เป้, คิว, อองรี",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "MM 300 E / MM 305 I ",
-          "contact": "ช่าง กับตัน 080-0471014"
-        },
-        {
-          "id": 6,
-          "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Site survey",
-          "depart": "13:00",
-          "arrive": "14:00",
-          "members": "นัฐ, แชมป์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องมือวัดงาน",
-          "contact": "ช่าง น้อง ประสิทธิ์ชัย 084-570-7207"
-        },
-        {
-          "id": 7,
-          "jobType": "COLD_CUT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Site survey",
-          "depart": "13:00",
-          "arrive": "14:00",
-          "members": "ทาม, คิง",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องมือวัดงาน",
-          "contact": " ช่าง ตาม กษิดิ์เดช 099-0129797"
-        },
-        {
-          "id": 8,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260139",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "บอย, ฟีล์ม, ไอซ์",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
-        },
-        {
-          "id": 9,
-          "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
-    },
-    {
       "date": "25/6/2569",
-      "savedAt": "2026-06-25T06:30:29.258Z",
+      "savedAt": "2026-06-25T06:31:27.973Z",
       "dateKey": "2026-06-25",
-      "modifiedAt": "2026-06-25T06:30:29.258Z",
+      "modifiedAt": "2026-06-25T06:31:27.973Z",
       "teams": [
         {
           "id": 1,
@@ -7144,5 +7015,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-25T06:30:29.258Z"
+  "lastUpdated": "2026-06-25T06:31:27.973Z"
 }
