@@ -5,7 +5,7 @@
       "day_th": "26 มิถุนายน 2569",
       "dateKey": "2026-06-26",
       "savedAt": "2026-06-26T00:00:00.000Z",
-      "modifiedAt": "2026-06-25T06:55:25.511Z",
+      "modifiedAt": "2026-06-25T06:57:39.867Z",
       "teams": [
         {
           "id": 1,
@@ -71,15 +71,15 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Site survey",
-          "depart": "13:00",
-          "arrive": "14:00",
-          "members": "นัฐ, แชมป์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องมือวัดงาน",
-          "contact": "ช่าง น้อง ประสิทธิ์ชัย 084-570-7207"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 7,
@@ -135,9 +135,9 @@
     },
     {
       "date": "25/6/2569",
-      "savedAt": "2026-06-25T06:55:26.397Z",
+      "savedAt": "2026-06-25T06:57:39.884Z",
       "dateKey": "2026-06-25",
-      "modifiedAt": "2026-06-25T06:55:26.397Z",
+      "modifiedAt": "2026-06-25T06:57:39.884Z",
       "teams": [
         {
           "id": 1,
@@ -7148,5 +7148,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-25T06:55:26.397Z"
+  "lastUpdated": "2026-06-25T06:57:39.884Z"
 }
