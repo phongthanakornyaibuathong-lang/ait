@@ -2,9 +2,9 @@
   "history": [
     {
       "date": "25/6/2569",
-      "savedAt": "2026-06-25T06:27:19.563Z",
+      "savedAt": "2026-06-25T06:29:36.125Z",
       "dateKey": "2026-06-25",
-      "modifiedAt": "2026-06-25T06:27:19.563Z",
+      "modifiedAt": "2026-06-25T06:29:36.125Z",
       "teams": [
         {
           "id": 1,
@@ -97,15 +97,17 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "JB260139",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 12",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "locname": "CFP",
+          "detail": ""
         },
         {
           "id": 9,
@@ -7013,5 +7015,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-25T06:27:19.563Z"
+  "lastUpdated": "2026-06-25T06:29:36.125Z"
 }
