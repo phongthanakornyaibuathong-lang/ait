@@ -5,7 +5,7 @@
       "day_th": "26 มิถุนายน 2569",
       "dateKey": "2026-06-26",
       "savedAt": "2026-06-26T00:00:00.000Z",
-      "modifiedAt": "2026-06-25T06:51:34.830Z",
+      "modifiedAt": "2026-06-25T06:54:24.630Z",
       "teams": [
         {
           "id": 1,
@@ -84,14 +84,14 @@
         {
           "id": 7,
           "jobType": "COLD_CUT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Site survey",
-          "depart": "13:00",
-          "arrive": "14:00",
-          "members": "ทาม, คิง",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องมือวัดงาน",
-          "contact": " ช่าง ตาม กษิดิ์เดช 099-0129797"
+          "site": "Shino thai แหลมฉบัง (ํYard 32ไร่)",
+          "jobNo": "Job No JB260139",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  (094-7467526)  "
         },
         {
           "id": 8,
@@ -103,7 +103,8 @@
           "members": "บอย, ฟีล์ม, ไอซ์",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe 16\" THK 56 mm. SS316 L"
         },
         {
           "id": 9,
@@ -133,9 +134,9 @@
     },
     {
       "date": "25/6/2569",
-      "savedAt": "2026-06-25T06:51:34.848Z",
+      "savedAt": "2026-06-25T06:54:24.647Z",
       "dateKey": "2026-06-25",
-      "modifiedAt": "2026-06-25T06:51:34.848Z",
+      "modifiedAt": "2026-06-25T06:54:24.647Z",
       "teams": [
         {
           "id": 1,
@@ -7146,5 +7147,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-25T06:51:34.848Z"
+  "lastUpdated": "2026-06-25T06:54:24.647Z"
 }
