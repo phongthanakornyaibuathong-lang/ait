@@ -5,7 +5,7 @@
       "day_th": "27 มิถุนายน 2569",
       "dateKey": "2026-06-27",
       "savedAt": "2026-06-27T00:00:00.000Z",
-      "modifiedAt": "2026-06-26T06:23:20.276Z",
+      "modifiedAt": "2026-06-26T06:24:50.473Z",
       "teams": [
         {
           "id": 1,
@@ -47,14 +47,14 @@
         {
           "id": 4,
           "jobType": "COLD_CUT",
-          "site": "Qtech/TOP",
-          "jobNo": "Site survey",
-          "depart": "07:30",
-          "arrive": "09:00",
-          "members": "กรานต์, คิง",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "เครื่องวัดงาน",
-          "contact": "ช่าง กิตติชัย 084-6557313"
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 5,
@@ -132,9 +132,9 @@
     },
     {
       "date": "26/6/2569",
-      "savedAt": "2026-06-26T06:23:20.292Z",
+      "savedAt": "2026-06-26T06:24:50.489Z",
       "dateKey": "2026-06-26",
-      "modifiedAt": "2026-06-26T06:23:20.292Z",
+      "modifiedAt": "2026-06-26T06:24:50.489Z",
       "teams": [
         {
           "id": 1,
@@ -7278,5 +7278,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-26T06:23:20.292Z"
+  "lastUpdated": "2026-06-26T06:24:50.489Z"
 }
