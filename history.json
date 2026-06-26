@@ -5,7 +5,7 @@
       "day_th": "27 มิถุนายน 2569",
       "dateKey": "2026-06-27",
       "savedAt": "2026-06-27T00:00:00.000Z",
-      "modifiedAt": "2026-06-26T06:26:50.828Z",
+      "modifiedAt": "2026-06-26T10:36:26.412Z",
       "teams": [
         {
           "id": 1,
@@ -46,15 +46,15 @@
         },
         {
           "id": 4,
-          "jobType": "COLD_CUT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260144",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "เป้, คิง, ป๋อ",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง โด่ง  (094-7467526)  "
         },
         {
           "id": 5,
@@ -132,9 +132,9 @@
     },
     {
       "date": "26/6/2569",
-      "savedAt": "2026-06-26T06:26:50.851Z",
+      "savedAt": "2026-06-26T10:36:26.428Z",
       "dateKey": "2026-06-26",
-      "modifiedAt": "2026-06-26T06:26:50.851Z",
+      "modifiedAt": "2026-06-26T10:36:26.428Z",
       "teams": [
         {
           "id": 1,
@@ -7278,5 +7278,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-26T06:26:50.851Z"
+  "lastUpdated": "2026-06-26T10:36:26.428Z"
 }
