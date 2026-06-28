@@ -1,6 +1,135 @@
 {
   "history": [
     {
+      "date": "29 มิถุนายน 2569",
+      "day_th": "29 มิถุนายน 2569",
+      "dateKey": "2026-06-29",
+      "savedAt": "2026-06-29T00:00:00.000Z",
+      "modifiedAt": "2026-06-28T07:15:27.453Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job No JB260143",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทาม, คิว, ไอซ์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260138",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย, โอ๊ด",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260134",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, โอม, ต้าร์",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 24",
+          "contact": "ช่างสุตนันท์ 088-3929010"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260144",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "เป้, คิง, ป๋อ",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TTFF-40",
+          "contact": "ช่าง โด่ง  (094-7467526)  "
+        },
+        {
+          "id": 5,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260137",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บิ๊ก, อองรี, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 6,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260139",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บอย, บีม, เอิร์ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  (094-7467526)  "
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "27 มิถุนายน 2569",
       "day_th": "27 มิถุนายน 2569",
       "dateKey": "2026-06-27",
@@ -7279,5 +7408,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-26T10:43:23.076Z"
+  "lastUpdated": "2026-06-28T07:15:27.472Z"
 }
