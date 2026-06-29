@@ -5,7 +5,7 @@
       "day_th": "30 มิถุนายน 2569",
       "dateKey": "2026-06-30",
       "savedAt": "2026-06-30T00:00:00.000Z",
-      "modifiedAt": "2026-06-29T03:51:45.964Z",
+      "modifiedAt": "2026-06-29T03:57:37.161Z",
       "teams": [
         {
           "id": 1,
@@ -81,15 +81,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "JB260146",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "แชมป์, ป๋อ, โอม",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "",
+          "detail": "1. Toque PIG Receiver Platform WPS25 Bolt Size 65, 55\n2. Torque Pack 5, 22 Platform WPS25 Bolt Size 50, 60"
         },
         {
           "id": 8,
@@ -131,9 +132,9 @@
     },
     {
       "date": "29/6/2569",
-      "savedAt": "2026-06-29T03:51:45.978Z",
+      "savedAt": "2026-06-29T03:57:37.180Z",
       "dateKey": "2026-06-29",
-      "modifiedAt": "2026-06-29T03:51:45.978Z",
+      "modifiedAt": "2026-06-29T03:57:37.180Z",
       "teams": [
         {
           "id": 1,
@@ -7678,5 +7679,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-29T03:51:45.978Z"
+  "lastUpdated": "2026-06-29T03:57:37.180Z"
 }
