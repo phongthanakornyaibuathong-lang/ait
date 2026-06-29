@@ -5,7 +5,7 @@
       "day_th": "30 มิถุนายน 2569",
       "dateKey": "2026-06-30",
       "savedAt": "2026-06-30T00:00:00.000Z",
-      "modifiedAt": "2026-06-29T04:32:00.059Z",
+      "modifiedAt": "2026-06-29T09:07:04.512Z",
       "teams": [
         {
           "id": 1,
@@ -45,12 +45,12 @@
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
+          "jobType": "COLD_CUT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Job No JB260144",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "เป้, ฟีล์ม, เฟิร์ส, ไอซ์",
+          "members": "เป้, ฟีล์ม",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-40",
           "contact": "ช่าง โด่ง  (094-7467526)  "
@@ -62,7 +62,7 @@
           "jobNo": "Job No JB260137",
           "depart": "06:30",
           "arrive": "07:00",
-          "members": "บิ๊ก, บีม, อองรี",
+          "members": "",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "ช่าง กับตัน 080-0471014"
@@ -77,8 +77,7 @@
           "members": "แชมป์, คิง, ป๋อ",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque tool",
-          "contact": "K.นัทตี้ NPC 098-278-4490",
-          "detail": "1. Toque PIG Receiver Platform WPS25 Bolt Size 65, 55\n2. Torque Pack 5, 22 Platform WPS25 Bolt Size 50, 60"
+          "contact": "K.นัทตี้ NPC 098-278-4490"
         },
         {
           "id": 7,
@@ -90,8 +89,7 @@
           "members": "กรานต์, นัฐ",
           "vehicle": "",
           "equipment": "Bolt Tension tool",
-          "contact": "",
-          "detail": "ลูกค้า SRECON 20 คน\nTraining การใช้งานเครื่องมือ Tensioner / เครื่องมือ STECON"
+          "contact": ""
         },
         {
           "id": 8,
@@ -133,9 +131,9 @@
     },
     {
       "date": "29/6/2569",
-      "savedAt": "2026-06-29T04:32:00.991Z",
+      "savedAt": "2026-06-29T09:07:04.531Z",
       "dateKey": "2026-06-29",
-      "modifiedAt": "2026-06-29T04:32:00.991Z",
+      "modifiedAt": "2026-06-29T09:07:04.531Z",
       "teams": [
         {
           "id": 1,
@@ -7680,5 +7678,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-29T04:32:00.991Z"
+  "lastUpdated": "2026-06-29T09:07:04.531Z"
 }
