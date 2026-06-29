@@ -5,7 +5,7 @@
       "day_th": "30 มิถุนายน 2569",
       "dateKey": "2026-06-30",
       "savedAt": "2026-06-30T00:00:00.000Z",
-      "modifiedAt": "2026-06-29T04:21:41.496Z",
+      "modifiedAt": "2026-06-29T04:15:31.547Z",
       "teams": [
         {
           "id": 1,
@@ -69,29 +69,28 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No JB260146",
-          "depart": "06:30",
+          "jobType": "STANDBY",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260139",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "แชมป์, คิง, ป๋อ",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque tool",
-          "contact": "K.นัทตี้ NPC 098-278-4490",
-          "detail": "1. Toque PIG Receiver Platform WPS25 Bolt Size 65, 55\n2. Torque Pack 5, 22 Platform WPS25 Bolt Size 50, 60"
+          "members": "บอย, ไอซ์, เฟิร์ส",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  (094-7467526)  "
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
+          "jobType": "BOLT",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "JB260146",
+          "depart": "06:30",
+          "arrive": "08:00",
           "members": "แชมป์, ป๋อ, คิง",
-          "vehicle": "",
-          "equipment": "",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
           "contact": "",
-          "detail": ""
+          "detail": "1. Toque PIG Receiver Platform WPS25 Bolt Size 65, 55\n2. Torque Pack 5, 22 Platform WPS25 Bolt Size 50, 60"
         },
         {
           "id": 8,
@@ -133,9 +132,9 @@
     },
     {
       "date": "29/6/2569",
-      "savedAt": "2026-06-29T04:21:42.587Z",
+      "savedAt": "2026-06-29T04:24:54.621Z",
       "dateKey": "2026-06-29",
-      "modifiedAt": "2026-06-29T04:21:42.587Z",
+      "modifiedAt": "2026-06-29T04:24:54.621Z",
       "teams": [
         {
           "id": 1,
@@ -7680,5 +7679,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-29T04:21:42.587Z"
+  "lastUpdated": "2026-06-29T04:24:54.621Z"
 }
