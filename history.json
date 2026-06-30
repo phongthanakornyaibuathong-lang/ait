@@ -5,7 +5,7 @@
       "day_th": "1 กรกฎาคม 2569",
       "dateKey": "2026-07-01",
       "savedAt": "2026-07-01T00:00:00.000Z",
-      "modifiedAt": "2026-06-30T10:07:54.488Z",
+      "modifiedAt": "2026-06-30T10:14:58.064Z",
       "teams": [
         {
           "id": 1,
@@ -70,15 +70,15 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No JB260146",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "แชมป์, คิง, ป๋อ",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque tool",
-          "contact": "K.นัทตี้ NPC 098-278-4490"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 7,
@@ -132,9 +132,9 @@
     },
     {
       "date": "30/6/2569",
-      "savedAt": "2026-06-30T10:07:55.543Z",
+      "savedAt": "2026-06-30T10:14:58.080Z",
       "dateKey": "2026-06-30",
-      "modifiedAt": "2026-06-30T10:07:55.543Z",
+      "modifiedAt": "2026-06-30T10:14:58.080Z",
       "teams": [
         {
           "id": 1,
@@ -7810,5 +7810,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-30T10:07:55.543Z"
+  "lastUpdated": "2026-06-30T10:14:58.080Z"
 }
