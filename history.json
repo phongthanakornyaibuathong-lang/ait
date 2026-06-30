@@ -5,7 +5,7 @@
       "day_th": "1 กรกฎาคม 2569",
       "dateKey": "2026-07-01",
       "savedAt": "2026-07-01T00:00:00.000Z",
-      "modifiedAt": "2026-06-30T11:18:45.261Z",
+      "modifiedAt": "2026-06-30T11:19:24.004Z",
       "teams": [
         {
           "id": 1,
@@ -90,7 +90,8 @@
           "members": "นัฐ, แชมป์, ป๋อ",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": ""
+          "contact": "",
+          "detail": "Bolt Motor 0C-581A/B/C 3 units Bolt M48 Torque 2650 N-m\nBolt Casing 0P-584A M39 Torque 1381 - 2302 N-m 1 unit"
         },
         {
           "id": 8,
@@ -132,9 +133,9 @@
     },
     {
       "date": "30/6/2569",
-      "savedAt": "2026-06-30T11:18:51.367Z",
+      "savedAt": "2026-06-30T11:19:24.017Z",
       "dateKey": "2026-06-30",
-      "modifiedAt": "2026-06-30T11:18:51.367Z",
+      "modifiedAt": "2026-06-30T11:19:24.017Z",
       "teams": [
         {
           "id": 1,
@@ -7810,5 +7811,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-30T11:18:51.367Z"
+  "lastUpdated": "2026-06-30T11:19:24.017Z"
 }
