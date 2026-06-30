@@ -5,7 +5,7 @@
       "day_th": "1 กรกฎาคม 2569",
       "dateKey": "2026-07-01",
       "savedAt": "2026-07-01T00:00:00.000Z",
-      "modifiedAt": "2026-06-30T11:27:26.162Z",
+      "modifiedAt": "2026-06-30T11:28:10.478Z",
       "teams": [
         {
           "id": 1,
@@ -88,7 +88,7 @@
           "depart": "06:30",
           "arrive": "07:00",
           "members": "นัฐ, แชมป์, ป๋อ",
-          "vehicle": "",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "089-6588651",
           "detail": "Bolt Motor 0C-581A/B/C 3 units Bolt M48 Torque 2650 N-m\nBolt Casing 0P-584A M39 Torque 1381 - 2302 N-m 1 unit"
@@ -133,9 +133,9 @@
     },
     {
       "date": "30/6/2569",
-      "savedAt": "2026-06-30T11:27:27.382Z",
+      "savedAt": "2026-06-30T11:28:10.497Z",
       "dateKey": "2026-06-30",
-      "modifiedAt": "2026-06-30T11:27:27.382Z",
+      "modifiedAt": "2026-06-30T11:28:10.497Z",
       "teams": [
         {
           "id": 1,
@@ -7811,5 +7811,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-30T11:27:27.382Z"
+  "lastUpdated": "2026-06-30T11:28:10.497Z"
 }
