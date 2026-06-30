@@ -1,11 +1,139 @@
 {
   "history": [
     {
-      "date": "30 มิถุนายน 2569",
-      "day_th": "30 มิถุนายน 2569",
+      "date": "1 กรกฎาคม 2569",
+      "day_th": "1 กรกฎาคม 2569",
+      "dateKey": "2026-07-01",
+      "savedAt": "2026-07-01T00:00:00.000Z",
+      "modifiedAt": "2026-06-30T08:33:53.747Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job No JB260143",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทาม, คิว, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260145",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย, โอ๊ด",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260134",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, โอม, ต้าร์",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 6",
+          "contact": "ช่างสุตนันท์ 088-3929010"
+        },
+        {
+          "id": 4,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260139",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "เป้, ฟีล์ม, เฟิร์ส",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  (094-7467526)  "
+        },
+        {
+          "id": 5,
+          "jobType": "FLANGE",
+          "site": "Shino thai  แหลมฉบัง 32 ไร่",
+          "jobNo": "Job No JB260109, JB260114",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทัช, เอิร์ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "เครื่องมืวัด RTJ",
+          "contact": "ช่าง โด่ง  094-7467526  "
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No JB260146",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "แชมป์, คิง, ป๋อ",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque tool",
+          "contact": "K.นัทตี้ NPC 098-278-4490"
+        },
+        {
+          "id": 7,
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง / STECON",
+          "jobNo": "",
+          "depart": "09:00",
+          "arrive": "16:00",
+          "members": "กรานต์, นัฐ",
+          "vehicle": "",
+          "equipment": "Bolt Tension tool",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "BOLT",
+          "site": "SULZER Work Shop",
+          "jobNo": "JB260087",
+          "depart": "09:00",
+          "arrive": "17:00",
+          "members": "บิ๊ก, บีม, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": " คุณ เชิดชาย 081-9331654"
+        },
+        {
+          "id": 9,
+          "jobType": "BOLT",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "date": "30/6/2569",
+      "savedAt": "2026-06-30T08:33:53.759Z",
       "dateKey": "2026-06-30",
-      "savedAt": "2026-06-30T00:00:00.000Z",
-      "modifiedAt": "2026-06-29T09:45:17.500Z",
+      "modifiedAt": "2026-06-30T08:33:53.759Z",
       "teams": [
         {
           "id": 1,
@@ -7681,5 +7809,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-29T09:45:17.513Z"
+  "lastUpdated": "2026-06-30T08:33:53.759Z"
 }
