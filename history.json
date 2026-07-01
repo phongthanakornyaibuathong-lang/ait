@@ -1,11 +1,10 @@
 {
   "history": [
     {
-      "date": "1 กรกฎาคม 2569",
-      "day_th": "1 กรกฎาคม 2569",
+      "date": "1/7/2569",
+      "savedAt": "2026-07-01T05:28:57.722Z",
       "dateKey": "2026-07-01",
-      "savedAt": "2026-07-01T00:00:00.000Z",
-      "modifiedAt": "2026-06-30T11:28:10.478Z",
+      "modifiedAt": "2026-07-01T05:28:57.722Z",
       "teams": [
         {
           "id": 1,
@@ -65,8 +64,7 @@
           "members": "บอย, คิง, กรานต์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TOFF-12 New",
-          "contact": "K.นัทตี้ NPC",
-          "detail": "กลึง Flange 4\" 300#"
+          "contact": "K.นัทตี้ NPC"
         },
         {
           "id": 6,
@@ -90,8 +88,7 @@
           "members": "นัฐ, แชมป์, ป๋อ",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "089-6588651",
-          "detail": "Bolt Motor 0C-581A/B/C 3 units Bolt M48 Torque 2650 N-m\nBolt Casing 0P-584A M39 Torque 1381 - 2302 N-m 1 unit"
+          "contact": "089-6588651"
         },
         {
           "id": 8,
@@ -7811,5 +7808,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-06-30T11:28:11.359Z"
+  "lastUpdated": "2026-07-01T05:28:57.722Z"
 }
