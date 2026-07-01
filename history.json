@@ -5,7 +5,7 @@
       "day_th": "2 กรกฎาคม 2569",
       "dateKey": "2026-07-02",
       "savedAt": "2026-07-02T00:00:00.000Z",
-      "modifiedAt": "2026-07-01T05:51:45.240Z",
+      "modifiedAt": "2026-07-01T05:54:04.113Z",
       "teams": [
         {
           "id": 1,
@@ -71,15 +71,16 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "SULZER Work Shop",
-          "jobNo": "Job No JB260087",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "บิ๊ก, บีม, อองรี",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": " คุณ เชิดชาย 081-9331654"
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260144",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "เป้, ฟีล์ม, โอ๊ด",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TTFF-40",
+          "contact": " ช่าง โด่ง  (094-7467526)",
+          "detail": "Machine flange face 30\""
         },
         {
           "id": 7,
@@ -133,9 +134,9 @@
     },
     {
       "date": "1/7/2569",
-      "savedAt": "2026-07-01T05:51:46.105Z",
+      "savedAt": "2026-07-01T05:54:04.137Z",
       "dateKey": "2026-07-01",
-      "modifiedAt": "2026-07-01T05:51:46.105Z",
+      "modifiedAt": "2026-07-01T05:54:04.137Z",
       "teams": [
         {
           "id": 1,
@@ -7939,5 +7940,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-01T05:51:46.105Z"
+  "lastUpdated": "2026-07-01T05:54:04.137Z"
 }
