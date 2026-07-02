@@ -5,7 +5,7 @@
       "day_th": "3 กรกฎาคม 2569",
       "dateKey": "2026-07-03",
       "savedAt": "2026-07-03T00:00:00.000Z",
-      "modifiedAt": "2026-07-02T09:34:51.843Z",
+      "modifiedAt": "2026-07-02T09:35:37.471Z",
       "teams": [
         {
           "id": 1,
@@ -95,19 +95,19 @@
         },
         {
           "id": 8,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC",
-          "jobNo": "JB260141,142",
-          "depart": "09:00",
-          "arrive": "12:00",
-          "members": "ทัช, เอิร์ก",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
-          "equipment": "เครื่องมือวัดงาน",
+          "equipment": "",
           "contact": ""
         },
         {
           "id": 9,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -133,9 +133,9 @@
     },
     {
       "date": "2/7/2569",
-      "savedAt": "2026-07-02T09:35:01.000Z",
+      "savedAt": "2026-07-02T09:35:37.482Z",
       "dateKey": "2026-07-02",
-      "modifiedAt": "2026-07-02T09:35:01.000Z",
+      "modifiedAt": "2026-07-02T09:35:37.482Z",
       "teams": [
         {
           "id": 1,
@@ -8067,5 +8067,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-02T09:35:01.000Z"
+  "lastUpdated": "2026-07-02T09:35:37.482Z"
 }
