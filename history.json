@@ -5,7 +5,7 @@
       "day_th": "3 กรกฎาคม 2569",
       "dateKey": "2026-07-03",
       "savedAt": "2026-07-03T00:00:00.000Z",
-      "modifiedAt": "2026-07-02T09:24:39.971Z",
+      "modifiedAt": "2026-07-02T09:29:06.920Z",
       "teams": [
         {
           "id": 1,
@@ -50,11 +50,11 @@
           "jobNo": "",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "",
+          "members": "กรานต์, เป้, คิง, ฟีล์ม, เฟิร์ส, โอ๊ด",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque & Mechanic",
           "contact": "",
-          "detail": "Swing Blind HMU unit 51 RDCC"
+          "detail": "Swing Blind HMU unit 51 RDCC \n12IN Class 600\nSize Stud 1-1/4\" x L 9.25\"\nMat Stud B7-2H\n24IN Class150\nSize Stud 1-1/4\" x L 7.5\"\nMat Stud B7-2H\n16IN Class300\nSize Stud 1-1/4”xL 8.0”\nMat Stud B16-4\n12IN Class600\nSize Stud 1-1/4”xL 11.0”\nMat Stud B16-4"
         },
         {
           "id": 5,
@@ -132,9 +132,9 @@
     },
     {
       "date": "2/7/2569",
-      "savedAt": "2026-07-02T09:24:42.283Z",
+      "savedAt": "2026-07-02T09:29:06.935Z",
       "dateKey": "2026-07-02",
-      "modifiedAt": "2026-07-02T09:24:42.283Z",
+      "modifiedAt": "2026-07-02T09:29:06.935Z",
       "teams": [
         {
           "id": 1,
@@ -8066,5 +8066,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-02T09:24:42.283Z"
+  "lastUpdated": "2026-07-02T09:29:06.935Z"
 }
