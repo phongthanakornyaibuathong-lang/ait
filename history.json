@@ -1,6 +1,135 @@
 {
   "history": [
     {
+      "date": "5 กรกฎาคม 2569",
+      "day_th": "5 กรกฎาคม 2569",
+      "dateKey": "2026-07-05",
+      "savedAt": "2026-07-05T00:00:00.000Z",
+      "modifiedAt": "2026-07-03T12:32:45.653Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job No JB260143",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทาม, คิว, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260145",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260134",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, โอม, บอย",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 6",
+          "contact": "ช่างสุตนันท์ 088-3929010"
+        },
+        {
+          "id": 4,
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "JB260153 ",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "เป้, ฟีล์ม, เอิร์ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+        },
+        {
+          "id": 5,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "JB260151",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บิ๊ก, บีม, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 6,
+          "jobType": "FLANGE",
+          "site": "Kuraray GC",
+          "jobNo": "JB260153 ",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "คิง, โอ๊ด, เฟิร์ส",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
+          "jobNo": "JB260149",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "นัฐ, แชมป์, ป๋อ",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "4 กรกฎาคม 2569",
       "day_th": "4 กรกฎาคม 2569",
       "dateKey": "2026-07-04",
@@ -133,9 +262,9 @@
     },
     {
       "date": "3/7/2569",
-      "savedAt": "2026-07-03T11:38:07.689Z",
+      "savedAt": "2026-07-03T12:32:45.683Z",
       "dateKey": "2026-07-03",
-      "modifiedAt": "2026-07-03T11:38:07.689Z",
+      "modifiedAt": "2026-07-03T12:32:45.683Z",
       "teams": [
         {
           "id": 1,
@@ -8197,5 +8326,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-03T11:38:07.689Z"
+  "lastUpdated": "2026-07-03T12:32:45.683Z"
 }
