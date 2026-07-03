@@ -19,7 +19,7 @@
       "jobNo": "JB260145",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย, โอ๊ด",
+      "members": "กาน(นำ), ปลาย",
       "vehicle": "2ฒษ 2857 (แครี่บอย)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
@@ -38,15 +38,16 @@
     },
     {
       "id": 4,
-      "jobType": "STANDBY",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260139",
+      "jobType": "BOLT",
+      "site": "IRPC ระยอง",
+      "jobNo": "",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TSF 18",
-      "contact": "ช่าง โด่ง  (094-7467526)  "
+      "members": "กรานต์, เป้, คิง, ฟีล์ม, เฟิร์ส, โอ๊ด",
+      "vehicle": "กบ 2192 (4 ประตู)",
+      "equipment": "Hydraulic torque & Mechanic",
+      "contact": "",
+      "detail": "Swing Blind HMU unit 51 RDCC \n12IN Class 600 Size Stud 1-1/4\" x L 9.25\" Mat Stud B7-2H\n24IN Class150 Size Stud 1-1/4\" x L 7.5\" Mat Stud B7-2H\n16IN Class300 Size Stud 1-1/4”xL 8.0” Mat Stud B16-4\n12IN Class600 Size Stud 1-1/4”xL 11.0” Mat Stud B16-4"
     },
     {
       "id": 5,
@@ -64,13 +65,14 @@
       "id": 6,
       "jobType": "FLANGE",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260144",
-      "depart": "07:00",
+      "jobNo": "Job No JB260141,142",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, ฟีล์ม, คิง, เฟิร์ส",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "TTFF-40",
-      "contact": " ช่าง โด่ง  (094-7467526)"
+      "members": "ทัช, เอิร์ก",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "เครื่องมือวัด RTJ",
+      "contact": " ช่าง โด่ง  (094-7467526)",
+      "detail": "ตรวจ Flange RTJ  ส่งงาน ลูกค้า STECON / Wood"
     },
     {
       "id": 7,
@@ -86,19 +88,19 @@
     },
     {
       "id": 8,
-      "jobType": "FLANGE",
-      "site": "โรงกลึง MEC",
-      "jobNo": "JB260141,142",
-      "depart": "09:00",
-      "arrive": "12:00",
-      "members": "ทัช, เอิร์ก",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
       "vehicle": "",
-      "equipment": "เครื่องมือวัดงาน",
+      "equipment": "",
       "contact": ""
     },
     {
       "id": 9,
-      "jobType": "BOLT",
+      "jobType": "STANDBY",
       "site": "",
       "jobNo": "",
       "depart": "",
@@ -121,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-02T10:03:39.107Z",
+  "lastUpdated": "2026-07-03T11:27:02.375Z",
   "updatedBy": "Nine",
-  "date": "2/7/2569"
+  "date": "3/7/2569"
 }
