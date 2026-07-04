@@ -262,15 +262,14 @@
       ]
     },
     {
-      "date": "4 กรกฎาคม 2569",
-      "day_th": "4 กรกฎาคม 2569",
+      "date": "4/7/2569",
+      "savedAt": "2026-07-04T02:02:28.443Z",
       "dateKey": "2026-07-04",
-      "savedAt": "2026-07-04T00:00:00.000Z",
-      "modifiedAt": "2026-07-03T11:38:06.574Z",
+      "modifiedAt": "2026-07-04T02:02:28.443Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "FLANGE",
+          "jobType": "STANDBY",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job No JB260143",
           "depart": "07:00",
@@ -314,12 +313,11 @@
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm torque hot bolt"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
+          "jobType": "STANDBY",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
           "jobNo": "JB260151",
           "depart": "07:00",
@@ -339,12 +337,11 @@
           "members": "คิง, โอ๊ด, เฟิร์ส",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm torque hot bolt"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 7,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "SCG / DSAM",
           "jobNo": "JB260149",
           "depart": "06:30",
@@ -8458,5 +8455,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-03T12:42:51.531Z"
+  "lastUpdated": "2026-07-04T02:02:28.443Z"
 }
