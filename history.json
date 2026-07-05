@@ -5,14 +5,14 @@
       "day_th": "6 กรกฎาคม 2569",
       "dateKey": "2026-07-06",
       "savedAt": "2026-07-06T00:00:00.000Z",
-      "modifiedAt": "2026-07-05T11:43:52.158Z",
+      "modifiedAt": "2026-07-05T11:45:09.765Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job No JB260154    Lot.3",
-          "depart": "07:00",
+          "depart": "06:30",
           "arrive": "08:00",
           "members": "ทาม, คิว, ไอซ์",
           "vehicle": "กบ 2192 (4 ประตู)",
@@ -24,7 +24,7 @@
           "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "JB260155  Lot.8",
-          "depart": "07:00",
+          "depart": "06:30",
           "arrive": "08:00",
           "members": "กาน(นำ), ปลาย",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
@@ -48,7 +48,7 @@
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "JB260153 ",
-          "depart": "07:00",
+          "depart": "06:30",
           "arrive": "08:00",
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
@@ -60,7 +60,7 @@
           "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
           "jobNo": "JB260151",
-          "depart": "07:00",
+          "depart": "06:30",
           "arrive": "08:00",
           "members": "บิ๊ก, บีม, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
@@ -133,9 +133,9 @@
     },
     {
       "date": "5/7/2569",
-      "savedAt": "2026-07-05T11:43:53.236Z",
+      "savedAt": "2026-07-05T11:45:10.681Z",
       "dateKey": "2026-07-05",
-      "modifiedAt": "2026-07-05T11:43:53.236Z",
+      "modifiedAt": "2026-07-05T11:45:10.681Z",
       "teams": [
         {
           "id": 1,
@@ -8452,5 +8452,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-05T11:43:53.236Z"
+  "lastUpdated": "2026-07-05T11:45:10.681Z"
 }
