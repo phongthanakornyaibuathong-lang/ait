@@ -5,7 +5,7 @@
       "day_th": "6 กรกฎาคม 2569",
       "dateKey": "2026-07-06",
       "savedAt": "2026-07-06T00:00:00.000Z",
-      "modifiedAt": "2026-07-04T08:03:21.917Z",
+      "modifiedAt": "2026-07-05T11:42:14.491Z",
       "teams": [
         {
           "id": 1,
@@ -38,7 +38,7 @@
           "jobNo": "Job No JB260157",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "อั๋น, โอม, บอย",
+          "members": "อั๋น, บอย",
           "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
           "equipment": "TSF 18",
           "contact": "ช่างสุตนันท์ 088-3929010"
@@ -62,11 +62,10 @@
           "jobNo": "JB260151",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "บิ๊ก, บีม, อองรี",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Confirm torque hot bolt"
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 6,
@@ -75,11 +74,10 @@
           "jobNo": "JB260153 ",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "คิง, โอ๊ด, เฟิร์ส",
+          "members": "คิง, โอ๊ด, โอม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm torque hot bolt"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 7,
@@ -91,8 +89,7 @@
           "members": "นัฐ, แชมป์, ป๋อ",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm torque hot bolt"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 8,
@@ -134,9 +131,9 @@
     },
     {
       "date": "5/7/2569",
-      "savedAt": "2026-07-05T09:44:44.836Z",
+      "savedAt": "2026-07-05T11:42:14.518Z",
       "dateKey": "2026-07-05",
-      "modifiedAt": "2026-07-05T09:44:44.836Z",
+      "modifiedAt": "2026-07-05T11:42:14.518Z",
       "teams": [
         {
           "id": 1,
@@ -8453,5 +8450,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-05T09:44:44.836Z"
+  "lastUpdated": "2026-07-05T11:42:14.518Z"
 }
