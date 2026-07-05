@@ -5,7 +5,7 @@
       "day_th": "6 กรกฎาคม 2569",
       "dateKey": "2026-07-06",
       "savedAt": "2026-07-06T00:00:00.000Z",
-      "modifiedAt": "2026-07-05T09:41:07.884Z",
+      "modifiedAt": "2026-07-05T09:41:39.938Z",
       "teams": [
         {
           "id": 1,
@@ -69,7 +69,7 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "Kuraray GC",
           "jobNo": "JB260153 ",
           "depart": "07:00",
@@ -81,7 +81,7 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "Kuraray GC",
           "jobNo": "JB260153",
           "depart": "07:00",
@@ -131,9 +131,9 @@
     },
     {
       "date": "5/7/2569",
-      "savedAt": "2026-07-05T09:41:17.353Z",
+      "savedAt": "2026-07-05T09:41:39.951Z",
       "dateKey": "2026-07-05",
-      "modifiedAt": "2026-07-05T09:41:17.353Z",
+      "modifiedAt": "2026-07-05T09:41:39.951Z",
       "teams": [
         {
           "id": 1,
@@ -8450,5 +8450,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-05T09:41:17.353Z"
+  "lastUpdated": "2026-07-05T09:41:39.951Z"
 }
