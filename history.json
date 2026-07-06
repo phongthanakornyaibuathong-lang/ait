@@ -5,7 +5,7 @@
       "day_th": "7 กรกฎาคม 2569",
       "dateKey": "2026-07-07",
       "savedAt": "2026-07-07T00:00:00.000Z",
-      "modifiedAt": "2026-07-06T04:58:48.723Z",
+      "modifiedAt": "2026-07-06T10:19:50.339Z",
       "teams": [
         {
           "id": 1,
@@ -93,16 +93,15 @@
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260158",
-          "depart": "09:00",
-          "arrive": "10:00",
-          "members": "ทัช, ป๋อ",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "",
-          "detail": "ตรวจเครื่องมือเพื่อเข้างาน 15-18/7/2026"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -132,9 +131,9 @@
     },
     {
       "date": "6/7/2569",
-      "savedAt": "2026-07-06T04:58:49.825Z",
+      "savedAt": "2026-07-06T10:19:50.353Z",
       "dateKey": "2026-07-06",
-      "modifiedAt": "2026-07-06T04:58:49.825Z",
+      "modifiedAt": "2026-07-06T10:19:50.353Z",
       "teams": [
         {
           "id": 1,
@@ -8579,5 +8578,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-06T04:58:49.825Z"
+  "lastUpdated": "2026-07-06T10:19:50.353Z"
 }
