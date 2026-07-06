@@ -1,11 +1,10 @@
 {
   "history": [
     {
-      "date": "6 กรกฎาคม 2569",
-      "day_th": "6 กรกฎาคม 2569",
+      "date": "6/7/2569",
+      "savedAt": "2026-07-06T04:12:42.194Z",
       "dateKey": "2026-07-06",
-      "savedAt": "2026-07-06T00:00:00.000Z",
-      "modifiedAt": "2026-07-05T11:45:09.765Z",
+      "modifiedAt": "2026-07-06T04:12:42.194Z",
       "teams": [
         {
           "id": 1,
@@ -47,13 +46,13 @@
           "id": 4,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "JB260153 ",
+          "jobNo": "JB260156",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 5,
@@ -77,8 +76,7 @@
           "members": "คิง, โอ๊ด, โอม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm Torque Hot bolt Unit 76"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 7,
@@ -90,8 +88,7 @@
           "members": "นัฐ, แชมป์, ป๋อ",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Confirm Torque Hot bolt Unit 76"
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 8,
@@ -8452,5 +8449,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-05T11:45:19.711Z"
+  "lastUpdated": "2026-07-06T04:12:42.194Z"
 }
