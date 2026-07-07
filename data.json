@@ -27,16 +27,14 @@
     {
       "id": 3,
       "jobType": "COLD_CUT",
-      "site": "SCG / DSAM",
-      "jobNo": "Job No JB260149",
-      "depart": "12:30",
-      "arrive": "13:00",
-      "members": "นัฐ, บอย, อั๋น",
+      "site": "Shino thai (Work shop) บ้านฉาง",
+      "jobNo": "Job No JB260157",
+      "depart": "07:00",
+      "arrive": "08:00",
+      "members": "อั๋น, บอย",
       "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-      "equipment": "Hydraulic torque",
-      "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651",
-      "locname": "",
-      "detail": ""
+      "equipment": "TSF 18",
+      "contact": "ช่างสุตนันท์ 088-3929010"
     },
     {
       "id": 4,
@@ -59,7 +57,7 @@
       "arrive": "08:00",
       "members": "บิ๊ก, บีม, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TOFF-12 New",
+      "equipment": "TTFF-24 (New)",
       "contact": "ช่าง กับตัน 080-0471014"
     },
     {
@@ -69,7 +67,7 @@
       "jobNo": "JB260153 ",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "คิง, โอ๊ด, อองรี",
+      "members": "คิง, โอ๊ด, โอม",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
       "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
@@ -81,12 +79,10 @@
       "jobNo": "JB260153",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "แชมป์, ป๋อ, โอม",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "members": "นัฐ, แชมป์, ป๋อ",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
-      "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
-      "locname": "",
-      "detail": ""
+      "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
     },
     {
       "id": 8,
@@ -125,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-07T08:49:56.888Z",
+  "lastUpdated": "2026-07-07T08:51:32.390Z",
   "updatedBy": "Nine",
   "date": "7/7/2569"
 }
