@@ -5,7 +5,7 @@
       "day_th": "8 กรกฎาคม 2569",
       "dateKey": "2026-07-08",
       "savedAt": "2026-07-08T00:00:00.000Z",
-      "modifiedAt": "2026-07-07T10:32:30.952Z",
+      "modifiedAt": "2026-07-07T12:09:24.460Z",
       "teams": [
         {
           "id": 1,
@@ -33,11 +33,11 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
+          "jobType": "BOLT",
           "site": "SCG / DSAM",
           "jobNo": "Job No JB260149",
-          "depart": "12:30",
-          "arrive": "13:00",
+          "depart": "06:30",
+          "arrive": "07:00",
           "members": "นัฐ, บอย, อั๋น",
           "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
           "equipment": "Hydraulic torque",
@@ -101,8 +101,7 @@
           "members": "กรานต์, ทัช",
           "vehicle": "",
           "equipment": "เครื่องมือวัด RTJ",
-          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  ",
-          "detail": "Site survey RTJ"
+          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
         },
         {
           "id": 9,
@@ -132,9 +131,9 @@
     },
     {
       "date": "7/7/2569",
-      "savedAt": "2026-07-07T10:32:31.853Z",
+      "savedAt": "2026-07-07T12:09:24.503Z",
       "dateKey": "2026-07-07",
-      "modifiedAt": "2026-07-07T10:32:31.853Z",
+      "modifiedAt": "2026-07-07T12:09:24.503Z",
       "teams": [
         {
           "id": 1,
@@ -8707,5 +8706,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-07T10:32:31.853Z"
+  "lastUpdated": "2026-07-07T12:09:24.503Z"
 }
