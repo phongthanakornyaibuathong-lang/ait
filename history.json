@@ -1,11 +1,10 @@
 {
   "history": [
     {
-      "date": "7 กรกฎาคม 2569",
-      "day_th": "7 กรกฎาคม 2569",
+      "date": "7/7/2569",
+      "savedAt": "2026-07-07T08:48:49.135Z",
       "dateKey": "2026-07-07",
-      "savedAt": "2026-07-07T00:00:00.000Z",
-      "modifiedAt": "2026-07-06T10:21:41.014Z",
+      "modifiedAt": "2026-07-07T08:48:49.135Z",
       "teams": [
         {
           "id": 1,
@@ -34,14 +33,16 @@
         {
           "id": 3,
           "jobType": "COLD_CUT",
-          "site": "Shino thai (Work shop) บ้านฉาง",
-          "jobNo": "Job No JB260157",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "อั๋น, บอย, โอม",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260149",
+          "depart": "12:30",
+          "arrive": "13:00",
+          "members": "นัฐ, บอย, อั๋น",
           "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "TSF 12",
-          "contact": "ช่างสุตนันท์ 088-3929010"
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651",
+          "locname": "",
+          "detail": ""
         },
         {
           "id": 4,
@@ -8578,5 +8579,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-06T10:21:41.943Z"
+  "lastUpdated": "2026-07-07T08:48:49.135Z"
 }
