@@ -81,10 +81,12 @@
       "jobNo": "JB260153",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "นัฐ, แชมป์, ป๋อ",
+      "members": "แชมป์, ป๋อ, โอม",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
-      "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+      "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
+      "locname": "",
+      "detail": ""
     },
     {
       "id": 8,
@@ -123,7 +125,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-07T08:48:49.135Z",
+  "lastUpdated": "2026-07-07T08:49:12.160Z",
   "updatedBy": "Nine",
   "date": "7/7/2569"
 }
