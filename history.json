@@ -5,7 +5,7 @@
       "day_th": "9 กรกฎาคม 2569",
       "dateKey": "2026-07-09",
       "savedAt": "2026-07-09T00:00:00.000Z",
-      "modifiedAt": "2026-07-08T11:14:55.667Z",
+      "modifiedAt": "2026-07-08T11:17:41.151Z",
       "teams": [
         {
           "id": 1,
@@ -53,20 +53,21 @@
           "arrive": "08:00",
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
+          "equipment": "TTFF-40",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
+          "jobType": "COLD_CUT",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260151",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บิ๊ก, บีม, เฟิร์ส",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobNo": "Job No JB260160",
+          "depart": "07:00",
+          "arrive": "08:30",
+          "members": "บอย, อั๋น, บีม",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 24",
+          "contact": "ช่าง ตาม กษิดิ์เดช  099-0129797",
+          "detail": "Pipe Size 24 = 36 Joint\nSize 18 = 1 Joint\nSize 20 = 2 Joint\nSize 12 = 1 Joint\nSize 14 = 1 Joint"
         },
         {
           "id": 6,
@@ -132,9 +133,9 @@
     },
     {
       "date": "8/7/2569",
-      "savedAt": "2026-07-08T11:15:01.648Z",
+      "savedAt": "2026-07-08T11:17:41.165Z",
       "dateKey": "2026-07-08",
-      "modifiedAt": "2026-07-08T11:15:01.648Z",
+      "modifiedAt": "2026-07-08T11:17:41.165Z",
       "teams": [
         {
           "id": 1,
@@ -8835,5 +8836,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-08T11:15:01.648Z"
+  "lastUpdated": "2026-07-08T11:17:41.165Z"
 }
