@@ -26,15 +26,15 @@
     },
     {
       "id": 3,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai (Work shop) บ้านฉาง",
-      "jobNo": "Job No JB260157",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "อั๋น, บอย",
+      "jobType": "BOLT",
+      "site": "SCG / DSAM",
+      "jobNo": "Job No JB260149",
+      "depart": "06:30",
+      "arrive": "07:00",
+      "members": "นัฐ, บอย, อั๋น",
       "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-      "equipment": "TSF 18",
-      "contact": "ช่างสุตนันท์ 088-3929010"
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
     },
     {
       "id": 4,
@@ -57,7 +57,7 @@
       "arrive": "08:00",
       "members": "บิ๊ก, บีม, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TTFF-24 (New)",
+      "equipment": "TOFF-12 New",
       "contact": "ช่าง กับตัน 080-0471014"
     },
     {
@@ -67,7 +67,7 @@
       "jobNo": "JB260153 ",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "คิง, โอ๊ด, โอม",
+      "members": "คิง, โอ๊ด, อองรี",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
       "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
@@ -79,22 +79,22 @@
       "jobNo": "JB260153",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "นัฐ, แชมป์, ป๋อ",
+      "members": "แชมป์, ป๋อ, โอม",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
       "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
     },
     {
       "id": 8,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "-",
+      "depart": "10:30",
+      "arrive": "13:00",
+      "members": "กรานต์, ทัช",
       "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "equipment": "เครื่องมือวัด RTJ",
+      "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
     },
     {
       "id": 9,
@@ -121,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-07T12:13:45.992Z",
+  "lastUpdated": "2026-07-08T04:15:08.849Z",
   "updatedBy": "Nine",
-  "date": "7/7/2569"
+  "date": "8/7/2569"
 }
