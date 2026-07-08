@@ -5,7 +5,7 @@
       "day_th": "9 กรกฎาคม 2569",
       "dateKey": "2026-07-09",
       "savedAt": "2026-07-09T00:00:00.000Z",
-      "modifiedAt": "2026-07-08T11:12:14.098Z",
+      "modifiedAt": "2026-07-08T04:15:08.829Z",
       "teams": [
         {
           "id": 1,
@@ -15,7 +15,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ทาม, คิว, ไอซ์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "MM 300 E",
           "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
         },
@@ -35,14 +35,13 @@
           "id": 3,
           "jobType": "BOLT",
           "site": "SCG / DSAM",
-          "jobNo": "Job No JB260161",
+          "jobNo": "Job No JB260149",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ทัช, นัฐ, บิ๊ก",
+          "arrive": "07:00",
+          "members": "นัฐ, บอย, อั๋น",
           "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
-          "detail": "Torque Grayloc size 12 \" ค่า Torque = 3,495 N-m"
+          "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
         },
         {
           "id": 4,
@@ -132,9 +131,9 @@
     },
     {
       "date": "8/7/2569",
-      "savedAt": "2026-07-08T11:12:20.258Z",
+      "savedAt": "2026-07-08T11:12:56.955Z",
       "dateKey": "2026-07-08",
-      "modifiedAt": "2026-07-08T11:12:20.258Z",
+      "modifiedAt": "2026-07-08T11:12:56.955Z",
       "teams": [
         {
           "id": 1,
@@ -8835,5 +8834,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-08T11:12:20.258Z"
+  "lastUpdated": "2026-07-08T11:12:56.955Z"
 }
