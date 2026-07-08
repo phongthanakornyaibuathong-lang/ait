@@ -5,7 +5,7 @@
       "day_th": "9 กรกฎาคม 2569",
       "dateKey": "2026-07-09",
       "savedAt": "2026-07-09T00:00:00.000Z",
-      "modifiedAt": "2026-07-08T11:20:44.433Z",
+      "modifiedAt": "2026-07-08T11:22:53.285Z",
       "teams": [
         {
           "id": 1,
@@ -110,15 +110,16 @@
         },
         {
           "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260158 ",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "รถ, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่างกอล์ฟ 084-3521060",
+          "detail": "ตรวจเครื่องมือ อุปกรณ์\nถั่วแดงไปส่งทีม Kuraray 07:00 น."
         },
         {
           "id": 10,
@@ -136,9 +137,9 @@
     },
     {
       "date": "8/7/2569",
-      "savedAt": "2026-07-08T11:20:45.632Z",
+      "savedAt": "2026-07-08T11:22:53.301Z",
       "dateKey": "2026-07-08",
-      "modifiedAt": "2026-07-08T11:20:45.632Z",
+      "modifiedAt": "2026-07-08T11:22:53.301Z",
       "teams": [
         {
           "id": 1,
@@ -8839,5 +8840,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-08T11:20:45.632Z"
+  "lastUpdated": "2026-07-08T11:22:53.301Z"
 }
