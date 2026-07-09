@@ -130,6 +130,134 @@
       ]
     },
     {
+      "date": "9/7/2569",
+      "savedAt": "2026-07-09T08:18:48.964Z",
+      "dateKey": "2026-07-09",
+      "modifiedAt": "2026-07-09T08:18:48.964Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job No JB260154    Lot.3",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม, คิว, ไอซ์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260155  Lot.8",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "BOLT",
+          "site": "SCG / DSAM",
+          "jobNo": "Job No JB260149",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "นัฐ, บอย, อั๋น",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "JB260156",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "เป้, ฟีล์ม, เอิร์ก",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง โตโต้ 092-3974539 "
+        },
+        {
+          "id": 5,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "JB260151",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "JB260153 ",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "คิง, โอ๊ด, อองรี",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "JB260153",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "แชมป์, ป๋อ, โอม",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+        },
+        {
+          "id": 8,
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "-",
+          "depart": "10:30",
+          "arrive": "13:00",
+          "members": "กรานต์, ทัช",
+          "vehicle": "",
+          "equipment": "เครื่องมือวัด RTJ",
+          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "31 พฤษภาคม 2569",
       "savedAt": "2026-05-31T06:00:00.000Z",
       "teams": [
@@ -3784,5 +3912,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T08:17:52.594Z"
+  "lastUpdated": "2026-07-09T08:18:48.964Z"
 }
