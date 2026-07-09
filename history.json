@@ -5,7 +5,7 @@
       "day_th": "10 กรกฎาคม 2569",
       "dateKey": "2026-07-10",
       "savedAt": "2026-07-10T00:00:00.000Z",
-      "modifiedAt": "2026-07-09T09:48:06.962Z",
+      "modifiedAt": "2026-07-09T09:51:05.490Z",
       "teams": [
         {
           "id": 1,
@@ -53,20 +53,21 @@
           "arrive": "07:30",
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
+          "equipment": "TTFF-40",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260151",
-          "depart": "06:30",
+          "jobType": "TRAINING",
+          "site": "INSEE",
+          "jobNo": "",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "บิ๊ก, บีม, เฟิร์ส",
+          "members": "ทาม",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "equipment": "",
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "บรม กับ อินทรี\n1. คอนไฟ\n2. งานยก 4 ผู้\n3. Mercury awareness \n4. ความปลอดภัยเบื้องต้น ของอินทรี"
         },
         {
           "id": 6,
@@ -132,9 +133,9 @@
     },
     {
       "date": "9/7/2569",
-      "savedAt": "2026-07-09T09:48:07.725Z",
+      "savedAt": "2026-07-09T09:51:05.505Z",
       "dateKey": "2026-07-09",
-      "modifiedAt": "2026-07-09T09:48:07.725Z",
+      "modifiedAt": "2026-07-09T09:51:05.505Z",
       "teams": [
         {
           "id": 1,
@@ -8965,5 +8966,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-09T09:48:07.725Z"
+  "lastUpdated": "2026-07-09T09:51:05.505Z"
 }
