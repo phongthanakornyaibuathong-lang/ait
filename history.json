@@ -5,7 +5,7 @@
       "day_th": "10 กรกฎาคม 2569",
       "dateKey": "2026-07-10",
       "savedAt": "2026-07-10T00:00:00.000Z",
-      "modifiedAt": "2026-07-09T08:25:47.420Z",
+      "modifiedAt": "2026-07-09T08:27:02.326Z",
       "teams": [
         {
           "id": 1,
@@ -48,11 +48,11 @@
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "JB260156",
-          "depart": "06:30",
-          "arrive": "08:00",
+          "depart": "06:00",
+          "arrive": "07:30",
           "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
+          "equipment": "TTFF-40",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
@@ -131,9 +131,9 @@
     },
     {
       "date": "9/7/2569",
-      "savedAt": "2026-07-09T08:25:48.474Z",
+      "savedAt": "2026-07-09T08:27:03.430Z",
       "dateKey": "2026-07-09",
-      "modifiedAt": "2026-07-09T08:25:48.474Z",
+      "modifiedAt": "2026-07-09T08:27:03.430Z",
       "teams": [
         {
           "id": 1,
@@ -3912,5 +3912,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T08:25:48.474Z"
+  "lastUpdated": "2026-07-09T08:27:03.430Z"
 }
