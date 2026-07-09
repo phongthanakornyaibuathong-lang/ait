@@ -5,7 +5,7 @@
       "day_th": "10 กรกฎาคม 2569",
       "dateKey": "2026-07-10",
       "savedAt": "2026-07-10T00:00:00.000Z",
-      "modifiedAt": "2026-07-09T08:43:16.462Z",
+      "modifiedAt": "2026-07-09T08:47:46.905Z",
       "teams": [
         {
           "id": 1,
@@ -38,7 +38,7 @@
           "jobNo": "Job No JB260161",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ทัช, นัฐ, บิ๊ก",
+          "members": "ทัช, นัฐ, ป๋อ",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
+          "jobType": "COLD_CUT",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260151",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บิ๊ก, บีม, เฟิร์ส",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobNo": "JB260160",
+          "depart": "07:30",
+          "arrive": "08:30",
+          "members": "บอย, อั๋น, บีม",
+          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "equipment": "TSF 24",
+          "contact": "ช่าง ตาม กษิดิ์เดช  099-0129797"
         },
         {
           "id": 6,
@@ -76,7 +76,7 @@
           "depart": "07:00",
           "arrive": "08:00",
           "members": "คิง, โอ๊ด, อองรี",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
           "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
@@ -87,22 +87,22 @@
           "jobNo": "JB260153",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "แชมป์, โอม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "แชมป์, โอม, เฟิร์ส",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
           "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 8,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "-",
-          "depart": "10:30",
-          "arrive": "13:00",
-          "members": "กรานต์, ทัช",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
-          "equipment": "เครื่องมือวัด RTJ",
-          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
+          "equipment": "",
+          "contact": " "
         },
         {
           "id": 9,
@@ -132,9 +132,9 @@
     },
     {
       "date": "9/7/2569",
-      "savedAt": "2026-07-09T08:47:17.277Z",
+      "savedAt": "2026-07-09T08:47:46.918Z",
       "dateKey": "2026-07-09",
-      "modifiedAt": "2026-07-09T08:47:17.277Z",
+      "modifiedAt": "2026-07-09T08:47:46.918Z",
       "teams": [
         {
           "id": 1,
@@ -3913,5 +3913,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T08:47:17.277Z"
+  "lastUpdated": "2026-07-09T08:47:46.918Z"
 }
