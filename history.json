@@ -5,7 +5,7 @@
       "day_th": "10 กรกฎาคม 2569",
       "dateKey": "2026-07-10",
       "savedAt": "2026-07-10T00:00:00.000Z",
-      "modifiedAt": "2026-07-09T08:47:15.973Z",
+      "modifiedAt": "2026-07-09T08:43:16.462Z",
       "teams": [
         {
           "id": 1,
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "COLD_CUT",
+          "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260160",
-          "depart": "07:30",
-          "arrive": "08:30",
-          "members": "บอย, อั๋น, บีม",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "TSF 24",
-          "contact": "ช่าง ตาม กษิดิ์เดช  099-0129797"
+          "jobNo": "JB260151",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 6,
@@ -76,7 +76,7 @@
           "depart": "07:00",
           "arrive": "08:00",
           "members": "คิง, โอ๊ด, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
           "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
@@ -87,22 +87,22 @@
           "jobNo": "JB260153",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "แชมป์, โอม, เฟิร์ส",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "members": "แชมป์, โอม",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
           "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "-",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "depart": "10:30",
+          "arrive": "13:00",
+          "members": "กรานต์, ทัช",
           "vehicle": "",
-          "equipment": "",
-          "contact": " "
+          "equipment": "เครื่องมือวัด RTJ",
+          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
         },
         {
           "id": 9,
@@ -132,9 +132,9 @@
     },
     {
       "date": "9/7/2569",
-      "savedAt": "2026-07-09T08:47:15.986Z",
+      "savedAt": "2026-07-09T08:47:17.277Z",
       "dateKey": "2026-07-09",
-      "modifiedAt": "2026-07-09T08:47:15.986Z",
+      "modifiedAt": "2026-07-09T08:47:17.277Z",
       "teams": [
         {
           "id": 1,
@@ -3913,5 +3913,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T08:47:15.986Z"
+  "lastUpdated": "2026-07-09T08:47:17.277Z"
 }
