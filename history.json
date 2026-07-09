@@ -5,7 +5,7 @@
       "day_th": "10 กรกฎาคม 2569",
       "dateKey": "2026-07-10",
       "savedAt": "2026-07-10T00:00:00.000Z",
-      "modifiedAt": "2026-07-09T08:37:45.727Z",
+      "modifiedAt": "2026-07-09T08:43:16.462Z",
       "teams": [
         {
           "id": 1,
@@ -34,14 +34,15 @@
         {
           "id": 3,
           "jobType": "BOLT",
-          "site": "SCG / DSAM",
-          "jobNo": "Job No JB260149",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260161",
           "depart": "06:30",
-          "arrive": "07:00",
-          "members": "นัฐ, บอย, อั๋น",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
+          "arrive": "08:00",
+          "members": "ทัช, นัฐ, บิ๊ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
+          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
+          "detail": "Torque Grayloc size 12 \" ค่า Torque = 3,495 N-m"
         },
         {
           "id": 4,
@@ -131,9 +132,9 @@
     },
     {
       "date": "9/7/2569",
-      "savedAt": "2026-07-09T08:37:46.531Z",
+      "savedAt": "2026-07-09T08:43:17.279Z",
       "dateKey": "2026-07-09",
-      "modifiedAt": "2026-07-09T08:37:46.531Z",
+      "modifiedAt": "2026-07-09T08:43:17.279Z",
       "teams": [
         {
           "id": 1,
@@ -3912,5 +3913,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T08:37:46.531Z"
+  "lastUpdated": "2026-07-09T08:43:17.279Z"
 }
