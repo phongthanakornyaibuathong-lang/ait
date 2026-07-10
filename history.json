@@ -5,7 +5,7 @@
       "day_th": "11 กรกฎาคม 2569",
       "dateKey": "2026-07-11",
       "savedAt": "2026-07-11T00:00:00.000Z",
-      "modifiedAt": "2026-07-10T08:20:32.801Z",
+      "modifiedAt": "2026-07-10T10:16:08.933Z",
       "teams": [
         {
           "id": 1,
@@ -71,27 +71,28 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "JB260153 ",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "คิง, โอ๊ด, อองรี",
+          "jobType": "FLANGE",
+          "site": "โรงกลึง MEC",
+          "jobNo": "JB260140 , 141,142",
+          "depart": "09:00",
+          "arrive": "17:00",
+          "members": "ทัช, ทาม",
           "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+          "equipment": "",
+          "contact": "K.เดชา 081-2931937",
+          "detail": "ตรวจ Flange ส่งลูกค้า STECON ที่โรงกลึง MEC"
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "Kuraray GC",
-          "jobNo": "JB260153",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "แชมป์, โอม, เฟิร์ส",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+          "contact": ""
         },
         {
           "id": 8,
@@ -133,9 +134,9 @@
     },
     {
       "date": "10/7/2569",
-      "savedAt": "2026-07-10T08:20:33.698Z",
+      "savedAt": "2026-07-10T10:16:08.951Z",
       "dateKey": "2026-07-10",
-      "modifiedAt": "2026-07-10T08:20:33.698Z",
+      "modifiedAt": "2026-07-10T10:16:08.951Z",
       "teams": [
         {
           "id": 1,
@@ -9097,5 +9098,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-10T08:20:33.698Z"
+  "lastUpdated": "2026-07-10T10:16:08.951Z"
 }
