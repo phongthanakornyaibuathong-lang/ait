@@ -5,10 +5,10 @@
       "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
       "jobNo": "Job No JB260154    Lot.3",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ทาม, คิว, ไอซ์",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "บิ๊ก, คิว, ไอซ์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "MM 300 E",
       "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
     },
@@ -26,39 +26,41 @@
     },
     {
       "id": 3,
-      "jobType": "BOLT",
-      "site": "SCG / DSAM",
-      "jobNo": "Job No JB260149",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "นัฐ, บอย, อั๋น",
+      "jobType": "COLD_CUT",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No JB260160",
+      "depart": "07:00",
+      "arrive": "08:30",
+      "members": "บอย, อั๋น, บีม",
       "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-      "equipment": "Hydraulic torque",
-      "contact": "ช่าง สรศักดิ์ นาคเตี้ย 0896588651"
+      "equipment": "TSF 24",
+      "contact": " ช่าง ตาม กษิดิ์เดช  099-0129797",
+      "detail": "Size 24 = 36 Joint\nSize 18 = 1 Joint\nSize 20 = 2 Joint\nSize 12 = 1 Joint\nSize 14 = 1 Joint"
     },
     {
       "id": 4,
       "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
       "jobNo": "JB260156",
-      "depart": "06:30",
-      "arrive": "08:00",
+      "depart": "06:00",
+      "arrive": "07:30",
       "members": "เป้, ฟีล์ม, เอิร์ก",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TOFF-12 New",
+      "equipment": "TTFF-40",
       "contact": "ช่าง โตโต้ 092-3974539 "
     },
     {
       "id": 5,
-      "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "JB260151",
-      "depart": "06:30",
+      "jobType": "TRAINING",
+      "site": "INSEE",
+      "jobNo": "",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "บิ๊ก, บีม, เฟิร์ส",
+      "members": "ทาม",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TOFF-12 New",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "equipment": "",
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+      "detail": "บรม กับ อินทรี\n1. คอนไฟ\n2. งานยก 4 ผู้\n3. Mercury awareness \n4. ความปลอดภัยเบื้องต้น ของอินทรี"
     },
     {
       "id": 6,
@@ -68,7 +70,7 @@
       "depart": "07:00",
       "arrive": "08:00",
       "members": "คิง, โอ๊ด, อองรี",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
       "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
     },
@@ -79,22 +81,23 @@
       "jobNo": "JB260153",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "แชมป์, ป๋อ, โอม",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "members": "แชมป์, โอม, เฟิร์ส",
+      "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
       "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
     },
     {
       "id": 8,
-      "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "-",
-      "depart": "10:30",
-      "arrive": "13:00",
-      "members": "กรานต์, ทัช",
+      "jobType": "BOLT",
+      "site": "AITs work shop ระยอง",
+      "jobNo": "JB260119",
+      "depart": "09:00",
+      "arrive": "11:00",
+      "members": "ทัช, ป๋อ",
       "vehicle": "",
-      "equipment": "เครื่องมือวัด RTJ",
-      "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
+      "equipment": "",
+      "contact": "",
+      "detail": "Test Hydraulic hose ส่งลูกค้า ABB"
     },
     {
       "id": 9,
@@ -121,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-09T10:00:26.790Z",
+  "lastUpdated": "2026-07-10T06:34:25.252Z",
   "updatedBy": "Nine",
-  "date": "9/7/2569"
+  "date": "10/7/2569"
 }
