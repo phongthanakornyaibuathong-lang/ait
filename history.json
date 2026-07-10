@@ -5,7 +5,7 @@
       "day_th": "11 กรกฎาคม 2569",
       "dateKey": "2026-07-11",
       "savedAt": "2026-07-11T00:00:00.000Z",
-      "modifiedAt": "2026-07-10T06:34:24.415Z",
+      "modifiedAt": "2026-07-10T06:36:46.679Z",
       "teams": [
         {
           "id": 1,
@@ -33,15 +33,16 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No JB260160",
-          "depart": "07:00",
-          "arrive": "08:30",
-          "members": "บอย, อั๋น, บีม",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260161",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ทาม, บีม",
           "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "TSF 24",
-          "contact": " ช่าง ตาม กษิดิ์เดช  099-0129797"
+          "equipment": "MM 305 I",
+          "contact": "ช่าง โด่ง  094-7467526  ",
+          "detail": "Machine flange facing flange 6\"150# Over Head"
         },
         {
           "id": 4,
@@ -131,9 +132,9 @@
     },
     {
       "date": "10/7/2569",
-      "savedAt": "2026-07-10T06:34:24.431Z",
+      "savedAt": "2026-07-10T06:36:48.541Z",
       "dateKey": "2026-07-10",
-      "modifiedAt": "2026-07-10T06:34:24.431Z",
+      "modifiedAt": "2026-07-10T06:36:48.541Z",
       "teams": [
         {
           "id": 1,
@@ -9095,5 +9096,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-10T06:34:24.431Z"
+  "lastUpdated": "2026-07-10T06:36:48.541Z"
 }
