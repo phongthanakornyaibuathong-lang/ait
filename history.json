@@ -5,7 +5,7 @@
       "day_th": "11 กรกฎาคม 2569",
       "dateKey": "2026-07-11",
       "savedAt": "2026-07-11T00:00:00.000Z",
-      "modifiedAt": "2026-07-10T06:38:58.122Z",
+      "modifiedAt": "2026-07-10T06:39:27.569Z",
       "teams": [
         {
           "id": 1,
@@ -94,12 +94,12 @@
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "AITs work shop ระยอง",
-          "jobNo": "JB260119",
-          "depart": "09:00",
-          "arrive": "11:00",
-          "members": "ทัช, ป๋อ",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
           "equipment": "",
           "contact": ""
@@ -132,9 +132,9 @@
     },
     {
       "date": "10/7/2569",
-      "savedAt": "2026-07-10T06:38:58.932Z",
+      "savedAt": "2026-07-10T06:39:27.587Z",
       "dateKey": "2026-07-10",
-      "modifiedAt": "2026-07-10T06:38:58.932Z",
+      "modifiedAt": "2026-07-10T06:39:27.587Z",
       "teams": [
         {
           "id": 1,
@@ -9096,5 +9096,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-10T06:38:58.932Z"
+  "lastUpdated": "2026-07-10T06:39:27.587Z"
 }
