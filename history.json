@@ -5,18 +5,18 @@
       "day_th": "13 กรกฎาคม 2569",
       "dateKey": "2026-07-13",
       "savedAt": "2026-07-13T00:00:00.000Z",
-      "modifiedAt": "2026-07-12T11:21:45.958Z",
+      "modifiedAt": "2026-07-12T11:39:08.895Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job No JB260154    Lot.3",
+          "jobNo": "Job No JB260166    Lot4",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "บิ๊ก, คิว, เฟิร์ส",
+          "members": "เป้, ฟีล์ม, เอิร์ก",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "MM 300 E",
+          "equipment": "TTFF-40",
           "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
         },
         {
@@ -9227,5 +9227,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-12T11:21:45.970Z"
+  "lastUpdated": "2026-07-12T11:39:08.903Z"
 }
