@@ -5,7 +5,7 @@
       "day_th": "13 กรกฎาคม 2569",
       "dateKey": "2026-07-13",
       "savedAt": "2026-07-13T00:00:00.000Z",
-      "modifiedAt": "2026-07-12T11:18:22.958Z",
+      "modifiedAt": "2026-07-12T11:21:03.198Z",
       "teams": [
         {
           "id": 1,
@@ -33,15 +33,15 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260161",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย, อั๋น, บีม",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "MM 305 I",
-          "contact": "ช่าง โด่ง  094-7467526  "
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 4,
@@ -57,27 +57,27 @@
         },
         {
           "id": 5,
-          "jobType": "BOLT",
-          "site": "Thai Oil ",
-          "jobNo": "Job No JB260163",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "นัฐ, ป๋อ, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.โคจิ Thaioil ทีม C 095-4318959"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC",
-          "jobNo": "JB260140 , 141,142",
-          "depart": "09:00",
-          "arrive": "17:00",
-          "members": "ทัช, ทาม",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "K.เดชา 081-2931937"
+          "contact": ""
         },
         {
           "id": 7,
@@ -9227,5 +9227,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-12T11:18:26.182Z"
+  "lastUpdated": "2026-07-12T11:21:03.207Z"
 }
