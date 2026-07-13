@@ -5,7 +5,7 @@
       "day_th": "14 กรกฎาคม 2569",
       "dateKey": "2026-07-14",
       "savedAt": "2026-07-14T00:00:00.000Z",
-      "modifiedAt": "2026-07-13T06:46:16.378Z",
+      "modifiedAt": "2026-07-13T10:41:08.259Z",
       "teams": [
         {
           "id": 1,
@@ -50,22 +50,23 @@
           "jobNo": "Job No. JB260167 Unit 3 ",
           "depart": "06:30",
           "arrive": "07:30",
-          "members": "นัฐ, ทาม, บีม",
+          "members": "นัฐ, ป๋อ, บีม",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
           "contact": "ติดต่อช่าง ปิยพงษ์ CUEL   0994419388"
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "-",
+          "depart": "08:30",
+          "arrive": "16:00",
+          "members": "ทาม",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "-",
+          "detail": "หลักสูตร ผู้เฝ้าระวังไฟ INSEE\nลงทะเบียนทำแบบทดสอบ 08.30 น. \n⏰เริ่มสอน 09:00-16.00 น."
         },
         {
           "id": 6,
@@ -131,9 +132,9 @@
     },
     {
       "date": "13/7/2569",
-      "savedAt": "2026-07-13T06:46:21.699Z",
+      "savedAt": "2026-07-13T10:41:09.657Z",
       "dateKey": "2026-07-13",
-      "modifiedAt": "2026-07-13T06:46:21.699Z",
+      "modifiedAt": "2026-07-13T10:41:09.657Z",
       "teams": [
         {
           "id": 1,
@@ -9355,5 +9356,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-13T06:46:21.699Z"
+  "lastUpdated": "2026-07-13T10:41:09.657Z"
 }
