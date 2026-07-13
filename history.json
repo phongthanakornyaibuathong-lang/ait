@@ -5,7 +5,7 @@
       "day_th": "14 กรกฎาคม 2569",
       "dateKey": "2026-07-14",
       "savedAt": "2026-07-14T00:00:00.000Z",
-      "modifiedAt": "2026-07-13T12:04:10.287Z",
+      "modifiedAt": "2026-07-13T12:05:29.056Z",
       "teams": [
         {
           "id": 1,
@@ -39,7 +39,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "บิ๊ก, คิว, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
@@ -75,7 +75,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "บอย, แชมป์, อั๋น, โอม",
-          "vehicle": "",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque / Hydraulic Tension",
           "contact": "K.สายชล  082-3536292",
           "detail": "Loose bolt เพื่อ Spade blind\nFlange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange\nFlange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange\nFlange 14\"x300# Stud 1-1/8\" A/F 46 mm.= 2 Flange\nรอที่ลานจอดก่อนถึงประตู 26"
@@ -132,9 +132,9 @@
     },
     {
       "date": "13/7/2569",
-      "savedAt": "2026-07-13T12:04:11.082Z",
+      "savedAt": "2026-07-13T12:05:29.077Z",
       "dateKey": "2026-07-13",
-      "modifiedAt": "2026-07-13T12:04:11.082Z",
+      "modifiedAt": "2026-07-13T12:05:29.077Z",
       "teams": [
         {
           "id": 1,
@@ -9356,5 +9356,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-13T12:04:11.082Z"
+  "lastUpdated": "2026-07-13T12:05:29.077Z"
 }
