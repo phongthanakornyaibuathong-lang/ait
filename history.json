@@ -5,7 +5,7 @@
       "day_th": "15 กรกฎาคม 2569",
       "dateKey": "2026-07-15",
       "savedAt": "2026-07-15T00:00:00.000Z",
-      "modifiedAt": "2026-07-14T10:02:57.132Z",
+      "modifiedAt": "2026-07-14T10:16:51.097Z",
       "teams": [
         {
           "id": 1,
@@ -38,7 +38,7 @@
           "jobNo": "UCS ศรีราชา (Thaioil CFP site)",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "บิ๊ก, คิว, เฟิร์ส",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "ช่าง โตโต้ 092-3974539 "
@@ -78,7 +78,8 @@
           "members": "บอย, แชมป์, อั๋น, โอม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque / Hydraulic Tension",
-          "contact": "K.สายชล  082-3536292"
+          "contact": "K.สายชล  082-3536292",
+          "detail": "\nLoose bolt เพื่อ Spade blind Flange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange Flange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange Flange 14\"x300# Stud 1-1/8\" A/F 46 mm.= 2 Flange รอที่ลานจอดก่อนถึงประตู 26 \nรอยืนยันจากหน้างาน\n"
         },
         {
           "id": 7,
@@ -87,7 +88,7 @@
           "jobNo": "Job No JB260158 ",
           "depart": "07:30",
           "arrive": "08:00",
-          "members": "คิง, อั๋น, ต้าร์",
+          "members": "คิง, คิว, ต้าร์",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
           "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
@@ -132,9 +133,9 @@
     },
     {
       "date": "14/7/2569",
-      "savedAt": "2026-07-14T10:06:01.614Z",
+      "savedAt": "2026-07-14T10:16:51.107Z",
       "dateKey": "2026-07-14",
-      "modifiedAt": "2026-07-14T10:06:01.614Z",
+      "modifiedAt": "2026-07-14T10:16:51.107Z",
       "teams": [
         {
           "id": 1,
@@ -9485,5 +9486,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-14T10:06:01.614Z"
+  "lastUpdated": "2026-07-14T10:16:51.107Z"
 }
