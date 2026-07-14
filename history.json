@@ -5,7 +5,7 @@
       "day_th": "15 กรกฎาคม 2569",
       "dateKey": "2026-07-15",
       "savedAt": "2026-07-15T00:00:00.000Z",
-      "modifiedAt": "2026-07-14T09:57:58.288Z",
+      "modifiedAt": "2026-07-14T10:00:55.126Z",
       "teams": [
         {
           "id": 1,
@@ -60,12 +60,13 @@
           "jobType": "TRAINING",
           "site": "AITs work shop ระยอง",
           "jobNo": "-",
-          "depart": "08:30",
+          "depart": "13:00",
           "arrive": "16:00",
           "members": "ทาม",
           "vehicle": "",
           "equipment": "",
-          "contact": "-"
+          "contact": "-",
+          "detail": "พรุ่งนี้ 13.00-16.00 อบรม mercury"
         },
         {
           "id": 6,
@@ -131,9 +132,9 @@
     },
     {
       "date": "14/7/2569",
-      "savedAt": "2026-07-14T09:58:03.038Z",
+      "savedAt": "2026-07-14T10:00:55.139Z",
       "dateKey": "2026-07-14",
-      "modifiedAt": "2026-07-14T09:58:03.038Z",
+      "modifiedAt": "2026-07-14T10:00:55.139Z",
       "teams": [
         {
           "id": 1,
@@ -9484,5 +9485,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-14T09:58:03.038Z"
+  "lastUpdated": "2026-07-14T10:00:55.139Z"
 }
