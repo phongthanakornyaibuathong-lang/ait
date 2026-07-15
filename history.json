@@ -5,7 +5,7 @@
       "day_th": "16 กรกฎาคม 2569",
       "dateKey": "2026-07-16",
       "savedAt": "2026-07-16T00:00:00.000Z",
-      "modifiedAt": "2026-07-15T06:26:28.448Z",
+      "modifiedAt": "2026-07-15T06:26:56.158Z",
       "teams": [
         {
           "id": 1,
@@ -81,15 +81,15 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260158 ",
-          "depart": "07:30",
-          "arrive": "08:00",
-          "members": "คิง, คิว, ต้าร์",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
@@ -131,9 +131,9 @@
     },
     {
       "date": "15/7/2569",
-      "savedAt": "2026-07-15T06:26:29.503Z",
+      "savedAt": "2026-07-15T06:26:56.167Z",
       "dateKey": "2026-07-15",
-      "modifiedAt": "2026-07-15T06:26:29.503Z",
+      "modifiedAt": "2026-07-15T06:26:56.167Z",
       "teams": [
         {
           "id": 1,
@@ -9614,5 +9614,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-15T06:26:29.503Z"
+  "lastUpdated": "2026-07-15T06:26:56.167Z"
 }
