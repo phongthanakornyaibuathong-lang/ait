@@ -31,7 +31,7 @@
       "jobNo": "UCS ศรีราชา (Thaioil CFP site)",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บิ๊ก, คิว, เฟิร์ส",
+      "members": "บิ๊ก, บีม, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "MM 300 E",
       "contact": "ช่าง โตโต้ 092-3974539 "
@@ -39,26 +39,27 @@
     {
       "id": 4,
       "jobType": "BOLT",
-      "site": "CUEL งาน Torque Unit 3",
-      "jobNo": "Job No. JB260167 Unit 3 ",
-      "depart": "06:30",
-      "arrive": "07:30",
-      "members": "นัฐ, ป๋อ, บีม",
+      "site": "PTTLNG",
+      "jobNo": "Job No JB260158 ",
+      "depart": "07:30",
+      "arrive": "08:00",
+      "members": "นัฐ, ป๋อ, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
-      "contact": "ติดต่อช่าง ปิยพงษ์ CUEL   0994419388"
+      "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
     },
     {
       "id": 5,
       "jobType": "TRAINING",
       "site": "AITs work shop ระยอง",
       "jobNo": "-",
-      "depart": "08:30",
+      "depart": "13:00",
       "arrive": "16:00",
       "members": "ทาม",
       "vehicle": "",
       "equipment": "",
-      "contact": "-"
+      "contact": "-",
+      "detail": "พรุ่งนี้ 13.00-16.00 อบรม mercury"
     },
     {
       "id": 6,
@@ -71,19 +72,19 @@
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque / Hydraulic Tension",
       "contact": "K.สายชล  082-3536292",
-      "detail": "Loose bolt เพื่อ Spade blind\nFlange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange\nFlange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange\nFlange 14\"x300# Stud 1-1/8\" A/F 46 mm.= 2 Flange\nรอที่ลานจอดก่อนถึงประตู 26\nใช้บัตรประชาชน Shot brief"
+      "detail": "\nLoose bolt เพื่อ Spade blind Flange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange Flange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange Flange 14\"x300# Stud 1-1/8\" A/F 46 mm.= 2 Flange รอที่ลานจอดก่อนถึงประตู 26 \nรอยืนยันจากหน้างาน\n"
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
+      "jobType": "BOLT",
+      "site": "PTTLNG",
+      "jobNo": "Job No JB260158 ",
+      "depart": "07:30",
+      "arrive": "08:00",
+      "members": "คิง, คิว, ต้าร์",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
-      "contact": ""
+      "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
     },
     {
       "id": 8,
@@ -122,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-14T10:25:39.172Z",
+  "lastUpdated": "2026-07-15T06:21:06.928Z",
   "updatedBy": "Nine",
-  "date": "14/7/2569"
+  "date": "15/7/2569"
 }
