@@ -5,7 +5,7 @@
       "day_th": "16 กรกฎาคม 2569",
       "dateKey": "2026-07-16",
       "savedAt": "2026-07-16T00:00:00.000Z",
-      "modifiedAt": "2026-07-15T06:26:56.158Z",
+      "modifiedAt": "2026-07-15T10:29:12.320Z",
       "teams": [
         {
           "id": 1,
@@ -69,15 +69,15 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "TRAINING",
+          "site": "INSEE",
+          "jobNo": "-",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทาม",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
         },
         {
           "id": 7,
@@ -131,9 +131,9 @@
     },
     {
       "date": "15/7/2569",
-      "savedAt": "2026-07-15T06:42:33.142Z",
+      "savedAt": "2026-07-15T10:29:13.376Z",
       "dateKey": "2026-07-15",
-      "modifiedAt": "2026-07-15T06:42:33.142Z",
+      "modifiedAt": "2026-07-15T10:29:13.376Z",
       "teams": [
         {
           "id": 1,
@@ -9614,5 +9614,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-15T06:42:33.142Z"
+  "lastUpdated": "2026-07-15T10:29:13.376Z"
 }
