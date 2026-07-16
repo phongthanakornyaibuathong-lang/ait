@@ -5,7 +5,7 @@
       "day_th": "17 กรกฎาคม 2569",
       "dateKey": "2026-07-17",
       "savedAt": "2026-07-17T00:00:00.000Z",
-      "modifiedAt": "2026-07-16T08:23:37.391Z",
+      "modifiedAt": "2026-07-16T08:55:26.616Z",
       "teams": [
         {
           "id": 1,
@@ -70,14 +70,15 @@
         {
           "id": 6,
           "jobType": "TRAINING",
-          "site": "INSEE",
-          "jobNo": "-",
-          "depart": "07:00",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No. JB260168 ",
+          "depart": "06:00",
           "arrive": "08:00",
-          "members": "ทาม",
-          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-          "equipment": "",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+          "members": "ทัช, แชมป์, โอม",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": " K.นัทตี้ NPC 098-278-4490",
+          "detail": "1. Toque Testsep & Production Testsep  Platform WASSANA  ไซส์น็อต ตามที่แจ้งในแบบ\n2. เช่าประแจทอคปากตายตามรูปค่ะ\n\n"
         },
         {
           "id": 7,
@@ -131,9 +132,9 @@
     },
     {
       "date": "16/7/2569",
-      "savedAt": "2026-07-16T08:23:38.715Z",
+      "savedAt": "2026-07-16T08:55:26.628Z",
       "dateKey": "2026-07-16",
-      "modifiedAt": "2026-07-16T08:23:38.715Z",
+      "modifiedAt": "2026-07-16T08:55:26.628Z",
       "teams": [
         {
           "id": 1,
@@ -9743,5 +9744,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-16T08:23:38.715Z"
+  "lastUpdated": "2026-07-16T08:55:26.628Z"
 }
