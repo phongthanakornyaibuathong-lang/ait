@@ -5,7 +5,7 @@
       "day_th": "17 กรกฎาคม 2569",
       "dateKey": "2026-07-17",
       "savedAt": "2026-07-17T00:00:00.000Z",
-      "modifiedAt": "2026-07-16T09:29:49.751Z",
+      "modifiedAt": "2026-07-16T11:07:13.355Z",
       "teams": [
         {
           "id": 1,
@@ -94,15 +94,16 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "BOLT",
+          "site": "Thai Oil ",
+          "jobNo": "Site survey งาน torque",
+          "depart": "08:30",
+          "arrive": "10:00",
+          "members": "กรานต์, ทาม",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "",
+          "detail": "Site survey งาน torque"
         },
         {
           "id": 9,
@@ -132,9 +133,9 @@
     },
     {
       "date": "16/7/2569",
-      "savedAt": "2026-07-16T11:04:18.262Z",
+      "savedAt": "2026-07-16T11:07:13.366Z",
       "dateKey": "2026-07-16",
-      "modifiedAt": "2026-07-16T11:04:18.262Z",
+      "modifiedAt": "2026-07-16T11:07:13.366Z",
       "teams": [
         {
           "id": 1,
@@ -9744,5 +9745,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-16T11:04:18.262Z"
+  "lastUpdated": "2026-07-16T11:07:13.366Z"
 }
