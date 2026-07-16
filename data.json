@@ -4,13 +4,13 @@
       "id": 1,
       "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
-      "jobNo": "Job No JB260166    Lot4",
+      "jobNo": "Job JB260165",
       "depart": "06:00",
       "arrive": "07:30",
       "members": "เป้, ฟีล์ม, เอิร์ก",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TTFF-40",
-      "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+      "contact": "ช่าง โตโต้ 092-3974539 "
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "id": 3,
       "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
-      "jobNo": "UCS ศรีราชา (Thaioil CFP site)",
+      "jobNo": "Job JB260165",
       "depart": "06:00",
       "arrive": "07:30",
       "members": "บิ๊ก, บีม, เฟิร์ส",
@@ -50,32 +50,6 @@
     },
     {
       "id": 5,
-      "jobType": "TRAINING",
-      "site": "AITs work shop ระยอง",
-      "jobNo": "-",
-      "depart": "13:00",
-      "arrive": "16:00",
-      "members": "ทาม",
-      "vehicle": "",
-      "equipment": "",
-      "contact": "-",
-      "detail": "พรุ่งนี้ 13.00-16.00 อบรม mercury"
-    },
-    {
-      "id": 6,
-      "jobType": "BOLT",
-      "site": "Thai Oil SPP Plant",
-      "jobNo": "๋Job No JB260169",
-      "depart": "06:00",
-      "arrive": "07:30",
-      "members": "บอย, แชมป์, อั๋น, โอม",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "Hydraulic torque / Hydraulic Tension",
-      "contact": "K.สายชล  082-3536292",
-      "detail": "\nLoose bolt เพื่อ Spade blind Flange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange Flange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange Flange 14\"x300# Stud 1-1/8\" A/F 46 mm.= 2 Flange รอที่ลานจอดก่อนถึงประตู 26 \nรอยืนยันจากหน้างาน\n"
-    },
-    {
-      "id": 7,
       "jobType": "BOLT",
       "site": "PTTLNG",
       "jobNo": "Job No JB260158 ",
@@ -85,6 +59,31 @@
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
       "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
+    },
+    {
+      "id": 6,
+      "jobType": "TRAINING",
+      "site": "INSEE",
+      "jobNo": "-",
+      "depart": "07:00",
+      "arrive": "08:00",
+      "members": "ทาม",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+      "equipment": "",
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+      "detail": "อบรม safety ของ อินทรี ครับ ให้มาที่ อินทรี\n08:00-12:00 น.\n"
+    },
+    {
+      "id": 7,
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 8,
@@ -123,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-15T11:05:57.633Z",
+  "lastUpdated": "2026-07-16T08:22:48.096Z",
   "updatedBy": "Nine",
-  "date": "15/7/2569"
+  "date": "16/7/2569"
 }
