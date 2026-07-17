@@ -5,7 +5,7 @@
       "day_th": "18 กรกฎาคม 2569",
       "dateKey": "2026-07-18",
       "savedAt": "2026-07-18T00:00:00.000Z",
-      "modifiedAt": "2026-07-17T08:56:27.946Z",
+      "modifiedAt": "2026-07-17T08:57:17.901Z",
       "teams": [
         {
           "id": 1,
@@ -96,15 +96,15 @@
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "Thai Oil ",
-          "jobNo": "Site survey งาน torque",
-          "depart": "08:30",
-          "arrive": "10:00",
-          "members": "กรานต์, ทาม",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "",
-          "contact": "ติดต่อ ช่าง ปิยฤกษ์ (ต้อ) 082-4759974"
+          "contact": ""
         },
         {
           "id": 9,
@@ -134,9 +134,9 @@
     },
     {
       "date": "17/7/2569",
-      "savedAt": "2026-07-17T08:56:29.358Z",
+      "savedAt": "2026-07-17T08:57:17.909Z",
       "dateKey": "2026-07-17",
-      "modifiedAt": "2026-07-17T08:56:29.358Z",
+      "modifiedAt": "2026-07-17T08:57:17.909Z",
       "teams": [
         {
           "id": 1,
@@ -9876,5 +9876,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-17T08:56:29.358Z"
+  "lastUpdated": "2026-07-17T08:57:17.909Z"
 }
