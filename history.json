@@ -5,7 +5,7 @@
       "day_th": "18 กรกฎาคม 2569",
       "dateKey": "2026-07-18",
       "savedAt": "2026-07-18T00:00:00.000Z",
-      "modifiedAt": "2026-07-17T08:52:33.953Z",
+      "modifiedAt": "2026-07-17T08:56:27.946Z",
       "teams": [
         {
           "id": 1,
@@ -72,14 +72,15 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No. JB260168 ",
-          "depart": "06:00",
-          "arrive": "08:00",
-          "members": "ทัช, แชมป์, โอม",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": " K.นัทตี้ NPC 098-278-4490"
+          "site": "Thai Oil SPP Plant",
+          "jobNo": "Job No. JB260169",
+          "depart": "07:30",
+          "arrive": "09:00",
+          "members": "บอย, แชมป์, อั๋น, โอม",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic Bolt tension",
+          "contact": "K.สายชล  082-3536292",
+          "detail": "D- Spade blind Flange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange\nFlange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange\nช่วงเช้าเตรียมเครื่องมือเริ่มงานได้ ประมาณ 14:00 น."
         },
         {
           "id": 7,
@@ -133,9 +134,9 @@
     },
     {
       "date": "17/7/2569",
-      "savedAt": "2026-07-17T08:52:35.366Z",
+      "savedAt": "2026-07-17T08:56:27.960Z",
       "dateKey": "2026-07-17",
-      "modifiedAt": "2026-07-17T08:52:35.366Z",
+      "modifiedAt": "2026-07-17T08:56:27.960Z",
       "teams": [
         {
           "id": 1,
@@ -9875,5 +9876,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-17T08:52:35.366Z"
+  "lastUpdated": "2026-07-17T08:56:27.960Z"
 }
