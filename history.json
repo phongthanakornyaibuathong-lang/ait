@@ -5,7 +5,7 @@
       "day_th": "18 กรกฎาคม 2569",
       "dateKey": "2026-07-18",
       "savedAt": "2026-07-18T00:00:00.000Z",
-      "modifiedAt": "2026-07-17T07:55:34.518Z",
+      "modifiedAt": "2026-07-17T08:49:08.397Z",
       "teams": [
         {
           "id": 1,
@@ -46,14 +46,15 @@
         {
           "id": 4,
           "jobType": "BOLT",
-          "site": "PTTLNG",
+          "site": "Thai oil Unit 2200",
           "jobNo": "Job No JB260158 ",
-          "depart": "07:30",
+          "depart": "06:30",
           "arrive": "08:00",
           "members": "นัฐ, ป๋อ, อองรี",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
-          "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
+          "contact": " เกมส์ ยุทธนา  080-8007853",
+          "detail": "Re-torque bolt E-2231, F-2202, P-2220A, B\n"
         },
         {
           "id": 5,
@@ -131,9 +132,9 @@
     },
     {
       "date": "17/7/2569",
-      "savedAt": "2026-07-17T07:55:35.494Z",
+      "savedAt": "2026-07-17T08:49:08.412Z",
       "dateKey": "2026-07-17",
-      "modifiedAt": "2026-07-17T07:55:35.494Z",
+      "modifiedAt": "2026-07-17T08:49:08.412Z",
       "teams": [
         {
           "id": 1,
@@ -9873,5 +9874,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-17T07:55:35.494Z"
+  "lastUpdated": "2026-07-17T08:49:08.412Z"
 }
