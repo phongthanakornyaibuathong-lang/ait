@@ -5,7 +5,7 @@
       "day_th": "18 กรกฎาคม 2569",
       "dateKey": "2026-07-18",
       "savedAt": "2026-07-18T00:00:00.000Z",
-      "modifiedAt": "2026-07-17T09:16:08.036Z",
+      "modifiedAt": "2026-07-17T11:24:32.217Z",
       "teams": [
         {
           "id": 1,
@@ -26,7 +26,7 @@
           "jobNo": "JB260164  Lot.9",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย",
+          "members": "กาน(นำ), ปลาย, ต้าร์",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
@@ -74,9 +74,9 @@
           "jobType": "BOLT",
           "site": "Thai Oil SPP Plant",
           "jobNo": "Job No. JB260169",
-          "depart": "07:30",
-          "arrive": "09:00",
-          "members": "บอย, แชมป์, อั๋น, โอม",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, แชมป์, อั๋น, ฟีล์ม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic Bolt tension",
           "contact": "K.สายชล  082-3536292",
@@ -87,10 +87,10 @@
           "jobType": "BOLT",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "ประชุมงาน",
-          "depart": "08:00",
+          "depart": "07:30",
           "arrive": "09:00",
           "members": "กรานต์, ทัช",
-          "vehicle": "",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
           "contact": "ติดต่อช่าง มีน ",
           "detail": "ประชุมงาน Bolt torque / Tension E-10725"
@@ -135,9 +135,9 @@
     },
     {
       "date": "17/7/2569",
-      "savedAt": "2026-07-17T11:22:08.727Z",
+      "savedAt": "2026-07-17T11:24:33.685Z",
       "dateKey": "2026-07-17",
-      "modifiedAt": "2026-07-17T11:22:08.727Z",
+      "modifiedAt": "2026-07-17T11:24:33.685Z",
       "teams": [
         {
           "id": 1,
@@ -9877,5 +9877,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-17T11:22:08.727Z"
+  "lastUpdated": "2026-07-17T11:24:33.685Z"
 }
