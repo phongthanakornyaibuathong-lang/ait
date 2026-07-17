@@ -5,7 +5,7 @@
       "day_th": "18 กรกฎาคม 2569",
       "dateKey": "2026-07-18",
       "savedAt": "2026-07-18T00:00:00.000Z",
-      "modifiedAt": "2026-07-17T08:57:17.901Z",
+      "modifiedAt": "2026-07-17T09:15:28.647Z",
       "teams": [
         {
           "id": 1,
@@ -84,15 +84,16 @@
         },
         {
           "id": 7,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260170",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย, อั๋น, ฟีล์ม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 12",
-          "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
+          "jobType": "BOLT",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "ประชุมงาน",
+          "depart": "07:30",
+          "arrive": "09:00",
+          "members": "กรานต์, ทัช",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "ติดต่อช่าง มีน ",
+          "detail": "ประชุมงาน Bolt torque / Tension E-10725"
         },
         {
           "id": 8,
@@ -134,9 +135,9 @@
     },
     {
       "date": "17/7/2569",
-      "savedAt": "2026-07-17T08:57:18.766Z",
+      "savedAt": "2026-07-17T09:15:28.661Z",
       "dateKey": "2026-07-17",
-      "modifiedAt": "2026-07-17T08:57:18.766Z",
+      "modifiedAt": "2026-07-17T09:15:28.661Z",
       "teams": [
         {
           "id": 1,
@@ -9876,5 +9877,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-17T08:57:18.766Z"
+  "lastUpdated": "2026-07-17T09:15:28.661Z"
 }
