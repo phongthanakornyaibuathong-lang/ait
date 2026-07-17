@@ -7,8 +7,8 @@
       "jobNo": "Job JB260165",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "เป้, ฟีล์ม, เอิร์ก",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "members": "เป้, โอ๊ด, เอิร์ก",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TTFF-40",
       "contact": "ช่าง โตโต้ 092-3974539 "
     },
@@ -19,7 +19,7 @@
       "jobNo": "JB260164  Lot.9",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย, โอ๊ด",
+      "members": "กาน(นำ), ปลาย",
       "vehicle": "2ฒษ 2857 (แครี่บอย)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
@@ -62,40 +62,41 @@
     },
     {
       "id": 6,
-      "jobType": "TRAINING",
-      "site": "INSEE",
-      "jobNo": "-",
-      "depart": "07:00",
+      "jobType": "BOLT",
+      "site": "NPC / TNS บางปะกง",
+      "jobNo": "Job No. JB260168 ",
+      "depart": "06:00",
       "arrive": "08:00",
-      "members": "ทาม",
-      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-      "equipment": "",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-      "detail": "อบรม safety ของ อินทรี ครับ ให้มาที่ อินทรี\n08:00-12:00 น.\n"
+      "members": "ทัช, แชมป์, โอม",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": " K.นัทตี้ NPC 098-278-4490",
+      "detail": "1. Toque Testsep & Production Testsep  Platform WASSANA  ไซส์น็อต ตามที่แจ้งในแบบ\n2. เช่าประแจทอคปากตายตามรูปค่ะ"
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260170",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "บอย, อั๋น, ฟีล์ม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "TSF 12",
+      "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
     },
     {
       "id": 8,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "jobType": "BOLT",
+      "site": "Thai Oil ",
+      "jobNo": "Site survey งาน torque",
+      "depart": "08:30",
+      "arrive": "10:00",
+      "members": "กรานต์, ทาม",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "",
-      "contact": ""
+      "contact": "ติดต่อ ช่าง ปิยฤกษ์ (ต้อ) 082-4759974",
+      "detail": "Site survey งาน torque"
     },
     {
       "id": 9,
@@ -122,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-16T11:09:24.325Z",
+  "lastUpdated": "2026-07-17T07:55:34.531Z",
   "updatedBy": "Nine",
-  "date": "16/7/2569"
+  "date": "17/7/2569"
 }
