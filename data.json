@@ -19,7 +19,7 @@
       "jobNo": "JB260164  Lot.9",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย",
+      "members": "กาน(นำ), ปลาย, ต้าร์",
       "vehicle": "2ฒษ 2857 (แครี่บอย)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
@@ -39,64 +39,66 @@
     {
       "id": 4,
       "jobType": "BOLT",
-      "site": "PTTLNG",
-      "jobNo": "Job No JB260158 ",
-      "depart": "07:30",
+      "site": "Thai oil Unit 2200",
+      "jobNo": "Job No JB260172",
+      "depart": "06:30",
       "arrive": "08:00",
       "members": "นัฐ, ป๋อ, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
-      "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
+      "contact": " เกมส์ ยุทธนา  080-8007853",
+      "detail": "Re-torque bolt E-2231, F-2202, P-2220A, B\n6\"600#, 8\"600#, 10\"600#, Bottom Cover E-2231 "
     },
     {
       "id": 5,
       "jobType": "BOLT",
-      "site": "PTTLNG",
-      "jobNo": "Job No JB260158 ",
-      "depart": "07:30",
+      "site": "Thai oil Unit 2200",
+      "jobNo": "Job No JB260172 ",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "คิง, คิว, ต้าร์",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "members": "ทาม, คิง, คิว",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "Hydraulic torque",
-      "contact": " ติดต่อ ช่างกอล์ฟ 084-3521060"
+      "contact": "  เกมส์ ยุทธนา  080-8007853",
+      "detail": "Re-torque bolt E-2231, F-2202, P-2220A, B\n6\"600#, 8\"600#, 10\"600#, Bottom Cover E-2231 "
     },
     {
       "id": 6,
       "jobType": "BOLT",
-      "site": "NPC / TNS บางปะกง",
-      "jobNo": "Job No. JB260168 ",
-      "depart": "06:00",
+      "site": "Thai Oil SPP Plant",
+      "jobNo": "Job No. JB260169",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "ทัช, แชมป์, โอม",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "Hydraulic torque",
-      "contact": " K.นัทตี้ NPC 098-278-4490",
-      "detail": "1. Toque Testsep & Production Testsep  Platform WASSANA  ไซส์น็อต ตามที่แจ้งในแบบ\n2. เช่าประแจทอคปากตายตามรูปค่ะ"
+      "members": "บอย, แชมป์, อั๋น, ฟีล์ม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "Hydraulic Bolt tension",
+      "contact": "K.สายชล  082-3536292",
+      "detail": "D- Spade blind Flange 12\"x2500# Stud 2-3/4\" A/F 100 mm.= 1 Flange\nFlange 8\"x2500# Stud 2\" A/F 80 mm. = 1 Flange\nช่วงเช้าเตรียมเครื่องมือเริ่มงานได้ ประมาณ 14:00 น."
     },
     {
       "id": 7,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260170",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, อั๋น, ฟีล์ม",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TSF 12",
-      "contact": "ติดต่อช่าง โด่ง  (094-7467526)  "
+      "jobType": "BOLT",
+      "site": "SCC Work Shop ศรีราชา",
+      "jobNo": "ประชุมงาน",
+      "depart": "07:30",
+      "arrive": "09:00",
+      "members": "กรานต์, ทัช",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "",
+      "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865",
+      "detail": "ประชุมงาน Bolt torque / Tension E-10725"
     },
     {
       "id": 8,
-      "jobType": "BOLT",
-      "site": "Thai Oil ",
-      "jobNo": "Site survey งาน torque",
-      "depart": "08:30",
-      "arrive": "10:00",
-      "members": "กรานต์, ทาม",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
       "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "",
-      "contact": "ติดต่อ ช่าง ปิยฤกษ์ (ต้อ) 082-4759974",
-      "detail": "Site survey งาน torque"
+      "contact": ""
     },
     {
       "id": 9,
@@ -123,7 +125,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-17T11:35:19.117Z",
+  "lastUpdated": "2026-07-18T10:59:39.489Z",
   "updatedBy": "Nine",
-  "date": "17/7/2569"
+  "date": "18/7/2569"
 }
