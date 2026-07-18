@@ -1,11 +1,140 @@
 {
   "history": [
     {
+      "date": "20 กรกฎาคม 2569",
+      "day_th": "20 กรกฎาคม 2569",
+      "dateKey": "2026-07-20",
+      "savedAt": "2026-07-20T00:00:00.000Z",
+      "modifiedAt": "2026-07-18T10:59:52.570Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job JB260165",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, โอ๊ด, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-40",
+          "contact": "ช่าง โตโต้ 092-3974539 "
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "JB260164  Lot.9",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย, ต้าร์",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job JB260165",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "บิ๊ก, บีม, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "MM 300 E",
+          "contact": "ช่าง โตโต้ 092-3974539 "
+        },
+        {
+          "id": 4,
+          "jobType": "BOLT",
+          "site": "Thai oil Unit 2200",
+          "jobNo": "Job No JB260172",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ, ป๋อ, อองรี",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque",
+          "contact": " เกมส์ ยุทธนา  080-8007853"
+        },
+        {
+          "id": 5,
+          "jobType": "BOLT",
+          "site": "Thai oil Unit 2200",
+          "jobNo": "Job No JB260172 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม, คิง, คิว",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+          "equipment": "Hydraulic torque",
+          "contact": "  เกมส์ ยุทธนา  080-8007853"
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "Thai Oil SPP Plant",
+          "jobNo": "Job No. JB260169",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, แชมป์, อั๋น, ฟีล์ม",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic Bolt tension",
+          "contact": "K.สายชล  082-3536292"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "ประชุมงาน",
+          "depart": "07:30",
+          "arrive": "09:00",
+          "members": "กรานต์, ทัช",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "",
+          "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865"
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "19 กรกฎาคม 2569",
       "day_th": "19 กรกฎาคม 2569",
       "dateKey": "2026-07-19",
       "savedAt": "2026-07-19T00:00:00.000Z",
-      "modifiedAt": "2026-07-18T10:59:39.469Z",
+      "modifiedAt": "2026-07-18T10:59:43.984Z",
       "teams": [
         {
           "id": 1,
@@ -131,9 +260,9 @@
     },
     {
       "date": "18/7/2569",
-      "savedAt": "2026-07-18T10:59:39.489Z",
+      "savedAt": "2026-07-18T10:59:52.582Z",
       "dateKey": "2026-07-18",
-      "modifiedAt": "2026-07-18T10:59:39.489Z",
+      "modifiedAt": "2026-07-18T10:59:52.582Z",
       "teams": [
         {
           "id": 1,
@@ -10005,5 +10134,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-18T10:59:39.489Z"
+  "lastUpdated": "2026-07-18T10:59:52.582Z"
 }
