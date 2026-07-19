@@ -5,7 +5,7 @@
       "day_th": "20 กรกฎาคม 2569",
       "dateKey": "2026-07-20",
       "savedAt": "2026-07-20T00:00:00.000Z",
-      "modifiedAt": "2026-07-19T07:57:50.104Z",
+      "modifiedAt": "2026-07-19T07:58:56.862Z",
       "teams": [
         {
           "id": 1,
@@ -23,7 +23,7 @@
           "id": 2,
           "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260164  Lot.9",
+          "jobNo": "JB260175 Lot.10",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "กาน(นำ), ปลาย",
@@ -35,13 +35,13 @@
           "id": 3,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260165",
+          "jobNo": "Job JB260175",
           "depart": "06:00",
           "arrive": "07:30",
           "members": "บิ๊ก, บีม, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
-          "contact": "ช่าง โตโต้ 092-3974539 "
+          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
         },
         {
           "id": 4,
@@ -131,9 +131,9 @@
     },
     {
       "date": "19/7/2569",
-      "savedAt": "2026-07-19T07:57:50.115Z",
+      "savedAt": "2026-07-19T07:58:56.870Z",
       "dateKey": "2026-07-19",
-      "modifiedAt": "2026-07-19T07:57:50.115Z",
+      "modifiedAt": "2026-07-19T07:58:56.870Z",
       "teams": [
         {
           "id": 1,
@@ -10134,5 +10134,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-19T07:57:50.115Z"
+  "lastUpdated": "2026-07-19T07:58:56.870Z"
 }
