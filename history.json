@@ -5,7 +5,7 @@
       "day_th": "20 กรกฎาคม 2569",
       "dateKey": "2026-07-20",
       "savedAt": "2026-07-20T00:00:00.000Z",
-      "modifiedAt": "2026-07-19T08:08:32.425Z",
+      "modifiedAt": "2026-07-19T08:27:49.594Z",
       "teams": [
         {
           "id": 1,
@@ -70,8 +70,8 @@
         {
           "id": 6,
           "jobType": "COLD_CUT",
-          "site": "Thai Oil SPP Plant",
-          "jobNo": "Job No JB260162 Lot.5",
+          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
+          "jobNo": "Job No JB260162 ",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, อั๋น, ต้าร์",
@@ -134,9 +134,9 @@
     },
     {
       "date": "19/7/2569",
-      "savedAt": "2026-07-19T08:26:56.143Z",
+      "savedAt": "2026-07-19T08:27:49.607Z",
       "dateKey": "2026-07-19",
-      "modifiedAt": "2026-07-19T08:26:56.143Z",
+      "modifiedAt": "2026-07-19T08:27:49.607Z",
       "teams": [
         {
           "id": 1,
@@ -10137,5 +10137,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-19T08:26:56.143Z"
+  "lastUpdated": "2026-07-19T08:27:49.607Z"
 }
