@@ -5,7 +5,7 @@
       "day_th": "20 กรกฎาคม 2569",
       "dateKey": "2026-07-20",
       "savedAt": "2026-07-20T00:00:00.000Z",
-      "modifiedAt": "2026-07-19T08:28:26.625Z",
+      "modifiedAt": "2026-07-19T08:34:27.715Z",
       "teams": [
         {
           "id": 1,
@@ -15,7 +15,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "เป้, โอ๊ด, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-40",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
@@ -39,7 +39,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "บิ๊ก, บีม, เฟิร์ส",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "MM 300 E",
           "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
         },
@@ -51,7 +51,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "นัฐ, ป๋อ, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": " เกมส์ ยุทธนา  080-8007853"
         },
@@ -63,7 +63,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ทาม, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "  เกมส์ ยุทธนา  080-8007853"
         },
@@ -71,7 +71,7 @@
           "id": 6,
           "jobType": "COLD_CUT",
           "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-          "jobNo": "Job No JB260162 ",
+          "jobNo": "Job No JB260174",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, อั๋น, ต้าร์",
@@ -134,9 +134,9 @@
     },
     {
       "date": "19/7/2569",
-      "savedAt": "2026-07-19T08:28:27.484Z",
+      "savedAt": "2026-07-19T08:34:27.722Z",
       "dateKey": "2026-07-19",
-      "modifiedAt": "2026-07-19T08:28:27.484Z",
+      "modifiedAt": "2026-07-19T08:34:27.722Z",
       "teams": [
         {
           "id": 1,
@@ -10137,5 +10137,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-19T08:28:27.484Z"
+  "lastUpdated": "2026-07-19T08:34:27.722Z"
 }
