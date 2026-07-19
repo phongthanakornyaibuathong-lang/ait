@@ -5,7 +5,7 @@
       "day_th": "20 กรกฎาคม 2569",
       "dateKey": "2026-07-20",
       "savedAt": "2026-07-20T00:00:00.000Z",
-      "modifiedAt": "2026-07-19T08:03:49.085Z",
+      "modifiedAt": "2026-07-19T08:04:34.903Z",
       "teams": [
         {
           "id": 1,
@@ -90,7 +90,7 @@
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865",
-          "detail": "Torque bolt Heat Exchanger flange Stud 1-1/2\" 54 EA AF 60 mm.\nTorque for test Leak"
+          "detail": "Torque bolt Heat Exchanger flange E-10725 Stud 1-1/2\" 54 EA AF 60 mm.\nTorque for test Leak"
         },
         {
           "id": 8,
@@ -132,9 +132,9 @@
     },
     {
       "date": "19/7/2569",
-      "savedAt": "2026-07-19T08:03:49.094Z",
+      "savedAt": "2026-07-19T08:04:34.912Z",
       "dateKey": "2026-07-19",
-      "modifiedAt": "2026-07-19T08:03:49.094Z",
+      "modifiedAt": "2026-07-19T08:04:34.912Z",
       "teams": [
         {
           "id": 1,
@@ -10135,5 +10135,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-19T08:03:49.094Z"
+  "lastUpdated": "2026-07-19T08:04:34.912Z"
 }
