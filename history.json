@@ -5,7 +5,7 @@
       "day_th": "21 กรกฎาคม 2569",
       "dateKey": "2026-07-21",
       "savedAt": "2026-07-21T00:00:00.000Z",
-      "modifiedAt": "2026-07-20T08:55:55.217Z",
+      "modifiedAt": "2026-07-20T09:02:16.763Z",
       "teams": [
         {
           "id": 1,
@@ -96,15 +96,15 @@
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "IRPC RDCC Unit 51",
-          "jobNo": "Job No. JB2601xx",
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "Job No. JB260180",
           "depart": "08:30",
           "arrive": "16:00",
           "members": "กรานต์, ทาม",
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "TOFF-12 New",
-          "contact": ""
+          "contact": "ช่าง พรเทพ  065-9494555"
         },
         {
           "id": 9,
@@ -134,9 +134,9 @@
     },
     {
       "date": "20/7/2569",
-      "savedAt": "2026-07-20T08:55:56.293Z",
+      "savedAt": "2026-07-20T09:02:16.777Z",
       "dateKey": "2026-07-20",
-      "modifiedAt": "2026-07-20T08:55:56.293Z",
+      "modifiedAt": "2026-07-20T09:02:16.777Z",
       "teams": [
         {
           "id": 1,
@@ -10268,5 +10268,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-20T08:55:56.293Z"
+  "lastUpdated": "2026-07-20T09:02:16.777Z"
 }
