@@ -5,7 +5,7 @@
       "day_th": "21 กรกฎาคม 2569",
       "dateKey": "2026-07-21",
       "savedAt": "2026-07-21T00:00:00.000Z",
-      "modifiedAt": "2026-07-20T07:51:20.623Z",
+      "modifiedAt": "2026-07-20T08:15:02.054Z",
       "teams": [
         {
           "id": 1,
@@ -58,26 +58,27 @@
         {
           "id": 5,
           "jobType": "BOLT",
-          "site": "Thai oil Unit 2200",
-          "jobNo": "Job No JB260172 ",
-          "depart": "06:30",
+          "site": "ยามากาวา / GC ME Shop",
+          "jobNo": "Job No JB260178",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "ทาม, คิว",
+          "members": "คิง, ฟีล์ม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "  เกมส์ ยุทธนา  080-8007853"
+          "contact": "   K.เขมินท์  095-8040434"
         },
         {
           "id": 6,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-          "jobNo": "Job No JB260174",
-          "depart": "06:30",
+          "jobType": "FLANGE",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No JB2601xx",
+          "depart": "06:00",
           "arrive": "08:00",
-          "members": "บอย, อั๋น, ต้าร์",
+          "members": "บอย, อั๋น, โอม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 12",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526  "
+          "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
+          "detail": "Flange face 2x150# "
         },
         {
           "id": 7,
@@ -131,9 +132,9 @@
     },
     {
       "date": "20/7/2569",
-      "savedAt": "2026-07-20T07:51:57.588Z",
+      "savedAt": "2026-07-20T08:15:03.442Z",
       "dateKey": "2026-07-20",
-      "modifiedAt": "2026-07-20T07:51:57.588Z",
+      "modifiedAt": "2026-07-20T08:15:03.442Z",
       "teams": [
         {
           "id": 1,
@@ -10265,5 +10266,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-20T07:51:57.588Z"
+  "lastUpdated": "2026-07-20T08:15:03.442Z"
 }
