@@ -5,7 +5,7 @@
       "day_th": "22 กรกฎาคม 2569",
       "dateKey": "2026-07-22",
       "savedAt": "2026-07-22T00:00:00.000Z",
-      "modifiedAt": "2026-07-21T10:56:38.925Z",
+      "modifiedAt": "2026-07-21T10:58:42.665Z",
       "teams": [
         {
           "id": 1,
@@ -45,15 +45,16 @@
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260181",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
+          "jobNo": "Job No JB260174",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, ฟีล์ม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "MM 305I",
-          "contact": " ติดต่อช่าง โด่ง  (094-7467526)  "
+          "equipment": "TSF 12",
+          "contact": " ติดต่อช่าง โด่ง  (094-7467526)  ",
+          "detail": "Pipe cold cutting 12\""
         },
         {
           "id": 5,
@@ -131,9 +132,9 @@
     },
     {
       "date": "21/7/2569",
-      "savedAt": "2026-07-21T10:56:39.864Z",
+      "savedAt": "2026-07-21T10:58:42.689Z",
       "dateKey": "2026-07-21",
-      "modifiedAt": "2026-07-21T10:56:39.864Z",
+      "modifiedAt": "2026-07-21T10:58:42.689Z",
       "teams": [
         {
           "id": 1,
@@ -10397,5 +10398,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-21T10:56:39.864Z"
+  "lastUpdated": "2026-07-21T10:58:42.689Z"
 }
