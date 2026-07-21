@@ -5,7 +5,7 @@
       "day_th": "22 กรกฎาคม 2569",
       "dateKey": "2026-07-22",
       "savedAt": "2026-07-22T00:00:00.000Z",
-      "modifiedAt": "2026-07-21T11:24:17.365Z",
+      "modifiedAt": "2026-07-21T11:27:53.803Z",
       "teams": [
         {
           "id": 1,
@@ -110,15 +110,16 @@
         },
         {
           "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "COLD_CUT",
+          "site": "Qtech/TOP",
+          "jobNo": "Job No JB260188",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "คิง",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "เจษฎา  062-6216957",
+          "detail": " งาน เจาะท่อ \n\nไปกับรถ บ. LCN"
         },
         {
           "id": 10,
@@ -136,9 +137,9 @@
     },
     {
       "date": "21/7/2569",
-      "savedAt": "2026-07-21T11:24:18.901Z",
+      "savedAt": "2026-07-21T11:27:54.698Z",
       "dateKey": "2026-07-21",
-      "modifiedAt": "2026-07-21T11:24:18.901Z",
+      "modifiedAt": "2026-07-21T11:27:54.698Z",
       "teams": [
         {
           "id": 1,
@@ -10402,5 +10403,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-21T11:24:18.901Z"
+  "lastUpdated": "2026-07-21T11:27:54.698Z"
 }
