@@ -38,40 +38,42 @@
     },
     {
       "id": 4,
-      "jobType": "BOLT",
-      "site": "Thai oil Unit 2200",
-      "jobNo": "Job No JB260172",
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260181",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "นัฐ, ป๋อ, อองรี",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "Hydraulic torque",
-      "contact": " เกมส์ ยุทธนา  080-8007853"
+      "members": "บอย, ฟีล์ม, ต้าร์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "MM 305I",
+      "contact": " ติดต่อช่าง โด่ง  (094-7467526)  ",
+      "detail": "Machine RTJ Flange 6\"x1500#"
     },
     {
       "id": 5,
       "jobType": "BOLT",
-      "site": "Thai oil Unit 2200",
-      "jobNo": "Job No JB260172 ",
-      "depart": "06:30",
+      "site": "มาเยกาว่า / GC ME Workshop",
+      "jobNo": "Job No JB260178",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "ทาม, คิว",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "members": "นัฐ, คิว, อองรี",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "Hydraulic torque",
-      "contact": "  เกมส์ ยุทธนา  080-8007853"
+      "contact": "   K.เขมินท์  095-8040434",
+      "detail": "Torque bolt Head Cap screw  \nM24 750Nm ประแจแอล 19 mm\nM30 1,600Nm ประแจแอล 22 mm\n"
     },
     {
       "id": 6,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-      "jobNo": "Job No JB260174",
-      "depart": "06:30",
+      "jobType": "FLANGE",
+      "site": "โรงกลึง MEC",
+      "jobNo": "Job No JB260140,141,142",
+      "depart": "06:00",
       "arrive": "08:00",
-      "members": "บอย, อั๋น, ต้าร์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TSF 12",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
-      "detail": "Pipe cold cutting 12\""
+      "members": "ทัช",
+      "vehicle": "",
+      "equipment": "TOFF-12",
+      "contact": "ช่างเดชา ",
+      "detail": ""
     },
     {
       "id": 7,
@@ -80,36 +82,35 @@
       "jobNo": "Job No JB260173",
       "depart": "07:00",
       "arrive": "08:30",
-      "members": "ทัช, แชมป์, โอม",
+      "members": "แชมป์, โอม, ป๋อ",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "Hydraulic torque",
-      "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865",
-      "detail": "Torque bolt Heat Exchanger flange E-10725 Stud 1-1/2\" 54 EA AF 60 mm.\nTorque for test Leak"
+      "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865"
     },
     {
       "id": 8,
-      "jobType": "BOLT",
-      "site": "IRPC RDCC Unit 51",
-      "jobNo": "Job No. JB260171",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "กรานต์, คิง, ฟีล์ม",
-      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-      "equipment": "Hydraulic torque & Mechanical tool",
-      "contact": " K.โค๊ก 098-9927429",
-      "detail": "Spade Blind unit 51 Flange 12\"x600#"
+      "jobType": "TRAINING",
+      "site": "AITs work shop ระยอง",
+      "jobNo": "Job No. JB260180",
+      "depart": "08:30",
+      "arrive": "16:00",
+      "members": "กรานต์, ทาม",
+      "vehicle": "",
+      "equipment": "TOFF-12 New",
+      "contact": "ช่าง พรเทพ  065-9494555"
     },
     {
       "id": 9,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "FLANGE",
+      "site": "NPC / TNS บางปะกง",
+      "jobNo": "JB260179",
+      "depart": "06:00",
+      "arrive": "08:00",
+      "members": "คิง, อั๋น",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TOFF-12 New",
+      "contact": "ช่างหนุ่ย NPC ",
+      "detail": "Machine flange facing 2\"x150#"
     },
     {
       "id": 10,
@@ -124,7 +125,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-20T09:26:37.972Z",
+  "lastUpdated": "2026-07-21T10:56:38.948Z",
   "updatedBy": "Nine",
-  "date": "20/7/2569"
+  "date": "21/7/2569"
 }
