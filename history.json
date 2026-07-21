@@ -5,7 +5,7 @@
       "day_th": "22 กรกฎาคม 2569",
       "dateKey": "2026-07-22",
       "savedAt": "2026-07-22T00:00:00.000Z",
-      "modifiedAt": "2026-07-21T11:03:48.170Z",
+      "modifiedAt": "2026-07-21T11:12:44.071Z",
       "teams": [
         {
           "id": 1,
@@ -98,13 +98,14 @@
           "id": 8,
           "jobType": "TRAINING",
           "site": "AITs work shop ระยอง",
-          "jobNo": "Job No. JB260180",
-          "depart": "08:30",
-          "arrive": "16:00",
-          "members": "กรานต์, ทาม",
+          "jobNo": "Job No. JB260187",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม",
           "vehicle": "",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง พรเทพ  065-9494555"
+          "equipment": "",
+          "contact": "ช่าง พรเทพ  065-9494555",
+          "detail": "Train Offshore Sea Survival MOG"
         },
         {
           "id": 9,
@@ -134,9 +135,9 @@
     },
     {
       "date": "21/7/2569",
-      "savedAt": "2026-07-21T11:04:57.218Z",
+      "savedAt": "2026-07-21T11:12:44.095Z",
       "dateKey": "2026-07-21",
-      "modifiedAt": "2026-07-21T11:04:57.218Z",
+      "modifiedAt": "2026-07-21T11:12:44.095Z",
       "teams": [
         {
           "id": 1,
@@ -10400,5 +10401,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-21T11:04:57.218Z"
+  "lastUpdated": "2026-07-21T11:12:44.095Z"
 }
