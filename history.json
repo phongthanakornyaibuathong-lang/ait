@@ -5,7 +5,7 @@
       "day_th": "22 กรกฎาคม 2569",
       "dateKey": "2026-07-22",
       "savedAt": "2026-07-22T00:00:00.000Z",
-      "modifiedAt": "2026-07-21T11:00:19.664Z",
+      "modifiedAt": "2026-07-21T11:03:24.968Z",
       "teams": [
         {
           "id": 1,
@@ -84,14 +84,15 @@
         {
           "id": 7,
           "jobType": "BOLT",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "Job No JB260173",
-          "depart": "07:00",
-          "arrive": "08:30",
-          "members": "แชมป์, โอม, ป๋อ",
+          "site": "Thai oil Unit 2200",
+          "jobNo": "Job No JB260172",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "แชมป์, อั๋น, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ติดต่อช่าง ทีฆทัศน์ มีน 095-8895865"
+          "contact": " เกมส์ ยุทธนา  080-8007853",
+          "detail": "24\"x300# Transfer line 1 จุด\n24\"x150# manhole C-2202 2 จุด"
         },
         {
           "id": 8,
@@ -133,9 +134,9 @@
     },
     {
       "date": "21/7/2569",
-      "savedAt": "2026-07-21T11:00:19.678Z",
+      "savedAt": "2026-07-21T11:03:26.323Z",
       "dateKey": "2026-07-21",
-      "modifiedAt": "2026-07-21T11:00:19.678Z",
+      "modifiedAt": "2026-07-21T11:03:26.323Z",
       "teams": [
         {
           "id": 1,
@@ -10399,5 +10400,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-21T11:00:19.678Z"
+  "lastUpdated": "2026-07-21T11:03:26.323Z"
 }
