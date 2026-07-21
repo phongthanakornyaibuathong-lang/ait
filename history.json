@@ -5,7 +5,7 @@
       "day_th": "22 กรกฎาคม 2569",
       "dateKey": "2026-07-22",
       "savedAt": "2026-07-22T00:00:00.000Z",
-      "modifiedAt": "2026-07-21T11:27:53.803Z",
+      "modifiedAt": "2026-07-21T11:29:26.713Z",
       "teams": [
         {
           "id": 1,
@@ -113,8 +113,8 @@
           "jobType": "COLD_CUT",
           "site": "Qtech/TOP",
           "jobNo": "Job No JB260188",
-          "depart": "07:00",
-          "arrive": "08:00",
+          "depart": "",
+          "arrive": "",
           "members": "คิง",
           "vehicle": "",
           "equipment": "",
@@ -137,9 +137,9 @@
     },
     {
       "date": "21/7/2569",
-      "savedAt": "2026-07-21T11:27:53.823Z",
+      "savedAt": "2026-07-21T11:29:26.730Z",
       "dateKey": "2026-07-21",
-      "modifiedAt": "2026-07-21T11:27:53.823Z",
+      "modifiedAt": "2026-07-21T11:29:26.730Z",
       "teams": [
         {
           "id": 1,
@@ -10403,5 +10403,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-21T11:27:53.823Z"
+  "lastUpdated": "2026-07-21T11:29:26.730Z"
 }
