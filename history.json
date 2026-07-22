@@ -5,7 +5,7 @@
       "day_th": "23 กรกฎาคม 2569",
       "dateKey": "2026-07-23",
       "savedAt": "2026-07-23T00:00:00.000Z",
-      "modifiedAt": "2026-07-22T10:36:55.005Z",
+      "modifiedAt": "2026-07-22T10:42:30.383Z",
       "teams": [
         {
           "id": 1,
@@ -72,10 +72,10 @@
         {
           "id": 6,
           "jobType": "ROBOT",
-          "site": "Mars Pet Care (Nakhon Ratchasima)",
+          "site": "Thai Summit Banpho (Chachoengsao)",
           "jobNo": "Job No JB260183",
-          "depart": "",
-          "arrive": "",
+          "depart": "07:00",
+          "arrive": "09:00",
           "members": "ป๋อ, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Tool Robot",
@@ -112,12 +112,13 @@
           "jobType": "COLD_CUT",
           "site": "Qtech/TOP",
           "jobNo": "Job No JB260188",
-          "depart": "",
-          "arrive": "",
+          "depart": "06:30",
+          "arrive": "08:00",
           "members": "คิง",
           "vehicle": "",
           "equipment": "",
-          "contact": "เจษฎา  062-6216957"
+          "contact": "เจษฎา  062-6216957",
+          "detail": "ไปกับทีม LCN\n"
         },
         {
           "id": 10,
@@ -135,9 +136,9 @@
     },
     {
       "date": "22/7/2569",
-      "savedAt": "2026-07-22T10:42:04.578Z",
+      "savedAt": "2026-07-22T10:42:30.394Z",
       "dateKey": "2026-07-22",
-      "modifiedAt": "2026-07-22T10:42:04.578Z",
+      "modifiedAt": "2026-07-22T10:42:30.394Z",
       "teams": [
         {
           "id": 1,
@@ -10535,5 +10536,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-22T10:42:04.578Z"
+  "lastUpdated": "2026-07-22T10:42:30.394Z"
 }
