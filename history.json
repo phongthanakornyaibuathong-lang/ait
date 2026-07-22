@@ -5,7 +5,7 @@
       "day_th": "23 กรกฎาคม 2569",
       "dateKey": "2026-07-23",
       "savedAt": "2026-07-23T00:00:00.000Z",
-      "modifiedAt": "2026-07-22T10:32:31.489Z",
+      "modifiedAt": "2026-07-22T10:35:37.327Z",
       "teams": [
         {
           "id": 1,
@@ -71,15 +71,16 @@
         },
         {
           "id": 6,
-          "jobType": "TRAINING",
+          "jobType": "ROBOT",
           "site": "Mars Pet Care (Nakhon Ratchasima)",
-          "jobNo": "Job No JB260182",
+          "jobNo": "Job No JB260183",
           "depart": "",
           "arrive": "",
           "members": "ป๋อ, เอิร์ก",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Tool Robot",
+          "contact": "",
+          "detail": "งาน Robot Replace axis 1 IRB6660"
         },
         {
           "id": 7,
@@ -134,9 +135,9 @@
     },
     {
       "date": "22/7/2569",
-      "savedAt": "2026-07-22T10:32:32.609Z",
+      "savedAt": "2026-07-22T10:35:37.336Z",
       "dateKey": "2026-07-22",
-      "modifiedAt": "2026-07-22T10:32:32.609Z",
+      "modifiedAt": "2026-07-22T10:35:37.336Z",
       "teams": [
         {
           "id": 1,
@@ -10534,5 +10535,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-22T10:32:32.609Z"
+  "lastUpdated": "2026-07-22T10:35:37.336Z"
 }
