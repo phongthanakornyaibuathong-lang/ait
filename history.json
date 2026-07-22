@@ -5,7 +5,7 @@
       "day_th": "23 กรกฎาคม 2569",
       "dateKey": "2026-07-23",
       "savedAt": "2026-07-23T00:00:00.000Z",
-      "modifiedAt": "2026-07-22T10:44:02.600Z",
+      "modifiedAt": "2026-07-22T10:42:30.383Z",
       "teams": [
         {
           "id": 1,
@@ -76,7 +76,7 @@
           "jobNo": "Job No JB260183",
           "depart": "07:00",
           "arrive": "09:00",
-          "members": "นาย, ป๋อ, เอิร์ก",
+          "members": "ป๋อ, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Tool Robot",
           "contact": "",
@@ -122,23 +122,23 @@
         },
         {
           "id": 10,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC",
-          "jobNo": "Job No JB260185,260185",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "ทัช",
+          "members": "",
           "vehicle": "",
           "equipment": "",
-          "contact": "ช่างเดชา"
+          "contact": ""
         }
       ]
     },
     {
       "date": "22/7/2569",
-      "savedAt": "2026-07-22T10:44:03.906Z",
+      "savedAt": "2026-07-22T10:45:49.283Z",
       "dateKey": "2026-07-22",
-      "modifiedAt": "2026-07-22T10:44:03.906Z",
+      "modifiedAt": "2026-07-22T10:45:49.283Z",
       "teams": [
         {
           "id": 1,
@@ -10536,5 +10536,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-22T10:44:03.906Z"
+  "lastUpdated": "2026-07-22T10:45:49.283Z"
 }
