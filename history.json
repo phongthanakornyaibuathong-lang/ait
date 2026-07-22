@@ -5,7 +5,7 @@
       "day_th": "23 กรกฎาคม 2569",
       "dateKey": "2026-07-23",
       "savedAt": "2026-07-23T00:00:00.000Z",
-      "modifiedAt": "2026-07-22T10:39:03.168Z",
+      "modifiedAt": "2026-07-22T10:40:10.251Z",
       "teams": [
         {
           "id": 1,
@@ -112,12 +112,13 @@
           "jobType": "COLD_CUT",
           "site": "Qtech/TOP",
           "jobNo": "Job No JB260188",
-          "depart": "",
-          "arrive": "",
+          "depart": "06:30",
+          "arrive": "08:00",
           "members": "คิง",
           "vehicle": "",
           "equipment": "",
-          "contact": "เจษฎา  062-6216957"
+          "contact": "เจษฎา  062-6216957",
+          "detail": "ไปกับทีม LCN\n"
         },
         {
           "id": 10,
@@ -135,9 +136,9 @@
     },
     {
       "date": "22/7/2569",
-      "savedAt": "2026-07-22T10:39:03.177Z",
+      "savedAt": "2026-07-22T10:40:10.260Z",
       "dateKey": "2026-07-22",
-      "modifiedAt": "2026-07-22T10:39:03.177Z",
+      "modifiedAt": "2026-07-22T10:40:10.260Z",
       "teams": [
         {
           "id": 1,
@@ -10535,5 +10536,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-22T10:39:03.177Z"
+  "lastUpdated": "2026-07-22T10:40:10.260Z"
 }
