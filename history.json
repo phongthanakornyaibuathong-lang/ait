@@ -5,7 +5,7 @@
       "day_th": "24 กรกฎาคม 2569",
       "dateKey": "2026-07-24",
       "savedAt": "2026-07-24T00:00:00.000Z",
-      "modifiedAt": "2026-07-23T07:59:56.234Z",
+      "modifiedAt": "2026-07-23T08:02:24.494Z",
       "teams": [
         {
           "id": 1,
@@ -63,7 +63,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "นัฐ, อองรี, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "",
           "equipment": "Hydraulic torque",
           "contact": "   เกมส์ ยุทธนา  080-8007853"
         },
@@ -117,23 +117,24 @@
         },
         {
           "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No. JB260191 ",
+          "depart": "06:00",
+          "arrive": "08:00",
+          "members": "ทัช, แชมป์, โอม",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.นัทตี้ NPC 098-278-4490",
+          "detail": "1. Torque V-6120 Instrument Air Receiver Platform WASSANA\n2. Torque V-6130 Unit Air Receiver Platform WASSANA \n3. Torque V-5110 FIare K.O Drum Platform WASSANA\n"
         }
       ]
     },
     {
       "date": "23/7/2569",
-      "savedAt": "2026-07-23T07:59:56.244Z",
+      "savedAt": "2026-07-23T08:02:24.503Z",
       "dateKey": "2026-07-23",
-      "modifiedAt": "2026-07-23T07:59:56.244Z",
+      "modifiedAt": "2026-07-23T08:02:24.503Z",
       "teams": [
         {
           "id": 1,
@@ -10664,5 +10665,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-23T07:59:56.244Z"
+  "lastUpdated": "2026-07-23T08:02:24.503Z"
 }
