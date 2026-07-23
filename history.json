@@ -5,7 +5,7 @@
       "day_th": "24 กรกฎาคม 2569",
       "dateKey": "2026-07-24",
       "savedAt": "2026-07-24T00:00:00.000Z",
-      "modifiedAt": "2026-07-23T09:39:12.807Z",
+      "modifiedAt": "2026-07-23T10:43:29.367Z",
       "teams": [
         {
           "id": 1,
@@ -46,24 +46,25 @@
         {
           "id": 4,
           "jobType": "COLD_CUT",
-          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-          "jobNo": "Job No JB260174",
-          "depart": "06:30",
-          "arrive": "08:00",
+          "site": "SCC Workshop มะขามคู่",
+          "jobNo": "Site Survey",
+          "depart": "08:30",
+          "arrive": "09:00",
           "members": "บอย, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 12",
-          "contact": " ติดต่อช่าง โด่ง  (094-7467526)  "
+          "equipment": "",
+          "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 ",
+          "detail": "24\" Sch40, Pipe BE ASME B36.10M smls ASTM A333 GR 6 (Thk = 17 mm**)\nCold Cut\n1. Appox. 15-17 Joint \n2. Cut / Bevel"
         },
         {
           "id": 5,
           "jobType": "BOLT",
           "site": "Thai oil Unit 2200",
           "jobNo": "Job No JB260172",
-          "depart": "06:30",
-          "arrive": "08:00",
+          "depart": "08:30",
+          "arrive": "10:00",
           "members": "นัฐ, อั๋น, อองรี",
-          "vehicle": "",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "Hydraulic torque",
           "contact": "   เกมส์ ยุทธนา  080-8007853",
           "detail": "นำเครื่องมือออก"
@@ -82,15 +83,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-          "equipment": "",
-          "contact": " "
+          "jobType": "BOLT",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No. JB260191 ",
+          "depart": "06:00",
+          "arrive": "08:00",
+          "members": "ทัช, แชมป์, โอม",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": " K.นัทตี้ NPC 098-278-4490",
+          "detail": "1. Torque V-6120 Instrument Air Receiver Platform WASSANA\n2. Torque V-6130 Unit Air Receiver Platform WASSANA \n3. Torque V-5110 FIare K.O Drum Platform WASSANA\n"
         },
         {
           "id": 8,
@@ -118,24 +120,24 @@
         },
         {
           "id": 10,
-          "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No. JB260191 ",
-          "depart": "06:00",
-          "arrive": "08:00",
-          "members": "ทัช, แชมป์, โอม",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.นัทตี้ NPC 098-278-4490",
-          "detail": "1. Torque V-6120 Instrument Air Receiver Platform WASSANA\n2. Torque V-6130 Unit Air Receiver Platform WASSANA \n3. Torque V-5110 FIare K.O Drum Platform WASSANA\n"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "",
+          "detail": "\n"
         }
       ]
     },
     {
       "date": "23/7/2569",
-      "savedAt": "2026-07-23T10:40:30.622Z",
+      "savedAt": "2026-07-23T10:43:30.295Z",
       "dateKey": "2026-07-23",
-      "modifiedAt": "2026-07-23T10:40:30.622Z",
+      "modifiedAt": "2026-07-23T10:43:30.295Z",
       "teams": [
         {
           "id": 1,
@@ -10666,5 +10668,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-23T10:40:30.622Z"
+  "lastUpdated": "2026-07-23T10:43:30.295Z"
 }
