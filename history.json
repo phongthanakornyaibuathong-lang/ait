@@ -5,7 +5,7 @@
       "day_th": "24 กรกฎาคม 2569",
       "dateKey": "2026-07-24",
       "savedAt": "2026-07-24T00:00:00.000Z",
-      "modifiedAt": "2026-07-23T09:37:01.660Z",
+      "modifiedAt": "2026-07-23T09:39:12.807Z",
       "teams": [
         {
           "id": 1,
@@ -50,7 +50,7 @@
           "jobNo": "Job No JB260174",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย",
+          "members": "บอย, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 12",
           "contact": " ติดต่อช่าง โด่ง  (094-7467526)  "
@@ -62,10 +62,11 @@
           "jobNo": "Job No JB260172",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "นัฐ, อองรี, ต้าร์",
+          "members": "นัฐ, อั๋น, อองรี",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": "   เกมส์ ยุทธนา  080-8007853"
+          "contact": "   เกมส์ ยุทธนา  080-8007853",
+          "detail": "นำเครื่องมือออก"
         },
         {
           "id": 6,
@@ -81,15 +82,15 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "Thai oil Unit 2200",
-          "jobNo": "Job No JB260172",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "อั๋น, คิว",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-          "equipment": "Hydraulic torque",
-          "contact": " เกมส์ ยุทธนา  080-8007853"
+          "equipment": "",
+          "contact": " "
         },
         {
           "id": 8,
@@ -132,9 +133,9 @@
     },
     {
       "date": "23/7/2569",
-      "savedAt": "2026-07-23T09:37:02.566Z",
+      "savedAt": "2026-07-23T09:39:12.818Z",
       "dateKey": "2026-07-23",
-      "modifiedAt": "2026-07-23T09:37:02.566Z",
+      "modifiedAt": "2026-07-23T09:39:12.818Z",
       "teams": [
         {
           "id": 1,
@@ -10665,5 +10666,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-23T09:37:02.566Z"
+  "lastUpdated": "2026-07-23T09:39:12.818Z"
 }
