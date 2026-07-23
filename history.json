@@ -5,7 +5,7 @@
       "day_th": "24 กรกฎาคม 2569",
       "dateKey": "2026-07-24",
       "savedAt": "2026-07-24T00:00:00.000Z",
-      "modifiedAt": "2026-07-23T09:41:17.937Z",
+      "modifiedAt": "2026-07-23T09:41:56.280Z",
       "teams": [
         {
           "id": 1,
@@ -119,24 +119,24 @@
         },
         {
           "id": 10,
-          "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No. JB260191 ",
-          "depart": "06:00",
-          "arrive": "08:00",
-          "members": "ทัช, แชมป์, โอม",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.นัทตี้ NPC 098-278-4490",
-          "detail": "1. Torque V-6120 Instrument Air Receiver Platform WASSANA\n2. Torque V-6130 Unit Air Receiver Platform WASSANA \n3. Torque V-5110 FIare K.O Drum Platform WASSANA\n"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "",
+          "detail": "\n"
         }
       ]
     },
     {
       "date": "23/7/2569",
-      "savedAt": "2026-07-23T09:41:18.773Z",
+      "savedAt": "2026-07-23T09:41:56.290Z",
       "dateKey": "2026-07-23",
-      "modifiedAt": "2026-07-23T09:41:18.773Z",
+      "modifiedAt": "2026-07-23T09:41:56.290Z",
       "teams": [
         {
           "id": 1,
@@ -10667,5 +10667,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-23T09:41:18.773Z"
+  "lastUpdated": "2026-07-23T09:41:56.290Z"
 }
