@@ -43,7 +43,7 @@
       "jobNo": "Job No JB260174",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "บอย, ฟีล์ม, ต้าร์",
+      "members": "บอย, ฟีล์ม",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 12",
       "contact": " ติดต่อช่าง โด่ง  (094-7467526)  ",
@@ -52,28 +52,28 @@
     {
       "id": 5,
       "jobType": "BOLT",
-      "site": "มาเยกาว่า / GC ME Workshop",
-      "jobNo": "Job No JB260178",
-      "depart": "07:00",
+      "site": "Thai oil Unit 2200",
+      "jobNo": "Job No JB260172",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "นัฐ, อองรี",
+      "members": "นัฐ, อองรี, ต้าร์",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "Hydraulic torque",
-      "contact": "   K.เขมินท์  095-8040434",
-      "detail": "Torque bolt Head Cap screw \nM24 750Nm ประแจแอล 19 mm\n|M30 1,600Nm ประแจแอล 22 mm"
+      "contact": "   เกมส์ ยุทธนา  080-8007853",
+      "detail": " Torque bolt Manhole 24\" manhole C-2202"
     },
     {
       "id": 6,
-      "jobType": "TRAINING",
-      "site": "Mars Pet Care (Nakhon Ratchasima)",
-      "jobNo": "Job No JB260182",
-      "depart": "",
-      "arrive": "",
+      "jobType": "ROBOT",
+      "site": "Thai Summit Banpho (Chachoengsao)",
+      "jobNo": "Job No JB260183",
+      "depart": "07:00",
+      "arrive": "09:00",
       "members": "ป๋อ, เอิร์ก",
-      "vehicle": "",
-      "equipment": "",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Tool Robot",
       "contact": "",
-      "detail": "Safety training\nเดินทางเย็น 21/7/2026 ใช้รถ น้อง เอิร์ก\n"
+      "detail": "งาน Robot Replace axis 1 IRB6660"
     },
     {
       "id": 7,
@@ -83,36 +83,35 @@
       "depart": "06:30",
       "arrive": "08:00",
       "members": "แชมป์, อั๋น, คิว",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "Hydraulic torque",
       "contact": " เกมส์ ยุทธนา  080-8007853",
-      "detail": "24\"x300# Transfer line 1 จุด\n24\"x150# manhole C-2202 2 จุด"
+      "detail": " Torque bolt Manhole 24\" manhole C-2202"
     },
     {
       "id": 8,
       "jobType": "TRAINING",
-      "site": "AITs work shop ระยอง",
+      "site": "INSEE / MOG",
       "jobNo": "Job No. JB260187",
       "depart": "06:30",
       "arrive": "08:00",
       "members": "ทาม",
       "vehicle": "",
       "equipment": "",
-      "contact": "ช่าง พรเทพ  065-9494555",
-      "detail": "Train Offshore Sea Survival MOG"
+      "contact": "ช่าง พรเทพ  065-9494555"
     },
     {
       "id": 9,
       "jobType": "COLD_CUT",
       "site": "Qtech/TOP",
       "jobNo": "Job No JB260188",
-      "depart": "",
-      "arrive": "",
+      "depart": "06:30",
+      "arrive": "08:00",
       "members": "คิง",
       "vehicle": "",
       "equipment": "",
       "contact": "เจษฎา  062-6216957",
-      "detail": " งาน เจาะท่อ \n\nไปกับรถ บ. LCN"
+      "detail": "ไปกับทีม LCN\n"
     },
     {
       "id": 10,
@@ -127,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-22T10:45:49.283Z",
+  "lastUpdated": "2026-07-23T07:56:46.565Z",
   "updatedBy": "Nine",
-  "date": "22/7/2569"
+  "date": "23/7/2569"
 }
