@@ -5,7 +5,7 @@
       "day_th": "25 กรกฎาคม 2569",
       "dateKey": "2026-07-25",
       "savedAt": "2026-07-25T00:00:00.000Z",
-      "modifiedAt": "2026-07-24T10:09:35.426Z",
+      "modifiedAt": "2026-07-24T10:11:41.848Z",
       "teams": [
         {
           "id": 1,
@@ -69,15 +69,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "COLD_CUT",
+          "site": "Qtech/TOP",
+          "jobNo": "Job No JB260188",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "คิง",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "เจษฎา  062-6216957",
+          "detail": "เดินทางไปกับทีม LCN"
         },
         {
           "id": 7,
@@ -131,9 +132,9 @@
     },
     {
       "date": "24/7/2569",
-      "savedAt": "2026-07-24T10:09:36.320Z",
+      "savedAt": "2026-07-24T10:11:41.862Z",
       "dateKey": "2026-07-24",
-      "modifiedAt": "2026-07-24T10:09:36.320Z",
+      "modifiedAt": "2026-07-24T10:11:41.862Z",
       "teams": [
         {
           "id": 1,
@@ -10796,5 +10797,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-24T10:09:36.320Z"
+  "lastUpdated": "2026-07-24T10:11:41.862Z"
 }
