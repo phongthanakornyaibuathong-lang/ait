@@ -5,7 +5,7 @@
       "day_th": "25 กรกฎาคม 2569",
       "dateKey": "2026-07-25",
       "savedAt": "2026-07-25T00:00:00.000Z",
-      "modifiedAt": "2026-07-24T10:07:41.478Z",
+      "modifiedAt": "2026-07-24T10:09:11.425Z",
       "teams": [
         {
           "id": 1,
@@ -57,15 +57,15 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "TRAINING",
+          "site": "INSEE / MOG",
+          "jobNo": "Job No. JB260187",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม",
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-          "equipment": "Hydraulic torque",
-          "contact": "   "
+          "equipment": "",
+          "contact": "   ช่าง พรเทพ  065-9494555"
         },
         {
           "id": 6,
@@ -131,9 +131,9 @@
     },
     {
       "date": "24/7/2569",
-      "savedAt": "2026-07-24T10:07:42.419Z",
+      "savedAt": "2026-07-24T10:09:11.440Z",
       "dateKey": "2026-07-24",
-      "modifiedAt": "2026-07-24T10:07:42.419Z",
+      "modifiedAt": "2026-07-24T10:09:11.440Z",
       "teams": [
         {
           "id": 1,
@@ -10796,5 +10796,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-24T10:07:42.419Z"
+  "lastUpdated": "2026-07-24T10:09:11.440Z"
 }
