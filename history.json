@@ -5,7 +5,7 @@
       "day_th": "25 กรกฎาคม 2569",
       "dateKey": "2026-07-25",
       "savedAt": "2026-07-25T00:00:00.000Z",
-      "modifiedAt": "2026-07-24T10:04:34.975Z",
+      "modifiedAt": "2026-07-24T10:06:02.632Z",
       "teams": [
         {
           "id": 1,
@@ -69,14 +69,14 @@
         },
         {
           "id": 6,
-          "jobType": "ROBOT",
-          "site": "Thai Summit Eastern (Rayong)",
-          "jobNo": "Job No JB260184",
-          "depart": "07:00",
-          "arrive": "09:00",
-          "members": "นาย, ป๋อ, เอิร์ก",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Tool Robot",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": ""
         },
         {
@@ -131,9 +131,9 @@
     },
     {
       "date": "24/7/2569",
-      "savedAt": "2026-07-24T10:04:34.987Z",
+      "savedAt": "2026-07-24T10:06:02.639Z",
       "dateKey": "2026-07-24",
-      "modifiedAt": "2026-07-24T10:04:34.987Z",
+      "modifiedAt": "2026-07-24T10:06:02.639Z",
       "teams": [
         {
           "id": 1,
@@ -10796,5 +10796,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-24T10:04:34.987Z"
+  "lastUpdated": "2026-07-24T10:06:02.639Z"
 }
