@@ -29,16 +29,6 @@
       "id": "STANDBY",
       "label": "STANDBY",
       "color": "#636366"
-    },
-    {
-      "id": "SICK",
-      "label": "ลาป่วย",
-      "color": "#FF453A"
-    },
-    {
-      "id": "PERSONAL",
-      "label": "ลากิจ",
-      "color": "#FF9F0A"
     }
   ],
   "personnel": [
@@ -837,14 +827,6 @@
     "มาเยกาว่า / GC ME Workshop",
     "INSEE / MOG",
     "Mars Pet Care (Nakhon Ratchasima)",
-    "M",
-    "I",
-    "MO",
-    "MOG",
-    "N",
-    "S",
-    "SS",
-    "SCC Work shop มะขามคู่",
     "SCC Workshop มะขามคู่",
     "Thai Summit Eastern (Rayong)"
   ],
@@ -1337,12 +1319,20 @@
       "note": "พ่อเสีย"
     },
     {
-      "id": "lv1785059466628677",
-      "person": "ไอซ์",
+      "id": "lv1785059590883649",
+      "person": "กรานต์",
       "type": "ลาป่วย",
       "date": "2026-07-27",
-      "dateEnd": "2026-08-16",
-      "note": "อุบัติเหตุ ข้อเท้าหัก"
+      "dateEnd": "",
+      "note": ""
+    },
+    {
+      "id": "lv1785059662863679",
+      "person": "เป้",
+      "type": "สลับวันหยุด",
+      "date": "2026-07-27",
+      "dateEnd": "2026-07-27",
+      "note": "อบรมปฐมพยาบาล 2/8/26"
     }
   ]
 }
