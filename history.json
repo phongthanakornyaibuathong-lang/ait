@@ -5,7 +5,7 @@
       "day_th": "27 กรกฎาคม 2569",
       "dateKey": "2026-07-27",
       "savedAt": "2026-07-27T00:00:00.000Z",
-      "modifiedAt": "2026-07-26T10:08:36.367Z",
+      "modifiedAt": "2026-07-26T10:12:47.053Z",
       "teams": [
         {
           "id": 1,
@@ -35,14 +35,15 @@
         {
           "id": 3,
           "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260175",
-          "depart": "06:00",
+          "site": "SCC Workshop มะขามคู่",
+          "jobNo": "Job No JB260190",
+          "depart": "07:00",
           "arrive": "07:30",
-          "members": "บิ๊ก, บีม, เฟิร์ส",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "MM 300 E",
-          "contact": "ช่าง ฉัตรชัย (ท๊อป)  093-3349527  "
+          "members": "บอย, อั๋น, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 24",
+          "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 ",
+          "detail": "24\" Sch40, Pipe BE ASME B36.10M smls ASTM A333 GR 6 (Thk = 17 mm**)"
         },
         {
           "id": 4,
@@ -132,9 +133,9 @@
     },
     {
       "date": "26/7/2569",
-      "savedAt": "2026-07-26T10:08:36.381Z",
+      "savedAt": "2026-07-26T10:12:47.069Z",
       "dateKey": "2026-07-26",
-      "modifiedAt": "2026-07-26T10:08:36.381Z",
+      "modifiedAt": "2026-07-26T10:12:47.069Z",
       "teams": [
         {
           "id": 1,
@@ -11072,5 +11073,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-26T10:08:36.381Z"
+  "lastUpdated": "2026-07-26T10:12:47.069Z"
 }
