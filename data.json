@@ -10,8 +10,7 @@
       "members": "ทัช, คิง, โอม",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "Hydraulic torque",
-      "contact": " K.นัทตี้ NPC 098-278-4490 ",
-      "detail": "1. Torque V-3230 Water Degassing drum  Platform WASSANA"
+      "contact": " K.นัทตี้ NPC 098-278-4490 "
     },
     {
       "id": 2,
@@ -35,8 +34,7 @@
       "members": "บอย, อั๋น, ต้าร์",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 24",
-      "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 ",
-      "detail": "24\" Sch40, Pipe BE ASME B36.10M smls ASTM A333 GR 6 (Thk = 17 mm**)"
+      "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 "
     },
     {
       "id": 4,
@@ -123,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-27T15:37:33.681Z",
+  "lastUpdated": "2026-07-29T10:00:09.825Z",
   "updatedBy": "Nine",
-  "date": "27/7/2569"
+  "date": "29/7/2569"
 }
