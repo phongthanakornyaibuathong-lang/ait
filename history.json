@@ -5,7 +5,7 @@
       "day_th": "30 กรกฎาคม 2569",
       "dateKey": "2026-07-30",
       "savedAt": "2026-07-30T00:00:00.000Z",
-      "modifiedAt": "2026-07-29T10:10:08.198Z",
+      "modifiedAt": "2026-07-29T10:13:59.622Z",
       "teams": [
         {
           "id": 1,
@@ -57,15 +57,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "INSEE/โรงแรมโกลเด้นชิตี้ ระยอง",
+          "jobNo": "Job No JB260187",
+          "depart": "08:00",
+          "arrive": "08:30",
+          "members": "ทาม",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "อบรมกับทาง INSEE"
         },
         {
           "id": 6,
@@ -131,9 +132,9 @@
     },
     {
       "date": "29/7/2569",
-      "savedAt": "2026-07-29T10:10:09.661Z",
+      "savedAt": "2026-07-29T10:13:59.652Z",
       "dateKey": "2026-07-29",
-      "modifiedAt": "2026-07-29T10:10:09.661Z",
+      "modifiedAt": "2026-07-29T10:13:59.652Z",
       "teams": [
         {
           "id": 1,
@@ -11458,5 +11459,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-29T10:10:09.661Z"
+  "lastUpdated": "2026-07-29T10:13:59.652Z"
 }
