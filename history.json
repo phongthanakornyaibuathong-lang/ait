@@ -134,7 +134,7 @@
       "day_th": "31 กรกฎาคม 2569",
       "dateKey": "2026-07-31",
       "savedAt": "2026-07-31T00:00:00.000Z",
-      "modifiedAt": "2026-07-30T07:45:21.411Z",
+      "modifiedAt": "2026-07-30T06:47:51.777Z",
       "teams": [
         {
           "id": 1,
@@ -196,7 +196,7 @@
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "",
           "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-          "detail": "อบรมกับทีม INSEE \nWorkshop INSEE"
+          "detail": "อบรมกับทีม INSEE"
         },
         {
           "id": 6,
@@ -262,9 +262,9 @@
     },
     {
       "date": "30/7/2569",
-      "savedAt": "2026-07-30T07:45:21.426Z",
+      "savedAt": "2026-07-30T07:46:41.421Z",
       "dateKey": "2026-07-30",
-      "modifiedAt": "2026-07-30T07:45:21.426Z",
+      "modifiedAt": "2026-07-30T07:46:41.421Z",
       "teams": [
         {
           "id": 1,
@@ -389,14 +389,15 @@
       ]
     },
     {
-      "date": "29/7/2569",
-      "savedAt": "2026-07-29T10:16:40.409Z",
+      "date": "29 กรกฎาคม 2569",
+      "day_th": "29 กรกฎาคม 2569",
       "dateKey": "2026-07-29",
-      "modifiedAt": "2026-07-29T10:16:40.409Z",
+      "savedAt": "2026-07-29T00:00:00.000Z",
+      "modifiedAt": "2026-07-30T07:46:41.415Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "NPC / TNS บางปะกง",
           "jobNo": "Job JB260192",
           "depart": "06:00",
@@ -408,7 +409,7 @@
         },
         {
           "id": 2,
-          "jobType": "FLANGE",
+          "jobType": "STANDBY",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "JB260193 Lot.11",
           "depart": "06:30",
@@ -420,7 +421,7 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
+          "jobType": "STANDBY",
           "site": "SCC Workshop มะขามคู่",
           "jobNo": "Job No JB260190",
           "depart": "07:00",
@@ -11717,5 +11718,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-30T07:45:21.426Z"
+  "lastUpdated": "2026-07-30T07:46:41.421Z"
 }
