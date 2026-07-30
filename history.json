@@ -262,9 +262,9 @@
     },
     {
       "date": "30/7/2569",
-      "savedAt": "2026-07-30T07:46:41.421Z",
+      "savedAt": "2026-07-30T07:46:57.838Z",
       "dateKey": "2026-07-30",
-      "modifiedAt": "2026-07-30T07:46:41.421Z",
+      "modifiedAt": "2026-07-30T07:46:57.838Z",
       "teams": [
         {
           "id": 1,
@@ -522,11 +522,11 @@
       "day_th": "28 กรกฎาคม 2569",
       "dateKey": "2026-07-28",
       "savedAt": "2026-07-28T00:00:00.000Z",
-      "modifiedAt": "2026-07-27T15:37:17.495Z",
+      "modifiedAt": "2026-07-30T07:46:57.833Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "NPC / TNS บางปะกง",
           "jobNo": "Job JB260192",
           "depart": "06:00",
@@ -538,7 +538,7 @@
         },
         {
           "id": 2,
-          "jobType": "FLANGE",
+          "jobType": "STANDBY",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "JB260193 Lot.11",
           "depart": "06:30",
@@ -550,7 +550,7 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
+          "jobType": "STANDBY",
           "site": "SCC Workshop มะขามคู่",
           "jobNo": "Job No JB260190",
           "depart": "07:00",
@@ -11718,5 +11718,5 @@
       "dateKey": "2026-05-01"
     }
   ],
-  "lastUpdated": "2026-07-30T07:46:41.421Z"
+  "lastUpdated": "2026-07-30T07:46:57.838Z"
 }
