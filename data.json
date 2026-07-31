@@ -7,7 +7,7 @@
       "jobNo": "Job JB260194 Lot 4",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "คิง, โอ๊ด, คิว",
+      "members": "เป้, คิง, โอ๊ด",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TTFF-40",
       "contact": "ช่าง โตโต้ 092-3974539 "
@@ -31,10 +31,11 @@
       "jobNo": "Job No JB260190",
       "depart": "07:00",
       "arrive": "07:30",
-      "members": "บอย, อั๋น, ฟีล์ม",
+      "members": "บอย, อั๋น, ต้าร์",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 24",
-      "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 "
+      "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 ",
+      "detail": "24\" Sch40, Pipe BE ASME B36.10M smls ASTM A333 GR 6 (Thk = 17 mm**)"
     },
     {
       "id": 4,
@@ -43,7 +44,7 @@
       "jobNo": "Job JB260194 Lot 4",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บิ๊ก, เฟิร์ส",
+      "members": "บิ๊ก, บีม, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TOFF-12 ",
       "contact": "ช่าง โตโต้ 092-3974539 "
@@ -51,14 +52,15 @@
     {
       "id": 5,
       "jobType": "TRAINING",
-      "site": "INSEE/โรงแรมโกลเด้นชิตี้ ระยอง",
+      "site": "INSEE",
       "jobNo": "Job No JB260187",
-      "depart": "08:00",
-      "arrive": "08:30",
+      "depart": "07:00",
+      "arrive": "08:00",
       "members": "ทาม",
       "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+      "detail": "อบรมกับทีม INSEE"
     },
     {
       "id": 6,
@@ -121,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-07-30T10:19:46.847Z",
+  "lastUpdated": "2026-07-31T10:29:11.308Z",
   "updatedBy": "Nine",
-  "date": "30/7/2569"
+  "date": "31/7/2569"
 }
