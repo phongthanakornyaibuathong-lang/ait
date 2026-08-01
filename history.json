@@ -134,59 +134,60 @@
       "day_th": "2 สิงหาคม 2569",
       "dateKey": "2026-08-02",
       "savedAt": "2026-08-02T00:00:00.000Z",
-      "modifiedAt": "2026-08-01T09:57:59.397Z",
+      "modifiedAt": "2026-08-01T10:13:40.554Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260194 Lot 4",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "คิง, โอ๊ด, คิว",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โตโต้ 092-3974539 "
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "อบรมปฐมพยาบาลเองต้น",
+          "depart": "08:30",
+          "arrive": "16:00",
+          "members": "กรานต์, เป้, คิง, ฟีล์ม, โอ๊ด, โอม, ป๋อ, อองรี, คิว, บีม, รถ, เอิร์ก, เฟิร์ส, นัฐ, อั๋น, ต้าร์, ปลาย",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-",
+          "detail": "พี่วัฒ , พี่ส้ม , จ๋า , พลอย , ปอเปี๊ยะ , พี่ฝน , พี่จั้ม , พี่กุ๊ก , เนย , พี่แหม่ม \n\nอบรมปฐมพยาบาลเองต้น"
         },
         {
           "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260193 Lot.11",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย, โอม",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
-          "site": "SCC Workshop มะขามคู่",
-          "jobNo": "Job No JB260190",
-          "depart": "07:00",
-          "arrive": "07:30",
-          "members": "บอย, ฟีล์ม, ต้าร์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 24",
-          "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 "
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260194 Lot 4",
-          "depart": "08:30",
-          "arrive": "10:00",
-          "members": "เป้, บีม, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "ช่าง โตโต้ 092-3974539 "
+          "contact": ""
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
+          "jobType": "STANDBY",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -260,9 +261,9 @@
     },
     {
       "date": "1/8/2569",
-      "savedAt": "2026-08-01T09:58:07.610Z",
+      "savedAt": "2026-08-01T10:13:40.564Z",
       "dateKey": "2026-08-01",
-      "modifiedAt": "2026-08-01T09:58:07.610Z",
+      "modifiedAt": "2026-08-01T10:13:40.564Z",
       "teams": [
         {
           "id": 1,
@@ -11718,5 +11719,5 @@
       "dateKey": "2026-05-03"
     }
   ],
-  "lastUpdated": "2026-08-01T09:58:07.610Z"
+  "lastUpdated": "2026-08-01T10:13:40.564Z"
 }
