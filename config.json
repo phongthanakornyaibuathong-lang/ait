@@ -739,10 +739,6 @@
     {
       "id": "5",
       "label": "ผบ 7869 (แค็บบรรทุก)"
-    },
-    {
-      "id": "ผข 6821",
-      "label": "ผข 6821  กระบะแค๊บ รถเช่า"
     }
   ],
   "equipment": [
@@ -789,6 +785,14 @@
     {
       "id": "Pump",
       "label": "Hydraulic torque"
+    },
+    {
+      "id": "MM 305 I",
+      "label": "MM 305 I"
+    },
+    {
+      "id": "Tension",
+      "label": "Hydraulic bolt tension"
     }
   ],
   "sites": [
