@@ -2,40 +2,40 @@
   "teams": [
     {
       "id": 1,
-      "jobType": "TRAINING",
-      "site": "AITs work shop ระยอง",
-      "jobNo": "อบรมปฐมพยาบาลเองต้น",
-      "depart": "08:30",
-      "arrive": "16:00",
-      "members": "กรานต์, เป้, คิง, ฟีล์ม, โอ๊ด, โอม, ป๋อ, อองรี, คิว, บีม, รถ, เอิร์ก, เฟิร์ส, นัฐ, อั๋น, ต้าร์, ปลาย",
-      "vehicle": "",
-      "equipment": "",
-      "contact": "-",
-      "detail": "พี่วัฒ , พี่ส้ม , จ๋า , พลอย , ปอเปี๊ยะ , พี่ฝน , พี่จั้ม , พี่กุ๊ก , เนย , พี่แหม่ม \n\nอบรมปฐมพยาบาลเองต้น"
+      "jobType": "BOLT",
+      "site": "UCS ศรีราชา (Thaioil CFP site)",
+      "jobNo": "Job JB260197 Lot 5",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "คิง, โอ๊ด, คิว",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TTFF-40",
+      "contact": "ช่าง โตโต้ 092-3974539 "
     },
     {
       "id": 2,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
+      "jobType": "FLANGE",
+      "site": "SCC Work Shop ศรีราชา",
+      "jobNo": "JB260196 Lot.12",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "กาน(นำ), ปลาย, โอม",
       "vehicle": "2ฒษ 2857 (แครี่บอย)",
-      "equipment": "",
-      "contact": ""
+      "equipment": "TTFF-24 (New)",
+      "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
     },
     {
       "id": 3,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260195",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "บอย, ทาม, ต้าร์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "MM 305I",
+      "contact": " ติดต่อช่าง โด่ง   094-7467526  ",
+      "detail": "Machine RTJ Flange 6\" 2500# Zone 1"
     },
     {
       "id": 4,
@@ -122,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-02T10:33:28.579Z",
+  "lastUpdated": "2026-08-03T08:18:18.840Z",
   "updatedBy": "Nine",
-  "date": "2/8/2569"
+  "date": "3/8/2569"
 }
