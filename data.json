@@ -7,7 +7,7 @@
       "jobNo": "Job JB260197 Lot 5  ทีม 1",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "เป้, โอ๊ด, คิว",
+      "members": "ทาม, โอ๊ด, คิว",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TTFF-40",
       "contact": "ช่าง โตโต้ 092-3974539 "
@@ -31,7 +31,7 @@
       "jobNo": "Job JB260197 Lot 5  ทีม 2",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บิ๊ก, บีม, เฟิร์ส",
+      "members": "บิ๊ก, บีม, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TOFF-12",
       "contact": "ช่าง โตโต้ 092-3974539  "
@@ -43,11 +43,10 @@
       "jobNo": "Job No JB260199",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "อั๋น, คิง, ฟีล์ม",
+      "members": "อั๋น, คิง, เอิร์ก",
       "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "TSF 24",
-      "contact": "",
-      "detail": "Cutting & Bevel Pipe 20\" TKH 50 mm.  2 Joint  "
+      "contact": ""
     },
     {
       "id": 5,
@@ -56,23 +55,23 @@
       "jobNo": "Job No JB260195",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "บอย, ทาม, ต้าร์",
+      "members": "บอย, โอม, ต้าร์",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TTFF-24 (New)",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Machine RTJ Flange 8\", 10\" 2500# "
+      "contact": "ติดต่อช่าง โด่ง  094-7467526"
     },
     {
       "id": 6,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "BOLT",
+      "site": "MMM Group Supply & Services",
+      "jobNo": "Job NoJB260201",
+      "depart": "08:30",
+      "arrive": "09:00",
+      "members": "เป้, แชมป์, ป๋อ",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": "ติดต่อ คุณ มานะ  061-7787945",
+      "detail": "Torque bolt flange 12\"x600#"
     },
     {
       "id": 7,
@@ -123,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-04T11:33:14.946Z",
+  "lastUpdated": "2026-08-05T10:46:45.158Z",
   "updatedBy": "Nine",
-  "date": "4/8/2569"
+  "date": "5/8/2569"
 }
