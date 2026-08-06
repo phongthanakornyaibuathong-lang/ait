@@ -5,7 +5,7 @@
       "day_th": "7 สิงหาคม 2569",
       "dateKey": "2026-08-07",
       "savedAt": "2026-08-07T00:00:00.000Z",
-      "modifiedAt": "2026-08-06T11:10:26.111Z",
+      "modifiedAt": "2026-08-06T11:13:11.525Z",
       "teams": [
         {
           "id": 1,
@@ -71,14 +71,15 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Site survey",
-          "depart": "",
-          "arrive": "13:00",
-          "members": "เป้, ป๋อ",
+          "site": "NPC / TNS บางปะกง",
+          "jobNo": "Job No. JB260202",
+          "depart": "06:00",
+          "arrive": "08:00",
+          "members": "แชมป์, ทัช, ป๋อ",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "พี่ น้อง ประสิทธิชัย  084-5707207"
+          "contact": " K.นัทตี้ NPC 098-278-4490",
+          "detail": "1. Toque Crane  Platform WASSANA S/N : TH20525  Stud 1-1/4\"  Nut AF 1-7/8\"(48mm. = 48 Ea )\n2. Closed Drain Vessel Platform WASSANA V-5510  24\"x150# Stud 1-1/4\"  Nut AF 50 mm."
         },
         {
           "id": 7,
@@ -132,9 +133,9 @@
     },
     {
       "date": "6/8/2569",
-      "savedAt": "2026-08-06T11:10:26.821Z",
+      "savedAt": "2026-08-06T11:13:11.540Z",
       "dateKey": "2026-08-06",
-      "modifiedAt": "2026-08-06T11:10:26.821Z",
+      "modifiedAt": "2026-08-06T11:13:11.540Z",
       "teams": [
         {
           "id": 1,
@@ -11721,5 +11722,5 @@
       "dateKey": "2026-05-07"
     }
   ],
-  "lastUpdated": "2026-08-06T11:10:26.821Z"
+  "lastUpdated": "2026-08-06T11:13:11.540Z"
 }
