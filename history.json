@@ -5,7 +5,7 @@
       "day_th": "7 สิงหาคม 2569",
       "dateKey": "2026-08-07",
       "savedAt": "2026-08-07T00:00:00.000Z",
-      "modifiedAt": "2026-08-06T11:20:55.538Z",
+      "modifiedAt": "2026-08-06T11:16:45.098Z",
       "teams": [
         {
           "id": 1,
@@ -38,7 +38,7 @@
           "jobNo": "Job JB260197 Lot 5  ทีม 2",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, โอ๊ด, อองรี",
+          "members": "บิ๊ก, อองรี, โอ๊ด",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TOFF-12",
           "contact": "ช่าง โตโต้ 092-3974539  "
@@ -96,16 +96,15 @@
         },
         {
           "id": 8,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260195",
-          "depart": "07:00",
-          "arrive": "08:30",
-          "members": "กรานต์",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "",
-          "equipment": "เครื่องมือวัด RTJ",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
-          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood \nRTJ Flange 6\" 2500# Zone 1"
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -135,9 +134,9 @@
     },
     {
       "date": "6/8/2569",
-      "savedAt": "2026-08-06T11:20:55.553Z",
+      "savedAt": "2026-08-06T11:22:32.624Z",
       "dateKey": "2026-08-06",
-      "modifiedAt": "2026-08-06T11:20:55.553Z",
+      "modifiedAt": "2026-08-06T11:22:32.624Z",
       "teams": [
         {
           "id": 1,
@@ -11724,5 +11723,5 @@
       "dateKey": "2026-05-07"
     }
   ],
-  "lastUpdated": "2026-08-06T11:20:55.553Z"
+  "lastUpdated": "2026-08-06T11:22:32.624Z"
 }
