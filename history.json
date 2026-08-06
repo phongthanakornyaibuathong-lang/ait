@@ -5,7 +5,7 @@
       "day_th": "7 สิงหาคม 2569",
       "dateKey": "2026-08-07",
       "savedAt": "2026-08-07T00:00:00.000Z",
-      "modifiedAt": "2026-08-06T11:16:45.098Z",
+      "modifiedAt": "2026-08-06T11:28:37.164Z",
       "teams": [
         {
           "id": 1,
@@ -15,7 +15,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "ทาม, คิว",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "MM 300 E",
           "contact": "ช่าง โตโต้ 092-3974539 "
         },
@@ -38,7 +38,7 @@
           "jobNo": "Job JB260197 Lot 5  ทีม 2",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "บิ๊ก, อองรี, โอ๊ด",
+          "members": "เป้, โอ๊ด, อองรี",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TOFF-12",
           "contact": "ช่าง โตโต้ 092-3974539  "
@@ -89,22 +89,23 @@
           "depart": "06:00",
           "arrive": "08:00",
           "members": "นัฐ, อั๋น, บีม",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "",
           "contact": "K.นัทตี้ NPC 098-278-4490",
-          "detail": "อบรมความปลอดภัย ทำบัตร เข้าทำงาน"
+          "detail": "อบรมความปลอดภัย ทำบัตร เข้าทำงาน\nอบรมเสร็จเข้า ช่วยงานทีม Torque "
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260195",
+          "depart": "07:00",
+          "arrive": "08:30",
+          "members": "กรานต์",
           "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "equipment": "เครื่องมือวัด RTJ",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
+          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood \nRTJ Flange 6\" 2500# Zone 1 "
         },
         {
           "id": 9,
@@ -134,9 +135,9 @@
     },
     {
       "date": "6/8/2569",
-      "savedAt": "2026-08-06T11:23:32.887Z",
+      "savedAt": "2026-08-06T11:28:37.189Z",
       "dateKey": "2026-08-06",
-      "modifiedAt": "2026-08-06T11:23:32.887Z",
+      "modifiedAt": "2026-08-06T11:28:37.189Z",
       "teams": [
         {
           "id": 1,
@@ -11723,5 +11724,5 @@
       "dateKey": "2026-05-07"
     }
   ],
-  "lastUpdated": "2026-08-06T11:23:32.887Z"
+  "lastUpdated": "2026-08-06T11:28:37.189Z"
 }
