@@ -43,7 +43,7 @@
       "jobNo": "Job No JB260199",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "อั๋น, คิง, เอิร์ก",
+      "members": "อั๋น, คิง, ฟีล์ม",
       "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "TSF 24",
       "contact": ""
@@ -63,27 +63,28 @@
     {
       "id": 6,
       "jobType": "BOLT",
-      "site": "MMM Group Supply & Services",
-      "jobNo": "Job NoJB260201",
-      "depart": "08:30",
-      "arrive": "09:00",
-      "members": "เป้, แชมป์, ป๋อ",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Site survey",
+      "depart": "",
+      "arrive": "13:00",
+      "members": "เป้, ป๋อ",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "Hydraulic torque",
-      "contact": "ติดต่อ คุณ มานะ  061-7787945",
-      "detail": "Torque bolt flange 12\"x600#"
+      "contact": "พี่ น้อง ประสิทธิชัย  084-5707207",
+      "detail": "Site Survey Bolt tension Flange 24\"x1500# "
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
+      "jobType": "BOLT",
+      "site": "Shino thai  ศรีราชา Area 17",
+      "jobNo": "ขนย้ายตู้ ออฟฟิศไปลง Area 17",
+      "depart": "08:30",
       "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "members": "เป้, ป๋อ",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "",
-      "contact": ""
+      "contact": "ติดต่อ จิรสุข อ้น  091-064-3216",
+      "detail": "ขนย้ายตู้ ออฟฟิศไปลง Area 17\nรถเฮี๊ยบพี่มานะ"
     },
     {
       "id": 8,
@@ -122,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-05T11:00:06.112Z",
+  "lastUpdated": "2026-08-06T11:06:31.848Z",
   "updatedBy": "Nine",
-  "date": "5/8/2569"
+  "date": "6/8/2569"
 }
