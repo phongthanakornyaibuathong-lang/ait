@@ -5,7 +5,7 @@
       "day_th": "8 สิงหาคม 2569",
       "dateKey": "2026-08-08",
       "savedAt": "2026-08-08T00:00:00.000Z",
-      "modifiedAt": "2026-08-07T07:53:12.179Z",
+      "modifiedAt": "2026-08-07T07:55:30.155Z",
       "teams": [
         {
           "id": 1,
@@ -70,15 +70,16 @@
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "NPC / TNS บางปะกง",
-          "jobNo": "Job No. JB260202",
-          "depart": "06:00",
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No. JB260203",
+          "depart": "06:30",
           "arrive": "08:00",
-          "members": "แชมป์, ทัช, ป๋อ",
+          "members": "บิ๊ก, บีม, โอม",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": " K.นัทตี้ NPC 098-278-4490"
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine Flange face Size ไม่เกิน  6\" "
         },
         {
           "id": 7,
@@ -132,9 +133,9 @@
     },
     {
       "date": "7/8/2569",
-      "savedAt": "2026-08-07T07:53:20.341Z",
+      "savedAt": "2026-08-07T07:55:30.177Z",
       "dateKey": "2026-08-07",
-      "modifiedAt": "2026-08-07T07:53:20.341Z",
+      "modifiedAt": "2026-08-07T07:55:30.177Z",
       "teams": [
         {
           "id": 1,
@@ -11724,5 +11725,5 @@
       "dateKey": "2026-05-08"
     }
   ],
-  "lastUpdated": "2026-08-07T07:53:20.341Z"
+  "lastUpdated": "2026-08-07T07:55:30.177Z"
 }
