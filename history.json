@@ -5,7 +5,7 @@
       "day_th": "8 สิงหาคม 2569",
       "dateKey": "2026-08-08",
       "savedAt": "2026-08-08T00:00:00.000Z",
-      "modifiedAt": "2026-08-07T08:00:34.623Z",
+      "modifiedAt": "2026-08-07T08:08:05.627Z",
       "teams": [
         {
           "id": 1,
@@ -64,9 +64,10 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, ต้าร์, เอิร์ก",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "TTFF-24 (New)",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Machine RTJ Flange 16\" 2500# "
         },
         {
           "id": 6,
@@ -79,7 +80,7 @@
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12 New",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine Flange face Size ไม่เกิน  6\" "
+          "detail": "Machine Flange face Size ไม่เกิน  6\" \nต้องถึงหน้างานไม่เกิน 8:00 "
         },
         {
           "id": 7,
@@ -88,11 +89,11 @@
           "jobNo": "Job No. JB260203 Lot.14 Team 2",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "นัฐ, อั๋น, บีม",
+          "members": "คิง, แชมป์, ป๋อ",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 New",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine Flange face Size ไม่เกิน  6\" "
+          "detail": "Machine Flange face Size ไม่เกิน  6\" \nต้องถึงหน้างานไม่เกิน 8:00 "
         },
         {
           "id": 8,
@@ -135,9 +136,9 @@
     },
     {
       "date": "7/8/2569",
-      "savedAt": "2026-08-07T08:06:48.470Z",
+      "savedAt": "2026-08-07T08:08:05.644Z",
       "dateKey": "2026-08-07",
-      "modifiedAt": "2026-08-07T08:06:48.470Z",
+      "modifiedAt": "2026-08-07T08:08:05.644Z",
       "teams": [
         {
           "id": 1,
@@ -11727,5 +11728,5 @@
       "dateKey": "2026-05-08"
     }
   ],
-  "lastUpdated": "2026-08-07T08:06:48.470Z"
+  "lastUpdated": "2026-08-07T08:08:05.644Z"
 }
