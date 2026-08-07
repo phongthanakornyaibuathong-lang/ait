@@ -7,9 +7,9 @@
       "jobNo": "Job JB260197 Lot 5  ทีม 1",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "ทาม, โอ๊ด, คิว",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TTFF-40",
+      "members": "ทาม, คิว",
+      "vehicle": "กบ 2192 (4 ประตู)",
+      "equipment": "MM 300 E",
       "contact": "ช่าง โตโต้ 092-3974539 "
     },
     {
@@ -31,7 +31,7 @@
       "jobNo": "Job JB260197 Lot 5  ทีม 2",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บิ๊ก, บีม, อองรี",
+      "members": "เป้, โอ๊ด, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TOFF-12",
       "contact": "ช่าง โตโต้ 092-3974539  "
@@ -43,7 +43,7 @@
       "jobNo": "Job No JB260199",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "อั๋น, คิง, ฟีล์ม",
+      "members": "คิง, ฟีล์ม",
       "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "TSF 24",
       "contact": ""
@@ -55,48 +55,50 @@
       "jobNo": "Job No JB260195",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "บอย, โอม, ต้าร์",
+      "members": "บอย, ต้าร์, เอิร์ก",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TTFF-24 (New)",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526"
+      "contact": "ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "Machine RTJ Flange 16\" 2500# "
     },
     {
       "id": 6,
       "jobType": "BOLT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Site survey",
-      "depart": "",
-      "arrive": "13:00",
-      "members": "เป้, ป๋อ",
+      "site": "NPC / TNS บางปะกง",
+      "jobNo": "Job No. JB260202",
+      "depart": "06:00",
+      "arrive": "08:00",
+      "members": "แชมป์, ทัช, ป๋อ",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "Hydraulic torque",
-      "contact": "พี่ น้อง ประสิทธิชัย  084-5707207",
-      "detail": "Site Survey Bolt tension Flange 24\"x1500# "
+      "contact": " K.นัทตี้ NPC 098-278-4490",
+      "detail": "1. Toque Crane  Platform WASSANA S/N : TH20525  Stud 1-1/4\"  Nut AF 1-7/8\"(48mm. = 48 Ea )\n2. Closed Drain Vessel Platform WASSANA V-5510  24\"x150# Stud 1-1/4\"  Nut AF 50 mm."
     },
     {
       "id": 7,
-      "jobType": "BOLT",
-      "site": "Shino thai  ศรีราชา Area 17",
-      "jobNo": "ขนย้ายตู้ ออฟฟิศไปลง Area 17",
-      "depart": "08:30",
-      "arrive": "",
-      "members": "เป้, ป๋อ",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "jobType": "TRAINING",
+      "site": "NPC / TNS บางปะกง",
+      "jobNo": "อบรมความปลอดภัย",
+      "depart": "06:00",
+      "arrive": "08:00",
+      "members": "นัฐ, อั๋น, บีม",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "",
-      "contact": "ติดต่อ จิรสุข อ้น  091-064-3216",
-      "detail": "ขนย้ายตู้ ออฟฟิศไปลง Area 17\nรถเฮี๊ยบพี่มานะ"
+      "contact": "K.นัทตี้ NPC 098-278-4490",
+      "detail": "อบรมความปลอดภัย ทำบัตร เข้าทำงาน\nอบรมเสร็จเข้า ช่วยงานทีม Torque "
     },
     {
       "id": 8,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260195",
+      "depart": "07:00",
+      "arrive": "08:30",
+      "members": "กรานต์",
       "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "equipment": "เครื่องมือวัด RTJ",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
+      "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood \nRTJ Flange 6\" 2500# Zone 1 "
     },
     {
       "id": 9,
@@ -123,7 +125,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-06T11:28:42.622Z",
+  "lastUpdated": "2026-08-07T04:54:00.244Z",
   "updatedBy": "Nine",
-  "date": "6/8/2569"
+  "date": "7/8/2569"
 }
