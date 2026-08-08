@@ -43,10 +43,11 @@
       "jobNo": "Job No JB260199",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "คิง, ฟีล์ม",
-      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-      "equipment": "TSF 24",
-      "contact": ""
+      "members": "อั๋น, นัฐ, ฟีล์ม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "TSF 12",
+      "contact": "",
+      "detail": "Cutting & Bevel Pipe 8\" TKH 27 mm. "
     },
     {
       "id": 5,
@@ -56,61 +57,62 @@
       "depart": "06:30",
       "arrive": "08:00",
       "members": "บอย, ต้าร์, เอิร์ก",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
       "equipment": "TTFF-24 (New)",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
       "detail": "Machine RTJ Flange 16\" 2500# "
     },
     {
       "id": 6,
-      "jobType": "BOLT",
-      "site": "NPC / TNS บางปะกง",
-      "jobNo": "Job No. JB260202",
-      "depart": "06:00",
+      "jobType": "FLANGE",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No. JB260203 Lot.14 Team 1",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "แชมป์, ทัช, ป๋อ",
+      "members": "บิ๊ก, บีม, โอม",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "Hydraulic torque",
-      "contact": " K.นัทตี้ NPC 098-278-4490",
-      "detail": "1. Toque Crane  Platform WASSANA S/N : TH20525  Stud 1-1/4\"  Nut AF 1-7/8\"(48mm. = 48 Ea )\n2. Closed Drain Vessel Platform WASSANA V-5510  24\"x150# Stud 1-1/4\"  Nut AF 50 mm."
+      "equipment": "TOFF-12 New",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine Flange face Size ไม่เกิน  6\" \nต้องถึงหน้างานไม่เกิน 8:00 "
     },
     {
       "id": 7,
-      "jobType": "TRAINING",
-      "site": "NPC / TNS บางปะกง",
-      "jobNo": "อบรมความปลอดภัย",
-      "depart": "06:00",
+      "jobType": "FLANGE",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No. JB260203 Lot.14 Team 2",
+      "depart": "06:30",
       "arrive": "08:00",
-      "members": "นัฐ, อั๋น, บีม",
+      "members": "คิง, แชมป์, ป๋อ",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "",
-      "contact": "K.นัทตี้ NPC 098-278-4490",
-      "detail": "อบรมความปลอดภัย ทำบัตร เข้าทำงาน\nอบรมเสร็จเข้า ช่วยงานทีม Torque "
+      "equipment": "TOFF-12 New",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine Flange face Size ไม่เกิน  6\" \nต้องถึงหน้างานไม่เกิน 8:00 "
     },
     {
       "id": 8,
       "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260195",
-      "depart": "07:00",
-      "arrive": "08:30",
-      "members": "กรานต์",
+      "site": "โรงกลึง MEC",
+      "jobNo": "Job NoJB260185,186 Lot27,28",
+      "depart": "09:00",
+      "arrive": "",
+      "members": "ทัช",
       "vehicle": "",
-      "equipment": "เครื่องมือวัด RTJ",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526  ",
-      "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood \nRTJ Flange 6\" 2500# Zone 1 "
+      "equipment": "เครื่องมือวัด Flange",
+      "contact": "ติดต่อช่าง เดชา ",
+      "detail": "ตรวจ Flange  ส่งงาน STECON / Wood\n ช่วงเช้าตรวจ Flange ช่วงบ่าย รับ-ส่งชิ้นงาน"
     },
     {
       "id": 9,
-      "jobType": "STANDBY",
-      "site": "",
+      "jobType": "BOLT",
+      "site": "SIEMENS บ้านฉาง",
       "jobNo": "",
-      "depart": "",
+      "depart": "13:00",
       "arrive": "",
       "members": "",
-      "vehicle": "",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "",
-      "contact": ""
+      "contact": "",
+      "detail": "พี่วัฒน์ ไปขนเครื่องมือ ITH ที่ SIEMENS บ้านฉาง"
     },
     {
       "id": 10,
@@ -125,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-07T08:38:15.345Z",
+  "lastUpdated": "2026-08-08T09:51:32.796Z",
   "updatedBy": "Nine",
-  "date": "7/8/2569"
+  "date": "8/8/2569"
 }
