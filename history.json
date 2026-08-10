@@ -5,7 +5,7 @@
       "day_th": "11 สิงหาคม 2569",
       "dateKey": "2026-08-11",
       "savedAt": "2026-08-11T00:00:00.000Z",
-      "modifiedAt": "2026-08-10T04:59:53.084Z",
+      "modifiedAt": "2026-08-10T05:01:13.904Z",
       "teams": [
         {
           "id": 1,
@@ -58,7 +58,7 @@
         {
           "id": 5,
           "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "site": "",
           "jobNo": "Job No JB260208 Lot.11",
           "depart": "06:30",
           "arrive": "08:00",
@@ -131,9 +131,9 @@
     },
     {
       "date": "10/8/2569",
-      "savedAt": "2026-08-10T04:59:53.966Z",
+      "savedAt": "2026-08-10T05:01:13.913Z",
       "dateKey": "2026-08-10",
-      "modifiedAt": "2026-08-10T04:59:53.966Z",
+      "modifiedAt": "2026-08-10T05:01:13.913Z",
       "teams": [
         {
           "id": 1,
@@ -11729,5 +11729,5 @@
       "dateKey": "2026-05-11"
     }
   ],
-  "lastUpdated": "2026-08-10T04:59:53.966Z"
+  "lastUpdated": "2026-08-10T05:01:13.913Z"
 }
