@@ -51,16 +51,14 @@
     {
       "id": 5,
       "jobType": "FLANGE",
-      "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-      "jobNo": "Job No JB260208 Lot.4",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260208 Lot.11",
       "depart": "06:30",
       "arrive": "08:00",
       "members": "บอย, ต้าร์, เฟิร์ส",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TTFF-24 (New)",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "locname": "",
-      "detail": ""
+      "contact": "ติดต่อช่าง โด่ง  094-7467526"
     },
     {
       "id": 6,
@@ -123,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-10T06:55:36.765Z",
+  "lastUpdated": "2026-08-10T06:56:54.745Z",
   "updatedBy": "Nine",
   "date": "10/8/2569"
 }
