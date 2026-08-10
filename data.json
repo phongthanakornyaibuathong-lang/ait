@@ -19,7 +19,7 @@
       "jobNo": "JB260206 Lot.13",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย",
+      "members": "กาน(นำ), ป๋อ",
       "vehicle": "2ฒษ 2857 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
@@ -79,7 +79,7 @@
       "jobNo": "Job No. JB260203 Lot.14 Team 2",
       "depart": "06:30",
       "arrive": "07:00",
-      "members": "คิง, แชมป์, ป๋อ",
+      "members": "คิง, แชมป์",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TOFF-12 New",
       "contact": "ช่าง กับตัน 080-0471014"
@@ -121,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-10T02:09:22.833Z",
+  "lastUpdated": "2026-08-10T02:09:55.338Z",
   "updatedBy": "Nine",
   "date": "10/8/2569"
 }
