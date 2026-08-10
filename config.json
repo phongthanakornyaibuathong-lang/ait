@@ -849,8 +849,7 @@
     "Thai Summit Eastern (Rayong)",
     "INSEE ",
     "MMM Group Supply & Services",
-    "Shino thai  ศรีราชา Area 17",
-    "Shino thai  แหลมฉบัง  (yard 32 ไร่)"
+    "Shino thai  ศรีราชา Area 17"
   ],
   "skills": [
     {
@@ -1603,6 +1602,14 @@
       "date": "2026-08-10",
       "dateEnd": "2026-08-10",
       "note": "เป็นไข้"
+    },
+    {
+      "id": "lv1786344987870275",
+      "person": "รถ",
+      "type": "สลับวันหยุด",
+      "date": "2026-08-11",
+      "dateEnd": "2026-08-11",
+      "note": "ทำธุระ"
     }
   ]
 }
