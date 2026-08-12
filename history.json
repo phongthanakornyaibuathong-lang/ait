@@ -5,7 +5,7 @@
       "day_th": "13 สิงหาคม 2569",
       "dateKey": "2026-08-13",
       "savedAt": "2026-08-13T00:00:00.000Z",
-      "modifiedAt": "2026-08-12T07:02:29.276Z",
+      "modifiedAt": "2026-08-12T07:03:13.570Z",
       "teams": [
         {
           "id": 1,
@@ -93,7 +93,7 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
+          "jobType": "ROBOT",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -11731,5 +11731,5 @@
       "dateKey": "2026-05-12"
     }
   ],
-  "lastUpdated": "2026-08-12T07:02:30.256Z"
+  "lastUpdated": "2026-08-12T07:03:14.341Z"
 }
