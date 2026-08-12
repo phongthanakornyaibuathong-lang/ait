@@ -5,7 +5,7 @@
       "day_th": "13 สิงหาคม 2569",
       "dateKey": "2026-08-13",
       "savedAt": "2026-08-13T00:00:00.000Z",
-      "modifiedAt": "2026-08-12T07:08:10.980Z",
+      "modifiedAt": "2026-08-12T07:08:44.119Z",
       "teams": [
         {
           "id": 1,
@@ -73,7 +73,7 @@
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
           "jobNo": "Job No. JB260203 Lot.14 ",
           "depart": "06:30",
-          "arrive": "07:00",
+          "arrive": "08:00",
           "members": "บิ๊ก, บีม, โอม",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12 New",
@@ -11732,5 +11732,5 @@
       "dateKey": "2026-05-12"
     }
   ],
-  "lastUpdated": "2026-08-12T07:08:12.018Z"
+  "lastUpdated": "2026-08-12T07:08:44.128Z"
 }
