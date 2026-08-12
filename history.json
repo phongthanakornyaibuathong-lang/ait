@@ -5,7 +5,7 @@
       "day_th": "13 สิงหาคม 2569",
       "dateKey": "2026-08-13",
       "savedAt": "2026-08-13T00:00:00.000Z",
-      "modifiedAt": "2026-08-12T07:09:25.493Z",
+      "modifiedAt": "2026-08-12T09:37:26.231Z",
       "teams": [
         {
           "id": 1,
@@ -89,7 +89,8 @@
           "members": "ทาม",
           "vehicle": "รถส่วนตัว",
           "equipment": "",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "อบรมดับเพลิงเบื้องต้น"
         },
         {
           "id": 8,
@@ -101,8 +102,7 @@
           "members": "นาย, ป๋อ, เอิร์ก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Robot Tool",
-          "contact": "",
-          "detail": " Replace axis 1 IRB6660"
+          "contact": ""
         },
         {
           "id": 9,
@@ -11732,5 +11732,5 @@
       "dateKey": "2026-05-12"
     }
   ],
-  "lastUpdated": "2026-08-12T09:33:51.304Z"
+  "lastUpdated": "2026-08-12T09:37:26.245Z"
 }
