@@ -5,7 +5,7 @@
       "day_th": "13 สิงหาคม 2569",
       "dateKey": "2026-08-13",
       "savedAt": "2026-08-13T00:00:00.000Z",
-      "modifiedAt": "2026-08-12T07:05:55.663Z",
+      "modifiedAt": "2026-08-12T07:08:10.980Z",
       "teams": [
         {
           "id": 1,
@@ -99,7 +99,7 @@
           "depart": "07:30",
           "arrive": "09:00",
           "members": "นาย, ป๋อ, เอิร์ก",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Robot Tool",
           "contact": "",
           "detail": " Replace axis 1 IRB6660"
@@ -11732,5 +11732,5 @@
       "dateKey": "2026-05-12"
     }
   ],
-  "lastUpdated": "2026-08-12T07:06:40.031Z"
+  "lastUpdated": "2026-08-12T07:08:10.991Z"
 }
