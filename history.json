@@ -5,7 +5,7 @@
       "day_th": "13 สิงหาคม 2569",
       "dateKey": "2026-08-13",
       "savedAt": "2026-08-13T00:00:00.000Z",
-      "modifiedAt": "2026-08-12T07:03:13.570Z",
+      "modifiedAt": "2026-08-12T07:05:55.663Z",
       "teams": [
         {
           "id": 1,
@@ -94,14 +94,15 @@
         {
           "id": 8,
           "jobType": "ROBOT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "site": "SLAB (Chonburi)",
+          "jobNo": "Job No JB260147",
+          "depart": "07:30",
+          "arrive": "09:00",
+          "members": "นาย, ป๋อ, เอิร์ก",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Robot Tool",
+          "contact": "",
+          "detail": " Replace axis 1 IRB6660"
         },
         {
           "id": 9,
@@ -11731,5 +11732,5 @@
       "dateKey": "2026-05-12"
     }
   ],
-  "lastUpdated": "2026-08-12T07:03:59.372Z"
+  "lastUpdated": "2026-08-12T07:05:55.673Z"
 }
