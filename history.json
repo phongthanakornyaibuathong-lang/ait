@@ -5,7 +5,7 @@
       "day_th": "14 สิงหาคม 2569",
       "dateKey": "2026-08-14",
       "savedAt": "2026-08-14T00:00:00.000Z",
-      "modifiedAt": "2026-08-13T10:44:00.075Z",
+      "modifiedAt": "2026-08-13T10:46:45.233Z",
       "teams": [
         {
           "id": 1,
@@ -83,15 +83,16 @@
         },
         {
           "id": 7,
-          "jobType": "TRAINING",
-          "site": "INSEE",
-          "jobNo": "Job No JB260187",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "ทาม",
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260207  Lot. 6",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "เป้, โอ๊ด, อองรี",
           "vehicle": "รถส่วนตัว",
           "equipment": "",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+          "contact": "ช่าง โตโต้ 092-3974539 ",
+          "detail": "นำเครื่องมือออก กลับ AITs Shop"
         },
         {
           "id": 8,
@@ -133,9 +134,9 @@
     },
     {
       "date": "13/8/2569",
-      "savedAt": "2026-08-13T10:44:01.100Z",
+      "savedAt": "2026-08-13T10:46:45.243Z",
       "dateKey": "2026-08-13",
-      "modifiedAt": "2026-08-13T10:44:01.100Z",
+      "modifiedAt": "2026-08-13T10:46:45.243Z",
       "teams": [
         {
           "id": 1,
@@ -11733,5 +11734,5 @@
       "dateKey": "2026-05-13"
     }
   ],
-  "lastUpdated": "2026-08-13T10:44:01.100Z"
+  "lastUpdated": "2026-08-13T10:46:45.243Z"
 }
