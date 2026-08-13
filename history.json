@@ -5,7 +5,7 @@
       "day_th": "14 สิงหาคม 2569",
       "dateKey": "2026-08-14",
       "savedAt": "2026-08-14T00:00:00.000Z",
-      "modifiedAt": "2026-08-13T10:37:37.128Z",
+      "modifiedAt": "2026-08-13T10:43:23.124Z",
       "teams": [
         {
           "id": 1,
@@ -34,14 +34,15 @@
         {
           "id": 3,
           "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260207 Lot 6  ทีม 2",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, แชมป์, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โตโต้ 092-3974539  "
+          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
+          "jobNo": "Job No JB260208, JB260131, JB260141, JB260142",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทัช, เอิร์ก",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "เครื่องมือวัด RTJ",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood"
         },
         {
           "id": 4,
@@ -50,22 +51,23 @@
           "jobNo": "Job No JB260209 Lot. 5",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "อั๋น, นัฐ",
-          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+          "members": "อั๋น, ทาม, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 12",
           "contact": " ช่างสุตนันท์ 0883929010"
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-          "jobNo": "Job No JB260208 Lot.4",
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Bolt tension training ทีม STECON",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ต้าร์, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "MM 305 I",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "members": "นัฐ, แชมป์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "",
+          "contact": "ติดติอ ช่าง หนุ่ม อนุชิต    095-2874798",
+          "detail": "Bolt tension training ทีม STECON \nFlange 24\"x1500# Stud 3-1/2\" เครื่องมือของทาง STECON"
         },
         {
           "id": 6,
@@ -131,9 +133,9 @@
     },
     {
       "date": "13/8/2569",
-      "savedAt": "2026-08-13T10:37:37.140Z",
+      "savedAt": "2026-08-13T10:43:23.136Z",
       "dateKey": "2026-08-13",
-      "modifiedAt": "2026-08-13T10:37:37.140Z",
+      "modifiedAt": "2026-08-13T10:43:23.136Z",
       "teams": [
         {
           "id": 1,
@@ -11731,5 +11733,5 @@
       "dateKey": "2026-05-13"
     }
   ],
-  "lastUpdated": "2026-08-13T10:37:37.140Z"
+  "lastUpdated": "2026-08-13T10:43:23.136Z"
 }
