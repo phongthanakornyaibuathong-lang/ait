@@ -5,7 +5,7 @@
       "day_th": "15 สิงหาคม 2569",
       "dateKey": "2026-08-15",
       "savedAt": "2026-08-15T00:00:00.000Z",
-      "modifiedAt": "2026-08-14T07:56:20.404Z",
+      "modifiedAt": "2026-08-14T09:55:34.838Z",
       "teams": [
         {
           "id": 1,
@@ -27,8 +27,8 @@
           "jobNo": "JB260206 Lot.13",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "members": "กาน(นำ), ปลาย, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
         },
@@ -58,15 +58,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา Area 17",
+          "jobNo": "-",
+          "depart": "08:30",
+          "arrive": "09:30",
+          "members": "เป้, นัฐ, ฟีล์ม, โอ๊ด, อองรี",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "",
-          "contact": ""
+          "contact": "ติดต่อ พี่ น้อง ประสิทธิชัย  084-5707207",
+          "detail": "เช็คและลอง หัว Tension  Tritorc  STECON ทุก Size \nเครื่องมืออยู่ที่ Shino thai  ศรีราชา Area 17"
         },
         {
           "id": 6,
@@ -132,9 +133,9 @@
     },
     {
       "date": "14/8/2569",
-      "savedAt": "2026-08-14T07:56:21.532Z",
+      "savedAt": "2026-08-14T09:55:34.860Z",
       "dateKey": "2026-08-14",
-      "modifiedAt": "2026-08-14T07:56:21.532Z",
+      "modifiedAt": "2026-08-14T09:55:34.860Z",
       "teams": [
         {
           "id": 1,
@@ -11734,5 +11735,5 @@
       "dateKey": "2026-05-15"
     }
   ],
-  "lastUpdated": "2026-08-14T07:56:21.532Z"
+  "lastUpdated": "2026-08-14T09:55:34.860Z"
 }
