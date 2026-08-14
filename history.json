@@ -5,7 +5,7 @@
       "day_th": "15 สิงหาคม 2569",
       "dateKey": "2026-08-15",
       "savedAt": "2026-08-15T00:00:00.000Z",
-      "modifiedAt": "2026-08-14T07:45:00.735Z",
+      "modifiedAt": "2026-08-14T07:46:23.223Z",
       "teams": [
         {
           "id": 1,
@@ -15,7 +15,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "แชมป์, ป๋อ, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "ติดต่อ คุณ ธนัส 087-6772377",
           "detail": "Torque bolts Flange 36\"x150# Sr.B Stud bolt 7/8\" 44 Es AF 36 mm. = 4 Flange"
@@ -52,7 +52,7 @@
           "depart": "06:30",
           "arrive": "07:00",
           "members": "บิ๊ก, บีม, โอม",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง กับตัน 080-0471014"
         },
@@ -132,9 +132,9 @@
     },
     {
       "date": "14/8/2569",
-      "savedAt": "2026-08-14T07:45:01.581Z",
+      "savedAt": "2026-08-14T07:46:23.234Z",
       "dateKey": "2026-08-14",
-      "modifiedAt": "2026-08-14T07:45:01.581Z",
+      "modifiedAt": "2026-08-14T07:46:23.234Z",
       "teams": [
         {
           "id": 1,
@@ -11734,5 +11734,5 @@
       "dateKey": "2026-05-15"
     }
   ],
-  "lastUpdated": "2026-08-14T07:45:01.581Z"
+  "lastUpdated": "2026-08-14T07:46:23.234Z"
 }
