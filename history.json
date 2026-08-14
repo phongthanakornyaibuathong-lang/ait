@@ -5,7 +5,7 @@
       "day_th": "15 สิงหาคม 2569",
       "dateKey": "2026-08-15",
       "savedAt": "2026-08-15T00:00:00.000Z",
-      "modifiedAt": "2026-08-14T07:31:15.703Z",
+      "modifiedAt": "2026-08-14T07:29:02.431Z",
       "teams": [
         {
           "id": 1,
@@ -34,15 +34,15 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
+          "jobNo": "Job No JB260208, JB260131, JB260141, JB260142",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทัช, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "เครื่องมือวัด RTJ",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 4,
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Bolt tension training ทีม STECON",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ, แชมป์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "ติดติอ ช่าง หนุ่ม อนุชิต    095-2874798"
         },
         {
           "id": 6,
@@ -82,15 +82,15 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260207  Lot. 6",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "เป้, โอ๊ด, อองรี",
           "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 8,
@@ -132,9 +132,9 @@
     },
     {
       "date": "14/8/2569",
-      "savedAt": "2026-08-14T07:31:15.710Z",
+      "savedAt": "2026-08-14T07:32:24.189Z",
       "dateKey": "2026-08-14",
-      "modifiedAt": "2026-08-14T07:31:15.710Z",
+      "modifiedAt": "2026-08-14T07:32:24.189Z",
       "teams": [
         {
           "id": 1,
@@ -11734,5 +11734,5 @@
       "dateKey": "2026-05-15"
     }
   ],
-  "lastUpdated": "2026-08-14T07:31:15.710Z"
+  "lastUpdated": "2026-08-14T07:32:24.189Z"
 }
