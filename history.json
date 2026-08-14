@@ -5,11 +5,11 @@
       "day_th": "15 สิงหาคม 2569",
       "dateKey": "2026-08-15",
       "savedAt": "2026-08-15T00:00:00.000Z",
-      "modifiedAt": "2026-08-14T07:23:56.954Z",
+      "modifiedAt": "2026-08-14T07:24:28.613Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "FLANGE",
+          "jobType": "BOLT",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job JB260207 Lot 6  ทีม 1",
           "depart": "06:00",
@@ -131,9 +131,9 @@
     },
     {
       "date": "14/8/2569",
-      "savedAt": "2026-08-14T07:23:56.968Z",
+      "savedAt": "2026-08-14T07:24:28.619Z",
       "dateKey": "2026-08-14",
-      "modifiedAt": "2026-08-14T07:23:56.968Z",
+      "modifiedAt": "2026-08-14T07:24:28.619Z",
       "teams": [
         {
           "id": 1,
@@ -11733,5 +11733,5 @@
       "dateKey": "2026-05-15"
     }
   ],
-  "lastUpdated": "2026-08-14T07:23:56.968Z"
+  "lastUpdated": "2026-08-14T07:24:28.619Z"
 }
