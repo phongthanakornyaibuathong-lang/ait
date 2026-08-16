@@ -5,7 +5,7 @@
       "day_th": "17 สิงหาคม 2569",
       "dateKey": "2026-08-17",
       "savedAt": "2026-08-17T00:00:00.000Z",
-      "modifiedAt": "2026-08-16T10:22:08.008Z",
+      "modifiedAt": "2026-08-16T10:24:22.222Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "Job No JB260212",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "แชมป์, ป๋อ, คิว",
+          "members": "แชมป์, ป๋อ, โอม",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
           "contact": "ติดต่อ คุณ ธนัส 087-6772377"
@@ -131,13 +131,13 @@
     },
     {
       "date": "16/8/2569",
-      "savedAt": "2026-08-16T10:23:11.794Z",
+      "savedAt": "2026-08-16T10:24:22.240Z",
       "dateKey": "2026-08-16",
-      "modifiedAt": "2026-08-16T10:23:11.794Z",
+      "modifiedAt": "2026-08-16T10:24:22.240Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job JB260207 Lot 6  ทีม 1",
           "depart": "06:00",
@@ -145,27 +145,23 @@
           "members": "ฟีล์ม, คิง, คิว",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "MM 300 E",
-          "contact": "ช่าง โตโต้ 092-3974539",
-          "locname": "",
-          "detail": ""
+          "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 2,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
           "jobNo": "JB260206 Lot.13",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "กาน(นำ), ปลาย",
-          "vehicle": "— เลือกรถ —",
+          "vehicle": "2ฒษ 2857 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363",
-          "locname": "",
-          "detail": ""
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
           "jobNo": "Job No JB260208, JB260131, JB260141, JB260142",
           "depart": "06:30",
@@ -174,12 +170,11 @@
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "เครื่องมือวัด RTJ",
           "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood",
-          "locname": ""
+          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood"
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
+          "jobType": "COLD_CUT",
           "site": "Shino thai (Work shop) บ้านฉาง",
           "jobNo": "Job No JB260209 Lot. 5",
           "depart": "07:00",
@@ -187,51 +182,45 @@
           "members": "อั๋น, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 12",
-          "contact": "ช่างสุตนันท์ 0883929010",
-          "locname": "",
-          "detail": ""
+          "contact": " ช่างสุตนันท์ 0883929010"
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
+          "jobType": "BOLT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Bolt tension training ทีม STECON",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "นัฐ, แชมป์",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "— เลือก —",
+          "equipment": "",
           "contact": "ติดติอ ช่าง หนุ่ม อนุชิต    095-2874798",
-          "detail": "Bolt tension training ทีม STECON \nFlange 24\"x1500# Stud 3-1/2\" เครื่องมือของทาง STECON",
-          "locname": ""
+          "detail": "Bolt tension training ทีม STECON \nFlange 24\"x1500# Stud 3-1/2\" เครื่องมือของทาง STECON"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No. JB260203 Lot.14",
+          "jobNo": "Job No. JB260203 Lot.14 ",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บิ๊ก, บีม, โอม",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12 New",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "locname": "",
-          "detail": ""
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job NoJB260207  Lot. 6",
           "depart": "08:30",
           "arrive": "09:00",
           "members": "เป้, โอ๊ด, อองรี",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "— เลือก —",
-          "contact": "ช่าง โตโต้ 092-3974539",
-          "detail": "นำเครื่องมือออก กลับ AITs Shop",
-          "locname": ""
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+          "equipment": "",
+          "contact": "ช่าง โตโต้ 092-3974539 ",
+          "detail": "นำเครื่องมือออก กลับ AITs Shop"
         },
         {
           "id": 8,
@@ -11749,5 +11738,5 @@
       "dateKey": "2026-05-17"
     }
   ],
-  "lastUpdated": "2026-08-16T10:23:11.794Z"
+  "lastUpdated": "2026-08-16T10:24:22.240Z"
 }
