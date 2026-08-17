@@ -731,6 +731,16 @@
       "color": "#31d890",
       "skills": [],
       "safetyCards": {}
+    },
+    {
+      "id": "ธีร์",
+      "nick": "ธีร์",
+      "name": "นาย กนต์ธีร์ เกิดขาว",
+      "pos": "Technician",
+      "phone": "096-1706037",
+      "color": "#32d2d8",
+      "skills": [],
+      "safetyCards": {}
     }
   ],
   "vehicles": [
