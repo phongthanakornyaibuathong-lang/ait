@@ -5,7 +5,7 @@
       "day_th": "18 สิงหาคม 2569",
       "dateKey": "2026-08-18",
       "savedAt": "2026-08-18T00:00:00.000Z",
-      "modifiedAt": "2026-08-17T11:27:55.395Z",
+      "modifiedAt": "2026-08-17T11:29:18.193Z",
       "teams": [
         {
           "id": 1,
@@ -58,27 +58,27 @@
         },
         {
           "id": 5,
-          "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา Area 17",
-          "jobNo": "-",
-          "depart": "08:30",
-          "arrive": "09:30",
-          "members": "นัฐ, ฟีล์ม",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "ติดต่อ ช่าง หนุ่ม อนุชิต 095-2874798"
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "TRAINING",
-          "site": "INSEE",
-          "jobNo": "Job No JB260187",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "ทาม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+          "contact": ""
         },
         {
           "id": 7,
@@ -132,9 +132,9 @@
     },
     {
       "date": "17/8/2569",
-      "savedAt": "2026-08-17T11:27:56.497Z",
+      "savedAt": "2026-08-17T11:29:18.204Z",
       "dateKey": "2026-08-17",
-      "modifiedAt": "2026-08-17T11:27:56.497Z",
+      "modifiedAt": "2026-08-17T11:29:18.204Z",
       "teams": [
         {
           "id": 1,
@@ -11740,5 +11740,5 @@
       "dateKey": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-08-17T11:27:56.497Z"
+  "lastUpdated": "2026-08-17T11:29:18.204Z"
 }
