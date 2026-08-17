@@ -5,19 +5,19 @@
       "day_th": "18 สิงหาคม 2569",
       "dateKey": "2026-08-18",
       "savedAt": "2026-08-18T00:00:00.000Z",
-      "modifiedAt": "2026-08-17T11:23:12.045Z",
+      "modifiedAt": "2026-08-17T11:26:58.545Z",
       "teams": [
         {
           "id": 1,
           "jobType": "BOLT",
-          "site": "PTT OR ศรีราชา (เขาบ่อยา)",
-          "jobNo": "Job No JB260212",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "แชมป์, ป๋อ, โอม",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "อบรมขับรถ",
+          "depart": "12:30",
+          "arrive": "15:00",
+          "members": "เป้, บอย, โอม",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ติดต่อ คุณ ธนัส 087-6772377"
+          "equipment": "",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 2,
@@ -131,9 +131,9 @@
     },
     {
       "date": "17/8/2569",
-      "savedAt": "2026-08-17T11:23:12.064Z",
+      "savedAt": "2026-08-17T11:26:58.565Z",
       "dateKey": "2026-08-17",
-      "modifiedAt": "2026-08-17T11:23:12.064Z",
+      "modifiedAt": "2026-08-17T11:26:58.565Z",
       "teams": [
         {
           "id": 1,
@@ -11739,5 +11739,5 @@
       "dateKey": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-08-17T11:23:12.064Z"
+  "lastUpdated": "2026-08-17T11:26:58.565Z"
 }
