@@ -721,6 +721,16 @@
         "first_aid"
       ],
       "safetyCards": {}
+    },
+    {
+      "id": "ปาย",
+      "nick": "ปาย",
+      "name": "นาย วุฒิไกร ไชยเสนา",
+      "pos": "Team Leader",
+      "phone": "093-3677989",
+      "color": "#31d890",
+      "skills": [],
+      "safetyCards": {}
     }
   ],
   "vehicles": [
