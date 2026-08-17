@@ -729,7 +729,12 @@
       "pos": "Team Leader",
       "phone": "093-3677989",
       "color": "#31d890",
-      "skills": [],
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing",
+        "cold_cutting"
+      ],
       "safetyCards": {}
     },
     {
