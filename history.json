@@ -5,7 +5,7 @@
       "day_th": "19 สิงหาคม 2569",
       "dateKey": "2026-08-19",
       "savedAt": "2026-08-19T00:00:00.000Z",
-      "modifiedAt": "2026-08-18T10:49:07.561Z",
+      "modifiedAt": "2026-08-18T10:50:37.715Z",
       "teams": [
         {
           "id": 1,
@@ -109,15 +109,16 @@
         },
         {
           "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
+          "jobType": "FLANGE",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "Job No JB260216,JB260216",
           "depart": "",
           "arrive": "",
-          "members": "",
+          "members": "เป้, คิว",
           "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "equipment": "TOFF-12 New",
+          "contact": "-",
+          "detail": "กลึง RTJ Flange 1-1/2\"x2500 #, 3\" x2500# = 2 flange"
         },
         {
           "id": 10,
@@ -135,9 +136,9 @@
     },
     {
       "date": "18/8/2569",
-      "savedAt": "2026-08-18T10:49:08.597Z",
+      "savedAt": "2026-08-18T10:50:37.727Z",
       "dateKey": "2026-08-18",
-      "modifiedAt": "2026-08-18T10:49:08.597Z",
+      "modifiedAt": "2026-08-18T10:50:37.727Z",
       "teams": [
         {
           "id": 1,
@@ -11743,5 +11744,5 @@
       "dateKey": "2026-05-19"
     }
   ],
-  "lastUpdated": "2026-08-18T10:49:08.597Z"
+  "lastUpdated": "2026-08-18T10:50:37.727Z"
 }
