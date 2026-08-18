@@ -3,15 +3,15 @@
     {
       "id": 1,
       "jobType": "BOLT",
-      "site": "PTT OR ศรีราชา (เขาบ่อยา)",
-      "jobNo": "Job No JB260212",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "แชมป์, ป๋อ, โอม",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "อบรมขับรถ",
+      "depart": "12:30",
+      "arrive": "15:00",
+      "members": "เป้, บอย, โอม",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "Hydraulic torque",
-      "contact": "ติดต่อ คุณ ธนัส 087-6772377",
-      "detail": "Torque bolts Flange 36\"x150# Sr.B Stud bolt 7/8\" 44 Es AF 36 mm. = 4 Flange"
+      "equipment": "",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "อบรมขับรถ Thai oil 15:00 - 17:00 น."
     },
     {
       "id": 2,
@@ -51,28 +51,27 @@
     },
     {
       "id": 5,
-      "jobType": "BOLT",
-      "site": "Shino thai  ศรีราชา Area 17",
-      "jobNo": "-",
-      "depart": "08:30",
-      "arrive": "09:30",
-      "members": "นัฐ, ฟีล์ม",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
-      "contact": "ติดต่อ ช่าง หนุ่ม อนุชิต 095-2874798",
-      "detail": "รับ Puller หัว Tension และ Stud bolt 3-1/2\" มาที่ Shop AITS ระยอง"
+      "contact": ""
     },
     {
       "id": 6,
-      "jobType": "TRAINING",
-      "site": "INSEE",
-      "jobNo": "Job No JB260187",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "ทาม",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+      "contact": ""
     },
     {
       "id": 7,
@@ -123,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-17T11:29:19.599Z",
+  "lastUpdated": "2026-08-18T10:38:48.914Z",
   "updatedBy": "Nine",
-  "date": "17/8/2569"
+  "date": "18/8/2569"
 }
