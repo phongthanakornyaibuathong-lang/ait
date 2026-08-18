@@ -5,7 +5,7 @@
       "day_th": "19 สิงหาคม 2569",
       "dateKey": "2026-08-19",
       "savedAt": "2026-08-19T00:00:00.000Z",
-      "modifiedAt": "2026-08-18T10:40:04.242Z",
+      "modifiedAt": "2026-08-18T10:42:21.411Z",
       "teams": [
         {
           "id": 1,
@@ -58,15 +58,15 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
+          "jobNo": "-",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปลาย",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "ติดต่อ Safety STECON"
         },
         {
           "id": 6,
@@ -132,9 +132,9 @@
     },
     {
       "date": "18/8/2569",
-      "savedAt": "2026-08-18T10:40:05.114Z",
+      "savedAt": "2026-08-18T10:42:21.422Z",
       "dateKey": "2026-08-18",
-      "modifiedAt": "2026-08-18T10:40:05.114Z",
+      "modifiedAt": "2026-08-18T10:42:21.422Z",
       "teams": [
         {
           "id": 1,
@@ -11740,5 +11740,5 @@
       "dateKey": "2026-05-19"
     }
   ],
-  "lastUpdated": "2026-08-18T10:40:05.114Z"
+  "lastUpdated": "2026-08-18T10:42:21.422Z"
 }
