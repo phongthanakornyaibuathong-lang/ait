@@ -5,7 +5,7 @@
       "day_th": "19 สิงหาคม 2569",
       "dateKey": "2026-08-19",
       "savedAt": "2026-08-19T00:00:00.000Z",
-      "modifiedAt": "2026-08-18T10:47:20.754Z",
+      "modifiedAt": "2026-08-18T10:49:07.561Z",
       "teams": [
         {
           "id": 1,
@@ -97,14 +97,15 @@
         {
           "id": 8,
           "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "site": "โรงกลึง MEC ",
+          "jobNo": "Job NoJB260205, JB260210",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "แชมป์, ป๋อ",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "-",
+          "detail": "ตรวจ Flange  ส่งงาน STECON / Wood\nถึงหน้างาน 09:00น ช่วงเช้าตรวจ Flange ช่วงบ่าย รับ-ส่งชิ้นงาน"
         },
         {
           "id": 9,
@@ -134,9 +135,9 @@
     },
     {
       "date": "18/8/2569",
-      "savedAt": "2026-08-18T10:47:20.761Z",
+      "savedAt": "2026-08-18T10:49:07.584Z",
       "dateKey": "2026-08-18",
-      "modifiedAt": "2026-08-18T10:47:20.761Z",
+      "modifiedAt": "2026-08-18T10:49:07.584Z",
       "teams": [
         {
           "id": 1,
@@ -11742,5 +11743,5 @@
       "dateKey": "2026-05-19"
     }
   ],
-  "lastUpdated": "2026-08-18T10:47:20.761Z"
+  "lastUpdated": "2026-08-18T10:49:07.584Z"
 }
