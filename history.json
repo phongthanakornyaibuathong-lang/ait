@@ -1,11 +1,140 @@
 {
   "history": [
     {
-      "date": "18 สิงหาคม 2569",
-      "day_th": "18 สิงหาคม 2569",
+      "date": "19 สิงหาคม 2569",
+      "day_th": "19 สิงหาคม 2569",
+      "dateKey": "2026-08-19",
+      "savedAt": "2026-08-19T00:00:00.000Z",
+      "modifiedAt": "2026-08-18T10:38:48.901Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "BOLT",
+          "site": "INSEE/ Offshore",
+          "jobNo": "Job No JB260187",
+          "depart": "05:00",
+          "arrive": "06:00",
+          "members": "ทาม",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "",
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "ถึง INSEE 06:00น เดินทาง 05:00 น.\nถั่วแดง ไปส่ง"
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "SCC Work Shop ศรีราชา",
+          "jobNo": "Job No JB260213 Lot.14",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "กาน(นำ), ปลาย, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+        },
+        {
+          "id": 3,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260209 Lot. 5",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, คิง, ต้าร์",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "TOFF-24",
+          "contact": " ช่างสุตนันท์ 0883929010"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260214 Lot.15  ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บิ๊ก, บีม, อองรี",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 5,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 6,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "date": "18/8/2569",
+      "savedAt": "2026-08-18T10:38:48.914Z",
       "dateKey": "2026-08-18",
-      "savedAt": "2026-08-18T00:00:00.000Z",
-      "modifiedAt": "2026-08-17T11:29:18.193Z",
+      "modifiedAt": "2026-08-18T10:38:48.914Z",
       "teams": [
         {
           "id": 1,
@@ -11609,136 +11738,7 @@
         }
       ],
       "dateKey": "2026-05-19"
-    },
-    {
-      "date": "18 พฤษภาคม 2569",
-      "savedAt": "2026-05-18T06:00:00.000Z",
-      "day_th": "18 พฤษภาคม 2569",
-      "total_personnel": 26,
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 2,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ],
-      "dateKey": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-08-17T11:29:19.599Z"
+  "lastUpdated": "2026-08-18T10:38:48.914Z"
 }
