@@ -5,7 +5,7 @@
       "day_th": "20 สิงหาคม 2569",
       "dateKey": "2026-08-20",
       "savedAt": "2026-08-20T00:00:00.000Z",
-      "modifiedAt": "2026-08-19T09:58:41.671Z",
+      "modifiedAt": "2026-08-19T10:01:01.660Z",
       "teams": [
         {
           "id": 1,
@@ -74,26 +74,27 @@
         {
           "id": 6,
           "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260195",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ทัช, เอิร์ก",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
-        },
-        {
-          "id": 7,
-          "jobType": "FLANGE",
-          "site": "",
+          "site": "โรงกลึง MEC (Shop มาบข่า)",
           "jobNo": "Job No JB260218",
           "depart": "08:30",
           "arrive": "09:00",
-          "members": "บอย, ปาย",
+          "members": "เป้, ปาย, ปลาย",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "MM 300 E",
-          "contact": " ติดต่อ พี่ เดชา 081-2931937"
+          "contact": " ติดต่อ พี่ เดชา 081-2931937",
+          "detail": "กลึง RTJ Flange 3\"x2500 #  "
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
@@ -135,9 +136,9 @@
     },
     {
       "date": "19/8/2569",
-      "savedAt": "2026-08-19T09:58:42.814Z",
+      "savedAt": "2026-08-19T10:01:01.671Z",
       "dateKey": "2026-08-19",
-      "modifiedAt": "2026-08-19T09:58:42.814Z",
+      "modifiedAt": "2026-08-19T10:01:01.671Z",
       "teams": [
         {
           "id": 1,
@@ -11748,5 +11749,5 @@
       "dateKey": "2026-05-20"
     }
   ],
-  "lastUpdated": "2026-08-19T09:58:42.814Z"
+  "lastUpdated": "2026-08-19T10:01:01.671Z"
 }
