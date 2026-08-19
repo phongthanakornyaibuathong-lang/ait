@@ -5,7 +5,7 @@
       "day_th": "20 สิงหาคม 2569",
       "dateKey": "2026-08-20",
       "savedAt": "2026-08-20T00:00:00.000Z",
-      "modifiedAt": "2026-08-19T09:22:51.393Z",
+      "modifiedAt": "2026-08-19T09:58:41.671Z",
       "teams": [
         {
           "id": 1,
@@ -86,38 +86,38 @@
         {
           "id": 7,
           "jobType": "FLANGE",
-          "site": "โรงกลึง MEC (Shop มาบข่า)",
+          "site": "",
           "jobNo": "Job No JB260218",
           "depart": "08:30",
           "arrive": "09:00",
-          "members": "บอย, ฟีล์ม, โอ๊ด",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "members": "บอย, ปาย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "MM 300 E",
           "contact": " ติดต่อ พี่ เดชา 081-2931937"
         },
         {
           "id": 8,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC ",
-          "jobNo": "Job NoJB260205, JB260210",
-          "depart": "08:30",
-          "arrive": "09:00",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
           "members": "แชมป์, ป๋อ",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "",
           "equipment": "",
-          "contact": "-"
+          "contact": ""
         },
         {
           "id": 9,
-          "jobType": "FLANGE",
-          "site": "AITs work shop ระยอง",
-          "jobNo": "Job No JB260216,JB260216",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "เป้, คิว",
+          "members": "",
           "vehicle": "",
-          "equipment": "TOFF-12 New",
-          "contact": "-"
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 10,
@@ -135,9 +135,9 @@
     },
     {
       "date": "19/8/2569",
-      "savedAt": "2026-08-19T09:22:52.121Z",
+      "savedAt": "2026-08-19T09:58:41.685Z",
       "dateKey": "2026-08-19",
-      "modifiedAt": "2026-08-19T09:22:52.121Z",
+      "modifiedAt": "2026-08-19T09:58:41.685Z",
       "teams": [
         {
           "id": 1,
@@ -11748,5 +11748,5 @@
       "dateKey": "2026-05-20"
     }
   ],
-  "lastUpdated": "2026-08-19T09:22:52.121Z"
+  "lastUpdated": "2026-08-19T09:58:41.685Z"
 }
