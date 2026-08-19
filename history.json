@@ -5,7 +5,7 @@
       "day_th": "20 สิงหาคม 2569",
       "dateKey": "2026-08-20",
       "savedAt": "2026-08-20T00:00:00.000Z",
-      "modifiedAt": "2026-08-19T09:18:24.433Z",
+      "modifiedAt": "2026-08-19T09:22:51.393Z",
       "teams": [
         {
           "id": 1,
@@ -55,19 +55,21 @@
           "members": "บิ๊ก, บีม, อองรี",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": ""
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
-          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-          "jobNo": "-",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260221 Lot. 11",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปลาย",
+          "members": "บอย, โอ๊ด, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "",
-          "contact": "ติดต่อ Safety STECON"
+          "equipment": "MM 305 I",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Machine RTJ Flange 6\" 2500# "
         },
         {
           "id": 6,
@@ -133,9 +135,9 @@
     },
     {
       "date": "19/8/2569",
-      "savedAt": "2026-08-19T09:18:24.447Z",
+      "savedAt": "2026-08-19T09:22:51.401Z",
       "dateKey": "2026-08-19",
-      "modifiedAt": "2026-08-19T09:18:24.447Z",
+      "modifiedAt": "2026-08-19T09:22:51.401Z",
       "teams": [
         {
           "id": 1,
@@ -11746,5 +11748,5 @@
       "dateKey": "2026-05-20"
     }
   ],
-  "lastUpdated": "2026-08-19T09:18:24.447Z"
+  "lastUpdated": "2026-08-19T09:22:51.401Z"
 }
