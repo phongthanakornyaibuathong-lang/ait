@@ -5,7 +5,7 @@
       "day_th": "21 สิงหาคม 2569",
       "dateKey": "2026-08-21",
       "savedAt": "2026-08-21T00:00:00.000Z",
-      "modifiedAt": "2026-08-20T08:43:36.261Z",
+      "modifiedAt": "2026-08-20T08:48:55.885Z",
       "teams": [
         {
           "id": 1,
@@ -59,15 +59,16 @@
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260221 Lot. 11",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "MM 305 I",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "jobType": "BOLT",
+          "site": "AITs workshop ระยอง",
+          "jobNo": "Job No. JB260219",
+          "depart": "08:30",
+          "arrive": "",
+          "members": "เป้, ปาย",
+          "vehicle": "",
+          "equipment": "MM 300 E",
+          "contact": "-",
+          "detail": "กลึง RTJ Flange 3\"x2500 #"
         },
         {
           "id": 6,
@@ -136,9 +137,9 @@
     },
     {
       "date": "20/8/2569",
-      "savedAt": "2026-08-20T08:43:37.737Z",
+      "savedAt": "2026-08-20T08:48:55.895Z",
       "dateKey": "2026-08-20",
-      "modifiedAt": "2026-08-20T08:43:37.737Z",
+      "modifiedAt": "2026-08-20T08:48:55.895Z",
       "teams": [
         {
           "id": 1,
@@ -11753,5 +11754,5 @@
       "dateKey": "2026-05-21"
     }
   ],
-  "lastUpdated": "2026-08-20T08:43:37.737Z"
+  "lastUpdated": "2026-08-20T08:48:55.895Z"
 }
