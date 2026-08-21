@@ -5,7 +5,7 @@
       "day_th": "22 สิงหาคม 2569",
       "dateKey": "2026-08-22",
       "savedAt": "2026-08-22T00:00:00.000Z",
-      "modifiedAt": "2026-08-21T10:57:06.040Z",
+      "modifiedAt": "2026-08-21T11:54:54.293Z",
       "teams": [
         {
           "id": 1,
@@ -77,34 +77,35 @@
           "jobNo": "อบรมทำบัตร",
           "depart": "07:30",
           "arrive": "08:00",
-          "members": "ทัช, คิง, เอิร์ก, นัฐ, ปลาย, โอม, โอ๊ด",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "บอย, เฟิร์ส, อั๋น, ต้าร์, ปาย, ธีร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "",
           "contact": " ห้อง Safety"
         },
         {
           "id": 7,
-          "jobType": "FLANGE",
-          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-          "jobNo": "Job NoJB260205 , JB260210",
-          "depart": "13:00",
-          "arrive": "14:30",
-          "members": "ทัช, คิง",
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "-",
+          "depart": "08:30",
+          "arrive": "10:00",
+          "members": "แชมป์, นัฐ",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "เครื่องมือวัด",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
+          "detail": "Site Survey Bolt tension Flange 24\"x1500# "
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "CUEL งาน Torque Unit 4",
-          "jobNo": "Job No. JB260224",
-          "depart": "06:30",
-          "arrive": "07:30",
-          "members": "แชมป์, ป๋อ, ธีร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง ปิยพงษ์  099-4419388"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -134,9 +135,9 @@
     },
     {
       "date": "21/8/2569",
-      "savedAt": "2026-08-21T10:57:07.620Z",
+      "savedAt": "2026-08-21T11:54:54.302Z",
       "dateKey": "2026-08-21",
-      "modifiedAt": "2026-08-21T10:57:07.620Z",
+      "modifiedAt": "2026-08-21T11:54:54.302Z",
       "teams": [
         {
           "id": 1,
@@ -11756,5 +11757,5 @@
       "dateKey": "2026-05-23"
     }
   ],
-  "lastUpdated": "2026-08-21T10:57:07.620Z"
+  "lastUpdated": "2026-08-21T11:54:54.302Z"
 }
