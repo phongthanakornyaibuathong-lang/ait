@@ -5,7 +5,7 @@
       "day_th": "22 สิงหาคม 2569",
       "dateKey": "2026-08-22",
       "savedAt": "2026-08-22T00:00:00.000Z",
-      "modifiedAt": "2026-08-21T11:57:39.638Z",
+      "modifiedAt": "2026-08-21T15:29:42.613Z",
       "teams": [
         {
           "id": 1,
@@ -17,8 +17,7 @@
           "members": "ทาม",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-          "detail": "ทำงานประมาณ 1 เดือน"
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
         },
         {
           "id": 2,
@@ -42,8 +41,7 @@
           "members": "คิง, ฟีล์ม, โอ๊ด",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TSF 18",
-          "contact": " ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "Cutting & Bevel Pipe 14\" TKH 40 mm. "
+          "contact": " ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 4,
@@ -64,11 +62,10 @@
           "jobNo": "Job No, JB260214 Lot.15 Team 2",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "เป้, โอม, คิง",
+          "members": "เป้, โอม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine flange 14\"  5 flange"
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 6,
@@ -92,8 +89,7 @@
           "members": "แชมป์, นัฐ",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "เครื่องมือวัด",
-          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
-          "detail": "Site Survey Bolt tension Flange 24\"x1500# "
+          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798"
         },
         {
           "id": 8,
@@ -135,9 +131,9 @@
     },
     {
       "date": "21/8/2569",
-      "savedAt": "2026-08-21T11:57:40.998Z",
+      "savedAt": "2026-08-21T15:29:42.632Z",
       "dateKey": "2026-08-21",
-      "modifiedAt": "2026-08-21T11:57:40.998Z",
+      "modifiedAt": "2026-08-21T15:29:42.632Z",
       "teams": [
         {
           "id": 1,
@@ -11757,5 +11753,5 @@
       "dateKey": "2026-05-23"
     }
   ],
-  "lastUpdated": "2026-08-21T11:57:40.998Z"
+  "lastUpdated": "2026-08-21T15:29:42.632Z"
 }
