@@ -135,7 +135,7 @@
       "day_th": "24 สิงหาคม 2569",
       "dateKey": "2026-08-24",
       "savedAt": "2026-08-24T00:00:00.000Z",
-      "modifiedAt": "2026-08-23T10:00:43.677Z",
+      "modifiedAt": "2026-08-23T10:06:38.230Z",
       "teams": [
         {
           "id": 1,
@@ -154,7 +154,7 @@
           "id": 2,
           "jobType": "FLANGE",
           "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "Job No JB260213 Lot.14",
+          "jobNo": "Job No JB260226 Lot.15",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "กาน(นำ), ปลาย, ป๊อก",
@@ -178,10 +178,10 @@
           "id": 4,
           "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260214 Lot.15 Team 1",
+          "jobNo": "Job No, JB260228 Lot.16   Team 1",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บิ๊ก, บีม, อองรี",
+          "members": "บิ๊ก, บีม",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง กับตัน 080-0471014"
@@ -190,11 +190,11 @@
           "id": 5,
           "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thai oil CFP Site)",
-          "jobNo": "Job No, JB260214 Lot.15 Team 2",
+          "jobNo": "Job No, JB260228 Lot.16   Team 2",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "เป้, โอม, คิว",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "members": "เป้, เฟิร์ส, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
           "contact": "ช่าง กับตัน 080-0471014"
         },
@@ -11754,5 +11754,5 @@
       "dateKey": "2026-05-25"
     }
   ],
-  "lastUpdated": "2026-08-23T10:01:16.036Z"
+  "lastUpdated": "2026-08-23T10:06:38.249Z"
 }
