@@ -135,7 +135,7 @@
       "day_th": "24 สิงหาคม 2569",
       "dateKey": "2026-08-24",
       "savedAt": "2026-08-24T00:00:00.000Z",
-      "modifiedAt": "2026-08-23T10:06:38.230Z",
+      "modifiedAt": "2026-08-23T10:09:52.620Z",
       "teams": [
         {
           "id": 1,
@@ -214,13 +214,14 @@
           "id": 7,
           "jobType": "BOLT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "-",
-          "depart": "08:30",
-          "arrive": "10:00",
-          "members": "แชมป์, นัฐ",
+          "jobNo": "Job No JB260227 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ, แชมป์, ป๋อ, โอม, กรานต์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "เครื่องมือวัด",
-          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798"
+          "equipment": "Hydraulic bolt tension Tool",
+          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
+          "detail": "Bolt tension Flange 24\"x1500# (First Joint)\nสงกรานต์ (Obseve)"
         },
         {
           "id": 8,
@@ -11754,5 +11755,5 @@
       "dateKey": "2026-05-25"
     }
   ],
-  "lastUpdated": "2026-08-23T10:06:38.249Z"
+  "lastUpdated": "2026-08-23T10:09:52.638Z"
 }
