@@ -135,7 +135,7 @@
       "day_th": "25 สิงหาคม 2569",
       "dateKey": "2026-08-25",
       "savedAt": "2026-08-25T00:00:00.000Z",
-      "modifiedAt": "2026-08-24T10:24:58.826Z",
+      "modifiedAt": "2026-08-24T10:27:21.202Z",
       "teams": [
         {
           "id": 1,
@@ -188,15 +188,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai (Work shop) บ้านฉาง",
+          "jobNo": "Job No JB260225 Lot. 7  ",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "อั๋น, ปาย, ธีร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 24, TSF 12,",
+          "contact": "ช่างสุตนันท์ 088-3929010",
+          "detail": "Cutting & Bevel Pipe 20\" TKH 50 mm. Bevel นอก-ใน Cutting & Bevel Pipe 12\""
         },
         {
           "id": 6,
@@ -262,9 +263,9 @@
     },
     {
       "date": "24/8/2569",
-      "savedAt": "2026-08-24T10:24:59.732Z",
+      "savedAt": "2026-08-24T10:27:21.215Z",
       "dateKey": "2026-08-24",
-      "modifiedAt": "2026-08-24T10:24:59.732Z",
+      "modifiedAt": "2026-08-24T10:27:21.215Z",
       "teams": [
         {
           "id": 1,
@@ -11757,5 +11758,5 @@
       "dateKey": "2026-05-26"
     }
   ],
-  "lastUpdated": "2026-08-24T10:24:59.732Z"
+  "lastUpdated": "2026-08-24T10:27:21.215Z"
 }
