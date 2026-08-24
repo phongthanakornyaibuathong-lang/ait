@@ -135,7 +135,7 @@
       "day_th": "25 สิงหาคม 2569",
       "dateKey": "2026-08-25",
       "savedAt": "2026-08-25T00:00:00.000Z",
-      "modifiedAt": "2026-08-24T10:36:42.791Z",
+      "modifiedAt": "2026-08-24T11:02:35.195Z",
       "teams": [
         {
           "id": 1,
@@ -183,8 +183,7 @@
           "members": "บอย, เป้, เอิร์ก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-40",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "Machine RTJ Flange 16\" 2500#"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 5,
@@ -196,8 +195,7 @@
           "members": "อั๋น, ปาย, ธีร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 24, TSF 12,",
-          "contact": "ช่างสุตนันท์ 088-3929010",
-          "detail": "Cutting & Bevel Pipe 20\" TKH 50 mm. Bevel นอก-ใน Cutting & Bevel Pipe 12\""
+          "contact": "ช่างสุตนันท์ 088-3929010"
         },
         {
           "id": 6,
@@ -209,20 +207,20 @@
           "members": "คิง, ฟีล์ม, เฟิร์ส",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TSF 18, TTFF 24, TOFF 12",
-          "contact": " ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "เอาเครื่องมือออกมาที่ Shop AITS"
+          "contact": " ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260230   RF Lot.13",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "เป้, โอม, ต้าร์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": " ติดต่อช่าง โด่ง  094-7467526",
+          "detail": " Machine RF Flange 16\" 1500# "
         },
         {
           "id": 8,
@@ -264,9 +262,9 @@
     },
     {
       "date": "24/8/2569",
-      "savedAt": "2026-08-24T10:36:43.754Z",
+      "savedAt": "2026-08-24T11:02:35.202Z",
       "dateKey": "2026-08-24",
-      "modifiedAt": "2026-08-24T10:36:43.754Z",
+      "modifiedAt": "2026-08-24T11:02:35.202Z",
       "teams": [
         {
           "id": 1,
@@ -11759,5 +11757,5 @@
       "dateKey": "2026-05-26"
     }
   ],
-  "lastUpdated": "2026-08-24T10:36:43.754Z"
+  "lastUpdated": "2026-08-24T11:02:35.202Z"
 }
