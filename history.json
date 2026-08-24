@@ -135,7 +135,7 @@
       "day_th": "25 สิงหาคม 2569",
       "dateKey": "2026-08-25",
       "savedAt": "2026-08-25T00:00:00.000Z",
-      "modifiedAt": "2026-08-24T10:27:21.202Z",
+      "modifiedAt": "2026-08-24T10:29:57.790Z",
       "teams": [
         {
           "id": 1,
@@ -201,15 +201,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260220 Lot. 5",
+          "depart": "08:30",
+          "arrive": "09:30",
+          "members": "คิง, ฟีล์ม, เฟิร์ส",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "TSF 18, TTFF 24, TOFF 12",
+          "contact": " ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "เอาเครื่องมือออกมาที่ Shop AITS"
         },
         {
           "id": 7,
@@ -263,9 +264,9 @@
     },
     {
       "date": "24/8/2569",
-      "savedAt": "2026-08-24T10:27:22.362Z",
+      "savedAt": "2026-08-24T10:29:57.797Z",
       "dateKey": "2026-08-24",
-      "modifiedAt": "2026-08-24T10:27:22.362Z",
+      "modifiedAt": "2026-08-24T10:29:57.797Z",
       "teams": [
         {
           "id": 1,
@@ -11758,5 +11759,5 @@
       "dateKey": "2026-05-26"
     }
   ],
-  "lastUpdated": "2026-08-24T10:27:22.362Z"
+  "lastUpdated": "2026-08-24T10:29:57.797Z"
 }
