@@ -10,95 +10,92 @@
       "members": "ทาม",
       "vehicle": "",
       "equipment": "Hydraulic torque",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-      "detail": "ทำงานประมาณ 1 เดือน"
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
     },
     {
       "id": 2,
       "jobType": "FLANGE",
-      "site": "SCC Work Shop ศรีราชา",
+      "site": "SCC  ศรีราชา (WorkShop)",
       "jobNo": "Job No JB260226 Lot.15",
       "depart": "06:30",
       "arrive": "08:00",
       "members": "กาน(นำ), ปลาย, ป๊อก",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
+      "contact": "ติดต่อ ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
       "id": 3,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260220 Lot. 5",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "คิง, ฟีล์ม, โอ๊ด",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "TSF 18",
-      "contact": " ติดต่อช่าง โด่ง  094-7467526"
-    },
-    {
-      "id": 4,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260228 Lot.16   Team 1",
+      "jobNo": "Job No JB260228 Lot.16  ",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "บิ๊ก, บีม",
+      "members": "บิ๊ก, บีม, โอ๊ด",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง กับตัน 080-0471014"
     },
     {
-      "id": 5,
+      "id": 4,
       "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thai oil CFP Site)",
-      "jobNo": "Job No, JB260228 Lot.16   Team 2",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260229  RTJ Lot.12",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, เฟิร์ส, ต้าร์",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TTFF-24 (New)",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "members": "บอย, คิว, เอิร์ก",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TTFF-40",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526"
+    },
+    {
+      "id": 5,
+      "jobType": "COLD_CUT",
+      "site": "Shino thai (Work shop) บ้านฉาง",
+      "jobNo": "Job No JB260225 Lot. 7  ",
+      "depart": "07:00",
+      "arrive": "08:00",
+      "members": "อั๋น, ปาย, ธีร์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "TSF 24, TSF 12,",
+      "contact": "ช่างสุตนันท์ 088-3929010"
     },
     {
       "id": 6,
       "jobType": "COLD_CUT",
-      "site": "Shino thai (Work shop) บ้านฉาง",
-      "jobNo": "Job No JB260225 Lot. 7 ",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "อั๋น, ปาย, ธีร์",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260220 Lot. 5",
+      "depart": "08:30",
+      "arrive": "09:30",
+      "members": "คิง, ฟีล์ม, เฟิร์ส",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "Cold Cut TSF 24 , TSF 12",
-      "contact": "ช่างสุตนันท์ 088-3929010",
-      "detail": "Cutting & Bevel Pipe 20\" TKH 50 mm. Bevel นอก-ใน Cutting & Bevel Pipe 12\""
+      "equipment": "TSF 18, TTFF 24, TOFF 12",
+      "contact": " ติดต่อช่าง โด่ง  094-7467526"
     },
     {
       "id": 7,
-      "jobType": "BOLT",
+      "jobType": "FLANGE",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260227 ",
+      "jobNo": "Job No JB260230   RF Lot.13",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "นัฐ, แชมป์, ป๋อ, โอม, กรานต์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "Hydraulic bolt tension Tool",
-      "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
-      "detail": "Bolt tension Flange 24\"x1500# (First Joint)\nสงกรานต์ (Obseve)"
+      "members": "เป้, โอม, ต้าร์",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TTFF-24 (New)",
+      "contact": " ติดต่อช่าง โด่ง  094-7467526",
+      "detail": " Machine RF Flange 16\" 1500# "
     },
     {
       "id": 8,
-      "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260229  RTJ Lot.12 ",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, คิว, เอิร์ก",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "TTFF-40",
-      "contact": "",
-      "detail": " Machine RTJ Flange 16\" 2500# "
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 9,
@@ -125,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-24T11:04:22.054Z",
+  "lastUpdated": "2026-08-25T08:46:10.261Z",
   "updatedBy": "Nine",
-  "date": "24/8/2569"
+  "date": "25/8/2569"
 }
