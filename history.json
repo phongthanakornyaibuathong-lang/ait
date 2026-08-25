@@ -135,7 +135,7 @@
       "day_th": "26 สิงหาคม 2569",
       "dateKey": "2026-08-26",
       "savedAt": "2026-08-26T00:00:00.000Z",
-      "modifiedAt": "2026-08-25T10:50:37.658Z",
+      "modifiedAt": "2026-08-25T10:54:10.377Z",
       "teams": [
         {
           "id": 1,
@@ -201,15 +201,15 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "CUEL งาน Torque Unit 4",
+          "jobNo": "Job No. JB260224  ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "แชมป์, ป๋อ, ธีร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ติดต่อช่าง ปิยพงษ์ CUEL  099-4419388"
         },
         {
           "id": 7,
@@ -263,9 +263,9 @@
     },
     {
       "date": "25/8/2569",
-      "savedAt": "2026-08-25T10:52:25.648Z",
+      "savedAt": "2026-08-25T10:54:10.391Z",
       "dateKey": "2026-08-25",
-      "modifiedAt": "2026-08-25T10:52:25.648Z",
+      "modifiedAt": "2026-08-25T10:54:10.391Z",
       "teams": [
         {
           "id": 1,
@@ -11758,5 +11758,5 @@
       "dateKey": "2026-05-27"
     }
   ],
-  "lastUpdated": "2026-08-25T10:52:25.648Z"
+  "lastUpdated": "2026-08-25T10:54:10.391Z"
 }
