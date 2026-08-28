@@ -15,20 +15,20 @@
     {
       "id": 2,
       "jobType": "FLANGE",
-      "site": "SCC  ศรีราชา (WorkShop)",
-      "jobNo": "Job No JB260226  Lot.15",
+      "site": "SCC  ศรีราชา (Work Shop)",
+      "jobNo": "Job No JB260226 Lot.15 ",
       "depart": "06:30",
       "arrive": "08:00",
       "members": "กาน(นำ), ปลาย, บีม",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TOFF-12 New",
-      "contact": "ติดต่อ ช่าง เพียว เพิ่มพงศ์ 0926216363"
+      "equipment": "TOFF-12",
+      "contact": "ช่าง กับตัน 080-0471014"
     },
     {
       "id": 3,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260228 Lot.16  ",
+      "jobNo": "Job No JB260228 Lot.16  ",
       "depart": "06:30",
       "arrive": "07:00",
       "members": "บิ๊ก, โอ๊ด, อองรี",
@@ -40,40 +40,39 @@
       "id": 4,
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260220 Lot. 5 ",
+      "jobNo": "Job No JB260220 Lot. 5",
       "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, อั๋น, คิง, ต้าร์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "arrive": "07:00",
+      "members": "บอย, อั๋น, ฟีล์ม, ต้าร์",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TSF 36",
-      "contact": "  ติดต่อช่าง โด่ง  094-7467526",
+      "contact": " ติดต่อช่าง โด่ง  094-7467526",
       "detail": "Cutting & Bevel Pipe 36\" TKH 34 mm. Bevel \" Mat's Alloy 625"
     },
     {
       "id": 5,
       "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260221",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ทัช, เอิร์ก, คิว",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "เครื่องมือวัด RTJ",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "ตรวจ Flange RTJ 6\"x2500# ส่งงาน STECON / Wood "
+      "site": "โรงกลึง MEC (Shop มาบข่า)",
+      "jobNo": "Job No JB260218",
+      "depart": "08:30",
+      "arrive": "09:00",
+      "members": "เป้, ปาย, โอม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "",
+      "contact": " ติดต่อ พี่ เดชา 081-2931937",
+      "detail": "กลึง RTJ  Flange 1-1/2\",2\"x2500 #    5  flange "
     },
     {
       "id": 6,
-      "jobType": "FLANGE",
-      "site": "โรงกลึง MEC (Shop มาบข่า)",
-      "jobNo": "Job No JB260218  ",
-      "depart": "08:30",
-      "arrive": "09:00",
-      "members": "เป้, ปาย, ฟีล์ม",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "TOFF-12",
-      "contact": "ติดต่อ พี่ เดชา 081-2931937",
-      "detail": "กลึง RTJ Flange 1-1/2\",2\"x2500 # 5 flange \nเช่า Shop MEC"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 7,
@@ -124,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-27T10:54:32.462Z",
+  "lastUpdated": "2026-08-28T10:20:18.485Z",
   "updatedBy": "Nine",
-  "date": "27/8/2569"
+  "date": "28/8/2569"
 }
