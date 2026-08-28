@@ -5,11 +5,11 @@
       "day_th": "6 กันยายน 2569",
       "dateKey": "2026-09-06",
       "savedAt": "2026-09-06T00:00:00.000Z",
-      "modifiedAt": "2026-08-22T03:32:26.797Z",
+      "modifiedAt": "2026-08-28T10:20:18.476Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "INSEE/ Offshore",
           "jobNo": "Job No JB260187",
           "depart": "",
@@ -21,7 +21,7 @@
         },
         {
           "id": 2,
-          "jobType": "ROBOT",
+          "jobType": "STANDBY",
           "site": "อาซาฮี เทค อลูมิเนียม",
           "jobNo": "Job No JB260182 ",
           "depart": "07:30",
@@ -29,8 +29,7 @@
           "members": "นาย, ป๋อ, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Robot tool",
-          "contact": "K’ Natee  06-57300978",
-          "detail": "งานเปลี่ยนเกียร์แกน 1,6 IRB6700"
+          "contact": "K’ Natee  06-57300978"
         },
         {
           "id": 3,
@@ -131,11 +130,10 @@
       ]
     },
     {
-      "date": "28 สิงหาคม 2569",
-      "day_th": "28 สิงหาคม 2569",
+      "date": "28/8/2569",
+      "savedAt": "2026-08-28T10:20:18.485Z",
       "dateKey": "2026-08-28",
-      "savedAt": "2026-08-28T00:00:00.000Z",
-      "modifiedAt": "2026-08-27T10:54:32.451Z",
+      "modifiedAt": "2026-08-28T10:20:18.485Z",
       "teams": [
         {
           "id": 1,
@@ -11761,5 +11759,5 @@
       "dateKey": "2026-05-29"
     }
   ],
-  "lastUpdated": "2026-08-27T10:54:32.462Z"
+  "lastUpdated": "2026-08-28T10:20:18.485Z"
 }
