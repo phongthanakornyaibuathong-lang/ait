@@ -134,7 +134,7 @@
       "day_th": "31 สิงหาคม 2569",
       "dateKey": "2026-08-31",
       "savedAt": "2026-08-31T00:00:00.000Z",
-      "modifiedAt": "2026-08-30T09:05:35.296Z",
+      "modifiedAt": "2026-08-30T09:09:04.629Z",
       "teams": [
         {
           "id": 1,
@@ -163,27 +163,29 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260233 Lot.17  Team 1",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "ฟีล์ม, บีม, โอ๊ด",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6” "
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260233 Lot.17  Team 2",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "กาน(นำ), โอม, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange 10\" = 4 flange "
         },
         {
           "id": 5,
@@ -11760,5 +11762,5 @@
       "dateKey": "2026-05-30"
     }
   ],
-  "lastUpdated": "2026-08-30T09:05:36.929Z"
+  "lastUpdated": "2026-08-30T09:09:04.643Z"
 }
