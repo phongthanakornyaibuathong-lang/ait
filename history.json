@@ -134,7 +134,7 @@
       "day_th": "1 กันยายน 2569",
       "dateKey": "2026-09-01",
       "savedAt": "2026-09-01T00:00:00.000Z",
-      "modifiedAt": "2026-08-31T09:29:09.653Z",
+      "modifiedAt": "2026-08-31T09:31:16.293Z",
       "teams": [
         {
           "id": 1,
@@ -189,15 +189,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260235 Lot. 6",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, อั๋น, โอม, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 36",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 36\" TKH …..  mm. Bevel \" Mat's CS"
         },
         {
           "id": 6,
@@ -263,9 +264,9 @@
     },
     {
       "date": "31/8/2569",
-      "savedAt": "2026-08-31T09:29:11.441Z",
+      "savedAt": "2026-08-31T09:31:16.300Z",
       "dateKey": "2026-08-31",
-      "modifiedAt": "2026-08-31T09:29:11.441Z",
+      "modifiedAt": "2026-08-31T09:31:16.300Z",
       "teams": [
         {
           "id": 1,
@@ -11766,5 +11767,5 @@
       "dateKey": "2026-05-31"
     }
   ],
-  "lastUpdated": "2026-08-31T09:29:11.441Z"
+  "lastUpdated": "2026-08-31T09:31:16.300Z"
 }
