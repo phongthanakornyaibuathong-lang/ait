@@ -10,69 +10,72 @@
       "members": "ทาม",
       "vehicle": "",
       "equipment": "Hydraulic torque",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+      "detail": "ทำงานประมาณ 1 เดือน"
     },
     {
       "id": 2,
       "jobType": "FLANGE",
       "site": "SCC  ศรีราชา (Work Shop)",
-      "jobNo": "Job No JB260226 Lot.15 ",
+      "jobNo": "Job No JB260232  Lot.16",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "กาน(นำ), ปลาย, บีม",
+      "members": "ปาย, ปลาย, ป๊อก",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "contact": " ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
       "id": 3,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No JB260228 Lot.16  ",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "บิ๊ก, โอ๊ด, อองรี",
+      "jobNo": "Job No JB260233 Lot.17  Team 1",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "ฟีล์ม, บีม, โอ๊ด",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine RF Flange ½”-6” "
     },
     {
       "id": 4,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260220 Lot. 5",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "บอย, อั๋น, ฟีล์ม, ต้าร์",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "TSF 36",
-      "contact": " ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Cutting & Bevel Pipe 36\" TKH 34 mm. Bevel \" Mat's Alloy 625"
+      "jobType": "FLANGE",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No JB260233 Lot.17  Team 2",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "กาน(นำ), โอม, เฟิร์ส",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TTFF-24 (New)",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine RF Flange 10\" = 4 flange "
     },
     {
       "id": 5,
       "jobType": "FLANGE",
-      "site": "โรงกลึง MEC (Shop มาบข่า)",
-      "jobNo": "Job No JB260218",
-      "depart": "08:30",
-      "arrive": "09:00",
-      "members": "เป้, ปาย, โอม",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "",
-      "contact": " ติดต่อ พี่ เดชา 081-2931937",
-      "detail": "กลึง RTJ  Flange 1-1/2\",2\"x2500 #    5  flange "
+      "site": "UCS ศรีราชา (Thaioil CFP site)",
+      "jobNo": "Job NoJB260234  Lot. 7",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "เป้, คิว, อองรี",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+      "equipment": "TOFF-12",
+      "contact": "ช่าง โตโต้ 092-3974539 ",
+      "detail": "Machine RF Flange ½”-6”  "
     },
     {
       "id": 6,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "BOLT",
+      "site": "โรงพยาบาลมงกูฎระยอง",
+      "jobNo": "Job No JB260231",
+      "depart": "07:30",
+      "arrive": "08:00",
+      "members": "ทัช, แชมป์, บิ๊ก",
+      "vehicle": "กบ 2192 (4 ประตู)",
+      "equipment": "-",
+      "contact": "-",
+      "detail": "- ตรวจสุขภาพ งานที่อับอากาศ\n- เจาะเลือด งดน้ำ งดอาหารหลังเที่ยงคืน"
     },
     {
       "id": 7,
@@ -123,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-08-30T09:13:38.252Z",
+  "lastUpdated": "2026-08-31T09:23:28.688Z",
   "updatedBy": "Nine",
-  "date": "28/8/2569"
+  "date": "31/8/2569"
 }
