@@ -134,7 +134,7 @@
       "day_th": "1 กันยายน 2569",
       "dateKey": "2026-09-01",
       "savedAt": "2026-09-01T00:00:00.000Z",
-      "modifiedAt": "2026-08-31T09:31:16.293Z",
+      "modifiedAt": "2026-08-31T11:03:43.603Z",
       "teams": [
         {
           "id": 1,
@@ -146,8 +146,7 @@
           "members": "ทาม",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-          "detail": " ทำงานประมาณ 1 เดือน"
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
         },
         {
           "id": 2,
@@ -171,8 +170,7 @@
           "members": "ฟีล์ม, บีม, โอ๊ด",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 4,
@@ -181,11 +179,10 @@
           "jobNo": "Job NoJB260234  Lot. 7",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, คิง, คิว",
+          "members": "เป้, คิว, อองรี",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โตโต้ 092-3974539 ",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 5,
@@ -194,15 +191,15 @@
           "jobNo": "Job No JB260235 Lot. 6",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, อั๋น, โอม, ต้าร์",
+          "members": "อั๋น, คิง, โอม, เฟิร์ส",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 36",
           "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "Cutting & Bevel Pipe 36\" TKH …..  mm. Bevel \" Mat's CS"
+          "detail": "Cutting & Bevel Pipe 36\" Sch XS TKH 12.7 mm. Bevel \" Mat's CS"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -264,9 +261,9 @@
     },
     {
       "date": "31/8/2569",
-      "savedAt": "2026-08-31T09:31:17.153Z",
+      "savedAt": "2026-08-31T11:03:43.611Z",
       "dateKey": "2026-08-31",
-      "modifiedAt": "2026-08-31T09:31:17.153Z",
+      "modifiedAt": "2026-08-31T11:03:43.611Z",
       "teams": [
         {
           "id": 1,
@@ -11767,5 +11764,5 @@
       "dateKey": "2026-05-31"
     }
   ],
-  "lastUpdated": "2026-08-31T09:31:17.153Z"
+  "lastUpdated": "2026-08-31T11:03:43.611Z"
 }
