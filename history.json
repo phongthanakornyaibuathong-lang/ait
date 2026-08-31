@@ -134,7 +134,7 @@
       "day_th": "1 กันยายน 2569",
       "dateKey": "2026-09-01",
       "savedAt": "2026-09-01T00:00:00.000Z",
-      "modifiedAt": "2026-08-31T11:03:43.603Z",
+      "modifiedAt": "2026-08-31T11:07:03.062Z",
       "teams": [
         {
           "id": 1,
@@ -200,14 +200,15 @@
         {
           "id": 6,
           "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260237  RTJ Lot.13",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, เอิร์ก, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TTFF-40",
+          "contact": " ติดต่อช่าง โด่ง  094-7467526",
+          "detail": " Machine RTJ Flange  16\" 2500# "
         },
         {
           "id": 7,
@@ -261,9 +262,9 @@
     },
     {
       "date": "31/8/2569",
-      "savedAt": "2026-08-31T11:03:44.618Z",
+      "savedAt": "2026-08-31T11:07:03.069Z",
       "dateKey": "2026-08-31",
-      "modifiedAt": "2026-08-31T11:03:44.618Z",
+      "modifiedAt": "2026-08-31T11:07:03.069Z",
       "teams": [
         {
           "id": 1,
@@ -11764,5 +11765,5 @@
       "dateKey": "2026-05-31"
     }
   ],
-  "lastUpdated": "2026-08-31T11:03:44.618Z"
+  "lastUpdated": "2026-08-31T11:07:03.069Z"
 }
