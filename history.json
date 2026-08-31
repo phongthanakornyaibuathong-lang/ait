@@ -134,7 +134,7 @@
       "day_th": "1 กันยายน 2569",
       "dateKey": "2026-09-01",
       "savedAt": "2026-09-01T00:00:00.000Z",
-      "modifiedAt": "2026-08-31T09:23:28.677Z",
+      "modifiedAt": "2026-08-31T09:25:12.057Z",
       "teams": [
         {
           "id": 1,
@@ -163,15 +163,16 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260233  Lot.17 ",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "ฟีล์ม, บีม, โอ๊ด",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 4,
@@ -261,9 +262,9 @@
     },
     {
       "date": "31/8/2569",
-      "savedAt": "2026-08-31T09:23:29.713Z",
+      "savedAt": "2026-08-31T09:25:12.062Z",
       "dateKey": "2026-08-31",
-      "modifiedAt": "2026-08-31T09:23:29.713Z",
+      "modifiedAt": "2026-08-31T09:25:12.062Z",
       "teams": [
         {
           "id": 1,
@@ -11764,5 +11765,5 @@
       "dateKey": "2026-05-31"
     }
   ],
-  "lastUpdated": "2026-08-31T09:23:29.713Z"
+  "lastUpdated": "2026-08-31T09:25:12.062Z"
 }
