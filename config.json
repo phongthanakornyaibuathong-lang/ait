@@ -29,6 +29,16 @@
       "id": "STANDBY",
       "label": "STANDBY",
       "color": "#636366"
+    },
+    {
+      "id": "SICK",
+      "label": "ลาป่วย",
+      "color": "#FF453A"
+    },
+    {
+      "id": "PERSONAL",
+      "label": "ลากิจ",
+      "color": "#FF9F0A"
     }
   ],
   "personnel": [
@@ -888,7 +898,8 @@
     "AITs workshop ระยอง",
     "SCC ศรีราชา (Thai oil CFP Site)",
     "อาซาฮี เทค อลูมิเนียม",
-    "โรงพยาบาลมงกูฎระยอง"
+    "โรงพยาบาลมงกูฎระยอง",
+    "SCC  ศรีราชา (Work Shop)"
   ],
   "skills": [
     {
