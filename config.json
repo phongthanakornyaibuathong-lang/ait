@@ -29,16 +29,6 @@
       "id": "STANDBY",
       "label": "STANDBY",
       "color": "#636366"
-    },
-    {
-      "id": "SICK",
-      "label": "ลาป่วย",
-      "color": "#FF453A"
-    },
-    {
-      "id": "PERSONAL",
-      "label": "ลากิจ",
-      "color": "#FF9F0A"
     }
   ],
   "personnel": [
