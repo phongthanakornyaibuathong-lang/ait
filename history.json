@@ -134,7 +134,7 @@
       "day_th": "3 กันยายน 2569",
       "dateKey": "2026-09-03",
       "savedAt": "2026-09-03T00:00:00.000Z",
-      "modifiedAt": "2026-09-02T10:33:50.051Z",
+      "modifiedAt": "2026-09-02T10:39:26.177Z",
       "teams": [
         {
           "id": 1,
@@ -215,27 +215,29 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "Wara Corp (SCG# 8 RTC)",
+          "jobNo": "Job No JB260231",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทัช, แชมป์, บิ๊ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่างเอ็ม สานนท์ 083-8137985",
+          "detail": "Torque Bolt Flange 24\"x150# A/F 50 mm. = 2flange\nงานที่อับอากาศ"
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "FLANGE",
+          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
+          "jobNo": "Job NoJB260210 , JB260216, JB260218, JB260219",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "กรานต์, ปาย",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood"
         },
         {
           "id": 9,
@@ -265,9 +267,9 @@
     },
     {
       "date": "2/9/2569",
-      "savedAt": "2026-09-02T10:33:50.825Z",
+      "savedAt": "2026-09-02T10:39:26.208Z",
       "dateKey": "2026-09-02",
-      "modifiedAt": "2026-09-02T10:33:50.825Z",
+      "modifiedAt": "2026-09-02T10:39:26.208Z",
       "teams": [
         {
           "id": 1,
@@ -11777,5 +11779,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-02T10:33:50.825Z"
+  "lastUpdated": "2026-09-02T10:39:26.208Z"
 }
