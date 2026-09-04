@@ -11,7 +11,7 @@
       "vehicle": "",
       "equipment": "Hydraulic torque",
       "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-      "detail": "  ทำงานประมาณ 1 เดือน"
+      "detail": "ทำงานประมาณ 1 เดือน"
     },
     {
       "id": 2,
@@ -20,9 +20,9 @@
       "jobNo": "Job No JB260232 Lot.16",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "กาน(นำ), ป๊อก, ธีร์",
+      "members": "คิง, ปาย",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TTFF-24 (New)",
+      "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
@@ -36,7 +36,7 @@
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange ½”-6”"
+      "detail": "Machine RF Flange ½”-6”  "
     },
     {
       "id": 4,
@@ -58,11 +58,11 @@
       "jobNo": "Job No JB260237 RTJ Lot.13",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "บอย, เอิร์ก, ต้าร์",
+      "members": "บอย, ต้าร์, เอิร์ก",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TTFF-40",
       "contact": " ติดต่อช่าง โด่ง  094-7467526",
-      "detail": " Machine RTJ Flange 16\" 2500# "
+      "detail": "Machine RTJ Flange 16\" 2500# "
     },
     {
       "id": 6,
@@ -70,8 +70,8 @@
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No JB260235 Lot. 6",
       "depart": "06:30",
-      "arrive": "08:00",
-      "members": "อั๋น, โอม, ปลาย, เฟิร์ส",
+      "arrive": "07:00",
+      "members": "อั๋น, โอม, ปลาย",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TSF 36",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
@@ -79,29 +79,29 @@
     },
     {
       "id": 7,
-      "jobType": "BOLT",
-      "site": "Wara Corp (SCG# 8 RTC)",
-      "jobNo": "Job No JB260231",
-      "depart": "07:00",
+      "jobType": "TRAINING",
+      "site": "PTT GSP (โรงแยก)",
+      "jobNo": "อบรมทำบัตร",
+      "depart": "07:30",
       "arrive": "08:00",
-      "members": "ทัช, แชมป์, บิ๊ก",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "Hydraulic torque",
-      "contact": "ช่างเอ็ม สานนท์ 083-8137985",
-      "detail": "Torque Bolt Flange 24\"x150# A/F 50 mm. = 2flange\nงานที่อับอากาศ"
+      "members": "บิ๊ก, กาน(นำ), ธีร์, ป๊อก",
+      "vehicle": "",
+      "equipment": "-",
+      "contact": "ห้อง Safety",
+      "detail": "พี่บุษไปด้วย อบรมความปลอดภํยทำบัตร 08:00-12:00 น.\nไปกับรถพี่บุษ"
     },
     {
       "id": 8,
       "jobType": "FLANGE",
-      "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-      "jobNo": "Job NoJB260210 , JB260216, JB260218, JB260219",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "กรานต์, ปาย",
-      "vehicle": "",
+      "site": "โรงกลึง MEC",
+      "jobNo": "- ",
+      "depart": "08:30",
+      "arrive": "09:00",
+      "members": "กรานต์, นัฐ",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood"
+      "contact": "",
+      "detail": "ส่ง Blind flange 24\"300# ที่โรงกลึง MEC"
     },
     {
       "id": 9,
@@ -128,7 +128,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-03T11:04:28.155Z",
+  "lastUpdated": "2026-09-04T10:14:38.148Z",
   "updatedBy": "Nine",
-  "date": "3/9/2569"
+  "date": "4/9/2569"
 }
