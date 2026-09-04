@@ -134,7 +134,7 @@
       "day_th": "5 กันยายน 2569",
       "dateKey": "2026-09-05",
       "savedAt": "2026-09-05T00:00:00.000Z",
-      "modifiedAt": "2026-09-04T10:21:26.918Z",
+      "modifiedAt": "2026-09-04T12:24:48.217Z",
       "teams": [
         {
           "id": 1,
@@ -146,8 +146,7 @@
           "members": "ทาม",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-          "detail": "ทำงานประมาณ 1 เดือน"
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
         },
         {
           "id": 2,
@@ -171,8 +170,7 @@
           "members": "ฟีล์ม, บีม, โอ๊ด",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 4,
@@ -184,8 +182,7 @@
           "members": "เป้, คิว, อองรี",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โตโต้ 092-3974539 ",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง โตโต้ 092-3974539 "
         },
         {
           "id": 5,
@@ -197,21 +194,19 @@
           "members": "บอย, ต้าร์, เอิร์ก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-40",
-          "contact": " ติดต่อช่าง โด่ง  094-7467526",
-          "detail": " Machine RTJ Flange  16\" 2500# "
+          "contact": " ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 6,
           "jobType": "COLD_CUT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260235 Lot. 6",
+          "jobNo": "Job No JB260235 Lot. 6 Team 1.",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "อั๋น, โอม, ปลาย, กาน(นำ)",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TSF 36",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "Cutting & Bevel Pipe 36\" TKH 12.7 mm. Bevel \" Mat's CS"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 7,
@@ -223,20 +218,20 @@
           "members": "นัฐ, ธีร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "-",
-          "contact": "K.วันชนะ (โอเล่)",
-          "detail": "รับชิ้นงานจากโรงกลึง - ส่งชิ้นงาน INSEE"
+          "contact": "K.วันชนะ (โอเล่)"
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260235 Lot. 6 Team 2.",
+          "depart": "06:30",
+          "arrive": "06:30",
+          "members": "คิง, บิ๊ก, แชมป์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 24",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 24\" TKH 17.8 mm. Bevel \" Mat's CS\nไปกับทีม อั๋น และ ทีมบอย"
         },
         {
           "id": 9,
@@ -266,9 +261,9 @@
     },
     {
       "date": "4/9/2569",
-      "savedAt": "2026-09-04T10:22:42.368Z",
+      "savedAt": "2026-09-04T12:24:48.236Z",
       "dateKey": "2026-09-04",
-      "modifiedAt": "2026-09-04T10:22:42.368Z",
+      "modifiedAt": "2026-09-04T12:24:48.236Z",
       "teams": [
         {
           "id": 1,
@@ -11790,5 +11785,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-04T10:22:42.368Z"
+  "lastUpdated": "2026-09-04T12:24:48.236Z"
 }
