@@ -134,7 +134,7 @@
       "day_th": "5 กันยายน 2569",
       "dateKey": "2026-09-05",
       "savedAt": "2026-09-05T00:00:00.000Z",
-      "modifiedAt": "2026-09-04T10:14:37.035Z",
+      "modifiedAt": "2026-09-04T10:21:26.918Z",
       "teams": [
         {
           "id": 1,
@@ -195,34 +195,36 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, ต้าร์, เอิร์ก",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-40",
           "contact": " ติดต่อช่าง โด่ง  094-7467526",
           "detail": " Machine RTJ Flange  16\" 2500# "
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260235 Lot. 6",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "อั๋น, โอม, ปลาย, กาน(นำ)",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TSF 36",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 36\" TKH 12.7 mm. Bevel \" Mat's CS"
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "INSEE/GSP#6 (โรงกลึง MEC)",
+          "jobNo": "Job No JB260238",
+          "depart": "14:00",
+          "arrive": "15:00",
+          "members": "นัฐ, ธีร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "-",
+          "contact": "K.วันชนะ (โอเล่)",
+          "detail": "รับชิ้นงานจากโรงกลึง - ส่งชิ้นงาน INSEE"
         },
         {
           "id": 8,
@@ -264,9 +266,9 @@
     },
     {
       "date": "4/9/2569",
-      "savedAt": "2026-09-04T10:14:37.046Z",
+      "savedAt": "2026-09-04T10:21:26.931Z",
       "dateKey": "2026-09-04",
-      "modifiedAt": "2026-09-04T10:14:37.046Z",
+      "modifiedAt": "2026-09-04T10:21:26.931Z",
       "teams": [
         {
           "id": 1,
@@ -11788,5 +11790,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-04T10:14:37.046Z"
+  "lastUpdated": "2026-09-04T10:21:26.931Z"
 }
