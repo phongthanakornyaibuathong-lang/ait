@@ -5,11 +5,11 @@
       "day_th": "7 กันยายน 2569",
       "dateKey": "2026-09-07",
       "savedAt": "2026-09-07T00:00:00.000Z",
-      "modifiedAt": "2026-09-05T09:58:07.643Z",
+      "modifiedAt": "2026-09-05T09:58:26.263Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "STANDBY",
+          "jobType": "BOLT",
           "site": "INSEE/ Offshore",
           "jobNo": "Job No JB260187",
           "depart": "",
@@ -17,7 +17,8 @@
           "members": "ทาม",
           "vehicle": "",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "ทำงานประมาณ 1 เดือน"
         },
         {
           "id": 2,
@@ -260,9 +261,9 @@
     },
     {
       "date": "5/9/2569",
-      "savedAt": "2026-09-05T09:58:07.650Z",
+      "savedAt": "2026-09-05T09:58:26.277Z",
       "dateKey": "2026-09-05",
-      "modifiedAt": "2026-09-05T09:58:07.650Z",
+      "modifiedAt": "2026-09-05T09:58:26.277Z",
       "teams": [
         {
           "id": 1,
@@ -11784,5 +11785,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-05T09:58:07.650Z"
+  "lastUpdated": "2026-09-05T09:58:26.277Z"
 }
