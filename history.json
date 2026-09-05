@@ -5,7 +5,7 @@
       "day_th": "7 กันยายน 2569",
       "dateKey": "2026-09-07",
       "savedAt": "2026-09-07T00:00:00.000Z",
-      "modifiedAt": "2026-09-05T10:10:57.380Z",
+      "modifiedAt": "2026-09-05T10:39:13.042Z",
       "teams": [
         {
           "id": 1,
@@ -28,7 +28,7 @@
           "depart": "07:00",
           "arrive": "09:00",
           "members": "นาย, ป๋อ, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Robot tool",
           "contact": "K’ Natee  06-57300978",
           "detail": "Robot งานเปลี่ยนเกียร์แกน 1,6 IRB6700\nมี ผรม. 1 คน"
@@ -108,7 +108,7 @@
           "vehicle": "",
           "equipment": "TTFF-40",
           "contact": "พี่ เดชา 081-2931937",
-          "detail": "กลึง RF Flange 24x300 # 1 flange "
+          "detail": "กลึง RF Flange 24x300 # 1 flange \n"
         },
         {
           "id": 9,
@@ -267,9 +267,9 @@
     },
     {
       "date": "5/9/2569",
-      "savedAt": "2026-09-05T10:10:58.327Z",
+      "savedAt": "2026-09-05T10:39:13.052Z",
       "dateKey": "2026-09-05",
-      "modifiedAt": "2026-09-05T10:10:58.327Z",
+      "modifiedAt": "2026-09-05T10:39:13.052Z",
       "teams": [
         {
           "id": 1,
@@ -11791,5 +11791,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-05T10:10:58.327Z"
+  "lastUpdated": "2026-09-05T10:39:13.052Z"
 }
