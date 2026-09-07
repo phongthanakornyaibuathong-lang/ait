@@ -10,92 +10,98 @@
       "members": "ทาม",
       "vehicle": "",
       "equipment": "Hydraulic torque",
-      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
+      "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+      "detail": "ทำงานประมาณ 1 เดือน"
     },
     {
       "id": 2,
+      "jobType": "ROBOT",
+      "site": "อาซาฮี เทค อลูมิเนียม",
+      "jobNo": "Job No JB260182 ",
+      "depart": "07:00",
+      "arrive": "09:00",
+      "members": "นาย, ป๋อ, เอิร์ก",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "Robot tool",
+      "contact": "K’ Natee  06-57300978",
+      "detail": "Robot งานเปลี่ยนเกียร์แกน 1,6 IRB6700\nมี ผรม. 1 คน"
+    },
+    {
+      "id": 3,
       "jobType": "FLANGE",
-      "site": "SCC  ศรีราชา (Workshop)",
-      "jobNo": "Job No JB260232 Lot.16",
+      "site": "SCC  ศรีราชา (Work Shop)",
+      "jobNo": "Job No JB260241 Lot.17",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "ปาย, ป๊อก, ธีร์",
+      "members": "ปาย, ปลาย, ป๊อก",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
-      "id": 3,
-      "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260233 Lot.17 ",
-      "depart": "06:30",
-      "arrive": "07:00",
-      "members": "ฟีล์ม, บีม, โอ๊ด",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014"
-    },
-    {
       "id": 4,
       "jobType": "FLANGE",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No, JB260242 Lot.18",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "บิ๊ก, ฟีล์ม, บีม",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "TOFF-12",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine RF Flange ½”-6” "
+    },
+    {
+      "id": 5,
+      "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
-      "jobNo": "Job NoJB260234  Lot. 7",
+      "jobNo": "Job NoJB260243 Lot. 8",
       "depart": "06:00",
       "arrive": "07:30",
       "members": "เป้, คิว, อองรี",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง โตโต้ 092-3974539 "
-    },
-    {
-      "id": 5,
-      "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260237  RTJ Lot.13",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, ต้าร์, เอิร์ก",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TTFF-40",
-      "contact": " ติดต่อช่าง โด่ง  094-7467526"
+      "contact": "ช่าง โตโต้ 092-3974539 ",
+      "detail": "Machine RF Flange ½”-6”  "
     },
     {
       "id": 6,
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260235 Lot. 6 Team 1.",
+      "jobNo": "Job No JB260244  Lot.7",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "อั๋น, โอม, ปลาย, กาน(นำ)",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "TSF 36",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526"
-    },
-    {
-      "id": 7,
-      "jobType": "FLANGE",
-      "site": "INSEE/GSP#6 (โรงกลึง MEC)",
-      "jobNo": "Job No JB260238",
-      "depart": "14:00",
-      "arrive": "15:00",
-      "members": "นัฐ, เฟิร์ส",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "-",
-      "contact": "K.วันชนะ (โอเล่)"
-    },
-    {
-      "id": 8,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260235 Lot. 6 Team 2.",
-      "depart": "06:30",
-      "arrive": "06:30",
-      "members": "คิง, บิ๊ก, แชมป์",
+      "members": "คิง, อั๋น, กาน(นำ)",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TSF 24",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Cutting & Bevel Pipe 24\" TKH 17.8 mm. Bevel \" Mat's CS\nไปกับทีม อั๋น และ ทีมบอย"
+      "detail": "Cutting & Bevel Pipe 24\" TKH 25 mm. Bevel \" Mat's CS"
+    },
+    {
+      "id": 7,
+      "jobType": "BOLT",
+      "site": "CUEL งาน Torque Unit 4",
+      "jobNo": "Job No. JB260240",
+      "depart": "06:30",
+      "arrive": "07:30",
+      "members": "แชมป์, นัฐ, ธีร์",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388",
+      "detail": "Torque bolt รายละเอียดตามเอกสารแนบ"
+    },
+    {
+      "id": 8,
+      "jobType": "FLANGE",
+      "site": "โรงกลึง MEC (Shop มาบข่า)",
+      "jobNo": "-",
+      "depart": "08:30",
+      "arrive": "09:00",
+      "members": "บอย, ต้าร์, โอ๊ด",
+      "vehicle": "",
+      "equipment": "TTFF-40",
+      "contact": "พี่ เดชา 081-2931937",
+      "detail": "กลึง RF Flange 24x300 # 1 flange \n"
     },
     {
       "id": 9,
@@ -122,7 +128,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-05T10:45:08.501Z",
+  "lastUpdated": "2026-09-07T06:18:43.358Z",
   "updatedBy": "Nine",
-  "date": "5/9/2569"
+  "date": "7/9/2569"
 }
