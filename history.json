@@ -5,7 +5,7 @@
       "day_th": "10 กันยายน 2569",
       "dateKey": "2026-09-10",
       "savedAt": "2026-09-10T00:00:00.000Z",
-      "modifiedAt": "2026-09-09T10:22:16.027Z",
+      "modifiedAt": "2026-09-09T10:25:23.724Z",
       "teams": [
         {
           "id": 1,
@@ -65,10 +65,11 @@
           "jobNo": "Job NoJB260243 Lot. 8",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, คิว, อองรี",
+          "members": "อั๋น, คิว, อองรี",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โตโต้ 092-3974539 "
+          "contact": "ช่าง โตโต้ 092-3974539 ",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 6,
@@ -80,7 +81,8 @@
           "members": "นัฐ, ป๋อ, โอ๊ด",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "contact": "K.วันชนะ (โอเล่)  083-1519428",
+          "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 50, 60 mm"
         },
         {
           "id": 7,
@@ -89,22 +91,24 @@
           "jobNo": "Job No JB260250 Team 2.",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "บอย, โอม, เอิร์ก",
+          "members": "บอย, ปลาย, เอิร์ก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "contact": "K.วันชนะ (โอเล่)  083-1519428",
+          "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 50, 60 mm"
         },
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "Wara Corp (SCG# 8 RTC)",
-          "jobNo": "Job No JB260251",
+          "site": "IRPC / RDCC Unit 51",
+          "jobNo": "Job No JB260171",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "ทัช, แชมป์, บิ๊ก",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "กรานต์, เป้, คิง, ฟีล์ม, เฟิร์ส",
+          "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque",
-          "contact": " ช่างเอ็ม สานนท์ 083-8137985"
+          "contact": "K.ดิว ณัฐพนธ์ 093-419-2250",
+          "detail": "Swing Blind HMU unit 51 24\"x150# ,16\"x300#,12\"600#,8\"600# = 4 fl."
         },
         {
           "id": 9,
@@ -134,9 +138,9 @@
     },
     {
       "date": "9/9/2569",
-      "savedAt": "2026-09-09T10:22:17.019Z",
+      "savedAt": "2026-09-09T10:25:24.658Z",
       "dateKey": "2026-09-09",
-      "modifiedAt": "2026-09-09T10:22:17.019Z",
+      "modifiedAt": "2026-09-09T10:25:24.658Z",
       "teams": [
         {
           "id": 1,
@@ -11799,5 +11803,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-09T10:22:17.019Z"
+  "lastUpdated": "2026-09-09T10:25:24.658Z"
 }
