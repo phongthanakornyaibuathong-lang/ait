@@ -11,19 +11,20 @@
       "vehicle": "",
       "equipment": "Hydraulic torque",
       "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-      "detail": " ทำงานประมาณ 1 เดือน"
+      "detail": "ทำงานประมาณ 1 เดือน"
     },
     {
       "id": 2,
-      "jobType": "COLD_CUT",
+      "jobType": "FLANGE",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No JB260244 Lot.7",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "คิง, อั๋น, กาน(นำ)",
+      "members": "คิง, อั๋น, ต้าร์",
       "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "TOFF-24",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526"
+      "equipment": "MM 305 I",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "Machine RF Flange 8\" 300#= 1fl.,6\"300# = 4 fl."
     },
     {
       "id": 3,
@@ -44,10 +45,11 @@
       "jobNo": "Job No, JB260242 Lot.18",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บิ๊ก, ฟีล์ม, บีม",
+      "members": "กาน(นำ), บีม, เฟิร์ส",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014"
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine RF Flange ½”-6”  "
     },
     {
       "id": 5,
@@ -68,7 +70,7 @@
       "jobNo": "Job No JB260250 Team 1.",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "นัฐ, ป๋อ, ธีร์",
+      "members": "นัฐ, ป๋อ, โอ๊ด",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
       "contact": "K.วันชนะ (โอเล่)  083-1519428",
@@ -81,7 +83,7 @@
       "jobNo": "Job No JB260250 Team 2.",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "แชมป์, โอม, เอิร์ก",
+      "members": "บอย, โอม, เอิร์ก",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "Hydraulic torque",
       "contact": "K.วันชนะ (โอเล่)  083-1519428",
@@ -90,28 +92,27 @@
     {
       "id": 8,
       "jobType": "BOLT",
-      "site": "INSEE / GSP#6",
-      "jobNo": "Job No JB260250  ",
+      "site": "Wara Corp (SCG# 8 RTC)",
+      "jobNo": "Job No JB260251",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "บอย, โอ๊ด, ต้าร์",
+      "members": "ทัช, แชมป์, บิ๊ก",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
-      "contact": "K.วันชนะ (โอเล่)  083-1519428",
-      "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 50, 60 mm"
+      "contact": " ช่างเอ็ม สานนท์ 083-8137985",
+      "detail": "Torque Bolt Flange 24\"x150# A/F 50 mm. = 2 flange  งานที่อับอากาศ"
     },
     {
       "id": 9,
-      "jobType": "BOLT",
-      "site": " ลาบิก Thaioil Compact prower",
-      "jobNo": "-",
-      "depart": "08:30",
-      "arrive": "10:00",
-      "members": "กรานต์, ทัช",
-      "vehicle": "รถส่วนตัว",
-      "equipment": "Hydraulic torque",
-      "contact": "สวาท TPX  083-2503214",
-      "detail": "12\"แต่หน้างานใช้ประแจเบอร์60 mm. เข้าไปดูหน้างาน และเอาเครื่องมือไปลองสวมดู"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 10,
@@ -126,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-08T10:39:24.404Z",
+  "lastUpdated": "2026-09-09T10:21:28.895Z",
   "updatedBy": "Nine",
-  "date": "8/9/2569"
+  "date": "9/9/2569"
 }
