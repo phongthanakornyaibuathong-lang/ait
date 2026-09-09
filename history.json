@@ -1,11 +1,141 @@
 {
   "history": [
     {
-      "date": "9 กันยายน 2569",
-      "day_th": "9 กันยายน 2569",
+      "date": "10 กันยายน 2569",
+      "day_th": "10 กันยายน 2569",
+      "dateKey": "2026-09-10",
+      "savedAt": "2026-09-10T00:00:00.000Z",
+      "modifiedAt": "2026-09-09T10:21:28.885Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "BOLT",
+          "site": "INSEE/ Offshore",
+          "jobNo": "Job No JB260187",
+          "depart": "",
+          "arrive": "",
+          "members": "ทาม",
+          "vehicle": "",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
+          "detail": "เดินทางกลับสงขลา"
+        },
+        {
+          "id": 2,
+          "jobType": "BOLT",
+          "site": "Total Corbion",
+          "jobNo": "Job No JB260253",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "แชมป์, บิ๊ก, ป๊อก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง หนาน สุขสันต์  081-429-9430",
+          "detail": "Torque Bolt Nut A/F 46 mm. Low Profile 310HT-175"
+        },
+        {
+          "id": 3,
+          "jobType": "FLANGE",
+          "site": "SCC  ศรีราชา (Work Shop)",
+          "jobNo": "Job No JB260241 Lot.17",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปาย, ปลาย, ป๊อก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 4,
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260242 Lot.18",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "กาน(นำ), บีม, เฟิร์ส",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014"
+        },
+        {
+          "id": 5,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260243 Lot. 8",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, คิว, อองรี",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง โตโต้ 092-3974539 "
+        },
+        {
+          "id": 6,
+          "jobType": "BOLT",
+          "site": "INSEE / GSP#6",
+          "jobNo": "Job No JB260250 Team 1.",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัฐ, ป๋อ, โอ๊ด",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "INSEE / GSP#6",
+          "jobNo": "Job No JB260250 Team 2.",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "บอย, โอม, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+        },
+        {
+          "id": 8,
+          "jobType": "BOLT",
+          "site": "Wara Corp (SCG# 8 RTC)",
+          "jobNo": "Job No JB260251",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "ทัช, แชมป์, บิ๊ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": " ช่างเอ็ม สานนท์ 083-8137985"
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "date": "9/9/2569",
+      "savedAt": "2026-09-09T10:21:28.895Z",
       "dateKey": "2026-09-09",
-      "savedAt": "2026-09-09T00:00:00.000Z",
-      "modifiedAt": "2026-09-08T10:25:11.256Z",
+      "modifiedAt": "2026-09-09T10:21:28.895Z",
       "teams": [
         {
           "id": 1,
@@ -11666,138 +11796,7 @@
           "contact": ""
         }
       ]
-    },
-    {
-      "date": "7 มิถุนายน 2569",
-      "day_th": "7 มิถุนายน 2569",
-      "dateKey": "2026-06-07",
-      "savedAt": "2026-06-07T00:00:00.000Z",
-      "modifiedAt": "2026-06-13T01:27:19.457173Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260112",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "ฟีล์ม, คิว, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "MM 300 E",
-          "contact": "ช่าง กับตัน 080-047-1014"
-        },
-        {
-          "id": 2,
-          "jobType": "BOLT",
-          "site": "Thai Oil ท่าเรือ",
-          "jobNo": "JB260116",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, นัฐ, แชมป์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง สายัน 0979451547",
-          "detail": "Loose Bolt Flange 40\"300#=1 fl. 24\"300#=2 fl. งานใต้น้ำ ควบคุมปั๊มบนเรือ นักประดาน้ำจับหัว Torque พี่ต้อม ไปด้วย"
-        },
-        {
-          "id": 3,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No JB260120",
-          "depart": "17:00",
-          "arrive": "18:30",
-          "members": "บิ๊ก, บีม, เฟิร์ส, ทาม, อองรี, เอิร์ก",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TOFF-12 New",
-          "contact": "ช่าง กับตัน 080-047-1014",
-          "detail": "เดินทางไปนอนที่ ศรีราชา เพื่อทำงานวันจันทร์ 8/6/2026"
-        },
-        {
-          "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-08T10:39:24.404Z"
+  "lastUpdated": "2026-09-09T10:21:28.895Z"
 }
