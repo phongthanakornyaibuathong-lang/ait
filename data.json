@@ -11,20 +11,20 @@
       "vehicle": "",
       "equipment": "Hydraulic torque",
       "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555",
-      "detail": "ทำงานประมาณ 1 เดือน"
+      "detail": "เดินทางกลับสงขลา"
     },
     {
       "id": 2,
-      "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260244 Lot.7",
-      "depart": "06:30",
+      "jobType": "BOLT",
+      "site": "Total Corbion",
+      "jobNo": "Job No JB260253",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "คิง, อั๋น, ต้าร์",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "MM 305 I",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Machine RF Flange 8\" 300#= 1fl.,6\"300# = 4 fl."
+      "members": "แชมป์, บิ๊ก, ป๊อก",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง หนาน สุขสันต์  081-429-9430",
+      "detail": "Torque Bolt Nut A/F 46 mm. Low Profile 310HT-175"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "jobNo": "Job No JB260241 Lot.17",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "ปาย, ปลาย, ป๊อก",
+      "members": "ปาย, โอม",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -45,7 +45,7 @@
       "jobNo": "Job No, JB260242 Lot.18",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "กาน(นำ), บีม, เฟิร์ส",
+      "members": "กาน(นำ), บีม, ต้าร์",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง กับตัน 080-0471014",
@@ -58,10 +58,11 @@
       "jobNo": "Job NoJB260243 Lot. 8",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "เป้, คิว, อองรี",
+      "members": "อั๋น, คิว, อองรี",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง โตโต้ 092-3974539 "
+      "contact": "ช่าง โตโต้ 092-3974539 ",
+      "detail": "Machine RF Flange ½”-6”  "
     },
     {
       "id": 6,
@@ -83,7 +84,7 @@
       "jobNo": "Job No JB260250 Team 2.",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "บอย, โอม, เอิร์ก",
+      "members": "บอย, ปลาย, เอิร์ก",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "Hydraulic torque",
       "contact": "K.วันชนะ (โอเล่)  083-1519428",
@@ -92,27 +93,28 @@
     {
       "id": 8,
       "jobType": "BOLT",
-      "site": "Wara Corp (SCG# 8 RTC)",
-      "jobNo": "Job No JB260251",
+      "site": "IRPC / RDCC Unit 51",
+      "jobNo": "Job No JB260171",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "ทัช, แชมป์, บิ๊ก",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "members": "กรานต์, เป้, คิง, ฟีล์ม, เฟิร์ส",
+      "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque",
-      "contact": " ช่างเอ็ม สานนท์ 083-8137985",
-      "detail": "Torque Bolt Flange 24\"x150# A/F 50 mm. = 2 flange  งานที่อับอากาศ"
+      "contact": "K.ดิว ณัฐพนธ์ 093-419-2250",
+      "detail": "Swing Blind HMU unit 51 24\"x150# ,16\"x300#,12\"600#,8\"600# = 4 fl."
     },
     {
       "id": 9,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260237 ",
+      "depart": "07:00",
+      "arrive": "08:30",
+      "members": "ทัช, อั๋น",
+      "vehicle": "รถส่วนตัว",
+      "equipment": "เครื่องมือวัด RTJ",
+      "contact": " ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood Flange 16\" 2500# = 7 fl."
     },
     {
       "id": 10,
@@ -127,7 +129,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-09T10:29:47.385Z",
+  "lastUpdated": "2026-09-10T10:46:46.545Z",
   "updatedBy": "Nine",
-  "date": "9/9/2569"
+  "date": "10/9/2569"
 }
