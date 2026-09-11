@@ -913,7 +913,8 @@
     "CUEL งาน Torque",
     "INSEE / GSP#6",
     "Total Corbion",
-    "IRPC / RDCC Unit 51"
+    "IRPC / RDCC Unit 51",
+    "Job No JB260250 Team 1."
   ],
   "skills": [
     {
@@ -1810,14 +1811,6 @@
       "date": "2026-09-09",
       "dateEnd": "2026-09-09",
       "note": "ทำธุระ"
-    },
-    {
-      "id": "lv178912576287231",
-      "person": "ทาม",
-      "type": "ลากลับจาก Offshore",
-      "date": "2026-09-12",
-      "dateEnd": "2026-09-12",
-      "note": "ลากลับจาก Offshore"
     }
   ]
 }
