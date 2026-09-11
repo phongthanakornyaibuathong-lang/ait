@@ -5,13 +5,13 @@
       "day_th": "12 กันยายน 2569",
       "dateKey": "2026-09-12",
       "savedAt": "2026-09-12T00:00:00.000Z",
-      "modifiedAt": "2026-09-11T11:25:58.557Z",
+      "modifiedAt": "2026-09-11T11:34:26.585Z",
       "teams": [
         {
           "id": 1,
           "jobType": "BOLT",
           "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 4.",
+          "jobNo": "Job No JB260250 Team 1.",
           "depart": "07:00",
           "arrive": "08:00",
           "members": "เป้, คิว, อองรี",
@@ -24,7 +24,7 @@
           "id": 2,
           "jobType": "BOLT",
           "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 3.",
+          "jobNo": "Job No JB260250 Team 2.",
           "depart": "07:00",
           "arrive": "08:00",
           "members": "บอย, กาน(นำ), ปลาย",
@@ -58,21 +58,22 @@
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job NoJB260243 Lot. 8",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "อั๋น, คิว, อองรี",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง โตโต้ 092-3974539 "
+          "jobType": "BOLT",
+          "site": "INSEE / GSP#6",
+          "jobNo": "Job No JB260250 Team 3.",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "คิง, อั๋น",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.วันชนะ (โอเล่)  083-1519428",
+          "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 46 - 60 mm"
         },
         {
           "id": 6,
           "jobType": "BOLT",
           "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 1.",
+          "jobNo": "Job No JB260250 Team 4.",
           "depart": "07:00",
           "arrive": "08:00",
           "members": "นัฐ, ป๋อ, โอ๊ด",
@@ -84,25 +85,27 @@
           "id": 7,
           "jobType": "BOLT",
           "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 2.",
+          "jobNo": "Job No JB260250 Team 5.",
           "depart": "07:00",
           "arrive": "08:00",
           "members": "แชมป์, เอิร์ก, ป๊อก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "contact": "K.วันชนะ (โอเล่)  083-1519428",
+          "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 46 - 60 mm"
         },
         {
           "id": 8,
           "jobType": "BOLT",
-          "site": "IRPC / RDCC Unit 51",
-          "jobNo": "Job No JB260171",
+          "site": "INSEE / GSP#6",
+          "jobNo": "Job No JB260250 Team 6.",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "กรานต์, เป้, คิง, ฟีล์ม, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "ทัช, ฟีล์ม, เฟิร์ส",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque",
-          "contact": "K.ดิว ณัฐพนธ์ 093-419-2250"
+          "contact": "K.วันชนะ (โอเล่)  083-1519428",
+          "detail": "Torque Bolt Flange 24\"x150#, 24\"x300# A/F 46 - 60 mm"
         },
         {
           "id": 9,
@@ -132,9 +135,9 @@
     },
     {
       "date": "11/9/2569",
-      "savedAt": "2026-09-11T11:32:33.022Z",
+      "savedAt": "2026-09-11T11:34:26.602Z",
       "dateKey": "2026-09-11",
-      "modifiedAt": "2026-09-11T11:32:33.022Z",
+      "modifiedAt": "2026-09-11T11:34:26.602Z",
       "teams": [
         {
           "id": 1,
@@ -11803,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-11T11:32:33.022Z"
+  "lastUpdated": "2026-09-11T11:34:26.602Z"
 }
