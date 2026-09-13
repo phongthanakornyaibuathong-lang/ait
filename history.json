@@ -5,7 +5,7 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T10:08:55.060Z",
+      "modifiedAt": "2026-09-13T10:09:37.724Z",
       "teams": [
         {
           "id": 1,
@@ -60,19 +60,19 @@
         },
         {
           "id": 5,
-          "jobType": "BOLT",
-          "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 3.",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "คิง, อั๋น",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "INSEE / GSP#6",
           "jobNo": "Job No JB260250 Team 4.",
           "depart": "07:00",
@@ -11807,5 +11807,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T10:08:56.181Z"
+  "lastUpdated": "2026-09-13T10:09:38.560Z"
 }
