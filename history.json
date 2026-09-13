@@ -5,7 +5,7 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T10:10:05.322Z",
+      "modifiedAt": "2026-09-13T10:10:52.442Z",
       "teams": [
         {
           "id": 1,
@@ -84,27 +84,27 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 5.",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "แชมป์, เอิร์ก, ป๊อก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 6.",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "ทัช, ฟีล์ม, เฟิร์ส",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -11807,5 +11807,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T10:10:05.329Z"
+  "lastUpdated": "2026-09-13T10:10:52.453Z"
 }
