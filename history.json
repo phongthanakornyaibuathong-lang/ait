@@ -5,7 +5,7 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T10:07:30.955Z",
+      "modifiedAt": "2026-09-13T10:08:55.060Z",
       "teams": [
         {
           "id": 1,
@@ -47,15 +47,16 @@
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260242 Lot.18",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "บิ๊ก, บีม, ต้าร์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobType": "ROBOT",
+          "site": "Thai Gypsum (Ayuttaya)",
+          "jobNo": "Job JB260133-02 ",
+          "depart": "07:00",
+          "arrive": "10:30",
+          "members": "นาย, ป๋อ, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Robot tool",
+          "contact": "K. จูเนียร์  089-117-1422",
+          "detail": "Replace Shaft Axis 2-3 Robot IRB460_ABB "
         },
         {
           "id": 5,
@@ -11806,5 +11807,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T10:07:31.783Z"
+  "lastUpdated": "2026-09-13T10:08:55.069Z"
 }
