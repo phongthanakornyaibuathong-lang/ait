@@ -5,11 +5,11 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T10:04:25.551Z",
+      "modifiedAt": "2026-09-13T10:05:54.282Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
+          "jobType": "FLANGE",
           "site": "SCC  ศรีราชา (Workshop)",
           "jobNo": "Job No JB260256  Lot.18",
           "depart": "06:30",
@@ -21,15 +21,16 @@
         },
         {
           "id": 2,
-          "jobType": "BOLT",
-          "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 2.",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "บอย, กาน(นำ), ปลาย",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260257  Lot.19",
+          "depart": "06:00",
+          "arrive": "07:00",
+          "members": "บิ๊ก, บีม, ต้าร์",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 3,
@@ -11804,5 +11805,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T10:04:26.576Z"
+  "lastUpdated": "2026-09-13T10:05:54.289Z"
 }
