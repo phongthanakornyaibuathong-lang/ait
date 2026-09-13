@@ -5,19 +5,19 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T09:55:47.071Z",
+      "modifiedAt": "2026-09-13T10:04:25.551Z",
       "teams": [
         {
           "id": 1,
           "jobType": "BOLT",
-          "site": "INSEE / GSP#6",
-          "jobNo": "Job No JB260250 Team 1.",
-          "depart": "07:00",
+          "site": "SCC  ศรีราชา (Workshop)",
+          "jobNo": "Job No JB260256  Lot.18",
+          "depart": "06:30",
           "arrive": "08:00",
-          "members": "เป้, คิว, อองรี",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.วันชนะ (โอเล่)  083-1519428"
+          "members": "ปาย, โอม, คิว",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
         },
         {
           "id": 2,
@@ -11804,5 +11804,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T09:55:47.082Z"
+  "lastUpdated": "2026-09-13T10:04:25.559Z"
 }
