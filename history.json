@@ -5,7 +5,7 @@
       "day_th": "14 กันยายน 2569",
       "dateKey": "2026-09-14",
       "savedAt": "2026-09-14T00:00:00.000Z",
-      "modifiedAt": "2026-09-13T10:05:54.282Z",
+      "modifiedAt": "2026-09-13T10:07:30.955Z",
       "teams": [
         {
           "id": 1,
@@ -34,15 +34,16 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "SCC  ศรีราชา (Work Shop)",
-          "jobNo": "Job No JB260241 Lot.17",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260258  Lot.8 ",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, โอม",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+          "members": "บอย, คิง, ฟีล์ม, ปลาย",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "TSF 30",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 30'' TKH  58 mm. ,28'  TKH 26.97  mm. Bevel \" Mat's SS 321"
         },
         {
           "id": 4,
@@ -11805,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-13T10:05:55.710Z"
+  "lastUpdated": "2026-09-13T10:07:30.963Z"
 }
