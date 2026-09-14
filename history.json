@@ -5,7 +5,7 @@
       "day_th": "15 กันยายน 2569",
       "dateKey": "2026-09-15",
       "savedAt": "2026-09-15T00:00:00.000Z",
-      "modifiedAt": "2026-09-14T10:43:16.276Z",
+      "modifiedAt": "2026-09-14T10:43:46.364Z",
       "teams": [
         {
           "id": 1,
@@ -76,8 +76,8 @@
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
           "jobNo": "Job NoJB260259  Lot. 9",
-          "depart": "",
-          "arrive": "",
+          "depart": "06:00",
+          "arrive": "07:30",
           "members": "เป้, คิว, อองรี",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TOFF-12",
@@ -136,9 +136,9 @@
     },
     {
       "date": "14/9/2569",
-      "savedAt": "2026-09-14T10:43:17.162Z",
+      "savedAt": "2026-09-14T10:43:46.370Z",
       "dateKey": "2026-09-14",
-      "modifiedAt": "2026-09-14T10:43:17.162Z",
+      "modifiedAt": "2026-09-14T10:43:46.370Z",
       "teams": [
         {
           "id": 1,
@@ -11806,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-14T10:43:17.162Z"
+  "lastUpdated": "2026-09-14T10:43:46.370Z"
 }
