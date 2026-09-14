@@ -5,7 +5,7 @@
       "day_th": "15 กันยายน 2569",
       "dateKey": "2026-09-15",
       "savedAt": "2026-09-15T00:00:00.000Z",
-      "modifiedAt": "2026-09-14T10:40:10.354Z",
+      "modifiedAt": "2026-09-14T10:43:16.276Z",
       "teams": [
         {
           "id": 1,
@@ -73,15 +73,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260259  Lot. 9",
           "depart": "",
           "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "members": "เป้, คิว, อองรี",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง โตโต้ 092-3974539 ",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 7,
@@ -135,9 +136,9 @@
     },
     {
       "date": "14/9/2569",
-      "savedAt": "2026-09-14T10:40:10.366Z",
+      "savedAt": "2026-09-14T10:43:16.292Z",
       "dateKey": "2026-09-14",
-      "modifiedAt": "2026-09-14T10:40:10.366Z",
+      "modifiedAt": "2026-09-14T10:43:16.292Z",
       "teams": [
         {
           "id": 1,
@@ -11805,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-14T10:40:10.366Z"
+  "lastUpdated": "2026-09-14T10:43:16.292Z"
 }
