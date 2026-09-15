@@ -5,7 +5,7 @@
       "day_th": "16 กันยายน 2569",
       "dateKey": "2026-09-16",
       "savedAt": "2026-09-16T00:00:00.000Z",
-      "modifiedAt": "2026-09-15T10:24:17.787Z",
+      "modifiedAt": "2026-09-15T10:29:18.931Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "Job No JB260256  Lot.18",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, โอม, เฟิร์ส",
+          "members": "ปาย, โอม, เอิร์ก",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TOFF-12",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -29,7 +29,8 @@
           "members": "บิ๊ก, บีม, ต้าร์",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12 /TTFF 24",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6”,  10\""
         },
         {
           "id": 3,
@@ -38,34 +39,36 @@
           "jobNo": "Job No JB260258  Lot.8 ",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, คิง, ฟีล์ม, ปลาย",
+          "members": "บอย, อั๋น, ฟีล์ม, ปลาย",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 30'' TKH  58 mm. ,28' TKH 26.97 mm. Bevel \" Mat's SS 321"
         },
         {
           "id": 4,
-          "jobType": "TRAINING",
-          "site": "SCG MOC ห้องอบรมเนินพยอม",
-          "jobNo": "อบรมความปลอดภัยเข้างาน TA  (08:00-12:00)",
-          "depart": "07:30",
+          "jobType": "BOLT",
+          "site": "Thai Oil TPX",
+          "jobNo": "Job No JB260260",
+          "depart": "06:30",
           "arrive": "08:00",
-          "members": "กรานต์, ทัช, แชมป์, ป๋อ",
+          "members": "ทัช, นัฐ, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "-",
-          "contact": "K. จูเนียร์  089-117-1422"
+          "equipment": "Hydraulic torque tool",
+          "contact": "ช่าง สวาท TPX  083-2503214",
+          "detail": "Torque Bolt Flange 14\"x900#  A/F  60 mm 2 fl. ค่า Torque 1230 Nm "
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
-          "site": "UCS ห้วยโป่ง (ระยอง 26ไร่)",
-          "jobNo": "อบรมความปลอดภัยเข้างาน CFP ",
+          "jobType": "BOLT",
+          "site": "SCG TPC",
+          "jobNo": "Job No JB260261",
           "depart": "07:30",
-          "arrive": "08:30",
-          "members": "ป๊อก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "",
-          "contact": ""
+          "arrive": "08:00",
+          "members": "คิง, แชมป์, โอ๊ด",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Nut S",
+          "contact": "ช่าง อรุณ  083-589-1803"
         },
         {
           "id": 6,
@@ -131,9 +134,9 @@
     },
     {
       "date": "15/9/2569",
-      "savedAt": "2026-09-15T10:24:18.591Z",
+      "savedAt": "2026-09-15T10:29:18.944Z",
       "dateKey": "2026-09-15",
-      "modifiedAt": "2026-09-15T10:24:18.591Z",
+      "modifiedAt": "2026-09-15T10:29:18.944Z",
       "teams": [
         {
           "id": 1,
@@ -11802,5 +11805,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-15T10:24:18.591Z"
+  "lastUpdated": "2026-09-15T10:29:18.944Z"
 }
