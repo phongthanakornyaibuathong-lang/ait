@@ -5,7 +5,7 @@
       "day_th": "17 กันยายน 2569",
       "dateKey": "2026-09-17",
       "savedAt": "2026-09-17T00:00:00.000Z",
-      "modifiedAt": "2026-09-16T09:50:54.718Z",
+      "modifiedAt": "2026-09-16T09:58:54.081Z",
       "teams": [
         {
           "id": 1,
@@ -47,14 +47,14 @@
           "id": 4,
           "jobType": "FLANGE",
           "site": "โรงกลึง MEC (Shop มาบข่า)",
-          "jobNo": "Job No JB260xxx",
+          "jobNo": "Job No JB2602246, JB2602246",
           "depart": "08:30",
           "arrive": "09:00",
           "members": "เป้, ทาม, ป๊อก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque tool",
+          "equipment": "MM 305 I / TTFF 24",
           "contact": "พี่ เดชา 081-2931937",
-          "detail": "กลึง RF Flange 8x2500 #   1 flange "
+          "detail": "กลึง RF Flange 8x1500 #   1 flange , RTJ 10\" 2500# = 1 Fl."
         },
         {
           "id": 5,
@@ -133,9 +133,9 @@
     },
     {
       "date": "16/9/2569",
-      "savedAt": "2026-09-16T09:50:55.791Z",
+      "savedAt": "2026-09-16T09:58:54.088Z",
       "dateKey": "2026-09-16",
-      "modifiedAt": "2026-09-16T09:50:55.791Z",
+      "modifiedAt": "2026-09-16T09:58:54.088Z",
       "teams": [
         {
           "id": 1,
@@ -11805,5 +11805,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-16T09:50:55.791Z"
+  "lastUpdated": "2026-09-16T09:58:54.088Z"
 }
