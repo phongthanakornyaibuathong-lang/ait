@@ -5,7 +5,7 @@
       "day_th": "18 กันยายน 2569",
       "dateKey": "2026-09-18",
       "savedAt": "2026-09-18T00:00:00.000Z",
-      "modifiedAt": "2026-09-17T07:58:46.776Z",
+      "modifiedAt": "2026-09-17T09:56:48.289Z",
       "teams": [
         {
           "id": 1,
@@ -27,7 +27,7 @@
           "depart": "06:00",
           "arrive": "07:00",
           "members": "กาน(นำ), บีม, ต้าร์",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12 /TTFF 24",
           "contact": "ช่าง กับตัน 080-0471014"
         },
@@ -72,15 +72,15 @@
         },
         {
           "id": 6,
-          "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "TRAINING",
+          "site": "Shino thai  ศรีราชา Area 17",
+          "jobNo": "ตรวจสภาพรถ",
+          "depart": "07:30",
+          "arrive": "09:30",
+          "members": "เป้",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "-",
+          "contact": "ช่าง โด่ง  094-7467526"
         },
         {
           "id": 7,
@@ -134,9 +134,9 @@
     },
     {
       "date": "17/9/2569",
-      "savedAt": "2026-09-17T08:03:45.330Z",
+      "savedAt": "2026-09-17T09:56:48.303Z",
       "dateKey": "2026-09-17",
-      "modifiedAt": "2026-09-17T08:03:45.330Z",
+      "modifiedAt": "2026-09-17T09:56:48.303Z",
       "teams": [
         {
           "id": 1,
@@ -11804,5 +11804,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-17T08:03:45.330Z"
+  "lastUpdated": "2026-09-17T09:56:48.303Z"
 }
