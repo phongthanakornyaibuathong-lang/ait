@@ -5,18 +5,18 @@
       "day_th": "21 กันยายน 2569",
       "dateKey": "2026-09-21",
       "savedAt": "2026-09-21T00:00:00.000Z",
-      "modifiedAt": "2026-09-20T09:29:43.483Z",
+      "modifiedAt": "2026-09-20T09:35:44.053Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
           "site": "SCC  ศรีราชา (Workshop)",
-          "jobNo": "Job No JB260256  Lot.18",
+          "jobNo": "Job No JB260264 Lot.19 Team 1",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, โอม, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12/ TTFF 24",
+          "members": "ปาย, แชมป์, ป๊อก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": " TTFF 24",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
         },
         {
@@ -11797,5 +11797,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-20T09:29:43.511Z"
+  "lastUpdated": "2026-09-20T09:35:44.071Z"
 }
