@@ -5,7 +5,7 @@
       "day_th": "21 กันยายน 2569",
       "dateKey": "2026-09-21",
       "savedAt": "2026-09-21T00:00:00.000Z",
-      "modifiedAt": "2026-09-20T09:45:25.365Z",
+      "modifiedAt": "2026-09-20T09:49:20.402Z",
       "teams": [
         {
           "id": 1,
@@ -86,14 +86,15 @@
         {
           "id": 7,
           "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "site": "Shino thai  ศรีราชา Area 17",
+          "jobNo": "ประชุม",
+          "depart": "10:30",
+          "arrive": "13:00",
+          "members": "กรานต์, ทัช, นัฐ",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง เอก",
+          "detail": "ประชุมงาน ส่งหัว Tension 3-1/2\" ช่างน้อง STECON"
         },
         {
           "id": 8,
@@ -11801,5 +11802,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-20T09:45:27.625Z"
+  "lastUpdated": "2026-09-20T09:49:20.422Z"
 }
