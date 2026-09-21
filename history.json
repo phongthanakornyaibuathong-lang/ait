@@ -5,7 +5,7 @@
       "day_th": "22 กันยายน 2569",
       "dateKey": "2026-09-22",
       "savedAt": "2026-09-22T00:00:00.000Z",
-      "modifiedAt": "2026-09-21T10:45:58.064Z",
+      "modifiedAt": "2026-09-21T10:44:35.658Z",
       "teams": [
         {
           "id": 1,
@@ -59,39 +59,39 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "SCG MOC /ห้องอบรมเนินพยอม",
+          "jobNo": "อบรมทำบัตร MOC TA",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "เป้, คิง, โอม, โอ๊ด, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "Safety MOC"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "SCG MOC /ห้องอบรมเนินพยอม",
+          "jobNo": "อบรมทำบัตร MOC TA",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "ทาม, บีม, คิว, เฟิร์ส, ต้าร์",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "-",
-          "contact": ""
+          "contact": "Safety MOC"
         },
         {
           "id": 7,
           "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "site": "Shino thai  ศรีราชา Area 17",
+          "jobNo": "ประชุม",
+          "depart": "10:30",
+          "arrive": "13:00",
+          "members": "กรานต์, ทัช, นัฐ",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "ช่าง เอก"
         },
         {
           "id": 8,
@@ -133,9 +133,9 @@
     },
     {
       "date": "21/9/2569",
-      "savedAt": "2026-09-21T10:45:58.902Z",
+      "savedAt": "2026-09-21T10:46:56.786Z",
       "dateKey": "2026-09-21",
-      "modifiedAt": "2026-09-21T10:45:58.902Z",
+      "modifiedAt": "2026-09-21T10:46:56.786Z",
       "teams": [
         {
           "id": 1,
@@ -11801,5 +11801,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-21T10:45:58.902Z"
+  "lastUpdated": "2026-09-21T10:46:56.786Z"
 }
