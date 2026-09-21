@@ -5,7 +5,7 @@
       "day_th": "22 กันยายน 2569",
       "dateKey": "2026-09-22",
       "savedAt": "2026-09-22T00:00:00.000Z",
-      "modifiedAt": "2026-09-21T10:44:35.658Z",
+      "modifiedAt": "2026-09-21T10:49:22.738Z",
       "teams": [
         {
           "id": 1,
@@ -26,7 +26,7 @@
           "jobNo": "Job No JB260265 Lot.9",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, คิง, คิว, ต้าร์",
+          "members": "บอย, ทาม, คิว, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 30",
           "contact": "ติดต่อช่าง โด่ง  094-7467526",
@@ -51,7 +51,7 @@
           "jobNo": "Test หัว Tension 4\" Site งาน",
           "depart": "08:30",
           "arrive": "09:30",
-          "members": "เป้, โอม, อองรี, เฟิร์ส",
+          "members": "เป้, คิง, โอม, อองรี",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Puller tension 4\"",
           "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
@@ -59,39 +59,39 @@
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
-          "site": "SCG MOC /ห้องอบรมเนินพยอม",
-          "jobNo": "อบรมทำบัตร MOC TA",
-          "depart": "07:30",
-          "arrive": "08:00",
-          "members": "เป้, คิง, โอม, โอ๊ด, อองรี",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "Safety MOC"
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "TRAINING",
-          "site": "SCG MOC /ห้องอบรมเนินพยอม",
-          "jobNo": "อบรมทำบัตร MOC TA",
-          "depart": "07:30",
-          "arrive": "08:00",
-          "members": "ทาม, บีม, คิว, เฟิร์ส, ต้าร์",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "-",
-          "contact": "Safety MOC"
+          "contact": ""
         },
         {
           "id": 7,
           "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา Area 17",
-          "jobNo": "ประชุม",
-          "depart": "10:30",
-          "arrive": "13:00",
-          "members": "กรานต์, ทัช, นัฐ",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
-          "contact": "ช่าง เอก"
+          "contact": ""
         },
         {
           "id": 8,
@@ -133,9 +133,9 @@
     },
     {
       "date": "21/9/2569",
-      "savedAt": "2026-09-21T10:46:58.792Z",
+      "savedAt": "2026-09-21T10:49:22.746Z",
       "dateKey": "2026-09-21",
-      "modifiedAt": "2026-09-21T10:46:58.792Z",
+      "modifiedAt": "2026-09-21T10:49:22.746Z",
       "teams": [
         {
           "id": 1,
@@ -11801,5 +11801,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-21T10:46:58.792Z"
+  "lastUpdated": "2026-09-21T10:49:22.746Z"
 }
