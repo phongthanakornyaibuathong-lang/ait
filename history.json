@@ -5,7 +5,7 @@
       "day_th": "22 กันยายน 2569",
       "dateKey": "2026-09-22",
       "savedAt": "2026-09-22T00:00:00.000Z",
-      "modifiedAt": "2026-09-21T10:41:42.196Z",
+      "modifiedAt": "2026-09-21T10:44:35.658Z",
       "teams": [
         {
           "id": 1,
@@ -48,13 +48,14 @@
           "id": 4,
           "jobType": "BOLT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Site Survey เจาะขยายรู Flange",
-          "depart": "07:30",
-          "arrive": "09:00",
-          "members": "บอย, เอิร์ก",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "-",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "jobNo": "Test หัว Tension 4\" Site งาน",
+          "depart": "08:30",
+          "arrive": "09:30",
+          "members": "เป้, โอม, อองรี, เฟิร์ส",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Puller tension 4\"",
+          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
+          "detail": "Test หัว Tension 4\" Site งาน"
         },
         {
           "id": 5,
@@ -132,9 +133,9 @@
     },
     {
       "date": "21/9/2569",
-      "savedAt": "2026-09-21T10:41:43.103Z",
+      "savedAt": "2026-09-21T10:44:35.668Z",
       "dateKey": "2026-09-21",
-      "modifiedAt": "2026-09-21T10:41:43.103Z",
+      "modifiedAt": "2026-09-21T10:44:35.668Z",
       "teams": [
         {
           "id": 1,
@@ -11800,5 +11801,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-21T10:41:43.103Z"
+  "lastUpdated": "2026-09-21T10:44:35.668Z"
 }
