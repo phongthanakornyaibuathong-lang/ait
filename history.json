@@ -1,11 +1,140 @@
 {
   "history": [
     {
-      "date": "21 กันยายน 2569",
-      "day_th": "21 กันยายน 2569",
+      "date": "22 กันยายน 2569",
+      "day_th": "22 กันยายน 2569",
+      "dateKey": "2026-09-22",
+      "savedAt": "2026-09-22T00:00:00.000Z",
+      "modifiedAt": "2026-09-21T10:41:42.196Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "SCC  ศรีราชา (Workshop)",
+          "jobNo": "Job No JB260264 Lot.19 Team 1",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปาย, แชมป์, ป๊อก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 2,
+          "jobType": "COLD_CUT",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260265 Lot.9",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, คิง, คิว, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 30",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Cutting & Bevel Pipe 28'' TKH 26.97 mm. Bevel \" Mat's SS 321"
+        },
+        {
+          "id": 3,
+          "jobType": "FLANGE",
+          "site": "SCC  ศรีราชา (Workshop)",
+          "jobNo": "Job No JB260264 Lot.19 Team 2",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "อั๋น, กาน(นำ), ป๋อ",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 4,
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Site Survey เจาะขยายรู Flange",
+          "depart": "07:30",
+          "arrive": "09:00",
+          "members": "บอย, เอิร์ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "-",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+        },
+        {
+          "id": 5,
+          "jobType": "TRAINING",
+          "site": "SCG MOC /ห้องอบรมเนินพยอม",
+          "jobNo": "อบรมทำบัตร MOC TA",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "เป้, คิง, โอม, โอ๊ด, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "",
+          "contact": "Safety MOC"
+        },
+        {
+          "id": 6,
+          "jobType": "TRAINING",
+          "site": "SCG MOC /ห้องอบรมเนินพยอม",
+          "jobNo": "อบรมทำบัตร MOC TA",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "ทาม, บีม, คิว, เฟิร์ส, ต้าร์",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "-",
+          "contact": "Safety MOC"
+        },
+        {
+          "id": 7,
+          "jobType": "BOLT",
+          "site": "Shino thai  ศรีราชา Area 17",
+          "jobNo": "ประชุม",
+          "depart": "10:30",
+          "arrive": "13:00",
+          "members": "กรานต์, ทัช, นัฐ",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "",
+          "contact": "ช่าง เอก"
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "date": "21/9/2569",
+      "savedAt": "2026-09-21T10:41:42.213Z",
       "dateKey": "2026-09-21",
-      "savedAt": "2026-09-21T00:00:00.000Z",
-      "modifiedAt": "2026-09-20T09:49:20.402Z",
+      "modifiedAt": "2026-09-21T10:41:42.213Z",
       "teams": [
         {
           "id": 1,
@@ -11669,138 +11798,7 @@
           "contact": ""
         }
       ]
-    },
-    {
-      "date": "17/6/2569",
-      "savedAt": "2026-06-17T11:11:22.698Z",
-      "dateKey": "2026-06-17",
-      "modifiedAt": "2026-06-17T11:11:22.698Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "JB260128",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "บิ๊ก, บีม, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "MM 300 E",
-          "contact": "ช่าง กับตัน 080-0471014"
-        },
-        {
-          "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260128",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "คิง, ไอซ์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 (S/N26020099)",
-          "contact": "ช่าง กับตัน 080-0471014"
-        },
-        {
-          "id": 3,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "Job No JB260129",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
-        },
-        {
-          "id": 4,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "JB260130",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย, ทาม, เฟิร์ส",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TTFF-24 (S/N250948)",
-          "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "Machine flange RTJ 12\""
-        },
-        {
-          "id": 5,
-          "jobType": "FLANGE",
-          "site": "SCG / DSAM",
-          "jobNo": "Job No JB260127",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "ฟีล์ม, โอม, โอ๊ด",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
-          "contact": "ช่างบอย  0819190854"
-        },
-        {
-          "id": 6,
-          "jobType": "BOLT",
-          "site": "SCG / DSAM",
-          "jobNo": "Job No JB260126",
-          "depart": "06:30",
-          "arrive": "07:00",
-          "members": "แชมป์, ป๋อ, อองรี",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "Hydraulic torque",
-          "contact": " ช่างบอย  0819190854",
-          "detail": "Torque bolt Nut A/F 41,46,50 mm."
-        },
-        {
-          "id": 7,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai (Work shop) บ้านฉาง",
-          "jobNo": "Job No JB260134 ",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "เป้, อั๋น, ต้าร์",
-          "vehicle": "2ฒฮ 6779 กระบะแค๊บ รถเช่า",
-          "equipment": "TSF 12 , TSF 18",
-          "contact": " ช่างสุตนันท์ 0883929010",
-          "detail": "Pipe 20\" ,14\",12\",24\""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "-"
-        },
-        {
-          "id": 9,
-          "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-20T09:49:21.606Z"
+  "lastUpdated": "2026-09-21T10:41:42.213Z"
 }
