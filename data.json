@@ -9,21 +9,21 @@
       "arrive": "08:00",
       "members": "ปาย, แชมป์, ป๊อก",
       "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": " TTFF 24",
+      "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
       "id": 2,
-      "jobType": "FLANGE",
+      "jobType": "COLD_CUT",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260257  Lot.19",
-      "depart": "06:00",
-      "arrive": "07:00",
-      "members": "บิ๊ก, ฟีล์ม, ปลาย",
-      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TOFF-12 ",
-      "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange ½”-6”  "
+      "jobNo": "Job No JB260265 Lot.9",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "บอย, ทาม, คิว, ต้าร์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "TSF 30",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "Cutting & Bevel Pipe 28'' TKH 26.97 mm. Bevel \" Mat's SS 321"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "depart": "06:30",
       "arrive": "08:00",
       "members": "อั๋น, กาน(นำ), ป๋อ",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
@@ -41,53 +41,50 @@
       "id": 4,
       "jobType": "BOLT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Site Survey เจาะขยายรู Flange",
-      "depart": "07:30",
-      "arrive": "09:00",
-      "members": "บอย, เอิร์ก",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "-",
-      "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "ไปกับคนของ LCN    (หนุ่ม LCN  099-0347679)"
+      "jobNo": "Test หัว Tension 4\" Site งาน",
+      "depart": "08:30",
+      "arrive": "09:30",
+      "members": "เป้, คิง, โอม, อองรี",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Puller tension 4\"",
+      "contact": "ช่าง หนุ่ม อนุชิต 095-2874798",
+      "detail": "Test หัว Tension 4\" Site งาน"
     },
     {
       "id": 5,
-      "jobType": "TRAINING",
-      "site": "SCG MOC /ห้องอบรมเนินพยอม",
-      "jobNo": "อบรมทำบัตร MOC TA",
-      "depart": "07:30",
-      "arrive": "08:00",
-      "members": "เป้, คิง, โอม, โอ๊ด, อองรี",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
-      "contact": "Safety MOC",
-      "detail": "อบรมความปลอดภัยเข้างาน TA  (08:00-12:00)"
+      "contact": ""
     },
     {
       "id": 6,
-      "jobType": "TRAINING",
-      "site": "SCG MOC /ห้องอบรมเนินพยอม",
-      "jobNo": "อบรมทำบัตร MOC TA",
-      "depart": "07:30",
-      "arrive": "08:00",
-      "members": "ทาม, บีม, คิว, เฟิร์ส, ต้าร์",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "-",
-      "contact": "Safety MOC",
-      "detail": "อบรมความปลอดภัยเข้างาน TA (08:00-12:00)"
+      "contact": ""
     },
     {
       "id": 7,
       "jobType": "BOLT",
-      "site": "Shino thai  ศรีราชา Area 17",
-      "jobNo": "ประชุม",
-      "depart": "10:30",
-      "arrive": "13:00",
-      "members": "กรานต์, ทัช, นัฐ",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "",
-      "contact": "ช่าง เอก",
-      "detail": "ประชุมงาน ส่งหัว Tension 3-1/2\" ช่างน้อง STECON"
+      "contact": ""
     },
     {
       "id": 8,
@@ -126,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-21T10:49:53.196Z",
+  "lastUpdated": "2026-09-22T10:19:47.932Z",
   "updatedBy": "Nine",
-  "date": "21/9/2569"
+  "date": "22/9/2569"
 }
