@@ -5,7 +5,7 @@
       "day_th": "23 กันยายน 2569",
       "dateKey": "2026-09-23",
       "savedAt": "2026-09-23T00:00:00.000Z",
-      "modifiedAt": "2026-09-22T10:24:28.164Z",
+      "modifiedAt": "2026-09-22T10:29:25.162Z",
       "teams": [
         {
           "id": 1,
@@ -39,22 +39,22 @@
           "jobNo": "Job No JB260264 Lot.19 Team 2",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "อั๋น, กาน(นำ), ป๋อ",
+          "members": "เป้, ป๋อ, บีม",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
         },
         {
           "id": 4,
-          "jobType": "BOLT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Test หัว Tension 4\" Site งาน",
-          "depart": "08:30",
-          "arrive": "09:30",
-          "members": "เป้, คิง, โอม, อองรี",
+          "jobType": "TRAINING",
+          "site": "SCG MOC /ห้องอบรมเนินพยอม",
+          "jobNo": "อบรมความปลอดภัยเข้างาน TA (08:00-12:00)",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "บิ๊ก, ปลาย, กาน(นำ)",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Puller tension 4\"",
-          "contact": "ช่าง หนุ่ม อนุชิต 095-2874798"
+          "equipment": "-",
+          "contact": "Safety MOC"
         },
         {
           "id": 5,
@@ -132,9 +132,9 @@
     },
     {
       "date": "22/9/2569",
-      "savedAt": "2026-09-22T10:24:28.880Z",
+      "savedAt": "2026-09-22T10:29:25.175Z",
       "dateKey": "2026-09-22",
-      "modifiedAt": "2026-09-22T10:24:28.880Z",
+      "modifiedAt": "2026-09-22T10:29:25.175Z",
       "teams": [
         {
           "id": 1,
@@ -11799,5 +11799,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-22T10:24:28.880Z"
+  "lastUpdated": "2026-09-22T10:29:25.175Z"
 }
