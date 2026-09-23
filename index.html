@@ -1200,7 +1200,7 @@ async function loadCloud(){
       if(tok){
         try{
           const r=await fetch(`https://api.github.com/repos/${GH_USER}/${GH_REPO}/contents/${apiPath}?ref=main&nc=${nc}`,
-            {headers:{"Authorization":"token "+tok,"Cache-Control":"no-store","If-None-Match":""}});
+            {cache:"no-store",headers:{"Authorization":"token "+tok,"Accept":"application/vnd.github+json"}});
           if(r.ok){const d=await r.json();const by=atob(d.content.replace(/\n/g,""));const a=new Uint8Array(by.length);for(let i=0;i<by.length;i++)a[i]=by.charCodeAt(i);return {ok:true,json:()=>Promise.resolve(JSON.parse(new TextDecoder("utf-8").decode(a)))};}
         }catch(_){}
       }
@@ -1749,7 +1749,7 @@ function renderSettings(){
     </div>`;
   }).join("");
   document.getElementById("jtype-list").innerHTML=mkList(cfg.jobTypes,"jobtype",false);
-  const posOpts=(cur)=>(cfg.positions||["Engineer","Supervisor","Technician","Robot Tech","Store","ผู้รับเหมา"]).map(p=>`<option value="${p}" ${p===cur?"selected":""}>${p}</option>`).join("");
+  const posOpts=(cur)=>{const L=[...(cfg.positions||["Engineer","Supervisor","Technician","Robot Tech","Store","ผู้รับเหมา"])];if(cur&&!L.includes(cur))L.unshift(cur);return L.map(p=>`<option value="${p}" ${p===cur?"selected":""}>${p}</option>`).join("");};
   document.getElementById("person-list").innerHTML=cfg.personnel.map((p,i)=>`
     <div class="item-row">
       <div style="width:28px;height:28px;border-radius:50%;background:${p.color||"#636366"};display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${(p.nick||p.id).slice(0,2)}</div>
