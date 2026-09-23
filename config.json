@@ -521,14 +521,10 @@
       "id": "กาน(นำ)",
       "name": "นาย นำชัย  เที่ยงดี",
       "nick": "กาน(นำ)",
-      "phone": "094-6780625",
+      "phone": "",
       "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
-      "skills": [
-        "bolt_torque",
-        "bolt_tension",
-        "flange_facing"
-      ],
+      "color": "#32d2d8",
+      "skills": [],
       "safetyCards": {
         "STECON": {
           "issue": "2026-03-07",
