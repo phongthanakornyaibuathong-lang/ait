@@ -5,7 +5,7 @@
       "day_th": "24 กันยายน 2569",
       "dateKey": "2026-09-24",
       "savedAt": "2026-09-24T00:00:00.000Z",
-      "modifiedAt": "2026-09-23T11:51:19.956Z",
+      "modifiedAt": "2026-09-23T11:53:29.866Z",
       "teams": [
         {
           "id": 1,
@@ -46,15 +46,16 @@
         },
         {
           "id": 4,
-          "jobType": "TRAINING",
-          "site": "SCG MOC /ห้องอบรมเนินพยอม",
-          "jobNo": "อบรมความปลอดภัยเข้างาน TA (08:00-12:00)",
-          "depart": "07:30",
+          "jobType": "BOLT",
+          "site": "Total Corbion",
+          "jobNo": "Job No JB260271",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "บิ๊ก, ปลาย, กาน(นำ)",
+          "members": "นัฐ, คิง, ปลาย",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "-",
-          "contact": "Safety MOC"
+          "equipment": "Hydraulic torque",
+          "contact": " ช่าง หนาน สุขสันต์  081-429-9430",
+          "detail": "Torque Bolt A/F 41,46 mm.  2 Flange"
         },
         {
           "id": 5,
@@ -132,9 +133,9 @@
     },
     {
       "date": "23/9/2569",
-      "savedAt": "2026-09-23T11:51:19.966Z",
+      "savedAt": "2026-09-23T11:53:29.876Z",
       "dateKey": "2026-09-23",
-      "modifiedAt": "2026-09-23T11:51:19.966Z",
+      "modifiedAt": "2026-09-23T11:53:29.876Z",
       "teams": [
         {
           "id": 1,
@@ -11804,5 +11805,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-23T11:51:19.966Z"
+  "lastUpdated": "2026-09-23T11:53:29.876Z"
 }
