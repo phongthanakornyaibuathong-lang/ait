@@ -1756,10 +1756,10 @@ function renderSettings(){
       <div style="flex:1;min-width:0">
         <div style="font-size:13px;font-weight:600;color:var(--text1)">${p.nick||p.id}</div>
         <div style="font-size:11px;color:var(--text3)">${p.name||""}</div>
-        ${isAdmin?`<select class="fsel" style="font-size:11px;padding:3px 8px;margin-top:3px;width:auto;display:inline-block" onchange="updatePersonPos('${p.id}',this.value)"><${posOpts(p.pos)}/select>`:`<div style="font-size:11px;color:var(--text3)">${p.pos||""}</div>`}
+        ${isAdmin?`<select class="fsel" style="font-size:11px;padding:3px 8px;margin-top:3px;width:auto;display:inline-block" onchange="updatePersonPos('${p.id}',this.value)">${posOpts(p.pos)}</select>`:`<div style="font-size:11px;color:var(--text3)">${p.pos||""}</div>`}
       </div>
       <button class="nbtn" style="font-size:11px;padding:4px 9px" onclick="openPD('${p.id}')">✏️ แก้ไข</button>
-      <button class="del-btn" onclick="delPerson(${i})" ${isAdmin?"":"disabled style=\"opacity:.3;cursor:not-allowed\""} title="${isAdmin?"ลบพนักงาน":"ต้องล็อกอิน Admin ก่อน"}">🗑</button>
+      <button class="del-btn" onclick="delPerson('${p.id}')" ${isAdmin?"":"disabled style=\"opacity:.3;cursor:not-allowed\""} title="${isAdmin?"ลบพนักงาน":"ต้องล็อกอิน Admin ก่อน"}">🗑</button>
     </div>`).join("");
   document.getElementById("vehicle-list").innerHTML=mkList(cfg.vehicles,"vehicle",false);
   document.getElementById("equip-list").innerHTML=mkList(cfg.equipment,"equipment",false);
@@ -1774,8 +1774,9 @@ function renderSettings(){
   const rr=document.getElementById("restore-row");if(rr)rr.style.display=isAdmin?"flex":"none";
   updateBackupStatus();
 }
-function delPerson(idx){
+function delPerson(key){
   if(!isAdmin){toast("ต้องล็อกอิน Admin ก่อน","warn");return;}
+  const idx=typeof key==="number"?key:cfg.personnel.findIndex(x=>String(x.id)===String(key));
   const p=cfg.personnel[idx];if(!p)return;
   const nick=p.nick||p.id;
   // ตรวจว่าคนนี้อยู่ในทีมวันนี้หรือไม่
