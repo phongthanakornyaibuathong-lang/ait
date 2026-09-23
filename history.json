@@ -5,7 +5,7 @@
       "day_th": "24 กันยายน 2569",
       "dateKey": "2026-09-24",
       "savedAt": "2026-09-24T00:00:00.000Z",
-      "modifiedAt": "2026-09-23T11:53:29.866Z",
+      "modifiedAt": "2026-09-23T11:56:29.076Z",
       "teams": [
         {
           "id": 1,
@@ -71,39 +71,40 @@
         },
         {
           "id": 6,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260269",
+          "jobType": "FLANGE",
+          "site": "Thai Oil / UT Plant",
+          "jobNo": "Job No, JB260272",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "นัฐ",
-          "vehicle": "",
-          "equipment": "เครื่องมือสำหรับเจาะขยายรู",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "members": "เป้, โอม, เฟิร์ส",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง ศราวุธ (แมน) Thaioil B 061-1736393",
+          "detail": "Machine RF Flange  flange 10”300# 1 fl."
         },
         {
           "id": 7,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "โรงกลึง MEC มาบตาพุด",
           "jobNo": "-",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "โอม, อองรี, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Puller Tension 3-3/4\"",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": "-"
         },
         {
           "id": 8,
-          "jobType": "BOLT",
-          "site": "Total Corbion",
-          "jobNo": "เครื่องมือลองหน้างาน",
-          "depart": "13:00",
-          "arrive": "13:30",
-          "members": "บิ๊ก, ปลาย",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque Open jaw",
-          "contact": "ช่าง หนาน สุขสันต์  081-429-9430"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -133,9 +134,9 @@
     },
     {
       "date": "23/9/2569",
-      "savedAt": "2026-09-23T11:53:30.757Z",
+      "savedAt": "2026-09-23T11:56:29.086Z",
       "dateKey": "2026-09-23",
-      "modifiedAt": "2026-09-23T11:53:30.757Z",
+      "modifiedAt": "2026-09-23T11:56:29.086Z",
       "teams": [
         {
           "id": 1,
@@ -11805,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-23T11:53:30.757Z"
+  "lastUpdated": "2026-09-23T11:56:29.086Z"
 }
