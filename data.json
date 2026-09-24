@@ -23,7 +23,7 @@
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 30",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Cutting & Bevel Pipe 28'' TKH 26.97 mm. Bevel \" Mat's Alloy 625"
+      "detail": "Cutting & Bevel Pipe 28''  TKH 26.97  mm. Bevel \" Mat's Alloy 625"
     },
     {
       "id": 3,
@@ -32,22 +32,23 @@
       "jobNo": "Job No JB260264 Lot.19 Team 2",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, ป๋อ, บีม",
+      "members": "บิ๊ก, ป๋อ, บีม",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
       "id": 4,
-      "jobType": "TRAINING",
-      "site": "SCG MOC /ห้องอบรมเนินพยอม",
-      "jobNo": "อบรมความปลอดภัยเข้างาน TA (08:00-12:00)",
-      "depart": "07:30",
+      "jobType": "BOLT",
+      "site": "Total Corbion",
+      "jobNo": "Job No JB260271",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "บิ๊ก, ปลาย, กาน(นำ)",
+      "members": "นัฐ, คิง, ปลาย",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "-",
-      "contact": "Safety MOC"
+      "equipment": "Hydraulic torque",
+      "contact": " ช่าง หนาน สุขสันต์  081-429-9430",
+      "detail": "Torque Bolt A/F 41,46 mm.  2 Flange"
     },
     {
       "id": 5,
@@ -59,47 +60,44 @@
       "members": "ปาย, อั๋น",
       "vehicle": "",
       "equipment": "-",
-      "contact": "-",
-      "detail": "Training ECITB 2 วัน"
+      "contact": "-"
     },
     {
       "id": 6,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260269",
+      "jobType": "FLANGE",
+      "site": "Thai Oil / UT Plant",
+      "jobNo": "Job No, JB260272",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "นัฐ",
-      "vehicle": "",
-      "equipment": "เครื่องมือสำหรับเจาะขยายรู",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "งานเจาะขยายรู  Flange ID28.6mm เป็น ID40.1mm.\nไปกับรถของ LCN หนุ่ม LCN  099-0347679"
+      "members": "เป้, โอม, เฟิร์ส",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TTFF-24 (New)",
+      "contact": "ช่าง ศราวุธ (แมน) Thaioil B 061-1736393",
+      "detail": "Machine RF Flange  flange 10”300# 1 fl."
     },
     {
       "id": 7,
-      "jobType": "BOLT",
+      "jobType": "STANDBY",
       "site": "โรงกลึง MEC มาบตาพุด",
       "jobNo": "-",
-      "depart": "08:30",
-      "arrive": "09:00",
-      "members": "โอม, อองรี, ต้าร์",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "Puller Tension 3-3/4\"",
-      "contact": "-",
-      "detail": "ลอง Puller Tension 3-3/4\" 12 ตัว"
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": "-"
     },
     {
       "id": 8,
-      "jobType": "BOLT",
-      "site": "Total Corbion",
-      "jobNo": "เครื่องมือลองหน้างาน",
-      "depart": "13:00",
-      "arrive": "13:30",
-      "members": "บิ๊ก, ปลาย",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "Hydraulic torque Open jaw",
-      "contact": "ช่าง หนาน สุขสันต์  081-429-9430",
-      "detail": "เอาหัว Torque ไปลอง A/F 41,46 mm."
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 9,
@@ -126,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-09-23T15:38:23.949Z",
+  "lastUpdated": "2026-09-24T10:40:33.585Z",
   "updatedBy": "Nine",
-  "date": "23/9/2569"
+  "date": "24/9/2569"
 }
