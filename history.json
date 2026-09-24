@@ -5,7 +5,7 @@
       "day_th": "25 กันยายน 2569",
       "dateKey": "2026-09-25",
       "savedAt": "2026-09-25T00:00:00.000Z",
-      "modifiedAt": "2026-09-24T10:40:33.565Z",
+      "modifiedAt": "2026-09-24T10:40:51.678Z",
       "teams": [
         {
           "id": 1,
@@ -34,7 +34,7 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
+          "jobType": "TRAINING",
           "site": "AITs work shop ระยอง",
           "jobNo": "Training ECITB",
           "depart": "08:00",
@@ -132,9 +132,9 @@
     },
     {
       "date": "24/9/2569",
-      "savedAt": "2026-09-24T10:40:33.585Z",
+      "savedAt": "2026-09-24T10:40:51.691Z",
       "dateKey": "2026-09-24",
-      "modifiedAt": "2026-09-24T10:40:33.585Z",
+      "modifiedAt": "2026-09-24T10:40:51.691Z",
       "teams": [
         {
           "id": 1,
@@ -11807,5 +11807,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-24T10:40:33.585Z"
+  "lastUpdated": "2026-09-24T10:40:51.691Z"
 }
