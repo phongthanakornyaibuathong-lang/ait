@@ -5,7 +5,7 @@
       "day_th": "26 กันยายน 2569",
       "dateKey": "2026-09-26",
       "savedAt": "2026-09-26T00:00:00.000Z",
-      "modifiedAt": "2026-09-25T10:47:55.900Z",
+      "modifiedAt": "2026-09-25T10:53:09.632Z",
       "teams": [
         {
           "id": 1,
@@ -73,15 +73,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "GCM PTA",
+          "jobNo": "Job No JB260274",
+          "depart": "12:00",
+          "arrive": "13:00",
+          "members": "คิง, เอิร์ก, ต้าร์",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": "ช่าง ศรัทธา 090-1074094",
+          "detail": "Torque Bolt N-1  1-7/8\" = 3917 Nm. Coupling M42 Nut 65 mm. = 607 Nm."
         },
         {
           "id": 7,
@@ -135,9 +136,9 @@
     },
     {
       "date": "25/9/2569",
-      "savedAt": "2026-09-25T10:47:56.647Z",
+      "savedAt": "2026-09-25T10:53:09.645Z",
       "dateKey": "2026-09-25",
-      "modifiedAt": "2026-09-25T10:47:56.647Z",
+      "modifiedAt": "2026-09-25T10:53:09.645Z",
       "teams": [
         {
           "id": 1,
@@ -11810,5 +11811,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-25T10:47:56.647Z"
+  "lastUpdated": "2026-09-25T10:53:09.645Z"
 }
