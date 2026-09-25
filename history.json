@@ -5,7 +5,7 @@
       "day_th": "26 กันยายน 2569",
       "dateKey": "2026-09-26",
       "savedAt": "2026-09-26T00:00:00.000Z",
-      "modifiedAt": "2026-09-25T10:41:28.423Z",
+      "modifiedAt": "2026-09-25T10:45:34.897Z",
       "teams": [
         {
           "id": 1,
@@ -22,26 +22,28 @@
         {
           "id": 2,
           "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job NoJB260273 Lot. 7",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, โอม, บีม",
+          "site": "Shino thai  แหลมฉบัง (32 ไร่) Site)",
+          "jobNo": "Job No JB260275 Lot 4.",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปาย, อั๋น, ปลาย",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF  Flange 2\"x150 #  = 29 flange "
         },
         {
           "id": 3,
-          "jobType": "TRAINING",
-          "site": "AITs work shop ระยอง",
-          "jobNo": "Training ECITB",
-          "depart": "08:00",
-          "arrive": "12:00",
-          "members": "ปาย, อั๋น",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "-"
+          "jobType": "FLANGE",
+          "site": "โรงกลึง MEC (Shop มาบข่า)",
+          "jobNo": "Job No JB260267",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "บอย, บิ๊ก",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "MM 305 I",
+          "contact": "  ติดต่อ พี่ เดชา 081-2931937",
+          "detail": "กลึง RTJ Flange 6\"x2500 #, 8\"x2500 #   2 flange "
         },
         {
           "id": 4,
@@ -53,7 +55,8 @@
           "members": "นัฐ",
           "vehicle": "",
           "equipment": "",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "ไปกับรถของ LCN หนุ่ม LCN  099-0347679"
         },
         {
           "id": 5,
@@ -131,9 +134,9 @@
     },
     {
       "date": "25/9/2569",
-      "savedAt": "2026-09-25T10:41:29.511Z",
+      "savedAt": "2026-09-25T10:45:34.909Z",
       "dateKey": "2026-09-25",
-      "modifiedAt": "2026-09-25T10:41:29.511Z",
+      "modifiedAt": "2026-09-25T10:45:34.909Z",
       "teams": [
         {
           "id": 1,
@@ -11806,5 +11809,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-25T10:41:29.511Z"
+  "lastUpdated": "2026-09-25T10:45:34.909Z"
 }
