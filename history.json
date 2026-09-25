@@ -1,11 +1,139 @@
 {
   "history": [
     {
-      "date": "25 กันยายน 2569",
-      "day_th": "25 กันยายน 2569",
+      "date": "26 กันยายน 2569",
+      "day_th": "26 กันยายน 2569",
+      "dateKey": "2026-09-26",
+      "savedAt": "2026-09-26T00:00:00.000Z",
+      "modifiedAt": "2026-09-25T10:41:05.422Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "SCC  ศรีราชา (Workshop)",
+          "jobNo": "Job No JB260264 Lot.19 Team 1",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ฟีล์ม, แชมป์, ป๊อก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 2,
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260273 Lot. 7",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, โอม, บีม",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+        },
+        {
+          "id": 3,
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "Training ECITB",
+          "depart": "08:00",
+          "arrive": "12:00",
+          "members": "ปาย, อั๋น",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-"
+        },
+        {
+          "id": 4,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260269",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+        },
+        {
+          "id": 5,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "-",
+          "depart": "08:30",
+          "arrive": "11:00",
+          "members": "บอย, ทาม, คิว, โอ๊ด",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "-",
+          "contact": "-"
+        },
+        {
+          "id": 6,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "-",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-"
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "date": "25/9/2569",
+      "savedAt": "2026-09-25T10:41:05.433Z",
       "dateKey": "2026-09-25",
-      "savedAt": "2026-09-25T00:00:00.000Z",
-      "modifiedAt": "2026-09-24T10:44:58.108Z",
+      "modifiedAt": "2026-09-25T10:41:05.433Z",
       "teams": [
         {
           "id": 1,
@@ -11676,138 +11804,7 @@
           "contact": ""
         }
       ]
-    },
-    {
-      "date": "21/6/2569",
-      "savedAt": "2026-06-21T10:07:54.251Z",
-      "dateKey": "2026-06-21",
-      "modifiedAt": "2026-06-21T10:07:54.251Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260135",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "แชมป์, โอม, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างกอล์ฟ 084-3521060",
-          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
-        },
-        {
-          "id": 2,
-          "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "JB260135",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัฐ, ป๋อ, อองรี",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่างกอล์ฟ 084-3521060",
-          "detail": " Torque Loading Arm 3 ต้น จำนวน 2 ทีม  "
-        },
-        {
-          "id": 3,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No JB260137",
-          "depart": "17:00",
-          "arrive": "18:30",
-          "members": "บิ๊ก, บีม, ไอซ์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "เดินทางไปนอนที่ ศรีราชา 17:00 น."
-        },
-        {
-          "id": 4,
-          "jobType": "FLANGE",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque tool",
-          "contact": ""
-        },
-        {
-          "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 9,
-          "jobType": "BOLT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-24T10:44:58.982Z"
+  "lastUpdated": "2026-09-25T10:41:05.433Z"
 }
