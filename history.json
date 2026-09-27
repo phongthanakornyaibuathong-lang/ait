@@ -5,7 +5,7 @@
       "day_th": "28 กันยายน 2569",
       "dateKey": "2026-09-28",
       "savedAt": "2026-09-28T00:00:00.000Z",
-      "modifiedAt": "2026-09-27T10:02:48.651Z",
+      "modifiedAt": "2026-09-27T10:07:54.947Z",
       "teams": [
         {
           "id": 1,
@@ -65,22 +65,24 @@
           "jobNo": "Job No JB260267",
           "depart": "08:30",
           "arrive": "11:00",
-          "members": "ทาม, โอ๊ด, เฟิร์ส",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "members": "ทาม, บอย, เอิร์ก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "-",
-          "contact": " พี่ เดชา 081-2931937"
+          "contact": " พี่ เดชา 081-2931937",
+          "detail": "กลึง RF Flange Valve 12\"x900#   1 flange "
         },
         {
           "id": 6,
-          "jobType": "BOLT",
-          "site": "GCM PTA",
+          "jobType": "TRAINING",
+          "site": "Maintech / DOW ห้องอบรม DOW Asia",
           "jobNo": "Job No JB260274",
-          "depart": "12:00",
-          "arrive": "13:00",
-          "members": "คิง, เอิร์ก, ต้าร์",
+          "depart": "06:30",
+          "arrive": "07:00",
+          "members": "ทัช, แชมป์, คิง, คิว, เฟิร์ส, ต้าร์",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง ศรัทธา 090-1074094"
+          "contact": "ช่าง ศรัทธา 090-1074094",
+          "detail": "อบรมทำบัตร 08:00-17:00 ลงทะเบียน 07:15-7:30 น.\nเตรียม PPE ครบ Safety Herness ไปด้วย"
         },
         {
           "id": 7,
@@ -11813,5 +11815,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-27T10:02:49.605Z"
+  "lastUpdated": "2026-09-27T10:07:54.959Z"
 }
