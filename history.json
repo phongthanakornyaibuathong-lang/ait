@@ -5,7 +5,7 @@
       "day_th": "28 กันยายน 2569",
       "dateKey": "2026-09-28",
       "savedAt": "2026-09-28T00:00:00.000Z",
-      "modifiedAt": "2026-09-27T09:57:59.105Z",
+      "modifiedAt": "2026-09-27T10:02:48.651Z",
       "teams": [
         {
           "id": 1,
@@ -26,22 +26,24 @@
           "jobNo": "Job No JB260275 Lot 4.",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, อั๋น, ปลาย",
+          "members": "ปาย, อั๋น, โอ๊ด",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF  Flange 2\"x150 #  = 29 flange "
         },
         {
           "id": 3,
           "jobType": "FLANGE",
-          "site": "โรงกลึง MEC (Shop มาบข่า)",
-          "jobNo": "Job No JB260267",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "บอย, บิ๊ก",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260273  Lot. 7",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "เป้, โอม, บีม",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "MM 305 I",
-          "contact": "  ติดต่อ พี่ เดชา 081-2931937"
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
+          "detail": "Machine RF Flange 2\" = 12 fl. ,3\" = 3 fl."
         },
         {
           "id": 4,
@@ -52,8 +54,9 @@
           "arrive": "08:00",
           "members": "นัฐ",
           "vehicle": "",
-          "equipment": "",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "equipment": "-",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "งานเจาะขยายรู  Flange ID28.6mm เป็น ID40.1mm.\nไปกับรถของ LCN หนุ่ม LCN  099-0347679"
         },
         {
           "id": 5,
@@ -11810,5 +11813,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-27T09:57:59.797Z"
+  "lastUpdated": "2026-09-27T10:02:48.667Z"
 }
