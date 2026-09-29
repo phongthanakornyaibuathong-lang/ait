@@ -5,7 +5,7 @@
       "day_th": "30 กันยายน 2569",
       "dateKey": "2026-09-30",
       "savedAt": "2026-09-30T00:00:00.000Z",
-      "modifiedAt": "2026-09-29T09:00:28.728Z",
+      "modifiedAt": "2026-09-29T09:03:38.770Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "Job No JB260276 Lot.20",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บิ๊ก, ปลาย, ป๊อก",
+          "members": "บิ๊ก, อองรี, ป๊อก",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-24 ",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -26,10 +26,11 @@
           "jobNo": "Job No JB260275 Lot 4. Team 1.",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, อั๋น, โอ๊ด",
+          "members": "ปาย, ป๋อ, เฟิร์ส",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF Flange 2\"x150 # = 29 flange RF Flange 1\"x150 #"
         },
         {
           "id": 3,
@@ -38,10 +39,11 @@
           "jobNo": "Job NoJB260273  Lot. 7",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, โอม, บีม",
+          "members": "อั๋น, บีม, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
+          "detail": "Machine RF Flange 2\" = 12 fl. ,3\" = 3 fl."
         },
         {
           "id": 4,
@@ -131,9 +133,9 @@
     },
     {
       "date": "29/9/2569",
-      "savedAt": "2026-09-29T09:00:29.598Z",
+      "savedAt": "2026-09-29T09:03:38.779Z",
       "dateKey": "2026-09-29",
-      "modifiedAt": "2026-09-29T09:00:29.598Z",
+      "modifiedAt": "2026-09-29T09:03:38.779Z",
       "teams": [
         {
           "id": 1,
@@ -11816,5 +11818,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-29T09:00:29.598Z"
+  "lastUpdated": "2026-09-29T09:03:38.779Z"
 }
