@@ -554,7 +554,7 @@
       "nick": "บอย",
       "phone": "093-769-4849",
       "pos": "Supervisor",
-      "color": "#32D2D8",
+      "color": "#ff9f0a",
       "skills": [
         "bolt_torque",
         "bolt_tension",
@@ -637,7 +637,7 @@
       "nick": "นัฐ",
       "phone": "093-1214597",
       "pos": "Sup'v",
-      "color": "#32D2D8",
+      "color": "#ff9f0a",
       "skills": [],
       "safetyCards": {
         "STECON": {
