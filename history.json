@@ -5,7 +5,7 @@
       "day_th": "30 กันยายน 2569",
       "dateKey": "2026-09-30",
       "savedAt": "2026-09-30T00:00:00.000Z",
-      "modifiedAt": "2026-09-29T09:12:18.172Z",
+      "modifiedAt": "2026-09-29T09:17:03.571Z",
       "teams": [
         {
           "id": 1,
@@ -27,7 +27,7 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ปาย, ป๋อ, เฟิร์ส",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง โด่ง  094-7467526",
           "detail": "กลึง RF Flange 2\"x150 # = 29 flange RF Flange 1\"x150 #"
@@ -40,7 +40,7 @@
           "depart": "06:00",
           "arrive": "07:30",
           "members": "อั๋น, บีม, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
           "detail": "Machine RF Flange 2\" = 12 fl. ,3\" = 3 fl."
@@ -74,26 +74,28 @@
         {
           "id": 6,
           "jobType": "FLANGE",
-          "site": "Shino thai  แหลมฉบัง (32 ไร่) Site)",
-          "jobNo": "Job No JB260275 Lot 4. Team 2.",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB2602",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ฟีล์ม, ต้าร์",
+          "members": "บอย, ต้าร์, เอิร์ก",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Machine RTJ Flange 10\"2500# = 2 flange"
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "-",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "FLANGE",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job NoJB260237 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทัช, เอิร์ก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "",
-          "contact": "-"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "ตรวจ Flange RTJ ส่งงาน STECON / Wood"
         },
         {
           "id": 8,
@@ -135,9 +137,9 @@
     },
     {
       "date": "29/9/2569",
-      "savedAt": "2026-09-29T09:12:18.186Z",
+      "savedAt": "2026-09-29T09:17:03.582Z",
       "dateKey": "2026-09-29",
-      "modifiedAt": "2026-09-29T09:12:18.186Z",
+      "modifiedAt": "2026-09-29T09:17:03.582Z",
       "teams": [
         {
           "id": 1,
@@ -11820,5 +11822,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-29T09:12:18.186Z"
+  "lastUpdated": "2026-09-29T09:17:03.582Z"
 }
