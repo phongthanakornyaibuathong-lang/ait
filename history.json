@@ -5,7 +5,7 @@
       "day_th": "1 ตุลาคม 2569",
       "dateKey": "2026-10-01",
       "savedAt": "2026-10-01T00:00:00.000Z",
-      "modifiedAt": "2026-09-30T10:33:35.575Z",
+      "modifiedAt": "2026-09-30T10:36:06.358Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "Job No JB260276 Lot.20",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บิ๊ก, อองรี, ป๊อก",
+          "members": "ฟีล์ม, ปลาย, ป๊อก",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-24 ",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -26,16 +26,17 @@
           "jobNo": "Job No JB260275 Lot 4. Team 1.",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ปาย, ป๋อ, เฟิร์ส",
+          "members": "ปาย, อั๋น, เฟิร์ส",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF Flange 1\", 2\"x150 #"
         },
         {
           "id": 3,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job NoJB260273  Lot. 7",
+          "jobNo": "Job NoJB260277  Lot. 21",
           "depart": "06:00",
           "arrive": "07:30",
           "members": "อั๋น, บีม, คิว",
@@ -131,9 +132,9 @@
     },
     {
       "date": "30/9/2569",
-      "savedAt": "2026-09-30T10:33:35.589Z",
+      "savedAt": "2026-09-30T10:36:06.369Z",
       "dateKey": "2026-09-30",
-      "modifiedAt": "2026-09-30T10:33:35.589Z",
+      "modifiedAt": "2026-09-30T10:36:06.369Z",
       "teams": [
         {
           "id": 1,
@@ -11810,5 +11811,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-30T10:33:35.589Z"
+  "lastUpdated": "2026-09-30T10:36:06.369Z"
 }
