@@ -5,7 +5,7 @@
       "day_th": "1 ตุลาคม 2569",
       "dateKey": "2026-10-01",
       "savedAt": "2026-10-01T00:00:00.000Z",
-      "modifiedAt": "2026-09-30T10:40:51.937Z",
+      "modifiedAt": "2026-09-30T10:43:21.452Z",
       "teams": [
         {
           "id": 1,
@@ -29,8 +29,7 @@
           "members": "ปาย, อั๋น, เฟิร์ส",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "กลึง RF Flange 1\", 2\"x150 #"
+          "contact": "ช่าง โด่ง  094-7467526"
         },
         {
           "id": 3,
@@ -42,8 +41,7 @@
           "members": "บิ๊ก, บีม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 4,
@@ -55,21 +53,19 @@
           "members": "คิง",
           "vehicle": "",
           "equipment": "-",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "งานเจาะขยายรู  Flange ID28.6mm เป็น ID40.1mm.\nไปกับรถของ LCN หนุ่ม LCN  099-0347679"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 5,
-          "jobType": "TRAINING",
+          "jobType": "FLANGE",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Job NoJB260266 Lot. 16 ",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ต้าร์, เอิร์ก",
+          "members": "บอย, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "Machine RTJ Flange 10\" 2500# = 2 flange"
+          "contact": "ช่าง โด่ง  094-7467526"
         },
         {
           "id": 6,
@@ -135,9 +131,9 @@
     },
     {
       "date": "30/9/2569",
-      "savedAt": "2026-09-30T10:40:51.947Z",
+      "savedAt": "2026-09-30T10:43:21.467Z",
       "dateKey": "2026-09-30",
-      "modifiedAt": "2026-09-30T10:40:51.947Z",
+      "modifiedAt": "2026-09-30T10:43:21.467Z",
       "teams": [
         {
           "id": 1,
@@ -11814,5 +11810,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-30T10:40:51.947Z"
+  "lastUpdated": "2026-09-30T10:43:21.467Z"
 }
