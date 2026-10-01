@@ -5,7 +5,7 @@
       "day_th": "2 ตุลาคม 2569",
       "dateKey": "2026-10-02",
       "savedAt": "2026-10-02T00:00:00.000Z",
-      "modifiedAt": "2026-10-01T11:18:55.896Z",
+      "modifiedAt": "2026-10-01T11:22:10.289Z",
       "teams": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
           "jobNo": "Job No JB260276 Lot.20",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ฟีล์ม, ป๊อก",
+          "members": "ฟีล์ม, ป๊อก, ปลาย",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-24 ",
           "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -52,7 +52,7 @@
           "jobNo": "Job NoJB260280 Lot.9",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, คิง",
+          "members": "บอย, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 24",
           "contact": "ติดต่อช่าง โด่ง  094-7467526",
@@ -61,15 +61,15 @@
         {
           "id": 5,
           "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job NoJB260279 Lot. 17",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TTFF-24 / TTFF 40",
-          "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "Machine RF Flange 12\" 1500# = 1 flange"
+          "site": "โรงกลึง MEC",
+          "jobNo": "Job No JB260247,248",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "ทัช, เฟิร์ส",
+          "vehicle": "รถส่วนตัว",
+          "equipment": "เครื่องมือวัด",
+          "contact": "พี่ เดชา 081-2931937",
+          "detail": "ตรวจ Flange  ส่งงาน STECON / Wood ส่ง-รับ ชิ้นงานช่วงบ่าย"
         },
         {
           "id": 6,
@@ -137,9 +137,9 @@
     },
     {
       "date": "1/10/2569",
-      "savedAt": "2026-10-01T11:18:55.904Z",
+      "savedAt": "2026-10-01T11:22:10.302Z",
       "dateKey": "2026-10-01",
-      "modifiedAt": "2026-10-01T11:18:55.904Z",
+      "modifiedAt": "2026-10-01T11:22:10.302Z",
       "teams": [
         {
           "id": 1,
@@ -11811,5 +11811,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-01T11:18:55.904Z"
+  "lastUpdated": "2026-10-01T11:22:10.302Z"
 }
