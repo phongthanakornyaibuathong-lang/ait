@@ -5,7 +5,7 @@
       "day_th": "2 ตุลาคม 2569",
       "dateKey": "2026-10-02",
       "savedAt": "2026-10-02T00:00:00.000Z",
-      "modifiedAt": "2026-10-01T11:05:02.396Z",
+      "modifiedAt": "2026-10-01T11:06:39.967Z",
       "teams": [
         {
           "id": 1,
@@ -62,7 +62,7 @@
           "id": 5,
           "jobType": "FLANGE",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job NoJB260266 Lot. 16 ",
+          "jobNo": "Job NoJB260279 Lot. 17",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ทาม, ต้าร์, เฟิร์ส",
@@ -135,9 +135,9 @@
     },
     {
       "date": "1/10/2569",
-      "savedAt": "2026-10-01T11:05:03.184Z",
+      "savedAt": "2026-10-01T11:06:39.976Z",
       "dateKey": "2026-10-01",
-      "modifiedAt": "2026-10-01T11:05:03.184Z",
+      "modifiedAt": "2026-10-01T11:06:39.976Z",
       "teams": [
         {
           "id": 1,
@@ -11809,5 +11809,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-01T11:05:03.184Z"
+  "lastUpdated": "2026-10-01T11:06:39.976Z"
 }
