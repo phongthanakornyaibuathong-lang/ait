@@ -5,7 +5,7 @@
       "day_th": "3 ตุลาคม 2569",
       "dateKey": "2026-10-03",
       "savedAt": "2026-10-03T00:00:00.000Z",
-      "modifiedAt": "2026-10-02T08:13:19.819Z",
+      "modifiedAt": "2026-10-02T08:20:24.353Z",
       "teams": [
         {
           "id": 1,
@@ -42,7 +42,8 @@
           "members": "บิ๊ก, บีม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 4,
@@ -54,19 +55,21 @@
           "members": "บอย, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 24",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS321"
         },
         {
           "id": 5,
-          "jobType": "FLANGE",
-          "site": "โรงกลึง MEC",
-          "jobNo": "Job No JB260247,248",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "ทัช, เฟิร์ส",
-          "vehicle": "รถส่วนตัว",
-          "equipment": "เครื่องมือวัด",
-          "contact": "พี่ เดชา 081-2931937"
+          "jobType": "BOLT",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260278",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ, ป๋อ, โอม",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Hydraulic bolt tension 2\"  ",
+          "contact": "ช่าง แมน  092-487-2719",
+          "detail": "Bolt Tension flange 12\"x1500# 2 fl."
         },
         {
           "id": 6,
@@ -82,15 +85,15 @@
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "SCC ศรีราชา (Thai oil (CFP) Site )",
-          "jobNo": "Job No JB260278",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "นัฐ, ป๋อ, โอม",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "ช่าง แมน  092-487-2719"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
@@ -132,9 +135,9 @@
     },
     {
       "date": "2/10/2569",
-      "savedAt": "2026-10-02T08:13:21.034Z",
+      "savedAt": "2026-10-02T08:20:24.360Z",
       "dateKey": "2026-10-02",
-      "modifiedAt": "2026-10-02T08:13:21.034Z",
+      "modifiedAt": "2026-10-02T08:20:24.360Z",
       "teams": [
         {
           "id": 1,
@@ -11811,5 +11814,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-02T08:13:21.034Z"
+  "lastUpdated": "2026-10-02T08:20:24.360Z"
 }
