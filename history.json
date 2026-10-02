@@ -5,7 +5,7 @@
       "day_th": "3 ตุลาคม 2569",
       "dateKey": "2026-10-03",
       "savedAt": "2026-10-03T00:00:00.000Z",
-      "modifiedAt": "2026-10-02T08:27:42.419Z",
+      "modifiedAt": "2026-10-02T10:22:43.586Z",
       "teams": [
         {
           "id": 1,
@@ -29,8 +29,7 @@
           "members": "ปาย, อั๋น, เอิร์ก",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "Pipe Cold Cutting & Bevel 30\" THK 50 mm. A358 Mat's SS321"
+          "contact": "ช่าง โด่ง  094-7467526"
         },
         {
           "id": 3,
@@ -42,8 +41,7 @@
           "members": "บิ๊ก, บีม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange ½”-6”  "
+          "contact": "ช่าง กับตัน 080-0471014"
         },
         {
           "id": 4,
@@ -55,8 +53,7 @@
           "members": "บอย, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 24",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526",
-          "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS321"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526"
         },
         {
           "id": 5,
@@ -68,8 +65,7 @@
           "members": "นัฐ, ป๋อ, โอม, เฟิร์ส",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Hydraulic bolt tension 2\"  ",
-          "contact": "ช่าง แมน  092-487-2719",
-          "detail": "Bolt Tension flange 12\"x1500# 2 fl."
+          "contact": "ช่าง แมน  092-487-2719"
         },
         {
           "id": 6,
@@ -81,20 +77,20 @@
           "members": "เป้, คิง, โอ๊ด",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
-          "detail": "Machine RF Flange 2\"-4\"  "
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "FLANGE",
+          "site": "โรงกลึง MEC",
+          "jobNo": "Job No: Job No JB260247,248",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "ทัช",
+          "vehicle": "รถส่วนตัว",
           "equipment": "",
-          "contact": ""
+          "contact": "พี่ เดชา 081-2931937 ออก: 08:30",
+          "detail": "ตรวจ Flange ส่งงาน STECON / Wood ส่ง-รับ ชิ้นงาน จาก STECON\n"
         },
         {
           "id": 8,
@@ -136,9 +132,9 @@
     },
     {
       "date": "2/10/2569",
-      "savedAt": "2026-10-02T08:31:08.202Z",
+      "savedAt": "2026-10-02T10:22:43.593Z",
       "dateKey": "2026-10-02",
-      "modifiedAt": "2026-10-02T08:31:08.202Z",
+      "modifiedAt": "2026-10-02T10:22:43.593Z",
       "teams": [
         {
           "id": 1,
@@ -11815,5 +11811,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-02T08:31:08.202Z"
+  "lastUpdated": "2026-10-02T10:22:43.593Z"
 }
