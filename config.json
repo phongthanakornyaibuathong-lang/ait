@@ -885,7 +885,8 @@
     "Shino thai  แหลมฉบัง (32 ไร่) Site)",
     "Maintech / DOW ห้องอบรม DOW Asia",
     "UCS ศรีราชา (Thai oil CFP site)",
-    "SCC ศรีราชา (Thai oil (CFP) Site )"
+    "SCC ศรีราชา (Thai oil (CFP) Site )",
+    "โรงกลึง MEC "
   ],
   "skills": [
     {
@@ -1901,14 +1902,6 @@
       "type": "วันหยุด",
       "date": "2026-10-03",
       "dateEnd": "2026-10-03",
-      "note": ""
-    },
-    {
-      "id": "lv179092973480337",
-      "person": "ทัช",
-      "type": "วันหยุด",
-      "date": "2026-10-03",
-      "dateEnd": "",
       "note": ""
     },
     {
