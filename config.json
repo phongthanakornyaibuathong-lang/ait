@@ -39,6 +39,11 @@
       "id": "PERSONAL",
       "label": "ลากิจ",
       "color": "#FF9F0A"
+    },
+    {
+      "id": "OTHER",
+      "label": "OTHER",
+      "color": "#54ae24"
     }
   ],
   "personnel": [
