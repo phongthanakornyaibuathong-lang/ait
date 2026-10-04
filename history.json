@@ -5,7 +5,7 @@
       "day_th": "5 ตุลาคม 2569",
       "dateKey": "2026-10-05",
       "savedAt": "2026-10-05T00:00:00.000Z",
-      "modifiedAt": "2026-10-04T09:47:24.237Z",
+      "modifiedAt": "2026-10-04T09:51:21.622Z",
       "teams": [
         {
           "id": 1,
@@ -37,13 +37,14 @@
           "id": 3,
           "jobType": "FLANGE",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260277 Lot.19",
+          "jobNo": "Job No, JB260284 Lot.21",
           "depart": "06:00",
           "arrive": "07:00",
           "members": "บิ๊ก, บีม, คิว",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange ½”-6”  "
         },
         {
           "id": 4,
@@ -55,7 +56,8 @@
           "members": "บอย, ทาม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 24",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS321"
         },
         {
           "id": 5,
@@ -11803,5 +11805,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-04T09:47:25.162Z"
+  "lastUpdated": "2026-10-04T09:51:21.645Z"
 }
