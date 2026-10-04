@@ -5,7 +5,7 @@
       "day_th": "5 ตุลาคม 2569",
       "dateKey": "2026-10-05",
       "savedAt": "2026-10-05T00:00:00.000Z",
-      "modifiedAt": "2026-10-04T10:00:57.181Z",
+      "modifiedAt": "2026-10-04T10:04:32.010Z",
       "teams": [
         {
           "id": 1,
@@ -69,19 +69,20 @@
           "members": "เป้, คิง, โอ๊ด",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TOFF-12 /TTFF 24",
-          "contact": " ท็อป UCS  093-3349527 "
+          "contact": " ท็อป UCS  093-3349527 ",
+          "detail": "Machine RF Flange"
         },
         {
           "id": 6,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thai oil CFP site)",
-          "jobNo": "Job NoJB260273  Lot. 7",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, คิง, โอ๊ด",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "TOFF-12 /TTFF 24",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+          "jobType": "SICK",
+          "site": "รพ.กรุงเทพระยอง",
+          "jobNo": "ตรวจสุขภาพประจำปี",
+          "depart": "08:00",
+          "arrive": "12:00",
+          "members": "ป๋อ, อองรี",
+          "vehicle": "รถส่วนตัว",
+          "equipment": "",
+          "contact": "-"
         },
         {
           "id": 7,
@@ -11805,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-04T10:00:58.233Z"
+  "lastUpdated": "2026-10-04T10:04:32.031Z"
 }
