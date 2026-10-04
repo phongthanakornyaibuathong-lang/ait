@@ -5,7 +5,7 @@
       "day_th": "5 ตุลาคม 2569",
       "dateKey": "2026-10-05",
       "savedAt": "2026-10-05T00:00:00.000Z",
-      "modifiedAt": "2026-10-04T10:15:10.745Z",
+      "modifiedAt": "2026-10-04T10:17:42.400Z",
       "teams": [
         {
           "id": 1,
@@ -74,13 +74,13 @@
         },
         {
           "id": 6,
-          "jobType": "OTHER",
-          "site": "รพ.กรุงเทพระยอง",
+          "jobType": "STANDBY",
+          "site": "",
           "jobNo": "ตรวจสุขภาพประจำปี",
-          "depart": "08:00",
-          "arrive": "12:00",
-          "members": "ป๋อ, อองรี",
-          "vehicle": "รถส่วนตัว",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
           "contact": "-"
         },
@@ -11806,5 +11806,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-04T10:17:09.148Z"
+  "lastUpdated": "2026-10-04T10:17:42.412Z"
 }
