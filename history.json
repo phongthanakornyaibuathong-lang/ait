@@ -5,7 +5,7 @@
       "day_th": "12 ตุลาคม 2569",
       "dateKey": "2026-10-12",
       "savedAt": "2026-10-12T00:00:00.000Z",
-      "modifiedAt": "2026-10-10T08:55:34.102Z",
+      "modifiedAt": "2026-10-10T09:04:23.439Z",
       "teams": [
         {
           "id": 1,
@@ -34,27 +34,29 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "Shino thai  แหลมฉบัง (32 ไล่) Site)",
-          "jobNo": "Job No JB260290",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260294",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ปาย, โอ๊ด, ป๋อ",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "equipment": "TSF 18",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 14\" Sch 160. A358 Mat's SS321"
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job NoJB260291 Lot.17 ",
-          "depart": "06:30",
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "Job No JB260293",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "บอย, แชมป์, บีม",
+          "members": "นัฐ, ทาม, ปลาย, บีม, เอิร์ก",
           "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "โด่ง  094-7467526"
+          "equipment": "Hydraulic Nut Splitter ของลูกค้า ",
+          "contact": " K.เอกราช (พี่เดี่ยว) 085-935-1270",
+          "detail": "เตรียมสายลม + ข้อต่อไปด้วย"
         },
         {
           "id": 5,
@@ -132,9 +134,9 @@
     },
     {
       "date": "10/10/2569",
-      "savedAt": "2026-10-10T08:55:34.723Z",
+      "savedAt": "2026-10-10T09:04:23.451Z",
       "dateKey": "2026-10-10",
-      "modifiedAt": "2026-10-10T08:55:34.723Z",
+      "modifiedAt": "2026-10-10T09:04:23.451Z",
       "teams": [
         {
           "id": 1,
@@ -11816,5 +11818,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-10T08:55:34.723Z"
+  "lastUpdated": "2026-10-10T09:04:23.451Z"
 }
