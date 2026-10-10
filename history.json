@@ -5,7 +5,7 @@
       "day_th": "12 ตุลาคม 2569",
       "dateKey": "2026-10-12",
       "savedAt": "2026-10-12T00:00:00.000Z",
-      "modifiedAt": "2026-10-10T09:04:23.439Z",
+      "modifiedAt": "2026-10-10T09:09:52.116Z",
       "teams": [
         {
           "id": 1,
@@ -62,34 +62,36 @@
           "id": 5,
           "jobType": "COLD_CUT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "-",
+          "jobNo": "Job No JB260292",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "ทาม, อั๋น, ต้าร์, เฟิร์ส",
+          "members": "บอย, อั๋น, เฟิร์ส",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 30",
-          "contact": " ติดต่อช่าง โด่ง  094-7467526"
+          "contact": " ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 30\" THK 50 mm. A358 Mat's SS321"
         },
         {
           "id": 6,
           "jobType": "OTHER",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Site Survey",
+          "site": "Maintech / DOW ห้องอบรม DOW Asia",
+          "jobNo": "อบรมทำบัตร 08:00 -17:00 ",
           "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ทัช, เอิร์ก",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "arrive": "07:00",
+          "members": "แชมป์, ป๋อ, คิว",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "-",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "อบรมทำบัตร 08:00-17:00  ความปลอดภัยเบื้องต้น/นั่งร้าน/ที่สูง\nลงทะเบียน 07:15-7:30 น."
         },
         {
           "id": 7,
           "jobType": "OTHER",
           "site": "โรงพยาบาลกรุงเทพระยอง",
-          "jobNo": "ตรวจสุขภาพประจำปี + ที่อับอากาศ",
-          "depart": "07:30",
-          "arrive": "08:00",
-          "members": "เป้",
+          "jobNo": "ตรวจสุขภาพประจำปี ",
+          "depart": "08:00",
+          "arrive": "09:00",
+          "members": "บิ๊ก",
           "vehicle": "รถส่วนตัว",
           "equipment": "",
           "contact": "-"
@@ -134,9 +136,9 @@
     },
     {
       "date": "10/10/2569",
-      "savedAt": "2026-10-10T09:04:24.291Z",
+      "savedAt": "2026-10-10T09:09:52.123Z",
       "dateKey": "2026-10-10",
-      "modifiedAt": "2026-10-10T09:04:24.291Z",
+      "modifiedAt": "2026-10-10T09:09:52.123Z",
       "teams": [
         {
           "id": 1,
@@ -11818,5 +11820,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-10T09:04:24.291Z"
+  "lastUpdated": "2026-10-10T09:09:52.123Z"
 }
