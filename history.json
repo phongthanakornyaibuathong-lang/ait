@@ -5,7 +5,7 @@
       "day_th": "12 ตุลาคม 2569",
       "dateKey": "2026-10-12",
       "savedAt": "2026-10-12T00:00:00.000Z",
-      "modifiedAt": "2026-10-11T09:09:25.680Z",
+      "modifiedAt": "2026-10-11T09:11:56.547Z",
       "teams": [
         {
           "id": 1,
@@ -39,9 +39,10 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ปาย, โอ๊ด, ต้าร์",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TSF 18",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 14\" Sch 160. A358 Mat's SS321"
         },
         {
           "id": 4,
@@ -58,14 +59,15 @@
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "site": "Shino thai  แหลมฉบัง (32 ไล่) Site)",
           "jobNo": "Job No JB260292",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, อั๋น, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TSF 30",
-          "contact": " ติดต่อช่าง โด่ง  094-7467526"
+          "contact": " ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 30\" THK 50 mm. A358 Mat's SS321"
         },
         {
           "id": 6,
@@ -11816,5 +11818,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-11T09:09:26.355Z"
+  "lastUpdated": "2026-10-11T09:11:56.557Z"
 }
