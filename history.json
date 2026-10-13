@@ -5,7 +5,7 @@
       "day_th": "14 ตุลาคม 2569",
       "dateKey": "2026-10-14",
       "savedAt": "2026-10-14T00:00:00.000Z",
-      "modifiedAt": "2026-10-13T10:43:55.942Z",
+      "modifiedAt": "2026-10-13T10:45:48.688Z",
       "teams": [
         {
           "id": 1,
@@ -22,27 +22,27 @@
         },
         {
           "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC  ศรีราชา (Work Shop)",
-          "jobNo": "Job No JB260295 Lot.22",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ฟีล์ม, โอม, ป๊อก",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "TOFF-12",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+          "contact": ""
         },
         {
           "id": 3,
-          "jobType": "OTHER",
-          "site": "ไบเทคบางนา",
-          "jobNo": "การขนย้ายเครื่องมือและอุปกรณ์ไปจัดบูธ",
-          "depart": "09:00",
-          "arrive": "11:00",
-          "members": "ทัช, บิ๊ก, บีม",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "เครื่องมือจัดบูธ",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 4,
@@ -132,9 +132,9 @@
     },
     {
       "date": "13/10/2569",
-      "savedAt": "2026-10-13T10:43:57.096Z",
+      "savedAt": "2026-10-13T10:45:51.460Z",
       "dateKey": "2026-10-13",
-      "modifiedAt": "2026-10-13T10:43:57.096Z",
+      "modifiedAt": "2026-10-13T10:45:51.460Z",
       "teams": [
         {
           "id": 1,
@@ -11821,5 +11821,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-13T10:43:57.096Z"
+  "lastUpdated": "2026-10-13T10:45:51.460Z"
 }
