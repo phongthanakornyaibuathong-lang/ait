@@ -5,7 +5,7 @@
       "day_th": "15 ตุลาคม 2569",
       "dateKey": "2026-10-15",
       "savedAt": "2026-10-15T00:00:00.000Z",
-      "modifiedAt": "2026-10-14T09:46:14.623Z",
+      "modifiedAt": "2026-10-14T10:03:03.829Z",
       "teams": [
         {
           "id": 1,
@@ -14,46 +14,50 @@
           "jobNo": "Job No JB260297",
           "depart": "07:00",
           "arrive": "09:00",
-          "members": "นาย, ป๋อ, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "members": "ป๋อ, เอิร์ก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Robot Tool",
-          "contact": "K.เพรช 065-503-6325"
+          "contact": "K.เพรช 065-503-6325",
+          "detail": "Replace Shaft Axis 2 Robot IRB6650F\nผรม. 1 คน"
         },
         {
           "id": 2,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "FLANGE",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job NoJB260296  Lot. 9",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "คิง, บีม, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": ""
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
+          "detail": "Machine RF Flange 2\"-4\"  "
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "FLANGE",
+          "site": "Shino thai  แหลมฉบัง (32 ไล่) Site)",
+          "jobNo": "Job No JB260298 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปาย, ปลาย, โอ๊ด",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF Flange 1\"x150 # = 28 flange "
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260294",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, อั๋น, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 16\" THK 42 mm. A333 Gr.6 (Low Carbon)"
         },
         {
           "id": 5,
@@ -62,8 +66,8 @@
           "jobNo": "",
           "depart": "",
           "arrive": "",
-          "members": "บอย, อั๋น, เฟิร์ส",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "members": "",
+          "vehicle": "",
           "equipment": "TSF 30",
           "contact": ""
         },
@@ -131,9 +135,9 @@
     },
     {
       "date": "14/10/2569",
-      "savedAt": "2026-10-14T09:54:09.968Z",
+      "savedAt": "2026-10-14T10:03:03.839Z",
       "dateKey": "2026-10-14",
-      "modifiedAt": "2026-10-14T09:54:09.968Z",
+      "modifiedAt": "2026-10-14T10:03:03.839Z",
       "teams": [
         {
           "id": 1,
@@ -11821,5 +11825,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-14T09:54:09.968Z"
+  "lastUpdated": "2026-10-14T10:03:03.839Z"
 }
