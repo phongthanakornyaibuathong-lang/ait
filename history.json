@@ -5,7 +5,7 @@
       "day_th": "15 ตุลาคม 2569",
       "dateKey": "2026-10-15",
       "savedAt": "2026-10-15T00:00:00.000Z",
-      "modifiedAt": "2026-10-14T10:03:03.829Z",
+      "modifiedAt": "2026-10-14T10:04:38.041Z",
       "teams": [
         {
           "id": 1,
@@ -61,15 +61,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "TSF 30",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "Kuraray GC ",
+          "jobNo": "Job No JB260282",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัฐ, แชมป์, โอม",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque",
+          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270",
+          "detail": "Torque Bolt flange 18\"x900# Stud 1-7/8\" A/F 75 mm. A/F 36 mm."
         },
         {
           "id": 6,
@@ -135,9 +136,9 @@
     },
     {
       "date": "14/10/2569",
-      "savedAt": "2026-10-14T10:03:04.979Z",
+      "savedAt": "2026-10-14T10:04:38.053Z",
       "dateKey": "2026-10-14",
-      "modifiedAt": "2026-10-14T10:03:04.979Z",
+      "modifiedAt": "2026-10-14T10:04:38.053Z",
       "teams": [
         {
           "id": 1,
@@ -11825,5 +11826,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-14T10:03:04.979Z"
+  "lastUpdated": "2026-10-14T10:04:38.053Z"
 }
