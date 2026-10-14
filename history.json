@@ -5,19 +5,19 @@
       "day_th": "15 ตุลาคม 2569",
       "dateKey": "2026-10-15",
       "savedAt": "2026-10-15T00:00:00.000Z",
-      "modifiedAt": "2026-10-14T10:04:38.041Z",
+      "modifiedAt": "2026-10-14T10:06:42.467Z",
       "teams": [
         {
           "id": 1,
           "jobType": "ROBOT",
-          "site": "ABB to Mars Pet Care (Chonburi)",
+          "site": "ABB BKF Aerospace (Samutsakhon)",
           "jobNo": "Job No JB260297",
           "depart": "07:00",
-          "arrive": "09:00",
+          "arrive": "10:00",
           "members": "ป๋อ, เอิร์ก",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Robot Tool",
-          "contact": "K.เพรช 065-503-6325",
+          "contact": "K’ Natee 06-5730-0978",
           "detail": "Replace Shaft Axis 2 Robot IRB6650F\nผรม. 1 คน"
         },
         {
@@ -136,9 +136,9 @@
     },
     {
       "date": "14/10/2569",
-      "savedAt": "2026-10-14T10:04:39.343Z",
+      "savedAt": "2026-10-14T10:06:42.477Z",
       "dateKey": "2026-10-14",
-      "modifiedAt": "2026-10-14T10:04:39.343Z",
+      "modifiedAt": "2026-10-14T10:06:42.477Z",
       "teams": [
         {
           "id": 1,
@@ -11826,5 +11826,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-14T10:04:39.343Z"
+  "lastUpdated": "2026-10-14T10:06:42.477Z"
 }
