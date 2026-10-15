@@ -5,7 +5,7 @@
       "day_th": "16 ตุลาคม 2569",
       "dateKey": "2026-10-16",
       "savedAt": "2026-10-16T00:00:00.000Z",
-      "modifiedAt": "2026-10-15T10:58:02.777Z",
+      "modifiedAt": "2026-10-15T11:08:44.988Z",
       "teams": [
         {
           "id": 1,
@@ -42,7 +42,8 @@
           "members": "ปาย, ปลาย, โอ๊ด",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "กลึง RF Flange 1\"x150 # = 28 flange "
         },
         {
           "id": 4,
@@ -52,45 +53,49 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "บอย, อั๋น, ต้าร์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TSF 18",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 16\" Sch 160. A333 Gr.6"
         },
         {
           "id": 5,
           "jobType": "BOLT",
-          "site": "Kuraray GC ",
-          "jobNo": "Job No JB260282",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัฐ, แชมป์, โอม",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque",
-          "contact": "K.เอกราช (พี่เดี่ยว) 085-935-1270"
+          "site": "Qtech /Thai oil CFP",
+          "jobNo": "Site survey bolt tension",
+          "depart": "08:30",
+          "arrive": "10:00",
+          "members": "กรานต์, เป้",
+          "vehicle": "",
+          "equipment": "",
+          "contact": " ช่างเดี่ยว Qtech 089-0783015",
+          "detail": "Site survey bolt tension flange 16\"x2500#"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "jobType": "OTHER",
+          "site": " ใบเทคบางนา",
+          "jobNo": "ย้ายของทีบูช ",
+          "depart": "10:00",
+          "arrive": "12:00",
+          "members": "ทัช, ฟีล์ม, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "-",
-          "contact": ""
+          "contact": "- ",
+          "detail": "ย้ายของทีบูช ใบเทคบางนา กลับ Shop AITS"
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "รถส่วนตัว",
+          "jobType": "OTHER",
+          "site": " ใบเทคบางนา",
+          "jobNo": "ย้ายของทีบูช ",
+          "depart": "10:00",
+          "arrive": "12:00",
+          "members": "บิ๊ก, โอม, ป๊อก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "",
-          "contact": "-"
+          "contact": "-",
+          "detail": "ย้ายของทีบูช ใบเทคบางนา กลับ Shop AITS"
         },
         {
           "id": 8,
@@ -132,9 +137,9 @@
     },
     {
       "date": "15/10/2569",
-      "savedAt": "2026-10-15T10:58:03.751Z",
+      "savedAt": "2026-10-15T11:08:46.001Z",
       "dateKey": "2026-10-15",
-      "modifiedAt": "2026-10-15T10:58:03.751Z",
+      "modifiedAt": "2026-10-15T11:08:46.001Z",
       "teams": [
         {
           "id": 1,
@@ -11827,5 +11832,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-15T10:58:03.751Z"
+  "lastUpdated": "2026-10-15T11:08:46.001Z"
 }
