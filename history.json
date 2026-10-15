@@ -5,19 +5,20 @@
       "day_th": "16 ตุลาคม 2569",
       "dateKey": "2026-10-16",
       "savedAt": "2026-10-16T00:00:00.000Z",
-      "modifiedAt": "2026-10-15T10:53:50.877Z",
+      "modifiedAt": "2026-10-15T10:58:02.777Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "ROBOT",
-          "site": "ABB BKF Aerospace (Samutsakhon)",
-          "jobNo": "Job No JB260299",
-          "depart": "07:00",
-          "arrive": "10:00",
-          "members": "ป๋อ, เอิร์ก",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "Robot Tool",
-          "contact": "K’ Natee 06-5730-0978"
+          "jobType": "BOLT",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260300",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "นัฐ, แชมป์, ทาม, คิว",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "ฺฺHydrauilic bolt Tension 2\"",
+          "contact": " ช่าง แมน  092-487-2719",
+          "detail": "Bolt Tension flange 12\"x1500# 2 fl."
         },
         {
           "id": 2,
@@ -131,9 +132,9 @@
     },
     {
       "date": "15/10/2569",
-      "savedAt": "2026-10-15T10:53:50.887Z",
+      "savedAt": "2026-10-15T10:58:02.787Z",
       "dateKey": "2026-10-15",
-      "modifiedAt": "2026-10-15T10:53:50.887Z",
+      "modifiedAt": "2026-10-15T10:58:02.787Z",
       "teams": [
         {
           "id": 1,
@@ -11826,5 +11827,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-15T10:53:50.887Z"
+  "lastUpdated": "2026-10-15T10:58:02.787Z"
 }
