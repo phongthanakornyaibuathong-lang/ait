@@ -5,7 +5,7 @@
       "day_th": "17 ตุลาคม 2569",
       "dateKey": "2026-10-17",
       "savedAt": "2026-10-17T00:00:00.000Z",
-      "modifiedAt": "2026-10-16T11:24:21.009Z",
+      "modifiedAt": "2026-10-16T11:29:20.778Z",
       "teams": [
         {
           "id": 1,
@@ -17,19 +17,21 @@
           "members": "นัฐ, แชมป์, ทาม, คิว",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "ฺฺHydrauilic bolt Tension 2\"",
-          "contact": " ช่าง แมน  092-487-2719"
+          "contact": " ช่าง แมน  092-487-2719",
+          "detail": "Bolt Tension flange 12\"x1500# 2 fl."
         },
         {
           "id": 2,
           "jobType": "OTHER",
-          "site": " ใบเทคบางนา",
-          "jobNo": "ย้ายของทีบูธ",
-          "depart": "10:00",
-          "arrive": "12:00",
-          "members": "บิ๊ก, โอม, ป๊อก",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260301 Lot.17",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ฟีล์ม, ต้าร์",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "-",
-          "contact": "-"
+          "equipment": "TOFF-12",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Machine flange face RF  6\" 300# 2 flange"
         },
         {
           "id": 3,
@@ -131,9 +133,9 @@
     },
     {
       "date": "16/10/2569",
-      "savedAt": "2026-10-16T11:25:36.774Z",
+      "savedAt": "2026-10-16T11:29:20.791Z",
       "dateKey": "2026-10-16",
-      "modifiedAt": "2026-10-16T11:25:36.774Z",
+      "modifiedAt": "2026-10-16T11:29:20.791Z",
       "teams": [
         {
           "id": 1,
@@ -11833,5 +11835,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-16T11:25:36.774Z"
+  "lastUpdated": "2026-10-16T11:29:20.791Z"
 }
