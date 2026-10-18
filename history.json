@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T10:01:26.443Z",
+      "modifiedAt": "2026-10-18T10:05:39.978Z",
       "teams": [
         {
           "id": 1,
@@ -35,15 +35,16 @@
         },
         {
           "id": 3,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job NoJB260296  Lot. 9",
-          "depart": "06:00",
-          "arrive": "07:30",
+          "jobType": "BOLT",
+          "site": "Kuraray GC",
+          "jobNo": "Job No JB260304  ",
+          "depart": "07:00",
+          "arrive": "08:00",
           "members": "คิง, บีม, อองรี",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "Hydraulic Torque pump Air",
+          "contact": " K.เอกราช (พี่เดี่ยว) 085-935-1270",
+          "detail": "Torque Confirm Hot Bolt Stud 3/4\",7/8\",1-1/8\",1-1/4\" A/F 32,36,46,50 mm.\n"
         },
         {
           "id": 4,
@@ -11835,5 +11836,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T10:01:27.830Z"
+  "lastUpdated": "2026-10-18T10:05:39.994Z"
 }
