@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T09:58:58.154Z",
+      "modifiedAt": "2026-10-18T10:01:26.443Z",
       "teams": [
         {
           "id": 1,
@@ -22,15 +22,16 @@
         },
         {
           "id": 2,
-          "jobType": "OTHER",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260301 Lot.17",
+          "jobType": "FLANGE",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No JB260303",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, ฟีล์ม, ต้าร์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "members": "บิ๊ก, ฟีล์ม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TTFF-24 (New)",
+          "contact": "ช.ไผ่  099-4152941",
+          "detail": "Machine flange face RF  16\",12,8\" 300# 3 flange\nรถ SCC เบอร์ 143"
         },
         {
           "id": 3,
@@ -11834,5 +11835,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T09:58:58.168Z"
+  "lastUpdated": "2026-10-18T10:01:26.452Z"
 }
