@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T10:14:37.776Z",
+      "modifiedAt": "2026-10-18T10:20:01.432Z",
       "teams": [
         {
           "id": 1,
@@ -87,15 +87,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "-"
+          "jobType": "OTHER",
+          "site": "Royal Orchid Sheraton Riverside Hotel Bangkok",
+          "jobNo": "จัด Booth ",
+          "depart": "08:30",
+          "arrive": "13:00",
+          "members": "ทัช, อองรี, เอิร์ก, บีม",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "-",
+          "contact": "พี่ ธนา",
+          "detail": "Booth setup will be next Monday afternoon\nRoyal Orchid Sheraton Riverside Hotel Bangkok\n2 Charoen Krung Road Soi 30 (Captain Bush Lane)\nSiphya, Bangrak\nBangkok 10500 Thailand\nTel. 66 (0) 266 0123"
         },
         {
           "id": 8,
@@ -11839,5 +11840,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T10:14:38.586Z"
+  "lastUpdated": "2026-10-18T10:20:01.447Z"
 }
