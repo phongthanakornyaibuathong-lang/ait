@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T10:09:16.629Z",
+      "modifiedAt": "2026-10-18T10:11:40.079Z",
       "teams": [
         {
           "id": 1,
@@ -61,15 +61,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
+          "jobType": "TRAINING",
+          "site": "NPC",
+          "jobNo": "อบรมที่อับอากาศ",
+          "depart": "07:30",
+          "arrive": "08:00",
+          "members": "เป้",
           "vehicle": "",
           "equipment": "",
-          "contact": ""
+          "contact": "ห้องอบรม NPC",
+          "detail": "อบรมที่อับอากาศ 4 วัน 19-22/10/2026"
         },
         {
           "id": 6,
@@ -11837,5 +11838,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T10:09:17.542Z"
+  "lastUpdated": "2026-10-18T10:11:40.089Z"
 }
