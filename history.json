@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T10:11:40.079Z",
+      "modifiedAt": "2026-10-18T10:14:37.776Z",
       "teams": [
         {
           "id": 1,
@@ -74,15 +74,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": "- "
+          "jobType": "OTHER",
+          "site": "นิคมเอเชีย",
+          "jobNo": "Damon Cold cut & flange face ",
+          "depart": "09:30",
+          "arrive": "10:00",
+          "members": "กรานต์, บอย, อั๋น, ปาย, ป๊อก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF-12 New / TSF 6",
+          "contact": "- ",
+          "detail": "Damon Cold cut & flange face  "
         },
         {
           "id": 7,
@@ -11838,5 +11839,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T10:11:52.802Z"
+  "lastUpdated": "2026-10-18T10:14:37.790Z"
 }
