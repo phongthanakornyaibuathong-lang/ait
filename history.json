@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T10:06:26.462Z",
+      "modifiedAt": "2026-10-18T10:09:16.629Z",
       "teams": [
         {
           "id": 1,
@@ -48,15 +48,16 @@
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "Maintech Shop ",
+          "jobNo": "ตรวจเครื่องมือ Maintech",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "ป๋อ, โอม, เฟิร์ส",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "equipment": "Hydraulic Torque pump Ele   3 Ea./Hydraulic Torque 41,46,70     3 ชุด",
+          "contact": "",
+          "detail": "ตรวจเครื่องมือ Maintech เพื่อเข้างาน Dow"
         },
         {
           "id": 5,
@@ -11836,5 +11837,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T10:06:26.477Z"
+  "lastUpdated": "2026-10-18T10:09:16.649Z"
 }
