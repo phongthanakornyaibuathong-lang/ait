@@ -5,7 +5,7 @@
       "day_th": "19 ตุลาคม 2569",
       "dateKey": "2026-10-19",
       "savedAt": "2026-10-19T00:00:00.000Z",
-      "modifiedAt": "2026-10-18T09:55:31.745Z",
+      "modifiedAt": "2026-10-18T09:56:54.648Z",
       "teams": [
         {
           "id": 1,
@@ -16,7 +16,7 @@
           "arrive": "08:00",
           "members": "นัฐ, แชมป์, ทาม, คิว",
           "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "ฺฺHydrauilic bolt Tension 2\"",
+          "equipment": "ฺฺHydrauilic bolt Tension 2\" Hydraulic bolt torque  ",
           "contact": " ช่าง แมน  092-487-2719"
         },
         {
@@ -11833,5 +11833,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-18T09:55:33.230Z"
+  "lastUpdated": "2026-10-18T09:56:54.670Z"
 }
