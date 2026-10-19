@@ -5,7 +5,7 @@
       "day_th": "20 ตุลาคม 2569",
       "dateKey": "2026-10-20",
       "savedAt": "2026-10-20T00:00:00.000Z",
-      "modifiedAt": "2026-10-19T10:06:06.556Z",
+      "modifiedAt": "2026-10-19T10:08:23.155Z",
       "teams": [
         {
           "id": 1,
@@ -48,18 +48,6 @@
         },
         {
           "id": 4,
-          "jobType": "BOLT",
-          "site": "Maintech Shop ",
-          "jobNo": "ตรวจเครื่องมือ Maintech",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "ป๋อ, โอม, เฟิร์ส",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic Torque pump Ele   3 Ea./Hydraulic Torque 41,46,70     3 ชุด",
-          "contact": ""
-        },
-        {
-          "id": 5,
           "jobType": "TRAINING",
           "site": "NPC",
           "jobNo": "อบรมที่อับอากาศ",
@@ -71,28 +59,40 @@
           "contact": "ห้องอบรม NPC"
         },
         {
+          "id": 5,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
           "id": 6,
-          "jobType": "OTHER",
-          "site": "นิคมเอเชีย",
-          "jobNo": "Damon Cold cut & flange face ",
-          "depart": "09:30",
-          "arrive": "10:00",
-          "members": "กรานต์, บอย, อั๋น, ปาย, ป๊อก",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF-12 New / TSF 6",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
           "contact": "- "
         },
         {
           "id": 7,
-          "jobType": "OTHER",
-          "site": "Royal Orchid Sheraton Riverside Hotel Bangkok",
-          "jobNo": "จัด Booth ",
-          "depart": "08:30",
-          "arrive": "13:00",
-          "members": "ทัช, อองรี, เอิร์ก, บีม",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "-",
-          "contact": "พี่ ธนา"
+          "contact": ""
         },
         {
           "id": 8,
@@ -134,9 +134,9 @@
     },
     {
       "date": "19/10/2569",
-      "savedAt": "2026-10-19T10:06:07.429Z",
+      "savedAt": "2026-10-19T10:08:23.163Z",
       "dateKey": "2026-10-19",
-      "modifiedAt": "2026-10-19T10:06:07.429Z",
+      "modifiedAt": "2026-10-19T10:08:23.163Z",
       "teams": [
         {
           "id": 1,
@@ -11839,5 +11839,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-19T10:06:07.429Z"
+  "lastUpdated": "2026-10-19T10:08:23.163Z"
 }
