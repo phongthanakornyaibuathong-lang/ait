@@ -5,7 +5,7 @@
       "day_th": "20 ตุลาคม 2569",
       "dateKey": "2026-10-20",
       "savedAt": "2026-10-20T00:00:00.000Z",
-      "modifiedAt": "2026-10-19T10:08:23.155Z",
+      "modifiedAt": "2026-10-19T11:32:23.967Z",
       "teams": [
         {
           "id": 1,
@@ -17,8 +17,7 @@
           "members": "นัฐ, แชมป์, คิว",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "ฺฺHydrauilic bolt Tension 2 ฺฺHydrauilic bolt torque ฺNut A/F 46,50,55,65,75 mm.",
-          "contact": " ช่าง แมน  092-487-2719",
-          "detail": "Torque bolt flange 10\"x1500#,8\"1500#, 6\"x1500#,3\"x1500# 20\"x150#"
+          "contact": " ช่าง แมน  092-487-2719"
         },
         {
           "id": 2,
@@ -30,8 +29,7 @@
           "members": "บิ๊ก, ฟีล์ม, โอ๊ด",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช.ไผ่  099-4152941",
-          "detail": "Machine flange face RF  16\" 300# 1 flange"
+          "contact": "ช.ไผ่  099-4152941"
         },
         {
           "id": 3,
@@ -43,8 +41,7 @@
           "members": "คิง, ปลาย, ต้าร์",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic Torque pump Air",
-          "contact": " K.เอกราช (พี่เดี่ยว) 085-935-1270",
-          "detail": "Torque Confirm Hot Bolt Stud 3/4\",7/8\",1-1/8\",1-1/4\" A/F\n32,36,46,50 mm."
+          "contact": " K.เอกราช (พี่เดี่ยว) 085-935-1270"
         },
         {
           "id": 4,
@@ -60,15 +57,16 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260305",
+          "depart": "08:00",
+          "arrive": "06:30",
+          "members": "บอย, ปลาย, โอม, ป๊อก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TSF 30",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 30\" TKH 58 mm. A358 Mat's SS321"
         },
         {
           "id": 6,
@@ -134,9 +132,9 @@
     },
     {
       "date": "19/10/2569",
-      "savedAt": "2026-10-19T10:08:24.020Z",
+      "savedAt": "2026-10-19T11:32:23.993Z",
       "dateKey": "2026-10-19",
-      "modifiedAt": "2026-10-19T10:08:24.020Z",
+      "modifiedAt": "2026-10-19T11:32:23.993Z",
       "teams": [
         {
           "id": 1,
@@ -11839,5 +11837,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-19T10:08:24.020Z"
+  "lastUpdated": "2026-10-19T11:32:23.993Z"
 }
