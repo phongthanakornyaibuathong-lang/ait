@@ -963,7 +963,15 @@
     "NP",
     "NPC",
     "นิคมเอเชีย",
-    "Royal Orchid Sheraton Riverside Hotel Bangkok"
+    "Royal Orchid Sheraton Riverside Hotel Bangkok",
+    "BPE ลานกระบือ",
+    "BPE ฝลานกระบือ",
+    "BPE ฝ ลานกระบือ",
+    "BPE /ลานกระบือ",
+    "BPE / ลานกระบือ",
+    "BPE / Sลานกระบือ",
+    "BPE / S1ลานกระบือ",
+    "BPE / S1 ลานกระบือ"
   ],
   "skills": [
     {
