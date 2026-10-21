@@ -5,7 +5,7 @@
       "day_th": "22 ตุลาคม 2569",
       "dateKey": "2026-10-22",
       "savedAt": "2026-10-22T00:00:00.000Z",
-      "modifiedAt": "2026-10-21T09:05:42.982Z",
+      "modifiedAt": "2026-10-21T10:25:42.415Z",
       "teams": [
         {
           "id": 1,
@@ -73,15 +73,16 @@
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "OTHER",
+          "site": "Royal Orchid Sheraton Riverside Hotel Bangkok",
+          "jobNo": "เก็บของที่บูธ",
+          "depart": "08:30",
+          "arrive": "13:00",
+          "members": "ทัช, เอิร์ก, บีม",
+          "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "",
-          "contact": "- "
+          "contact": "- ",
+          "detail": "เก็บของที่งานบูธ แวะรับ Puller Tension 3-1/2\" ที่ TGI"
         },
         {
           "id": 7,
@@ -91,7 +92,7 @@
           "depart": "",
           "arrive": "",
           "members": "",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "vehicle": "",
           "equipment": "-",
           "contact": ""
         },
@@ -135,9 +136,9 @@
     },
     {
       "date": "21/10/2569",
-      "savedAt": "2026-10-21T09:05:43.879Z",
+      "savedAt": "2026-10-21T10:25:44.177Z",
       "dateKey": "2026-10-21",
-      "modifiedAt": "2026-10-21T09:05:43.879Z",
+      "modifiedAt": "2026-10-21T10:25:44.177Z",
       "teams": [
         {
           "id": 1,
@@ -11844,5 +11845,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-21T09:05:43.879Z"
+  "lastUpdated": "2026-10-21T10:25:44.177Z"
 }
