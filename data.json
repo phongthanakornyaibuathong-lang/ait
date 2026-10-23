@@ -5,77 +5,74 @@
       "jobType": "BOLT",
       "site": "BPE / S1 ลานกระบือ",
       "jobNo": "Job No JB260308 2 Team",
-      "depart": "06:30",
-      "arrive": "07:00",
+      "depart": "08:30",
+      "arrive": "17:30",
       "members": "นัฐ, บิ๊ก, ฟีล์ม, อองรี, คิว",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "Hydraulic Torque pump Air 2 ชุด.",
       "contact": " K.มานิตร์ 084-329-5870",
-      "detail": "Torque bolt flange 8\"x900# = 7 fl., 6\"900# =1 fl. "
+      "detail": "เดินทางกลับ AITS Work shop ระยอง"
     },
     {
       "id": 2,
       "jobType": "COLD_CUT",
       "site": "BPE / S1 ลานกระบือ",
       "jobNo": "Job No JB260309 2 Team",
-      "depart": "06:30",
-      "arrive": "07:00",
+      "depart": "08:30",
+      "arrive": "17:30",
       "members": "ทาม, ปาย, โอ๊ด, ปลาย, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TSF 12  2 ชุด",
       "contact": " K.มานิตร์ 084-329-5870",
-      "detail": "Pipe Cold Cutting & Bevel 8\" SCH 80 = 5 Joint"
+      "detail": "เดินทางกลับ AITS Work shop ระยอง"
     },
     {
       "id": 3,
-      "jobType": "BOLT",
-      "site": "PTTLNG",
-      "jobNo": "Job No. JB260310",
-      "depart": "09:30",
-      "arrive": "10:30",
-      "members": "คิง, ป๋อ, ต้าร์",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "Hydraulic Torque pump Air",
-      "contact": "ช่าง สิรวิชญ์  080-570-0350",
-      "detail": "ตรวจเครื่องมือเพื่อเข้างาน 25-27/10/2026"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 4,
-      "jobType": "TRAINING",
-      "site": "NPC",
-      "jobNo": "อบรมที่อับอากาศ",
-      "depart": "07:30",
-      "arrive": "08:00",
-      "members": "เป้",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
       "vehicle": "",
       "equipment": "",
-      "contact": "ห้องอบรม NPC"
+      "contact": ""
     },
     {
       "id": 5,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No JB260305",
-      "depart": "08:00",
-      "arrive": "06:30",
-      "members": "บอย, อั๋น, โอม, ป๊อก",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TSF 30",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 30\" TKH 58 mm. A358 Mat's SS321"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 6,
-      "jobType": "OTHER",
-      "site": "Royal Orchid Sheraton Riverside Hotel Bangkok",
+      "jobType": "STANDBY",
+      "site": "",
       "jobNo": "เก็บของที่บูธ",
-      "depart": "08:30",
-      "arrive": "13:00",
-      "members": "ทัช, เอิร์ก, บีม",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
-      "contact": "- ",
-      "detail": "เก็บของที่งานบูธ แวะรับ Puller Tension 3-1/2\" ที่ TGI"
+      "contact": "- "
     },
     {
       "id": 7,
@@ -126,7 +123,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-22T11:02:43.213Z",
+  "lastUpdated": "2026-10-23T10:41:40.089Z",
   "updatedBy": "Nine",
-  "date": "22/10/2569"
+  "date": "23/10/2569"
 }
