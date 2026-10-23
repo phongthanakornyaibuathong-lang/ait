@@ -5,19 +5,20 @@
       "day_th": "24 ตุลาคม 2569",
       "dateKey": "2026-10-24",
       "savedAt": "2026-10-24T00:00:00.000Z",
-      "modifiedAt": "2026-10-23T10:41:40.070Z",
+      "modifiedAt": "2026-10-23T10:46:15.369Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
-          "site": "BPE / S1 ลานกระบือ",
-          "jobNo": "Job No JB260308 2 Team",
-          "depart": "08:30",
-          "arrive": "17:30",
-          "members": "นัฐ, บิ๊ก, ฟีล์ม, อองรี, คิว",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "Hydraulic Torque pump Air 2 ชุด.",
-          "contact": " K.มานิตร์ 084-329-5870"
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No JB260305",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, อั๋น, โอม, ป๊อก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 30",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 30\" TKH 58 mm. A358 Mat's SS321"
         },
         {
           "id": 2,
@@ -131,9 +132,9 @@
     },
     {
       "date": "23/10/2569",
-      "savedAt": "2026-10-23T10:44:04.920Z",
+      "savedAt": "2026-10-23T10:46:15.387Z",
       "dateKey": "2026-10-23",
-      "modifiedAt": "2026-10-23T10:44:04.920Z",
+      "modifiedAt": "2026-10-23T10:46:15.387Z",
       "teams": [
         {
           "id": 1,
@@ -11844,5 +11845,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-23T10:44:04.920Z"
+  "lastUpdated": "2026-10-23T10:46:15.387Z"
 }
