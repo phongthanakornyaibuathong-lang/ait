@@ -2,29 +2,28 @@
   "teams": [
     {
       "id": 1,
-      "jobType": "BOLT",
-      "site": "BPE / S1 ลานกระบือ",
-      "jobNo": "Job No JB260308 2 Team",
-      "depart": "08:30",
-      "arrive": "17:30",
-      "members": "นัฐ, บิ๊ก, ฟีล์ม, อองรี, คิว",
-      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "Hydraulic Torque pump Air 2 ชุด.",
-      "contact": " K.มานิตร์ 084-329-5870",
-      "detail": "เดินทางกลับ AITS Work shop ระยอง"
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No JB260305",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "บอย, อั๋น, โอม, ป๊อก",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "TSF 30",
+      "contact": "ช่าง โด่ง  094-7467526",
+      "detail": "Pipe Cold Cutting & Bevel 30\" TKH 58 mm. A358 Mat's SS321"
     },
     {
       "id": 2,
-      "jobType": "COLD_CUT",
-      "site": "BPE / S1 ลานกระบือ",
-      "jobNo": "Job No JB260309 2 Team",
-      "depart": "08:30",
-      "arrive": "17:30",
-      "members": "ทาม, ปาย, โอ๊ด, ปลาย, เฟิร์ส",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TSF 12  2 ชุด",
-      "contact": " K.มานิตร์ 084-329-5870",
-      "detail": "เดินทางกลับ AITS Work shop ระยอง"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": " K.มานิตร์ 084-329-5870"
     },
     {
       "id": 3,
@@ -123,7 +122,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-23T10:52:47.689Z",
+  "lastUpdated": "2026-10-24T06:39:34.745Z",
   "updatedBy": "Nine",
-  "date": "23/10/2569"
+  "date": "24/10/2569"
 }
