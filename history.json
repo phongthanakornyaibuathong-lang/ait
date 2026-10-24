@@ -5,19 +5,20 @@
       "day_th": "26 ตุลาคม 2569",
       "dateKey": "2026-10-26",
       "savedAt": "2026-10-26T00:00:00.000Z",
-      "modifiedAt": "2026-10-24T06:40:21.540Z",
+      "modifiedAt": "2026-10-24T06:47:16.928Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No JB260305",
-          "depart": "06:30",
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260310 Team 1.",
+          "depart": "07:00",
           "arrive": "08:00",
-          "members": "บอย, อั๋น, โอม, ป๊อก",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 30",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "members": "คิง, ป๋อ, ต้าร์",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque Air.",
+          "contact": " ช่าง สิรวิชญ์  080-570-0350",
+          "detail": "Re-tightening Unloading Arm Berth 1 \n26-28/10/2026"
         },
         {
           "id": 2,
@@ -131,9 +132,9 @@
     },
     {
       "date": "24/10/2569",
-      "savedAt": "2026-10-24T06:40:22.527Z",
+      "savedAt": "2026-10-24T06:47:16.936Z",
       "dateKey": "2026-10-24",
-      "modifiedAt": "2026-10-24T06:40:22.527Z",
+      "modifiedAt": "2026-10-24T06:47:16.936Z",
       "teams": [
         {
           "id": 1,
@@ -11843,5 +11844,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-24T06:40:22.527Z"
+  "lastUpdated": "2026-10-24T06:47:16.936Z"
 }
