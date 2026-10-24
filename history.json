@@ -5,7 +5,7 @@
       "day_th": "26 ตุลาคม 2569",
       "dateKey": "2026-10-26",
       "savedAt": "2026-10-26T00:00:00.000Z",
-      "modifiedAt": "2026-10-24T06:47:16.928Z",
+      "modifiedAt": "2026-10-24T06:48:32.384Z",
       "teams": [
         {
           "id": 1,
@@ -22,19 +22,20 @@
         },
         {
           "id": 2,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": " K.มานิตร์ 084-329-5870"
+          "jobType": "BOLT",
+          "site": "PTTLNG",
+          "jobNo": "Job No JB260310 Team 2.",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัฐ, โอม, เฟิร์ส",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "Hydraulic torque Air.",
+          "contact": "  ช่าง สิรวิชญ์  080-570-0350",
+          "detail": "Re-tightening Unloading Arm Berth 1 \n26-28/10/2026"
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
+          "jobType": "FLANGE",
           "site": "",
           "jobNo": "",
           "depart": "",
@@ -132,9 +133,9 @@
     },
     {
       "date": "24/10/2569",
-      "savedAt": "2026-10-24T06:47:17.778Z",
+      "savedAt": "2026-10-24T06:48:32.391Z",
       "dateKey": "2026-10-24",
-      "modifiedAt": "2026-10-24T06:47:17.778Z",
+      "modifiedAt": "2026-10-24T06:48:32.391Z",
       "teams": [
         {
           "id": 1,
@@ -11844,5 +11845,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-24T06:47:17.778Z"
+  "lastUpdated": "2026-10-24T06:48:32.391Z"
 }
