@@ -310,6 +310,68 @@
       }
     },
     {
+      "id": "บอย",
+      "name": "นาย สถาพร  ระแวงวรรณ",
+      "nick": "บอย",
+      "phone": "093-769-4849",
+      "pos": "Supervisor",
+      "color": "#ff9f0a",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "cold_cutting",
+        "flange_facing"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-03-07",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "นัฐ",
+      "name": "นาย นัฐพล งามดี",
+      "nick": "นัฐ",
+      "phone": "093-1214597",
+      "pos": "Sup'v",
+      "color": "#ff9f0a",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
+      "id": "ทาม",
+      "name": "นาย นโรดม ถามล",
+      "nick": "ทาม",
+      "phone": "092-6134888",
+      "pos": "Supervisor",
+      "color": "#ff9f0a",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-06",
+          "exp": null
+        }
+      }
+    },
+    {
       "id": "ฟีล์ม",
       "name": "นาย กิตติพัทธ์ ปกครอง",
       "nick": "ฟีล์ม",
@@ -554,30 +616,6 @@
       "safetyCards": {}
     },
     {
-      "id": "บอย",
-      "name": "นาย สถาพร  ระแวงวรรณ",
-      "nick": "บอย",
-      "phone": "093-769-4849",
-      "pos": "Supervisor",
-      "color": "#ff9f0a",
-      "skills": [
-        "bolt_torque",
-        "bolt_tension",
-        "cold_cutting",
-        "flange_facing"
-      ],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-03-07",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-06",
-          "exp": null
-        }
-      }
-    },
-    {
       "id": "เอิร์ก",
       "name": "นาย ทัศพงศ์ วงศ์ท้าวศ์",
       "nick": "เอิร์ก",
@@ -605,44 +643,6 @@
       "phone": "080-416-1562",
       "pos": "ช่างเทคนิค",
       "color": "#32D2D8",
-      "skills": [],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-05-13",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-11",
-          "exp": null
-        }
-      }
-    },
-    {
-      "id": "ทาม",
-      "name": "นาย นโรดม ถามล",
-      "nick": "ทาม",
-      "phone": "092-6134888",
-      "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
-      "skills": [],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-05-13",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-06",
-          "exp": null
-        }
-      }
-    },
-    {
-      "id": "นัฐ",
-      "name": "นาย นัฐพล งามดี",
-      "nick": "นัฐ",
-      "phone": "093-1214597",
-      "pos": "Sup'v",
-      "color": "#ff9f0a",
       "skills": [],
       "safetyCards": {
         "STECON": {
@@ -707,6 +707,16 @@
         "flange_facing",
         "cold_cutting"
       ],
+      "safetyCards": {}
+    },
+    {
+      "id": "ดำ",
+      "nick": "ดำ",
+      "name": "นาย ถนัด นวลสว่าง",
+      "pos": "Team Leader",
+      "phone": "061-3311625",
+      "color": "#ff9f0a",
+      "skills": [],
       "safetyCards": {}
     },
     {
