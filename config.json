@@ -372,6 +372,53 @@
       }
     },
     {
+      "id": "ปาย",
+      "nick": "ปาย",
+      "name": "นาย วุฒิไกร ไชยเสนา",
+      "pos": "Team Leader",
+      "phone": "093-3677989",
+      "color": "#ff9f0a",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing",
+        "cold_cutting"
+      ],
+      "safetyCards": {}
+    },
+    {
+      "id": "ดำ",
+      "nick": "ดำ",
+      "name": "นาย ถนัด นวลสว่าง",
+      "pos": "Team Leader",
+      "phone": "061-3311625",
+      "color": "#ff9f0a",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension"
+      ],
+      "safetyCards": {}
+    },
+    {
+      "id": "อั๋น",
+      "name": "นาย ฤทธิชัย สีโนนม่วง",
+      "nick": "อั๋น",
+      "phone": "084-7429262",
+      "pos": "ช่างเทคนิค",
+      "color": "#ff9f0a",
+      "skills": [],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
       "id": "ฟีล์ม",
       "name": "นาย กิตติพัทธ์ ปกครอง",
       "nick": "ฟีล์ม",
@@ -606,37 +653,6 @@
       }
     },
     {
-      "id": "รถ",
-      "name": "นาย ประสิทธิ์ รามจาตุ",
-      "nick": "รถ",
-      "phone": "065-627-7194",
-      "pos": "Store",
-      "color": "#32D2D8",
-      "skills": [],
-      "safetyCards": {}
-    },
-    {
-      "id": "เอิร์ก",
-      "name": "นาย ทัศพงศ์ วงศ์ท้าวศ์",
-      "nick": "เอิร์ก",
-      "phone": "064-491-3125",
-      "pos": "ช่างเทคนิค Robort",
-      "color": "#BF5AF2",
-      "skills": [
-        "robot"
-      ],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-05-13",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-11",
-          "exp": null
-        }
-      }
-    },
-    {
       "id": "เฟิร์ส",
       "name": "นาย ทศกร กล้าค้าขาย",
       "nick": "เฟิร์ส",
@@ -656,13 +672,15 @@
       }
     },
     {
-      "id": "อั๋น",
-      "name": "นาย ฤทธิชัย สีโนนม่วง",
-      "nick": "อั๋น",
-      "phone": "084-7429262",
-      "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
-      "skills": [],
+      "id": "เอิร์ก",
+      "name": "นาย ทัศพงศ์ วงศ์ท้าวศ์",
+      "nick": "เอิร์ก",
+      "phone": "064-491-3125",
+      "pos": "ช่างเทคนิค Robort",
+      "color": "#BF5AF2",
+      "skills": [
+        "robot"
+      ],
       "safetyCards": {
         "STECON": {
           "issue": "2026-05-13",
@@ -695,37 +713,22 @@
       "safetyCards": {}
     },
     {
-      "id": "ปาย",
-      "nick": "ปาย",
-      "name": "นาย วุฒิไกร ไชยเสนา",
-      "pos": "Team Leader",
-      "phone": "093-3677989",
-      "color": "#32d2d8",
-      "skills": [
-        "bolt_torque",
-        "bolt_tension",
-        "flange_facing",
-        "cold_cutting"
-      ],
-      "safetyCards": {}
-    },
-    {
-      "id": "ดำ",
-      "nick": "ดำ",
-      "name": "นาย ถนัด นวลสว่าง",
-      "pos": "Team Leader",
-      "phone": "061-3311625",
-      "color": "#ff9f0a",
-      "skills": [],
-      "safetyCards": {}
-    },
-    {
       "id": "ป๊อก",
       "nick": "ป๊อก",
       "name": "นาย นพดล หมั่นเพียร",
       "pos": "Technician",
       "phone": "092-9597274",
       "color": "#32d2d8",
+      "skills": [],
+      "safetyCards": {}
+    },
+    {
+      "id": "รถ",
+      "name": "นาย ประสิทธิ์ รามจาตุ",
+      "nick": "รถ",
+      "phone": "065-627-7194",
+      "pos": "Store",
+      "color": "#d8ca31",
       "skills": [],
       "safetyCards": {}
     }
