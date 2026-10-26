@@ -310,6 +310,30 @@
       }
     },
     {
+      "id": "อั๋น",
+      "name": "นาย ฤทธิชัย สีโนนม่วง",
+      "nick": "อั๋น",
+      "phone": "084-7429262",
+      "pos": "ช่างเทคนิค",
+      "color": "#ff9f0a",
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing",
+        "cold_cutting"
+      ],
+      "safetyCards": {
+        "STECON": {
+          "issue": "2026-05-13",
+          "exp": null
+        },
+        "STP&I": {
+          "issue": "2026-05-11",
+          "exp": null
+        }
+      }
+    },
+    {
       "id": "บอย",
       "name": "นาย สถาพร  ระแวงวรรณ",
       "nick": "บอย",
@@ -409,30 +433,6 @@
         "bolt_tension"
       ],
       "safetyCards": {}
-    },
-    {
-      "id": "อั๋น",
-      "name": "นาย ฤทธิชัย สีโนนม่วง",
-      "nick": "อั๋น",
-      "phone": "084-7429262",
-      "pos": "ช่างเทคนิค",
-      "color": "#ff9f0a",
-      "skills": [
-        "bolt_torque",
-        "bolt_tension",
-        "flange_facing",
-        "cold_cutting"
-      ],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-05-13",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-11",
-          "exp": null
-        }
-      }
     },
     {
       "id": "ฟีล์ม",
@@ -745,6 +745,16 @@
       "phone": "065-627-7194",
       "pos": "Store",
       "color": "#d8ca31",
+      "skills": [],
+      "safetyCards": {}
+    },
+    {
+      "id": "อั๋น",
+      "nick": "อั๋น",
+      "name": "นาย ฤทธิชัย สีโนนม่วง",
+      "pos": "Team Leader",
+      "phone": "084-7429262",
+      "color": "#ffc30a",
       "skills": [],
       "safetyCards": {}
     }
