@@ -5,7 +5,7 @@
       "day_th": "27 ตุลาคม 2569",
       "dateKey": "2026-10-27",
       "savedAt": "2026-10-27T00:00:00.000Z",
-      "modifiedAt": "2026-10-26T07:07:52.338Z",
+      "modifiedAt": "2026-10-26T07:08:44.352Z",
       "teams": [
         {
           "id": 1,
@@ -17,7 +17,8 @@
           "members": "แชมป์, ป๋อ, ต้าร์",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque Air.",
-          "contact": "ช่าง สิรวิชญ์  080-570-0350"
+          "contact": "ช่าง สิรวิชญ์  080-570-0350",
+          "detail": "Re-tightening Unloading Arm Berth 1"
         },
         {
           "id": 2,
@@ -29,7 +30,8 @@
           "members": "นัฐ, โอม, อั๋น",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque Air.",
-          "contact": "ช่าง สิรวิชญ์  080-570-0350"
+          "contact": "ช่าง สิรวิชญ์  080-570-0350",
+          "detail": "Re-tightening Unloading Arm Berth 1"
         },
         {
           "id": 3,
@@ -41,7 +43,8 @@
           "members": "เป้, ฟีล์ม, อองรี",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 "
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
+          "detail": "Machine RF Flange 8” x 300# = 2 fl. 10\" 150# 1fl."
         },
         {
           "id": 4,
@@ -53,7 +56,8 @@
           "members": "บิ๊ก, บีม, โอ๊ด",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange 3”-8”  "
         },
         {
           "id": 5,
@@ -131,9 +135,9 @@
     },
     {
       "date": "26/10/2569",
-      "savedAt": "2026-10-26T07:07:52.346Z",
+      "savedAt": "2026-10-26T07:08:44.359Z",
       "dateKey": "2026-10-26",
-      "modifiedAt": "2026-10-26T07:07:52.346Z",
+      "modifiedAt": "2026-10-26T07:08:44.359Z",
       "teams": [
         {
           "id": 1,
@@ -11845,5 +11849,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-26T07:07:52.346Z"
+  "lastUpdated": "2026-10-26T07:08:44.359Z"
 }
