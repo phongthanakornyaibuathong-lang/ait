@@ -340,7 +340,11 @@
       "phone": "093-1214597",
       "pos": "Sup'v",
       "color": "#ff9f0a",
-      "skills": [],
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "ecitb_s3"
+      ],
       "safetyCards": {
         "STECON": {
           "issue": "2026-05-13",
@@ -359,7 +363,14 @@
       "phone": "092-6134888",
       "pos": "Supervisor",
       "color": "#ff9f0a",
-      "skills": [],
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing",
+        "cold_cutting",
+        "confined_sup",
+        "confined_op"
+      ],
       "safetyCards": {
         "STECON": {
           "issue": "2026-05-13",
@@ -406,7 +417,12 @@
       "phone": "084-7429262",
       "pos": "ช่างเทคนิค",
       "color": "#ff9f0a",
-      "skills": [],
+      "skills": [
+        "bolt_torque",
+        "bolt_tension",
+        "flange_facing",
+        "cold_cutting"
+      ],
       "safetyCards": {
         "STECON": {
           "issue": "2026-05-13",
