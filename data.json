@@ -7,11 +7,12 @@
       "jobNo": "Job No JB260310 Team 1.",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "คิง, ป๋อ, ต้าร์",
+      "members": "แชมป์, ป๋อ, ต้าร์",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "Hydraulic torque Air.",
-      "contact": " ช่าง สิรวิชญ์  080-570-0350",
-      "detail": "Re-tightening Unloading Arm Berth 1 \n26-28/10/2026"
+      "contact": "ช่าง สิรวิชญ์  080-570-0350",
+      "detail": "Re-tightening Unloading Arm Berth 1 \n26-28/10/2026",
+      "locname": ""
     },
     {
       "id": 2,
@@ -125,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-26T07:05:10.520Z",
+  "lastUpdated": "2026-10-26T07:07:05.191Z",
   "updatedBy": "Nine",
   "date": "26/10/2569"
 }
