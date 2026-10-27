@@ -1,11 +1,10 @@
 {
   "history": [
     {
-      "date": "27 ตุลาคม 2569",
-      "day_th": "27 ตุลาคม 2569",
+      "date": "27/10/2569",
+      "savedAt": "2026-10-27T02:41:42.854Z",
       "dateKey": "2026-10-27",
-      "savedAt": "2026-10-27T00:00:00.000Z",
-      "modifiedAt": "2026-10-26T10:41:40.777Z",
+      "modifiedAt": "2026-10-27T02:41:42.854Z",
       "teams": [
         {
           "id": 1,
@@ -40,11 +39,12 @@
           "jobNo": "Job NoJB260311  Lot. 10",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, ฟีล์ม, อองรี",
+          "members": "เป้, ฟีล์ม, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TTFF-24 / TOFF 12",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527 ",
-          "detail": "Machine RF Flange "
+          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527",
+          "detail": "Machine RF Flange",
+          "locname": ""
         },
         {
           "id": 4,
@@ -53,11 +53,12 @@
           "jobNo": "Job No, JB260312  Lot.22",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "บิ๊ก, บีม, โอ๊ด",
+          "members": "บีม, โอ๊ด, ปลาย",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "MM 300 E",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange 3”-8”  "
+          "detail": "Machine RF Flange 3”-8”",
+          "locname": ""
         },
         {
           "id": 5,
@@ -11849,5 +11850,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-26T10:41:40.793Z"
+  "lastUpdated": "2026-10-27T02:41:42.854Z"
 }
