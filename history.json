@@ -5,7 +5,7 @@
       "day_th": "30 ตุลาคม 2569",
       "dateKey": "2026-10-30",
       "savedAt": "2026-10-30T00:00:00.000Z",
-      "modifiedAt": "2026-10-29T10:15:19.994Z",
+      "modifiedAt": "2026-10-29T10:16:06.741Z",
       "teams": [
         {
           "id": 1,
@@ -17,7 +17,8 @@
           "members": "นัฐ, เป้, คิว",
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "Hydraulic torque Ele.",
-          "contact": "คุณอ้อม 095-3135133"
+          "contact": "คุณอ้อม 095-3135133",
+          "detail": "Loose bolt Cover E-211 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange\nรอ Confirm จากหน้างาน"
         },
         {
           "id": 2,
@@ -133,9 +134,9 @@
     },
     {
       "date": "29/10/2569",
-      "savedAt": "2026-10-29T10:15:20.953Z",
+      "savedAt": "2026-10-29T10:16:06.749Z",
       "dateKey": "2026-10-29",
-      "modifiedAt": "2026-10-29T10:15:20.953Z",
+      "modifiedAt": "2026-10-29T10:16:06.749Z",
       "teams": [
         {
           "id": 1,
@@ -11862,5 +11863,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-29T10:15:20.953Z"
+  "lastUpdated": "2026-10-29T10:16:06.749Z"
 }
