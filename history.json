@@ -5,7 +5,7 @@
       "day_th": "30 ตุลาคม 2569",
       "dateKey": "2026-10-30",
       "savedAt": "2026-10-30T00:00:00.000Z",
-      "modifiedAt": "2026-10-29T10:16:06.741Z",
+      "modifiedAt": "2026-10-29T10:17:23.305Z",
       "teams": [
         {
           "id": 1,
@@ -31,7 +31,7 @@
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Loose bolt Cover E-211 Stud 1-3/4\" 40 Ea. A/F 70 mm.  2 flange\nรอ Confirm จากหน้างาน"
+          "detail": "Machine RF Flange 3”-8” "
         },
         {
           "id": 3,
@@ -42,9 +42,9 @@
           "arrive": "08:00",
           "members": "ทาม, คิง, ปลาย",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TOFF 12",
+          "equipment": "TTFF-24 (New)",
           "contact": "ช่าง อดิศักดิ์  094-4067534",
-          "detail": "Machine flange face RF, FF  12\"x150# = 9 fl."
+          "detail": "Machine flange face 12\"x150# = 8 fl. FF # = 1 fl."
         },
         {
           "id": 4,
@@ -134,9 +134,9 @@
     },
     {
       "date": "29/10/2569",
-      "savedAt": "2026-10-29T10:16:06.749Z",
+      "savedAt": "2026-10-29T10:17:23.316Z",
       "dateKey": "2026-10-29",
-      "modifiedAt": "2026-10-29T10:16:06.749Z",
+      "modifiedAt": "2026-10-29T10:17:23.316Z",
       "teams": [
         {
           "id": 1,
@@ -11863,5 +11863,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-29T10:16:06.749Z"
+  "lastUpdated": "2026-10-29T10:17:23.316Z"
 }
