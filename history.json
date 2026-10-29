@@ -5,20 +5,20 @@
       "day_th": "30 ตุลาคม 2569",
       "dateKey": "2026-10-30",
       "savedAt": "2026-10-30T00:00:00.000Z",
-      "modifiedAt": "2026-10-29T10:20:23.715Z",
+      "modifiedAt": "2026-10-29T10:23:30.594Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "BOLT",
-          "site": "Maintech DOW",
-          "jobNo": "Job No. JB260317",
-          "depart": "06:00",
-          "arrive": "06:30",
-          "members": "นัฐ, เป้, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "Hydraulic torque Ele.",
-          "contact": "คุณอ้อม 095-3135133",
-          "detail": "Loose bolt Cover E-211 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange\nรอ Confirm จากหน้างาน"
+          "jobType": "FLANGE",
+          "site": "AITs workshop ระยอง",
+          "jobNo": "Job No. JB260318  ",
+          "depart": "08:30",
+          "arrive": "",
+          "members": "บอย, อั๋น, ต้าร์",
+          "vehicle": "",
+          "equipment": "MM 305 I/TOFF 12",
+          "contact": "-",
+          "detail": "Machine RTJ Flange 8\"x2500# 2\"x2500# 2 flange"
         },
         {
           "id": 2,
@@ -135,9 +135,9 @@
     },
     {
       "date": "29/10/2569",
-      "savedAt": "2026-10-29T10:20:24.679Z",
+      "savedAt": "2026-10-29T10:23:30.607Z",
       "dateKey": "2026-10-29",
-      "modifiedAt": "2026-10-29T10:20:24.679Z",
+      "modifiedAt": "2026-10-29T10:23:30.607Z",
       "teams": [
         {
           "id": 1,
@@ -11864,5 +11864,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-29T10:20:24.679Z"
+  "lastUpdated": "2026-10-29T10:23:30.607Z"
 }
