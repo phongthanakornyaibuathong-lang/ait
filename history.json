@@ -2,9 +2,9 @@
   "history": [
     {
       "date": "29/10/2569",
-      "savedAt": "2026-10-29T06:14:09.575Z",
+      "savedAt": "2026-10-29T06:23:28.451Z",
       "dateKey": "2026-10-29",
-      "modifiedAt": "2026-10-29T06:14:09.575Z",
+      "modifiedAt": "2026-10-29T06:23:28.451Z",
       "teams": [
         {
           "id": 1,
@@ -23,42 +23,43 @@
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "PTTLNG",
-          "jobNo": "Job No JB260310 Team 2.",
-          "depart": "07:00",
-          "arrive": "08:00",
-          "members": "นัฐ, โอม, อั๋น",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "Hydraulic torque Air.",
-          "contact": "ช่าง สิรวิชญ์  080-570-0350",
-          "detail": "Re-tightening Unloading Arm Berth 1"
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260312 Lot.22",
+          "depart": "06:00",
+          "arrive": "07:00",
+          "members": "ปาย, บีม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange 3”-8”",
+          "locname": ""
         },
         {
           "id": 3,
           "jobType": "FLANGE",
           "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job NoJB260311  Lot. 10",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "เป้, ฟีล์ม, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TTFF-24 / TOFF 12",
-          "contact": "ช่าง ฉัตรชัย ท็อป UCS  093-3349527",
-          "detail": "Machine RF Flange",
+          "jobNo": "Job No JB260314",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม, คิง, ปลาย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF 12",
+          "contact": "ช่าง อดิศักดิ์  094-4067534",
+          "detail": "Machine flange face 12\"x150# RF = 8 fl. FF = 1 fl.",
           "locname": ""
         },
         {
           "id": 4,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thai oil (CFP) Site )",
-          "jobNo": "Job No, JB260312  Lot.22",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "บีม, โอ๊ด, ปลาย",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "MM 300 E",
-          "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine RF Flange 3”-8”",
+          "jobType": "ROBOT",
+          "site": "ABB K-99 Plastech (Chonburi)",
+          "jobNo": "Job No JB260315",
+          "depart": "07:00",
+          "arrive": "09:30",
+          "members": "นาย, แชมป์, เอิร์ก, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Robot Tool",
+          "contact": "K. Panya 064-6199963",
+          "detail": "Replace Shaft Axis 2 Robot IRB6650F",
           "locname": ""
         },
         {
@@ -11862,5 +11863,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-29T06:14:09.575Z"
+  "lastUpdated": "2026-10-29T06:23:28.451Z"
 }
