@@ -1,24 +1,24 @@
 {
   "history": [
     {
-      "date": "30 ตุลาคม 2569",
-      "day_th": "30 ตุลาคม 2569",
+      "date": "30/10/2569",
+      "savedAt": "2026-10-30T06:08:23.345Z",
       "dateKey": "2026-10-30",
-      "savedAt": "2026-10-30T00:00:00.000Z",
-      "modifiedAt": "2026-10-29T10:23:30.594Z",
+      "modifiedAt": "2026-10-30T06:08:23.345Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
-          "site": "AITs workshop ระยอง",
-          "jobNo": "Job No. JB260318  ",
-          "depart": "08:30",
-          "arrive": "",
-          "members": "บอย, อั๋น, ต้าร์",
-          "vehicle": "",
-          "equipment": "MM 305 I/TOFF 12",
-          "contact": "-",
-          "detail": "Machine RTJ Flange 8\"x2500# 2\"x2500# 2 flange"
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260312 Lot.22",
+          "depart": "10:00",
+          "arrive": "13:00",
+          "members": "คิง, อั๋น, ป๊อก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TTFF-24",
+          "contact": "ช่าง กับตัน 080-0471014",
+          "detail": "Machine RF Flange 16\"x300# = 2 flange",
+          "locname": ""
         },
         {
           "id": 2,
@@ -11864,5 +11864,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-29T10:23:31.514Z"
+  "lastUpdated": "2026-10-30T06:08:23.345Z"
 }
