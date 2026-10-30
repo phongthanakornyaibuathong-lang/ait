@@ -2,9 +2,9 @@
   "history": [
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T06:14:14.256Z",
+      "savedAt": "2026-10-30T06:16:02.092Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T06:14:14.256Z",
+      "modifiedAt": "2026-10-30T06:16:02.092Z",
       "teams": [
         {
           "id": 1,
@@ -90,15 +90,17 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "-",
-          "contact": ""
+          "jobType": "ROBOT",
+          "site": "ABB K-99 Plastech (Chonburi)",
+          "jobNo": "Job No JB260315",
+          "depart": "12:00",
+          "arrive": "14:00",
+          "members": "นาย, ป๋อ, เอิร์ก, เฟิร์ส",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Robot Tool",
+          "contact": "K. Panya 064-6199963",
+          "locname": "",
+          "detail": "Replace Shaft Axis 2 Robot IRB6650F"
         },
         {
           "id": 8,
@@ -11869,5 +11871,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T06:14:14.256Z"
+  "lastUpdated": "2026-10-30T06:16:02.092Z"
 }
