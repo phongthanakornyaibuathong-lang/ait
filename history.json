@@ -5,7 +5,7 @@
       "day_th": "31 ตุลาคม 2569",
       "dateKey": "2026-10-31",
       "savedAt": "2026-10-31T00:00:00.000Z",
-      "modifiedAt": "2026-10-30T10:22:13.140Z",
+      "modifiedAt": "2026-10-30T10:25:46.688Z",
       "teams": [
         {
           "id": 1,
@@ -23,14 +23,15 @@
         {
           "id": 2,
           "jobType": "BOLT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260312 Lot.22",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "ปาย, บีม, โอ๊ด",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "site": "Work shop AITs.",
+          "jobNo": "Job No, JB260318  ",
+          "depart": "08:30",
+          "arrive": "",
+          "members": "บอย, ปาย, อองรี",
+          "vehicle": "",
           "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "-",
+          "detail": "Machine RTJ Flange 2\"x2500# 1 flange"
         },
         {
           "id": 3,
@@ -133,9 +134,9 @@
     },
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T10:22:14.082Z",
+      "savedAt": "2026-10-30T10:25:46.702Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T10:22:14.082Z",
+      "modifiedAt": "2026-10-30T10:25:46.702Z",
       "teams": [
         {
           "id": 1,
@@ -11868,5 +11869,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T10:22:14.082Z"
+  "lastUpdated": "2026-10-30T10:25:46.702Z"
 }
