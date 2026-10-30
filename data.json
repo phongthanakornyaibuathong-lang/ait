@@ -4,7 +4,7 @@
       "id": 1,
       "jobType": "FLANGE",
       "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260312 Lot.22",
+      "jobNo": "Job No, JB260312 Lot.22 Team 2.",
       "depart": "10:00",
       "arrive": "13:00",
       "members": "คิง, อั๋น, ป๊อก",
@@ -34,11 +34,12 @@
       "jobNo": "Job No JB260314",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "ทาม, คิง, ปลาย",
+      "members": "ทาม, ปลาย, ต้าร์",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง อดิศักดิ์  094-4067534",
-      "detail": "Machine flange face 12\"x150# = 8 fl. FF # = 1 fl."
+      "detail": "Machine flange face 12\"x150# = 8 fl. FF # = 1 fl.",
+      "locname": ""
     },
     {
       "id": 4,
@@ -55,15 +56,17 @@
     },
     {
       "id": 5,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "BOLT",
+      "site": "Maintech DOW",
+      "jobNo": "Job No. JB260317",
+      "depart": "08:00",
+      "arrive": "09:00",
+      "members": "เป้, ฟีล์ม, คิว",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "Hydraulic torque",
+      "contact": "คุณอ้อม 095-3135133",
+      "locname": "",
+      "detail": "Nut Size 46 mm."
     },
     {
       "id": 6,
@@ -126,7 +129,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-30T06:08:23.345Z",
+  "lastUpdated": "2026-10-30T06:10:56.196Z",
   "updatedBy": "Nine",
   "date": "30/10/2569"
 }
