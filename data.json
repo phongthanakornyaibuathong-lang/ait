@@ -70,15 +70,17 @@
     },
     {
       "id": 6,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "เก็บของที่บูธ",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": "- "
+      "jobType": "BOLT",
+      "site": "Thai Oil Workshop (EBC)",
+      "jobNo": "Job No JB260262",
+      "depart": "13:00",
+      "arrive": "14:00",
+      "members": "บอย, ดำ, อองรี",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+      "equipment": "Hydraulic torque",
+      "contact": "K. ธัญญวิทย์ (นัย) 090-780-2925",
+      "locname": "",
+      "detail": "Torque Bolt Nut A/F 65 mm  ค่าที่ Torque 8,700 Nm."
     },
     {
       "id": 7,
@@ -129,7 +131,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-30T06:11:35.884Z",
+  "lastUpdated": "2026-10-30T06:14:14.256Z",
   "updatedBy": "Nine",
   "date": "30/10/2569"
 }
