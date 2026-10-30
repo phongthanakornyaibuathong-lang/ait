@@ -30,7 +30,7 @@
     {
       "id": 3,
       "jobType": "FLANGE",
-      "site": "UCS ศรีราชา (Thaioil CFP site)",
+      "site": "SCC-ERU-J.303 (Thai oil (CFP) Site)",
       "jobNo": "Job No JB260314",
       "depart": "06:30",
       "arrive": "08:00",
@@ -129,7 +129,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-10-30T06:10:56.196Z",
+  "lastUpdated": "2026-10-30T06:11:35.884Z",
   "updatedBy": "Nine",
   "date": "30/10/2569"
 }
