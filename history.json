@@ -2,9 +2,9 @@
   "history": [
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T06:10:56.196Z",
+      "savedAt": "2026-10-30T06:11:35.884Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T06:10:56.196Z",
+      "modifiedAt": "2026-10-30T06:11:35.884Z",
       "teams": [
         {
           "id": 1,
@@ -36,7 +36,7 @@
         {
           "id": 3,
           "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "site": "SCC-ERU-J.303 (Thai oil (CFP) Site)",
           "jobNo": "Job No JB260314",
           "depart": "06:30",
           "arrive": "08:00",
@@ -11867,5 +11867,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T06:10:56.196Z"
+  "lastUpdated": "2026-10-30T06:11:35.884Z"
 }
