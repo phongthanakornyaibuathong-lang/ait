@@ -5,7 +5,7 @@
       "day_th": "31 ตุลาคม 2569",
       "dateKey": "2026-10-31",
       "savedAt": "2026-10-31T00:00:00.000Z",
-      "modifiedAt": "2026-10-30T10:42:40.535Z",
+      "modifiedAt": "2026-10-30T10:44:14.986Z",
       "teams": [
         {
           "id": 1,
@@ -30,7 +30,8 @@
           "members": "บอย, ปาย, อองรี",
           "vehicle": "",
           "equipment": "TOFF-12",
-          "contact": "-"
+          "contact": "-",
+          "detail": "Machine RTJ Flange 2\"x2500# 1 flange"
         },
         {
           "id": 3,
@@ -132,9 +133,9 @@
     },
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T10:42:41.104Z",
+      "savedAt": "2026-10-30T10:44:15.470Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T10:42:41.104Z",
+      "modifiedAt": "2026-10-30T10:44:15.470Z",
       "teams": [
         {
           "id": 1,
@@ -11867,5 +11868,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T10:42:41.104Z"
+  "lastUpdated": "2026-10-30T10:44:15.470Z"
 }
