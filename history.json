@@ -5,7 +5,7 @@
       "day_th": "31 ตุลาคม 2569",
       "dateKey": "2026-10-31",
       "savedAt": "2026-10-31T00:00:00.000Z",
-      "modifiedAt": "2026-10-30T10:25:46.688Z",
+      "modifiedAt": "2026-10-30T10:37:33.382Z",
       "teams": [
         {
           "id": 1,
@@ -49,14 +49,14 @@
         {
           "id": 4,
           "jobType": "BOLT",
-          "site": "CUEL งาน Torque Unit 5",
-          "jobNo": "Job No. JB260306",
-          "depart": "06:30",
-          "arrive": "07:30",
-          "members": "แชมป์, บิ๊ก, โอม",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "site": "Maintech DOW",
+          "jobNo": "Job No. JB260317",
+          "depart": "06:00",
+          "arrive": "06:30",
+          "members": "นัฐ, ฟีล์ม, คิว",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque Ele.",
-          "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388"
+          "contact": "คุณอ้อม 095-3135133"
         },
         {
           "id": 5,
@@ -68,7 +68,8 @@
           "members": "เป้, ฟีล์ม, คิว",
           "vehicle": "— เลือกรถ —",
           "equipment": "Hydraulic torque",
-          "contact": "คุณอ้อม 095-3135133"
+          "contact": "คุณอ้อม 095-3135133",
+          "detail": "รอ Confirm จากลูกค้า"
         },
         {
           "id": 6,
@@ -134,9 +135,9 @@
     },
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T10:25:47.446Z",
+      "savedAt": "2026-10-30T10:37:33.398Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T10:25:47.446Z",
+      "modifiedAt": "2026-10-30T10:37:33.398Z",
       "teams": [
         {
           "id": 1,
@@ -11869,5 +11870,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T10:25:47.446Z"
+  "lastUpdated": "2026-10-30T10:37:33.398Z"
 }
