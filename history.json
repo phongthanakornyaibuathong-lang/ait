@@ -5,7 +5,7 @@
       "day_th": "31 ตุลาคม 2569",
       "dateKey": "2026-10-31",
       "savedAt": "2026-10-31T00:00:00.000Z",
-      "modifiedAt": "2026-10-30T10:37:33.382Z",
+      "modifiedAt": "2026-10-30T10:42:40.535Z",
       "teams": [
         {
           "id": 1,
@@ -18,7 +18,7 @@
           "vehicle": "กบ 2192 (4 ประตู)",
           "equipment": "TTFF-24",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "นำเครื่องมือออกจากหน้างาน"
+          "detail": "ขนเครื่องมือออกจากหน้างาน"
         },
         {
           "id": 2,
@@ -30,8 +30,7 @@
           "members": "บอย, ปาย, อองรี",
           "vehicle": "",
           "equipment": "TOFF-12",
-          "contact": "-",
-          "detail": "Machine RTJ Flange 2\"x2500# 1 flange"
+          "contact": "-"
         },
         {
           "id": 3,
@@ -43,8 +42,7 @@
           "members": "ทาม, ปลาย, ต้าร์",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง อดิศักดิ์  094-4067534",
-          "detail": "Machine flange face 12\"x150#RF, = 8 fl. FF = 1 fl."
+          "contact": "ช่าง อดิศักดิ์  094-4067534"
         },
         {
           "id": 4,
@@ -68,8 +66,7 @@
           "members": "เป้, ฟีล์ม, คิว",
           "vehicle": "— เลือกรถ —",
           "equipment": "Hydraulic torque",
-          "contact": "คุณอ้อม 095-3135133",
-          "detail": "รอ Confirm จากลูกค้า"
+          "contact": "คุณอ้อม 095-3135133"
         },
         {
           "id": 6,
@@ -135,9 +132,9 @@
     },
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T10:37:34.256Z",
+      "savedAt": "2026-10-30T10:42:40.547Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T10:37:34.256Z",
+      "modifiedAt": "2026-10-30T10:42:40.547Z",
       "teams": [
         {
           "id": 1,
@@ -11870,5 +11867,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T10:37:34.256Z"
+  "lastUpdated": "2026-10-30T10:42:40.547Z"
 }
