@@ -5,7 +5,7 @@
       "day_th": "31 ตุลาคม 2569",
       "dateKey": "2026-10-31",
       "savedAt": "2026-10-31T00:00:00.000Z",
-      "modifiedAt": "2026-10-30T10:51:04.286Z",
+      "modifiedAt": "2026-10-30T10:54:25.749Z",
       "teams": [
         {
           "id": 1,
@@ -74,26 +74,28 @@
         {
           "id": 6,
           "jobType": "TRAINING",
-          "site": "Thai Oil Workshop (EBC)",
-          "jobNo": "Job No JB260262",
-          "depart": "13:00",
-          "arrive": "14:00",
-          "members": "บอย, ดำ, อองรี",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "Hydraulic torque",
-          "contact": "K. ธัญญวิทย์ (นัย) 090-780-2925"
+          "site": "Thai Oil Training (TOP)",
+          "jobNo": "Job No ",
+          "depart": "11:00",
+          "arrive": "13:00",
+          "members": "แชมป์, โอม, โอ๊ด",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Training Tool",
+          "contact": "คุณ ณฑี Thai oil 092-9146269",
+          "detail": "ขนย้ายเครื่องมือ ไปที่ห้อง Training"
         },
         {
           "id": 7,
           "jobType": "ROBOT",
           "site": "ABB K-99 Plastech (Chonburi)",
           "jobNo": "Job No JB260315",
-          "depart": "12:00",
-          "arrive": "14:00",
+          "depart": "07:00",
+          "arrive": "09:00",
           "members": "นาย, ป๋อ, เอิร์ก, เฟิร์ส",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Robot Tool",
-          "contact": "K. Panya 064-6199963"
+          "contact": "K. Panya 064-6199963",
+          "detail": "รอหน้างาน อับเดท"
         },
         {
           "id": 8,
@@ -135,9 +137,9 @@
     },
     {
       "date": "30/10/2569",
-      "savedAt": "2026-10-30T10:51:04.297Z",
+      "savedAt": "2026-10-30T10:54:25.768Z",
       "dateKey": "2026-10-30",
-      "modifiedAt": "2026-10-30T10:51:04.297Z",
+      "modifiedAt": "2026-10-30T10:54:25.768Z",
       "teams": [
         {
           "id": 1,
@@ -11870,5 +11872,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T10:51:04.297Z"
+  "lastUpdated": "2026-10-30T10:54:25.768Z"
 }
