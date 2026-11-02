@@ -5,7 +5,7 @@
       "day_th": "3 พฤศจิกายน 2569",
       "dateKey": "2026-11-03",
       "savedAt": "2026-11-03T00:00:00.000Z",
-      "modifiedAt": "2026-11-02T10:27:43.441Z",
+      "modifiedAt": "2026-11-02T10:30:08.798Z",
       "teams": [
         {
           "id": 1,
@@ -34,15 +34,16 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-          "jobNo": "Demon",
-          "depart": "08:00",
-          "arrive": "09:00",
-          "members": "บอย, เป้, ป๊อก",
+          "jobType": "BOLT",
+          "site": "Maintech DOW",
+          "jobNo": "Job No. JB260317",
+          "depart": "06:00",
+          "arrive": "06:30",
+          "members": "นัฐ, ป๋อ, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TSF 12 Torso",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "equipment": "Hydraulic torque",
+          "contact": "คุณอ้อม 095-3135133",
+          "detail": "Torque bolt Cover E-211 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange A/F 46 mm. \nมาถึงที่จอดรถไอสิบ  แล้วให้มาติดต่อคุณอ้อม ที่ตู้TEGS เพื่อเป่าแอลกอฮอล์ รับชุดหมี และขอวิทยุ วอหาผม เอกชัย "
         },
         {
           "id": 4,
@@ -132,9 +133,9 @@
     },
     {
       "date": "2/11/2569",
-      "savedAt": "2026-11-02T10:27:43.451Z",
+      "savedAt": "2026-11-02T10:30:08.808Z",
       "dateKey": "2026-11-02",
-      "modifiedAt": "2026-11-02T10:27:43.451Z",
+      "modifiedAt": "2026-11-02T10:30:08.808Z",
       "teams": [
         {
           "id": 1,
@@ -11866,5 +11867,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-02T10:27:43.451Z"
+  "lastUpdated": "2026-11-02T10:30:08.808Z"
 }
