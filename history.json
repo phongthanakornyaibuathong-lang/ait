@@ -5,7 +5,7 @@
       "day_th": "3 พฤศจิกายน 2569",
       "dateKey": "2026-11-03",
       "savedAt": "2026-11-03T00:00:00.000Z",
-      "modifiedAt": "2026-11-02T10:32:27.025Z",
+      "modifiedAt": "2026-11-02T10:35:18.714Z",
       "teams": [
         {
           "id": 1,
@@ -29,8 +29,7 @@
           "members": "แชมป์, บิ๊ก, โอม",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque",
-          "contact": "ช่าง ปฐมพงศ์  SCG TPE3 090-0858636",
-          "detail": "Torque bolt Cover Tank R-401 A Stud 1-1/8\" 52 Ea. A/F 46 mm.  2 flange"
+          "contact": "ช่าง ปฐมพงศ์  SCG TPE3 090-0858636"
         },
         {
           "id": 3,
@@ -42,8 +41,7 @@
           "members": "นัฐ, ป๋อ, คิว",
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "Hydraulic torque",
-          "contact": "คุณอ้อม 095-3135133",
-          "detail": "Torque bolt Cover E-211 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange A/F 46 mm. \nมาถึงที่จอดรถไอสิบ  แล้วให้มาติดต่อคุณอ้อม ที่ตู้TEGS เพื่อเป่าแอลกอฮอล์ รับชุดหมี และขอวิทยุ วอหาผม เอกชัย "
+          "contact": "คุณอ้อม 095-3135133"
         },
         {
           "id": 4,
@@ -52,7 +50,7 @@
           "jobNo": "Job No. JB260320",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "กรานต์",
+          "members": "กรานต์, นาย",
           "vehicle": "",
           "equipment": "-",
           "contact": "-"
@@ -67,8 +65,7 @@
           "members": "ทัช, เป้, ทาม",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "",
-          "contact": "-",
-          "detail": "Training JIM Thai Oil"
+          "contact": "-"
         },
         {
           "id": 6,
@@ -134,9 +131,9 @@
     },
     {
       "date": "2/11/2569",
-      "savedAt": "2026-11-02T10:32:28.013Z",
+      "savedAt": "2026-11-02T10:35:18.728Z",
       "dateKey": "2026-11-02",
-      "modifiedAt": "2026-11-02T10:32:28.013Z",
+      "modifiedAt": "2026-11-02T10:35:18.728Z",
       "teams": [
         {
           "id": 1,
@@ -11868,5 +11865,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-02T10:32:28.013Z"
+  "lastUpdated": "2026-11-02T10:35:18.728Z"
 }
