@@ -5,7 +5,7 @@
       "day_th": "3 พฤศจิกายน 2569",
       "dateKey": "2026-11-03",
       "savedAt": "2026-11-03T00:00:00.000Z",
-      "modifiedAt": "2026-11-02T10:30:55.374Z",
+      "modifiedAt": "2026-11-02T10:32:27.025Z",
       "teams": [
         {
           "id": 1,
@@ -61,13 +61,14 @@
           "id": 5,
           "jobType": "TRAINING",
           "site": "Thai Oil Training (TOP)",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobNo": "Job No. JB260313",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทัช, เป้, ทาม",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": "-",
+          "detail": "Training JIM Thai Oil"
         },
         {
           "id": 6,
@@ -133,9 +134,9 @@
     },
     {
       "date": "2/11/2569",
-      "savedAt": "2026-11-02T10:30:56.077Z",
+      "savedAt": "2026-11-02T10:32:27.042Z",
       "dateKey": "2026-11-02",
-      "modifiedAt": "2026-11-02T10:30:56.077Z",
+      "modifiedAt": "2026-11-02T10:32:27.042Z",
       "teams": [
         {
           "id": 1,
@@ -11867,5 +11868,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-02T10:30:56.077Z"
+  "lastUpdated": "2026-11-02T10:32:27.042Z"
 }
