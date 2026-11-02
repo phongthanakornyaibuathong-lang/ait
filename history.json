@@ -5,7 +5,7 @@
       "day_th": "3 พฤศจิกายน 2569",
       "dateKey": "2026-11-03",
       "savedAt": "2026-11-03T00:00:00.000Z",
-      "modifiedAt": "2026-11-02T10:30:08.798Z",
+      "modifiedAt": "2026-11-02T10:30:55.374Z",
       "teams": [
         {
           "id": 1,
@@ -59,8 +59,8 @@
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
+          "jobType": "TRAINING",
+          "site": "Thai Oil Training (TOP)",
           "jobNo": "",
           "depart": "",
           "arrive": "",
@@ -133,9 +133,9 @@
     },
     {
       "date": "2/11/2569",
-      "savedAt": "2026-11-02T10:30:09.749Z",
+      "savedAt": "2026-11-02T10:30:55.389Z",
       "dateKey": "2026-11-02",
-      "modifiedAt": "2026-11-02T10:30:09.749Z",
+      "modifiedAt": "2026-11-02T10:30:55.389Z",
       "teams": [
         {
           "id": 1,
@@ -11867,5 +11867,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-02T10:30:09.749Z"
+  "lastUpdated": "2026-11-02T10:30:55.389Z"
 }
