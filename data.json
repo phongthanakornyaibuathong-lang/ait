@@ -14,29 +14,27 @@
     },
     {
       "id": 2,
-      "jobType": "FLANGE",
-      "site": "SCC-ERU-J.303 (Thai oil (CFP) Site )",
-      "jobNo": "Job No JB260314  ",
-      "depart": "06:30",
+      "jobType": "BOLT",
+      "site": "SCG TPE Site #3 TC-wax",
+      "jobNo": "Job No. JB260313",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "ทาม, ปลาย, ต้าร์",
-      "vehicle": "กบ 2192 (4 ประตู)",
-      "equipment": "TTFF-24 (New)",
-      "contact": "ช่าง อดิศักดิ์  094-4067534",
-      "detail": "Machine flange face 12\"x150# FF = 8 fl. RF = 1 fl."
+      "members": "แชมป์, บิ๊ก, โอม",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+      "equipment": "Hydraulic torque",
+      "contact": "ช่าง ปฐมพงศ์  SCG TPE3 090-0858636"
     },
     {
       "id": 3,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  แหลมฉบัง  (yard 32 ไร่)",
-      "jobNo": "Demon",
-      "depart": "08:00",
-      "arrive": "09:00",
-      "members": "บอย, เป้, ป๊อก",
+      "jobType": "BOLT",
+      "site": "Maintech DOW",
+      "jobNo": "Job No. JB260317",
+      "depart": "06:00",
+      "arrive": "06:30",
+      "members": "นัฐ, ป๋อ, คิว",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TSF 12 Torso",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Cold cut Demon Shino thai  แหลมฉบัง  (yard 32 ไร่)"
+      "equipment": "Hydraulic torque",
+      "contact": "คุณอ้อม 095-3135133"
     },
     {
       "id": 4,
@@ -45,22 +43,22 @@
       "jobNo": "Job No. JB260320",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "กรานต์",
+      "members": "กรานต์, นาย",
       "vehicle": "",
       "equipment": "-",
       "contact": "-"
     },
     {
       "id": 5,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "jobType": "TRAINING",
+      "site": "Thai Oil Training (TOP)",
+      "jobNo": "Job No. JB260313",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "ทัช, เป้, ทาม",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "",
-      "contact": ""
+      "contact": "-"
     },
     {
       "id": 6,
@@ -123,7 +121,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-02T10:35:19.630Z",
+  "lastUpdated": "2026-11-03T10:29:10.773Z",
   "updatedBy": "Nine",
-  "date": "2/11/2569"
+  "date": "3/11/2569"
 }
