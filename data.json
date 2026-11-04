@@ -7,7 +7,7 @@
       "jobNo": "Job No JB260323 Lot.23",
       "depart": "06:30",
       "arrive": "06:30",
-      "members": "ปาย, ฟีล์ม, เฟิร์ส",
+      "members": "ปาย, เฟิร์ส, ป๊อก",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TOFF-12",
       "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
@@ -15,26 +15,28 @@
     {
       "id": 2,
       "jobType": "BOLT",
-      "site": "SCG TPE Site #3 TC-wax",
-      "jobNo": "Job No. JB260313",
+      "site": "Proloc  ห้องอบรม Proloc",
+      "jobNo": "อบรมต่อบัตร",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "แชมป์, บิ๊ก, โอม",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "Hydraulic torque",
-      "contact": "ช่าง ปฐมพงศ์  SCG TPE3 090-0858636"
+      "members": "ฟีล์ม, โอ๊ด, อองรี, บิ๊ก",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "",
+      "contact": ".  คุณยุทธนา 063-316-4065",
+      "detail": "อบรมต่อบัตร TPPP 08:00-12:00 น "
     },
     {
       "id": 3,
       "jobType": "BOLT",
       "site": "Maintech DOW",
       "jobNo": "Job No. JB260317",
-      "depart": "06:00",
-      "arrive": "06:30",
-      "members": "นัฐ, ป๋อ, คิว",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "depart": "07:30",
+      "arrive": "08:00",
+      "members": "นัฐ, คิว, ปลาย",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
-      "contact": "คุณอ้อม 095-3135133"
+      "contact": "คุณอ้อม 095-3135133",
+      "detail": "Torque bolt Cover E-211 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange A/F 46 mm. "
     },
     {
       "id": 4,
@@ -53,48 +55,52 @@
       "jobType": "TRAINING",
       "site": "Thai Oil Training (TOP)",
       "jobNo": "Job No. JB260313",
-      "depart": "06:30",
-      "arrive": "08:00",
+      "depart": "",
+      "arrive": "13:00",
       "members": "ทัช, เป้, ทาม",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "",
-      "contact": "-"
+      "equipment": "-",
+      "contact": "-",
+      "detail": "Training ภาคปฏิบัติ "
     },
     {
       "id": 6,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
+      "jobType": "OTHER",
+      "site": "Thoi Oil EBC",
+      "jobNo": "Demon Cold Cut  / Fange face",
+      "depart": "08:30",
+      "arrive": "09:30",
+      "members": "เป้, ทาม, อั๋น",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "Training Tool",
-      "contact": ""
+      "equipment": "TSF 12/MM 305I",
+      "contact": "-",
+      "detail": "Demon Cold Cut / Fange face  ที่ Workshop Thai Oil"
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "FLANGE",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "-",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "บอย, เอิร์ก",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+      "equipment": "เครื่องมือวัด Flange RTJ",
+      "contact": "   ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "ตรวจ Flange RTJ ส่งงาน STECON Wood"
     },
     {
       "id": 8,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Site Survey ",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "ทัช, โอม",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "",
-      "contact": ""
+      "contact": "ช่าง โอม",
+      "detail": "Site Survey งาน ตัดท่อกลับ Valve และ เจาะรู กับ Team บ. MMM Group / บ.LCN\nโอม ขับรถรับส่งทีมงาน"
     },
     {
       "id": 9,
@@ -121,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-03T10:49:59.280Z",
+  "lastUpdated": "2026-11-04T10:42:19.295Z",
   "updatedBy": "Nine",
-  "date": "3/11/2569"
+  "date": "4/11/2569"
 }
