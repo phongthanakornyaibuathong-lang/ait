@@ -5,7 +5,7 @@
       "day_th": "7 พฤศจิกายน 2569",
       "dateKey": "2026-11-07",
       "savedAt": "2026-11-07T00:00:00.000Z",
-      "modifiedAt": "2026-11-06T11:15:37.100Z",
+      "modifiedAt": "2026-11-06T11:28:51.854Z",
       "teams": [
         {
           "id": 1,
@@ -29,12 +29,13 @@
           "members": "นัฐ, ฟีล์ม, คิว",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque",
-          "contact": "คุณอ้อม 095-3135133"
+          "contact": "คุณอ้อม 095-3135133",
+          "detail": "พรุ่งนี้ขอ1ทีมเข้ามาเวลา08.00ตรงนะครับเพราะตอนเปิดwork ต้องเช็คชื่อผู้ปฎิบัติงานครับ เป็นไปได้รบกวนถึงหน้างาน 07.45ครับผม ขอบคุณครับ\nงาน Box-up E-211,E212ครับ"
         },
         {
           "id": 3,
-          "jobType": "TRAINING",
-          "site": "Thai Oil Training (TOP)",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Job No. JB260320",
           "depart": "07:30",
           "arrive": "08:00",
@@ -124,16 +125,16 @@
           "arrive": "",
           "members": "",
           "vehicle": "",
-          "equipment": "",
+          "equipment": "ลาป่วย",
           "contact": ""
         }
       ]
     },
     {
       "date": "6/11/2569",
-      "savedAt": "2026-11-06T11:15:38.146Z",
+      "savedAt": "2026-11-06T11:28:51.871Z",
       "dateKey": "2026-11-06",
-      "modifiedAt": "2026-11-06T11:15:38.146Z",
+      "modifiedAt": "2026-11-06T11:28:51.871Z",
       "teams": [
         {
           "id": 1,
@@ -11855,5 +11856,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-06T11:15:38.146Z"
+  "lastUpdated": "2026-11-06T11:28:51.871Z"
 }
