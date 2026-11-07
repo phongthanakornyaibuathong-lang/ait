@@ -1,6 +1,135 @@
 {
   "history": [
     {
+      "date": "9 พฤศจิกายน 2569",
+      "day_th": "9 พฤศจิกายน 2569",
+      "dateKey": "2026-11-09",
+      "savedAt": "2026-11-09T00:00:00.000Z",
+      "modifiedAt": "2026-11-07T11:45:19.778Z",
+      "teams": [
+        {
+          "id": 1,
+          "jobType": "FLANGE",
+          "site": "SCC  ศรีราชา (Workshop)",
+          "jobNo": "Job No JB260323 Lot.23",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ปาย, เฟิร์ส, ป๊อก",
+          "vehicle": "กบ 2192 (4 ประตู)",
+          "equipment": "TOFF-12",
+          "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+        },
+        {
+          "id": 2,
+          "jobType": "BOLT",
+          "site": "Maintech DOW",
+          "jobNo": "Job No. JB260317",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "นัฐ, ฟีล์ม, คิว",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "Hydraulic torque",
+          "contact": "คุณอ้อม 095-3135133"
+        },
+        {
+          "id": 3,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No. JB260322",
+          "depart": "08:30",
+          "arrive": "14:00",
+          "members": "ทัช, บิ๊ก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "",
+          "contact": "โด่ง  094-7467526"
+        },
+        {
+          "id": 4,
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No, JB260327 ",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, โอม, ปลาย",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TSF 24",
+          "contact": "ช่าง โด่ง  094-7467526"
+        },
+        {
+          "id": 5,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "00:00",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 6,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "-",
+          "contact": ""
+        },
+        {
+          "id": 7,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "  "
+        },
+        {
+          "id": 8,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 9,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
+        },
+        {
+          "id": 10,
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": " ",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "ลาป่วย",
+          "contact": ""
+        }
+      ]
+    },
+    {
       "date": "8 พฤศจิกายน 2569",
       "day_th": "8 พฤศจิกายน 2569",
       "dateKey": "2026-11-08",
@@ -131,9 +260,9 @@
     },
     {
       "date": "7/11/2569",
-      "savedAt": "2026-11-07T11:45:13.341Z",
+      "savedAt": "2026-11-07T11:45:19.801Z",
       "dateKey": "2026-11-07",
-      "modifiedAt": "2026-11-07T11:45:13.341Z",
+      "modifiedAt": "2026-11-07T11:45:19.801Z",
       "teams": [
         {
           "id": 1,
@@ -11727,135 +11856,7 @@
           "contact": ""
         }
       ]
-    },
-    {
-      "date": "30/7/2569",
-      "savedAt": "2026-07-30T10:19:46.847Z",
-      "dateKey": "2026-07-30",
-      "modifiedAt": "2026-07-30T10:19:46.847Z",
-      "teams": [
-        {
-          "id": 1,
-          "jobType": "BOLT",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260194 Lot 4",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "คิง, โอ๊ด, คิว",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TTFF-40",
-          "contact": "ช่าง โตโต้ 092-3974539 "
-        },
-        {
-          "id": 2,
-          "jobType": "FLANGE",
-          "site": "SCC Work Shop ศรีราชา",
-          "jobNo": "JB260193 Lot.11",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "กาน(นำ), ปลาย, โอม",
-          "vehicle": "2ฒษ 2857 (แครี่บอย)",
-          "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง เพียว เพิ่มพงศ์ 092-6216363"
-        },
-        {
-          "id": 3,
-          "jobType": "COLD_CUT",
-          "site": "SCC Workshop มะขามคู่",
-          "jobNo": "Job No JB260190",
-          "depart": "07:00",
-          "arrive": "07:30",
-          "members": "บอย, อั๋น, ฟีล์ม",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 24",
-          "contact": " ติดต่อช่าง ตาม กษิดิ์เดช  099-0129797 "
-        },
-        {
-          "id": 4,
-          "jobType": "FLANGE",
-          "site": "UCS ศรีราชา (Thaioil CFP site)",
-          "jobNo": "Job JB260194 Lot 4",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "บิ๊ก, เฟิร์ส",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 ",
-          "contact": "ช่าง โตโต้ 092-3974539 "
-        },
-        {
-          "id": 5,
-          "jobType": "TRAINING",
-          "site": "INSEE/โรงแรมโกลเด้นชิตี้ ระยอง",
-          "jobNo": "Job No JB260187",
-          "depart": "08:00",
-          "arrive": "08:30",
-          "members": "ทาม",
-          "vehicle": "ผข 6821 กระบะแค๊บ รถเช่า",
-          "equipment": "",
-          "contact": "ช่าง พรเทพ ตือ INSEE 065-9494555"
-        },
-        {
-          "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 9,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        },
-        {
-          "id": 10,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": " ",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-07T11:45:13.341Z"
+  "lastUpdated": "2026-11-07T11:45:19.801Z"
 }
