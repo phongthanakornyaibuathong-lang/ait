@@ -10,8 +10,7 @@
       "members": "ปาย, เฟิร์ส, ป๊อก",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363",
-      "detail": ""
+      "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
     },
     {
       "id": 2,
@@ -24,37 +23,25 @@
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
       "contact": "คุณอ้อม 095-3135133",
-      "detail": "พรุ่งนี้ขอ1ทีมเข้ามาเวลา08.00ตรงนะครับเพราะตอนเปิดwork ต้องเช็คชื่อผู้ปฎิบัติงาน เป็นไปได้รบกวนถึงหน้างาน 07.45งาน Box-up E-211, E212"
+      "detail": "พรุ่งนี้ขอ1ทีมเข้ามาเวลา08.00ตรงนะครับเพราะตอนเปิดwork ต้องเช็คชื่อผู้ปฎิบัติงานครับ เป็นไปได้รบกวนถึงหน้างาน 07.45ครับผม ขอบคุณครับ\nงาน Box-up E-211,E212ครับ"
     },
     {
       "id": 3,
-      "jobType": "TRAINING",
-      "site": "Thai Oil Training (TOP)",
-      "jobNo": "Job No. JB260320",
-      "depart": "07:30",
-      "arrive": "08:00",
-      "members": "กรานต์, นาย",
-      "vehicle": "",
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No. JB260322",
+      "depart": "08:30",
+      "arrive": "14:00",
+      "members": "ทัช, บิ๊ก",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "",
-      "contact": "-"
+      "contact": "โด่ง  094-7467526",
+      "detail": "ขนย้ายอุปกรณ์งานตัดท่อสลับ Valve "
     },
     {
       "id": 4,
-      "jobType": "FLANGE",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260325  Lot.23",
-      "depart": "06:00",
-      "arrive": "07:00",
-      "members": "บิ๊ก, บีม, ต้าร์",
-      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange 6\" 2\""
-    },
-    {
-      "id": 5,
       "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No, JB260327 ",
       "depart": "06:30",
       "arrive": "08:00",
@@ -65,17 +52,28 @@
       "detail": "Pipe Cold Cutting & Bevel 20\" THK 43 mm. Mat's Alloy"
     },
     {
+      "id": 5,
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "00:00",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
+    },
+    {
       "id": 6,
-      "jobType": "TRAINING",
-      "site": "Thoi Oil TOP",
-      "jobNo": "Job No JB260320",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ทัช, เป้, ทาม",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "-",
-      "contact": "",
-      "detail": "Training ภาคปฏิบัติ"
+      "contact": ""
     },
     {
       "id": 7,
@@ -122,11 +120,11 @@
       "arrive": "",
       "members": "",
       "vehicle": "",
-      "equipment": "",
+      "equipment": "ลาป่วย",
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-06T11:46:09.928Z",
+  "lastUpdated": "2026-11-07T11:45:12.316Z",
   "updatedBy": "Nine",
-  "date": "6/11/2569"
+  "date": "7/11/2569"
 }
