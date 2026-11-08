@@ -5,13 +5,13 @@
       "day_th": "9 พฤศจิกายน 2569",
       "dateKey": "2026-11-09",
       "savedAt": "2026-11-09T00:00:00.000Z",
-      "modifiedAt": "2026-11-07T11:45:19.778Z",
+      "modifiedAt": "2026-11-08T11:18:14.575Z",
       "teams": [
         {
           "id": 1,
           "jobType": "FLANGE",
           "site": "SCC  ศรีราชา (Workshop)",
-          "jobNo": "Job No JB260323 Lot.23",
+          "jobNo": "Job No JB260331 Lot.24",
           "depart": "06:30",
           "arrive": "08:00",
           "members": "ปาย, เฟิร์ส, ป๊อก",
@@ -33,15 +33,16 @@
         },
         {
           "id": 3,
-          "jobType": "COLD_CUT",
+          "jobType": "FLANGE",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No. JB260322",
-          "depart": "08:30",
-          "arrive": "14:00",
-          "members": "ทัช, บิ๊ก",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "",
-          "contact": "โด่ง  094-7467526"
+          "jobNo": "Job No. JB260330",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "บอย, ปลาย, ต้าร์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TTFF-24 (New) / MM305I",
+          "contact": "โด่ง  094-7467526",
+          "detail": "Machine flange facing RTJ flange 10\" 2500# ,6\" 2500#"
         },
         {
           "id": 4,
@@ -50,22 +51,24 @@
           "jobNo": "Job No, JB260327 ",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "บอย, โอม, ปลาย",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "ทาม, อั๋น, โอม",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "TSF 24",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 20\" THK 71.43 mm. Mat's CS"
         },
         {
           "id": 5,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "00:00",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "MMM / GC18",
+          "jobNo": "Job No.JB260328 ",
+          "depart": "07:00",
+          "arrive": "08:00",
+          "members": "แชมป์, ป๋อ, อองรี",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "Hydraulic torque",
+          "contact": " K'ป้อม 094-5693482",
+          "detail": "Loose & Torque bolt flange 26\"x300# Sr. B"
         },
         {
           "id": 6,
@@ -130,11 +133,10 @@
       ]
     },
     {
-      "date": "8 พฤศจิกายน 2569",
-      "day_th": "8 พฤศจิกายน 2569",
+      "date": "8/11/2569",
+      "savedAt": "2026-11-08T11:18:14.621Z",
       "dateKey": "2026-11-08",
-      "savedAt": "2026-11-08T00:00:00.000Z",
-      "modifiedAt": "2026-11-07T11:53:37.915Z",
+      "modifiedAt": "2026-11-08T11:18:14.621Z",
       "teams": [
         {
           "id": 1,
@@ -11859,5 +11861,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-07T11:53:37.924Z"
+  "lastUpdated": "2026-11-08T11:18:14.621Z"
 }
