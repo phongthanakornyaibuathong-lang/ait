@@ -3,14 +3,15 @@
     {
       "id": 1,
       "jobType": "FLANGE",
-      "site": "SCC  ศรีราชา (Workshop)",
-      "jobNo": "Job No JB260331 Lot.24",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No, JB260333 ",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "ปาย, เฟิร์ส, ป๊อก",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "members": "บิ๊ก, บีม, โอ๊ด",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363"
+      "contact": "ช่าง โด่ง  094-7467526",
+      "detail": "Machine flange facing RF flange 6\" 300# 8\" 300#\nไปกับทีม บอย"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "members": "นัฐ, ฟีล์ม, คิว",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
-      "contact": "คุณอ้อม 095-3135133"
+      "contact": "คุณอ้อม 095-3135133",
+      "detail": "Torque  bolt Cover E-211,E212 Stud 1-7/8\" 40 Ea. A/F 75 mm.  2 flange A/F 46 mm. \nพรุ่งนี้ขอ1ทีมเข้ามาเวลา08.00ตรงนะครับเพราะตอนเปิดwork ต้องเช็คชื่อผู้ปฎิบัติงานครับ เป็นไปได้รบกวนถึงหน้างาน 07.45ครับผม ขอบคุณครับ\nงาน Box-up E-211,E212ครับ"
     },
     {
       "id": 3,
@@ -55,37 +57,39 @@
       "jobType": "BOLT",
       "site": "MMM / GC18",
       "jobNo": "Job No.JB260328 ",
-      "depart": "07:00",
-      "arrive": "08:00",
+      "depart": "08:30",
+      "arrive": "09:00",
       "members": "แชมป์, ป๋อ, อองรี",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "Hydraulic torque",
       "contact": " K'ป้อม 094-5693482",
-      "detail": "Loose & Torque bolt flange 26\"x300# Sr. B\n\nรอยืนยันเข้างานกับทางหน้างา"
+      "detail": "เอาเครื่องมือออกจากหน้างาน"
     },
     {
       "id": 6,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "-",
-      "contact": ""
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No, JB260334",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "เป้, ปาย, ป๊อก",
+      "vehicle": "กบ 2192 (4 ประตู)",
+      "equipment": "TSF 12",
+      "contact": "ช่าง โด่ง  094-7467526",
+      "detail": "Pipe Cold Cutting & Bevel 10\",8\" Sch 120. Mat's Alloy 825"
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No. JB260322",
+      "depart": "07:30",
+      "arrive": "08:00",
+      "members": "ทัช, เอิร์ก",
+      "vehicle": "ข-2144",
       "equipment": "",
-      "contact": "  "
+      "contact": "  ",
+      "detail": "ตรวจเครื่องมือ อุปกรณ์งานตัดสลับValve"
     },
     {
       "id": 8,
@@ -124,7 +128,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-09T11:32:56.268Z",
+  "lastUpdated": "2026-11-10T08:49:11.619Z",
   "updatedBy": "Nine",
-  "date": "9/11/2569"
+  "date": "10/11/2569"
 }
