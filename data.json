@@ -8,10 +8,9 @@
       "depart": "06:00",
       "arrive": "07:00",
       "members": "บิ๊ก, บีม, โอ๊ด",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange 3”"
+      "contact": "ช่าง กับตัน 080-0471014"
     },
     {
       "id": 2,
@@ -24,46 +23,45 @@
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
       "contact": "คุณอ้อม 095-3135133",
-      "detail": "รอลูกค้ายืนยันเข้างาน"
+      "detail": "รอลูกค้ายืนยันเข้างาน "
     },
     {
       "id": 3,
       "jobType": "FLANGE",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No. JB260330",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "บอย, ปลาย, ต้าร์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "TTFF-24 (New) / MM305I",
-      "contact": "โด่ง  094-7467526",
-      "detail": "Machine flange facing RTJ flange 10\" 2500# ,6\" 2500#"
+      "site": "CUEL",
+      "jobNo": "Job No. JB260306 Unit5",
+      "depart": "06:00",
+      "arrive": "07:30",
+      "members": "ทาม, คิง, อองรี",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "็Hydraulic Torque",
+      "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388"
     },
     {
       "id": 4,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-      "jobNo": "Job No, JB260327 ",
-      "depart": "08:30",
-      "arrive": "09:30",
-      "members": "ทาม, อั๋น, โอม",
-      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TSF 24",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "นำเครื่องมือออกจากหน้างาน"
+      "jobType": "BOLT",
+      "site": "PTT OR ศรีราชา (เขาบ่อยา)",
+      "jobNo": "Job No, JB260332",
+      "depart": "06:30",
+      "arrive": "08:00",
+      "members": "แชมป์, ป๋อ, โอม",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "equipment": "Hydraulic torque",
+      "contact": "คุณ ธนัส 087-677-2377",
+      "detail": "Torque bolts Flange 36\"x150# Sr.B Stud bolt 7/8\" 44 Es AF 36 mm"
     },
     {
       "id": 5,
-      "jobType": "STANDBY",
-      "site": "Maintech DOW",
-      "jobNo": "Job No. JB260317 Team 2",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "คิง, แชมป์, ป๋อ",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "jobType": "OTHER",
+      "site": "STECON Area 17",
+      "jobNo": "ติดตั้ง มิเตอร์ไฟตู้ออฟฟิต",
+      "depart": "10:00",
+      "arrive": "12:00",
+      "members": "ทัช, เอิร์ก, เฟิร์ส, ต้าร์",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "Hydraulic torque",
-      "contact": "คุณอ้อม 095-3135133",
-      "detail": "รอลูกค้ายืนยันเข้างาน"
+      "contact": "ช่าง โด่ง  094-7467526",
+      "detail": "ติดตั้งไฟตู้ออฟฟิศ\nพี่วัฒ ไปด้วย"
     },
     {
       "id": 6,
@@ -76,20 +74,19 @@
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TSF 12",
       "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 10\",8\" Sch 120. Mat's Alloy"
+      "detail": "Pipe Cold Cutting & Bevel 12\" THK 43 mm. Mat's 316"
     },
     {
       "id": 7,
-      "jobType": "TRAINING",
-      "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-      "jobNo": "อบรม",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ดำ",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "Safety harness",
-      "contact": "  ",
-      "detail": "อบรมหลักสูตร CFP Project Site Safety Induction 08.00 -11.00  น. Work at Height 13.00-16.00 น."
+      "contact": "  "
     },
     {
       "id": 8,
@@ -128,7 +125,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-11T10:43:25.611Z",
+  "lastUpdated": "2026-11-12T10:54:41.368Z",
   "updatedBy": "Nine",
-  "date": "11/11/2569"
+  "date": "12/11/2569"
 }
