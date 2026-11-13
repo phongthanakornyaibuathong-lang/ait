@@ -5,7 +5,7 @@
       "day_th": "14 พฤศจิกายน 2569",
       "dateKey": "2026-11-14",
       "savedAt": "2026-11-14T00:00:00.000Z",
-      "modifiedAt": "2026-11-13T11:09:24.540Z",
+      "modifiedAt": "2026-11-13T11:11:26.814Z",
       "teams": [
         {
           "id": 1,
@@ -99,15 +99,16 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": " ",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "OTHER",
+          "site": "STECON Area 17",
+          "jobNo": " ตรวจสภาพรถ ",
+          "depart": "06:00",
+          "arrive": "08:00",
+          "members": "โอม",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "",
-          "contact": ""
+          "contact": " จป. STECON",
+          "detail": "ตรวจสภาพรถ ไปพร้อมกับทีม ฟีล์ม"
         },
         {
           "id": 9,
@@ -137,9 +138,9 @@
     },
     {
       "date": "13/11/2569",
-      "savedAt": "2026-11-13T11:09:25.723Z",
+      "savedAt": "2026-11-13T11:11:26.819Z",
       "dateKey": "2026-11-13",
-      "modifiedAt": "2026-11-13T11:09:25.723Z",
+      "modifiedAt": "2026-11-13T11:11:26.819Z",
       "teams": [
         {
           "id": 1,
@@ -11880,5 +11881,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-13T11:09:25.723Z"
+  "lastUpdated": "2026-11-13T11:11:26.819Z"
 }
