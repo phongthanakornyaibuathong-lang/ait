@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "jobType": "BOLT",
+      "jobType": "STANDBY",
       "site": "Maintech DOW",
       "jobNo": "Job No. JB260317 Team 1",
       "depart": "07:00",
@@ -22,12 +22,11 @@
       "members": "นัฐ, ฟีล์ม, คิว",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
-      "contact": "คุณอ้อม 095-3135133",
-      "detail": "รอลูกค้ายืนยันเข้างาน "
+      "contact": "คุณอ้อม 095-3135133"
     },
     {
       "id": 3,
-      "jobType": "FLANGE",
+      "jobType": "STANDBY",
       "site": "CUEL",
       "jobNo": "Job No. JB260306 Unit5",
       "depart": "06:00",
@@ -48,20 +47,20 @@
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "Hydraulic torque",
       "contact": "คุณ ธนัส 087-677-2377",
-      "detail": "Torque bolts Flange 36\"x150# Sr.B Stud bolt 7/8\" 44 Es AF 36 mm"
+      "detail": "Torque bolts Flange 36\"x150# Sr.B Stud bolt 7/8\" 44 Es AF 36 mm."
     },
     {
       "id": 5,
       "jobType": "OTHER",
       "site": "STECON Area 17",
       "jobNo": "ติดตั้ง มิเตอร์ไฟตู้ออฟฟิต",
-      "depart": "10:00",
-      "arrive": "12:00",
-      "members": "ทัช, เอิร์ก, เฟิร์ส, ต้าร์",
+      "depart": "08:30",
+      "arrive": "09:30",
+      "members": "ทัช, เอิร์ก, ต้าร์",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-      "equipment": "Hydraulic torque",
+      "equipment": "",
       "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "ติดตั้งไฟตู้ออฟฟิศ\nพี่วัฒ ไปด้วย"
+      "detail": "พี่่วัฒไปด้วย"
     },
     {
       "id": 6,
@@ -74,7 +73,7 @@
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TSF 12",
       "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 12\" THK 43 mm. Mat's 316"
+      "detail": "Pipe Cold Cutting & Bevel 12\" THK 44 mm. Mat's 316L"
     },
     {
       "id": 7,
@@ -125,7 +124,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-12T11:01:23.196Z",
+  "lastUpdated": "2026-11-13T09:41:12.948Z",
   "updatedBy": "Nine",
-  "date": "12/11/2569"
+  "date": "13/11/2569"
 }
