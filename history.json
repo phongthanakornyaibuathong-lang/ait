@@ -5,7 +5,7 @@
       "day_th": "14 พฤศจิกายน 2569",
       "dateKey": "2026-11-14",
       "savedAt": "2026-11-14T00:00:00.000Z",
-      "modifiedAt": "2026-11-13T10:52:43.232Z",
+      "modifiedAt": "2026-11-13T11:03:43.379Z",
       "teams": [
         {
           "id": 1,
@@ -34,19 +34,20 @@
         },
         {
           "id": 3,
-          "jobType": "STANDBY",
-          "site": "CUEL",
+          "jobType": "OTHER",
+          "site": "PMJ",
           "jobNo": "Job No. JB260306 Unit5",
-          "depart": "06:00",
-          "arrive": "07:30",
-          "members": "ทาม, คิง, อองรี",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "depart": "08:30",
+          "arrive": "09:00",
+          "members": "ทาม, คิง, ป๋อ",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "็Hydraulic Torque",
-          "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388"
+          "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388",
+          "detail": "ส่งอุปกรณ์ แม่แรงไฮดรอลิค งานโรงไฟฟ้าหงสา เพื่อไปเทส"
         },
         {
           "id": 4,
-          "jobType": "BOLT",
+          "jobType": "STANDBY",
           "site": "PTT OR ศรีราชา (เขาบ่อยา)",
           "jobNo": "Job No, JB260332",
           "depart": "06:30",
@@ -58,15 +59,16 @@
         },
         {
           "id": 5,
-          "jobType": "OTHER",
-          "site": "STECON Area 17",
-          "jobNo": "ติดตั้ง มิเตอร์ไฟตู้ออฟฟิต",
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No. JB260322",
           "depart": "08:30",
           "arrive": "09:30",
-          "members": "ทัช, เอิร์ก, ต้าร์",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "members": "ทัช, เอิร์ก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "เอาเครื่องมืออุปกรณ์ไปลงหน้างาน"
         },
         {
           "id": 6,
@@ -75,10 +77,11 @@
           "jobNo": "Job No, JB260334",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "เป้, ปาย, ป๊อก",
-          "vehicle": "กบ 2192 (4 ประตู)",
+          "members": "ปาย, ป๊อก",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "เอาเครื่องมือออกจากหน้างาน ไปพร้อมกับทัช"
         },
         {
           "id": 7,
@@ -132,9 +135,9 @@
     },
     {
       "date": "13/11/2569",
-      "savedAt": "2026-11-13T10:52:44.082Z",
+      "savedAt": "2026-11-13T11:03:43.385Z",
       "dateKey": "2026-11-13",
-      "modifiedAt": "2026-11-13T10:52:44.082Z",
+      "modifiedAt": "2026-11-13T11:03:43.385Z",
       "teams": [
         {
           "id": 1,
@@ -11875,5 +11878,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-13T10:52:44.082Z"
+  "lastUpdated": "2026-11-13T11:03:43.385Z"
 }
