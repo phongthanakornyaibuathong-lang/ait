@@ -5,7 +5,7 @@
       "day_th": "14 พฤศจิกายน 2569",
       "dateKey": "2026-11-14",
       "savedAt": "2026-11-14T00:00:00.000Z",
-      "modifiedAt": "2026-11-13T11:03:43.379Z",
+      "modifiedAt": "2026-11-13T11:07:33.388Z",
       "teams": [
         {
           "id": 1,
@@ -47,15 +47,16 @@
         },
         {
           "id": 4,
-          "jobType": "STANDBY",
-          "site": "PTT OR ศรีราชา (เขาบ่อยา)",
-          "jobNo": "Job No, JB260332",
+          "jobType": "OTHER",
+          "site": "STECON Area 17",
+          "jobNo": "ตรวจสภาพรถ ",
           "depart": "06:30",
           "arrive": "08:00",
-          "members": "แชมป์, ป๋อ, โอม",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "Hydraulic torque",
-          "contact": "คุณ ธนัส 087-677-2377"
+          "members": "บอย",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TSF 24",
+          "contact": "จป. STECON",
+          "detail": "ตรวจสภาพรถ และนำเครื่องมือ Cold cut ไปลง 32 ไร่"
         },
         {
           "id": 5,
@@ -135,9 +136,9 @@
     },
     {
       "date": "13/11/2569",
-      "savedAt": "2026-11-13T11:03:43.385Z",
+      "savedAt": "2026-11-13T11:07:33.394Z",
       "dateKey": "2026-11-13",
-      "modifiedAt": "2026-11-13T11:03:43.385Z",
+      "modifiedAt": "2026-11-13T11:07:33.394Z",
       "teams": [
         {
           "id": 1,
@@ -11878,5 +11879,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-13T11:03:43.385Z"
+  "lastUpdated": "2026-11-13T11:07:33.394Z"
 }
