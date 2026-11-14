@@ -134,19 +134,20 @@
       "day_th": "15 พฤศจิกายน 2569",
       "dateKey": "2026-11-15",
       "savedAt": "2026-11-15T00:00:00.000Z",
-      "modifiedAt": "2026-11-14T09:19:34.092Z",
+      "modifiedAt": "2026-11-14T09:30:33.838Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "FLANGE",
+          "jobType": "COLD_CUT",
           "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260335 Lot.24",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "ฟีล์ม, บีม, โอ๊ด",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobNo": "Job No. JB260322",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทัช",
+          "vehicle": "งค-1643 (เก๋ง BYD)",
+          "equipment": "",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "ขนย้ายอุปกรณ์งานตัดสลับด้าน Valve เข้าใน Site งาน"
         },
         {
           "id": 2,
@@ -162,75 +163,75 @@
         },
         {
           "id": 3,
-          "jobType": "OTHER",
-          "site": "PMJ",
-          "jobNo": "Job No. JB260306 Unit5",
-          "depart": "08:30",
-          "arrive": "09:00",
-          "members": "ทาม, คิง, ป๋อ",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "็Hydraulic Torque",
-          "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 4,
-          "jobType": "OTHER",
-          "site": "STECON Area 17",
-          "jobNo": "ตรวจสภาพรถ ",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "บอย",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
-          "equipment": "TSF 24",
-          "contact": "จป. STECON"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 5,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No. JB260322",
-          "depart": "08:30",
-          "arrive": "09:30",
-          "members": "ทัช, เอิร์ก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "00:00",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "contact": ""
         },
         {
           "id": 6,
-          "jobType": "COLD_CUT",
-          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
-          "jobNo": "Job No, JB260334",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "ปาย, ป๊อก",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TSF 12",
-          "contact": "ช่าง โด่ง  094-7467526"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 7,
-          "jobType": "OTHER",
-          "site": "STECON Area 17",
-          "jobNo": "ตรวจสภาพรถ ",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "อั๋น",
-          "vehicle": "กบ 2192 (4 ประตู)",
-          "equipment": "TSF 12",
-          "contact": "  จป. STECON"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
-          "jobType": "OTHER",
-          "site": "STECON Area 17",
-          "jobNo": " ตรวจสภาพรถ ",
-          "depart": "06:00",
-          "arrive": "08:00",
-          "members": "โอม",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
           "equipment": "",
-          "contact": " จป. STECON"
+          "contact": ""
         },
         {
           "id": 9,
@@ -260,9 +261,9 @@
     },
     {
       "date": "14/11/2569",
-      "savedAt": "2026-11-14T09:20:11.293Z",
+      "savedAt": "2026-11-14T09:30:38.023Z",
       "dateKey": "2026-11-14",
-      "modifiedAt": "2026-11-14T09:20:11.293Z",
+      "modifiedAt": "2026-11-14T09:30:38.023Z",
       "teams": [
         {
           "id": 1,
@@ -11879,5 +11880,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-14T09:20:11.293Z"
+  "lastUpdated": "2026-11-14T09:30:38.023Z"
 }
