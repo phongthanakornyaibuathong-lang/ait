@@ -5,43 +5,46 @@
       "day_th": "16 พฤศจิกายน 2569",
       "dateKey": "2026-11-16",
       "savedAt": "2026-11-16T00:00:00.000Z",
-      "modifiedAt": "2026-11-14T09:20:11.287Z",
+      "modifiedAt": "2026-11-15T10:16:20.123Z",
       "teams": [
         {
           "id": 1,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260335 Lot.24",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "ฟีล์ม, บีม, โอ๊ด",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-          "equipment": "TOFF-12",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobType": "COLD_CUT",
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+          "jobNo": "Job No. JB260322",
+          "depart": "05:30",
+          "arrive": "06:30",
+          "members": "บอย, ปาย, ป๊อก",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "TOFF-24",
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321\nSafety & Toolbox talk ที่หน้างาน 06:50 น. ไปกับทัช"
         },
         {
           "id": 2,
           "jobType": "BOLT",
           "site": "Maintech DOW",
           "jobNo": "Job No. JB260317 Team 1",
-          "depart": "07:00",
-          "arrive": "08:00",
+          "depart": "08:30",
+          "arrive": "09:00",
           "members": "นัฐ, ปลาย, คิว",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque",
-          "contact": "คุณอ้อม 095-3135133"
+          "contact": "คุณอ้อม 095-3135133",
+          "detail": "นำเครื่องมือออกจากหน้างาน"
         },
         {
           "id": 3,
           "jobType": "OTHER",
           "site": "PMJ",
-          "jobNo": "Job No. JB260306 Unit5",
+          "jobNo": "-",
           "depart": "08:30",
           "arrive": "09:00",
-          "members": "ทาม, คิง, ป๋อ",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "็Hydraulic Torque",
-          "contact": "ช่าง ปิยพงษ์ CUEL  099-4419388"
+          "members": "ทาม, ป๋อ",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "equipment": "็Hydraulic Ram",
+          "contact": "",
+          "detail": "รับอุปกรณ์ แม่แรงไฮดรอลิค งานโรงไฟฟ้าหงสา ที่เอาไปเทส"
         },
         {
           "id": 4,
@@ -130,11 +133,10 @@
       ]
     },
     {
-      "date": "15 พฤศจิกายน 2569",
-      "day_th": "15 พฤศจิกายน 2569",
+      "date": "15/11/2569",
+      "savedAt": "2026-11-15T10:16:20.144Z",
       "dateKey": "2026-11-15",
-      "savedAt": "2026-11-15T00:00:00.000Z",
-      "modifiedAt": "2026-11-14T09:32:44.002Z",
+      "modifiedAt": "2026-11-15T10:16:20.144Z",
       "teams": [
         {
           "id": 1,
@@ -11880,5 +11882,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-14T09:32:44.007Z"
+  "lastUpdated": "2026-11-15T10:16:20.144Z"
 }
