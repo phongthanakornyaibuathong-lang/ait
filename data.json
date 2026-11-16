@@ -3,63 +3,67 @@
     {
       "id": 1,
       "jobType": "COLD_CUT",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No. JB260322",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ทัช",
-      "vehicle": "งค-1643 (เก๋ง BYD)",
-      "equipment": "",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "ขนย้ายอุปกรณ์งานตัดสลับด้าน Valve เข้าใน Site งาน"
+      "depart": "05:30",
+      "arrive": "06:30",
+      "members": "บอย, ปาย, ป๊อก",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "equipment": "TOFF-24",
+      "contact": "ติดต่อช่าง โด่ง  094-7467526",
+      "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321\nSafety & Toolbox talk ที่หน้างาน 06:50 น. ไปกับทัช"
     },
     {
       "id": 2,
       "jobType": "BOLT",
       "site": "Maintech DOW",
       "jobNo": "Job No. JB260317 Team 1",
-      "depart": "07:00",
-      "arrive": "08:00",
+      "depart": "08:30",
+      "arrive": "09:00",
       "members": "นัฐ, ปลาย, คิว",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "Hydraulic torque",
-      "contact": "คุณอ้อม 095-3135133"
+      "contact": "คุณอ้อม 095-3135133",
+      "detail": "นำเครื่องมือออกจากหน้างาน"
     },
     {
       "id": 3,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "OTHER",
+      "site": "PMJ",
+      "jobNo": "-",
+      "depart": "08:30",
+      "arrive": "09:00",
+      "members": "ทาม, ป๋อ",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "็Hydraulic Ram",
+      "contact": "",
+      "detail": "รับอุปกรณ์ แม่แรงไฮดรอลิค งานโรงไฟฟ้าหงสา ที่เอาไปเทส"
     },
     {
       "id": 4,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
+      "jobType": "OTHER",
+      "site": "SCC-ERU-J.303 (Thai oil (CFP) Site )",
+      "jobNo": "Site survey ",
+      "depart": "08:30",
+      "arrive": "09:30",
+      "members": "เป้, คิง",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "",
-      "contact": ""
+      "contact": "ช่าง Pongsathorn ช่าง อดิศักดิ์  094-4067534",
+      "detail": "Site survey Machine flange face RF 18\"x150# = 1fl."
     },
     {
       "id": 5,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": "",
-      "depart": "",
-      "arrive": "00:00",
-      "members": "",
-      "vehicle": "",
+      "jobType": "COLD_CUT",
+      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
+      "jobNo": "Job No. JB260322",
+      "depart": "05:30",
+      "arrive": "06:30",
+      "members": "ทัช",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "",
-      "contact": ""
+      "contact": "ช่าง โด่ง  094-7467526",
+      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve\nSafety & Tool box talk ที่หน้างาน 06:50 น."
     },
     {
       "id": 6,
@@ -70,7 +74,7 @@
       "arrive": "",
       "members": "",
       "vehicle": "",
-      "equipment": "",
+      "equipment": "TSF 12",
       "contact": ""
     },
     {
@@ -79,7 +83,7 @@
       "site": "",
       "jobNo": "",
       "depart": "",
-      "arrive": "",
+      "arrive": "08:00",
       "members": "",
       "vehicle": "",
       "equipment": "",
@@ -89,7 +93,7 @@
       "id": 8,
       "jobType": "STANDBY",
       "site": "",
-      "jobNo": "",
+      "jobNo": " ",
       "depart": "",
       "arrive": "",
       "members": "",
@@ -122,7 +126,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-15T10:21:35.496Z",
+  "lastUpdated": "2026-11-16T10:53:25.734Z",
   "updatedBy": "Nine",
-  "date": "15/11/2569"
+  "date": "16/11/2569"
 }
