@@ -5,7 +5,7 @@
       "day_th": "17 พฤศจิกายน 2569",
       "dateKey": "2026-11-17",
       "savedAt": "2026-11-17T00:00:00.000Z",
-      "modifiedAt": "2026-11-16T11:12:59.453Z",
+      "modifiedAt": "2026-11-16T11:17:27.771Z",
       "teams": [
         {
           "id": 1,
@@ -62,14 +62,15 @@
         {
           "id": 5,
           "jobType": "COLD_CUT",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site",
+          "jobNo": "Job No. JB260340",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "อั๋น, โอม, ปลาย",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "TSF 18",
+          "contact": "ช่าง โด่ง  094-7467526",
+          "detail": "Pipe Cold Cutting & Bevel 16\" Sch STD Mat's CS\nLine Underground"
         },
         {
           "id": 6,
@@ -135,9 +136,9 @@
     },
     {
       "date": "16/11/2569",
-      "savedAt": "2026-11-16T11:13:00.285Z",
+      "savedAt": "2026-11-16T11:17:27.780Z",
       "dateKey": "2026-11-16",
-      "modifiedAt": "2026-11-16T11:13:00.285Z",
+      "modifiedAt": "2026-11-16T11:17:27.780Z",
       "teams": [
         {
           "id": 1,
@@ -11884,5 +11885,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-16T11:13:00.285Z"
+  "lastUpdated": "2026-11-16T11:17:27.780Z"
 }
