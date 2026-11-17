@@ -5,7 +5,7 @@
       "day_th": "18 พฤศจิกายน 2569",
       "dateKey": "2026-11-18",
       "savedAt": "2026-11-18T00:00:00.000Z",
-      "modifiedAt": "2026-11-17T10:17:01.983Z",
+      "modifiedAt": "2026-11-17T10:22:56.793Z",
       "teams": [
         {
           "id": 1,
@@ -99,15 +99,16 @@
         },
         {
           "id": 8,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": " ",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
+          "jobType": "TRAINING",
+          "site": "UCS ศรีราชา (Thaioil CFP A.17)",
+          "jobNo": " อบรม ที่อับอากาศ",
+          "depart": "06:00",
+          "arrive": "07:30",
+          "members": "แชมป์",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "",
-          "contact": ""
+          "contact": "จป. UCS",
+          "detail": "ไปกับทีม ทาม\nไปขึ้นรถ Area 17 07:30 น."
         },
         {
           "id": 9,
@@ -137,9 +138,9 @@
     },
     {
       "date": "17/11/2569",
-      "savedAt": "2026-11-17T10:17:01.999Z",
+      "savedAt": "2026-11-17T10:22:57.641Z",
       "dateKey": "2026-11-17",
-      "modifiedAt": "2026-11-17T10:17:01.999Z",
+      "modifiedAt": "2026-11-17T10:22:57.641Z",
       "teams": [
         {
           "id": 1,
@@ -11885,5 +11886,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-17T10:17:01.999Z"
+  "lastUpdated": "2026-11-17T10:22:57.641Z"
 }
