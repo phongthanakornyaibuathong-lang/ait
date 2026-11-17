@@ -5,7 +5,7 @@
       "day_th": "18 พฤศจิกายน 2569",
       "dateKey": "2026-11-18",
       "savedAt": "2026-11-18T00:00:00.000Z",
-      "modifiedAt": "2026-11-17T10:22:56.793Z",
+      "modifiedAt": "2026-11-17T10:26:43.633Z",
       "teams": [
         {
           "id": 1,
@@ -40,10 +40,10 @@
           "depart": "06:30",
           "arrive": "08:00",
           "members": "เป้, ต้าร์",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TTFF-24 (New)",
           "contact": "ช่าง โด่ง  094-7467526",
-          "detail": "Machine flange facing RTJ flange 10\" 2500# ,6\" 2500#"
+          "detail": "Machine flange facing RTJ flange 10\" 2500# ,6\" 2500#\nไปกับทีม บอย"
         },
         {
           "id": 4,
@@ -79,7 +79,7 @@
           "depart": "06:00",
           "arrive": "07:00",
           "members": "ทาม, บีม, เฟิร์ส",
-          "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 New",
           "contact": "ช่าง กับตัน 080-0471014",
           "detail": "Machine RF Flange 2\" 600#\nส่งแชมป์ที่ STECON Area 17"
@@ -108,7 +108,7 @@
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "",
           "contact": "จป. UCS",
-          "detail": "ไปกับทีม ทาม\nไปขึ้นรถ Area 17 07:30 น."
+          "detail": "ไปกับทีม ทาม\nไปขึ้นรถ Area 17 07:30 น. อบรมเสร็จไปช่วยทีม เป้"
         },
         {
           "id": 9,
@@ -138,9 +138,9 @@
     },
     {
       "date": "17/11/2569",
-      "savedAt": "2026-11-17T10:22:56.808Z",
+      "savedAt": "2026-11-17T10:26:43.650Z",
       "dateKey": "2026-11-17",
-      "modifiedAt": "2026-11-17T10:22:56.808Z",
+      "modifiedAt": "2026-11-17T10:26:43.650Z",
       "teams": [
         {
           "id": 1,
@@ -11886,5 +11886,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-17T10:22:56.808Z"
+  "lastUpdated": "2026-11-17T10:26:43.650Z"
 }
