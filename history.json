@@ -5,7 +5,7 @@
       "day_th": "20 พฤศจิกายน 2569",
       "dateKey": "2026-11-20",
       "savedAt": "2026-11-20T00:00:00.000Z",
-      "modifiedAt": "2026-11-19T11:16:27.273Z",
+      "modifiedAt": "2026-11-19T11:19:13.010Z",
       "teams": [
         {
           "id": 1,
@@ -95,7 +95,7 @@
           "members": "คิง, คิว",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "Hydraulic torque Ele",
-          "contact": "K. เต่า  089-7535542",
+          "contact": "K. จีระศักดิ์ (เต่า)  089-7535542",
           "detail": "Torque Bolt Special Flange Stud M39 A/F 60 mm.  1 flange."
         },
         {
@@ -138,9 +138,9 @@
     },
     {
       "date": "19/11/2569",
-      "savedAt": "2026-11-19T11:16:28.239Z",
+      "savedAt": "2026-11-19T11:19:15.750Z",
       "dateKey": "2026-11-19",
-      "modifiedAt": "2026-11-19T11:16:28.239Z",
+      "modifiedAt": "2026-11-19T11:19:15.750Z",
       "teams": [
         {
           "id": 1,
@@ -11896,5 +11896,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-19T11:16:28.239Z"
+  "lastUpdated": "2026-11-19T11:19:15.750Z"
 }
