@@ -5,7 +5,7 @@
       "day_th": "20 พฤศจิกายน 2569",
       "dateKey": "2026-11-20",
       "savedAt": "2026-11-20T00:00:00.000Z",
-      "modifiedAt": "2026-11-19T10:44:08.560Z",
+      "modifiedAt": "2026-11-19T11:16:27.273Z",
       "teams": [
         {
           "id": 1,
@@ -66,7 +66,7 @@
           "jobNo": "Job No, JB260343 ",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "นัฐ, อั๋น, คิว",
+          "members": "นัฐ, อั๋น, ดำ",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "Hydraulic torque Ele",
           "contact": "ช่าง กับตัน 080-0471014",
@@ -79,7 +79,7 @@
           "jobNo": "Job No, JB260341  Lot.25",
           "depart": "06:00",
           "arrive": "07:00",
-          "members": "ทาม, บีม, คิง",
+          "members": "ทาม, บีม",
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 New ",
           "contact": "ช่าง กับตัน 080-0471014",
@@ -87,15 +87,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": " ",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "SGC / TPC ",
+          "jobNo": " Job No, JB260346",
+          "depart": "12:30",
+          "arrive": "13:00",
+          "members": "คิง, คิว",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "Hydraulic torque Ele",
+          "contact": "K. เต่า  089-7535542",
+          "detail": "Torque Bolt Special Flange Stud M39 A/F 60 mm.  1 flange."
         },
         {
           "id": 8,
@@ -137,9 +138,9 @@
     },
     {
       "date": "19/11/2569",
-      "savedAt": "2026-11-19T10:45:46.250Z",
+      "savedAt": "2026-11-19T11:16:27.279Z",
       "dateKey": "2026-11-19",
-      "modifiedAt": "2026-11-19T10:45:46.250Z",
+      "modifiedAt": "2026-11-19T11:16:27.279Z",
       "teams": [
         {
           "id": 1,
@@ -11895,5 +11896,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-19T10:45:46.250Z"
+  "lastUpdated": "2026-11-19T11:16:27.279Z"
 }
