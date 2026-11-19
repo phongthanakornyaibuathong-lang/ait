@@ -5,13 +5,13 @@
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No. JB260322",
-      "depart": "06:30",
-      "arrive": "08:00",
+      "depart": "06:00",
+      "arrive": "07:00",
       "members": "บอย, ปาย, ป๊อก",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 24",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321\nงานตัดสสลับ Valve"
+      "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321"
     },
     {
       "id": 2,
@@ -23,7 +23,8 @@
       "members": "ฟีล์ม, โอ๊ด, อองรี",
       "vehicle": "กบ 2192 (4 ประตู)",
       "equipment": "TOFF-12",
-      "contact": " ช่าง เพียว เพิ่มพงศ์ 0926216363"
+      "contact": " ช่าง เพียว เพิ่มพงศ์ 0926216363",
+      "detail": "Machine RF Flange 1-1/2\" 150#"
     },
     {
       "id": 3,
@@ -32,37 +33,37 @@
       "jobNo": "Job No, JB260330",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, ต้าร์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "members": "เป้, ต้าร์, ปลาย",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Machine flange facing RTJ flange 10\" 2500# ,6\" 2500#\nไปกับทีม บอย"
+      "detail": "Machine flange facing RTJ flange 10\" 2500#"
     },
     {
       "id": 4,
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No. JB260322",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "ทัช, นัฐ, โอม",
-      "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "Hydraulic torque",
+      "depart": "06:00",
+      "arrive": "07:00",
+      "members": "ทัช, โอม",
+      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "equipment": "-",
       "contact": " ช่าง โด่ง  094-7467526",
-      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve\nช่วยประกอบ basket Valve & Torque Stud M20"
+      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve"
     },
     {
       "id": 5,
-      "jobType": "COLD_CUT",
-      "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site",
-      "jobNo": "Job No. JB260340",
-      "depart": "06:30",
+      "jobType": "BOLT",
+      "site": "GC ME / GC#2",
+      "jobNo": "Job No, JB260342",
+      "depart": "07:00",
       "arrive": "08:00",
-      "members": "อั๋น, ปลาย, เอิร์ก",
-      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "TSF 18",
-      "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 16\" Sch STD Mat's CS\nLine Underground"
+      "members": "แชมป์, ป๋อ, คิว",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+      "equipment": "Hydraulic torque",
+      "contact": "คุณ พิชิตชัย  Tel: 094 - 4653954",
+      "detail": "Torque bolt A/F 50,55 mm.  "
     },
     {
       "id": 6,
@@ -73,35 +74,33 @@
       "arrive": "07:00",
       "members": "ทาม, บีม, เฟิร์ส",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TOFF-12 New",
+      "equipment": "TOFF-12 New / THL2 AF 2\"(50mm.)",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange 2\" 600#\nส่งแชมป์ที่ STECON Area 17"
+      "detail": "Machine RF Flange 2\" 600#\nเอาหัว Torque THL 2 Link slim AF 2\"(50mm.) ไปลอง"
     },
     {
       "id": 7,
-      "jobType": "FLANGE",
-      "site": "SCC-ERU-J.303 (Thai oil (CFP) Site )",
-      "jobNo": "Job No, JB260339 ",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "คิง, ป๋อ, คิว",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "TTFF-24 (S/N250948)",
-      "contact": "ช่าง Pongsathorn Sup'v  แอ๊ด  094-3859409",
-      "detail": "Machine flange face RF 18\"x150# = 1fl."
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": " ",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": ""
     },
     {
       "id": 8,
-      "jobType": "TRAINING",
-      "site": "UCS ศรีราชา (Thaioil CFP A.17)",
-      "jobNo": " อบรม ที่อับอากาศ",
-      "depart": "06:00",
-      "arrive": "07:30",
-      "members": "แชมป์",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
-      "contact": "ปอ UCS 082-8111911",
-      "detail": "ไปกับทีม ทาม\nไปขึ้นรถ Area 17 07:30 น. อบรมเสร็จไปช่วยทีม เป้"
+      "contact": ""
     },
     {
       "id": 9,
@@ -128,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-18T10:35:40.698Z",
+  "lastUpdated": "2026-11-19T10:30:34.907Z",
   "updatedBy": "Nine",
-  "date": "18/11/2569"
+  "date": "19/11/2569"
 }
