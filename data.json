@@ -20,11 +20,12 @@
       "jobNo": "Job No JB260338 Lot.25",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "ฟีล์ม, โอ๊ด, อองรี",
-      "vehicle": "กบ 2192 (4 ประตู)",
+      "members": "ฟีล์ม, อองรี, คิว",
+      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TOFF-12",
-      "contact": " ช่าง เพียว เพิ่มพงศ์ 0926216363",
-      "detail": "Machine RF Flange 1-1/2\" 150#"
+      "contact": "ช่าง เพียว เพิ่มพงศ์ 0926216363",
+      "detail": "Machine RF Flange 1-1/2\" 150#",
+      "locname": ""
     },
     {
       "id": 3,
@@ -33,11 +34,12 @@
       "jobNo": "Job No, JB260330",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, ต้าร์, ปลาย",
+      "members": "เป้, ต้าร์, ดำ",
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง โด่ง  094-7467526",
-      "detail": "Machine flange facing RTJ flange 10\" 2500#"
+      "detail": "Machine flange facing RTJ flange 10\" 2500#",
+      "locname": ""
     },
     {
       "id": 4,
@@ -55,15 +57,16 @@
     {
       "id": 5,
       "jobType": "BOLT",
-      "site": "GC ME / GC#2",
-      "jobNo": "Job No, JB260342",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "แชมป์, ป๋อ, คิว",
-      "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "Hydraulic torque",
-      "contact": "คุณ พิชิตชัย  Tel: 094 - 4653954",
-      "detail": "Torque bolt A/F 50,55 mm.  "
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No, JB260343",
+      "depart": "06:00",
+      "arrive": "07:00",
+      "members": "นัฐ, อั๋น, ปลาย",
+      "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+      "equipment": "Hydraulic torque Ele",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Torque bolt Flange 16\"x300# A/F 50 mm.  4 flange.\nTorque 1,508 Nm.  THL 2 A/F 2\"(50) Slim",
+      "locname": ""
     },
     {
       "id": 6,
@@ -72,23 +75,25 @@
       "jobNo": "Job No, JB260341  Lot.25",
       "depart": "06:00",
       "arrive": "07:00",
-      "members": "ทาม, บีม, เฟิร์ส",
+      "members": "ทาม, บีม",
       "vehicle": "ผบ 6279 (แครี่บอย)",
-      "equipment": "TOFF-12 New / THL2 AF 2\"(50mm.)",
+      "equipment": "TOFF-12 New ",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine RF Flange 2\" 600#\nเอาหัว Torque THL 2 Link slim AF 2\"(50mm.) ไปลอง"
+      "detail": "Machine RF Flange 2\" 600#"
     },
     {
       "id": 7,
-      "jobType": "STANDBY",
-      "site": "",
-      "jobNo": " ",
-      "depart": "",
-      "arrive": "",
-      "members": "",
-      "vehicle": "",
-      "equipment": "",
-      "contact": ""
+      "jobType": "BOLT",
+      "site": "SGC / TPC",
+      "jobNo": "Job No, JB260346",
+      "depart": "12:30",
+      "arrive": "13:00",
+      "members": "คิง, โอ๊ด",
+      "vehicle": "— เลือกรถ —",
+      "equipment": "Hydraulic torque Ele",
+      "contact": "K. จีระศักดิ์ (เต่า)  089-7535542",
+      "detail": "Torque Bolt Special Flange Stud M39 A/F 60 mm.  1 flange.",
+      "locname": ""
     },
     {
       "id": 8,
@@ -127,7 +132,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-19T11:19:15.750Z",
+  "lastUpdated": "2026-11-20T02:03:14.864Z",
   "updatedBy": "Nine",
-  "date": "19/11/2569"
+  "date": "20/11/2569"
 }
