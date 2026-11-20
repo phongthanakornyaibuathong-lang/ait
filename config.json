@@ -655,25 +655,6 @@
       }
     },
     {
-      "id": "เฟิร์ส",
-      "name": "นาย ทศกร กล้าค้าขาย",
-      "nick": "เฟิร์ส",
-      "phone": "080-416-1562",
-      "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
-      "skills": [],
-      "safetyCards": {
-        "STECON": {
-          "issue": "2026-05-13",
-          "exp": null
-        },
-        "STP&I": {
-          "issue": "2026-05-11",
-          "exp": null
-        }
-      }
-    },
-    {
       "id": "เอิร์ก",
       "name": "นาย ทัศพงศ์ วงศ์ท้าวศ์",
       "nick": "เอิร์ก",
@@ -929,32 +910,9 @@
     "ABB/TIDM สมุทปราการ",
     "Maintech DOW",
     "STECON ",
-    "ฆ",
-    "ฆธ",
-    "ฆธฎ",
-    "S",
-    "ST",
-    "STE",
-    "STECON A",
-    "STECON Ar",
-    "STECON Are",
-    "STECON Area",
-    "STECON Area ",
-    "STECON Area 1",
-    "STECON Area 17",
     "Shino thai  ศรีราชา (Thaioil (CFP) Site",
-    "P",
-    "PM",
-    "PMJ",
-    "ฃ",
-    "PTTME/PTT GC#2",
-    "GME/PTT GC#2",
-    "GCME/PTT GC#2",
-    "GC ME/PTT GC#2",
-    "GC ME/GC#2",
-    "GC ME/ GC#2",
     "GC ME / GC#2",
-    "SGC / TPC "
+    "SGC / TPC"
   ],
   "skills": [
     {
