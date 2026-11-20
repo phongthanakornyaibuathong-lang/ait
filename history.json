@@ -5,7 +5,7 @@
       "day_th": "21 พฤศจิกายน 2569",
       "dateKey": "2026-11-21",
       "savedAt": "2026-11-21T00:00:00.000Z",
-      "modifiedAt": "2026-11-20T10:31:38.930Z",
+      "modifiedAt": "2026-11-20T10:34:03.800Z",
       "teams": [
         {
           "id": 1,
@@ -61,39 +61,40 @@
         },
         {
           "id": 5,
-          "jobType": "BOLT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260343",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "นัฐ, อั๋น, ปลาย",
-          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "jobType": "FLANGE",
+          "site": "Shino thai  แหลมฉบัง (32 ไล่) Site)",
+          "jobNo": "Job No, JB260351 Lot.6",
+          "depart": "06:30",
+          "arrive": "08:00",
+          "members": "ทาม, อั๋น, ปลาย",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "Hydraulic torque Ele",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "contact": "ติดต่อช่าง โด่ง  094-7467526",
+          "detail": "Machine RF Flange "
         },
         {
           "id": 6,
-          "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260341  Lot.25",
-          "depart": "06:00",
-          "arrive": "07:00",
-          "members": "ทาม, บีม",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "TOFF-12 New ",
-          "contact": "ช่าง กับตัน 080-0471014"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "SGC / TPC",
-          "jobNo": "Job No, JB260346",
-          "depart": "12:30",
-          "arrive": "13:00",
-          "members": "คิง, โอ๊ด",
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
           "vehicle": "— เลือกรถ —",
-          "equipment": "Hydraulic torque Ele",
-          "contact": "K. จีระศักดิ์ (เต่า)  089-7535542"
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 8,
@@ -135,9 +136,9 @@
     },
     {
       "date": "20/11/2569",
-      "savedAt": "2026-11-20T10:31:39.731Z",
+      "savedAt": "2026-11-20T10:34:03.806Z",
       "dateKey": "2026-11-20",
-      "modifiedAt": "2026-11-20T10:31:39.731Z",
+      "modifiedAt": "2026-11-20T10:34:03.806Z",
       "teams": [
         {
           "id": 1,
@@ -11902,5 +11903,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-20T10:31:39.731Z"
+  "lastUpdated": "2026-11-20T10:34:03.806Z"
 }
