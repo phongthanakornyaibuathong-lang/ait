@@ -5,7 +5,7 @@
       "day_th": "23 พฤศจิกายน 2569",
       "dateKey": "2026-11-23",
       "savedAt": "2026-11-23T00:00:00.000Z",
-      "modifiedAt": "2026-11-22T10:27:43.635Z",
+      "modifiedAt": "2026-11-22T10:36:47.625Z",
       "teams": [
         {
           "id": 1,
@@ -36,14 +36,15 @@
         {
           "id": 3,
           "jobType": "FLANGE",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "Job No, JB260350",
+          "site": "UCS ศรีราชา (Thaioil CFP site)",
+          "jobNo": "Job No, JB260349 ",
           "depart": "06:00",
-          "arrive": "07:00",
-          "members": "เป้, ต้าร์, บีม",
-          "vehicle": "ผบ 6278 (แครี่บอย)",
-          "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง ตาม กษิดิ์เดช 099-0129797"
+          "arrive": "07:30",
+          "members": "ทาม, ปลาย, ต้าร์",
+          "vehicle": "ผบ 6279 (แครี่บอย)",
+          "equipment": "TOFF-12 New",
+          "contact": "ช่าง โตโต้  092-3974539 ",
+          "detail": "Machine flange facing RF flange 1-1/2\" - 8\""
         },
         {
           "id": 4,
@@ -55,31 +56,34 @@
           "members": "ทัช, โอม",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "-",
-          "contact": " ช่าง โด่ง  094-7467526"
+          "contact": " ช่าง โด่ง  094-7467526",
+          "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve"
         },
         {
           "id": 5,
           "jobType": "FLANGE",
-          "site": "Shino thai  แหลมฉบัง (32 ไล่) Site)",
-          "jobNo": "Job No, JB260351 Lot.6",
-          "depart": "06:30",
+          "site": "ABB to Asahi Aluminium ชลบุรี",
+          "jobNo": "Job No, JB260345",
+          "depart": "06:00",
           "arrive": "08:00",
-          "members": "ทาม, อั๋น, ปลาย",
-          "vehicle": "ผบ 6279 (แครี่บอย)",
-          "equipment": "Hydraulic torque Ele",
-          "contact": "ติดต่อช่าง โด่ง  094-7467526"
+          "members": "ป๋อ, เอิร์ก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Robot tool",
+          "contact": "K'Panya  065-7300978",
+          "detail": " Bearing Balancer IRB6700 3 จุด\nผรม, 1 คน"
         },
         {
           "id": 6,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "Prolog Titanium / TPAC",
+          "jobNo": "Job No, JB260347",
+          "depart": "07:00",
+          "arrive": "07:30",
+          "members": "เป้, โอ๊ด, อองรี",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "Hydraulic torque Ele.",
+          "contact": "คุณ ยุทธนา   063-316-4065",
+          "detail": "Torque Bolt Upper & Lower Dome Flange 3V - 681 C Stud 3/4\" x 48 Set  A/F 32 mm.\nเครื่องมือ อยู่หน้างาน วัดความดันก่อนเข้างาน 07:30 น."
         },
         {
           "id": 7,
@@ -11905,5 +11909,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-22T10:27:44.865Z"
+  "lastUpdated": "2026-11-22T10:36:47.632Z"
 }
