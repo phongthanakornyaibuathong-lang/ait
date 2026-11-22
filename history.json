@@ -5,7 +5,7 @@
       "day_th": "23 พฤศจิกายน 2569",
       "dateKey": "2026-11-23",
       "savedAt": "2026-11-23T00:00:00.000Z",
-      "modifiedAt": "2026-11-22T10:36:47.625Z",
+      "modifiedAt": "2026-11-22T10:42:45.223Z",
       "teams": [
         {
           "id": 1,
@@ -87,15 +87,16 @@
         },
         {
           "id": 7,
-          "jobType": "STANDBY",
-          "site": "",
-          "jobNo": "",
-          "depart": "",
-          "arrive": "",
-          "members": "",
-          "vehicle": "— เลือกรถ —",
-          "equipment": "",
-          "contact": ""
+          "jobType": "BOLT",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "เอาหัว Tension ไปลอง",
+          "depart": "09:00",
+          "arrive": "10:00",
+          "members": "นัฐ, อั๋น, คิว",
+          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
+          "equipment": "Tensioner 1-1/2\" A/F 60 mm.",
+          "contact": "ช่าง มีน 095-8895865",
+          "detail": "เอาหัว Tension ไปลอง \nHeat Ex Flange Stud 1-1/2\" 60 mm. 64 Ea = 1flange."
         },
         {
           "id": 8,
@@ -11909,5 +11910,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-22T10:36:47.632Z"
+  "lastUpdated": "2026-11-22T10:42:45.230Z"
 }
