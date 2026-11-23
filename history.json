@@ -5,7 +5,7 @@
       "day_th": "24 พฤศจิกายน 2569",
       "dateKey": "2026-11-24",
       "savedAt": "2026-11-24T00:00:00.000Z",
-      "modifiedAt": "2026-11-23T11:01:45.104Z",
+      "modifiedAt": "2026-11-23T11:06:44.017Z",
       "teams": [
         {
           "id": 1,
@@ -75,38 +75,40 @@
         {
           "id": 6,
           "jobType": "BOLT",
-          "site": "Prolog Titanium / TPAC",
-          "jobNo": "Job No, JB260347",
-          "depart": "07:00",
+          "site": "SCC ศรีราชา (Thaioil CFP Site)",
+          "jobNo": "Job No, JB260352",
+          "depart": "06:00",
           "arrive": "07:30",
-          "members": "เป้, โอ๊ด, อองรี",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "Hydraulic torque Ele.",
-          "contact": "คุณ ยุทธนา   063-316-4065"
+          "members": "นัฐ, แชมป์, ป๋อ, อองรี, คิว, เอิร์ก",
+          "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
+          "equipment": "Hydraulic bolt Tension ITH 33.10397 1-1/2\"",
+          "contact": "ช่าง มีน 095-8895865",
+          "detail": "Tension bolt Heat Exchanger Flange Stud 1-1/2\" 60 mm. 64 Ea = 1flange."
         },
         {
           "id": 7,
-          "jobType": "BOLT",
-          "site": "SCC ศรีราชา (Thaioil CFP Site)",
-          "jobNo": "เอาหัว Tension ไปลอง",
-          "depart": "09:00",
-          "arrive": "10:00",
-          "members": "นัฐ, อั๋น, คิว",
-          "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-          "equipment": "Tensioner 1-1/2\" A/F 60 mm.",
-          "contact": "ช่าง มีน 095-8895865"
+          "jobType": "TRAINING",
+          "site": "AITs work shop ระยอง",
+          "jobNo": "Leak sealing online",
+          "depart": "08:30",
+          "arrive": "17:30",
+          "members": "กรานต์, เป้, ดำ",
+          "vehicle": "",
+          "equipment": "",
+          "contact": "-",
+          "detail": "Training Stop leak"
         },
         {
           "id": 8,
-          "jobType": "TRAINING",
-          "site": "Shino thai แหลมฉบัง Warehouse 1 (STECON Clamp)",
-          "jobNo": "อบรมทำบัตร",
-          "depart": "06:30",
-          "arrive": "08:00",
-          "members": "นาย",
-          "vehicle": "รถส่วนตัว",
-          "equipment": "Safety Harness",
-          "contact": "ห้องอบรม"
+          "jobType": "STANDBY",
+          "site": "",
+          "jobNo": "",
+          "depart": "",
+          "arrive": "",
+          "members": "",
+          "vehicle": "",
+          "equipment": "",
+          "contact": ""
         },
         {
           "id": 9,
@@ -136,9 +138,9 @@
     },
     {
       "date": "23/11/2569",
-      "savedAt": "2026-11-23T11:01:45.939Z",
+      "savedAt": "2026-11-23T11:06:44.023Z",
       "dateKey": "2026-11-23",
-      "modifiedAt": "2026-11-23T11:01:45.939Z",
+      "modifiedAt": "2026-11-23T11:06:44.023Z",
       "teams": [
         {
           "id": 1,
@@ -11913,5 +11915,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-23T11:01:45.939Z"
+  "lastUpdated": "2026-11-23T11:06:44.023Z"
 }
