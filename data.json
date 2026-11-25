@@ -11,33 +11,33 @@
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 24",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "และดูแลงาน งานตัดสลับValve"
+      "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321"
     },
     {
       "id": 2,
       "jobType": "FLANGE",
       "site": "SCC-ERU-J.303 (Thai oil (CFP) Site)",
-      "jobNo": "Job No, JB260348",
-      "depart": "06:30",
-      "arrive": "08:00",
-      "members": "คิง, ฟีล์ม, บีม",
+      "jobNo": "Job No, JB260353 Team 1.",
+      "depart": "06:00",
+      "arrive": "07:00",
+      "members": "คิง, บีม, อองรี",
       "vehicle": "ผบ 6278 (แครี่บอย)",
-      "equipment": "TOFF-12",
-      "contact": " ช่าง  แมน 092-4872719",
-      "detail": "Machine flange face RF 3/4\"=2fl.,1\"=1 fl. FF 3\"x150# = 3fl."
+      "equipment": "TTFF 24",
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine flange facing RF flange 12\" = 9 fl."
     },
     {
       "id": 3,
       "jobType": "FLANGE",
-      "site": "UCS ศรีราชา (Thaioil CFP site)",
-      "jobNo": "Job No, JB260349 Team 1",
+      "site": "SCC ศรีราชา (Thaioil CFP Site)",
+      "jobNo": "Job No, JB260353 Team 2.",
       "depart": "06:00",
-      "arrive": "07:30",
-      "members": "ทาม, ปลาย, ต้าร์",
+      "arrive": "07:00",
+      "members": "ฟีล์ม, ปลาย, ต้าร์",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TOFF-12 New",
-      "contact": "ช่าง โตโต้  092-3974539 ",
-      "detail": "Machine flange facing RF flange 1-1/2\" - 8\""
+      "contact": "ช่าง กับตัน 080-0471014",
+      "detail": "Machine flange facing RF flange 1\"= 6 fl."
     },
     {
       "id": 4,
@@ -50,33 +50,33 @@
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "-",
       "contact": " ช่าง โด่ง  094-7467526",
-      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve\nบิ๊ก ขับรถรับส่ง"
+      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve"
     },
     {
       "id": 5,
       "jobType": "FLANGE",
       "site": "UCS ศรีราชา (Thaioil CFP site)",
-      "jobNo": "Job No, JB260349 Team 2",
+      "jobNo": "Job No, JB260349 ",
       "depart": "06:00",
       "arrive": "07:30",
       "members": "บอย, อั๋น, โอ๊ด",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TTFF-40",
       "contact": "ช่าง โตโต้  092-3974539 ",
-      "detail": "Machine flange face RF  24\""
+      "detail": "Machine flange facing RF flange 24\""
     },
     {
       "id": 6,
       "jobType": "BOLT",
-      "site": "SCC ศรีราชา (Thaioil CFP Site)",
-      "jobNo": "Job No, JB260352",
-      "depart": "06:00",
-      "arrive": "07:30",
-      "members": "นัฐ, แชมป์, ป๋อ, อองรี, คิว, เอิร์ก",
+      "site": "SCG / MOC TA",
+      "jobNo": "Job No, JB2603xx",
+      "depart": "07:00",
+      "arrive": "08:00",
+      "members": "ทาม, โอม, คิว",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
-      "equipment": "Hydraulic bolt Tension ITH 33.10397 1-1/2\"",
-      "contact": "ช่าง มีน 095-8895865",
-      "detail": "Tension bolt Heat Exchanger Flange Stud 1-1/2\" 60 mm. 64 Ea = 1flange."
+      "equipment": "TOFF-12",
+      "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380",
+      "detail": "Machine flange facing RF flange 1/2\"-6 \" \nรอลูกค้ายืนยันเข้างาน"
     },
     {
       "id": 7,
@@ -88,18 +88,17 @@
       "members": "กรานต์, เป้, ดำ",
       "vehicle": "",
       "equipment": "",
-      "contact": "-",
-      "detail": "Training Stop leak"
+      "contact": "-"
     },
     {
       "id": 8,
       "jobType": "OTHER",
-      "site": "Thai Oil ",
-      "jobNo": "ประชุมงาน",
-      "depart": "08:00",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
       "arrive": "",
-      "members": "นาย",
-      "vehicle": "รถส่วนตัว",
+      "members": "",
+      "vehicle": "",
       "equipment": "",
       "contact": ""
     },
@@ -128,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-24T10:47:06.293Z",
+  "lastUpdated": "2026-11-25T10:49:16.871Z",
   "updatedBy": "Nine",
-  "date": "24/11/2569"
+  "date": "25/11/2569"
 }
