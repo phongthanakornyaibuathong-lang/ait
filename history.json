@@ -5,7 +5,7 @@
       "day_th": "26 พฤศจิกายน 2569",
       "dateKey": "2026-11-26",
       "savedAt": "2026-11-26T00:00:00.000Z",
-      "modifiedAt": "2026-11-25T10:52:08.478Z",
+      "modifiedAt": "2026-11-25T11:19:47.512Z",
       "teams": [
         {
           "id": 1,
@@ -31,7 +31,7 @@
           "vehicle": "ผบ 6278 (แครี่บอย)",
           "equipment": "TTFF 24",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine flange facing RF flange 12\" = 9 fl."
+          "detail": "Machine flange facing RF flange 12\" = 9 fl"
         },
         {
           "id": 3,
@@ -44,7 +44,7 @@
           "vehicle": "ผบ 6279 (แครี่บอย)",
           "equipment": "TOFF-12 New",
           "contact": "ช่าง กับตัน 080-0471014",
-          "detail": "Machine flange facing RF flange 1\" =  6fl."
+          "detail": "Machine flange facing RF flange 12 = 6 fl"
         },
         {
           "id": 4,
@@ -69,8 +69,8 @@
           "members": "บอย, อั๋น, โอ๊ด",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TTFF-24 (New)",
-          "contact": "ช่าง โตโต้  092-3974539 ",
-          "detail": "Machine flange facing RF flange 8\"x15#"
+          "contact": "K.ฉัตรชัย (ท๊อป) 093-3349527",
+          "detail": "Machine flange facing RF flange 8\" x 150#"
         },
         {
           "id": 6,
@@ -82,8 +82,7 @@
           "members": "ทาม, โอม, คิว",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380",
-          "detail": "รอลูกค้ายืนยันเข้างาน"
+          "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380"
         },
         {
           "id": 7,
@@ -95,7 +94,8 @@
           "members": "กรานต์, เป้, ดำ",
           "vehicle": "",
           "equipment": "",
-          "contact": "-"
+          "contact": "-",
+          "detail": "Training Stop leak"
         },
         {
           "id": 8,
@@ -137,9 +137,9 @@
     },
     {
       "date": "25/11/2569",
-      "savedAt": "2026-11-25T10:52:08.500Z",
+      "savedAt": "2026-11-25T11:19:47.531Z",
       "dateKey": "2026-11-25",
-      "modifiedAt": "2026-11-25T10:52:08.500Z",
+      "modifiedAt": "2026-11-25T11:19:47.531Z",
       "teams": [
         {
           "id": 1,
@@ -11920,5 +11920,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-25T10:52:08.500Z"
+  "lastUpdated": "2026-11-25T11:19:47.531Z"
 }
