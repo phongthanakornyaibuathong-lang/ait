@@ -7,11 +7,11 @@
       "jobNo": "Job No. JB260322",
       "depart": "06:00",
       "arrive": "07:00",
-      "members": "ปาย, ป๊อก",
+      "members": "ปาย",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 24",
       "contact": "ติดต่อช่าง โด่ง  094-7467526",
-      "detail": "Pipe Cold Cutting & Bevel 24\" THK 50 mm. Mat's SS 321"
+      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TTFF 24",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine flange facing RF flange 12\" = 9 fl."
+      "detail": "Machine flange facing RF flange 12\" = 9 fl"
     },
     {
       "id": 3,
@@ -33,11 +33,11 @@
       "jobNo": "Job No, JB260353 Team 2.",
       "depart": "06:00",
       "arrive": "07:00",
-      "members": "ฟีล์ม, ปลาย, ต้าร์",
+      "members": "ฟีล์ม, ปลาย, ป๊อก",
       "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TOFF-12 New",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine flange facing RF flange 1\"= 6 fl."
+      "detail": "Machine flange facing RF flange 12 = 6 fl"
     },
     {
       "id": 4,
@@ -61,9 +61,9 @@
       "arrive": "07:30",
       "members": "บอย, อั๋น, โอ๊ด",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
-      "equipment": "TTFF-40",
-      "contact": "ช่าง โตโต้  092-3974539 ",
-      "detail": "Machine flange facing RF flange 24\""
+      "equipment": "TTFF-24 (New)",
+      "contact": "K.ฉัตรชัย (ท๊อป) 093-3349527",
+      "detail": "Machine flange facing RF flange 8\" x 150#"
     },
     {
       "id": 6,
@@ -75,8 +75,7 @@
       "members": "ทาม, โอม, คิว",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TOFF-12",
-      "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380",
-      "detail": "Machine flange facing RF flange 1/2\"-6 \" \nรอลูกค้ายืนยันเข้างาน"
+      "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380"
     },
     {
       "id": 7,
@@ -88,7 +87,8 @@
       "members": "กรานต์, เป้, ดำ",
       "vehicle": "",
       "equipment": "",
-      "contact": "-"
+      "contact": "-",
+      "detail": "Training Stop leak"
     },
     {
       "id": 8,
@@ -127,7 +127,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-25T11:19:55.202Z",
+  "lastUpdated": "2026-11-26T09:40:03.056Z",
   "updatedBy": "Nine",
-  "date": "25/11/2569"
+  "date": "26/11/2569"
 }
