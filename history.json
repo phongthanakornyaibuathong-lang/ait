@@ -1,11 +1,10 @@
 {
   "history": [
     {
-      "date": "27 พฤศจิกายน 2569",
-      "day_th": "27 พฤศจิกายน 2569",
+      "date": "27/11/2569",
+      "savedAt": "2026-11-27T01:45:02.534Z",
       "dateKey": "2026-11-27",
-      "savedAt": "2026-11-27T00:00:00.000Z",
-      "modifiedAt": "2026-11-26T10:59:01.826Z",
+      "modifiedAt": "2026-11-27T01:45:02.534Z",
       "teams": [
         {
           "id": 1,
@@ -66,11 +65,12 @@
           "jobNo": "Job No, JB260355",
           "depart": "06:00",
           "arrive": "07:30",
-          "members": "บอย, โอ๊ด, เอิร์ก",
+          "members": "บอย, โอ๊ด",
           "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
           "equipment": "TTFF-24 (New)",
           "contact": "ช่าง ตาม กษิดิ์เดช 099-0129797",
-          "detail": "Machine flange facing RF flange 6\"-16\""
+          "detail": "Machine flange facing RF flange 6\"-16\"",
+          "locname": ""
         },
         {
           "id": 6,
@@ -79,10 +79,12 @@
           "jobNo": "Job No, JB260355",
           "depart": "07:00",
           "arrive": "08:00",
-          "members": "ทาม, โอม, คิว",
+          "members": "ทาม, คิว",
           "vehicle": "ผบ 7869 (แค็บบรรทุก)",
           "equipment": "TOFF-12",
-          "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380"
+          "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380",
+          "locname": "",
+          "detail": ""
         },
         {
           "id": 7,
@@ -11925,5 +11927,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-26T10:59:01.841Z"
+  "lastUpdated": "2026-11-27T01:45:02.534Z"
 }
