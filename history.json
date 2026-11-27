@@ -5,15 +5,15 @@
       "day_th": "28 พฤศจิกายน 2569",
       "dateKey": "2026-11-28",
       "savedAt": "2026-11-28T00:00:00.000Z",
-      "modifiedAt": "2026-11-27T10:16:03.615Z",
+      "modifiedAt": "2026-11-27T10:24:17.222Z",
       "teams": [
         {
           "id": 1,
           "jobType": "COLD_CUT",
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Job No. JB260322",
-          "depart": "06:00",
-          "arrive": "07:00",
+          "depart": "06:30",
+          "arrive": "08:00",
           "members": "ปาย, ป๊อก",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "TSF 24",
@@ -52,7 +52,7 @@
           "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
           "jobNo": "Job No. JB260322",
           "depart": "06:30",
-          "arrive": "08:30",
+          "arrive": "08:00",
           "members": "ทัช, บิ๊ก",
           "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
           "equipment": "-",
@@ -138,9 +138,9 @@
     },
     {
       "date": "27/11/2569",
-      "savedAt": "2026-11-27T10:16:59.592Z",
+      "savedAt": "2026-11-27T10:24:17.229Z",
       "dateKey": "2026-11-27",
-      "modifiedAt": "2026-11-27T10:16:59.592Z",
+      "modifiedAt": "2026-11-27T10:24:17.229Z",
       "teams": [
         {
           "id": 1,
@@ -11934,5 +11934,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-27T10:16:59.592Z"
+  "lastUpdated": "2026-11-27T10:24:17.229Z"
 }
