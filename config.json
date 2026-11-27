@@ -34,6 +34,16 @@
       "id": "OTHER",
       "label": "OTHER",
       "color": "#54ae24"
+    },
+    {
+      "id": "SICK",
+      "label": "ลาป่วย",
+      "color": "#FF453A"
+    },
+    {
+      "id": "PERSONAL",
+      "label": "ลากิจ",
+      "color": "#FF9F0A"
     }
   ],
   "personnel": [
@@ -664,16 +674,6 @@
           "exp": null
         }
       }
-    },
-    {
-      "id": "ต้าร์",
-      "name": "นาย พลพล ราชวิตร",
-      "nick": "ต้าร์",
-      "phone": "094-706-1407",
-      "pos": "ช่างเทคนิค",
-      "color": "#32D2D8",
-      "skills": [],
-      "safetyCards": {}
     },
     {
       "id": "ปลาย",
