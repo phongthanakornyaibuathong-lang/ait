@@ -5,8 +5,8 @@
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No. JB260322",
-      "depart": "06:00",
-      "arrive": "07:00",
+      "depart": "06:30",
+      "arrive": "08:00",
       "members": "ปาย, ป๊อก",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "TSF 24",
@@ -24,7 +24,7 @@
       "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TTFF 24",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine flange facing RF flange 12\" = 9 fl. "
+      "detail": "Machine flange facing RF flange 12\" = 9 fl"
     },
     {
       "id": 3,
@@ -33,24 +33,24 @@
       "jobNo": "Job No, JB260353 Team 2.",
       "depart": "06:00",
       "arrive": "07:00",
-      "members": "ฟีล์ม, ปลาย, ต้าร์",
-      "vehicle": "ผบ 6279 (แครี่บอย)",
+      "members": "ฟีล์ม, ปลาย, แชมป์",
+      "vehicle": "ผบ 6278 (แครี่บอย)",
       "equipment": "TOFF-12 New",
       "contact": "ช่าง กับตัน 080-0471014",
-      "detail": "Machine flange facing RF flange 1\"= 6 fl."
+      "detail": "Machine flange facing RF flange 1\" = 6 fl."
     },
     {
       "id": 4,
       "jobType": "COLD_CUT",
       "site": "Shino thai  ศรีราชา (Thaioil (CFP) Site)",
       "jobNo": "Job No. JB260322",
-      "depart": "06:00",
-      "arrive": "07:00",
+      "depart": "06:30",
+      "arrive": "08:00",
       "members": "ทัช, บิ๊ก",
       "vehicle": "2ฒษ 2857 (มีแครี่บอย)",
       "equipment": "-",
       "contact": " ช่าง โด่ง  094-7467526",
-      "detail": "บิ๊กตรวจสภาพรถเช้า 08:00 น. STECON Area 17"
+      "detail": "ประสานงานประชุม และดูแลงาน งานตัดสลับValve"
     },
     {
       "id": 5,
@@ -59,12 +59,11 @@
       "jobNo": "Job No, JB260355",
       "depart": "06:00",
       "arrive": "07:30",
-      "members": "บอย, โอ๊ด",
+      "members": "บอย, โอ๊ด, ป๋อ",
       "vehicle": "ผข 6821 (กระบะแค๊บ รถเช่า)",
       "equipment": "TTFF-24 (New)",
       "contact": "ช่าง ตาม กษิดิ์เดช 099-0129797",
-      "detail": "Machine flange facing RF flange 6\"-16\"",
-      "locname": ""
+      "detail": "Machine flange facing RF flange 6\"-16\""
     },
     {
       "id": 6,
@@ -73,12 +72,11 @@
       "jobNo": "Job No, JB260355",
       "depart": "07:00",
       "arrive": "08:00",
-      "members": "ทาม, คิว",
-      "vehicle": "ผบ 7869 (แค็บบรรทุก)",
+      "members": "ทาม, คิว, นัฐ",
+      "vehicle": "ผบ 6279 (แครี่บอย)",
       "equipment": "TOFF-12",
       "contact": "ช่าง ชนาวุฒิ (คิว) SCG MOC 06-1383-8380",
-      "locname": "",
-      "detail": ""
+      "detail": "Machine flange facing RF flange 1/2\"-6 \""
     },
     {
       "id": 7,
@@ -87,7 +85,7 @@
       "jobNo": "Job No. JB260357 ",
       "depart": "06:30",
       "arrive": "08:00",
-      "members": "เป้, อั๋น, ดำ",
+      "members": "เป้, อั๋น, เอิร์ก",
       "vehicle": "ผบ 7869 (แค็บบรรทุก)",
       "equipment": "TSF 12",
       "contact": "ช่าง โด่ง  094-7467526",
@@ -95,16 +93,15 @@
     },
     {
       "id": 8,
-      "jobType": "BOLT",
-      "site": "SCG / MOC TA",
-      "jobNo": "Job No, JB260358",
-      "depart": "07:00",
-      "arrive": "08:00",
-      "members": "นัฐ, แชมป์, ป๋อ",
-      "vehicle": "ผท 6057 (กระบะแค๊บ รถเช่า)",
-      "equipment": "Hydraulic torque",
-      "contact": "ช่าง นันทวัฒ SCG MOC 093-0832338",
-      "detail": "Torque Cover TTV CT-660 M75 จะใช้เครื่อง torque\nแล้วขัน flat เจอที่ M5A"
+      "jobType": "STANDBY",
+      "site": "",
+      "jobNo": "",
+      "depart": "",
+      "arrive": "",
+      "members": "",
+      "vehicle": "",
+      "equipment": "",
+      "contact": "ช่าง นันทวัฒ SCG MOC 093-0832338"
     },
     {
       "id": 9,
@@ -131,7 +128,7 @@
       "contact": ""
     }
   ],
-  "lastUpdated": "2026-11-27T10:30:00.222Z",
+  "lastUpdated": "2026-11-28T07:40:14.884Z",
   "updatedBy": "Nine",
-  "date": "27/11/2569"
+  "date": "28/11/2569"
 }
